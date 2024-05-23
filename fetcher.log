@@ -219,3 +219,29 @@
 [2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: Remove: archive file [/home/abi/fetcher/tmp/autisto-1.1rc4.tar.gz]
 [2024-05-24 00:13:30] INFO root fetch - main [MainThread]: End processing [autisto]: success
 [2024-05-24 00:13:30] INFO root fetch - main [MainThread]: Store serial: [23352478]
+[2024-05-24 00:15:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352478]
+[2024-05-24 00:15:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 00:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pragma-sdk
+[2024-05-24 00:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-sqlglot
+[2024-05-24 00:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zermelo-api-vogk
+[2024-05-24 00:15:41] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-24 00:15:41] INFO root fetch - processPackages [pragma-sdk]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-24 00:15:41] INFO root fetch - processPackages [acryl-sqlglot]: New version: [24.0.1.dev7] Old Version: [23.2.1.dev5]
+[2024-05-24 00:15:41] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/31/b8/8021225be7aa077a8bc22d0b1e9a086207bdfcc94a427d94e09a002a5ffb/zermelo_api_vogk-1.0.6.tar.gz
+[2024-05-24 00:15:41] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/e2/aa/9172a419bf00c2f50985bd70262813eabd333f02e6e396627337c00a6aa0/pragma_sdk-1.3.7.tar.gz
+[2024-05-24 00:15:41] INFO root fetch - processPackages [acryl-sqlglot]: Downloading https://files.pythonhosted.org/packages/2a/ce/0a43396af594864c9dd2f260e2e0556f285e0d80ac62da456947773d6bb0/acryl-sqlglot-23.2.1.dev5.tar.gz
+[2024-05-24 00:15:41] WARNING root fetch - processPackages [acryl-sqlglot]: Skipping package: exceeds size limit 12888435>=10485760
+[2024-05-24 00:15:41] INFO root fetch - main [MainThread]: End processing [acryl-sqlglot] error
+[2024-05-24 00:15:41] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/78/2f/35ad6ae963c59b823b0d3a704671366313352dfc7822518e41a9c099700a/zermelo_api_vogk-1.0.7.tar.gz
+[2024-05-24 00:15:41] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/5a/69/dc9c4cd794b95aaa65a3541b32a2a67ba324bc4becd40c4cc8fa7aa76e2e/pragma_sdk-1.3.8.tar.gz
+[2024-05-24 00:15:42] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-24 00:15:42] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-1.0.6.tar.gz tmp/zermelo_api_vogk-1.0.7.tar.gz --markdown 20240524/z/zermelo-api-vogk/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-24 00:15:42] INFO root fetch - processPackages [pragma-sdk]: executing diffoscope
+[2024-05-24 00:15:42] INFO root fetch - processPackages [pragma-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragma_sdk-1.3.7.tar.gz tmp/pragma_sdk-1.3.8.tar.gz --markdown 20240524/p/pragma-sdk/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-24 00:15:42] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.6.tar.gz]
+[2024-05-24 00:15:42] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.7.tar.gz]
+[2024-05-24 00:15:42] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-24 00:15:42] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.7.tar.gz]
+[2024-05-24 00:15:42] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.8.tar.gz]
+[2024-05-24 00:15:42] INFO root fetch - main [MainThread]: End processing [pragma-sdk]: success
+[2024-05-24 00:15:42] INFO root fetch - main [MainThread]: Store serial: [23352485]
