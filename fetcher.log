@@ -475,3 +475,54 @@
 [2024-05-24 00:29:24] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.9.tar.gz]
 [2024-05-24 00:29:24] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
 [2024-05-24 00:29:24] INFO root fetch - main [MainThread]: Store serial: [23352619]
+[2024-05-24 00:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352619]
+[2024-05-24 00:31:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-Mail
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-preprocessing-library-sevvalcucuk-asudesozcu
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runloop
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g3t-etl
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cohere
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ollama-chat
+[2024-05-24 00:31:32] INFO root fetch - processPackages [g3t-etl]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-05-24 00:31:32] INFO root fetch - processPackages [Flask-Mail]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 00:31:32] INFO root fetch - processPackages [ollama-chat]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 00:31:32] INFO root fetch - processPackages [runloop]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 00:31:32] INFO root fetch - processPackages [cohere]: New version: [5.5.2] Old Version: [5.5.1]
+[2024-05-24 00:31:33] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/32/76/ce754bc779c5eb463388d6d3d859d8030ffe935deff79ad257ffa8e9936d/g3t-etl-0.0.1rc8.tar.gz
+[2024-05-24 00:31:33] WARNING root fetch - processPackages [data-preprocessing-library-sevvalcucuk-asudesozcu]: Skipping, unable to determine old version
+[2024-05-24 00:31:33] INFO root fetch - main [MainThread]: End processing [data-preprocessing-library-sevvalcucuk-asudesozcu] error
+[2024-05-24 00:31:33] INFO root fetch - processPackages [runloop]: Downloading https://files.pythonhosted.org/packages/66/67/11774ebc55a9ed0cf3955a73c752e36af30677ae3c65761198218a028f28/runloop-0.0.8.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [Flask-Mail]: Downloading https://files.pythonhosted.org/packages/d5/10/17a81cf7ca7bcf25d3c1110492e8a9fc8738595616479a1a5a39052b66e0/Flask-Mail-0.9.0.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [ollama-chat]: Downloading https://files.pythonhosted.org/packages/02/a4/e359ba7fd44886753c33cca9cde3121d564b84018de2a4e6dcb3a9feb6ee/ollama_chat-0.9.0.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/09/b9/cea9fb6b47a2bd1a8724cdf3c15339d987f367530e9aa6dece4ff95b1c1f/cohere-5.5.1.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/df/bc/27dfb5d518ea6fd10642d599897af4dba0279179a2fe8f02957b8deab299/g3t-etl-0.0.1rc9.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [runloop]: Downloading https://files.pythonhosted.org/packages/c2/3a/134cd1d84bbbe823818c3a72e06e8414c84294f10b71bcc51ef89d129d46/runloop-0.0.9.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [runloop]: executing diffoscope
+[2024-05-24 00:31:33] INFO root fetch - processPackages [runloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runloop-0.0.8.tar.gz tmp/runloop-0.0.9.tar.gz --markdown 20240524/r/runloop/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 00:31:33] INFO root fetch - processPackages [g3t-etl]: executing diffoscope
+[2024-05-24 00:31:33] INFO root fetch - processPackages [g3t-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3t-etl-0.0.1rc8.tar.gz tmp/g3t-etl-0.0.1rc9.tar.gz --markdown 20240524/g/g3t-etl/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-05-24 00:31:33] INFO root fetch - processPackages [Flask-Mail]: Downloading https://files.pythonhosted.org/packages/05/2f/6a545452040c2556559779db87148d2a85e78a26f90326647b51dc5e81e9/Flask-Mail-0.9.1.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [ollama-chat]: Downloading https://files.pythonhosted.org/packages/6c/5d/b064e10d956fbf63feac9a2c2b32fe39371d2028119ab795957c9ceff452/ollama_chat-0.9.1.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/4f/84/9f3953acd602df78111f48c8d8a1878ff8325085a1e58b2c453bbcef8edf/cohere-5.5.2.tar.gz
+[2024-05-24 00:31:33] INFO root fetch - processPackages [Flask-Mail]: executing diffoscope
+[2024-05-24 00:31:33] INFO root fetch - processPackages [Flask-Mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Mail-0.9.0.tar.gz tmp/Flask-Mail-0.9.1.tar.gz --markdown 20240524/F/Flask-Mail/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 00:31:33] INFO root fetch - processPackages [ollama-chat]: executing diffoscope
+[2024-05-24 00:31:33] INFO root fetch - processPackages [ollama-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama_chat-0.9.0.tar.gz tmp/ollama_chat-0.9.1.tar.gz --markdown 20240524/o/ollama-chat/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 00:31:33] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2024-05-24 00:31:33] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-5.5.1.tar.gz tmp/cohere-5.5.2.tar.gz --markdown 20240524/c/cohere/5.5.1-5.5.2/README.md --exclude *.pyd
+[2024-05-24 00:31:34] INFO root fetch - processPackages [runloop]: Remove: archive file [/home/abi/fetcher/tmp/runloop-0.0.8.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - processPackages [runloop]: Remove: archive file [/home/abi/fetcher/tmp/runloop-0.0.9.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: End processing [runloop]: success
+[2024-05-24 00:31:34] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc8.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc9.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: End processing [g3t-etl]: success
+[2024-05-24 00:31:34] INFO root fetch - processPackages [ollama-chat]: Remove: archive file [/home/abi/fetcher/tmp/ollama_chat-0.9.0.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - processPackages [ollama-chat]: Remove: archive file [/home/abi/fetcher/tmp/ollama_chat-0.9.1.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: End processing [ollama-chat]: success
+[2024-05-24 00:31:34] INFO root fetch - processPackages [Flask-Mail]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Mail-0.9.0.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - processPackages [Flask-Mail]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Mail-0.9.1.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: End processing [Flask-Mail]: success
+[2024-05-24 00:31:34] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.5.1.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.5.2.tar.gz]
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2024-05-24 00:31:34] INFO root fetch - main [MainThread]: Store serial: [23352637]
