@@ -1635,3 +1635,51 @@
 [2024-05-24 01:30:46] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716504348.tar.gz]
 [2024-05-24 01:30:46] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-05-24 01:30:46] INFO root fetch - main [MainThread]: Store serial: [23353120]
+[2024-05-24 01:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353120]
+[2024-05-24 01:32:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-archive
+[2024-05-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: climush
+[2024-05-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c6t
+[2024-05-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cffi
+[2024-05-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-glue-sessions
+[2024-05-24 01:32:55] INFO root fetch - processPackages [aws-glue-sessions]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-24 01:32:55] INFO root fetch - processPackages [c6t]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 01:32:55] INFO root fetch - processPackages [cffi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-24 01:32:55] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1716504266] Old Version: [0.1.0a1715922700]
+[2024-05-24 01:32:55] INFO root fetch - processPackages [climush]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 01:32:55] INFO root fetch - processPackages [c6t]: Downloading https://files.pythonhosted.org/packages/5a/e6/55833e414c90dc24f20720ec751b88ea09ffb6127ecd12d69c4386147eda/c6t-0.0.5.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/37/22/a0c3181e12aea04c3f294806fb8d802ee841f7a441d2fe4a52795c0b3c52/pulumi_archive-0.1.0a1715922700.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [aws-glue-sessions]: Downloading https://files.pythonhosted.org/packages/5d/16/7ad60e9b5e6c8ff3a2d69f6a412226dbf8b3c106425c1157b0dbdd0a7855/aws-glue-sessions-1.0.4.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [cffi]: Downloading https://files.pythonhosted.org/packages/be/ff/f8508db9c857c45ce0c909809db7e6c952f37776173d88bcb8404f44c574/cffi-1.9.0.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [climush]: Downloading https://files.pythonhosted.org/packages/eb/d3/9a3c90b8f4230d0a247ffd84c7b9c02f05bd394621fd2705a5f8beac25d6/climush-0.0.7.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [c6t]: Downloading https://files.pythonhosted.org/packages/6f/df/27f09d00e5e09bd329ac211bf976a86c45a5ee5787a3736ba0f15130468a/c6t-0.0.6.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/9d/56/8cccc1c1662b7f9d17c2a449f1294e70faee72bf5e477c5ef2ee1b6b1e1e/pulumi_archive-0.1.0a1716504266.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [c6t]: executing diffoscope
+[2024-05-24 01:32:55] INFO root fetch - processPackages [c6t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c6t-0.0.5.tar.gz tmp/c6t-0.0.6.tar.gz --markdown 20240524/c/c6t/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 01:32:55] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-24 01:32:55] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715922700.tar.gz tmp/pulumi_archive-0.1.0a1716504266.tar.gz --markdown 20240524/p/pulumi-archive/0.1.0a1715922700-0.1.0a1716504266/README.md --exclude *.pyd
+[2024-05-24 01:32:55] INFO root fetch - processPackages [aws-glue-sessions]: Downloading https://files.pythonhosted.org/packages/9f/c3/0d1b7eab78c4f6042768c56b2a9e88ce083be76124abccb9dfb3be254661/aws-glue-sessions-1.0.5.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [climush]: Downloading https://files.pythonhosted.org/packages/c3/21/0a156d30c67cc459ea45099bf290b839895516452500ccf23351b3a10e68/climush-0.0.8.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [cffi]: Downloading https://files.pythonhosted.org/packages/a1/32/e3d6c3a8b5461b903651dd6ce958ed03c093d2e00128e3f33ea69f1d7965/cffi-1.9.1.tar.gz
+[2024-05-24 01:32:55] INFO root fetch - processPackages [aws-glue-sessions]: executing diffoscope
+[2024-05-24 01:32:55] INFO root fetch - processPackages [aws-glue-sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-glue-sessions-1.0.4.tar.gz tmp/aws-glue-sessions-1.0.5.tar.gz --markdown 20240524/a/aws-glue-sessions/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-24 01:32:55] INFO root fetch - processPackages [climush]: executing diffoscope
+[2024-05-24 01:32:55] INFO root fetch - processPackages [climush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climush-0.0.7.tar.gz tmp/climush-0.0.8.tar.gz --markdown 20240524/c/climush/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 01:32:55] INFO root fetch - processPackages [cffi]: executing diffoscope
+[2024-05-24 01:32:55] INFO root fetch - processPackages [cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cffi-1.9.0.tar.gz tmp/cffi-1.9.1.tar.gz --markdown 20240524/c/cffi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-24 01:32:56] INFO root fetch - processPackages [c6t]: Remove: archive file [/home/abi/fetcher/tmp/c6t-0.0.5.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - processPackages [c6t]: Remove: archive file [/home/abi/fetcher/tmp/c6t-0.0.6.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - main [MainThread]: End processing [c6t]: success
+[2024-05-24 01:32:56] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715922700.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1716504266.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-24 01:32:56] INFO root fetch - processPackages [climush]: Remove: archive file [/home/abi/fetcher/tmp/climush-0.0.7.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - processPackages [climush]: Remove: archive file [/home/abi/fetcher/tmp/climush-0.0.8.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - main [MainThread]: End processing [climush]: success
+[2024-05-24 01:32:56] INFO root fetch - processPackages [aws-glue-sessions]: Remove: archive file [/home/abi/fetcher/tmp/aws-glue-sessions-1.0.4.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - processPackages [aws-glue-sessions]: Remove: archive file [/home/abi/fetcher/tmp/aws-glue-sessions-1.0.5.tar.gz]
+[2024-05-24 01:32:56] INFO root fetch - main [MainThread]: End processing [aws-glue-sessions]: success
+[2024-05-24 01:32:57] INFO root fetch - processPackages [cffi]: Remove: archive file [/home/abi/fetcher/tmp/cffi-1.9.0.tar.gz]
+[2024-05-24 01:32:57] INFO root fetch - processPackages [cffi]: Remove: archive file [/home/abi/fetcher/tmp/cffi-1.9.1.tar.gz]
+[2024-05-24 01:32:57] INFO root fetch - main [MainThread]: End processing [cffi]: success
+[2024-05-24 01:32:57] INFO root fetch - main [MainThread]: Store serial: [23353140]
