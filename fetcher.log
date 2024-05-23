@@ -407,3 +407,29 @@
 [2024-05-24 00:24:30] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
 [2024-05-24 00:24:30] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2024-05-24 00:24:30] INFO root fetch - main [MainThread]: Store serial: [23352581]
+[2024-05-24 00:26:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352581]
+[2024-05-24 00:26:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 00:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: InvokeAI
+[2024-05-24 00:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-05-24 00:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digital-rf
+[2024-05-24 00:26:40] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.3] Old Version: [4.2.2.post1]
+[2024-05-24 00:26:40] INFO root fetch - processPackages [digital-rf]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-24 00:26:40] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240523] Old Version: [2.17.0.dev20240522]
+[2024-05-24 00:26:40] INFO root fetch - processPackages [digital-rf]: Downloading https://files.pythonhosted.org/packages/7e/84/195ad8dafeb1206546cc4e5f56d3fb33c711ac0a072668a566af9e2e09f8/digital_rf-2.6.8.tar.gz
+[2024-05-24 00:26:40] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/24/2e/a8c11b74ae12e7c701c31ab1bc7f9afda971332357abdb0a86571f0316ab/tf_nightly_intel-2.17.0.dev20240522-cp39-cp39-win_amd64.whl
+[2024-05-24 00:26:40] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218753469>=10485760
+[2024-05-24 00:26:40] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-24 00:26:41] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/be/6f/8bfb9ea0ea06ad722b66612f2faa892c8e9cac960ac8efc0dd7b83ca186c/InvokeAI-4.2.2.post1.tar.gz
+[2024-05-24 00:26:41] INFO root fetch - processPackages [digital-rf]: Downloading https://files.pythonhosted.org/packages/7b/91/4f1520fd0d8e5a60a19e51c6845a148e7dda5bb0f2a3eb97ddf6688f2617/digital_rf-2.6.9.tar.gz
+[2024-05-24 00:26:41] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/14/93/db33e24eb549b9ee3b293f4015563e248e35ea6574dc6c3ddd009d30f80c/InvokeAI-4.2.3.tar.gz
+[2024-05-24 00:26:41] INFO root fetch - processPackages [digital-rf]: executing diffoscope
+[2024-05-24 00:26:41] INFO root fetch - processPackages [digital-rf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital_rf-2.6.8.tar.gz tmp/digital_rf-2.6.9.tar.gz --markdown 20240524/d/digital-rf/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-24 00:26:41] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-24 00:26:41] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.2.post1.tar.gz tmp/InvokeAI-4.2.3.tar.gz --markdown 20240524/I/InvokeAI/4.2.2.post1-4.2.3/README.md --exclude *.pyd
+[2024-05-24 00:26:43] INFO root fetch - processPackages [digital-rf]: Remove: archive file [/home/abi/fetcher/tmp/digital_rf-2.6.8.tar.gz]
+[2024-05-24 00:26:43] INFO root fetch - processPackages [digital-rf]: Remove: archive file [/home/abi/fetcher/tmp/digital_rf-2.6.9.tar.gz]
+[2024-05-24 00:26:43] INFO root fetch - main [MainThread]: End processing [digital-rf]: success
+[2024-05-24 00:27:10] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.2.post1.tar.gz]
+[2024-05-24 00:27:10] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.3.tar.gz]
+[2024-05-24 00:27:10] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-24 00:27:10] INFO root fetch - main [MainThread]: Store serial: [23352602]
