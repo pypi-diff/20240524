@@ -1778,3 +1778,30 @@
 [2024-05-24 01:39:33] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.9.3.tar.gz]
 [2024-05-24 01:39:33] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
 [2024-05-24 01:39:33] INFO root fetch - main [MainThread]: Store serial: [23353240]
+[2024-05-24 01:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353240]
+[2024-05-24 01:41:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 01:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaze-double-bot
+[2024-05-24 01:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-civo
+[2024-05-24 01:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mc
+[2024-05-24 01:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuread
+[2024-05-24 01:41:41] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-24 01:41:41] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-24 01:41:42] WARNING root fetch - processPackages [sbcli-mc]: Skipping, unable to determine old version
+[2024-05-24 01:41:42] INFO root fetch - main [MainThread]: End processing [sbcli-mc] error
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1716504945] Old Version: [2.4.0a1716264836]
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/ee/a6/2370ddc84755f392f25efb1428d3ee9a4e9cc4263e0b147153f3a4ec101c/pulumi_civo-2.4.0a1716264836.tar.gz
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b6/57/e20ec01ff5f23dfe13f4413f5195d3424da70213cb7195947d04aace3e7f/pulumi_civo-2.4.0a1716504945.tar.gz
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-24 01:41:42] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1716264836.tar.gz tmp/pulumi_civo-2.4.0a1716504945.tar.gz --markdown 20240524/p/pulumi-civo/2.4.0a1716264836-2.4.0a1716504945/README.md --exclude *.pyd
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240524/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716264836.tar.gz]
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716504945.tar.gz]
+[2024-05-24 01:41:43] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-24 01:41:43] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-24 01:41:43] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-24 01:41:43] INFO root fetch - main [MainThread]: Store serial: [23353252]
