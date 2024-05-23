@@ -787,3 +787,15 @@
 [2024-05-24 00:44:50] INFO root fetch - processPackages [paramparse]: Remove: archive file [/home/abi/fetcher/tmp/paramparse-1.8.7.tar.gz]
 [2024-05-24 00:44:50] INFO root fetch - main [MainThread]: End processing [paramparse]: success
 [2024-05-24 00:44:50] INFO root fetch - main [MainThread]: Store serial: [23352747]
+[2024-05-24 00:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352747]
+[2024-05-24 00:46:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gordian
+[2024-05-24 00:46:58] INFO root fetch - processPackages [gordian]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-24 00:46:59] INFO root fetch - processPackages [gordian]: Downloading https://files.pythonhosted.org/packages/2f/c0/b75c835dfd73970d731ff0ba5c6163884b353a66a2a7a5dbdba5ac8f6501/gordian-3.7.0.tar.gz
+[2024-05-24 00:46:59] INFO root fetch - processPackages [gordian]: Downloading https://files.pythonhosted.org/packages/5c/d2/a64d2a433ca7d442b178cebfcbb66f4a14e1fb9343b51635d3c8326b7e20/gordian-3.7.1.tar.gz
+[2024-05-24 00:46:59] INFO root fetch - processPackages [gordian]: executing diffoscope
+[2024-05-24 00:46:59] INFO root fetch - processPackages [gordian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gordian-3.7.0.tar.gz tmp/gordian-3.7.1.tar.gz --markdown 20240524/g/gordian/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-24 00:47:00] INFO root fetch - processPackages [gordian]: Remove: archive file [/home/abi/fetcher/tmp/gordian-3.7.0.tar.gz]
+[2024-05-24 00:47:00] INFO root fetch - processPackages [gordian]: Remove: archive file [/home/abi/fetcher/tmp/gordian-3.7.1.tar.gz]
+[2024-05-24 00:47:00] INFO root fetch - main [MainThread]: End processing [gordian]: success
+[2024-05-24 00:47:00] INFO root fetch - main [MainThread]: Store serial: [23352750]
