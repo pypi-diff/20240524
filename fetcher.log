@@ -1474,3 +1474,29 @@
 [2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3657.tar.gz]
 [2024-05-24 01:17:36] INFO root fetch - main [MainThread]: End processing [ourskyai_platform_api]: success
 [2024-05-24 01:17:36] INFO root fetch - main [MainThread]: Store serial: [23353065]
+[2024-05-24 01:19:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353065]
+[2024-05-24 01:19:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stefutils
+[2024-05-24 01:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blaze-double-bot
+[2024-05-24 01:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradientai
+[2024-05-24 01:19:44] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-24 01:19:44] INFO root fetch - processPackages [blaze-double-bot]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-24 01:19:44] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/1c/0b/7ef7cefac676db0dbde38a36813911d1341e2ba8e7c25dedc3d1a33ca0cc/blaze_double_bot-0.1.6.tar.gz
+[2024-05-24 01:19:44] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-24 01:19:44] INFO root fetch - processPackages [gradientai]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-24 01:19:45] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-24 01:19:45] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/73/02/0d44ee0c6f57e36730cc2c18e0d4b01b0120738d7e1055ccc231dff3190a/gradientai-1.9.0.tar.gz
+[2024-05-24 01:19:45] ERROR root fetch - processPackages [blaze-double-bot]: Unable to fetch info: No such project/version 'blaze-double-bot' 0.1.7
+[2024-05-24 01:19:45] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-24 01:19:45] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-24 01:19:45] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240524/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-24 01:19:45] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/c8/8c/975a11a75abc2beec79a8bc3a3e831a3880790f1ded8d3c0a4eff7f52768/gradientai-1.9.1.tar.gz
+[2024-05-24 01:19:45] INFO root fetch - processPackages [gradientai]: executing diffoscope
+[2024-05-24 01:19:45] INFO root fetch - processPackages [gradientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradientai-1.9.0.tar.gz tmp/gradientai-1.9.1.tar.gz --markdown 20240524/g/gradientai/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-24 01:19:45] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-24 01:19:45] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-24 01:19:45] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-24 01:19:46] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.0.tar.gz]
+[2024-05-24 01:19:46] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.1.tar.gz]
+[2024-05-24 01:19:46] INFO root fetch - main [MainThread]: End processing [gradientai]: success
+[2024-05-24 01:19:46] INFO root fetch - main [MainThread]: Store serial: [23353074]
