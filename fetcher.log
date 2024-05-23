@@ -1937,3 +1937,57 @@
 [2024-05-24 01:52:34] INFO root fetch - processPackages [SiEPIC-TestCreator]: Remove: archive file [/home/abi/fetcher/tmp/SiEPIC_TestCreator-0.1.4.tar.gz]
 [2024-05-24 01:52:34] INFO root fetch - main [MainThread]: End processing [SiEPIC-TestCreator]: success
 [2024-05-24 01:52:34] INFO root fetch - main [MainThread]: Store serial: [23353297]
+[2024-05-24 01:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353297]
+[2024-05-24 01:54:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adadpython
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdl-webui
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superblocks-agent
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoengine
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpeg-convert
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dom-tokenizers
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: homematicip
+[2024-05-24 01:54:43] INFO root fetch - processPackages [mpeg-convert]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 01:54:43] INFO root fetch - processPackages [superblocks-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 01:54:43] INFO root fetch - processPackages [homematicip]: New version: [1.1.1] Old Version: [1.1.0.post1.dev31]
+[2024-05-24 01:54:43] WARNING root fetch - processPackages [adadpython]: Skipping, unable to determine old version
+[2024-05-24 01:54:43] INFO root fetch - main [MainThread]: End processing [adadpython] error
+[2024-05-24 01:54:43] INFO root fetch - processPackages [mpeg-convert]: Downloading https://files.pythonhosted.org/packages/3b/d5/019e252c3aab4a6179742748aa9727bb6467491d52e7b4dc7a77b91b4606/mpeg-convert-0.1.0.tar.gz
+[2024-05-24 01:54:43] INFO root fetch - processPackages [dom-tokenizers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 01:54:43] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/84/3b/6802ee2a76e5e0104b60f43df911e4711182d98a5f66a7993730f0d45959/superblocks-agent-0.0.8.tar.gz
+[2024-05-24 01:54:43] WARNING root fetch - processPackages [sdl-webui]: Skipping, unable to determine old version
+[2024-05-24 01:54:43] INFO root fetch - main [MainThread]: End processing [sdl-webui] error
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ecoengine]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-24 01:54:43] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/db/c8/cfdd9215b6a67b1698b6b3155b04402f116a0aec9542fb78bf2afac16df7/homematicip-1.1.0.post1.dev31.tar.gz
+[2024-05-24 01:54:43] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/c7/b1/71b275379fdc2106748d0c22e5c803b23ddb9e4f4957fdacecf924a05c68/superblocks-agent-0.0.9.tar.gz
+[2024-05-24 01:54:43] INFO root fetch - processPackages [mpeg-convert]: Downloading https://files.pythonhosted.org/packages/38/c6/de10e60ef9532d6fe04f2fffa6535d070dfd0ca656772ae63f71219fced4/mpeg_convert-0.2.0.tar.gz
+[2024-05-24 01:54:43] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/5e/26/cf8b917ea4efabda50aefc4d664249313924e4f43c1d3bfeb4c62b42636b/dom_tokenizers-0.0.8.tar.gz
+[2024-05-24 01:54:43] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/8e/7f/3833ad939ae28cdb09ff3bd7034f1681eff27a046fcb8592fe94e7633583/ecoengine-1.6.2.tar.gz
+[2024-05-24 01:54:44] INFO root fetch - processPackages [superblocks-agent]: executing diffoscope
+[2024-05-24 01:54:44] INFO root fetch - processPackages [superblocks-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-agent-0.0.8.tar.gz tmp/superblocks-agent-0.0.9.tar.gz --markdown 20240524/s/superblocks-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 01:54:44] INFO root fetch - processPackages [mpeg-convert]: executing diffoscope
+[2024-05-24 01:54:44] INFO root fetch - processPackages [mpeg-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpeg-convert-0.1.0.tar.gz tmp/mpeg_convert-0.2.0.tar.gz --markdown 20240524/m/mpeg-convert/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 01:54:44] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/27/52/35f13729bcf397dec566908becf186d7f9078020ba54bfe0d38fc67e798c/homematicip-1.1.1.tar.gz
+[2024-05-24 01:54:44] INFO root fetch - processPackages [homematicip]: executing diffoscope
+[2024-05-24 01:54:44] INFO root fetch - processPackages [homematicip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homematicip-1.1.0.post1.dev31.tar.gz tmp/homematicip-1.1.1.tar.gz --markdown 20240524/h/homematicip/1.1.0.post1.dev31-1.1.1/README.md --exclude *.pyd
+[2024-05-24 01:54:44] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/ee/a4/26c147d3bda886bbf88d148b191872beab4e8a29d4067083dda60dd93b5f/dom_tokenizers-0.0.9.tar.gz
+[2024-05-24 01:54:44] INFO root fetch - processPackages [dom-tokenizers]: executing diffoscope
+[2024-05-24 01:54:44] INFO root fetch - processPackages [dom-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_tokenizers-0.0.8.tar.gz tmp/dom_tokenizers-0.0.9.tar.gz --markdown 20240524/d/dom-tokenizers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 01:54:44] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b5/4b/95405e0aaa8927e6d7b24e3c44fbdfc356945ae06d87d9f26288e282d5e0/ecoengine-1.6.3.tar.gz
+[2024-05-24 01:54:44] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.8.tar.gz]
+[2024-05-24 01:54:44] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.9.tar.gz]
+[2024-05-24 01:54:44] INFO root fetch - main [MainThread]: End processing [superblocks-agent]: success
+[2024-05-24 01:54:44] INFO root fetch - processPackages [mpeg-convert]: Remove: archive file [/home/abi/fetcher/tmp/mpeg-convert-0.1.0.tar.gz]
+[2024-05-24 01:54:44] INFO root fetch - processPackages [mpeg-convert]: Remove: archive file [/home/abi/fetcher/tmp/mpeg_convert-0.2.0.tar.gz]
+[2024-05-24 01:54:44] INFO root fetch - main [MainThread]: End processing [mpeg-convert]: success
+[2024-05-24 01:54:44] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2024-05-24 01:54:44] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-1.6.2.tar.gz tmp/ecoengine-1.6.3.tar.gz --markdown 20240524/e/ecoengine/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-24 01:54:45] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.8.tar.gz]
+[2024-05-24 01:54:45] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.9.tar.gz]
+[2024-05-24 01:54:45] INFO root fetch - main [MainThread]: End processing [dom-tokenizers]: success
+[2024-05-24 01:54:45] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.post1.dev31.tar.gz]
+[2024-05-24 01:54:45] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.1.tar.gz]
+[2024-05-24 01:54:45] INFO root fetch - main [MainThread]: End processing [homematicip]: success
+[2024-05-24 01:54:48] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.2.tar.gz]
+[2024-05-24 01:54:48] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.3.tar.gz]
+[2024-05-24 01:54:48] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2024-05-24 01:54:48] INFO root fetch - main [MainThread]: Store serial: [23353321]
