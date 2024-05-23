@@ -46,3 +46,48 @@
 [2024-05-24 00:02:31] INFO root fetch - processPackages [rs1090]: Remove: archive file [/home/abi/fetcher/tmp/rs1090-0.2.1-pp39-pypy39_pp73-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
 [2024-05-24 00:02:31] INFO root fetch - main [MainThread]: End processing [rs1090]: success
 [2024-05-24 00:02:31] INFO root fetch - main [MainThread]: Store serial: [23352398]
+[2024-05-24 00:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352398]
+[2024-05-24 00:04:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bayeux-ml
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unray
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embedme
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-logikal
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RedVert
+[2024-05-24 00:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RedVert
+[2024-05-24 00:04:40] INFO root fetch - processPackages [pytest-logikal]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-24 00:04:40] INFO root fetch - processPackages [embedme]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 00:04:40] WARNING root fetch - processPackages [RedVert]: Skipping, unable to determine old version
+[2024-05-24 00:04:40] INFO root fetch - main [MainThread]: End processing [RedVert] error
+[2024-05-24 00:04:40] WARNING root fetch - processPackages [RedVert]: Skipping, unable to determine old version
+[2024-05-24 00:04:40] INFO root fetch - main [MainThread]: End processing [RedVert] error
+[2024-05-24 00:04:40] INFO root fetch - processPackages [unray]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 00:04:40] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/ee/c9/8571f7a69ad3e968ab0fe5a9c278ada6edfeabda3b0a3fcd6a69a8b32312/pytest_logikal-3.2.0.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [bayeux-ml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 00:04:40] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/76/06/fa9ed815bd7325b42d038f2e1629643e007eabde9a0289129f29823a50bb/embedme-0.1.1.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [unray]: Downloading https://files.pythonhosted.org/packages/87/a9/019e9382ffb3b0aeb946ccb3ef3bac8bb4d462d38c523ce8f92a37a9636d/unray-1.0.2.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/2a/38/1f073e769f36af435a20b70d9da75bbb787013d6463de62f677ef0382ef5/embedme-0.1.2.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [bayeux-ml]: Downloading https://files.pythonhosted.org/packages/a0/13/ab502432667d09de8cf3b9979f1a2e41f675a59146ebd44c48026d64a136/bayeux_ml-0.1.8.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [unray]: Downloading https://files.pythonhosted.org/packages/76/3d/8094413c155f9483504630300a3bba22710f9502c8f7807dd8d4e357fd5b/unray-1.0.3.tar.gz
+[2024-05-24 00:04:40] INFO root fetch - processPackages [embedme]: executing diffoscope
+[2024-05-24 00:04:40] INFO root fetch - processPackages [embedme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedme-0.1.1.tar.gz tmp/embedme-0.1.2.tar.gz --markdown 20240524/e/embedme/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 00:04:40] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/69/6f/11820510b0682211868f0ad58e293b818e6ee87c38b617facb9c95ab9c05/pytest_logikal-3.2.1.tar.gz
+[2024-05-24 00:04:41] INFO root fetch - processPackages [unray]: executing diffoscope
+[2024-05-24 00:04:41] INFO root fetch - processPackages [unray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unray-1.0.2.tar.gz tmp/unray-1.0.3.tar.gz --markdown 20240524/u/unray/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 00:04:41] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2024-05-24 00:04:41] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_logikal-3.2.0.tar.gz tmp/pytest_logikal-3.2.1.tar.gz --markdown 20240524/p/pytest-logikal/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: Downloading https://files.pythonhosted.org/packages/fd/2c/c226a66945993839baeefde4cd9f8dec6b8542016af1357817c19b4476a5/bayeux_ml-0.1.9.tar.gz
+[2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: executing diffoscope
+[2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayeux_ml-0.1.8.tar.gz tmp/bayeux_ml-0.1.9.tar.gz --markdown 20240524/b/bayeux-ml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 00:04:41] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.1.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.2.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - main [MainThread]: End processing [embedme]: success
+[2024-05-24 00:04:41] INFO root fetch - processPackages [unray]: Remove: archive file [/home/abi/fetcher/tmp/unray-1.0.2.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - processPackages [unray]: Remove: archive file [/home/abi/fetcher/tmp/unray-1.0.3.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - main [MainThread]: End processing [unray]: success
+[2024-05-24 00:04:41] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest_logikal-3.2.0.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest_logikal-3.2.1.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: Remove: archive file [/home/abi/fetcher/tmp/bayeux_ml-0.1.8.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: Remove: archive file [/home/abi/fetcher/tmp/bayeux_ml-0.1.9.tar.gz]
+[2024-05-24 00:04:41] INFO root fetch - main [MainThread]: End processing [bayeux-ml]: success
+[2024-05-24 00:04:41] INFO root fetch - main [MainThread]: Store serial: [23352425]
