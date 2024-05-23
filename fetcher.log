@@ -1530,3 +1530,27 @@
 [2024-05-24 01:21:59] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-05-24 01:21:59] INFO root fetch - main [MainThread]: End processing [amsdal]: success
 [2024-05-24 01:21:59] INFO root fetch - main [MainThread]: Store serial: [23353090]
+[2024-05-24 01:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353090]
+[2024-05-24 01:24:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nnabla-ext-cuda90
+[2024-05-24 01:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nebari
+[2024-05-24 01:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gandai
+[2024-05-24 01:24:07] WARNING root fetch - processPackages [nnabla-ext-cuda90]: Skipping, unable to determine old version
+[2024-05-24 01:24:07] INFO root fetch - main [MainThread]: End processing [nnabla-ext-cuda90] error
+[2024-05-24 01:24:07] INFO root fetch - processPackages [nebari]: New version: [2024.6.1rc1] Old Version: [2024.5.1rc1]
+[2024-05-24 01:24:07] INFO root fetch - processPackages [gandai]: New version: [1.7.43] Old Version: [1.7.42]
+[2024-05-24 01:24:08] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/85/b8/d4981f786fa2a30dfb43d33152028f93ecb06fe6715438ee837172e6655d/gandai-1.7.42.tar.gz
+[2024-05-24 01:24:08] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/2b/3f/7b701fc54e7bd7fb4a434c4c16ddfb229bad678bb10abd22af731f6f9619/nebari-2024.5.1rc1.tar.gz
+[2024-05-24 01:24:08] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/bc/66/0f52c9cd10a2796ed9a6318b9aa15f1d9d58cebc9040f24b2a09da301d02/gandai-1.7.43.tar.gz
+[2024-05-24 01:24:08] INFO root fetch - processPackages [nebari]: Downloading https://files.pythonhosted.org/packages/0d/68/1a9515c911821b76f5bf1c6893e61953674277a087c743b9b2e644f1c7c9/nebari-2024.6.1rc1.tar.gz
+[2024-05-24 01:24:08] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 01:24:08] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.42.tar.gz tmp/gandai-1.7.43.tar.gz --markdown 20240524/g/gandai/1.7.42-1.7.43/README.md --exclude *.pyd
+[2024-05-24 01:24:08] INFO root fetch - processPackages [nebari]: executing diffoscope
+[2024-05-24 01:24:08] INFO root fetch - processPackages [nebari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebari-2024.5.1rc1.tar.gz tmp/nebari-2024.6.1rc1.tar.gz --markdown 20240524/n/nebari/2024.5.1rc1-2024.6.1rc1/README.md --exclude *.pyd
+[2024-05-24 01:24:09] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.42.tar.gz]
+[2024-05-24 01:24:09] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.43.tar.gz]
+[2024-05-24 01:24:09] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 01:24:10] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.5.1rc1.tar.gz]
+[2024-05-24 01:24:10] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.6.1rc1.tar.gz]
+[2024-05-24 01:24:10] INFO root fetch - main [MainThread]: End processing [nebari]: success
+[2024-05-24 01:24:10] INFO root fetch - main [MainThread]: Store serial: [23353100]
