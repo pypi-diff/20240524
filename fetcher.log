@@ -775,3 +775,15 @@
 [2024-05-24 00:42:40] INFO root fetch - processPackages [comp-chem-utils]: Remove: archive file [/home/abi/fetcher/tmp/comp_chem_utils-0.0.2.tar.gz]
 [2024-05-24 00:42:40] INFO root fetch - main [MainThread]: End processing [comp-chem-utils]: success
 [2024-05-24 00:42:40] INFO root fetch - main [MainThread]: Store serial: [23352744]
+[2024-05-24 00:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352744]
+[2024-05-24 00:44:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 00:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paramparse
+[2024-05-24 00:44:48] INFO root fetch - processPackages [paramparse]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-05-24 00:44:49] INFO root fetch - processPackages [paramparse]: Downloading https://files.pythonhosted.org/packages/49/4f/a17ff9d6670a8a221d32371a856c62c433ec8c134c35ca51e9613256c32e/paramparse-1.8.6.tar.gz
+[2024-05-24 00:44:49] INFO root fetch - processPackages [paramparse]: Downloading https://files.pythonhosted.org/packages/49/db/54893fea02412a24436e570200f91a75b0244020fc14e31b6d0c8a277500/paramparse-1.8.7.tar.gz
+[2024-05-24 00:44:49] INFO root fetch - processPackages [paramparse]: executing diffoscope
+[2024-05-24 00:44:49] INFO root fetch - processPackages [paramparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramparse-1.8.6.tar.gz tmp/paramparse-1.8.7.tar.gz --markdown 20240524/p/paramparse/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-05-24 00:44:50] INFO root fetch - processPackages [paramparse]: Remove: archive file [/home/abi/fetcher/tmp/paramparse-1.8.6.tar.gz]
+[2024-05-24 00:44:50] INFO root fetch - processPackages [paramparse]: Remove: archive file [/home/abi/fetcher/tmp/paramparse-1.8.7.tar.gz]
+[2024-05-24 00:44:50] INFO root fetch - main [MainThread]: End processing [paramparse]: success
+[2024-05-24 00:44:50] INFO root fetch - main [MainThread]: Store serial: [23352747]
