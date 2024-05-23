@@ -1298,3 +1298,33 @@
 [2024-05-24 01:04:38] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
 [2024-05-24 01:04:38] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
 [2024-05-24 01:04:38] INFO root fetch - main [MainThread]: Store serial: [23352947]
+[2024-05-24 01:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352947]
+[2024-05-24 01:06:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-05-24 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psi4-step
+[2024-05-24 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-05-24 01:06:46] INFO root fetch - processPackages [psi4-step]: New version: [2024.5.23.2] Old Version: [2024.5.23.1]
+[2024-05-24 01:06:46] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240522] Old Version: [1.9.0.dev20240521]
+[2024-05-24 01:06:46] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240522] Old Version: [0.7.52b20240521]
+[2024-05-24 01:06:46] INFO root fetch - processPackages [psi4-step]: Downloading https://files.pythonhosted.org/packages/f7/15/24ffb59e32ee7c98b4e1e28deb6af0a127bdbdd447dc57c3ddcf4d300861/psi4_step-2024.5.23.1.tar.gz
+[2024-05-24 01:06:46] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/e5/5f/360d8b214a5c31fffe194b52fac42c99754a6d0eb2e739e2559e60befd0a/flwr_nightly-1.9.0.dev20240521.tar.gz
+[2024-05-24 01:06:46] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/e7/57/3774ae6f92501b347c6496ad5706815c1e122e72d229938f2513380876ed/tmnt-0.7.52b20240521.tar.gz
+[2024-05-24 01:06:47] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/3a/61/9d602a58886d8bc3eab4fde14531781728ef236cb5f0342536e3aa6eb070/tmnt-0.7.52b20240522.tar.gz
+[2024-05-24 01:06:47] INFO root fetch - processPackages [psi4-step]: Downloading https://files.pythonhosted.org/packages/29/7e/8304d4aaef51f2facec183b0f3ec29b8752b4f16ca06e52895a091238069/psi4_step-2024.5.23.2.tar.gz
+[2024-05-24 01:06:47] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/1b/77/d2ebb117b6cbcf182f8eabf179c8a384e4fceba39f4d85ac7cd23724a6ec/flwr_nightly-1.9.0.dev20240522.tar.gz
+[2024-05-24 01:06:47] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-24 01:06:47] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240521.tar.gz tmp/tmnt-0.7.52b20240522.tar.gz --markdown 20240524/t/tmnt/0.7.52b20240521-0.7.52b20240522/README.md --exclude *.pyd
+[2024-05-24 01:06:47] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-24 01:06:47] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240521.tar.gz tmp/flwr_nightly-1.9.0.dev20240522.tar.gz --markdown 20240524/f/flwr-nightly/1.9.0.dev20240521-1.9.0.dev20240522/README.md --exclude *.pyd
+[2024-05-24 01:06:47] INFO root fetch - processPackages [psi4-step]: executing diffoscope
+[2024-05-24 01:06:47] INFO root fetch - processPackages [psi4-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psi4_step-2024.5.23.1.tar.gz tmp/psi4_step-2024.5.23.2.tar.gz --markdown 20240524/p/psi4-step/2024.5.23.1-2024.5.23.2/README.md --exclude *.pyd
+[2024-05-24 01:06:48] INFO root fetch - processPackages [psi4-step]: Remove: archive file [/home/abi/fetcher/tmp/psi4_step-2024.5.23.1.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - processPackages [psi4-step]: Remove: archive file [/home/abi/fetcher/tmp/psi4_step-2024.5.23.2.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - main [MainThread]: End processing [psi4-step]: success
+[2024-05-24 01:06:48] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240521.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240522.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-24 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240521.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240522.tar.gz]
+[2024-05-24 01:06:48] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-24 01:06:48] INFO root fetch - main [MainThread]: Store serial: [23352956]
