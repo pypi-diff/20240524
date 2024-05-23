@@ -266,3 +266,60 @@
 [2024-05-24 00:17:53] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.3.3-py2.py3-none-any.whl.zip]
 [2024-05-24 00:17:53] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
 [2024-05-24 00:17:53] INFO root fetch - main [MainThread]: Store serial: [23352491]
+[2024-05-24 00:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352491]
+[2024-05-24 00:20:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bibcite
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rindegastos-revops
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pySigma
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robyn
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WhiskiWrap
+[2024-05-24 00:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RedVert
+[2024-05-24 00:20:02] INFO root fetch - processPackages [rindegastos-revops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 00:20:02] INFO root fetch - processPackages [RedVert]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-24 00:20:02] INFO root fetch - processPackages [WhiskiWrap]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-24 00:20:02] INFO root fetch - processPackages [bibcite]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 00:20:02] INFO root fetch - processPackages [pySigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 00:20:02] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 00:20:03] INFO root fetch - processPackages [WhiskiWrap]: Downloading https://files.pythonhosted.org/packages/68/84/e2e8f00b3c60e5afbabd26d23c3c84a1a7d5dfa3e9e51f7ea2ae990f0588/WhiskiWrap-1.1.8.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/3a/15/cc18c26976d6f01b246e6f40c96ccd3db8b7834f6da98e3483ca1f0ff596/redvert-1.5.4.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [pySigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/cf/2b/f5bb3a5e85b56897dbeaedf871d84567473b2e16320bd68d5255bdc055bd/rindegastos_revops-0.0.8.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [bibcite]: Downloading https://files.pythonhosted.org/packages/25/0e/9a5ba98ebad17592d7e3925b2b2a4e17fc4112adf3a0bd4ce07793ae9c05/bibcite-0.2.0.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/51/41/14183dace6db2461e7872ca6732d0e130ae99e30ba301c3520a0ab3728f8/redvert-1.5.5.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [bibcite]: Downloading https://files.pythonhosted.org/packages/15/7c/c14bcf875ce91b3e315c1c18af9f0eff0ae60f431fffba5403e77de3ffc6/bibcite-0.2.1.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/11/53/5886fb722876e1530a3ff42b6aa97510dd201e65807fe9ba72132b8b4d37/rindegastos_revops-0.0.9.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [pySigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-05-24 00:20:03] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.5.4.tar.gz tmp/redvert-1.5.5.tar.gz --markdown 20240524/R/RedVert/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-24 00:20:03] INFO root fetch - processPackages [rindegastos-revops]: executing diffoscope
+[2024-05-24 00:20:03] INFO root fetch - processPackages [rindegastos-revops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rindegastos_revops-0.0.8.tar.gz tmp/rindegastos_revops-0.0.9.tar.gz --markdown 20240524/r/rindegastos-revops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 00:20:03] INFO root fetch - processPackages [bibcite]: executing diffoscope
+[2024-05-24 00:20:03] INFO root fetch - processPackages [bibcite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibcite-0.2.0.tar.gz tmp/bibcite-0.2.1.tar.gz --markdown 20240524/b/bibcite/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 00:20:03] INFO root fetch - processPackages [WhiskiWrap]: Downloading https://files.pythonhosted.org/packages/39/9e/4dabdadb214d1bb67c57ac2303971051fee2e3620e63aa12135c4ce84624/WhiskiWrap-1.1.9.tar.gz
+[2024-05-24 00:20:03] INFO root fetch - processPackages [pySigma]: executing diffoscope
+[2024-05-24 00:20:03] INFO root fetch - processPackages [pySigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20240524/p/pySigma/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 00:20:04] INFO root fetch - processPackages [WhiskiWrap]: executing diffoscope
+[2024-05-24 00:20:04] INFO root fetch - processPackages [WhiskiWrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WhiskiWrap-1.1.8.tar.gz tmp/WhiskiWrap-1.1.9.tar.gz --markdown 20240524/W/WhiskiWrap/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-24 00:20:04] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.5.4.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.5.5.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-05-24 00:20:04] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.8.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.9.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - main [MainThread]: End processing [rindegastos-revops]: success
+[2024-05-24 00:20:04] INFO root fetch - processPackages [bibcite]: Remove: archive file [/home/abi/fetcher/tmp/bibcite-0.2.0.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - processPackages [bibcite]: Remove: archive file [/home/abi/fetcher/tmp/bibcite-0.2.1.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - main [MainThread]: End processing [bibcite]: success
+[2024-05-24 00:20:04] INFO root fetch - processPackages [pySigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.8.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - processPackages [pySigma]: Remove: archive file [/home/abi/fetcher/tmp/pysigma-0.9.9.tar.gz]
+[2024-05-24 00:20:04] INFO root fetch - main [MainThread]: End processing [pySigma]: success
+[2024-05-24 00:20:04] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2024-05-24 00:20:04] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20240524/r/robyn/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 00:20:05] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2024-05-24 00:20:05] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2024-05-24 00:20:05] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2024-05-24 00:20:08] INFO root fetch - processPackages [WhiskiWrap]: Remove: archive file [/home/abi/fetcher/tmp/WhiskiWrap-1.1.8.tar.gz]
+[2024-05-24 00:20:08] INFO root fetch - processPackages [WhiskiWrap]: Remove: archive file [/home/abi/fetcher/tmp/WhiskiWrap-1.1.9.tar.gz]
+[2024-05-24 00:20:08] INFO root fetch - main [MainThread]: End processing [WhiskiWrap]: success
+[2024-05-24 00:20:08] INFO root fetch - main [MainThread]: Store serial: [23352530]
