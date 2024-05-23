@@ -1554,3 +1554,15 @@
 [2024-05-24 01:24:10] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.6.1rc1.tar.gz]
 [2024-05-24 01:24:10] INFO root fetch - main [MainThread]: End processing [nebari]: success
 [2024-05-24 01:24:10] INFO root fetch - main [MainThread]: Store serial: [23353100]
+[2024-05-24 01:26:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353100]
+[2024-05-24 01:26:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 01:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsdal_cli
+[2024-05-24 01:26:19] INFO root fetch - processPackages [amsdal_cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 01:26:19] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/b1/2a/9a1fe1e569a982ea69cf606479e1349d2dbf1dead6d4533c56c7bb2de9eb/amsdal_cli-0.1.8.tar.gz
+[2024-05-24 01:26:19] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/2e/70/c1d522a5ebf5174e244cac677d1f74f68febc7768d2d7eca45d5aef1da7e/amsdal_cli-0.1.9.tar.gz
+[2024-05-24 01:26:20] INFO root fetch - processPackages [amsdal_cli]: executing diffoscope
+[2024-05-24 01:26:20] INFO root fetch - processPackages [amsdal_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_cli-0.1.8.tar.gz tmp/amsdal_cli-0.1.9.tar.gz --markdown 20240524/a/amsdal_cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 01:26:20] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.8.tar.gz]
+[2024-05-24 01:26:20] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.9.tar.gz]
+[2024-05-24 01:26:20] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
+[2024-05-24 01:26:20] INFO root fetch - main [MainThread]: Store serial: [23353103]
