@@ -1500,3 +1500,33 @@
 [2024-05-24 01:19:46] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.1.tar.gz]
 [2024-05-24 01:19:46] INFO root fetch - main [MainThread]: End processing [gradientai]: success
 [2024-05-24 01:19:46] INFO root fetch - main [MainThread]: Store serial: [23353074]
+[2024-05-24 01:21:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353074]
+[2024-05-24 01:21:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsdal
+[2024-05-24 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: standardbots
+[2024-05-24 01:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picopy
+[2024-05-24 01:21:56] INFO root fetch - processPackages [picopy]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-24 01:21:56] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/79/f1/e7874cba11682b24dbc86a9bc0278fcbcc8d8a07641b379c5dc2f5ecc173/picopy-1.0.3.tar.gz
+[2024-05-24 01:21:56] INFO root fetch - processPackages [amsdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 01:21:56] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.7] Old Version: [2.20240401.6]
+[2024-05-24 01:21:56] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/57/f4/893ae93b54e57aa0936e3b5a8b84af1fed6a0fab3bd82040699491df4dff/standardbots-2.20240401.6.tar.gz
+[2024-05-24 01:21:56] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/c5/7e/d8caacf06082489ad7348f2b62b27958c5a7bf09511f0f8430f8e2ca2c4d/amsdal-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-24 01:21:56] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/e0/47/c60f2ea0a95b09dec17608de2a6630424f3d34672bee2add49b5a52d8b60/picopy-1.0.5.tar.gz
+[2024-05-24 01:21:57] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 01:21:57] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.3.tar.gz tmp/picopy-1.0.5.tar.gz --markdown 20240524/p/picopy/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-24 01:21:57] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/26/49/7e80c6b61a5fad92bdbae38a9c4d4b3cb55436210f2715818f9d90c8d082/standardbots-2.20240401.7.tar.gz
+[2024-05-24 01:21:57] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-05-24 01:21:57] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240401.6.tar.gz tmp/standardbots-2.20240401.7.tar.gz --markdown 20240524/s/standardbots/2.20240401.6-2.20240401.7/README.md --exclude *.pyd
+[2024-05-24 01:21:57] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.3.tar.gz]
+[2024-05-24 01:21:57] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.5.tar.gz]
+[2024-05-24 01:21:57] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 01:21:57] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/fc/51/0edf43ba12347c41ea640f7efb7f415b15b212483248e0b0a4c490b716f2/amsdal-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-24 01:21:57] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.6.tar.gz]
+[2024-05-24 01:21:57] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.7.tar.gz]
+[2024-05-24 01:21:57] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-05-24 01:21:58] INFO root fetch - processPackages [amsdal]: executing diffoscope
+[2024-05-24 01:21:58] INFO root fetch - processPackages [amsdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240524/a/amsdal/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 01:21:59] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-24 01:21:59] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-24 01:21:59] INFO root fetch - main [MainThread]: End processing [amsdal]: success
+[2024-05-24 01:21:59] INFO root fetch - main [MainThread]: Store serial: [23353090]
