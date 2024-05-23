@@ -1614,3 +1614,24 @@
 [2024-05-24 01:28:33] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
 [2024-05-24 01:28:33] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
 [2024-05-24 01:28:33] INFO root fetch - main [MainThread]: Store serial: [23353117]
+[2024-05-24 01:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353117]
+[2024-05-24 01:30:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-05-24 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-archive
+[2024-05-24 01:30:42] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1716504348] Old Version: [7.2.0a1715922714]
+[2024-05-24 01:30:42] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1716504266] Old Version: [0.1.0a1715922700]
+[2024-05-24 01:30:42] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/9c/21/3a01ed5d6b91630c3f973ab9ed80e90425af396df8917d4fa9909505c0b9/pulumi_akamai-7.2.0a1715922714.tar.gz
+[2024-05-24 01:30:42] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/37/22/a0c3181e12aea04c3f294806fb8d802ee841f7a441d2fe4a52795c0b3c52/pulumi_archive-0.1.0a1715922700.tar.gz
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/9d/56/8cccc1c1662b7f9d17c2a449f1294e70faee72bf5e477c5ef2ee1b6b1e1e/pulumi_archive-0.1.0a1716504266.tar.gz
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f9/dc/0588b0785b62c3ee1ac4e1a48368b97a2898280bafe164bc0c98f6485246/pulumi_akamai-7.2.0a1716504348.tar.gz
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715922700.tar.gz tmp/pulumi_archive-0.1.0a1716504266.tar.gz --markdown 20240524/p/pulumi-archive/0.1.0a1715922700-0.1.0a1716504266/README.md --exclude *.pyd
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-24 01:30:43] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1715922714.tar.gz tmp/pulumi_akamai-7.2.0a1716504348.tar.gz --markdown 20240524/p/pulumi-akamai/7.2.0a1715922714-7.2.0a1716504348/README.md --exclude *.pyd
+[2024-05-24 01:30:44] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715922700.tar.gz]
+[2024-05-24 01:30:44] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1716504266.tar.gz]
+[2024-05-24 01:30:44] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-24 01:30:46] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715922714.tar.gz]
+[2024-05-24 01:30:46] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716504348.tar.gz]
+[2024-05-24 01:30:46] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-24 01:30:46] INFO root fetch - main [MainThread]: Store serial: [23353120]
