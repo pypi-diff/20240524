@@ -736,3 +736,42 @@
 [2024-05-24 00:40:29] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.9.tar.gz]
 [2024-05-24 00:40:29] INFO root fetch - main [MainThread]: End processing [kaggle-environments]: success
 [2024-05-24 00:40:29] INFO root fetch - main [MainThread]: Store serial: [23352733]
+[2024-05-24 00:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352733]
+[2024-05-24 00:42:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 00:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dyff-schema
+[2024-05-24 00:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-24 00:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comp-chem-utils
+[2024-05-24 00:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff-storage
+[2024-05-24 00:42:38] INFO root fetch - processPackages [kfish]: New version: [99.0.202405231522] Old Version: [99.0.202405231515]
+[2024-05-24 00:42:38] INFO root fetch - processPackages [comp-chem-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 00:42:38] INFO root fetch - processPackages [dyff-schema]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-24 00:42:38] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e4/6d/26e8451f9f74b7789ddd5b8591abdf8e74c6cc5e72c991da7bf3de5d5b46/kfish-99.0.202405231515-py3-none-any.whl
+[2024-05-24 00:42:38] INFO root fetch - processPackages [dyff-storage]: New version: [0.8.0] Old Version: [0.7.6]
+[2024-05-24 00:42:38] INFO root fetch - processPackages [comp-chem-utils]: Downloading https://files.pythonhosted.org/packages/fc/55/06a84c3ab684256010904c839f0e1bb626690f8a497cae37488d2581f35c/comp_chem_utils-0.0.1.tar.gz
+[2024-05-24 00:42:38] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/23/01/4782de6061773c418c83e33960ebaa64925b82ee8c41b73c46065d37b42c/dyff_schema-0.7.2.tar.gz
+[2024-05-24 00:42:38] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/1f/0c/c31435e8b9890596a60afb535222e4f03bb74d51ec6783492e21c012421d/dyff_storage-0.7.6.tar.gz
+[2024-05-24 00:42:38] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ec/ad/60fa34970f5e806803d0b1d816ca8a28df2ef08be08542b13a2e8ec98236/kfish-99.0.202405231522-py3-none-any.whl
+[2024-05-24 00:42:38] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-24 00:42:38] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405231515-py3-none-any.whl.zip tmp/kfish-99.0.202405231522-py3-none-any.whl.zip --markdown 20240524/k/kfish/99.0.202405231515-99.0.202405231522/README.md --exclude *.pyd
+[2024-05-24 00:42:38] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/6f/04/aa853d92ee00224b97b4c3532dd3e476343a025441316004bdf8cdaa95b9/dyff_schema-0.8.0.tar.gz
+[2024-05-24 00:42:39] INFO root fetch - processPackages [comp-chem-utils]: Downloading https://files.pythonhosted.org/packages/4f/bf/4e8a2768a3fbcf319506125f94588173747007eced756dcf145204f0feea/comp_chem_utils-0.0.2.tar.gz
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-storage]: Downloading https://files.pythonhosted.org/packages/70/40/54126656c4115f04b4d04165a198381fc3fe5c3650912a1da00a64ddab5e/dyff_storage-0.8.0.tar.gz
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_schema-0.7.2.tar.gz tmp/dyff_schema-0.8.0.tar.gz --markdown 20240524/d/dyff-schema/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-storage]: executing diffoscope
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_storage-0.7.6.tar.gz tmp/dyff_storage-0.8.0.tar.gz --markdown 20240524/d/dyff-storage/0.7.6-0.8.0/README.md --exclude *.pyd
+[2024-05-24 00:42:39] INFO root fetch - processPackages [comp-chem-utils]: executing diffoscope
+[2024-05-24 00:42:39] INFO root fetch - processPackages [comp-chem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comp_chem_utils-0.0.1.tar.gz tmp/comp_chem_utils-0.0.2.tar.gz --markdown 20240524/c/comp-chem-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 00:42:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405231515-py3-none-any.whl.zip]
+[2024-05-24 00:42:39] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405231522-py3-none-any.whl.zip]
+[2024-05-24 00:42:39] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.7.2.tar.gz]
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.8.0.tar.gz]
+[2024-05-24 00:42:39] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff_storage-0.7.6.tar.gz]
+[2024-05-24 00:42:39] INFO root fetch - processPackages [dyff-storage]: Remove: archive file [/home/abi/fetcher/tmp/dyff_storage-0.8.0.tar.gz]
+[2024-05-24 00:42:39] INFO root fetch - main [MainThread]: End processing [dyff-storage]: success
+[2024-05-24 00:42:40] INFO root fetch - processPackages [comp-chem-utils]: Remove: archive file [/home/abi/fetcher/tmp/comp_chem_utils-0.0.1.tar.gz]
+[2024-05-24 00:42:40] INFO root fetch - processPackages [comp-chem-utils]: Remove: archive file [/home/abi/fetcher/tmp/comp_chem_utils-0.0.2.tar.gz]
+[2024-05-24 00:42:40] INFO root fetch - main [MainThread]: End processing [comp-chem-utils]: success
+[2024-05-24 00:42:40] INFO root fetch - main [MainThread]: Store serial: [23352744]
