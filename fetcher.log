@@ -1191,3 +1191,30 @@
 [2024-05-24 00:55:50] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-24 00:55:50] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-24 00:55:50] INFO root fetch - main [MainThread]: Store serial: [23352897]
+[2024-05-24 00:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352897]
+[2024-05-24 00:57:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylibCZIrw
+[2024-05-24 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appmap
+[2024-05-24 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sevenapps-py-easy
+[2024-05-24 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hassa
+[2024-05-24 00:57:58] WARNING root fetch - processPackages [sevenapps-py-easy]: Skipping, unable to determine old version
+[2024-05-24 00:57:58] INFO root fetch - main [MainThread]: End processing [sevenapps-py-easy] error
+[2024-05-24 00:57:58] INFO root fetch - processPackages [appmap]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-05-24 00:57:58] WARNING root fetch - processPackages [hassa]: Skipping, unable to determine old version
+[2024-05-24 00:57:58] INFO root fetch - main [MainThread]: End processing [hassa] error
+[2024-05-24 00:57:58] INFO root fetch - processPackages [pylibCZIrw]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-24 00:57:58] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/d8/c7/6ce38549b3048524dba85c7c34487c648fd10bdd5378a2654bf672a6baba/appmap-1.9.1.tar.gz
+[2024-05-24 00:57:59] INFO root fetch - processPackages [pylibCZIrw]: Downloading https://files.pythonhosted.org/packages/5e/4f/512c953761ec94e243f2f42c4399e895ed39224f3083a0a0fd80f2833775/pylibCZIrw-4.1.0.tar.gz
+[2024-05-24 00:57:59] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/5b/f1/4002e5d40df083c244a2cf55de21cff6c905d5e1c3b5022838dca1500ff5/appmap-2.0.0.tar.gz
+[2024-05-24 00:57:59] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2024-05-24 00:57:59] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.1.tar.gz tmp/appmap-2.0.0.tar.gz --markdown 20240524/a/appmap/1.9.1-2.0.0/README.md --exclude *.pyd
+[2024-05-24 00:58:00] INFO root fetch - processPackages [pylibCZIrw]: Downloading https://files.pythonhosted.org/packages/30/9c/89dbb9a888d47b4ee69eec374d60e85367b445b31af9664b6be75924f835/pylibCZIrw-4.1.1.tar.gz
+[2024-05-24 00:58:00] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-1.9.1.tar.gz]
+[2024-05-24 00:58:00] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-2.0.0.tar.gz]
+[2024-05-24 00:58:00] INFO root fetch - main [MainThread]: End processing [appmap]: success
+[2024-05-24 00:58:00] INFO root fetch - processPackages [pylibCZIrw]: executing diffoscope
+[2024-05-24 00:58:00] INFO root fetch - processPackages [pylibCZIrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibCZIrw-4.1.0.tar.gz tmp/pylibCZIrw-4.1.1.tar.gz --markdown 20240524/p/pylibCZIrw/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-24 00:58:03] INFO root fetch - processPackages [pylibCZIrw]: Remove: archive file [/home/abi/fetcher/tmp/pylibCZIrw-4.1.0.tar.gz]
+[2024-05-24 00:58:03] INFO root fetch - processPackages [pylibCZIrw]: Remove: archive file [/home/abi/fetcher/tmp/pylibCZIrw-4.1.1.tar.gz]
+[2024-05-24 00:58:03] INFO root fetch - main [MainThread]: End processing [pylibCZIrw]: success
+[2024-05-24 00:58:03] INFO root fetch - main [MainThread]: Store serial: [23352919]
