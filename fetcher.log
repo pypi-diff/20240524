@@ -1865,3 +1865,33 @@
 [2024-05-24 01:46:05] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.3.tar.gz]
 [2024-05-24 01:46:05] INFO root fetch - main [MainThread]: End processing [radifox]: success
 [2024-05-24 01:46:05] INFO root fetch - main [MainThread]: Store serial: [23353270]
+[2024-05-24 01:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353270]
+[2024-05-24 01:48:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-clickabletextbox
+[2024-05-24 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocoon-data
+[2024-05-24 01:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SiEPIC-TestCreator
+[2024-05-24 01:48:14] INFO root fetch - processPackages [SiEPIC-TestCreator]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 01:48:14] INFO root fetch - processPackages [gradio-clickabletextbox]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 01:48:14] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 01:48:14] INFO root fetch - processPackages [SiEPIC-TestCreator]: Downloading https://files.pythonhosted.org/packages/a0/38/7c441939b01387e0f75d84e6524feb1923a80b70b19764737545a2492f31/SiEPIC_TestCreator-0.1.1.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [gradio-clickabletextbox]: Downloading https://files.pythonhosted.org/packages/16/8b/150ab416a1a021a100a827c624714ce86f3ac797548c53941a993b3e9238/gradio_clickabletextbox-0.0.2.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [SiEPIC-TestCreator]: Downloading https://files.pythonhosted.org/packages/8c/e7/dc0c19b2853b0270793cd4de864289b5d1e8c65e714110d3ee6bfafa9abf/SiEPIC_TestCreator-0.1.2.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-24 01:48:14] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240524/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 01:48:14] INFO root fetch - processPackages [gradio-clickabletextbox]: Downloading https://files.pythonhosted.org/packages/c5/20/28c49473580f47716cb94b067de126d8ea7bffd573d5e314b75499438f89/gradio_clickabletextbox-0.0.3.tar.gz
+[2024-05-24 01:48:14] INFO root fetch - processPackages [SiEPIC-TestCreator]: executing diffoscope
+[2024-05-24 01:48:14] INFO root fetch - processPackages [SiEPIC-TestCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiEPIC_TestCreator-0.1.1.tar.gz tmp/SiEPIC_TestCreator-0.1.2.tar.gz --markdown 20240524/S/SiEPIC-TestCreator/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 01:48:14] INFO root fetch - processPackages [gradio-clickabletextbox]: executing diffoscope
+[2024-05-24 01:48:14] INFO root fetch - processPackages [gradio-clickabletextbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_clickabletextbox-0.0.2.tar.gz tmp/gradio_clickabletextbox-0.0.3.tar.gz --markdown 20240524/g/gradio-clickabletextbox/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 01:48:15] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-24 01:48:15] INFO root fetch - processPackages [gradio-clickabletextbox]: Remove: archive file [/home/abi/fetcher/tmp/gradio_clickabletextbox-0.0.2.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - processPackages [gradio-clickabletextbox]: Remove: archive file [/home/abi/fetcher/tmp/gradio_clickabletextbox-0.0.3.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - main [MainThread]: End processing [gradio-clickabletextbox]: success
+[2024-05-24 01:48:15] INFO root fetch - processPackages [SiEPIC-TestCreator]: Remove: archive file [/home/abi/fetcher/tmp/SiEPIC_TestCreator-0.1.1.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - processPackages [SiEPIC-TestCreator]: Remove: archive file [/home/abi/fetcher/tmp/SiEPIC_TestCreator-0.1.2.tar.gz]
+[2024-05-24 01:48:15] INFO root fetch - main [MainThread]: End processing [SiEPIC-TestCreator]: success
+[2024-05-24 01:48:15] INFO root fetch - main [MainThread]: Store serial: [23353279]
