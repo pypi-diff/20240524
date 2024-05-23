@@ -1357,3 +1357,60 @@
 [2024-05-24 01:13:14] INFO root fetch - processPackages [neuroweave]: Remove: archive file [/home/abi/fetcher/tmp/neuroweave-0.0.7.tar.gz]
 [2024-05-24 01:13:14] INFO root fetch - main [MainThread]: End processing [neuroweave]: success
 [2024-05-24 01:13:14] INFO root fetch - main [MainThread]: Store serial: [23352967]
+[2024-05-24 01:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352967]
+[2024-05-24 01:15:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spin
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surya-ocr
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtalx
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apsw
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-aws
+[2024-05-24 01:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gandai
+[2024-05-24 01:15:23] INFO root fetch - processPackages [xtalx]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [spin]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [xtalx]: Downloading https://files.pythonhosted.org/packages/92/91/f535342cf000cc892524cb960f9198d130dd3635fbd0f4ab18b1a375bf2f/xtalx-1.1.4.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [langchain-aws]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [surya-ocr]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [apsw]: New version: [3.9.2-r1] Old Version: [3.8.9-r1]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [gandai]: New version: [1.7.42] Old Version: [1.7.41]
+[2024-05-24 01:15:23] INFO root fetch - processPackages [spin]: Downloading https://files.pythonhosted.org/packages/00/8f/c6b204ec332677ebb3e197dde858c133264d9479787c781232ddac9d1de1/spin-0.8.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/dc/5b/94196f5274b4eb29d0b4333cd402b808d1c90801ca17edde2380664c3fb8/surya_ocr-0.4.7.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/5f/55/1c7d36e90d64acdb00509f0a7ff5d23b4e0ba29af9144eb8bc8ea9d2d5a5/langchain_aws-0.1.5.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [apsw]: Downloading https://files.pythonhosted.org/packages/72/ec/8986b6e957938389dfefa9c0a2f590ccadf9ebcb2d230d801f1b65f5d22e/apsw-3.8.9-r1.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/69/dc/4d5478d9373a4d306ae551fbdd1eff7e97da1c388374eccdb46e261b2c30/gandai-1.7.41.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [xtalx]: Downloading https://files.pythonhosted.org/packages/ac/3f/3bd8da788c9d4d31995fe1eda92f26074370754587b8332213ad03b6781e/xtalx-1.1.5.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [spin]: Downloading https://files.pythonhosted.org/packages/0b/f5/d3e6c15b3472d54e262b5232428ef096d633f4265a6c6d468dd2c38b2214/spin-0.9.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [xtalx]: executing diffoscope
+[2024-05-24 01:15:23] INFO root fetch - processPackages [xtalx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtalx-1.1.4.tar.gz tmp/xtalx-1.1.5.tar.gz --markdown 20240524/x/xtalx/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-24 01:15:23] INFO root fetch - processPackages [surya-ocr]: Downloading https://files.pythonhosted.org/packages/ca/63/58e3ae1a978719e5fce54df86bb91e909cbadb492233998047fc9a743ceb/surya_ocr-0.4.8.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/33/0f/ae7f6badb2f8f8c84465d3f7311b7548a3e353ed40aeb82172963510341a/langchain_aws-0.1.6.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [apsw]: Downloading https://files.pythonhosted.org/packages/b5/a1/3de5a2d35fc34939672f4e1bd7d68cca359a31b76926f00d95f434c63aaa/apsw-3.9.2-r1.tar.gz
+[2024-05-24 01:15:23] INFO root fetch - processPackages [spin]: executing diffoscope
+[2024-05-24 01:15:23] INFO root fetch - processPackages [spin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spin-0.8.tar.gz tmp/spin-0.9.tar.gz --markdown 20240524/s/spin/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 01:15:23] INFO root fetch - processPackages [surya-ocr]: executing diffoscope
+[2024-05-24 01:15:23] INFO root fetch - processPackages [surya-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surya_ocr-0.4.7.tar.gz tmp/surya_ocr-0.4.8.tar.gz --markdown 20240524/s/surya-ocr/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-24 01:15:23] INFO root fetch - processPackages [langchain-aws]: executing diffoscope
+[2024-05-24 01:15:23] INFO root fetch - processPackages [langchain-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_aws-0.1.5.tar.gz tmp/langchain_aws-0.1.6.tar.gz --markdown 20240524/l/langchain-aws/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-24 01:15:24] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/85/b8/d4981f786fa2a30dfb43d33152028f93ecb06fe6715438ee837172e6655d/gandai-1.7.42.tar.gz
+[2024-05-24 01:15:24] INFO root fetch - processPackages [apsw]: executing diffoscope
+[2024-05-24 01:15:24] INFO root fetch - processPackages [apsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apsw-3.8.9-r1.tar.gz tmp/apsw-3.9.2-r1.tar.gz --markdown 20240524/a/apsw/3.8.9-r1-3.9.2-r1/README.md --exclude *.pyd
+[2024-05-24 01:15:24] INFO root fetch - processPackages [xtalx]: Remove: archive file [/home/abi/fetcher/tmp/xtalx-1.1.4.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - processPackages [xtalx]: Remove: archive file [/home/abi/fetcher/tmp/xtalx-1.1.5.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - main [MainThread]: End processing [xtalx]: success
+[2024-05-24 01:15:24] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.5.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.6.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - main [MainThread]: End processing [langchain-aws]: success
+[2024-05-24 01:15:24] INFO root fetch - processPackages [spin]: Remove: archive file [/home/abi/fetcher/tmp/spin-0.8.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - processPackages [spin]: Remove: archive file [/home/abi/fetcher/tmp/spin-0.9.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - main [MainThread]: End processing [spin]: success
+[2024-05-24 01:15:24] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.7.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - processPackages [surya-ocr]: Remove: archive file [/home/abi/fetcher/tmp/surya_ocr-0.4.8.tar.gz]
+[2024-05-24 01:15:24] INFO root fetch - main [MainThread]: End processing [surya-ocr]: success
+[2024-05-24 01:15:24] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 01:15:24] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.41.tar.gz tmp/gandai-1.7.42.tar.gz --markdown 20240524/g/gandai/1.7.41-1.7.42/README.md --exclude *.pyd
+[2024-05-24 01:15:25] INFO root fetch - processPackages [apsw]: Remove: archive file [/home/abi/fetcher/tmp/apsw-3.8.9-r1.tar.gz]
+[2024-05-24 01:15:25] INFO root fetch - processPackages [apsw]: Remove: archive file [/home/abi/fetcher/tmp/apsw-3.9.2-r1.tar.gz]
+[2024-05-24 01:15:25] INFO root fetch - main [MainThread]: End processing [apsw]: success
+[2024-05-24 01:15:25] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.41.tar.gz]
+[2024-05-24 01:15:25] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.42.tar.gz]
+[2024-05-24 01:15:25] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 01:15:25] INFO root fetch - main [MainThread]: Store serial: [23352995]
