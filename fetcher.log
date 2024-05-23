@@ -356,3 +356,54 @@
 [2024-05-24 00:22:18] INFO root fetch - processPackages [pyvalkey]: Remove: archive file [/home/abi/fetcher/tmp/pyvalkey-0.0.5.tar.gz]
 [2024-05-24 00:22:18] INFO root fetch - main [MainThread]: End processing [pyvalkey]: success
 [2024-05-24 00:22:18] INFO root fetch - main [MainThread]: Store serial: [23352561]
+[2024-05-24 00:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352561]
+[2024-05-24 00:24:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedme
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fenics-smart
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slash-discord-py
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dandi
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicsnovault
+[2024-05-24 00:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleipnirgroup-jormungandr
+[2024-05-24 00:24:28] INFO root fetch - processPackages [embedme]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 00:24:28] INFO root fetch - processPackages [fenics-smart]: New version: [2.2.0] Old Version: [2.1.7]
+[2024-05-24 00:24:28] INFO root fetch - processPackages [dcicsnovault]: New version: [9.9.9.0b0] Old Version: [9.1.1]
+[2024-05-24 00:24:28] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/8f/0b/fea886e8f3fc2098e5fa309dba14d2916e5fc68a127213039976e83be394/embedme-0.1.3.tar.gz
+[2024-05-24 00:24:28] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/68/d0/7c75f69d831e74c0064cd9edf6d94ae68b8168f2fea6dcc6896ee9947727/fenics-smart-2.1.7.tar.gz
+[2024-05-24 00:24:28] WARNING root fetch - processPackages [slash-discord-py]: Skipping, unable to determine old version
+[2024-05-24 00:24:28] INFO root fetch - main [MainThread]: End processing [slash-discord-py] error
+[2024-05-24 00:24:28] INFO root fetch - processPackages [dandi]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 00:24:28] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/d9/56/60bf7990e8d3aa29414af29d0d3ac120091b7e42b64e880cc77388d6e641/dcicsnovault-9.1.1.tar.gz
+[2024-05-24 00:24:28] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-24 00:24:28] INFO root fetch - processPackages [fenics-smart]: Downloading https://files.pythonhosted.org/packages/5c/fd/a1b388edc18bd8e506bb53a928938700e232dcf56fed7071b8e001d8c542/fenics_smart-2.2.0.tar.gz
+[2024-05-24 00:24:28] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/45/27/7481f61f2dfd6bc781deb746db15788de5602cb62c74a83165382937191d/dandi-0.8.0.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/5b/69/2d661efc29e872887f547a770c16dcae8bd7f059e2d578d1a0eb526564f9/dcicsnovault-9.9.9.0b0.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/c3/a0/19d1c4cf950e6f60cb81c7a507e0c8ba434ba2f598a883d053f2c5b1aabe/embedme-0.1.4.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [fenics-smart]: executing diffoscope
+[2024-05-24 00:24:29] INFO root fetch - processPackages [fenics-smart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenics-smart-2.1.7.tar.gz tmp/fenics_smart-2.2.0.tar.gz --markdown 20240524/f/fenics-smart/2.1.7-2.2.0/README.md --exclude *.pyd
+[2024-05-24 00:24:29] INFO root fetch - processPackages [embedme]: executing diffoscope
+[2024-05-24 00:24:29] INFO root fetch - processPackages [embedme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedme-0.1.3.tar.gz tmp/embedme-0.1.4.tar.gz --markdown 20240524/e/embedme/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-9.1.1.tar.gz tmp/dcicsnovault-9.9.9.0b0.tar.gz --markdown 20240524/d/dcicsnovault/9.1.1-9.9.9.0b0/README.md --exclude *.pyd
+[2024-05-24 00:24:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dandi]: Downloading https://files.pythonhosted.org/packages/1a/6e/a8fc23e1e42d580ca6c094970f6eb6a25451f7c10e89e7c7db12ef039482/dandi-0.9.0.tar.gz
+[2024-05-24 00:24:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-24 00:24:29] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240524/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dandi]: executing diffoscope
+[2024-05-24 00:24:29] INFO root fetch - processPackages [dandi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dandi-0.8.0.tar.gz tmp/dandi-0.9.0.tar.gz --markdown 20240524/d/dandi/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 00:24:29] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.3.tar.gz]
+[2024-05-24 00:24:29] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.4.tar.gz]
+[2024-05-24 00:24:29] INFO root fetch - main [MainThread]: End processing [embedme]: success
+[2024-05-24 00:24:29] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics-smart-2.1.7.tar.gz]
+[2024-05-24 00:24:29] INFO root fetch - processPackages [fenics-smart]: Remove: archive file [/home/abi/fetcher/tmp/fenics_smart-2.2.0.tar.gz]
+[2024-05-24 00:24:29] INFO root fetch - main [MainThread]: End processing [fenics-smart]: success
+[2024-05-24 00:24:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-24 00:24:30] INFO root fetch - processPackages [dandi]: Remove: archive file [/home/abi/fetcher/tmp/dandi-0.8.0.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - processPackages [dandi]: Remove: archive file [/home/abi/fetcher/tmp/dandi-0.9.0.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - main [MainThread]: End processing [dandi]: success
+[2024-05-24 00:24:30] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.1.1.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
+[2024-05-24 00:24:30] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2024-05-24 00:24:30] INFO root fetch - main [MainThread]: Store serial: [23352581]
