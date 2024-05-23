@@ -121,3 +121,59 @@
 [2024-05-24 00:06:52] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.1.tar.gz]
 [2024-05-24 00:06:52] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
 [2024-05-24 00:06:52] INFO root fetch - main [MainThread]: Store serial: [23352443]
+[2024-05-24 00:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352443]
+[2024-05-24 00:09:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faiss-minio-connection
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stpredict
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tightwrap
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cocoon-data
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ion-python
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unray
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: healmatcher
+[2024-05-24 00:09:02] INFO root fetch - processPackages [unray]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 00:09:02] INFO root fetch - processPackages [healmatcher]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 00:09:02] WARNING root fetch - processPackages [faiss-minio-connection]: Skipping, unable to determine old version
+[2024-05-24 00:09:02] INFO root fetch - main [MainThread]: End processing [faiss-minio-connection] error
+[2024-05-24 00:09:02] INFO root fetch - processPackages [healmatcher]: Downloading https://files.pythonhosted.org/packages/fb/20/f7e572d8a74dc2d2241eac40c7a24750f7a2443bc7e3a1d84c4d5a0224f1/healmatcher-0.0.8.tar.gz
+[2024-05-24 00:09:02] INFO root fetch - processPackages [unray]: Downloading https://files.pythonhosted.org/packages/76/3d/8094413c155f9483504630300a3bba22710f9502c8f7807dd8d4e357fd5b/unray-1.0.3.tar.gz
+[2024-05-24 00:09:02] INFO root fetch - processPackages [ion-python]: New version: [2.0.0] Old Version: [1.8.2]
+[2024-05-24 00:09:02] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 00:09:02] INFO root fetch - processPackages [tightwrap]: New version: [24.3.0] Old Version: [24.2.0]
+[2024-05-24 00:09:02] INFO root fetch - processPackages [stpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 00:09:03] INFO root fetch - processPackages [tightwrap]: Downloading https://files.pythonhosted.org/packages/4b/9c/40062d31d4e46e3c18199ceb2564ea844015fba1f691c2e5c3f8e1d99d39/tightwrap-24.2.0.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [healmatcher]: Downloading https://files.pythonhosted.org/packages/12/9b/a343cbf87e2a27b26e18d48ec31365aab4620a2819f0b00cdc94bf65a533/healmatcher-0.0.9.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [ion-python]: Downloading https://files.pythonhosted.org/packages/b5/b9/3eba2801eb99c52f99e1a138b2053a266cc1238b33b5c17debc3ccd64dc1/ion_python-1.8.2-py3-none-win_amd64.whl
+[2024-05-24 00:09:03] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [stpredict]: Downloading https://files.pythonhosted.org/packages/60/e6/024bcccc5d2a9736885416bf3cad63494be16d662649bf1b028610c9d762/stpredict-0.0.8.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [unray]: Downloading https://files.pythonhosted.org/packages/96/2d/84f341055c96fb1dd12fb6e074e3327c73bacd11d4e37c6dcee076a0a559/unray-1.0.4.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [healmatcher]: executing diffoscope
+[2024-05-24 00:09:03] INFO root fetch - processPackages [healmatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healmatcher-0.0.8.tar.gz tmp/healmatcher-0.0.9.tar.gz --markdown 20240524/h/healmatcher/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 00:09:03] WARNING root fetch - processPackages [ion-python]: Skipping package: exceeds size limit 45724104>=10485760
+[2024-05-24 00:09:03] INFO root fetch - main [MainThread]: End processing [ion-python] error
+[2024-05-24 00:09:03] INFO root fetch - processPackages [unray]: executing diffoscope
+[2024-05-24 00:09:03] INFO root fetch - processPackages [unray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unray-1.0.3.tar.gz tmp/unray-1.0.4.tar.gz --markdown 20240524/u/unray/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 00:09:03] INFO root fetch - processPackages [tightwrap]: Downloading https://files.pythonhosted.org/packages/d5/38/5a5190bf7632a5e8444e197eb8073ebf7f67b7475ba6598b3b61624a1048/tightwrap-24.3.0.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [stpredict]: Downloading https://files.pythonhosted.org/packages/2d/12/bebcb417a40da78908a674e1e1a5336d0ea71e9453398debcea0c86bacb8/stpredict-0.0.9.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-24 00:09:03] INFO root fetch - processPackages [tightwrap]: executing diffoscope
+[2024-05-24 00:09:03] INFO root fetch - processPackages [tightwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tightwrap-24.2.0.tar.gz tmp/tightwrap-24.3.0.tar.gz --markdown 20240524/t/tightwrap/24.2.0-24.3.0/README.md --exclude *.pyd
+[2024-05-24 00:09:03] INFO root fetch - processPackages [stpredict]: executing diffoscope
+[2024-05-24 00:09:03] INFO root fetch - processPackages [stpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stpredict-0.0.8.tar.gz tmp/stpredict-0.0.9.tar.gz --markdown 20240524/s/stpredict/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 00:09:03] INFO root fetch - processPackages [healmatcher]: Remove: archive file [/home/abi/fetcher/tmp/healmatcher-0.0.8.tar.gz]
+[2024-05-24 00:09:03] INFO root fetch - processPackages [healmatcher]: Remove: archive file [/home/abi/fetcher/tmp/healmatcher-0.0.9.tar.gz]
+[2024-05-24 00:09:03] INFO root fetch - main [MainThread]: End processing [healmatcher]: success
+[2024-05-24 00:09:03] INFO root fetch - processPackages [unray]: Remove: archive file [/home/abi/fetcher/tmp/unray-1.0.3.tar.gz]
+[2024-05-24 00:09:03] INFO root fetch - processPackages [unray]: Remove: archive file [/home/abi/fetcher/tmp/unray-1.0.4.tar.gz]
+[2024-05-24 00:09:03] INFO root fetch - main [MainThread]: End processing [unray]: success
+[2024-05-24 00:09:04] INFO root fetch - processPackages [tightwrap]: Remove: archive file [/home/abi/fetcher/tmp/tightwrap-24.2.0.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - processPackages [tightwrap]: Remove: archive file [/home/abi/fetcher/tmp/tightwrap-24.3.0.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - main [MainThread]: End processing [tightwrap]: success
+[2024-05-24 00:09:04] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-24 00:09:04] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240524/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 00:09:04] INFO root fetch - processPackages [stpredict]: Remove: archive file [/home/abi/fetcher/tmp/stpredict-0.0.8.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - processPackages [stpredict]: Remove: archive file [/home/abi/fetcher/tmp/stpredict-0.0.9.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - main [MainThread]: End processing [stpredict]: success
+[2024-05-24 00:09:04] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-24 00:09:04] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-24 00:09:04] INFO root fetch - main [MainThread]: Store serial: [23352467]
