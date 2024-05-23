@@ -1047,3 +1047,90 @@
 [2024-05-24 00:51:25] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_sqlserver-3.3.5.tar.gz]
 [2024-05-24 00:51:25] INFO root fetch - main [MainThread]: End processing [soda-core-sqlserver]: success
 [2024-05-24 00:51:25] INFO root fetch - main [MainThread]: Store serial: [23352847]
+[2024-05-24 00:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352847]
+[2024-05-24 00:53:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soda-core-sqlserver
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soda-core-teradata
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soda-core-trino
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soda-core-vertica
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: g3t-etl
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radifox
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydicomsorter
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myne-tabular-classification-package
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: npDoseResponse
+[2024-05-24 00:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyterlab-unianalytics-dashboard
+[2024-05-24 00:53:34] INFO root fetch - processPackages [g3t-etl]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-sqlserver]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [pydicomsorter]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [radifox]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/aa/4e/e511c2b01c254af07dce3615209d2bede57b0ae8c8344bae139d8faef9fd/soda_core_sqlserver-3.3.4.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-vertica]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/32/76/ce754bc779c5eb463388d6d3d859d8030ffe935deff79ad257ffa8e9936d/g3t-etl-0.0.1rc8.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [npDoseResponse]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 00:53:34] WARNING root fetch - processPackages [myne-tabular-classification-package]: Skipping, unable to determine old version
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-teradata]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-05-24 00:53:34] INFO root fetch - main [MainThread]: End processing [myne-tabular-classification-package] error
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-trino]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-05-24 00:53:34] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/86/3a/7bcedaa67e59be7da358678f55c031f70e022140125183384fc90ecb47e2/pydicomsorter-0.9.1.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/6d/a4/1c9e2927d01524db74c2af1d41ca86cbe5baead743ee2221b02126eabd5f/radifox-1.2.0.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/8a/47/66819a13c3a113812f79e555a30f3842cb57594689385998863eac401506/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-sqlserver]: Downloading https://files.pythonhosted.org/packages/95/81/e520842d7b7c16c3e4b4ad199bc5957d27ce66e16a473f6e06a3d4c3b589/soda_core_sqlserver-3.3.5.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/58/0b/5d58482efd76da777a540f6215cbc662d226b56d4710fbe043670136804c/soda_core_trino-3.3.4.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/32/1b/a37beaed4d79ae2e5c9c1b1c6dc7662de6ba8c815afd4d3e8a323a02678e/soda_core_vertica-3.3.4.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/1c/c0/7b94ec0f60c3ca8f1f83a11054f72439016d5f145de29f7e842492dbb5f9/npdoseresponse-0.0.7.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/df/bc/27dfb5d518ea6fd10642d599897af4dba0279179a2fe8f02957b8deab299/g3t-etl-0.0.1rc9.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-teradata]: Downloading https://files.pythonhosted.org/packages/e8/23/302c02138278d859728ce802191fdd1130595416ce0fe762c43fa16466a8/soda_core_teradata-3.3.4.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/7b/5c/31e3b7855fe1337c4561a476c50a567939f65bb74d8723eba09d333cf98b/pydicomsorter-0.9.2.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/fa/3a/2f64cc08170843917ff625d07921de426902e629e5d8f94fc8a555e6a2a6/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-sqlserver]: executing diffoscope
+[2024-05-24 00:53:34] INFO root fetch - processPackages [soda-core-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda_core_sqlserver-3.3.4.tar.gz tmp/soda_core_sqlserver-3.3.5.tar.gz --markdown 20240524/s/soda-core-sqlserver/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-05-24 00:53:34] INFO root fetch - processPackages [g3t-etl]: executing diffoscope
+[2024-05-24 00:53:34] INFO root fetch - processPackages [g3t-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3t-etl-0.0.1rc8.tar.gz tmp/g3t-etl-0.0.1rc9.tar.gz --markdown 20240524/g/g3t-etl/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-05-24 00:53:34] INFO root fetch - processPackages [pydicomsorter]: executing diffoscope
+[2024-05-24 00:53:34] INFO root fetch - processPackages [pydicomsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicomsorter-0.9.1.tar.gz tmp/pydicomsorter-0.9.2.tar.gz --markdown 20240524/p/pydicomsorter/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-24 00:53:34] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/be/cb/68c708443a55b16e99d57a571dd800ce772a24fe44259ae83205b5dfa6e7/radifox-1.2.1.tar.gz
+[2024-05-24 00:53:35] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz --markdown 20240524/j/jupyterlab-unianalytics-dashboard/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-trino]: Downloading https://files.pythonhosted.org/packages/5f/a2/f7867ffade456d7ee08a63b9563f9ce8591e04c68e9e210ee060224fcd6f/soda_core_trino-3.3.5.tar.gz
+[2024-05-24 00:53:35] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/61/b0/c9295180d4ebad9d6b7f09615fcf3b7d8fab194926cbd4056b15cacc431f/npdoseresponse-0.0.8.tar.gz
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-vertica]: Downloading https://files.pythonhosted.org/packages/65/8c/d1e92333fe0c40f45e2c31cfd4d6818cc6509490d79b9d43b1707fc74aee/soda_core_vertica-3.3.5.tar.gz
+[2024-05-24 00:53:35] INFO root fetch - processPackages [radifox]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [radifox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radifox-1.2.0.tar.gz tmp/radifox-1.2.1.tar.gz --markdown 20240524/r/radifox/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-teradata]: Downloading https://files.pythonhosted.org/packages/16/80/edc71c86a2d5890aab6492db644da061f5aa8254eee21f66ec5038e9cc60/soda_core_teradata-3.3.5.tar.gz
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-trino]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda_core_trino-3.3.4.tar.gz tmp/soda_core_trino-3.3.5.tar.gz --markdown 20240524/s/soda-core-trino/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-vertica]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-vertica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda_core_vertica-3.3.4.tar.gz tmp/soda_core_vertica-3.3.5.tar.gz --markdown 20240524/s/soda-core-vertica/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-teradata]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda_core_teradata-3.3.4.tar.gz tmp/soda_core_teradata-3.3.5.tar.gz --markdown 20240524/s/soda-core-teradata/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [npDoseResponse]: executing diffoscope
+[2024-05-24 00:53:35] INFO root fetch - processPackages [npDoseResponse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npdoseresponse-0.0.7.tar.gz tmp/npdoseresponse-0.0.8.tar.gz --markdown 20240524/n/npDoseResponse/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_sqlserver-3.3.4.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_sqlserver-3.3.5.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - main [MainThread]: End processing [soda-core-sqlserver]: success
+[2024-05-24 00:53:35] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc8.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc9.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - main [MainThread]: End processing [g3t-etl]: success
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_vertica-3.3.4.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-vertica]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_vertica-3.3.5.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - main [MainThread]: End processing [soda-core-vertica]: success
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-teradata]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_teradata-3.3.4.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - processPackages [soda-core-teradata]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_teradata-3.3.5.tar.gz]
+[2024-05-24 00:53:35] INFO root fetch - main [MainThread]: End processing [soda-core-teradata]: success
+[2024-05-24 00:53:36] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.0.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.1.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - main [MainThread]: End processing [radifox]: success
+[2024-05-24 00:53:36] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_trino-3.3.4.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_trino-3.3.5.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - main [MainThread]: End processing [soda-core-trino]: success
+[2024-05-24 00:53:36] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.9.1.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.9.2.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - main [MainThread]: End processing [pydicomsorter]: success
+[2024-05-24 00:53:36] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.7.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.8.tar.gz]
+[2024-05-24 00:53:36] INFO root fetch - main [MainThread]: End processing [npDoseResponse]: success
+[2024-05-24 00:53:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz]
+[2024-05-24 00:53:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz]
+[2024-05-24 00:53:37] INFO root fetch - main [MainThread]: End processing [jupyterlab-unianalytics-dashboard]: success
+[2024-05-24 00:53:37] INFO root fetch - main [MainThread]: Store serial: [23352879]
