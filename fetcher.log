@@ -1718,3 +1718,48 @@
 [2024-05-24 01:35:12] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-24 01:35:12] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-24 01:35:12] INFO root fetch - main [MainThread]: Store serial: [23353212]
+[2024-05-24 01:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353212]
+[2024-05-24 01:37:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gandai
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-auth0
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SiEPIC-TestCreator
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osbot_aws
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pazok
+[2024-05-24 01:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homematicip
+[2024-05-24 01:37:21] WARNING root fetch - processPackages [SiEPIC-TestCreator]: Skipping, unable to determine old version
+[2024-05-24 01:37:21] INFO root fetch - main [MainThread]: End processing [SiEPIC-TestCreator] error
+[2024-05-24 01:37:21] INFO root fetch - processPackages [gandai]: New version: [1.7.43] Old Version: [1.7.42]
+[2024-05-24 01:37:21] INFO root fetch - processPackages [homematicip]: New version: [1.1.1] Old Version: [1.1.0.post1.dev30]
+[2024-05-24 01:37:21] WARNING root fetch - processPackages [pazok]: Skipping, unable to determine old version
+[2024-05-24 01:37:21] INFO root fetch - main [MainThread]: End processing [pazok] error
+[2024-05-24 01:37:21] INFO root fetch - processPackages [osbot_aws]: New version: [2.5.0] Old Version: [0.6.6]
+[2024-05-24 01:37:21] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/85/b8/d4981f786fa2a30dfb43d33152028f93ecb06fe6715438ee837172e6655d/gandai-1.7.42.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1716504304] Old Version: [3.4.0a1716264620]
+[2024-05-24 01:37:21] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/2b/7f/cdbe0ed7b7e4b282b8d024468dacd99aa09bc8f8071ffc08d40811b0961c/homematicip-1.1.0.post1.dev30.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [osbot_aws]: Downloading https://files.pythonhosted.org/packages/e6/2d/dfca5fe38d39f0d18a6a2a9a5c7ff45dcddab0c5d08c341bfa5016150489/osbot_aws-0.6.6.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/83/f3/877e9d46626fb57b9e7d4ae57bd7f68dc9d8c6be50810cf2957909fde277/pulumi_auth0-3.4.0a1716264620.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/bc/66/0f52c9cd10a2796ed9a6318b9aa15f1d9d58cebc9040f24b2a09da301d02/gandai-1.7.43.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/27/52/35f13729bcf397dec566908becf186d7f9078020ba54bfe0d38fc67e798c/homematicip-1.1.1.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 01:37:21] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.42.tar.gz tmp/gandai-1.7.43.tar.gz --markdown 20240524/g/gandai/1.7.42-1.7.43/README.md --exclude *.pyd
+[2024-05-24 01:37:21] INFO root fetch - processPackages [homematicip]: executing diffoscope
+[2024-05-24 01:37:21] INFO root fetch - processPackages [homematicip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homematicip-1.1.0.post1.dev30.tar.gz tmp/homematicip-1.1.1.tar.gz --markdown 20240524/h/homematicip/1.1.0.post1.dev30-1.1.1/README.md --exclude *.pyd
+[2024-05-24 01:37:21] INFO root fetch - processPackages [osbot_aws]: Downloading https://files.pythonhosted.org/packages/4f/52/02475c1a4d2b8f8f705f5286d3661d381ddfc26cbec25e6c2598e1eabc8e/osbot_aws-2.5.0.tar.gz
+[2024-05-24 01:37:21] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/04/17/28888dbd82b30f147fe4b2fc6aaea7262b9511f401549272abf6ee061207/pulumi_auth0-3.4.0a1716504304.tar.gz
+[2024-05-24 01:37:22] INFO root fetch - processPackages [osbot_aws]: executing diffoscope
+[2024-05-24 01:37:22] INFO root fetch - processPackages [osbot_aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_aws-0.6.6.tar.gz tmp/osbot_aws-2.5.0.tar.gz --markdown 20240524/o/osbot_aws/0.6.6-2.5.0/README.md --exclude *.pyd
+[2024-05-24 01:37:22] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-24 01:37:22] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1716264620.tar.gz tmp/pulumi_auth0-3.4.0a1716504304.tar.gz --markdown 20240524/p/pulumi-auth0/3.4.0a1716264620-3.4.0a1716504304/README.md --exclude *.pyd
+[2024-05-24 01:37:22] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.42.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.43.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 01:37:22] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.post1.dev30.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.1.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - main [MainThread]: End processing [homematicip]: success
+[2024-05-24 01:37:22] INFO root fetch - processPackages [osbot_aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-0.6.6.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - processPackages [osbot_aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.5.0.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - main [MainThread]: End processing [osbot_aws]: success
+[2024-05-24 01:37:22] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716264620.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716504304.tar.gz]
+[2024-05-24 01:37:22] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-24 01:37:22] INFO root fetch - main [MainThread]: Store serial: [23353232]
