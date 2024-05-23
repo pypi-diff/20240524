@@ -245,3 +245,24 @@
 [2024-05-24 00:15:42] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.8.tar.gz]
 [2024-05-24 00:15:42] INFO root fetch - main [MainThread]: End processing [pragma-sdk]: success
 [2024-05-24 00:15:42] INFO root fetch - main [MainThread]: Store serial: [23352485]
+[2024-05-24 00:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352485]
+[2024-05-24 00:17:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 00:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zermelo-api-vogk
+[2024-05-24 00:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ScreenPro2
+[2024-05-24 00:17:51] INFO root fetch - processPackages [zermelo-api-vogk]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-24 00:17:51] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/78/2f/35ad6ae963c59b823b0d3a704671366313352dfc7822518e41a9c099700a/zermelo_api_vogk-1.0.7.tar.gz
+[2024-05-24 00:17:51] INFO root fetch - processPackages [ScreenPro2]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-24 00:17:52] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/3d/d6/b5515074005dbb1e765b63681824709caf40066badfa07b3956458c38d7f/ScreenPro2-0.3.2-py2.py3-none-any.whl
+[2024-05-24 00:17:52] INFO root fetch - processPackages [zermelo-api-vogk]: Downloading https://files.pythonhosted.org/packages/3f/77/91ad97fa5617bc74f01d7c0a88db26e1d19407b39cebe8e1fb2437eb144a/zermelo_api_vogk-1.0.8.tar.gz
+[2024-05-24 00:17:52] INFO root fetch - processPackages [zermelo-api-vogk]: executing diffoscope
+[2024-05-24 00:17:52] INFO root fetch - processPackages [zermelo-api-vogk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zermelo_api_vogk-1.0.7.tar.gz tmp/zermelo_api_vogk-1.0.8.tar.gz --markdown 20240524/z/zermelo-api-vogk/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-24 00:17:52] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/36/5c/962b87ea9d834a7ecd5eb5fababc028692f89c99ca0c21874a42a4ecdffa/ScreenPro2-0.3.3-py2.py3-none-any.whl
+[2024-05-24 00:17:52] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-05-24 00:17:52] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.3.2-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.3.3-py2.py3-none-any.whl.zip --markdown 20240524/S/ScreenPro2/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-24 00:17:53] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.7.tar.gz]
+[2024-05-24 00:17:53] INFO root fetch - processPackages [zermelo-api-vogk]: Remove: archive file [/home/abi/fetcher/tmp/zermelo_api_vogk-1.0.8.tar.gz]
+[2024-05-24 00:17:53] INFO root fetch - main [MainThread]: End processing [zermelo-api-vogk]: success
+[2024-05-24 00:17:53] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.3.2-py2.py3-none-any.whl.zip]
+[2024-05-24 00:17:53] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.3.3-py2.py3-none-any.whl.zip]
+[2024-05-24 00:17:53] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-05-24 00:17:53] INFO root fetch - main [MainThread]: Store serial: [23352491]
