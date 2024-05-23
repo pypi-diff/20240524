@@ -1345,3 +1345,15 @@
 [2024-05-24 01:11:04] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
 [2024-05-24 01:11:04] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
 [2024-05-24 01:11:04] INFO root fetch - main [MainThread]: Store serial: [23352964]
+[2024-05-24 01:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352964]
+[2024-05-24 01:13:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 01:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuroweave
+[2024-05-24 01:13:13] INFO root fetch - processPackages [neuroweave]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 01:13:13] INFO root fetch - processPackages [neuroweave]: Downloading https://files.pythonhosted.org/packages/fd/4b/65769d101741a25fb3e5d693268eaa8abd73b22d1c2c5e2af304fc9dbe8d/neuroweave-0.0.6.tar.gz
+[2024-05-24 01:13:13] INFO root fetch - processPackages [neuroweave]: Downloading https://files.pythonhosted.org/packages/1b/d4/fe4f598c64daff87145f6d98ceb0747b70acc25afe80891438e104292537/neuroweave-0.0.7.tar.gz
+[2024-05-24 01:13:13] INFO root fetch - processPackages [neuroweave]: executing diffoscope
+[2024-05-24 01:13:13] INFO root fetch - processPackages [neuroweave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroweave-0.0.6.tar.gz tmp/neuroweave-0.0.7.tar.gz --markdown 20240524/n/neuroweave/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 01:13:14] INFO root fetch - processPackages [neuroweave]: Remove: archive file [/home/abi/fetcher/tmp/neuroweave-0.0.6.tar.gz]
+[2024-05-24 01:13:14] INFO root fetch - processPackages [neuroweave]: Remove: archive file [/home/abi/fetcher/tmp/neuroweave-0.0.7.tar.gz]
+[2024-05-24 01:13:14] INFO root fetch - main [MainThread]: End processing [neuroweave]: success
+[2024-05-24 01:13:14] INFO root fetch - main [MainThread]: Store serial: [23352967]
