@@ -323,3 +323,36 @@
 [2024-05-24 00:20:08] INFO root fetch - processPackages [WhiskiWrap]: Remove: archive file [/home/abi/fetcher/tmp/WhiskiWrap-1.1.9.tar.gz]
 [2024-05-24 00:20:08] INFO root fetch - main [MainThread]: End processing [WhiskiWrap]: success
 [2024-05-24 00:20:08] INFO root fetch - main [MainThread]: Store serial: [23352530]
+[2024-05-24 00:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352530]
+[2024-05-24 00:22:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 00:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viking-log-keeper
+[2024-05-24 00:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite2duckdb
+[2024-05-24 00:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RedVert
+[2024-05-24 00:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvalkey
+[2024-05-24 00:22:16] INFO root fetch - processPackages [RedVert]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-24 00:22:16] INFO root fetch - processPackages [viking-log-keeper]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-24 00:22:16] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/3a/15/cc18c26976d6f01b246e6f40c96ccd3db8b7834f6da98e3483ca1f0ff596/redvert-1.5.4.tar.gz
+[2024-05-24 00:22:16] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/b5/a1/b6a1f01ef7437d2db3843f3ba8f9d76a9afbf3808d471fb581ecb682c642/viking_log_keeper-1.1.0.tar.gz
+[2024-05-24 00:22:16] ERROR root fetch - processPackages [sqlite2duckdb]: Unable to get metadata: No such project 'sqlite2duckdb'
+[2024-05-24 00:22:16] INFO root fetch - main [MainThread]: End processing [sqlite2duckdb] error
+[2024-05-24 00:22:16] INFO root fetch - processPackages [pyvalkey]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 00:22:17] INFO root fetch - processPackages [RedVert]: Downloading https://files.pythonhosted.org/packages/51/41/14183dace6db2461e7872ca6732d0e130ae99e30ba301c3520a0ab3728f8/redvert-1.5.5.tar.gz
+[2024-05-24 00:22:17] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/cd/3e/995f28c1e65478f9d82c6d0ed5430a9c5ea9aa49550ff799e5ed7a08ebec/viking_log_keeper-1.2.0.tar.gz
+[2024-05-24 00:22:17] INFO root fetch - processPackages [pyvalkey]: Downloading https://files.pythonhosted.org/packages/ad/de/6fa8ecdfbaf2bf895aa022a427fdfa0d67ecb85a1d3d555fa8b2e97f7996/pyvalkey-0.0.4.tar.gz
+[2024-05-24 00:22:17] INFO root fetch - processPackages [RedVert]: executing diffoscope
+[2024-05-24 00:22:17] INFO root fetch - processPackages [RedVert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvert-1.5.4.tar.gz tmp/redvert-1.5.5.tar.gz --markdown 20240524/R/RedVert/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-24 00:22:17] INFO root fetch - processPackages [viking-log-keeper]: executing diffoscope
+[2024-05-24 00:22:17] INFO root fetch - processPackages [viking-log-keeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viking_log_keeper-1.1.0.tar.gz tmp/viking_log_keeper-1.2.0.tar.gz --markdown 20240524/v/viking-log-keeper/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-24 00:22:17] INFO root fetch - processPackages [pyvalkey]: Downloading https://files.pythonhosted.org/packages/5b/43/404c8c7184def333db9b301667ded0e03e546239fbb63f0e0b56c58f2142/pyvalkey-0.0.5.tar.gz
+[2024-05-24 00:22:17] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.5.4.tar.gz]
+[2024-05-24 00:22:17] INFO root fetch - processPackages [RedVert]: Remove: archive file [/home/abi/fetcher/tmp/redvert-1.5.5.tar.gz]
+[2024-05-24 00:22:17] INFO root fetch - main [MainThread]: End processing [RedVert]: success
+[2024-05-24 00:22:17] INFO root fetch - processPackages [pyvalkey]: executing diffoscope
+[2024-05-24 00:22:17] INFO root fetch - processPackages [pyvalkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvalkey-0.0.4.tar.gz tmp/pyvalkey-0.0.5.tar.gz --markdown 20240524/p/pyvalkey/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 00:22:17] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking_log_keeper-1.1.0.tar.gz]
+[2024-05-24 00:22:17] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking_log_keeper-1.2.0.tar.gz]
+[2024-05-24 00:22:17] INFO root fetch - main [MainThread]: End processing [viking-log-keeper]: success
+[2024-05-24 00:22:18] INFO root fetch - processPackages [pyvalkey]: Remove: archive file [/home/abi/fetcher/tmp/pyvalkey-0.0.4.tar.gz]
+[2024-05-24 00:22:18] INFO root fetch - processPackages [pyvalkey]: Remove: archive file [/home/abi/fetcher/tmp/pyvalkey-0.0.5.tar.gz]
+[2024-05-24 00:22:18] INFO root fetch - main [MainThread]: End processing [pyvalkey]: success
+[2024-05-24 00:22:18] INFO root fetch - main [MainThread]: Store serial: [23352561]
