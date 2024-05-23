@@ -91,3 +91,33 @@
 [2024-05-24 00:04:41] INFO root fetch - processPackages [bayeux-ml]: Remove: archive file [/home/abi/fetcher/tmp/bayeux_ml-0.1.9.tar.gz]
 [2024-05-24 00:04:41] INFO root fetch - main [MainThread]: End processing [bayeux-ml]: success
 [2024-05-24 00:04:41] INFO root fetch - main [MainThread]: Store serial: [23352425]
+[2024-05-24 00:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352425]
+[2024-05-24 00:06:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 00:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epik8spydev
+[2024-05-24 00:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dominodatalab-data
+[2024-05-24 00:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: t2d2-sdk
+[2024-05-24 00:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ollama-chat
+[2024-05-24 00:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faiss-minio-connection
+[2024-05-24 00:06:51] WARNING root fetch - processPackages [ollama-chat]: Skipping, unable to determine old version
+[2024-05-24 00:06:51] INFO root fetch - main [MainThread]: End processing [ollama-chat] error
+[2024-05-24 00:06:51] WARNING root fetch - processPackages [epik8spydev]: Skipping, unable to determine old version
+[2024-05-24 00:06:51] INFO root fetch - main [MainThread]: End processing [epik8spydev] error
+[2024-05-24 00:06:51] INFO root fetch - processPackages [dominodatalab-data]: New version: [5.9.1] Old Version: [5.9.0]
+[2024-05-24 00:06:51] INFO root fetch - processPackages [t2d2-sdk]: New version: [1.4.dev1] Old Version: [1.4.9]
+[2024-05-24 00:06:51] WARNING root fetch - processPackages [faiss-minio-connection]: Skipping, unable to determine old version
+[2024-05-24 00:06:51] INFO root fetch - main [MainThread]: End processing [faiss-minio-connection] error
+[2024-05-24 00:06:51] INFO root fetch - processPackages [t2d2-sdk]: Downloading https://files.pythonhosted.org/packages/fb/32/fd15ff7bcaea0cdc8b04740e2cf8308a99e466931f84cd20bf171b30a7af/t2d2-sdk-1.4.9.tar.gz
+[2024-05-24 00:06:51] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/24/85/917d4815c3c2196fbb705af377b19e9c0e8adae6b4541f3640a63708379e/dominodatalab_data-5.9.0.tar.gz
+[2024-05-24 00:06:51] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/0c/75/813d4252452652608e1c7983d1a0f37ea48607489b10d3fdd42e0896f5b1/dominodatalab_data-5.9.1.tar.gz
+[2024-05-24 00:06:51] INFO root fetch - processPackages [t2d2-sdk]: Downloading https://files.pythonhosted.org/packages/1b/fe/5df6c2fb908563209658f282c01dc91e40ced7548bc323899494a615f403/t2d2-sdk-1.4.dev1.tar.gz
+[2024-05-24 00:06:51] INFO root fetch - processPackages [dominodatalab-data]: executing diffoscope
+[2024-05-24 00:06:51] INFO root fetch - processPackages [dominodatalab-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dominodatalab_data-5.9.0.tar.gz tmp/dominodatalab_data-5.9.1.tar.gz --markdown 20240524/d/dominodatalab-data/5.9.0-5.9.1/README.md --exclude *.pyd
+[2024-05-24 00:06:51] INFO root fetch - processPackages [t2d2-sdk]: executing diffoscope
+[2024-05-24 00:06:51] INFO root fetch - processPackages [t2d2-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2d2-sdk-1.4.9.tar.gz tmp/t2d2-sdk-1.4.dev1.tar.gz --markdown 20240524/t/t2d2-sdk/1.4.9-1.4.dev1/README.md --exclude *.pyd
+[2024-05-24 00:06:52] INFO root fetch - processPackages [t2d2-sdk]: Remove: archive file [/home/abi/fetcher/tmp/t2d2-sdk-1.4.9.tar.gz]
+[2024-05-24 00:06:52] INFO root fetch - processPackages [t2d2-sdk]: Remove: archive file [/home/abi/fetcher/tmp/t2d2-sdk-1.4.dev1.tar.gz]
+[2024-05-24 00:06:52] INFO root fetch - main [MainThread]: End processing [t2d2-sdk]: success
+[2024-05-24 00:06:52] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.0.tar.gz]
+[2024-05-24 00:06:52] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.9.1.tar.gz]
+[2024-05-24 00:06:52] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
+[2024-05-24 00:06:52] INFO root fetch - main [MainThread]: Store serial: [23352443]
