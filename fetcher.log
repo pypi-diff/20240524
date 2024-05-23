@@ -1566,3 +1566,51 @@
 [2024-05-24 01:26:20] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.9.tar.gz]
 [2024-05-24 01:26:20] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
 [2024-05-24 01:26:20] INFO root fetch - main [MainThread]: Store serial: [23353103]
+[2024-05-24 01:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353103]
+[2024-05-24 01:28:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 01:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whitebox
+[2024-05-24 01:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pricecypher-sdk
+[2024-05-24 01:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marker-pdf
+[2024-05-24 01:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dark-matter
+[2024-05-24 01:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hklpy2
+[2024-05-24 01:28:30] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 01:28:30] INFO root fetch - processPackages [pricecypher-sdk]: New version: [2.1.1.dev9] Old Version: [2.1.1.dev8]
+[2024-05-24 01:28:30] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/38/49/b89d96ed3ff310fb5c9d6c14c89281602d3c2a6128611d6a53449c0d22b8/pricecypher_sdk-2.1.1.dev8.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [marker-pdf]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 01:28:30] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.83]
+[2024-05-24 01:28:30] INFO root fetch - processPackages [whitebox]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-24 01:28:30] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/47/6c/589b151e576c881ee012fb77d30d9e3ab67de2d5f6a776ca2bbbceeea1cd/dark-matter-4.0.83.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/9c/7f/aa27a6ddcc12d073279b373b7fe5d4f23ee5c342dd6bc535ee052a6ff702/marker_pdf-0.2.8.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/a9/09/845a1d8801385f82e900c7737902408e9994871830eb24e0bcee3e73a22a/pricecypher_sdk-2.1.1.dev9.tar.gz
+[2024-05-24 01:28:30] INFO root fetch - processPackages [whitebox]: Downloading https://files.pythonhosted.org/packages/d7/f4/cb1462db1ac226a6e57668a0cc3d922707bd9d779e87d0c4e78103970a2d/whitebox-2.3.1.tar.gz
+[2024-05-24 01:28:31] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-24 01:28:31] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240524/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 01:28:31] INFO root fetch - processPackages [pricecypher-sdk]: executing diffoscope
+[2024-05-24 01:28:31] INFO root fetch - processPackages [pricecypher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricecypher_sdk-2.1.1.dev8.tar.gz tmp/pricecypher_sdk-2.1.1.dev9.tar.gz --markdown 20240524/p/pricecypher-sdk/2.1.1.dev8-2.1.1.dev9/README.md --exclude *.pyd
+[2024-05-24 01:28:31] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/50/c3/93dd7686515c4e0290e5a3b37ae17a9de05318d79324c6f5b0cc45d5aa96/marker_pdf-0.2.9.tar.gz
+[2024-05-24 01:28:31] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2024-05-24 01:28:31] INFO root fetch - processPackages [whitebox]: Downloading https://files.pythonhosted.org/packages/b2/82/73ce27eb721ff577f208ef661b024312a583f931ce7091d66dad3105b248/whitebox-2.3.2.tar.gz
+[2024-05-24 01:28:31] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2024-05-24 01:28:31] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.83.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20240524/d/dark-matter/4.0.83-4.0.9/README.md --exclude *.pyd
+[2024-05-24 01:28:31] INFO root fetch - processPackages [marker-pdf]: executing diffoscope
+[2024-05-24 01:28:31] INFO root fetch - processPackages [marker-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marker_pdf-0.2.8.tar.gz tmp/marker_pdf-0.2.9.tar.gz --markdown 20240524/m/marker-pdf/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 01:28:31] INFO root fetch - processPackages [whitebox]: executing diffoscope
+[2024-05-24 01:28:31] INFO root fetch - processPackages [whitebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitebox-2.3.1.tar.gz tmp/whitebox-2.3.2.tar.gz --markdown 20240524/w/whitebox/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-24 01:28:31] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-05-24 01:28:31] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-05-24 01:28:31] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-24 01:28:31] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev8.tar.gz]
+[2024-05-24 01:28:31] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev9.tar.gz]
+[2024-05-24 01:28:31] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
+[2024-05-24 01:28:32] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.8.tar.gz]
+[2024-05-24 01:28:32] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.9.tar.gz]
+[2024-05-24 01:28:32] INFO root fetch - main [MainThread]: End processing [marker-pdf]: success
+[2024-05-24 01:28:32] INFO root fetch - processPackages [whitebox]: Remove: archive file [/home/abi/fetcher/tmp/whitebox-2.3.1.tar.gz]
+[2024-05-24 01:28:32] INFO root fetch - processPackages [whitebox]: Remove: archive file [/home/abi/fetcher/tmp/whitebox-2.3.2.tar.gz]
+[2024-05-24 01:28:32] INFO root fetch - main [MainThread]: End processing [whitebox]: success
+[2024-05-24 01:28:33] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.83.tar.gz]
+[2024-05-24 01:28:33] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2024-05-24 01:28:33] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2024-05-24 01:28:33] INFO root fetch - main [MainThread]: Store serial: [23353117]
