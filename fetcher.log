@@ -690,3 +690,49 @@
 [2024-05-24 00:38:12] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-1.3.9.tar.gz]
 [2024-05-24 00:38:12] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
 [2024-05-24 00:38:12] INFO root fetch - main [MainThread]: Store serial: [23352712]
+[2024-05-24 00:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352712]
+[2024-05-24 00:40:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabswitcher
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-preprocessing-library-sevvalcucuk-asudesozcu
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g3t-etl
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaggle-environments
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ParliamentArch
+[2024-05-24 00:40:20] WARNING root fetch - processPackages [tabswitcher]: Skipping, unable to determine old version
+[2024-05-24 00:40:20] INFO root fetch - main [MainThread]: End processing [tabswitcher] error
+[2024-05-24 00:40:20] INFO root fetch - processPackages [data-preprocessing-library-sevvalcucuk-asudesozcu]: New version: [4.5.1] Old Version: [1.1.2]
+[2024-05-24 00:40:20] INFO root fetch - processPackages [g3t-etl]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-05-24 00:40:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202405231518] Old Version: [99.0.202405231512]
+[2024-05-24 00:40:20] INFO root fetch - processPackages [ParliamentArch]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-24 00:40:20] INFO root fetch - processPackages [kaggle-environments]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-24 00:40:20] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/32/76/ce754bc779c5eb463388d6d3d859d8030ffe935deff79ad257ffa8e9936d/g3t-etl-0.0.1rc8.tar.gz
+[2024-05-24 00:40:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/23/b1/7ceab94d436d4aac3361ff0cb3820facb7dac3490c5b2b9601e50917ae42/kcli-99.0.202405231512.tar.gz
+[2024-05-24 00:40:20] ERROR root fetch - processPackages [data-preprocessing-library-sevvalcucuk-asudesozcu]: Unable to fetch info: No such project/version 'data-preprocessing-library-sevvalcucuk-asudesozcu' 1.1.2
+[2024-05-24 00:40:20] INFO root fetch - main [MainThread]: End processing [data-preprocessing-library-sevvalcucuk-asudesozcu] error
+[2024-05-24 00:40:21] INFO root fetch - processPackages [ParliamentArch]: Downloading https://files.pythonhosted.org/packages/ae/06/6e1218ebd45d9a4c5973ceb2f5d783ff0c591acc49636b3282156b0057ab/parliamentarch-1.0.tar.gz
+[2024-05-24 00:40:21] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/fa/7b/f613651fb7eaab9c54d06593fc467caec0be07a1db22de1b9094629dfcfa/kaggle-environments-1.9.8.tar.gz
+[2024-05-24 00:40:21] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/df/bc/27dfb5d518ea6fd10642d599897af4dba0279179a2fe8f02957b8deab299/g3t-etl-0.0.1rc9.tar.gz
+[2024-05-24 00:40:21] INFO root fetch - processPackages [g3t-etl]: executing diffoscope
+[2024-05-24 00:40:21] INFO root fetch - processPackages [g3t-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3t-etl-0.0.1rc8.tar.gz tmp/g3t-etl-0.0.1rc9.tar.gz --markdown 20240524/g/g3t-etl/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-05-24 00:40:21] INFO root fetch - processPackages [ParliamentArch]: Downloading https://files.pythonhosted.org/packages/49/59/ec497650715a2dfb0b4c3847b2cb2b281a3ad76de3a6f773b8c3a4c4a3eb/parliamentarch-1.0.1.tar.gz
+[2024-05-24 00:40:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/c2/5e9cd7c215b25612c4d1bb280b8126a0e75b99d0bc2c07dc1d24e8a1c958/kcli-99.0.202405231518.tar.gz
+[2024-05-24 00:40:21] INFO root fetch - processPackages [ParliamentArch]: executing diffoscope
+[2024-05-24 00:40:21] INFO root fetch - processPackages [ParliamentArch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parliamentarch-1.0.tar.gz tmp/parliamentarch-1.0.1.tar.gz --markdown 20240524/P/ParliamentArch/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 00:40:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-24 00:40:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405231512.tar.gz tmp/kcli-99.0.202405231518.tar.gz --markdown 20240524/k/kcli/99.0.202405231512-99.0.202405231518/README.md --exclude *.pyd
+[2024-05-24 00:40:21] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc8.tar.gz]
+[2024-05-24 00:40:21] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc9.tar.gz]
+[2024-05-24 00:40:21] INFO root fetch - main [MainThread]: End processing [g3t-etl]: success
+[2024-05-24 00:40:21] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/b7/d8/f202378172046cc1ace880ae148ceda8d0b09fc642fd6399392337df6c6c/kaggle-environments-1.9.9.tar.gz
+[2024-05-24 00:40:22] INFO root fetch - processPackages [ParliamentArch]: Remove: archive file [/home/abi/fetcher/tmp/parliamentarch-1.0.tar.gz]
+[2024-05-24 00:40:22] INFO root fetch - processPackages [ParliamentArch]: Remove: archive file [/home/abi/fetcher/tmp/parliamentarch-1.0.1.tar.gz]
+[2024-05-24 00:40:22] INFO root fetch - main [MainThread]: End processing [ParliamentArch]: success
+[2024-05-24 00:40:22] INFO root fetch - processPackages [kaggle-environments]: executing diffoscope
+[2024-05-24 00:40:22] INFO root fetch - processPackages [kaggle-environments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-environments-1.9.8.tar.gz tmp/kaggle-environments-1.9.9.tar.gz --markdown 20240524/k/kaggle-environments/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-24 00:40:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405231512.tar.gz]
+[2024-05-24 00:40:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405231518.tar.gz]
+[2024-05-24 00:40:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-24 00:40:29] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.8.tar.gz]
+[2024-05-24 00:40:29] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.9.tar.gz]
+[2024-05-24 00:40:29] INFO root fetch - main [MainThread]: End processing [kaggle-environments]: success
+[2024-05-24 00:40:29] INFO root fetch - main [MainThread]: Store serial: [23352733]
