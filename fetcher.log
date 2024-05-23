@@ -1328,3 +1328,20 @@
 [2024-05-24 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240522.tar.gz]
 [2024-05-24 01:06:48] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-24 01:06:48] INFO root fetch - main [MainThread]: Store serial: [23352956]
+[2024-05-24 01:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352956]
+[2024-05-24 01:08:57] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 01:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352956]
+[2024-05-24 01:11:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 01:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drapi-lemur
+[2024-05-24 01:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osbot_utils
+[2024-05-24 01:11:02] WARNING root fetch - processPackages [osbot_utils]: Skipping, unable to determine old version
+[2024-05-24 01:11:02] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.43]
+[2024-05-24 01:11:02] INFO root fetch - main [MainThread]: End processing [osbot_utils] error
+[2024-05-24 01:11:02] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/a3/9d/a6eb7a7a4830bab49b8634eb0b60822a4bfad26eb2fafcc4ecd3b2a297de/drapi_lemur-1.0.43.tar.gz
+[2024-05-24 01:11:03] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-05-24 01:11:03] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-05-24 01:11:03] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi_lemur-1.0.43.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240524/d/drapi-lemur/1.0.43-1.0.5/README.md --exclude *.pyd
+[2024-05-24 01:11:04] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi_lemur-1.0.43.tar.gz]
+[2024-05-24 01:11:04] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-05-24 01:11:04] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-05-24 01:11:04] INFO root fetch - main [MainThread]: Store serial: [23352964]
