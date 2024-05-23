@@ -1414,3 +1414,63 @@
 [2024-05-24 01:15:25] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.42.tar.gz]
 [2024-05-24 01:15:25] INFO root fetch - main [MainThread]: End processing [gandai]: success
 [2024-05-24 01:15:25] INFO root fetch - main [MainThread]: Store serial: [23352995]
+[2024-05-24 01:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352995]
+[2024-05-24 01:17:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SiEPIC-TestCreator
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miska
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourskyai_astro_api
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ourskyai_platform_api
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ourskyai_sda_api
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nodify
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digrdf
+[2024-05-24 01:17:34] INFO root fetch - processPackages [digrdf]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [nodify]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_astro_api]: New version: [1.3.3654] Old Version: [1.3.3644]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_platform_api]: New version: [1.3.3657] Old Version: [1.3.3654]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/4b/f8/072918de0c7378978e108b8416df04cf877514d1f3efd095725e1a3c34d3/digrdf-0.1.5.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_sda_api]: New version: [1.3.3657] Old Version: [1.3.3654]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [miska]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 01:17:34] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/ad/12/1871537db64d7ec123682ac7d6b851fee5466767ffa00aa69bd4a77548ae/nodify-0.0.6.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/6b/fa/29014822d680ea85759f6206e4b4e8afd2615997159919f0a7602fa3f404/ourskyai_astro_api-1.3.3644.tar.gz
+[2024-05-24 01:17:34] WARNING root fetch - processPackages [SiEPIC-TestCreator]: Skipping, unable to determine old version
+[2024-05-24 01:17:34] INFO root fetch - main [MainThread]: End processing [SiEPIC-TestCreator] error
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/68/1b/d2911cae0b707431d7b61607ab7fb679e5f80a55f978ea19ece86ffa49b0/ourskyai_platform_api-1.3.3654.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/3d/df/376c174881c337d0afbd901be6caa25d7c0ce9ef9b54af51c2e35d6c889a/ourskyai_sda_api-1.3.3654.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/67/8f/e129f9bd15c345f1a171c8d1577a72826fe27c1114a4bbdb82daf020af0c/digrdf-0.1.6.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [miska]: Downloading https://files.pythonhosted.org/packages/0e/b2/51adee2d0dec229f2d4fa52d7c8beaaba5dbaa34a992230d34e344c2ae45/miska-0.0.4.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_astro_api]: Downloading https://files.pythonhosted.org/packages/f8/61/9c82890270385d72caef3ea3270ce9370b7a2de3eaa22e79ebdeb871d2a3/ourskyai_astro_api-1.3.3654.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/2c/5c/5433fa948c35d2459bfd9018b23a4f8f0dce7edb5e5960e162be03c095a9/nodify-0.0.7.tar.gz
+[2024-05-24 01:17:34] INFO root fetch - processPackages [digrdf]: executing diffoscope
+[2024-05-24 01:17:34] INFO root fetch - processPackages [digrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digrdf-0.1.5.tar.gz tmp/digrdf-0.1.6.tar.gz --markdown 20240524/d/digrdf/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_astro_api]: executing diffoscope
+[2024-05-24 01:17:34] INFO root fetch - processPackages [ourskyai_astro_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_astro_api-1.3.3644.tar.gz tmp/ourskyai_astro_api-1.3.3654.tar.gz --markdown 20240524/o/ourskyai_astro_api/1.3.3644-1.3.3654/README.md --exclude *.pyd
+[2024-05-24 01:17:34] INFO root fetch - processPackages [nodify]: executing diffoscope
+[2024-05-24 01:17:34] INFO root fetch - processPackages [nodify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodify-0.0.6.tar.gz tmp/nodify-0.0.7.tar.gz --markdown 20240524/n/nodify/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_platform_api]: Downloading https://files.pythonhosted.org/packages/78/e1/299cd3fd1dbab211ba8d7e390875dcbd70528cf1cf92c020abc3e15e694b/ourskyai_platform_api-1.3.3657.tar.gz
+[2024-05-24 01:17:35] INFO root fetch - processPackages [miska]: Downloading https://files.pythonhosted.org/packages/60/ff/63e4a734ce565f3c7420d88c136473ede8e24a1996ad8e102e97d91c71d2/miska-0.0.5.tar.gz
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_sda_api]: Downloading https://files.pythonhosted.org/packages/b7/5a/2d6f545ca7e10ff74a8466b1bd2c7c5a4244709e16022e0bac55a8795cdf/ourskyai_sda_api-1.3.3657.tar.gz
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_platform_api]: executing diffoscope
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_platform_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_platform_api-1.3.3654.tar.gz tmp/ourskyai_platform_api-1.3.3657.tar.gz --markdown 20240524/o/ourskyai_platform_api/1.3.3654-1.3.3657/README.md --exclude *.pyd
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_sda_api]: executing diffoscope
+[2024-05-24 01:17:35] INFO root fetch - processPackages [ourskyai_sda_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourskyai_sda_api-1.3.3654.tar.gz tmp/ourskyai_sda_api-1.3.3657.tar.gz --markdown 20240524/o/ourskyai_sda_api/1.3.3654-1.3.3657/README.md --exclude *.pyd
+[2024-05-24 01:17:35] INFO root fetch - processPackages [miska]: executing diffoscope
+[2024-05-24 01:17:35] INFO root fetch - processPackages [miska]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miska-0.0.4.tar.gz tmp/miska-0.0.5.tar.gz --markdown 20240524/m/miska/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 01:17:35] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.5.tar.gz]
+[2024-05-24 01:17:35] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.6.tar.gz]
+[2024-05-24 01:17:35] INFO root fetch - main [MainThread]: End processing [digrdf]: success
+[2024-05-24 01:17:35] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.6.tar.gz]
+[2024-05-24 01:17:35] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.7.tar.gz]
+[2024-05-24 01:17:35] INFO root fetch - main [MainThread]: End processing [nodify]: success
+[2024-05-24 01:17:36] INFO root fetch - processPackages [miska]: Remove: archive file [/home/abi/fetcher/tmp/miska-0.0.4.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - processPackages [miska]: Remove: archive file [/home/abi/fetcher/tmp/miska-0.0.5.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - main [MainThread]: End processing [miska]: success
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3644.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_astro_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_astro_api-1.3.3654.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - main [MainThread]: End processing [ourskyai_astro_api]: success
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3654.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_sda_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_sda_api-1.3.3657.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - main [MainThread]: End processing [ourskyai_sda_api]: success
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3654.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3657.tar.gz]
+[2024-05-24 01:17:36] INFO root fetch - main [MainThread]: End processing [ourskyai_platform_api]: success
+[2024-05-24 01:17:36] INFO root fetch - main [MainThread]: Store serial: [23353065]
