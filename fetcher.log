@@ -198,3 +198,24 @@
 [2024-05-24 00:11:17] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
 [2024-05-24 00:11:17] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-05-24 00:11:17] INFO root fetch - main [MainThread]: Store serial: [23352472]
+[2024-05-24 00:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352472]
+[2024-05-24 00:13:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 00:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autisto
+[2024-05-24 00:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite2duckdb
+[2024-05-24 00:13:29] INFO root fetch - processPackages [sqlite2duckdb]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 00:13:29] INFO root fetch - processPackages [autisto]: New version: [1.1rc4] Old Version: [1.1rc3]
+[2024-05-24 00:13:29] INFO root fetch - processPackages [sqlite2duckdb]: Downloading https://files.pythonhosted.org/packages/ed/e1/fb331b5ef7b0e0a2819de212890da098548f26f65b8adad8bd74fb1f367b/sqlite2duckdb-0.1.0-py2.py3-none-any.whl
+[2024-05-24 00:13:29] INFO root fetch - processPackages [autisto]: Downloading https://files.pythonhosted.org/packages/9f/02/7e25f3ccbc6925bb33742854fd36371cf3e4ee2eba09c3b0dfe0dbeacd11/autisto-1.1rc3.tar.gz
+[2024-05-24 00:13:29] INFO root fetch - processPackages [sqlite2duckdb]: Downloading https://files.pythonhosted.org/packages/52/e6/ab2f8a089963a3adb43a502d4b6856e11e486fd091db8f8730331005ba60/sqlite2duckdb-0.2.0-py2.py3-none-any.whl
+[2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: Downloading https://files.pythonhosted.org/packages/f3/b1/b2a00fd6f592c8f3a2395962d0bc8c0f986d7f41cb2c69db41e32fd8cf9e/autisto-1.1rc4.tar.gz
+[2024-05-24 00:13:30] INFO root fetch - processPackages [sqlite2duckdb]: executing diffoscope
+[2024-05-24 00:13:30] INFO root fetch - processPackages [sqlite2duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite2duckdb-0.1.0-py2.py3-none-any.whl.zip tmp/sqlite2duckdb-0.2.0-py2.py3-none-any.whl.zip --markdown 20240524/s/sqlite2duckdb/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: executing diffoscope
+[2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autisto-1.1rc3.tar.gz tmp/autisto-1.1rc4.tar.gz --markdown 20240524/a/autisto/1.1rc3-1.1rc4/README.md --exclude *.pyd
+[2024-05-24 00:13:30] INFO root fetch - processPackages [sqlite2duckdb]: Remove: archive file [/home/abi/fetcher/tmp/sqlite2duckdb-0.1.0-py2.py3-none-any.whl.zip]
+[2024-05-24 00:13:30] INFO root fetch - processPackages [sqlite2duckdb]: Remove: archive file [/home/abi/fetcher/tmp/sqlite2duckdb-0.2.0-py2.py3-none-any.whl.zip]
+[2024-05-24 00:13:30] INFO root fetch - main [MainThread]: End processing [sqlite2duckdb]: success
+[2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: Remove: archive file [/home/abi/fetcher/tmp/autisto-1.1rc3.tar.gz]
+[2024-05-24 00:13:30] INFO root fetch - processPackages [autisto]: Remove: archive file [/home/abi/fetcher/tmp/autisto-1.1rc4.tar.gz]
+[2024-05-24 00:13:30] INFO root fetch - main [MainThread]: End processing [autisto]: success
+[2024-05-24 00:13:30] INFO root fetch - main [MainThread]: Store serial: [23352478]
