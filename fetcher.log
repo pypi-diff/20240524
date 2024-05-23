@@ -1218,3 +1218,18 @@
 [2024-05-24 00:58:03] INFO root fetch - processPackages [pylibCZIrw]: Remove: archive file [/home/abi/fetcher/tmp/pylibCZIrw-4.1.1.tar.gz]
 [2024-05-24 00:58:03] INFO root fetch - main [MainThread]: End processing [pylibCZIrw]: success
 [2024-05-24 00:58:03] INFO root fetch - main [MainThread]: Store serial: [23352919]
+[2024-05-24 01:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352919]
+[2024-05-24 01:00:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: puepy
+[2024-05-24 01:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radifox
+[2024-05-24 01:00:13] INFO root fetch - processPackages [radifox]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-24 01:00:13] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/be/cb/68c708443a55b16e99d57a571dd800ce772a24fe44259ae83205b5dfa6e7/radifox-1.2.1.tar.gz
+[2024-05-24 01:00:13] WARNING root fetch - processPackages [puepy]: Skipping, unable to determine old version
+[2024-05-24 01:00:13] INFO root fetch - main [MainThread]: End processing [puepy] error
+[2024-05-24 01:00:13] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/86/e4/91a51b3551c340b3147e4b8e8b5abc95bb29813105879a80556bcbd5e7e1/radifox-1.2.2.tar.gz
+[2024-05-24 01:00:14] INFO root fetch - processPackages [radifox]: executing diffoscope
+[2024-05-24 01:00:14] INFO root fetch - processPackages [radifox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radifox-1.2.1.tar.gz tmp/radifox-1.2.2.tar.gz --markdown 20240524/r/radifox/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-24 01:00:14] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.1.tar.gz]
+[2024-05-24 01:00:14] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.2.tar.gz]
+[2024-05-24 01:00:14] INFO root fetch - main [MainThread]: End processing [radifox]: success
+[2024-05-24 01:00:14] INFO root fetch - main [MainThread]: Store serial: [23352927]
