@@ -177,3 +177,24 @@
 [2024-05-24 00:09:04] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
 [2024-05-24 00:09:04] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
 [2024-05-24 00:09:04] INFO root fetch - main [MainThread]: Store serial: [23352467]
+[2024-05-24 00:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352467]
+[2024-05-24 00:11:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 00:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedme
+[2024-05-24 00:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pami
+[2024-05-24 00:11:14] INFO root fetch - processPackages [embedme]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 00:11:14] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/2a/38/1f073e769f36af435a20b70d9da75bbb787013d6463de62f677ef0382ef5/embedme-0.1.2.tar.gz
+[2024-05-24 00:11:14] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.24.1]
+[2024-05-24 00:11:14] INFO root fetch - processPackages [embedme]: Downloading https://files.pythonhosted.org/packages/8f/0b/fea886e8f3fc2098e5fa309dba14d2916e5fc68a127213039976e83be394/embedme-0.1.3.tar.gz
+[2024-05-24 00:11:14] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/fc/ec/35ef92f596824b73f588f213def623a6d9766a01727176c273fbb0ab303d/pami-2024.5.24.1-py3-none-any.whl
+[2024-05-24 00:11:15] INFO root fetch - processPackages [embedme]: executing diffoscope
+[2024-05-24 00:11:15] INFO root fetch - processPackages [embedme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedme-0.1.2.tar.gz tmp/embedme-0.1.3.tar.gz --markdown 20240524/e/embedme/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 00:11:15] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.2.tar.gz]
+[2024-05-24 00:11:15] INFO root fetch - processPackages [embedme]: Remove: archive file [/home/abi/fetcher/tmp/embedme-0.1.3.tar.gz]
+[2024-05-24 00:11:15] INFO root fetch - main [MainThread]: End processing [embedme]: success
+[2024-05-24 00:11:15] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-24 00:11:16] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-24 00:11:16] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.24.1-py3-none-any.whl.zip tmp/pami-2024.5.7.1.tar.gz --markdown 20240524/p/pami/2024.5.24.1-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-24 00:11:17] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.24.1-py3-none-any.whl.zip]
+[2024-05-24 00:11:17] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-24 00:11:17] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-24 00:11:17] INFO root fetch - main [MainThread]: Store serial: [23352472]
