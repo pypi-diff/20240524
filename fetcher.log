@@ -1233,3 +1233,42 @@
 [2024-05-24 01:00:14] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.2.2.tar.gz]
 [2024-05-24 01:00:14] INFO root fetch - main [MainThread]: End processing [radifox]: success
 [2024-05-24 01:00:14] INFO root fetch - main [MainThread]: Store serial: [23352927]
+[2024-05-24 01:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352927]
+[2024-05-24 01:02:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-24 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodify
+[2024-05-24 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2024-05-24 01:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySwitchbot
+[2024-05-24 01:02:24] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-24 01:02:24] INFO root fetch - processPackages [nodify]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 01:02:24] INFO root fetch - processPackages [PySwitchbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 01:02:24] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-24 01:02:24] INFO root fetch - processPackages [rime-sdk]: New version: [2.9.0rc0] Old Version: [2.8.1]
+[2024-05-24 01:02:24] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/ad/12/1871537db64d7ec123682ac7d6b851fee5466767ffa00aa69bd4a77548ae/nodify-0.0.6.tar.gz
+[2024-05-24 01:02:24] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/50/2f/2eddd905a4a806273b8a9b3b5a2f0c654d14b9c711bd45f46edad164658b/PySwitchbot-0.9.0.tar.gz
+[2024-05-24 01:02:25] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-24 01:02:25] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/71/f8/4f626e8c05bf1153acc38f20f23379b5acfa33e09de4616850bc338319f4/rime_sdk-2.8.1.tar.gz
+[2024-05-24 01:02:25] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-24 01:02:25] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240524/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-24 01:02:25] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/2c/5c/5433fa948c35d2459bfd9018b23a4f8f0dce7edb5e5960e162be03c095a9/nodify-0.0.7.tar.gz
+[2024-05-24 01:02:25] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/4a/1d/17c4cb72d46152f50691f8ba5980eed9f8bb866cafbddd81e36af447c21d/PySwitchbot-0.9.1.tar.gz
+[2024-05-24 01:02:25] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1f/27/5c2ff7420339753d7590f9629647edd100b995f766d1a1f8b09f9d6d49cc/rime_sdk-2.9.0rc0.tar.gz
+[2024-05-24 01:02:25] INFO root fetch - processPackages [nodify]: executing diffoscope
+[2024-05-24 01:02:25] INFO root fetch - processPackages [nodify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodify-0.0.6.tar.gz tmp/nodify-0.0.7.tar.gz --markdown 20240524/n/nodify/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 01:02:25] INFO root fetch - processPackages [PySwitchbot]: executing diffoscope
+[2024-05-24 01:02:25] INFO root fetch - processPackages [PySwitchbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySwitchbot-0.9.0.tar.gz tmp/PySwitchbot-0.9.1.tar.gz --markdown 20240524/P/PySwitchbot/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 01:02:25] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-24 01:02:25] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.1.tar.gz tmp/rime_sdk-2.9.0rc0.tar.gz --markdown 20240524/r/rime-sdk/2.8.1-2.9.0rc0/README.md --exclude *.pyd
+[2024-05-24 01:02:26] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.6.tar.gz]
+[2024-05-24 01:02:26] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.7.tar.gz]
+[2024-05-24 01:02:26] INFO root fetch - main [MainThread]: End processing [nodify]: success
+[2024-05-24 01:02:26] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.0.tar.gz]
+[2024-05-24 01:02:26] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.1.tar.gz]
+[2024-05-24 01:02:26] INFO root fetch - main [MainThread]: End processing [PySwitchbot]: success
+[2024-05-24 01:02:26] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-24 01:02:26] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-24 01:02:26] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-24 01:02:28] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.1.tar.gz]
+[2024-05-24 01:02:28] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.9.0rc0.tar.gz]
+[2024-05-24 01:02:28] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-24 01:02:28] INFO root fetch - main [MainThread]: Store serial: [23352938]
