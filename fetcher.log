@@ -1991,3 +1991,45 @@
 [2024-05-24 01:54:48] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.6.3.tar.gz]
 [2024-05-24 01:54:48] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2024-05-24 01:54:48] INFO root fetch - main [MainThread]: Store serial: [23353321]
+[2024-05-24 01:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353321]
+[2024-05-24 01:56:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homematicip
+[2024-05-24 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jwtgen
+[2024-05-24 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biobear
+[2024-05-24 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaphor-models
+[2024-05-24 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unyts
+[2024-05-24 01:56:57] INFO root fetch - processPackages [homematicip]: New version: [1.1.1] Old Version: [1.1.0.post1.dev33]
+[2024-05-24 01:56:57] INFO root fetch - processPackages [unyts]: New version: [0.8.9] Old Version: [0.8.3]
+[2024-05-24 01:56:57] WARNING root fetch - processPackages [jwtgen]: Skipping, unable to determine old version
+[2024-05-24 01:56:57] INFO root fetch - main [MainThread]: End processing [jwtgen] error
+[2024-05-24 01:56:57] INFO root fetch - processPackages [biobear]: New version: [0.20.3] Old Version: [0.20.2]
+[2024-05-24 01:56:57] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 01:56:57] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/c4/bf/e693770d69349ce2f0c5a6ab72b4de106dfe9331718fdec5363a99529e8a/homematicip-1.1.0.post1.dev33.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/cd/91/7bced74eee46f70c87f5e7ed608979d3a1a43fe1438b2aa0c795da837ff5/unyts-0.8.3.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/52/fd/4d4f0335b9a753ead64368e4776f55318e66d974a3437f758f1be02beb0b/biobear-0.20.2.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [homematicip]: Downloading https://files.pythonhosted.org/packages/27/52/35f13729bcf397dec566908becf186d7f9078020ba54bfe0d38fc67e798c/homematicip-1.1.1.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [homematicip]: executing diffoscope
+[2024-05-24 01:56:57] INFO root fetch - processPackages [homematicip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homematicip-1.1.0.post1.dev33.tar.gz tmp/homematicip-1.1.1.tar.gz --markdown 20240524/h/homematicip/1.1.0.post1.dev33-1.1.1/README.md --exclude *.pyd
+[2024-05-24 01:56:57] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/8f/e1/188d783eaa0079854357600e3fb8190a8fc032e1d3625ae431141bf58fb5/unyts-0.8.9.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/97/21/f760d5cf5701b7361a208d6fc42d27df9e81e16c5bc6f7069293a89f40d9/biobear-0.20.3.tar.gz
+[2024-05-24 01:56:57] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2024-05-24 01:56:57] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20240524/m/metaphor-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 01:56:57] INFO root fetch - processPackages [unyts]: executing diffoscope
+[2024-05-24 01:56:57] INFO root fetch - processPackages [unyts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unyts-0.8.3.tar.gz tmp/unyts-0.8.9.tar.gz --markdown 20240524/u/unyts/0.8.3-0.8.9/README.md --exclude *.pyd
+[2024-05-24 01:56:58] INFO root fetch - processPackages [biobear]: executing diffoscope
+[2024-05-24 01:56:58] INFO root fetch - processPackages [biobear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobear-0.20.2.tar.gz tmp/biobear-0.20.3.tar.gz --markdown 20240524/b/biobear/0.20.2-0.20.3/README.md --exclude *.pyd
+[2024-05-24 01:56:58] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.0.post1.dev33.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - processPackages [homematicip]: Remove: archive file [/home/abi/fetcher/tmp/homematicip-1.1.1.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - main [MainThread]: End processing [homematicip]: success
+[2024-05-24 01:56:58] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2024-05-24 01:56:58] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.3.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.9.tar.gz]
+[2024-05-24 01:56:58] INFO root fetch - main [MainThread]: End processing [unyts]: success
+[2024-05-24 01:56:59] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.20.2.tar.gz]
+[2024-05-24 01:56:59] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.20.3.tar.gz]
+[2024-05-24 01:56:59] INFO root fetch - main [MainThread]: End processing [biobear]: success
+[2024-05-24 01:56:59] INFO root fetch - main [MainThread]: Store serial: [23353368]
