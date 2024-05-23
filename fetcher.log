@@ -1272,3 +1272,29 @@
 [2024-05-24 01:02:28] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.9.0rc0.tar.gz]
 [2024-05-24 01:02:28] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-24 01:02:28] INFO root fetch - main [MainThread]: Store serial: [23352938]
+[2024-05-24 01:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23352938]
+[2024-05-24 01:04:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 01:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-05-24 01:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelscan
+[2024-05-24 01:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmonkey-namonica
+[2024-05-24 01:04:36] INFO root fetch - processPackages [modelscan]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-24 01:04:36] INFO root fetch - processPackages [modelscan]: Downloading https://files.pythonhosted.org/packages/b3/bd/e976be85d15bed78441c202775dbab58b8e2f777861cb76a530b78f74fb8/modelscan-0.7.3.tar.gz
+[2024-05-24 01:04:36] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 01:04:36] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-05-24 01:04:36] INFO root fetch - processPackages [modelscan]: Downloading https://files.pythonhosted.org/packages/de/d5/8b992cc87b58a6d4fc0d5b3efe5dc822b6e06a122b6abaad6cba78ec4089/modelscan-0.7.4.tar.gz
+[2024-05-24 01:04:36] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-24 01:04:36] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-05-24 01:04:37] INFO root fetch - processPackages [modelscan]: executing diffoscope
+[2024-05-24 01:04:37] INFO root fetch - processPackages [modelscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscan-0.7.3.tar.gz tmp/modelscan-0.7.4.tar.gz --markdown 20240524/m/modelscan/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-24 01:04:37] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-05-24 01:04:37] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-05-24 01:04:37] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-24 01:04:37] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-24 01:04:37] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240524/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 01:04:37] INFO root fetch - processPackages [modelscan]: Remove: archive file [/home/abi/fetcher/tmp/modelscan-0.7.3.tar.gz]
+[2024-05-24 01:04:37] INFO root fetch - processPackages [modelscan]: Remove: archive file [/home/abi/fetcher/tmp/modelscan-0.7.4.tar.gz]
+[2024-05-24 01:04:37] INFO root fetch - main [MainThread]: End processing [modelscan]: success
+[2024-05-24 01:04:38] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-24 01:04:38] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-24 01:04:38] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-24 01:04:38] INFO root fetch - main [MainThread]: Store serial: [23352947]
