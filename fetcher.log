@@ -3159,3 +3159,42 @@
 [2024-05-24 02:57:32] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.3.tar.gz]
 [2024-05-24 02:57:32] INFO root fetch - main [MainThread]: End processing [altair-nx]: success
 [2024-05-24 02:57:32] INFO root fetch - main [MainThread]: Store serial: [23353801]
+[2024-05-24 02:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353801]
+[2024-05-24 02:59:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 02:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masscube
+[2024-05-24 02:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-linode
+[2024-05-24 02:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blaze-double-bot
+[2024-05-24 02:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgartools
+[2024-05-24 02:59:43] INFO root fetch - processPackages [masscube]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:59:43] INFO root fetch - processPackages [blaze-double-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 02:59:43] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-24 02:59:43] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/2d/db/d89b0c94182f9a980eb8ccbe6a67015e382e56c741eb440f976bba4f6632/masscube-0.0.8.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/0d/7b/dd895e73ab52f7ac63ec026b6c8bebba0f364809f32e2cb32e376c3772b3/blaze_double_bot-0.1.8.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-24 02:59:43] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/db/7a/54b056f006f9260a30a346af07029fa83ad6b427a21774e2e3552f099952/blaze_double_bot-0.1.9.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/0c/7c/bba8006bb6b76d1d8768783a3d30f994e908adfb08f2a87be88aea597a2c/masscube-0.0.9.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [blaze-double-bot]: executing diffoscope
+[2024-05-24 02:59:43] INFO root fetch - processPackages [blaze-double-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaze_double_bot-0.1.8.tar.gz tmp/blaze_double_bot-0.1.9.tar.gz --markdown 20240524/b/blaze-double-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 02:59:43] INFO root fetch - processPackages [masscube]: executing diffoscope
+[2024-05-24 02:59:43] INFO root fetch - processPackages [masscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masscube-0.0.8.tar.gz tmp/masscube-0.0.9.tar.gz --markdown 20240524/m/masscube/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:59:43] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-24 02:59:43] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-05-24 02:59:43] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240524/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-24 02:59:43] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-24 02:59:43] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240524/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-24 02:59:44] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.8.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.9.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - main [MainThread]: End processing [blaze-double-bot]: success
+[2024-05-24 02:59:44] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.8.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.9.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - main [MainThread]: End processing [masscube]: success
+[2024-05-24 02:59:44] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-05-24 02:59:44] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-24 02:59:44] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-24 02:59:44] INFO root fetch - main [MainThread]: Store serial: [23353811]
