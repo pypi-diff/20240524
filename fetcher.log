@@ -2547,3 +2547,42 @@
 [2024-05-24 02:23:56] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.167-cp39-cp39-macosx_10_15_x86_64.whl.zip]
 [2024-05-24 02:23:56] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-24 02:23:56] INFO root fetch - main [MainThread]: Store serial: [23353547]
+[2024-05-24 02:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353547]
+[2024-05-24 02:26:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structuretoolkit
+[2024-05-24 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-24 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digrdf
+[2024-05-24 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superblocks-agent
+[2024-05-24 02:26:06] INFO root fetch - processPackages [digrdf]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-24 02:26:06] INFO root fetch - processPackages [superblocks-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-24 02:26:06] INFO root fetch - processPackages [structuretoolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:26:06] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/84/3b/6802ee2a76e5e0104b60f43df911e4711182d98a5f66a7993730f0d45959/superblocks-agent-0.0.8.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/67/8f/e129f9bd15c345f1a171c8d1577a72826fe27c1114a4bbdb82daf020af0c/digrdf-0.1.6.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/54/fc/f90a860819662c6f95612689af4b3dc2eb2eff9319440645756e3ab0a49e/structuretoolkit-0.0.8.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/c7/b1/71b275379fdc2106748d0c22e5c803b23ddb9e4f4957fdacecf924a05c68/superblocks-agent-0.0.9.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [superblocks-agent]: executing diffoscope
+[2024-05-24 02:26:06] INFO root fetch - processPackages [superblocks-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-agent-0.0.8.tar.gz tmp/superblocks-agent-0.0.9.tar.gz --markdown 20240524/s/superblocks-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:26:06] INFO root fetch - processPackages [digrdf]: Downloading https://files.pythonhosted.org/packages/53/17/5a198cb9f282b2cfce684b63cdd41c6dcee33e2d79128e2f6c682d0e5789/digrdf-0.1.7.tar.gz
+[2024-05-24 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-24 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240524/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-24 02:26:06] INFO root fetch - processPackages [digrdf]: executing diffoscope
+[2024-05-24 02:26:06] INFO root fetch - processPackages [digrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digrdf-0.1.6.tar.gz tmp/digrdf-0.1.7.tar.gz --markdown 20240524/d/digrdf/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: Downloading https://files.pythonhosted.org/packages/e6/6f/c5cea6ae9188606fb31d72e694dda281b0bdd891888f8f2e55ae54a2d501/structuretoolkit-0.0.9.tar.gz
+[2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: executing diffoscope
+[2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structuretoolkit-0.0.8.tar.gz tmp/structuretoolkit-0.0.9.tar.gz --markdown 20240524/s/structuretoolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-24 02:26:07] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.8.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.9.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - main [MainThread]: End processing [superblocks-agent]: success
+[2024-05-24 02:26:07] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.6.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - processPackages [digrdf]: Remove: archive file [/home/abi/fetcher/tmp/digrdf-0.1.7.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - main [MainThread]: End processing [digrdf]: success
+[2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.8.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.9.tar.gz]
+[2024-05-24 02:26:07] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
+[2024-05-24 02:26:07] INFO root fetch - main [MainThread]: Store serial: [23353564]
