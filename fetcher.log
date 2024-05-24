@@ -11639,3 +11639,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:35:19] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-05-24 07:35:19] INFO root fetch - main [MainThread]: Store serial: [23356793]
+[2024-05-24 07:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356793]
+[2024-05-24 07:37:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: url-scheduler
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gandai
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiansible
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gandai
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapieng
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zopyx-fastapi-auth
+[2024-05-24 07:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Datadash
+[2024-05-24 07:37:28] INFO root fetch - processPackages [gandai]: New version: [1.7.46] Old Version: [1.7.45]
+[2024-05-24 07:37:28] INFO root fetch - processPackages [mapieng]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 07:37:28] INFO root fetch - processPackages [Datadash]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 07:37:28] INFO root fetch - processPackages [zopyx-fastapi-auth]: New version: [0.2.2.1] Old Version: [0.2.2]
+[2024-05-24 07:37:28] INFO root fetch - processPackages [gandai]: New version: [1.7.46] Old Version: [1.7.45]
+[2024-05-24 07:37:28] ERROR root fetch - processPackages [url-scheduler]: Unable to get metadata: No such project 'url-scheduler'
+[2024-05-24 07:37:28] INFO root fetch - main [MainThread]: End processing [url-scheduler] error
+[2024-05-24 07:37:28] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/32/b7/94cee4c9758ee0779fea2f15a25618e8f2950166efab0bee7d76f9b4d131/gandai-1.7.45.tar.gz
+[2024-05-24 07:37:28] WARNING root fetch - processPackages [aiansible]: Skipping, unable to determine old version
+[2024-05-24 07:37:28] INFO root fetch - main [MainThread]: End processing [aiansible] error
+[2024-05-24 07:37:28] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/81/a5/030a25a5a61e21f031d0a74ccf2226e30a3c77e26e5f14957237e32e09c1/mapieng-0.1.1.tar.gz
+[2024-05-24 07:37:28] INFO root fetch - processPackages [Datadash]: Downloading https://files.pythonhosted.org/packages/01/f8/8e3d3aa58f86418c9b59cda9d7c9cd8685607807ceacd128da1933715be7/datadash-0.0.2.tar.gz
+[2024-05-24 07:37:28] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/94/7a/8b427143e5dee6c0cf39cb6e822d309a20f09a8b0e853a063c848a735cb9/zopyx_fastapi_auth-0.2.2.tar.gz
+[2024-05-24 07:37:28] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/32/b7/94cee4c9758ee0779fea2f15a25618e8f2950166efab0bee7d76f9b4d131/gandai-1.7.45.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/e5/e1/8f32a1277da8c05101093be8954a90ce0099b2de8a73a987fad9d0f33623/mapieng-0.1.2.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/fd/60/c5b5f2301bbf484892d4c5b37a4f90d751cb9e59037cb66a568a66886866/gandai-1.7.46.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/fd/60/c5b5f2301bbf484892d4c5b37a4f90d751cb9e59037cb66a568a66886866/gandai-1.7.46.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [Datadash]: Downloading https://files.pythonhosted.org/packages/be/d4/804012aaf3e66f8ea22a1692658ecae8d091e9ea923a373e8a666cf58425/datadash-0.0.3.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 07:37:29] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.1.tar.gz tmp/mapieng-0.1.2.tar.gz --markdown 20240524/m/mapieng/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 07:37:29] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/48/7e/e38de3b9d0eda660a6d042d4c6d6aeedf1ff1c684cc1682b3502407ece81/zopyx_fastapi_auth-0.2.2.1.tar.gz
+[2024-05-24 07:37:29] INFO root fetch - processPackages [Datadash]: executing diffoscope
+[2024-05-24 07:37:29] INFO root fetch - processPackages [Datadash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadash-0.0.2.tar.gz tmp/datadash-0.0.3.tar.gz --markdown 20240524/D/Datadash/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.45.tar.gz tmp/gandai-1.7.46.tar.gz --markdown 20240524/g/gandai/1.7.45-1.7.46/README.md --exclude *.pyd
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 07:37:29] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.45.tar.gz tmp/gandai-1.7.46.tar.gz --markdown 20240524/g/gandai/1.7.45-1.7.46/README.md --exclude *.pyd
+[2024-05-24 07:37:29] INFO root fetch - processPackages [zopyx-fastapi-auth]: executing diffoscope
+[2024-05-24 07:37:29] INFO root fetch - processPackages [zopyx-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zopyx_fastapi_auth-0.2.2.tar.gz tmp/zopyx_fastapi_auth-0.2.2.1.tar.gz --markdown 20240524/z/zopyx-fastapi-auth/0.2.2-0.2.2.1/README.md --exclude *.pyd
+[2024-05-24 07:37:30] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.1.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.2.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 07:37:30] INFO root fetch - processPackages [Datadash]: Remove: archive file [/home/abi/fetcher/tmp/datadash-0.0.2.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - processPackages [Datadash]: Remove: archive file [/home/abi/fetcher/tmp/datadash-0.0.3.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [Datadash]: success
+[2024-05-24 07:37:30] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.45.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.46.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 07:37:30] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.1.tar.gz]
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
+[2024-05-24 07:37:30] INFO root fetch - main [MainThread]: Store serial: [23356821]
