@@ -7469,3 +7469,42 @@
 [2024-05-24 03:35:46] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1716512649.tar.gz]
 [2024-05-24 03:35:46] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-05-24 03:35:46] INFO root fetch - main [MainThread]: Store serial: [23355212]
+[2024-05-24 03:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355212]
+[2024-05-24 03:37:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SciServerApi
+[2024-05-24 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-vsphere
+[2024-05-24 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightcurver
+[2024-05-24 03:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyAgrum-nightly
+[2024-05-24 03:37:55] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-24 03:37:55] INFO root fetch - processPackages [SciServerApi]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-24 03:37:55] INFO root fetch - processPackages [lightcurver]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-24 03:37:55] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [SciServerApi]: Downloading https://files.pythonhosted.org/packages/b9/6a/d6e3e1efb734de168a96f840b9ca30faad634986e50612b869c91cb2cd07/SciServerApi-2.0.0.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [lightcurver]: Downloading https://files.pythonhosted.org/packages/ea/f9/5482a192d1f11207b72d25c73f431c75dd74af3c7d88e91702d0dab362ee/lightcurver-1.0.6.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-24 03:37:56] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240524/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-24 03:37:56] INFO root fetch - processPackages [SciServerApi]: Downloading https://files.pythonhosted.org/packages/81/8d/30c69a457ac49fbe95e46961795cf64a2b4da3e7042174ee0ddcc61d5694/SciServerApi-3.0.0.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [SciServerApi]: executing diffoscope
+[2024-05-24 03:37:56] INFO root fetch - processPackages [SciServerApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciServerApi-2.0.0.tar.gz tmp/SciServerApi-3.0.0.tar.gz --markdown 20240524/S/SciServerApi/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-24 03:37:56] INFO root fetch - processPackages [lightcurver]: Downloading https://files.pythonhosted.org/packages/f1/ea/c6071e6846ddd6a82fe94f1e4ef862a535c697c8331f7cf1d8ed67f6ca75/lightcurver-1.0.7.tar.gz
+[2024-05-24 03:37:56] INFO root fetch - processPackages [lightcurver]: executing diffoscope
+[2024-05-24 03:37:56] INFO root fetch - processPackages [lightcurver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcurver-1.0.6.tar.gz tmp/lightcurver-1.0.7.tar.gz --markdown 20240524/l/lightcurver/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-24 03:37:57] INFO root fetch - processPackages [SciServerApi]: Remove: archive file [/home/abi/fetcher/tmp/SciServerApi-2.0.0.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - processPackages [SciServerApi]: Remove: archive file [/home/abi/fetcher/tmp/SciServerApi-3.0.0.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - main [MainThread]: End processing [SciServerApi]: success
+[2024-05-24 03:37:57] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-24 03:37:57] INFO root fetch - processPackages [lightcurver]: Remove: archive file [/home/abi/fetcher/tmp/lightcurver-1.0.6.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - processPackages [lightcurver]: Remove: archive file [/home/abi/fetcher/tmp/lightcurver-1.0.7.tar.gz]
+[2024-05-24 03:37:57] INFO root fetch - main [MainThread]: End processing [lightcurver]: success
+[2024-05-24 03:37:57] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-24 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-24 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-24 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-24 03:37:58] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240524/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-24 03:37:59] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 03:37:59] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 03:37:59] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-24 03:37:59] INFO root fetch - main [MainThread]: Store serial: [23355288]
