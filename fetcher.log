@@ -14083,3 +14083,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:28:39] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz]
 [2024-05-24 09:28:39] INFO root fetch - main [MainThread]: End processing [jupyterlab-unianalytics-dashboard]: success
 [2024-05-24 09:28:39] INFO root fetch - main [MainThread]: Store serial: [23357956]
+[2024-05-24 09:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357956]
+[2024-05-24 09:30:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brynq-sdk-elastic
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prem-utils
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-administration
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioli-sdk
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brynq-sdk-task-scheduler
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acrome-smd
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-environment
+[2024-05-24 09:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: online-scheduler
+[2024-05-24 09:30:49] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev7] Old Version: [0.2.4.dev6]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [invenio-administration]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/51/ec/a0ad48e9651dcfd501e0b0613205b6dc5de877f351fd8faaed6e8efe7ca6/aioli_sdk-0.2.4.dev6.tar.gz
+[2024-05-24 09:30:49] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [odoo-addon-mail-environment]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/48/33/d8104114a8c5e211016038264c6ce9c04b80db6fbd7c739fd8227f1b0dc1/invenio-administration-2.2.1.tar.gz
+[2024-05-24 09:30:49] WARNING root fetch - processPackages [online-scheduler]: Skipping, unable to determine old version
+[2024-05-24 09:30:49] INFO root fetch - processPackages [brynq-sdk-elastic]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-24 09:30:49] INFO root fetch - main [MainThread]: End processing [online-scheduler] error
+[2024-05-24 09:30:49] INFO root fetch - processPackages [acrome-smd]: New version: [2.0.0] Old Version: [1.1.4]
+[2024-05-24 09:30:49] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/35/eb/4755962743cb9a917be8e4fbc28f0314517d8eaf7f7160098bfe216c64e7/brynq_sdk_task_scheduler-1.1.2.tar.gz
+[2024-05-24 09:30:49] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-05-24 09:30:49] INFO root fetch - processPackages [brynq-sdk-elastic]: Downloading https://files.pythonhosted.org/packages/93/c9/5872c1c610869d26dcef51e20e0847ff1989fcf32f0fbf7758e60e998093/brynq_sdk_elastic-1.0.0.tar.gz
+[2024-05-24 09:30:49] INFO root fetch - processPackages [odoo-addon-mail-environment]: Downloading https://files.pythonhosted.org/packages/a4/16/05f19ba59c16c354a086eb6dc164c5aa0bdc8ce85ea5af56d3ce1dc0c173/odoo_addon_mail_environment-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 09:30:49] INFO root fetch - processPackages [acrome-smd]: Downloading https://files.pythonhosted.org/packages/61/fb/be764d528a83e7c429dfda2d7e5b85a7ad6249789ef97d2c810af64f17ad/acrome-smd-1.1.4.tar.gz
+[2024-05-24 09:30:49] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/f3/c8/40da550008c6ae3454f0c970d463ff52eedaa109c52ed8934e3299a94d19/invenio-administration-2.2.2.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/e5/38/69a502ea6603a44e98e590c928c54352a56ed8825f92c270b5929cf3056a/aioli_sdk-0.2.4.dev7.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-2.2.1.tar.gz tmp/invenio-administration-2.2.2.tar.gz --markdown 20240524/i/invenio-administration/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-24 09:30:50] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev6.tar.gz tmp/aioli_sdk-0.2.4.dev7.tar.gz --markdown 20240524/a/aioli-sdk/0.2.4.dev6-0.2.4.dev7/README.md --exclude *.pyd
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-elastic]: Downloading https://files.pythonhosted.org/packages/71/c8/268ed8f6c0ce84084ec522eaf547b577d611d943ebc52bfc4fca0e06bd65/brynq_sdk_elastic-2.0.0.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Downloading https://files.pythonhosted.org/packages/51/2f/6b1de57b4364956b8dfc042006f6e20ea9ede6584c32c43f0cad94e2ba7f/brynq_sdk_task_scheduler-1.1.3.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [acrome-smd]: Downloading https://files.pythonhosted.org/packages/e7/f0/3a96b72711f980145b453a489b03065885184744cf30394035ba996644e3/acrome_smd-2.0.0.tar.gz
+[2024-05-24 09:30:50] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240524/p/prem-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 09:30:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: Downloading https://files.pythonhosted.org/packages/ca/80/f8e0271177533c7052597ef55c67b341aa9b26c6643bc546f5ab28f955ac/odoo_addon_mail_environment-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-elastic]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_elastic-1.0.0.tar.gz tmp/brynq_sdk_elastic-2.0.0.tar.gz --markdown 20240524/b/brynq-sdk-elastic/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_task_scheduler-1.1.2.tar.gz tmp/brynq_sdk_task_scheduler-1.1.3.tar.gz --markdown 20240524/b/brynq-sdk-task-scheduler/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-24 09:30:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: executing diffoscope
+[2024-05-24 09:30:50] INFO root fetch - processPackages [odoo-addon-mail-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_environment-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mail_environment-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-mail-environment/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 09:30:51] INFO root fetch - processPackages [brynq-sdk-elastic]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_elastic-1.0.0.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [brynq-sdk-elastic]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_elastic-2.0.0.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [brynq-sdk-elastic]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.1.2.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [brynq-sdk-task-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_task_scheduler-1.1.3.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [brynq-sdk-task-scheduler]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [odoo-addon-mail-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_environment-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [odoo-addon-mail-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_environment-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-environment]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-2.2.1.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [invenio-administration]: Remove: archive file [/home/abi/fetcher/tmp/invenio-administration-2.2.2.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev6.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev7.tar.gz]
+[2024-05-24 09:30:51] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-24 09:30:51] INFO root fetch - processPackages [acrome-smd]: executing diffoscope
+[2024-05-24 09:30:51] INFO root fetch - processPackages [acrome-smd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acrome-smd-1.1.4.tar.gz tmp/acrome_smd-2.0.0.tar.gz --markdown 20240524/a/acrome-smd/1.1.4-2.0.0/README.md --exclude *.pyd
+[2024-05-24 09:30:52] INFO root fetch - processPackages [acrome-smd]: Remove: archive file [/home/abi/fetcher/tmp/acrome-smd-1.1.4.tar.gz]
+[2024-05-24 09:30:52] INFO root fetch - processPackages [acrome-smd]: Remove: archive file [/home/abi/fetcher/tmp/acrome_smd-2.0.0.tar.gz]
+[2024-05-24 09:30:52] INFO root fetch - main [MainThread]: End processing [acrome-smd]: success
+[2024-05-24 09:30:52] INFO root fetch - main [MainThread]: Store serial: [23357989]
