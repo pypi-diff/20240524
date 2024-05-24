@@ -20774,3 +20774,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:08:18] INFO root fetch - processPackages [femio]: Remove: archive file [/home/abi/fetcher/tmp/femio-0.3.3.dev202405241107-py3-none-any.whl.zip]
 [2024-05-24 13:08:18] INFO root fetch - main [MainThread]: End processing [femio]: success
 [2024-05-24 13:08:18] INFO root fetch - main [MainThread]: Store serial: [23360803]
+[2024-05-24 13:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360803]
+[2024-05-24 13:10:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mia-vgg
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ColorTransferLib
+[2024-05-24 13:10:27] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 13:10:27] INFO root fetch - processPackages [cadprox]: New version: [2.8] Old Version: [2.7]
+[2024-05-24 13:10:27] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/82/c7/3ca2c4682b09edddf1b386790a250f2006d8657996ece8c3797c9968fe1c/cadprox-2.7.tar.gz
+[2024-05-24 13:10:27] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/c6/15/c5323dd0bb248aceef0e6fdc6c4be9fd0a9d2ebbbaf39ed5bcbe84148930/mia_vgg-0.0.4.tar.gz
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ColorTransferLib]: New version: [1.0.0.post4] Old Version: [1.0.0.post3]
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ColorTransferLib]: Downloading https://files.pythonhosted.org/packages/df/87/baff06816b4a483d2dcdb41a00d55bc2b1591c3e6305b535a6cbfff1ad54/ColorTransferLib-1.0.0.post3-py3-none-any.whl
+[2024-05-24 13:10:27] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/80/85/c1872aae8ea4a55baf68e7cac21949776416dc6fb3a26da5a59359513dfe/mia_vgg-0.0.5.tar.gz
+[2024-05-24 13:10:27] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/3d/11/3d35303edc11b9fbb25b38e8a3b1b20c8a9991df9861bd9416aa45ed54fc/cadprox-2.8.tar.gz
+[2024-05-24 13:10:27] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:10:27] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.7.tar.gz tmp/cadprox-2.8.tar.gz --markdown 20240524/c/cadprox/2.7-2.8/README.md --exclude *.pyd
+[2024-05-24 13:10:27] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-24 13:10:27] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.4.tar.gz tmp/mia_vgg-0.0.5.tar.gz --markdown 20240524/m/mia-vgg/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 13:10:27] INFO root fetch - processPackages [ColorTransferLib]: Downloading https://files.pythonhosted.org/packages/47/b9/09118d7132a48e77153c29aca8a550e9c761ec95e85c710e75b2dd875ea0/ColorTransferLib-1.0.0.post4-py3-none-any.whl
+[2024-05-24 13:10:28] INFO root fetch - processPackages [ColorTransferLib]: executing diffoscope
+[2024-05-24 13:10:28] INFO root fetch - processPackages [ColorTransferLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColorTransferLib-1.0.0.post3-py3-none-any.whl.zip tmp/ColorTransferLib-1.0.0.post4-py3-none-any.whl.zip --markdown 20240524/C/ColorTransferLib/1.0.0.post3-1.0.0.post4/README.md --exclude *.pyd
+[2024-05-24 13:10:28] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.4.tar.gz]
+[2024-05-24 13:10:28] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.5.tar.gz]
+[2024-05-24 13:10:28] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-24 13:10:28] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.7.tar.gz]
+[2024-05-24 13:10:28] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.8.tar.gz]
+[2024-05-24 13:10:28] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:10:29] INFO root fetch - processPackages [ColorTransferLib]: Remove: archive file [/home/abi/fetcher/tmp/ColorTransferLib-1.0.0.post3-py3-none-any.whl.zip]
+[2024-05-24 13:10:29] INFO root fetch - processPackages [ColorTransferLib]: Remove: archive file [/home/abi/fetcher/tmp/ColorTransferLib-1.0.0.post4-py3-none-any.whl.zip]
+[2024-05-24 13:10:29] INFO root fetch - main [MainThread]: End processing [ColorTransferLib]: success
+[2024-05-24 13:10:29] INFO root fetch - main [MainThread]: Store serial: [23360811]
