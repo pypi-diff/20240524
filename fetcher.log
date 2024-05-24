@@ -9040,3 +9040,42 @@
 [2024-05-24 05:20:09] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc3.tar.gz]
 [2024-05-24 05:20:09] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2024-05-24 05:20:09] INFO root fetch - main [MainThread]: Store serial: [23355898]
+[2024-05-24 05:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355898]
+[2024-05-24 05:22:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 05:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-newrelic
+[2024-05-24 05:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-okta
+[2024-05-24 05:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Moore-SDK
+[2024-05-24 05:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-05-24 05:22:18] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-24 05:22:18] INFO root fetch - processPackages [Moore-SDK]: New version: [1.0.9] Old Version: [1.0.12]
+[2024-05-24 05:22:18] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1716519542] Old Version: [4.9.0a1716406068]
+[2024-05-24 05:22:18] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2024-05-24 05:22:18] INFO root fetch - processPackages [Moore-SDK]: Downloading https://files.pythonhosted.org/packages/28/ed/bd2b0999e60e03f0b8bc55fa3b9f941d14d98ba759c34e783fba27242249/Moore_SDK-1.0.12-py3-none-any.whl
+[2024-05-24 05:22:18] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/00/44/2ced8f42d68cc63c75213fa78cf11bfbf14559b2f9f9d9c26fc5fe48e4d0/pulumi_okta-4.9.0a1716406068.tar.gz
+[2024-05-24 05:22:19] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024052403] Old Version: [3.3.3.dev2024052303]
+[2024-05-24 05:22:19] INFO root fetch - processPackages [Moore-SDK]: Downloading https://files.pythonhosted.org/packages/42/2b/0bb87c43b98f6591eb07a280df1286c57d0d7c9bb8c1eba8858d55aa4bb8/Moore_SDK-1.0.9-py3-none-any.whl
+[2024-05-24 05:22:19] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/88/f8/83dfce55259c0d4cd856368434e57e65d27ab17a9f11f751221db52666a7/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz
+[2024-05-24 05:22:19] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f2/d9/069f1bb5b622b0b4d8d7843c337d7688902b2bc9f590ddeef42c1ad6d2d1/pulumi_okta-4.9.0a1716519542.tar.gz
+[2024-05-24 05:22:19] INFO root fetch - processPackages [Moore-SDK]: executing diffoscope
+[2024-05-24 05:22:19] INFO root fetch - processPackages [Moore-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Moore_SDK-1.0.12-py3-none-any.whl.zip tmp/Moore_SDK-1.0.9-py3-none-any.whl.zip --markdown 20240524/M/Moore-SDK/1.0.12-1.0.9/README.md --exclude *.pyd
+[2024-05-24 05:22:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/cc/5f/a9a8998c581e199405c9e1531a2e521c5931c3d92bbe7f4376ce05835f4a/keras_nightly-3.3.3.dev2024052303.tar.gz
+[2024-05-24 05:22:19] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-24 05:22:19] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1716406068.tar.gz tmp/pulumi_okta-4.9.0a1716519542.tar.gz --markdown 20240524/p/pulumi-okta/4.9.0a1716406068-4.9.0a1716519542/README.md --exclude *.pyd
+[2024-05-24 05:22:19] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2024-05-24 05:22:19] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz --markdown 20240524/c/cdktf-cdktf-provider-newrelic/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-24 05:22:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/b7/76/3006538d00895552f8ae2da688ddad3e7ae4dc856bbdacdc2f44130d27d5/keras_nightly-3.3.3.dev2024052403-py3-none-any.whl
+[2024-05-24 05:22:20] INFO root fetch - processPackages [Moore-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Moore_SDK-1.0.12-py3-none-any.whl.zip]
+[2024-05-24 05:22:20] INFO root fetch - processPackages [Moore-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Moore_SDK-1.0.9-py3-none-any.whl.zip]
+[2024-05-24 05:22:20] INFO root fetch - main [MainThread]: End processing [Moore-SDK]: success
+[2024-05-24 05:22:20] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-24 05:22:20] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024052303.tar.gz tmp/keras_nightly-3.3.3.dev2024052403-py3-none-any.whl.zip --markdown 20240524/k/keras-nightly/3.3.3.dev2024052303-3.3.3.dev2024052403/README.md --exclude *.pyd
+[2024-05-24 05:22:20] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1716406068.tar.gz]
+[2024-05-24 05:22:20] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1716519542.tar.gz]
+[2024-05-24 05:22:20] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-24 05:22:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052303.tar.gz]
+[2024-05-24 05:22:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052403-py3-none-any.whl.zip]
+[2024-05-24 05:22:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-24 05:22:22] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2024-05-24 05:22:22] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
+[2024-05-24 05:22:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2024-05-24 05:22:22] INFO root fetch - main [MainThread]: Store serial: [23355908]
