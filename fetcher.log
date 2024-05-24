@@ -12806,3 +12806,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:34:15] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.1.tar.gz]
 [2024-05-24 08:34:15] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
 [2024-05-24 08:34:15] INFO root fetch - main [MainThread]: Store serial: [23357450]
+[2024-05-24 08:36:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357450]
+[2024-05-24 08:36:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyCUCM
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-order-to-sale-order
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-pos-payment-method-change-policy
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-pos-to-weight-by-product-uom
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meerschaum
+[2024-05-24 08:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weapon-selector
+[2024-05-24 08:36:25] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0rc3] Old Version: [2.2.0rc2]
+[2024-05-24 08:36:25] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240524022416] Old Version: [3.4.1.dev20240523192030]
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: New version: [16.0.1.0.7.1] Old Version: [16.0.1.0.7]
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-24 08:36:25] INFO root fetch - processPackages [tinyCUCM]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 08:36:25] WARNING root fetch - processPackages [weapon-selector]: Skipping, unable to determine old version
+[2024-05-24 08:36:25] INFO root fetch - main [MainThread]: End processing [weapon-selector] error
+[2024-05-24 08:36:25] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/46/b0/69af9f674a0393a0595f663c6d490a7b3ed0786c09517d6d33cd9027154f/meerschaum-2.2.0rc2.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0a/ab/8dcfb7ac75fcc06d0c5185e1b29f796c264b40c78b7bec6aa50b2ae386f1/localstack_core-3.4.1.dev20240523192030.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/94/48/04c826bbe7cca2b57dc7caf14c6f8db948683c1140544a459bb9b825c78c/odoo_addon_pos_order_to_sale_order-16.0.1.0.7-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: Downloading https://files.pythonhosted.org/packages/34/0c/5c32da92e3a358c73c91cd1391d6e9612258c0580b479f2bafa4c03f8dc5/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Downloading https://files.pythonhosted.org/packages/76/11/aabb44e60f4d72649024abccf32076d82bd49100e1e8ee48a10905ee5175/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [tinyCUCM]: Downloading https://files.pythonhosted.org/packages/7c/69/c3f13bd9a35ab19264ff09cde9c45beb7372734fed183a37e4901ae8ddd9/tinycucm-0.2.8.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/12/02/6f04be32d2602e3c92bd8b39e1296c4f47729f94e9e4cc68bead6807fc4b/meerschaum-2.2.0rc3.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Downloading https://files.pythonhosted.org/packages/75/45/1a173797b411c3412ab43c6a84655a8754bdaaa30a5476b245ec282167a4/odoo_addon_pos_order_to_sale_order-16.0.1.0.7.1-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/33/78/30b7c8cf9613949b4b57a4feeffdba0788b60a0eadf12789074e8d48c4db/localstack_core-3.4.1.dev20240524022416.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Downloading https://files.pythonhosted.org/packages/3c/3e/4ccb55b8f3bc5a1e08ce168729a470d1475c3022756a9d7b3e152d953a3d/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0rc2.tar.gz tmp/meerschaum-2.2.0rc3.tar.gz --markdown 20240524/m/meerschaum/2.2.0rc2-2.2.0rc3/README.md --exclude *.pyd
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: Downloading https://files.pythonhosted.org/packages/5b/94/b503521d5ddb545c15643618284e97f12b51d2d106379b7b9a04d6c5cc07/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.7.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-pos-order-to-sale-order/16.0.1.0.7-16.0.1.0.7.1/README.md --exclude *.pyd
+[2024-05-24 08:36:25] INFO root fetch - processPackages [tinyCUCM]: Downloading https://files.pythonhosted.org/packages/64/72/23d59102101cbd9a38d6b889dff66810ec038663a45d9aa52c7ba7261fbb/tinycucm-0.2.9.tar.gz
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-pos-payment-method-change-policy/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-pos-to-weight-by-product-uom/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-24 08:36:25] INFO root fetch - processPackages [tinyCUCM]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [tinyCUCM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinycucm-0.2.8.tar.gz tmp/tinycucm-0.2.9.tar.gz --markdown 20240524/t/tinyCUCM/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 08:36:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-24 08:36:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240523192030.tar.gz tmp/localstack_core-3.4.1.dev20240524022416.tar.gz --markdown 20240524/l/localstack-core/3.4.1.dev20240523192030-3.4.1.dev20240524022416/README.md --exclude *.pyd
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.7-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-order-to-sale-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_order_to_sale_order-16.0.1.0.7.1-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-order-to-sale-order]: success
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_payment_method_change_policy-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-payment-method-change-policy]: success
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - processPackages [odoo-addon-pos-to-weight-by-product-uom]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_to_weight_by_product_uom-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 08:36:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-to-weight-by-product-uom]: success
+[2024-05-24 08:36:26] INFO root fetch - processPackages [tinyCUCM]: Remove: archive file [/home/abi/fetcher/tmp/tinycucm-0.2.8.tar.gz]
+[2024-05-24 08:36:26] INFO root fetch - processPackages [tinyCUCM]: Remove: archive file [/home/abi/fetcher/tmp/tinycucm-0.2.9.tar.gz]
+[2024-05-24 08:36:26] INFO root fetch - main [MainThread]: End processing [tinyCUCM]: success
+[2024-05-24 08:36:27] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc2.tar.gz]
+[2024-05-24 08:36:27] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc3.tar.gz]
+[2024-05-24 08:36:27] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-24 08:36:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240523192030.tar.gz]
+[2024-05-24 08:36:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240524022416.tar.gz]
+[2024-05-24 08:36:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-24 08:36:29] INFO root fetch - main [MainThread]: Store serial: [23357470]
