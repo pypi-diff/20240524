@@ -7654,3 +7654,37 @@
 [2024-05-24 03:53:16] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.7.tar.gz]
 [2024-05-24 03:53:16] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2024-05-24 03:53:16] INFO root fetch - main [MainThread]: Store serial: [23355388]
+[2024-05-24 03:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355388]
+[2024-05-24 03:55:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 03:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blueness
+[2024-05-24 03:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visible-to-sqlite
+[2024-05-24 03:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueness
+[2024-05-24 03:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rke
+[2024-05-24 03:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prototwin
+[2024-05-24 03:55:25] WARNING root fetch - processPackages [prototwin]: Skipping, unable to determine old version
+[2024-05-24 03:55:25] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-24 03:55:25] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-24 03:55:25] INFO root fetch - main [MainThread]: End processing [prototwin] error
+[2024-05-24 03:55:25] WARNING root fetch - processPackages [visible-to-sqlite]: Skipping, unable to determine old version
+[2024-05-24 03:55:25] INFO root fetch - main [MainThread]: End processing [visible-to-sqlite] error
+[2024-05-24 03:55:25] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1716513432] Old Version: [3.5.0a1715928872]
+[2024-05-24 03:55:25] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-24 03:55:25] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-24 03:55:25] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/64/ac/7d3efa6cfbfc1098df033e69f9939529251edf83524f8ddacd70388df38b/pulumi_rke-3.5.0a1715928872.tar.gz
+[2024-05-24 03:55:26] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/01/21/b6b7da73c7ab2ea8704f5210b77447cec837be4e3cd858bcad1239fc09d9/pulumi_rke-3.5.0a1716513432.tar.gz
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-24 03:55:26] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-24 03:55:26] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1715928872.tar.gz tmp/pulumi_rke-3.5.0a1716513432.tar.gz --markdown 20240524/p/pulumi-rke/3.5.0a1715928872-3.5.0a1716513432/README.md --exclude *.pyd
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240524/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240524/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-24 03:55:26] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715928872.tar.gz]
+[2024-05-24 03:55:26] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1716513432.tar.gz]
+[2024-05-24 03:55:26] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-24 03:55:26] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-24 03:55:26] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-24 03:55:26] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-24 03:55:26] INFO root fetch - main [MainThread]: Store serial: [23355406]
