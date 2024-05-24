@@ -20121,3 +20121,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:41:42] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip]
 [2024-05-24 12:41:42] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
 [2024-05-24 12:41:42] INFO root fetch - main [MainThread]: Store serial: [23360521]
+[2024-05-24 12:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360521]
+[2024-05-24 12:43:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biobb-gromacs
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudquery-plugin-sdk
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BigEDA
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HiYaPyCo
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bftool
+[2024-05-24 12:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cadprox
+[2024-05-24 12:43:51] INFO root fetch - processPackages [cadprox]: New version: [2.3] Old Version: [2.2]
+[2024-05-24 12:43:51] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/82/45/3201bee4a72a9ada4999dec3f62edc0b84870d84c11500d548b7b380f5d0/cadprox-2.2.tar.gz
+[2024-05-24 12:43:51] WARNING root fetch - processPackages [bftool]: Skipping, unable to determine old version
+[2024-05-24 12:43:51] INFO root fetch - main [MainThread]: End processing [bftool] error
+[2024-05-24 12:43:51] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 12:43:51] INFO root fetch - processPackages [biobb-gromacs]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-05-24 12:43:51] INFO root fetch - processPackages [HiYaPyCo]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-24 12:43:51] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [HiYaPyCo]: Downloading https://files.pythonhosted.org/packages/4a/01/ed95466dffef6133adf510b224a6e9fc34b9af8445ffc8852525fb871454/HiYaPyCo-0.5.6.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [biobb-gromacs]: Downloading https://files.pythonhosted.org/packages/e0/93/15b79b6f2e563c079e1407285989e8942a0523b53a2234033cb9b60d5324/biobb_gromacs-4.1.1.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/94/67/4acaf80bbbfc1dfe99929fe5c95f0886357d96d6aa8d242a5eaa246e9a92/cadprox-2.3.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [HiYaPyCo]: Downloading https://files.pythonhosted.org/packages/08/d7/0a858ceea1384843a60fa3a76e18864b981e288c3783a4b853bf44e09f60/HiYaPyCo-0.6.0.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [biobb-gromacs]: Downloading https://files.pythonhosted.org/packages/77/64/e76a7729998be35d6332beb40024d7e2a1e4f104ec31cbabafdbf7c0dd7c/biobb_gromacs-4.2.0.tar.gz
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.2.tar.gz tmp/cadprox-2.3.tar.gz --markdown 20240524/c/cadprox/2.2-2.3/README.md --exclude *.pyd
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-05-24 12:43:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240524/c/cloudquery-plugin-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 12:43:52] INFO root fetch - processPackages [biobb-gromacs]: executing diffoscope
+[2024-05-24 12:43:52] INFO root fetch - processPackages [biobb-gromacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_gromacs-4.1.1.tar.gz tmp/biobb_gromacs-4.2.0.tar.gz --markdown 20240524/b/biobb-gromacs/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-05-24 12:43:52] INFO root fetch - processPackages [HiYaPyCo]: executing diffoscope
+[2024-05-24 12:43:52] INFO root fetch - processPackages [HiYaPyCo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HiYaPyCo-0.5.6.tar.gz tmp/HiYaPyCo-0.6.0.tar.gz --markdown 20240524/H/HiYaPyCo/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-24 12:43:52] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-24 12:43:53] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-24 12:43:53] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240524/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 12:43:53] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.2.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.3.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:43:53] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-05-24 12:43:53] INFO root fetch - processPackages [biobb-gromacs]: Remove: archive file [/home/abi/fetcher/tmp/biobb_gromacs-4.1.1.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - processPackages [biobb-gromacs]: Remove: archive file [/home/abi/fetcher/tmp/biobb_gromacs-4.2.0.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [biobb-gromacs]: success
+[2024-05-24 12:43:53] INFO root fetch - processPackages [HiYaPyCo]: Remove: archive file [/home/abi/fetcher/tmp/HiYaPyCo-0.5.6.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - processPackages [HiYaPyCo]: Remove: archive file [/home/abi/fetcher/tmp/HiYaPyCo-0.6.0.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [HiYaPyCo]: success
+[2024-05-24 12:43:53] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-24 12:43:53] INFO root fetch - main [MainThread]: Store serial: [23360550]
