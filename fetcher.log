@@ -12972,3 +12972,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:40:53] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-24 08:40:53] INFO root fetch - main [MainThread]: Store serial: [23357505]
+[2024-05-24 08:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357505]
+[2024-05-24 08:43:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meerschaum
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topologicpy
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaussprot
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-create
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: espy-contact
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-variant-configurator
+[2024-05-24 08:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-variant-sale-price
+[2024-05-24 08:43:03] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 08:43:03] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.7.3]
+[2024-05-24 08:43:03] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0rc4] Old Version: [2.2.0rc3]
+[2024-05-24 08:43:03] INFO root fetch - processPackages [ansar-create]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-24 08:43:03] WARNING root fetch - processPackages [gaussprot]: Skipping, unable to determine old version
+[2024-05-24 08:43:03] INFO root fetch - main [MainThread]: End processing [gaussprot] error
+[2024-05-24 08:43:03] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/12/02/6f04be32d2602e3c92bd8b39e1296c4f47729f94e9e4cc68bead6807fc4b/meerschaum-2.2.0rc3.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-24 08:43:03] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/ef/a6/fbcb7bfa82fc08ef75ea44d5402efcefb3051de096d449598ea086c48624/topologicpy-0.7.3-py3-none-any.whl
+[2024-05-24 08:43:03] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/d4/82/a8ea748897941733bde05049f2aa2bde2fa9b74e7ade11a90df6b8431625/ansar_create-0.1.90.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: Downloading https://files.pythonhosted.org/packages/6e/20/77f41a60cab9c971bef5698f32a21476697d87404f27b470cbf32fa652f6/odoo_addon_purchase_variant_configurator-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/7e/e1/fb71493fff98cf01032084a99d109259e14e0497845db449e7b35c901e22/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 08:43:03] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 08:43:03] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 08:43:03] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-24 08:43:03] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/61/df/89684ee62bf23a10cc686ac0b014faf06c797a87530f0d45d35699e3a7fd/meerschaum-2.2.0rc4.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/c7/0f/2d8bcbb911a059a35b87212f60d03ec6eafd8850caff9afc3df4fddaa78d/ansar_create-0.1.91.tar.gz
+[2024-05-24 08:43:03] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-24 08:43:03] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.7.3-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240524/t/topologicpy/0.7.3-6.0.0/README.md --exclude *.pyd
+[2024-05-24 08:43:03] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-24 08:43:03] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.90.tar.gz tmp/ansar_create-0.1.91.tar.gz --markdown 20240524/a/ansar-create/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-24 08:43:03] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-24 08:43:03] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0rc3.tar.gz tmp/meerschaum-2.2.0rc4.tar.gz --markdown 20240524/m/meerschaum/2.2.0rc3-2.2.0rc4/README.md --exclude *.pyd
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: Downloading https://files.pythonhosted.org/packages/69/52/93e813a35d7a0bddb1d482317d7a76d7a84c1f77c9b002a8ea4a790fa3b3/odoo_addon_purchase_variant_configurator-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 08:43:03] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/88/0e/bcaf098c26b3b49bc2de9b372cff835ea59cd11b216d7f99758a55d60559/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: executing diffoscope
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-variant-sale-price/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: executing diffoscope
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_variant_configurator-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_variant_configurator-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-purchase-variant-configurator/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 08:43:04] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 08:43:04] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 08:43:04] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 08:43:04] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.90.tar.gz]
+[2024-05-24 08:43:04] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.91.tar.gz]
+[2024-05-24 08:43:04] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_variant_configurator-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-purchase-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_variant_configurator-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 08:43:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-variant-configurator]: success
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 08:43:04] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 08:43:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-sale-price]: success
+[2024-05-24 08:43:05] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.7.3-py3-none-any.whl.zip]
+[2024-05-24 08:43:05] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-24 08:43:05] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-24 08:43:05] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc3.tar.gz]
+[2024-05-24 08:43:05] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc4.tar.gz]
+[2024-05-24 08:43:05] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-24 08:43:05] INFO root fetch - main [MainThread]: Store serial: [23357526]
