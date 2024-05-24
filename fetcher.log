@@ -8048,3 +8048,63 @@
 [2024-05-24 04:22:10] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
 [2024-05-24 04:22:10] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
 [2024-05-24 04:22:10] INFO root fetch - main [MainThread]: Store serial: [23355521]
+[2024-05-24 04:24:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355521]
+[2024-05-24 04:24:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-PyMySQL
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-python-crontab
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-setuptools
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-docker
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stormpath
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riverwm-utils
+[2024-05-24 04:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-aws-api-gateway-websockets
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240523] Old Version: [7.0.0.20240519]
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-setuptools]: New version: [70.0.0.20240523] Old Version: [69.5.0.20240522]
+[2024-05-24 04:24:19] WARNING root fetch - processPackages [stormpath]: Skipping, unable to determine old version
+[2024-05-24 04:24:19] INFO root fetch - main [MainThread]: End processing [stormpath] error
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-PyMySQL]: New version: [1.1.0.20240524] Old Version: [1.1.0.20240425]
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/4f/0b/c4c756849714ccd60951fe24374e2f6334aa9ca0d5f9c8d08cc004e41022/types-docker-7.0.0.20240519.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [riverwm-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-python-crontab]: New version: [3.1.0.20240524] Old Version: [3.0.0.20240417]
+[2024-05-24 04:24:19] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/45/dd/dc7fdc8086cb19f081fdc76476a8707c515d0f81abef94b7845b604ceedd/types-setuptools-69.5.0.20240522.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/a1/9b/bdde57ea9101d7cd52be274674340965ff69ab361ed54bc4dd133cc57fd0/types-PyMySQL-1.1.0.20240425.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/ec/12/da06942dbe9fa062e9e5fafc8d17a98d97b1eb488b9eac282a3eb98a8f8a/riverwm-utils-0.0.8.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/c3/43/693e55db4bf0db0177e7fbebbb8b913040194db1a7c89aa2e8a1a3bfa7a4/types-docker-7.0.0.20240523.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/9f/5d/8a139cc16e6061f92514a26ce4c55a12fce777900adb9ac0b319a94d0636/types-python-crontab-3.0.0.20240417.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/8b/1e/95119ce90a00763d2fe6b98d0207cced34d29ca7bfa9b713b40ab2a65cc2/django-aws-api-gateway-websockets-1.0.8.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/b2/cd/ff549c17823b873125e34be9d14c7c2022f9a008c3ee11160518e672c10e/types-setuptools-70.0.0.20240523.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240519.tar.gz tmp/types-docker-7.0.0.20240523.tar.gz --markdown 20240524/t/types-docker/7.0.0.20240519-7.0.0.20240523/README.md --exclude *.pyd
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-69.5.0.20240522.tar.gz tmp/types-setuptools-70.0.0.20240523.tar.gz --markdown 20240524/t/types-setuptools/69.5.0.20240522-70.0.0.20240523/README.md --exclude *.pyd
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/1f/d9/34a5cf91333592da77cfc718813cd402bcb196960f02fd1dded4994a925f/types-python-crontab-3.1.0.20240524.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/e1/f0/ba26cb282817715de223baa4964cadd9a04ffccdcd2670c57f7e250009de/riverwm-utils-0.0.9.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/57/a3/a24412f339ba8b58ad4e436e8ad9e9520add29b25a07c8a4001d84414c16/types-PyMySQL-1.1.0.20240524.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/27/f0/3aa75f3d7e6c532d4cb44254d345bd11b0293cc27249dc13f3086ed897fb/django-aws-api-gateway-websockets-1.0.9.tar.gz
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-python-crontab]: executing diffoscope
+[2024-05-24 04:24:19] INFO root fetch - processPackages [types-python-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-crontab-3.0.0.20240417.tar.gz tmp/types-python-crontab-3.1.0.20240524.tar.gz --markdown 20240524/t/types-python-crontab/3.0.0.20240417-3.1.0.20240524/README.md --exclude *.pyd
+[2024-05-24 04:24:19] INFO root fetch - processPackages [riverwm-utils]: executing diffoscope
+[2024-05-24 04:24:19] INFO root fetch - processPackages [riverwm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riverwm-utils-0.0.8.tar.gz tmp/riverwm-utils-0.0.9.tar.gz --markdown 20240524/r/riverwm-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-PyMySQL]: executing diffoscope
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyMySQL-1.1.0.20240425.tar.gz tmp/types-PyMySQL-1.1.0.20240524.tar.gz --markdown 20240524/t/types-PyMySQL/1.1.0.20240425-1.1.0.20240524/README.md --exclude *.pyd
+[2024-05-24 04:24:20] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: executing diffoscope
+[2024-05-24 04:24:20] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz --markdown 20240524/d/django-aws-api-gateway-websockets/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.5.0.20240522.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-70.0.0.20240523.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240519.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240523.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.0.0.20240417.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.1.0.20240524.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [types-python-crontab]: success
+[2024-05-24 04:24:20] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [django-aws-api-gateway-websockets]: success
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.20240425.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.20240524.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [types-PyMySQL]: success
+[2024-05-24 04:24:20] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.8.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.9.tar.gz]
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [riverwm-utils]: success
+[2024-05-24 04:24:20] INFO root fetch - main [MainThread]: Store serial: [23355543]
