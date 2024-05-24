@@ -2586,3 +2586,69 @@
 [2024-05-24 02:26:07] INFO root fetch - processPackages [structuretoolkit]: Remove: archive file [/home/abi/fetcher/tmp/structuretoolkit-0.0.9.tar.gz]
 [2024-05-24 02:26:07] INFO root fetch - main [MainThread]: End processing [structuretoolkit]: success
 [2024-05-24 02:26:07] INFO root fetch - main [MainThread]: Store serial: [23353564]
+[2024-05-24 02:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353564]
+[2024-05-24 02:28:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-serverless-clamscan
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-ecs-service-extensions
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typing-extensions
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlpx
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2024-05-24 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django_herobiz_dental
+[2024-05-24 02:28:16] INFO root fetch - processPackages [django_herobiz_dental]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [nlpx]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [typing-extensions]: New version: [4.9.0rc1] Old Version: [4.9.0]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/3a/da/e7a86b6fae10a59dfac0694d921580002e64666934caf462ea0dd903f894/django_herobiz_dental-3.0.0.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-24 02:28:16] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/55/ec/94866561c497e763ab7b851eee6cb3ba807b2143d2d8641ec6858336af68/nlpx-0.4.0.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/0c/1d/eb26f5e75100d531d7399ae800814b069bc2ed2a7410834d57374d010d96/typing_extensions-4.9.0.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-24 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/b2/20/bf6ca8d5ba2436cef8151509e04bda02598946ccbb7d3cbcc65d4c5f17c8/nlpx-0.5.0.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [typing-extensions]: Downloading https://files.pythonhosted.org/packages/b9/dd/1eba01e2b8d1a9d79ed87959d19f08ea57164c0ea241774c78adc32f61ee/typing_extensions-4.9.0rc1.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240524/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240524/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240524/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-0.4.0.tar.gz tmp/nlpx-0.5.0.tar.gz --markdown 20240524/n/nlpx/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [typing-extensions]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [typing-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typing_extensions-4.9.0.tar.gz tmp/typing_extensions-4.9.0rc1.tar.gz --markdown 20240524/t/typing-extensions/4.9.0-4.9.0rc1/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/89/1f/ccf5d727a663605bce521a1a460169a88b7ecb6be23da4a8823bc98b5085/django_herobiz_dental-3.0.1.tar.gz
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240524/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-24 02:28:17] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-3.0.0.tar.gz tmp/django_herobiz_dental-3.0.1.tar.gz --markdown 20240524/d/django_herobiz_dental/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-24 02:28:17] INFO root fetch - processPackages [typing-extensions]: Remove: archive file [/home/abi/fetcher/tmp/typing_extensions-4.9.0.tar.gz]
+[2024-05-24 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-24 02:28:17] INFO root fetch - processPackages [typing-extensions]: Remove: archive file [/home/abi/fetcher/tmp/typing_extensions-4.9.0rc1.tar.gz]
+[2024-05-24 02:28:17] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-24 02:28:17] INFO root fetch - main [MainThread]: End processing [typing-extensions]: success
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-24 02:28:18] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.4.0.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.5.0.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-24 02:28:18] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-24 02:28:19] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.0.0.tar.gz]
+[2024-05-24 02:28:19] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.0.1.tar.gz]
+[2024-05-24 02:28:19] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-24 02:28:19] INFO root fetch - main [MainThread]: Store serial: [23353587]
