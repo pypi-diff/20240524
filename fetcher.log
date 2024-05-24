@@ -13734,3 +13734,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:15:32] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.3rc1.tar.gz]
 [2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
 [2024-05-24 09:15:32] INFO root fetch - main [MainThread]: Store serial: [23357807]
+[2024-05-24 09:17:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357807]
+[2024-05-24 09:17:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 09:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-24 09:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-24 09:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bstblue
+[2024-05-24 09:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapieng
+[2024-05-24 09:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-admin-ordering
+[2024-05-24 09:17:42] INFO root fetch - processPackages [mapieng]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-create]: New version: [0.1.92] Old Version: [0.1.91]
+[2024-05-24 09:17:42] INFO root fetch - processPackages [bstblue]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.259] Old Version: [0.1.258]
+[2024-05-24 09:17:42] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/e5/e1/8f32a1277da8c05101093be8954a90ce0099b2de8a73a987fad9d0f33623/mapieng-0.1.2.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/c7/0f/2d8bcbb911a059a35b87212f60d03ec6eafd8850caff9afc3df4fddaa78d/ansar_create-0.1.91.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/8d/bb654117c8a6eddcc64df280697f04d094779725622802f1e63ddd6ed3e7/ansar_connect-0.1.258.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [django-admin-ordering]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 09:17:42] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/68/72/c06443382a7cc0f12a9fd5c16a18bc37a1f583c2aa57eb2d06dbcbbcc702/bstblue-0.0.2.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [django-admin-ordering]: Downloading https://files.pythonhosted.org/packages/5f/bd/1ab7730de151e2a8d387cff5bc1f7fdca7789f6522a3ece5efdb776481bb/django-admin-ordering-0.8.1.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/b4/62/1d50408ed9346df4d11d3e3b533d2f3913fa7368ef457cf27dfea1e5d7a3/ansar_create-0.1.92.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/61/5f/1fffd4889a83601930727257aa12616696048becfc49fe3a95297487156b/mapieng-0.1.3.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/eb/9f/833845fef710326053da8b33267e1bea704154e0c2432b6e54edddb72c95/ansar_connect-0.1.259.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/94/e0/9ee3a50fe8b973035a2b0b3309e930624cc9f3ef522fb28ea41c1e600bcb/bstblue-0.0.3.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 09:17:42] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.2.tar.gz tmp/mapieng-0.1.3.tar.gz --markdown 20240524/m/mapieng/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.91.tar.gz tmp/ansar_create-0.1.92.tar.gz --markdown 20240524/a/ansar-create/0.1.91-0.1.92/README.md --exclude *.pyd
+[2024-05-24 09:17:42] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 09:17:42] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.2.tar.gz tmp/bstblue-0.0.3.tar.gz --markdown 20240524/b/bstblue/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-24 09:17:42] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.258.tar.gz tmp/ansar_connect-0.1.259.tar.gz --markdown 20240524/a/ansar-connect/0.1.258-0.1.259/README.md --exclude *.pyd
+[2024-05-24 09:17:42] INFO root fetch - processPackages [django-admin-ordering]: Downloading https://files.pythonhosted.org/packages/e9/2c/3de989b4d68f6ddb242172643662334530fe18cc833382f347697a83238d/django-admin-ordering-0.9.0.tar.gz
+[2024-05-24 09:17:42] INFO root fetch - processPackages [django-admin-ordering]: executing diffoscope
+[2024-05-24 09:17:42] INFO root fetch - processPackages [django-admin-ordering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-ordering-0.8.1.tar.gz tmp/django-admin-ordering-0.9.0.tar.gz --markdown 20240524/d/django-admin-ordering/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 09:17:43] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.2.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.3.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 09:17:43] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.258.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.259.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-24 09:17:43] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.91.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.92.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-24 09:17:43] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.2.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.3.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 09:17:43] INFO root fetch - processPackages [django-admin-ordering]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-ordering-0.8.1.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - processPackages [django-admin-ordering]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-ordering-0.9.0.tar.gz]
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [django-admin-ordering]: success
+[2024-05-24 09:17:43] INFO root fetch - main [MainThread]: Store serial: [23357822]
