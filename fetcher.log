@@ -9234,3 +9234,44 @@
 [2024-05-24 05:33:26] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-2.0.0.tar.gz]
 [2024-05-24 05:33:26] INFO root fetch - main [MainThread]: End processing [aiotx]: success
 [2024-05-24 05:33:26] INFO root fetch - main [MainThread]: Store serial: [23355959]
+[2024-05-24 05:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355959]
+[2024-05-24 05:35:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: change-font-size
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siglost-utils
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: procastro
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pokemon-calculator-ver.2
+[2024-05-24 05:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdbt
+[2024-05-24 05:35:35] INFO root fetch - processPackages [cdbt]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-24 05:35:35] INFO root fetch - processPackages [siglost-utils]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-24 05:35:35] INFO root fetch - processPackages [nlpx]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 05:35:35] WARNING root fetch - processPackages [change-font-size]: Skipping, unable to determine old version
+[2024-05-24 05:35:35] INFO root fetch - main [MainThread]: End processing [change-font-size] error
+[2024-05-24 05:35:35] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/b2/74/49ee6036c3c96b560badc0c1f8f9abc15d33a66da5d300f660bd389f8b95/cdbt-0.2.7.tar.gz
+[2024-05-24 05:35:35] WARNING root fetch - processPackages [pokemon-calculator-ver.2]: Skipping, unable to determine old version
+[2024-05-24 05:35:35] INFO root fetch - main [MainThread]: End processing [pokemon-calculator-ver.2] error
+[2024-05-24 05:35:35] INFO root fetch - processPackages [procastro]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 05:35:35] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/d0/cd/c638a742151954e3e61b4351a312c9b1387d7bb0e5c3a4e42e459af1a7ab/siglost_utils-0.1.5.tar.gz
+[2024-05-24 05:35:35] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/91/d1/906d171d265db7150a29a830f26726bd571c8fdc8512776d0d25f14c2315/nlpx-0.8.0.tar.gz
+[2024-05-24 05:35:35] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/2e/b1/bf2d035d416a004630b085b855cc1203b14ee45d8e5aa1cb22a1136554ae/procastro-0.1.8.tar.gz
+[2024-05-24 05:35:35] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/7f/a6/7ebc38253c2a372e924dc11d2ddc1a6d05c7f059a722e490e2255810e4bd/siglost_utils-0.2.0.tar.gz
+[2024-05-24 05:35:35] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 11450976>=10485760
+[2024-05-24 05:35:35] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2024-05-24 05:35:35] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/7b/ff/0e12092aa5feedf114e5c9aade78278de5922bf2a8274b74832c633c8446/nlpx-0.9.0.tar.gz
+[2024-05-24 05:35:35] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/ad/0d/062f0c160d4e0d9a2b0025a4df6a7b8c97353893fbbfdc327872de74d09e/cdbt-0.2.8.tar.gz
+[2024-05-24 05:35:35] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 05:35:35] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.1.5.tar.gz tmp/siglost_utils-0.2.0.tar.gz --markdown 20240524/s/siglost-utils/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-24 05:35:35] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 05:35:35] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-0.8.0.tar.gz tmp/nlpx-0.9.0.tar.gz --markdown 20240524/n/nlpx/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 05:35:35] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-24 05:35:35] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.2.7.tar.gz tmp/cdbt-0.2.8.tar.gz --markdown 20240524/c/cdbt/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-24 05:35:36] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.5.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.2.0.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 05:35:36] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.8.0.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.9.0.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 05:35:36] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.7.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.8.tar.gz]
+[2024-05-24 05:35:36] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-24 05:35:36] INFO root fetch - main [MainThread]: Store serial: [23355980]
