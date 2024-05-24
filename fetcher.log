@@ -17505,3 +17505,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:13:46] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz]
 [2024-05-24 11:13:46] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-05-24 11:13:46] INFO root fetch - main [MainThread]: Store serial: [23359411]
+[2024-05-24 11:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359411]
+[2024-05-24 11:15:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AAIT
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xinference
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grafana-foundation-sdk
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mixing
+[2024-05-24 11:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygradflow
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716541850!10.1.0] Old Version: [1716541742!11.0.0]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716541850!10.1.0] Old Version: [1716541742!11.0.0]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-24 11:15:56] WARNING root fetch - processPackages [mixing]: Skipping, unable to determine old version
+[2024-05-24 11:15:56] INFO root fetch - main [MainThread]: End processing [mixing] error
+[2024-05-24 11:15:56] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/94/07/71e1c524952200b16e85b3746f03cf3f1feaf1abbfb12808e1a51284c99b/grafana_foundation_sdk-1716541742!11.0.0.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/94/07/71e1c524952200b16e85b3746f03cf3f1feaf1abbfb12808e1a51284c99b/grafana_foundation_sdk-1716541742!11.0.0.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-24 11:15:56] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-24 11:15:56] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 11:15:56] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240524/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-24 11:15:56] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-24 11:15:56] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240524/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz --markdown 20240524/g/grafana-foundation-sdk/1716541742!11.0.0-1716541850!10.1.0/README.md --exclude *.pyd
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-24 11:15:56] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz --markdown 20240524/g/grafana-foundation-sdk/1716541742!11.0.0-1716541850!10.1.0/README.md --exclude *.pyd
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240524/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240524/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-24 11:15:57] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-05-24 11:15:57] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-05-24 11:15:57] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 11:15:57] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-24 11:15:57] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-24 11:15:57] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-05-24 11:15:57] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-24 11:15:57] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-24 11:15:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-24 11:15:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-24 11:15:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-24 11:15:58] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz]
+[2024-05-24 11:15:58] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz]
+[2024-05-24 11:15:58] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-24 11:15:58] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-24 11:15:58] INFO root fetch - main [MainThread]: Store serial: [23359439]
