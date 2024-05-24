@@ -17566,3 +17566,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:15:58] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-05-24 11:15:58] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-05-24 11:15:58] INFO root fetch - main [MainThread]: Store serial: [23359439]
+[2024-05-24 11:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359439]
+[2024-05-24 11:18:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rottentomatoes-reviews-scraper
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SIST02-converter
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catalog-builder
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bstblue
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secprompt
+[2024-05-24 11:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blockapi
+[2024-05-24 11:18:08] INFO root fetch - processPackages [SIST02-converter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 11:18:08] INFO root fetch - processPackages [bstblue]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 11:18:08] INFO root fetch - processPackages [catalog-builder]: New version: [0.5] Old Version: [0.4]
+[2024-05-24 11:18:08] WARNING root fetch - processPackages [secprompt]: Skipping, unable to determine old version
+[2024-05-24 11:18:08] INFO root fetch - main [MainThread]: End processing [secprompt] error
+[2024-05-24 11:18:08] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/a2/3d/0d3104b7c913d38e3210c4c2776c394d7c0db03b519628a8057e65844089/bstblue-0.0.6.tar.gz
+[2024-05-24 11:18:08] WARNING root fetch - processPackages [rottentomatoes-reviews-scraper]: Skipping, unable to determine old version
+[2024-05-24 11:18:08] INFO root fetch - main [MainThread]: End processing [rottentomatoes-reviews-scraper] error
+[2024-05-24 11:18:08] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 11:18:08] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/90/7c/131b1b672d3ca0a9fca5e3d1fa65792a0cad825f7c0e55e0a762eb720c2e/SIST02_converter-0.1.0.tar.gz
+[2024-05-24 11:18:08] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/30/40/0662ca794aa92c46ed43ce9b90428e337b9dbb1f2186ab43571422081738/catalog_builder-0.4.tar.gz
+[2024-05-24 11:18:08] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2024-05-24 11:18:09] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/15/3f/05a8ac45122f3f9974cbf6c3d4ed29445e03db72390d3ae017c77ab2ef59/bstblue-0.0.7.tar.gz
+[2024-05-24 11:18:09] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/46/44/42f1e4a8f1edb365acbe8f8bcd489068f85112cc33e161f19f10eba86581/SIST02_converter-0.1.1.tar.gz
+[2024-05-24 11:18:09] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 11:18:09] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.6.tar.gz tmp/bstblue-0.0.7.tar.gz --markdown 20240524/b/bstblue/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 11:18:09] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/a6/81/3cfa3d828af636e5c3e1395652a53856e1d2fe5a9b51ec6fd2617ade04fe/catalog_builder-0.5.tar.gz
+[2024-05-24 11:18:09] INFO root fetch - processPackages [SIST02-converter]: executing diffoscope
+[2024-05-24 11:18:09] INFO root fetch - processPackages [SIST02-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIST02_converter-0.1.0.tar.gz tmp/SIST02_converter-0.1.1.tar.gz --markdown 20240524/S/SIST02-converter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 11:18:09] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2024-05-24 11:18:09] INFO root fetch - processPackages [catalog-builder]: executing diffoscope
+[2024-05-24 11:18:09] INFO root fetch - processPackages [catalog-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalog_builder-0.4.tar.gz tmp/catalog_builder-0.5.tar.gz --markdown 20240524/c/catalog-builder/0.4-0.5/README.md --exclude *.pyd
+[2024-05-24 11:18:09] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2024-05-24 11:18:09] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20240524/b/blockapi/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 11:18:09] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.6.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.7.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 11:18:09] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.4.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.5.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - main [MainThread]: End processing [catalog-builder]: success
+[2024-05-24 11:18:09] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02_converter-0.1.0.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02_converter-0.1.1.tar.gz]
+[2024-05-24 11:18:09] INFO root fetch - main [MainThread]: End processing [SIST02-converter]: success
+[2024-05-24 11:18:10] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2024-05-24 11:18:10] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2024-05-24 11:18:10] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2024-05-24 11:18:10] INFO root fetch - main [MainThread]: Store serial: [23359461]
