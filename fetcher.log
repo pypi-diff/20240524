@@ -18515,3 +18515,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:44:44] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a67.tar.gz]
 [2024-05-24 11:44:44] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-05-24 11:44:44] INFO root fetch - main [MainThread]: Store serial: [23359832]
+[2024-05-24 11:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359832]
+[2024-05-24 11:46:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decayangle
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai2-kit
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audioflux
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osbot-aws
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyavd-cli
+[2024-05-24 11:46:53] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-24 11:46:53] INFO root fetch - processPackages [osbot-aws]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-24 11:46:53] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 11:46:53] INFO root fetch - processPackages [audioflux]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 11:46:53] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-24 11:46:53] INFO root fetch - processPackages [decayangle]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 11:46:53] INFO root fetch - processPackages [pyavd-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 11:46:54] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-24 11:46:54] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-24 11:46:54] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/4f/52/02475c1a4d2b8f8f705f5286d3661d381ddfc26cbec25e6c2598e1eabc8e/osbot_aws-2.5.0.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [decayangle]: Downloading https://files.pythonhosted.org/packages/41/8b/2d519171f14b5c45c259f15ba6ea2dc2a8d7dd7a4eb759e3862085ee48d9/decayangle-1.0.2.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [audioflux]: Downloading https://files.pythonhosted.org/packages/46/54/73db82c9b3159e3ae683d10128342d6c8c03428900ac55cdf293771cbcea/audioflux-0.1.8-py3-none-any.whl
+[2024-05-24 11:46:54] WARNING root fetch - processPackages [audioflux]: Skipping package: exceeds size limit 70770901>=10485760
+[2024-05-24 11:46:54] INFO root fetch - main [MainThread]: End processing [audioflux] error
+[2024-05-24 11:46:54] INFO root fetch - processPackages [pyavd-cli]: Downloading https://files.pythonhosted.org/packages/94/5b/ae352fb342022f47ff7aca70edf9afd2484728396d6ea310791573d8b497/pyavd_cli-0.1.3.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/e3/fd/06852c61c7468df12e0accc957bbc9fcf3622223811ae809652b24fa8b57/osbot_aws-2.6.0.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [decayangle]: Downloading https://files.pythonhosted.org/packages/0e/4d/53d217b124969e625a84547f339140cc8cbb2ef181d817e9e68f8837172e/decayangle-1.0.3.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-24 11:46:54] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240524/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 11:46:54] INFO root fetch - processPackages [pyavd-cli]: Downloading https://files.pythonhosted.org/packages/88/9c/7daf9bdd890147a2d2f35b2dba59e327b6c35c8d3ded731bf36a25c2baae/pyavd_cli-0.1.4.tar.gz
+[2024-05-24 11:46:54] INFO root fetch - processPackages [decayangle]: executing diffoscope
+[2024-05-24 11:46:54] INFO root fetch - processPackages [decayangle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decayangle-1.0.2.tar.gz tmp/decayangle-1.0.3.tar.gz --markdown 20240524/d/decayangle/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 11:46:54] INFO root fetch - processPackages [osbot-aws]: executing diffoscope
+[2024-05-24 11:46:54] INFO root fetch - processPackages [osbot-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_aws-2.5.0.tar.gz tmp/osbot_aws-2.6.0.tar.gz --markdown 20240524/o/osbot-aws/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-24 11:46:54] INFO root fetch - processPackages [pyavd-cli]: executing diffoscope
+[2024-05-24 11:46:54] INFO root fetch - processPackages [pyavd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyavd_cli-0.1.3.tar.gz tmp/pyavd_cli-0.1.4.tar.gz --markdown 20240524/p/pyavd-cli/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 11:46:55] INFO root fetch - processPackages [decayangle]: Remove: archive file [/home/abi/fetcher/tmp/decayangle-1.0.2.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - processPackages [decayangle]: Remove: archive file [/home/abi/fetcher/tmp/decayangle-1.0.3.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - main [MainThread]: End processing [decayangle]: success
+[2024-05-24 11:46:55] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-24 11:46:55] INFO root fetch - processPackages [pyavd-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyavd_cli-0.1.3.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - processPackages [pyavd-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyavd_cli-0.1.4.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - main [MainThread]: End processing [pyavd-cli]: success
+[2024-05-24 11:46:55] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.5.0.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.6.0.tar.gz]
+[2024-05-24 11:46:55] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
+[2024-05-24 11:46:55] INFO root fetch - main [MainThread]: Store serial: [23359850]
