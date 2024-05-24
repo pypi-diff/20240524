@@ -11462,3 +11462,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:26:35] INFO root fetch - processPackages [ccsdspy]: Remove: archive file [/home/abi/fetcher/tmp/ccsdspy-1.3.0.tar.gz]
 [2024-05-24 07:26:35] INFO root fetch - main [MainThread]: End processing [ccsdspy]: success
 [2024-05-24 07:26:35] INFO root fetch - main [MainThread]: Store serial: [23356739]
+[2024-05-24 07:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356739]
+[2024-05-24 07:28:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RGBMatrixDriver
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-it-vat-settlement-date-rc
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniogre
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mostlyai
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-data-warehouse
+[2024-05-24 07:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django_herobiz_dental
+[2024-05-24 07:28:43] INFO root fetch - processPackages [miniogre]: New version: [0.8.0b0] Old Version: [0.7.0]
+[2024-05-24 07:28:43] INFO root fetch - processPackages [miniogre]: Downloading https://files.pythonhosted.org/packages/21/69/cddd61c5810564265e7da2002ace497e036ad295e7d947cd1d894d6c3a48/miniogre-0.7.0.tar.gz
+[2024-05-24 07:28:43] INFO root fetch - processPackages [RGBMatrixDriver]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 07:28:43] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-24 07:28:43] INFO root fetch - processPackages [tiny-data-warehouse]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-24 07:28:44] INFO root fetch - processPackages [mostlyai]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-24 07:28:44] INFO root fetch - processPackages [django_herobiz_dental]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-24 07:28:44] INFO root fetch - processPackages [RGBMatrixDriver]: Downloading https://files.pythonhosted.org/packages/17/62/054024a46cf88265711cba6b5951ef66617c80f3648892bb077c2423193d/rgbmatrixdriver-0.1.2.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: Downloading https://files.pythonhosted.org/packages/13/b2/a4aa93aadfffcf92429dae7347e13ca2f021f98036c564a6acb4749cda72/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 07:28:44] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/f1/a8/5762fbdc20cef9d74561d103d8682f86c0fe5a0bec2476c639ca53c95999/mostlyai-0.3.6.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/d0/2d/4fc81280a1c61858d97da2bcab90dd41614ecc72b66d16bcd54c6be824d3/django_herobiz_dental-3.1.0.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [tiny-data-warehouse]: Downloading https://files.pythonhosted.org/packages/c7/39/261b1f6c76f531637b5ef0f51bb920ddedafabaf55bed6ed726501b74aae/tiny_data_warehouse-0.1.6.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [miniogre]: Downloading https://files.pythonhosted.org/packages/d9/8a/411fd5b783083566db3001498d134b2b768af7923e3af8e09166f0316288/miniogre-0.8.0b0.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [RGBMatrixDriver]: Downloading https://files.pythonhosted.org/packages/1a/21/a09d286f5d959920910182477bbfa82f2d2de64d53f2bb803105cdf86b00/rgbmatrixdriver-0.1.3.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [miniogre]: executing diffoscope
+[2024-05-24 07:28:44] INFO root fetch - processPackages [miniogre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniogre-0.7.0.tar.gz tmp/miniogre-0.8.0b0.tar.gz --markdown 20240524/m/miniogre/0.7.0-0.8.0b0/README.md --exclude *.pyd
+[2024-05-24 07:28:44] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: Downloading https://files.pythonhosted.org/packages/9f/30/434825c7652ec5e1dfc4add26ed9d7eb1da145782c46da77af65912e0845/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 07:28:44] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: executing diffoscope
+[2024-05-24 07:28:44] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-l10n-it-vat-settlement-date-rc/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 07:28:44] INFO root fetch - processPackages [tiny-data-warehouse]: Downloading https://files.pythonhosted.org/packages/cf/94/a780ffea77ea4f5103a0c8b9b1e06bfa21e722234392b9a362ceb07d9d47/tiny_data_warehouse-0.2.0.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [RGBMatrixDriver]: executing diffoscope
+[2024-05-24 07:28:44] INFO root fetch - processPackages [RGBMatrixDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgbmatrixdriver-0.1.2.tar.gz tmp/rgbmatrixdriver-0.1.3.tar.gz --markdown 20240524/R/RGBMatrixDriver/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 07:28:44] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/00/b4/843a00c7d2077df33dfe1641bf799ad4748fbd4bb69100e5d8ff13d38b9d/django_herobiz_dental-3.2.0.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [tiny-data-warehouse]: executing diffoscope
+[2024-05-24 07:28:44] INFO root fetch - processPackages [tiny-data-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_data_warehouse-0.1.6.tar.gz tmp/tiny_data_warehouse-0.2.0.tar.gz --markdown 20240524/t/tiny-data-warehouse/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-24 07:28:44] INFO root fetch - processPackages [mostlyai]: Downloading https://files.pythonhosted.org/packages/7f/83/d44acc3044f096b283b327b434cc898889fbea7e3cc3bcc84960faa1abb7/mostlyai-0.3.7.tar.gz
+[2024-05-24 07:28:44] INFO root fetch - processPackages [mostlyai]: executing diffoscope
+[2024-05-24 07:28:44] INFO root fetch - processPackages [mostlyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostlyai-0.3.6.tar.gz tmp/mostlyai-0.3.7.tar.gz --markdown 20240524/m/mostlyai/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-24 07:28:45] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-24 07:28:45] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-3.1.0.tar.gz tmp/django_herobiz_dental-3.2.0.tar.gz --markdown 20240524/d/django_herobiz_dental/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-24 07:28:45] INFO root fetch - processPackages [RGBMatrixDriver]: Remove: archive file [/home/abi/fetcher/tmp/rgbmatrixdriver-0.1.2.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - processPackages [RGBMatrixDriver]: Remove: archive file [/home/abi/fetcher/tmp/rgbmatrixdriver-0.1.3.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - main [MainThread]: End processing [RGBMatrixDriver]: success
+[2024-05-24 07:28:45] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.7.0.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.8.0b0.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - main [MainThread]: End processing [miniogre]: success
+[2024-05-24 07:28:45] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 07:28:45] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_settlement_date_rc-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 07:28:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-settlement-date-rc]: success
+[2024-05-24 07:28:45] INFO root fetch - processPackages [tiny-data-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/tiny_data_warehouse-0.1.6.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - processPackages [tiny-data-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/tiny_data_warehouse-0.2.0.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - main [MainThread]: End processing [tiny-data-warehouse]: success
+[2024-05-24 07:28:45] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.6.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - processPackages [mostlyai]: Remove: archive file [/home/abi/fetcher/tmp/mostlyai-0.3.7.tar.gz]
+[2024-05-24 07:28:45] INFO root fetch - main [MainThread]: End processing [mostlyai]: success
+[2024-05-24 07:28:47] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.1.0.tar.gz]
+[2024-05-24 07:28:47] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.2.0.tar.gz]
+[2024-05-24 07:28:47] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-24 07:28:47] INFO root fetch - main [MainThread]: Store serial: [23356756]
