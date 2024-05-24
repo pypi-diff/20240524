@@ -19372,3 +19372,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:16:13] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-24 12:16:13] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-24 12:16:13] INFO root fetch - main [MainThread]: Store serial: [23360202]
+[2024-05-24 12:18:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360202]
+[2024-05-24 12:18:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 12:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2024-05-24 12:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bstblue
+[2024-05-24 12:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigfunctions
+[2024-05-24 12:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sample-program-avishek
+[2024-05-24 12:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demoparser2
+[2024-05-24 12:18:22] INFO root fetch - processPackages [bstblue]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 12:18:22] INFO root fetch - processPackages [otpme]: New version: [0.3.0a71] Old Version: [0.3.0a70]
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/02/42/1698894a251386549001746dc4e940c48347155deb36f7baf928e74a5948/bstblue-0.0.8.tar.gz
+[2024-05-24 12:18:23] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/cd/5c/16778c7b1e29e80816317e9f804558c3fa3408c25e5728a3f64f4104c33a/otpme-0.3.0a70.tar.gz
+[2024-05-24 12:18:23] WARNING root fetch - processPackages [sample-program-avishek]: Skipping, unable to determine old version
+[2024-05-24 12:18:23] INFO root fetch - main [MainThread]: End processing [sample-program-avishek] error
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bigfunctions]: New version: [0.7] Old Version: [0.6]
+[2024-05-24 12:18:23] INFO root fetch - processPackages [demoparser2]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/7c/48/301edc971e6f3a5a996e49ec808c4b918f3a8231f3078480f4edaca0b626/bigfunctions-0.6.tar.gz
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/c3/3a/e984bd758dd040b5382542bda48720e2fdde16392132c2350782bcc26847/bstblue-0.0.9.tar.gz
+[2024-05-24 12:18:23] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/cf/0e/23a8019a6f953df11f6d18da167c40de3155ff587b5d705df10de1bd5774/demoparser2-0.9.0-cp39-none-win_amd64.whl
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.8.tar.gz tmp/bstblue-0.0.9.tar.gz --markdown 20240524/b/bstblue/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 12:18:23] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/cd/aa/84e06c3dc0791b4ed42f6d99b4277e45227e6ac18ff4dc6478a523abff55/otpme-0.3.0a71.tar.gz
+[2024-05-24 12:18:23] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/82/ea/056810f430f25b5ecd1f632403835840ca880360eb9be723559335a9c1b2/bigfunctions-0.7.tar.gz
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.8.tar.gz]
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.9.tar.gz]
+[2024-05-24 12:18:24] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bigfunctions]: executing diffoscope
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bigfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigfunctions-0.6.tar.gz tmp/bigfunctions-0.7.tar.gz --markdown 20240524/b/bigfunctions/0.6-0.7/README.md --exclude *.pyd
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.6.tar.gz]
+[2024-05-24 12:18:24] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.7.tar.gz]
+[2024-05-24 12:18:24] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
+[2024-05-24 12:18:25] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 12:18:25] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a70.tar.gz tmp/otpme-0.3.0a71.tar.gz --markdown 20240524/o/otpme/0.3.0a70-0.3.0a71/README.md --exclude *.pyd
+[2024-05-24 12:18:25] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/2a/c9/d58b3ca133949aa9598dde59da3e112a8ea818151963f58fd846af20185f/demoparser2-0.9.1-cp39-none-win_amd64.whl
+[2024-05-24 12:18:27] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a70.tar.gz]
+[2024-05-24 12:18:27] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a71.tar.gz]
+[2024-05-24 12:18:27] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 12:18:27] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2024-05-24 12:18:27] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.9.0-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240524/d/demoparser2/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 12:18:27] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:18:27] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:18:27] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2024-05-24 12:18:27] INFO root fetch - main [MainThread]: Store serial: [23360220]
