@@ -2885,3 +2885,36 @@
 [2024-05-24 02:41:50] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1716509159.tar.gz]
 [2024-05-24 02:41:50] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
 [2024-05-24 02:41:50] INFO root fetch - main [MainThread]: Store serial: [23353680]
+[2024-05-24 02:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353680]
+[2024-05-24 02:43:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 02:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RoadGuard
+[2024-05-24 02:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Santa_IW
+[2024-05-24 02:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-dnsimple
+[2024-05-24 02:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espy-contact
+[2024-05-24 02:43:59] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1716506621] Old Version: [3.5.0a1715923925]
+[2024-05-24 02:43:59] WARNING root fetch - processPackages [RoadGuard]: Skipping, unable to determine old version
+[2024-05-24 02:43:59] INFO root fetch - main [MainThread]: End processing [RoadGuard] error
+[2024-05-24 02:43:59] INFO root fetch - processPackages [Santa_IW]: New version: [0.9.0] Old Version: [0.7.4]
+[2024-05-24 02:43:59] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 02:43:59] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/47/6c/588770a45f756390066a0987b040f1f7cde87aecf827bd82053cea7af16d/pulumi_dnsimple-3.5.0a1715923925.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/c3/2f/413d0cbe644749dd35530b8398a6401b513e4508ab3315e531c71a306f77/pulumi_dnsimple-3.5.0a1716506621.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [Santa_IW]: Downloading https://files.pythonhosted.org/packages/bc/14/e8d8453b7b5467172d8cf545a4f1334b152fe9111951298eb59657157a76/santa_iw-0.7.4.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-24 02:43:59] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1715923925.tar.gz tmp/pulumi_dnsimple-3.5.0a1716506621.tar.gz --markdown 20240524/p/pulumi-dnsimple/3.5.0a1715923925-3.5.0a1716506621/README.md --exclude *.pyd
+[2024-05-24 02:43:59] INFO root fetch - processPackages [Santa_IW]: Downloading https://files.pythonhosted.org/packages/d3/8e/eae7d733e22cfa9f66be511e0774b1afc921c2d95ff27c1bb41c690d50da/santa_iw-0.9.0.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 02:43:59] INFO root fetch - processPackages [Santa_IW]: executing diffoscope
+[2024-05-24 02:43:59] INFO root fetch - processPackages [Santa_IW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/santa_iw-0.7.4.tar.gz tmp/santa_iw-0.9.0.tar.gz --markdown 20240524/S/Santa_IW/0.7.4-0.9.0/README.md --exclude *.pyd
+[2024-05-24 02:43:59] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 02:43:59] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 02:44:00] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715923925.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1716506621.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-24 02:44:00] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 02:44:00] INFO root fetch - processPackages [Santa_IW]: Remove: archive file [/home/abi/fetcher/tmp/santa_iw-0.7.4.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - processPackages [Santa_IW]: Remove: archive file [/home/abi/fetcher/tmp/santa_iw-0.9.0.tar.gz]
+[2024-05-24 02:44:00] INFO root fetch - main [MainThread]: End processing [Santa_IW]: success
+[2024-05-24 02:44:00] INFO root fetch - main [MainThread]: Store serial: [23353695]
