@@ -12203,3 +12203,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:07:12] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.3.tar.gz]
 [2024-05-24 08:07:12] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
 [2024-05-24 08:07:12] INFO root fetch - main [MainThread]: Store serial: [23357164]
+[2024-05-24 08:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357164]
+[2024-05-24 08:09:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 08:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 08:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnt.nanoplacer
+[2024-05-24 08:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espy-contact
+[2024-05-24 08:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary-execution
+[2024-05-24 08:09:21] INFO root fetch - processPackages [nlpx]: New version: [1.0.8] Old Version: [1.0.6]
+[2024-05-24 08:09:21] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 08:09:21] INFO root fetch - processPackages [domolibrary-execution]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 08:09:21] INFO root fetch - processPackages [mnt.nanoplacer]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-24 08:09:21] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/6f/b7/4811c76bd77eaeee8179db217687af5f1df8713aeb9771e1f0bb02523e9d/nlpx-1.0.6.tar.gz
+[2024-05-24 08:09:21] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 08:09:21] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/7d/29/fd25a0be5ac085abe4d28c638f381fa44d9042f9f90fd653ff54d6344cba/domolibrary_execution-0.0.8.tar.gz
+[2024-05-24 08:09:21] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/38/ee/926455e3c4c286dc9d76f3696ddd28759ae7031ec50afd2b8174fc031fc7/mnt_nanoplacer-0.2.3.tar.gz
+[2024-05-24 08:09:21] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 08:09:21] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/33/e5/e32522ce284730ef3e8267b11d43c980a09ec9c4f7cbd6c1d3b739c3694b/domolibrary_execution-0.0.9.tar.gz
+[2024-05-24 08:09:22] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/a3/ba/0ce6323226dd5cccbdff67caaccf39d2301ba4538c6b6c0585f11c57e680/nlpx-1.0.8.tar.gz
+[2024-05-24 08:09:22] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 08:09:22] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 08:09:22] INFO root fetch - processPackages [domolibrary-execution]: executing diffoscope
+[2024-05-24 08:09:22] INFO root fetch - processPackages [domolibrary-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary_execution-0.0.8.tar.gz tmp/domolibrary_execution-0.0.9.tar.gz --markdown 20240524/d/domolibrary-execution/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 08:09:22] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 08:09:22] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.6.tar.gz tmp/nlpx-1.0.8.tar.gz --markdown 20240524/n/nlpx/1.0.6-1.0.8/README.md --exclude *.pyd
+[2024-05-24 08:09:22] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/11/f6/0ec29741745972e177417e13baeb48c332412fbff392c88df2d9956fe0ee/mnt_nanoplacer-0.2.4.tar.gz
+[2024-05-24 08:09:22] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.6.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.8.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 08:09:22] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 08:09:22] INFO root fetch - processPackages [mnt.nanoplacer]: executing diffoscope
+[2024-05-24 08:09:22] INFO root fetch - processPackages [mnt.nanoplacer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnt_nanoplacer-0.2.3.tar.gz tmp/mnt_nanoplacer-0.2.4.tar.gz --markdown 20240524/m/mnt.nanoplacer/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-24 08:09:22] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.8.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.9.tar.gz]
+[2024-05-24 08:09:22] INFO root fetch - main [MainThread]: End processing [domolibrary-execution]: success
+[2024-05-24 08:09:24] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.3.tar.gz]
+[2024-05-24 08:09:24] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.4.tar.gz]
+[2024-05-24 08:09:24] INFO root fetch - main [MainThread]: End processing [mnt.nanoplacer]: success
+[2024-05-24 08:09:24] INFO root fetch - main [MainThread]: Store serial: [23357194]
