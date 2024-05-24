@@ -14994,3 +14994,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:55:12] INFO root fetch - processPackages [swh.scheduler]: Remove: archive file [/home/abi/fetcher/tmp/swh_scheduler-2.3.1.tar.gz]
 [2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [swh.scheduler]: success
 [2024-05-24 09:55:12] INFO root fetch - main [MainThread]: Store serial: [23358314]
+[2024-05-24 09:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358314]
+[2024-05-24 09:57:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-removal-location-by-priority
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-reserve
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secretscraper
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapieng
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PasswordGenerate
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: todolist108
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antaress
+[2024-05-24 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: koinapy
+[2024-05-24 09:57:21] INFO root fetch - processPackages [antaress]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [mapieng]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9.7a0] Old Version: [1.3.9.6]
+[2024-05-24 09:57:21] WARNING root fetch - processPackages [PasswordGenerate]: Skipping, unable to determine old version
+[2024-05-24 09:57:21] INFO root fetch - main [MainThread]: End processing [PasswordGenerate] error
+[2024-05-24 09:57:21] WARNING root fetch - processPackages [todolist108]: Skipping, unable to determine old version
+[2024-05-24 09:57:21] INFO root fetch - main [MainThread]: End processing [todolist108] error
+[2024-05-24 09:57:21] INFO root fetch - processPackages [odoo-addon-stock-reserve]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20240522.0] Old Version: [16.0.20240518.0]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [koinapy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 09:57:21] INFO root fetch - processPackages [antaress]: Downloading https://files.pythonhosted.org/packages/52/db/997efb10c2f9623f2c98467f719a2fbf6946f91a09a723dd3bff5132f06c/antaress-1.1.0.tar.gz
+[2024-05-24 09:57:21] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/f1/18/1fbef1ff5070ce00555d17ca1916d4694a1ca869a5f75b2ab0a4fbae6f4a/mapieng-0.1.5.tar.gz
+[2024-05-24 09:57:21] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/f6/38/a90097d171488c363bb78bdffb296261c31e79878ec7bc2a52634936e0bc/secretscraper-1.3.9.6.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/5f/9a/a7dfaf3c378522425f0964bb8936f52d83a621166d889e4a5e34737cc7e3/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: Downloading https://files.pythonhosted.org/packages/ee/73/0aca54d6aa7a871c67be8ce2c4ec98ddee8caa31e30fd6b1fe57a510ebd0/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [koinapy]: Downloading https://files.pythonhosted.org/packages/07/93/dab261e65810d4d7dd38fb82bef8277b60be40825c5967c85cabf22a7a1c/koinapy-0.0.5.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/e7/10/3459c4df3370acdb5fca2625c155930ef20bc87173c39cc11c5237e06027/odoo_addons_oca_stock_logistics_warehouse-16.0.20240518.0-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [antaress]: Downloading https://files.pythonhosted.org/packages/58/0b/34b5c8d324d3e8df620e1611d24a2c48c2a0d9b98117b518a757a951b2a0/antaress-1.1.1.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/15/f2/ab8c159f3b4092ba817710fed69ccd2a969d509ba24de23d10a7344a4e22/secretscraper-1.3.9.7a0.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/40/d2/05880f577e4c44c97c41e90486ed5e8913477c2fd4f459a49965499aa4b1/mapieng-0.1.6.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.9.6.tar.gz tmp/secretscraper-1.3.9.7a0.tar.gz --markdown 20240524/s/secretscraper/1.3.9.6-1.3.9.7a0/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.5.tar.gz tmp/mapieng-0.1.6.tar.gz --markdown 20240524/m/mapieng/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [antaress]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [antaress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antaress-1.1.0.tar.gz tmp/antaress-1.1.1.tar.gz --markdown 20240524/a/antaress/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [koinapy]: Downloading https://files.pythonhosted.org/packages/3b/b8/f9a3afa2ce661e472a2563e46f77ec07f1898392b1b607f42a4eb5f28a29/koinapy-0.0.6.tar.gz
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/3a/5d/a60164b998ca03389d00b3095e7bd35b542ddc860f6708404e0f887ddceb/odoo_addons_oca_stock_logistics_warehouse-16.0.20240522.0-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: Downloading https://files.pythonhosted.org/packages/a9/77/f3d54f042a2f86582cbbc2199b72f5d0e22c9bd378de2ad3421ff0a42528/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/72/cb/96c4de5a9fb0ff034f7f0766c10c173fd39d15b6615d26ed44b1774c30be/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 09:57:22] INFO root fetch - processPackages [koinapy]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [koinapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koinapy-0.0.5.tar.gz tmp/koinapy-0.0.6.tar.gz --markdown 20240524/k/koinapy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240518.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240522.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20240518.0-16.0.20240522.0/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-removal-location-by-priority/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-reserve]: executing diffoscope
+[2024-05-24 09:57:22] INFO root fetch - processPackages [odoo-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-reserve/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-24 09:57:23] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.6.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.7a0.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-05-24 09:57:23] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.5.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.6.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240518.0-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20240522.0-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2024-05-24 09:57:23] INFO root fetch - processPackages [koinapy]: Remove: archive file [/home/abi/fetcher/tmp/koinapy-0.0.5.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [koinapy]: Remove: archive file [/home/abi/fetcher/tmp/koinapy-0.0.6.tar.gz]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [koinapy]: success
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addon-stock-removal-location-by-priority]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_removal_location_by_priority-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-removal-location-by-priority]: success
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 09:57:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
+[2024-05-24 09:57:24] INFO root fetch - processPackages [antaress]: Remove: archive file [/home/abi/fetcher/tmp/antaress-1.1.0.tar.gz]
+[2024-05-24 09:57:24] INFO root fetch - processPackages [antaress]: Remove: archive file [/home/abi/fetcher/tmp/antaress-1.1.1.tar.gz]
+[2024-05-24 09:57:24] INFO root fetch - main [MainThread]: End processing [antaress]: success
+[2024-05-24 09:57:24] INFO root fetch - main [MainThread]: Store serial: [23358387]
