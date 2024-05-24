@@ -9987,3 +9987,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:08:29] INFO root fetch - processPackages [source-parser]: Remove: archive file [/home/abi/fetcher/tmp/source_parser-1.2.0-py3-none-any.whl.zip]
 [2024-05-24 06:08:29] INFO root fetch - main [MainThread]: End processing [source-parser]: success
 [2024-05-24 06:08:29] INFO root fetch - main [MainThread]: Store serial: [23356179]
+[2024-05-24 06:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356179]
+[2024-05-24 06:10:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pyhoot
+[2024-05-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: damage-calculator
+[2024-05-24 06:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kBmc
+[2024-05-24 06:10:37] WARNING root fetch - processPackages [damage-calculator]: Skipping, unable to determine old version
+[2024-05-24 06:10:37] INFO root fetch - main [MainThread]: End processing [damage-calculator] error
+[2024-05-24 06:10:37] INFO root fetch - processPackages [Pyhoot]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-24 06:10:37] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-24 06:10:37] INFO root fetch - processPackages [Pyhoot]: Downloading https://files.pythonhosted.org/packages/8c/02/6ed556f124885a3028c51766dde1e9466cba85ad5ae8d44cd6b28c0b2ac7/Pyhoot-1.2.1.tar.gz
+[2024-05-24 06:10:37] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-05-24 06:10:38] INFO root fetch - processPackages [Pyhoot]: Downloading https://files.pythonhosted.org/packages/96/20/14b613e3f088753b3e9fbce9cea13d682a048884b29a1a151e51d415c20c/pyhoot-1.3.0.tar.gz
+[2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-05-24 06:10:38] INFO root fetch - processPackages [Pyhoot]: executing diffoscope
+[2024-05-24 06:10:38] INFO root fetch - processPackages [Pyhoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyhoot-1.2.1.tar.gz tmp/pyhoot-1.3.0.tar.gz --markdown 20240524/P/Pyhoot/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240524/k/kBmc/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-24 06:10:38] INFO root fetch - processPackages [Pyhoot]: Remove: archive file [/home/abi/fetcher/tmp/Pyhoot-1.2.1.tar.gz]
+[2024-05-24 06:10:38] INFO root fetch - processPackages [Pyhoot]: Remove: archive file [/home/abi/fetcher/tmp/pyhoot-1.3.0.tar.gz]
+[2024-05-24 06:10:38] INFO root fetch - main [MainThread]: End processing [Pyhoot]: success
+[2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-05-24 06:10:38] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-05-24 06:10:38] INFO root fetch - main [MainThread]: Store serial: [23356190]
