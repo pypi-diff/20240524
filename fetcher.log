@@ -8872,3 +8872,69 @@
 [2024-05-24 05:13:30] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-05-24 05:13:30] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-05-24 05:13:30] INFO root fetch - main [MainThread]: Store serial: [23355841]
+[2024-05-24 05:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355841]
+[2024-05-24 05:15:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-banking-mandate-sale
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchcat
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-banking-pain-base
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eras
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daalab
+[2024-05-24 05:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-cv-nightly
+[2024-05-24 05:15:45] INFO root fetch - processPackages [daalab]: New version: [0.7] Old Version: [0.6]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [torchcat]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [eras]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/22/b7/45f045c37a2a9ee5daba4610298459d959fcc82ea83fde9329990a2bf989/daalab-0.6.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-05-24 05:15:45] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/7b/06/aab5f47337cede4b17b9afdfb748fa4ba2a25be23698c13da9c2e2e96824/eras-0.3.3.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/ee/85/c07f42dd3629ab2ebc62b358936697fcc2291ef23de1a03d0cae136c51b2/torchcat-0.0.2.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Downloading https://files.pythonhosted.org/packages/29/b2/ba5e2428b5035ee9c5642d3b2d3c5a377df8ce918f8d39b4c439042b0a66/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 05:15:45] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/ad/9a/80077e929282f584b6ddec27ff6971539bfa3d1adc7327dea5e17a13bf17/eras-0.3.4.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/86/9e/52939c51f6ec06985ff789485af9d4271a28856a28f9083322d2a332ea87/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/47/cc/f6d96109335d275abf8d7698dedcfbfd9e10e77e0d93d316d788cf3a8026/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 05:15:45] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/d7/a6/22cc81076c6619765e1f1793c54524ebddda7d3f7febba30fccc1513d5ba/daalab-0.7.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-24 05:15:45] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.3.3.tar.gz tmp/eras-0.3.4.tar.gz --markdown 20240524/e/eras/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-24 05:15:45] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/b5/b3/4e0fee0f0f425df2b6a0f00ae171048d135f0f7bf8634d400b57be51f715/torchcat-0.0.3.tar.gz
+[2024-05-24 05:15:45] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-24 05:15:45] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240524/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-24 05:15:45] INFO root fetch - processPackages [daalab]: executing diffoscope
+[2024-05-24 05:15:45] INFO root fetch - processPackages [daalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daalab-0.6.tar.gz tmp/daalab-0.7.tar.gz --markdown 20240524/d/daalab/0.6-0.7/README.md --exclude *.pyd
+[2024-05-24 05:15:45] INFO root fetch - processPackages [torchcat]: executing diffoscope
+[2024-05-24 05:15:45] INFO root fetch - processPackages [torchcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcat-0.0.2.tar.gz tmp/torchcat-0.0.3.tar.gz --markdown 20240524/t/torchcat/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 05:15:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Downloading https://files.pythonhosted.org/packages/47/f2/48abdfc7df151c4a129c7feea2f5f908552a89ce2b7015961554f8a328c7/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/2f/4e/63c8b52ae25228435a4d2a8f5d4a3502aff86bc135f090c6981c52457c20/odoo_addon_account_banking_pain_base-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/07/fa/4f84c6803b5e899b62f5e072db7dbc1931fd99c71ac3f41ef19b141634e7/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: executing diffoscope
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-banking-mandate-sale/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: executing diffoscope
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-banking-pain-base/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 05:15:46] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-0.6.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-0.7.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - main [MainThread]: End processing [daalab]: success
+[2024-05-24 05:15:46] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.2.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.3.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - main [MainThread]: End processing [torchcat]: success
+[2024-05-24 05:15:46] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.3.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.4.tar.gz]
+[2024-05-24 05:15:46] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 05:15:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate-sale]: success
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 05:15:46] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 05:15:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-pain-base]: success
+[2024-05-24 05:15:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 05:15:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 05:15:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-05-24 05:15:47] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-24 05:15:47] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-24 05:15:47] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-24 05:15:47] INFO root fetch - main [MainThread]: Store serial: [23355859]
