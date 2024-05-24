@@ -8621,3 +8621,60 @@
 [2024-05-24 04:55:03] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_comment_template-16.0.1.0.1.7-py3-none-any.whl.zip]
 [2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-comment-template]: success
 [2024-05-24 04:55:03] INFO root fetch - main [MainThread]: Store serial: [23355744]
+[2024-05-24 04:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355744]
+[2024-05-24 04:57:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picopy
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oebuild
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JupyterExport
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pd-extras
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centralcli
+[2024-05-24 04:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsume-yubikey-plugin
+[2024-05-24 04:57:12] INFO root fetch - processPackages [JupyterExport]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [picopy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [centralcli]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [JupyterExport]: Downloading https://files.pythonhosted.org/packages/12/eb/1b4d37d9a182abc3519a8d475847a9f8daa6a8b6289188a240a58a864fcf/jupyterexport-0.1.4.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [pd-extras]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/cd/23/a448d583d13393c5bea8f3f7e073374818fd35527b055f66f3e02f80a184/picopy-1.0.7.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [awsume-yubikey-plugin]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:57:12] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/07/94/ff2136b32dbe51983feaaf58053f23b3dab6718fa511a0967e724a4b66d4/centralcli-5.0.0.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/84/a4/054c831876de6fa5a9eabbd068f46f4bbed193ed5e8bad6c143a5e084713/pd_extras-6.1.0.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [JupyterExport]: Downloading https://files.pythonhosted.org/packages/5e/c7/5661b98ac6ec5863fc50f7b59862a4ea5eea09cf0bab4cd5b84799fb746b/jupyterexport-0.1.5.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [awsume-yubikey-plugin]: Downloading https://files.pythonhosted.org/packages/37/a2/248a34a50a10d734d372c86cde68041aaed9309b6575cb8e4fdf2e0f091f/awsume_yubikey_plugin-1.2.3-py3-none-any.whl
+[2024-05-24 04:57:12] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-24 04:57:12] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/eb/73/96790f8f3d361e22f54c887e8b115aa8df36945e659b997eb5871b9bdd92/centralcli-5.1.0.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/a8/40/186fe804abf9783dd3fa48c3fd3ce3940f5cf5f9187d6e6aa4247a056cba/picopy-1.0.8.tar.gz
+[2024-05-24 04:57:12] INFO root fetch - processPackages [JupyterExport]: executing diffoscope
+[2024-05-24 04:57:12] INFO root fetch - processPackages [JupyterExport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterexport-0.1.4.tar.gz tmp/jupyterexport-0.1.5.tar.gz --markdown 20240524/J/JupyterExport/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 04:57:13] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.7.tar.gz tmp/picopy-1.0.8.tar.gz --markdown 20240524/p/picopy/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-05-24 04:57:13] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-5.0.0.tar.gz tmp/centralcli-5.1.0.tar.gz --markdown 20240524/c/centralcli/5.0.0-5.1.0/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [awsume-yubikey-plugin]: Downloading https://files.pythonhosted.org/packages/7e/b3/0d62cebc333f94f3d3820f53bf32954e5251d24219c4f02917147ffdc513/awsume_yubikey_plugin-1.2.4-py3-none-any.whl
+[2024-05-24 04:57:13] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/dc/cd/49605a8756f43e605f6ce4198d86d481cd784e2caaf95cfbc415d2f699ac/pd_extras-6.1.1.tar.gz
+[2024-05-24 04:57:13] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-24 04:57:13] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-24 04:57:13] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.1.0.tar.gz tmp/pd_extras-6.1.1.tar.gz --markdown 20240524/p/pd-extras/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [awsume-yubikey-plugin]: executing diffoscope
+[2024-05-24 04:57:13] INFO root fetch - processPackages [awsume-yubikey-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsume_yubikey_plugin-1.2.3-py3-none-any.whl.zip tmp/awsume_yubikey_plugin-1.2.4-py3-none-any.whl.zip --markdown 20240524/a/awsume-yubikey-plugin/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-24 04:57:13] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240524/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:57:13] INFO root fetch - processPackages [JupyterExport]: Remove: archive file [/home/abi/fetcher/tmp/jupyterexport-0.1.4.tar.gz]
+[2024-05-24 04:57:13] INFO root fetch - processPackages [JupyterExport]: Remove: archive file [/home/abi/fetcher/tmp/jupyterexport-0.1.5.tar.gz]
+[2024-05-24 04:57:13] INFO root fetch - main [MainThread]: End processing [JupyterExport]: success
+[2024-05-24 04:57:13] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.7.tar.gz]
+[2024-05-24 04:57:13] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.8.tar.gz]
+[2024-05-24 04:57:13] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 04:57:14] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.0.tar.gz]
+[2024-05-24 04:57:14] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.1.tar.gz]
+[2024-05-24 04:57:14] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-24 04:57:14] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-24 04:57:14] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-24 04:57:14] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-24 04:57:14] INFO root fetch - processPackages [awsume-yubikey-plugin]: Remove: archive file [/home/abi/fetcher/tmp/awsume_yubikey_plugin-1.2.3-py3-none-any.whl.zip]
+[2024-05-24 04:57:14] INFO root fetch - processPackages [awsume-yubikey-plugin]: Remove: archive file [/home/abi/fetcher/tmp/awsume_yubikey_plugin-1.2.4-py3-none-any.whl.zip]
+[2024-05-24 04:57:14] INFO root fetch - main [MainThread]: End processing [awsume-yubikey-plugin]: success
+[2024-05-24 04:57:14] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.0.0.tar.gz]
+[2024-05-24 04:57:14] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.1.0.tar.gz]
+[2024-05-24 04:57:14] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-05-24 04:57:14] INFO root fetch - main [MainThread]: Store serial: [23355760]
