@@ -22105,3 +22105,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:48:26] INFO root fetch - processPackages [fslpy]: Remove: archive file [/home/abi/fetcher/tmp/fslpy-3.9.5.tar.gz]
 [2024-05-24 13:48:26] INFO root fetch - main [MainThread]: End processing [fslpy]: success
 [2024-05-24 13:48:26] INFO root fetch - main [MainThread]: Store serial: [23361368]
+[2024-05-24 13:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361368]
+[2024-05-24 13:50:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: actinia-core
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stpyv8
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencv-calibrate
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickbbee
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MusicSeparationYT
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyhbr
+[2024-05-24 13:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gigachain-experimental
+[2024-05-24 13:50:35] INFO root fetch - processPackages [quickbbee]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-24 13:50:35] INFO root fetch - processPackages [opencv-calibrate]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 13:50:35] INFO root fetch - processPackages [stpyv8]: New version: [12.5.227.9] Old Version: [12.5.227.8]
+[2024-05-24 13:50:35] INFO root fetch - processPackages [quickbbee]: Downloading https://files.pythonhosted.org/packages/29/e5/f00f7fdbd028b0869d64f399687d192606608cc5b50332322baaef748f58/quickbbee-0.1.1.tar.gz
+[2024-05-24 13:50:35] WARNING root fetch - processPackages [pyhbr]: Skipping, unable to determine old version
+[2024-05-24 13:50:35] INFO root fetch - main [MainThread]: End processing [pyhbr] error
+[2024-05-24 13:50:35] INFO root fetch - processPackages [actinia-core]: New version: [4.9.3] Old Version: [4.9.2]
+[2024-05-24 13:50:35] INFO root fetch - processPackages [gigachain]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-24 13:50:35] WARNING root fetch - processPackages [MusicSeparationYT]: Skipping, unable to determine old version
+[2024-05-24 13:50:35] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT] error
+[2024-05-24 13:50:35] WARNING root fetch - processPackages [quickbbee]: Skipping package: exceeds size limit 15102718>=10485760
+[2024-05-24 13:50:35] INFO root fetch - main [MainThread]: End processing [quickbbee] error
+[2024-05-24 13:50:35] INFO root fetch - processPackages [gigachain-experimental]: New version: [0.0.59] Old Version: [0.0.57]
+[2024-05-24 13:50:35] INFO root fetch - processPackages [opencv-calibrate]: Downloading https://files.pythonhosted.org/packages/49/cf/20b57d64ffcc60b4638101c4e4bb64673e56970e296a7599a92c7acbd155/opencv_calibrate-0.1.0.tar.gz
+[2024-05-24 13:50:35] INFO root fetch - processPackages [stpyv8]: Downloading https://files.pythonhosted.org/packages/20/9c/70a62709fe17d1e4277883dab58aa1fba5651a171b61b73c7df6c7fc9688/stpyv8-12.5.227.8.tar.gz
+[2024-05-24 13:50:35] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/7c/cc/a8043330cdeaf99283d32ae65f5a3122d966c1c6b075793eb4ded7a621f6/gigachain-0.1.9.tar.gz
+[2024-05-24 13:50:35] INFO root fetch - processPackages [actinia-core]: Downloading https://files.pythonhosted.org/packages/8c/c5/9c956dde5c38ea39e2b1243f508236d4b729abc2b3224e9dc08cb3bea499/actinia-core-4.9.2.tar.gz
+[2024-05-24 13:50:35] INFO root fetch - processPackages [gigachain-experimental]: Downloading https://files.pythonhosted.org/packages/46/ed/5523101fd946bf35b0d392258c6a101f80b5fba682317aa75eb780086afe/gigachain_experimental-0.0.57.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [opencv-calibrate]: Downloading https://files.pythonhosted.org/packages/8f/da/174874ce18b2c6b3c737f96a8839d090a0a25d594b5b14b81b8b5760d0ea/opencv_calibrate-0.1.1.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [stpyv8]: Downloading https://files.pythonhosted.org/packages/4b/cf/833ed9013855250803979d9657aefcc88e4cbea3e7fe211f8fc3b53db7d0/stpyv8-12.5.227.9.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [actinia-core]: Downloading https://files.pythonhosted.org/packages/37/ab/41caff5173aa69bdc93a689df670137d27913635cf24ed58ffe5e22d69d9/actinia-core-4.9.3.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [opencv-calibrate]: executing diffoscope
+[2024-05-24 13:50:36] INFO root fetch - processPackages [opencv-calibrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_calibrate-0.1.0.tar.gz tmp/opencv_calibrate-0.1.1.tar.gz --markdown 20240524/o/opencv-calibrate/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/35/69/92e13ce05bab1c928a85990cc9e6ae6a63920811fbd825e62713f60d53a6/gigachain-0.2.0.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [actinia-core]: executing diffoscope
+[2024-05-24 13:50:36] INFO root fetch - processPackages [actinia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actinia-core-4.9.2.tar.gz tmp/actinia-core-4.9.3.tar.gz --markdown 20240524/a/actinia-core/4.9.2-4.9.3/README.md --exclude *.pyd
+[2024-05-24 13:50:36] INFO root fetch - processPackages [stpyv8]: executing diffoscope
+[2024-05-24 13:50:36] INFO root fetch - processPackages [stpyv8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stpyv8-12.5.227.8.tar.gz tmp/stpyv8-12.5.227.9.tar.gz --markdown 20240524/s/stpyv8/12.5.227.8-12.5.227.9/README.md --exclude *.pyd
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain-experimental]: Downloading https://files.pythonhosted.org/packages/ca/06/5f989498389fa3a46a2a00403cb8a3825bb7f4c99f0bc15de8ce7ca8f1b8/gigachain_experimental-0.0.59.tar.gz
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain]: executing diffoscope
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain-0.1.9.tar.gz tmp/gigachain-0.2.0.tar.gz --markdown 20240524/g/gigachain/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain-experimental]: executing diffoscope
+[2024-05-24 13:50:36] INFO root fetch - processPackages [gigachain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_experimental-0.0.57.tar.gz tmp/gigachain_experimental-0.0.59.tar.gz --markdown 20240524/g/gigachain-experimental/0.0.57-0.0.59/README.md --exclude *.pyd
+[2024-05-24 13:50:36] INFO root fetch - processPackages [opencv-calibrate]: Remove: archive file [/home/abi/fetcher/tmp/opencv_calibrate-0.1.0.tar.gz]
+[2024-05-24 13:50:36] INFO root fetch - processPackages [opencv-calibrate]: Remove: archive file [/home/abi/fetcher/tmp/opencv_calibrate-0.1.1.tar.gz]
+[2024-05-24 13:50:36] INFO root fetch - main [MainThread]: End processing [opencv-calibrate]: success
+[2024-05-24 13:50:36] INFO root fetch - processPackages [stpyv8]: Remove: archive file [/home/abi/fetcher/tmp/stpyv8-12.5.227.8.tar.gz]
+[2024-05-24 13:50:36] INFO root fetch - processPackages [stpyv8]: Remove: archive file [/home/abi/fetcher/tmp/stpyv8-12.5.227.9.tar.gz]
+[2024-05-24 13:50:36] INFO root fetch - main [MainThread]: End processing [stpyv8]: success
+[2024-05-24 13:50:37] INFO root fetch - processPackages [actinia-core]: Remove: archive file [/home/abi/fetcher/tmp/actinia-core-4.9.2.tar.gz]
+[2024-05-24 13:50:37] INFO root fetch - processPackages [actinia-core]: Remove: archive file [/home/abi/fetcher/tmp/actinia-core-4.9.3.tar.gz]
+[2024-05-24 13:50:37] INFO root fetch - main [MainThread]: End processing [actinia-core]: success
+[2024-05-24 13:50:37] INFO root fetch - processPackages [gigachain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_experimental-0.0.57.tar.gz]
+[2024-05-24 13:50:37] INFO root fetch - processPackages [gigachain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_experimental-0.0.59.tar.gz]
+[2024-05-24 13:50:37] INFO root fetch - main [MainThread]: End processing [gigachain-experimental]: success
+[2024-05-24 13:50:39] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.9.tar.gz]
+[2024-05-24 13:50:39] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.2.0.tar.gz]
+[2024-05-24 13:50:39] INFO root fetch - main [MainThread]: End processing [gigachain]: success
+[2024-05-24 13:50:39] INFO root fetch - main [MainThread]: Store serial: [23361395]
