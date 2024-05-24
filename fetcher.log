@@ -20336,3 +20336,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:50:29] INFO root fetch - processPackages [quanto]: Remove: archive file [/home/abi/fetcher/tmp/quanto-0.2.0.tar.gz]
 [2024-05-24 12:50:29] INFO root fetch - main [MainThread]: End processing [quanto]: success
 [2024-05-24 12:50:29] INFO root fetch - main [MainThread]: Store serial: [23360614]
+[2024-05-24 12:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360614]
+[2024-05-24 12:52:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dingtalk
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BigEDA
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abacusai
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-05-24 12:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olas-operate-middleware
+[2024-05-24 12:52:39] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-24 12:52:39] INFO root fetch - processPackages [cadprox]: New version: [2.5] Old Version: [2.4]
+[2024-05-24 12:52:39] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 12:52:40] INFO root fetch - processPackages [abacusai]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-24 12:52:40] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/09/b2/b0465b83082df138e4d8e392d67ab01632079758ce3a772e69884baf9261/cadprox-2.4.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-24 12:52:40] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.15] Old Version: [2.1.14]
+[2024-05-24 12:52:40] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/0d/35/b4f9aaf3c0f4e4f28f84d7df929e236e7da17a8a2c7324664fcba9313881/abacusai-1.3.1.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/b7/bc/ee277d7915bebf00c947d715ad26676c1022887b54c2b10ccaa658bc77bf/cadprox-2.5.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/79/94/1512a7c57cfea01cba6ba249d1bf61f9b5f276f532f172ff64e54129f149/alibabacloud_dingtalk-2.1.14.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-24 12:52:40] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240524/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 12:52:40] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-24 12:52:40] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240524/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-24 12:52:40] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:52:40] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.4.tar.gz tmp/cadprox-2.5.tar.gz --markdown 20240524/c/cadprox/2.4-2.5/README.md --exclude *.pyd
+[2024-05-24 12:52:40] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [abacusai]: Downloading https://files.pythonhosted.org/packages/ca/72/f9a8ad5f4ce3590582d35719945cf187d053836512c3c98d9fb9e3c3c13c/abacusai-1.3.2.tar.gz
+[2024-05-24 12:52:40] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-24 12:52:40] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240524/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-24 12:52:40] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/7b/4c/c03b04ed07c895bd2147146850e369779867f435d8a490ae23a2ef7fdea2/alibabacloud_dingtalk-2.1.15.tar.gz
+[2024-05-24 12:52:41] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2024-05-24 12:52:41] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-1.3.1.tar.gz tmp/abacusai-1.3.2.tar.gz --markdown 20240524/a/abacusai/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-24 12:52:41] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.4.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.5.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:52:41] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-24 12:52:41] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.14.tar.gz tmp/alibabacloud_dingtalk-2.1.15.tar.gz --markdown 20240524/a/alibabacloud-dingtalk/2.1.14-2.1.15/README.md --exclude *.pyd
+[2024-05-24 12:52:41] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-24 12:52:41] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-24 12:52:41] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-24 12:52:41] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-24 12:52:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.14.tar.gz]
+[2024-05-24 12:52:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.15.tar.gz]
+[2024-05-24 12:52:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-24 12:52:50] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.3.1.tar.gz]
+[2024-05-24 12:52:50] INFO root fetch - processPackages [abacusai]: Remove: archive file [/home/abi/fetcher/tmp/abacusai-1.3.2.tar.gz]
+[2024-05-24 12:52:50] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2024-05-24 12:52:50] INFO root fetch - main [MainThread]: Store serial: [23360631]
