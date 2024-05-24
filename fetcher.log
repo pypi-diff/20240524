@@ -14152,3 +14152,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:30:52] INFO root fetch - processPackages [acrome-smd]: Remove: archive file [/home/abi/fetcher/tmp/acrome_smd-2.0.0.tar.gz]
 [2024-05-24 09:30:52] INFO root fetch - main [MainThread]: End processing [acrome-smd]: success
 [2024-05-24 09:30:52] INFO root fetch - main [MainThread]: Store serial: [23357989]
+[2024-05-24 09:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357989]
+[2024-05-24 09:33:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 09:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrable
+[2024-05-24 09:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RegScale-CLI
+[2024-05-24 09:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weapon-selector3
+[2024-05-24 09:33:01] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 09:33:01] WARNING root fetch - processPackages [weapon-selector3]: Skipping, unable to determine old version
+[2024-05-24 09:33:01] INFO root fetch - main [MainThread]: End processing [weapon-selector3] error
+[2024-05-24 09:33:01] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-24 09:33:01] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-24 09:33:01] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2024-05-24 09:33:02] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-24 09:33:02] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-24 09:33:02] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240524/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 09:33:02] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2024-05-24 09:33:02] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2024-05-24 09:33:02] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20240524/R/RegScale-CLI/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-24 09:33:02] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-24 09:33:02] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-24 09:33:02] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-24 09:33:03] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2024-05-24 09:33:03] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2024-05-24 09:33:03] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2024-05-24 09:33:03] INFO root fetch - main [MainThread]: Store serial: [23358012]
