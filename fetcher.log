@@ -20282,3 +20282,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:48:16] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.8.tar.gz]
 [2024-05-24 12:48:16] INFO root fetch - main [MainThread]: End processing [faststream]: success
 [2024-05-24 12:48:16] INFO root fetch - main [MainThread]: Store serial: [23360590]
+[2024-05-24 12:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360590]
+[2024-05-24 12:50:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: am2r-yams
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysonnet
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quanto
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mia-vgg
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sample-vulnerable-program-avishek
+[2024-05-24 12:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biobb-io
+[2024-05-24 12:50:25] WARNING root fetch - processPackages [mia-vgg]: Skipping, unable to determine old version
+[2024-05-24 12:50:25] INFO root fetch - main [MainThread]: End processing [mia-vgg] error
+[2024-05-24 12:50:25] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-24 12:50:25] WARNING root fetch - processPackages [sample-vulnerable-program-avishek]: Skipping, unable to determine old version
+[2024-05-24 12:50:25] INFO root fetch - main [MainThread]: End processing [sample-vulnerable-program-avishek] error
+[2024-05-24 12:50:25] INFO root fetch - processPackages [biobb-io]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-05-24 12:50:25] INFO root fetch - processPackages [quanto]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 12:50:25] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-24 12:50:25] INFO root fetch - processPackages [pysonnet]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 12:50:25] INFO root fetch - processPackages [am2r-yams]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-24 12:50:25] INFO root fetch - processPackages [quanto]: Downloading https://files.pythonhosted.org/packages/1f/7d/bd25959f994174614fe02ab614e57b9212e98272fb32e70609a34d640038/quanto-0.1.0.tar.gz
+[2024-05-24 12:50:25] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/5f/c1/11dfe1f567a78d38a0c75ac88ec515d5931c30599d979dabe177bb50c071/am2r_yams-2.2.0.tar.gz
+[2024-05-24 12:50:25] INFO root fetch - processPackages [pysonnet]: Downloading https://files.pythonhosted.org/packages/e2/8a/7df16bb6154f46193b429afd94ee12e591dad3c0fdcd202ec9acf1767cf9/pysonnet-0.0.1.tar.gz
+[2024-05-24 12:50:25] INFO root fetch - processPackages [biobb-io]: Downloading https://files.pythonhosted.org/packages/7e/03/c1e676dd90834f2266dc3d86ee0ce82b9cecfa2edbb3df2dfab09d6fa93e/biobb_io-4.1.1.tar.gz
+[2024-05-24 12:50:25] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-24 12:50:26] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-24 12:50:26] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240524/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-24 12:50:26] INFO root fetch - processPackages [pysonnet]: Downloading https://files.pythonhosted.org/packages/68/1a/9ebe5a221264169c85ca1506e69c6946efdad8fb7a1f4d342ebd9d3a2b63/pysonnet-0.0.2.tar.gz
+[2024-05-24 12:50:26] INFO root fetch - processPackages [biobb-io]: Downloading https://files.pythonhosted.org/packages/da/43/4899ba968438549e94e917ef0da1436cde4b514a89e1b12777a73215b8ef/biobb_io-4.2.0.tar.gz
+[2024-05-24 12:50:26] INFO root fetch - processPackages [quanto]: Downloading https://files.pythonhosted.org/packages/c9/d8/dff2a53258368022c1b1ea2fab28ba7830fddc0a1c73a31605f3cf17d34e/quanto-0.2.0.tar.gz
+[2024-05-24 12:50:26] INFO root fetch - processPackages [pysonnet]: executing diffoscope
+[2024-05-24 12:50:26] INFO root fetch - processPackages [pysonnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysonnet-0.0.1.tar.gz tmp/pysonnet-0.0.2.tar.gz --markdown 20240524/p/pysonnet/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 12:50:26] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/6a/a7/d12d2e5a6752868e2faaefca9b82be6e12dfb8ec8b8e0e308c725e40cccd/am2r_yams-2.3.0.tar.gz
+[2024-05-24 12:50:26] INFO root fetch - processPackages [biobb-io]: executing diffoscope
+[2024-05-24 12:50:26] INFO root fetch - processPackages [biobb-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_io-4.1.1.tar.gz tmp/biobb_io-4.2.0.tar.gz --markdown 20240524/b/biobb-io/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-05-24 12:50:26] INFO root fetch - processPackages [am2r-yams]: executing diffoscope
+[2024-05-24 12:50:26] INFO root fetch - processPackages [am2r-yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/am2r_yams-2.2.0.tar.gz tmp/am2r_yams-2.3.0.tar.gz --markdown 20240524/a/am2r-yams/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-24 12:50:26] INFO root fetch - processPackages [quanto]: executing diffoscope
+[2024-05-24 12:50:26] INFO root fetch - processPackages [quanto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanto-0.1.0.tar.gz tmp/quanto-0.2.0.tar.gz --markdown 20240524/q/quanto/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 12:50:26] INFO root fetch - processPackages [pysonnet]: Remove: archive file [/home/abi/fetcher/tmp/pysonnet-0.0.1.tar.gz]
+[2024-05-24 12:50:26] INFO root fetch - processPackages [pysonnet]: Remove: archive file [/home/abi/fetcher/tmp/pysonnet-0.0.2.tar.gz]
+[2024-05-24 12:50:26] INFO root fetch - main [MainThread]: End processing [pysonnet]: success
+[2024-05-24 12:50:27] INFO root fetch - processPackages [biobb-io]: Remove: archive file [/home/abi/fetcher/tmp/biobb_io-4.1.1.tar.gz]
+[2024-05-24 12:50:27] INFO root fetch - processPackages [biobb-io]: Remove: archive file [/home/abi/fetcher/tmp/biobb_io-4.2.0.tar.gz]
+[2024-05-24 12:50:27] INFO root fetch - main [MainThread]: End processing [biobb-io]: success
+[2024-05-24 12:50:27] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-2.2.0.tar.gz]
+[2024-05-24 12:50:27] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-2.3.0.tar.gz]
+[2024-05-24 12:50:27] INFO root fetch - main [MainThread]: End processing [am2r-yams]: success
+[2024-05-24 12:50:28] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-24 12:50:28] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-24 12:50:28] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-24 12:50:29] INFO root fetch - processPackages [quanto]: Remove: archive file [/home/abi/fetcher/tmp/quanto-0.1.0.tar.gz]
+[2024-05-24 12:50:29] INFO root fetch - processPackages [quanto]: Remove: archive file [/home/abi/fetcher/tmp/quanto-0.2.0.tar.gz]
+[2024-05-24 12:50:29] INFO root fetch - main [MainThread]: End processing [quanto]: success
+[2024-05-24 12:50:29] INFO root fetch - main [MainThread]: Store serial: [23360614]
