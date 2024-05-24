@@ -19716,3 +19716,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:26:04] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev0.tar.gz]
 [2024-05-24 12:26:04] INFO root fetch - main [MainThread]: End processing [xcube-core]: success
 [2024-05-24 12:26:04] INFO root fetch - main [MainThread]: Store serial: [23360360]
+[2024-05-24 12:28:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360360]
+[2024-05-24 12:28:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authwa
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymentoring
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fermo-core
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LeeCo
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brainfucktool
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pibe
+[2024-05-24 12:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arion-library
+[2024-05-24 12:28:15] INFO root fetch - processPackages [pibe]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 12:28:15] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:28:15] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-05-24 12:28:15] INFO root fetch - processPackages [pibe]: Downloading https://files.pythonhosted.org/packages/63/d3/72050b175e74d85af2ab3d71c8e1da1f09bb492c9e055cec34b0652c3ba6/pibe-0.8.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [fermo-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 12:28:15] WARNING root fetch - processPackages [brainfucktool]: Skipping, unable to determine old version
+[2024-05-24 12:28:15] INFO root fetch - main [MainThread]: End processing [brainfucktool] error
+[2024-05-24 12:28:15] INFO root fetch - processPackages [LeeCo]: New version: [0.0.1b0] Old Version: [0.0.1a1]
+[2024-05-24 12:28:15] WARNING root fetch - processPackages [pymentoring]: Skipping, unable to determine old version
+[2024-05-24 12:28:15] INFO root fetch - main [MainThread]: End processing [pymentoring] error
+[2024-05-24 12:28:15] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [fermo-core]: Downloading https://files.pythonhosted.org/packages/87/ce/c31b6808dedd3c35f093ca8f7f8d1ebd5faebb566cd2daba4d35c7541041/fermo_core-0.1.0.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [pibe]: Downloading https://files.pythonhosted.org/packages/22/23/cd7d5f65eaaea90607aee6b4ad7c4351d190d29e4d73aa48206ea30cee1c/pibe-0.9.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [LeeCo]: Downloading https://files.pythonhosted.org/packages/69/78/bc3dd745b66edd7def30a878468644d5fce8674f39949b2e2cb46dfe37b0/LeeCo-0.0.1a1-py3-none-any.whl
+[2024-05-24 12:28:15] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [pibe]: executing diffoscope
+[2024-05-24 12:28:15] INFO root fetch - processPackages [pibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibe-0.8.tar.gz tmp/pibe-0.9.tar.gz --markdown 20240524/p/pibe/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 12:28:15] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:28:15] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:28:15] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-24 12:28:15] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240524/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-05-24 12:28:15] INFO root fetch - processPackages [LeeCo]: Downloading https://files.pythonhosted.org/packages/6e/c0/ca4a0cfc7bc2af9999af0787f47cc8cee0ba07ef110c6ceb40acd0abab8d/leeco-0.0.1b0.tar.gz
+[2024-05-24 12:28:15] INFO root fetch - processPackages [fermo-core]: Downloading https://files.pythonhosted.org/packages/6e/33/4a01af55d692313095e94f34a3f3ca74c07e197c09ad76e2fef725a61b24/fermo_core-0.1.1.tar.gz
+[2024-05-24 12:28:16] INFO root fetch - processPackages [LeeCo]: executing diffoscope
+[2024-05-24 12:28:16] INFO root fetch - processPackages [LeeCo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeeCo-0.0.1a1-py3-none-any.whl.zip tmp/leeco-0.0.1b0.tar.gz --markdown 20240524/L/LeeCo/0.0.1a1-0.0.1b0/README.md --exclude *.pyd
+[2024-05-24 12:28:16] INFO root fetch - processPackages [pibe]: Remove: archive file [/home/abi/fetcher/tmp/pibe-0.8.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - processPackages [pibe]: Remove: archive file [/home/abi/fetcher/tmp/pibe-0.9.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - main [MainThread]: End processing [pibe]: success
+[2024-05-24 12:28:16] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:28:16] INFO root fetch - processPackages [fermo-core]: executing diffoscope
+[2024-05-24 12:28:16] INFO root fetch - processPackages [fermo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fermo_core-0.1.0.tar.gz tmp/fermo_core-0.1.1.tar.gz --markdown 20240524/f/fermo-core/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 12:28:16] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-24 12:28:16] INFO root fetch - processPackages [LeeCo]: Remove: archive file [/home/abi/fetcher/tmp/LeeCo-0.0.1a1-py3-none-any.whl.zip]
+[2024-05-24 12:28:16] INFO root fetch - processPackages [LeeCo]: Remove: archive file [/home/abi/fetcher/tmp/leeco-0.0.1b0.tar.gz]
+[2024-05-24 12:28:16] INFO root fetch - main [MainThread]: End processing [LeeCo]: success
+[2024-05-24 12:28:17] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.1.0.tar.gz]
+[2024-05-24 12:28:17] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.1.1.tar.gz]
+[2024-05-24 12:28:17] INFO root fetch - main [MainThread]: End processing [fermo-core]: success
+[2024-05-24 12:28:17] INFO root fetch - main [MainThread]: Store serial: [23360383]
