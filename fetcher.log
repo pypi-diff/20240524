@@ -23209,3 +23209,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:29:07] INFO root fetch - main [MainThread]: End processing [RNAformer]: success
 [2024-05-24 14:29:07] INFO root fetch - main [MainThread]: End processing [givemehelp]: success
 [2024-05-24 14:29:07] INFO root fetch - main [MainThread]: Store serial: [23361807]
+[2024-05-24 14:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361807]
+[2024-05-24 14:31:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-dcqg-relay
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: new-random-topic-generator
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MusicSeparationYT
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dash-pydantic-form
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-05-24 14:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beamlime
+[2024-05-24 14:31:17] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 14:31:17] WARNING root fetch - processPackages [new-random-topic-generator]: Skipping, unable to determine old version
+[2024-05-24 14:31:17] INFO root fetch - main [MainThread]: End processing [new-random-topic-generator] error
+[2024-05-24 14:31:17] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240523.6.48.729334] Old Version: [20240523.21.13.772966]
+[2024-05-24 14:31:17] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/5d/79/f2446a74a0647d97f1ed631fb51aac1114a2235ba75271a8e7912a8c0ae8/dash_pydantic_form-0.1.8.tar.gz
+[2024-05-24 14:31:17] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-24 14:31:17] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 14:31:17] INFO root fetch - processPackages [beamlime]: New version: [24.5.0] Old Version: [23.3.0.dev0]
+[2024-05-24 14:31:17] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/79/15/72bbcd312420aa66d14d40af4fe72fd69761da3b42995827359ec91e2b96/certora-cli-alpha-master-20240523.21.13.772966.tar.gz
+[2024-05-24 14:31:17] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: Downloading https://files.pythonhosted.org/packages/61/6f/b723e5c71d4306dc35be268aa3613dc6ee1641fd6566783cba566541be8d/nonebot_plugin_dcqg_relay-1.0.0.tar.gz
+[2024-05-24 14:31:17] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14609414>=10485760
+[2024-05-24 14:31:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-24 14:31:17] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/27/6d/ebcc7cd94582252583d5ed56864691c7d23afa009ca5100c21ab9f8bb15d/dash_pydantic_form-0.1.9.tar.gz
+[2024-05-24 14:31:17] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/2c/42/d6acd03e2e77d54a5abc92d520eaf1094ba0b03f1d5bbd5310070e986096/musicseparationyt-1.0.0.tar.gz
+[2024-05-24 14:31:17] INFO root fetch - processPackages [beamlime]: Downloading https://files.pythonhosted.org/packages/c2/57/914ae37fc08602369918ce9f919c5f687e71e358baaef54ac895d5ef5b65/beamlime-23.3.0.dev0.tar.gz
+[2024-05-24 14:31:17] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-24 14:31:17] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.8.tar.gz tmp/dash_pydantic_form-0.1.9.tar.gz --markdown 20240524/d/dash-pydantic-form/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 14:31:18] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/98/d1/b495f716164229d4e408c65583896e18934343b6313746dca6f6ee1426b6/musicseparationyt-1.0.1.tar.gz
+[2024-05-24 14:31:18] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-24 14:31:18] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.0.tar.gz tmp/musicseparationyt-1.0.1.tar.gz --markdown 20240524/M/MusicSeparationYT/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: Downloading https://files.pythonhosted.org/packages/62/96/5ac5d0b703a998165d68490d3202edb64031d72a8e689fbf47d2a081a6ed/beamlime-24.5.0.tar.gz
+[2024-05-24 14:31:18] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: Downloading https://files.pythonhosted.org/packages/99/bd/012bd5feb50df28ce01d9d1c94bd4eaf8345d596e93e5ae00d2d05762ca7/nonebot_plugin_dcqg_relay-1.1.0.tar.gz
+[2024-05-24 14:31:18] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: executing diffoscope
+[2024-05-24 14:31:18] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_dcqg_relay-1.0.0.tar.gz tmp/nonebot_plugin_dcqg_relay-1.1.0.tar.gz --markdown 20240524/n/nonebot-plugin-dcqg-relay/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: executing diffoscope
+[2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamlime-23.3.0.dev0.tar.gz tmp/beamlime-24.5.0.tar.gz --markdown 20240524/b/beamlime/23.3.0.dev0-24.5.0/README.md --exclude *.pyd
+[2024-05-24 14:31:18] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.8.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.9.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-24 14:31:18] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.0.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.1.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-24 14:31:18] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dcqg_relay-1.0.0.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - processPackages [nonebot-plugin-dcqg-relay]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_dcqg_relay-1.1.0.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dcqg-relay]: success
+[2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: Remove: archive file [/home/abi/fetcher/tmp/beamlime-23.3.0.dev0.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: Remove: archive file [/home/abi/fetcher/tmp/beamlime-24.5.0.tar.gz]
+[2024-05-24 14:31:18] INFO root fetch - main [MainThread]: End processing [beamlime]: success
+[2024-05-24 14:31:18] INFO root fetch - main [MainThread]: Store serial: [23361828]
