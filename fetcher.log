@@ -2673,3 +2673,78 @@
 [2024-05-24 02:30:52] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.1rc3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-24 02:30:52] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2024-05-24 02:30:52] INFO root fetch - main [MainThread]: Store serial: [23353602]
+[2024-05-24 02:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353602]
+[2024-05-24 02:33:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rembg
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gitlab
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beanhub-import
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autisto
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-http
+[2024-05-24 02:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-hcloud
+[2024-05-24 02:33:05] INFO root fetch - processPackages [autisto]: New version: [1.1rc4] Old Version: [1.1rc3]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240523] Old Version: [0.1.5.dev20240522]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [rembg]: New version: [2.0.57] Old Version: [2.0.56]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [autisto]: Downloading https://files.pythonhosted.org/packages/9f/02/7e25f3ccbc6925bb33742854fd36371cf3e4ee2eba09c3b0dfe0dbeacd11/autisto-1.1rc3.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [beanhub-import]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-gitlab]: New version: [7.1.0a1716508448] Old Version: [7.1.0a1716269914]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.39.0.dev20240522] Old Version: [1.39.0.dev20240520]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/71/eb/0f3badeb036939343743105ce81b948f73031fe7d097756f44f4be570606/aeppl_nightly-0.1.5.dev20240522.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-http]: New version: [0.1.0a1716508709] Old Version: [0.1.0a1715924824]
+[2024-05-24 02:33:05] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/42/fe/231ddd6963568dd98b507eaf4b2f12f37585fc15c316bcb9f7f8c1faba3e/rembg-2.0.56.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [autisto]: Downloading https://files.pythonhosted.org/packages/f3/b1/b2a00fd6f592c8f3a2395962d0bc8c0f986d7f41cb2c69db41e32fd8cf9e/autisto-1.1rc4.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/60/37/784dd77e236df078e7cb6608a57c7b3a2d5cbf147041b75580381821d230/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/ff/22/f3f4fb24e8b218ffbd278b58829d0e05ba9a03e0f3655bdf44ab2b04ac6d/beanhub_import-0.1.6.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/5f/ab/f5ec14eb7d56bb8200ac4c7ab10682b6eab5e9250741aa5576ec70a21fda/pulumi_http-0.1.0a1715924824.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ac/8d/e3595c4cadaf7bc5b662a12245935e67dda9334eca6babd5fc0028e055c4/pulumi_gitlab-7.1.0a1716269914.tar.gz
+[2024-05-24 02:33:05] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [autisto]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [autisto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autisto-1.1rc3.tar.gz tmp/autisto-1.1rc4.tar.gz --markdown 20240524/a/autisto/1.1rc3-1.1rc4/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/dd/8c/1faeb3433ef14145b1747392474ec4eba2039f272353800a4a8cf74af538/aeppl_nightly-0.1.5.dev20240523.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/86/60/6b7972ae7b61cb23423749395412f7b162660cc66ac4a6534103a06bf988/rembg-2.0.57.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240522.tar.gz tmp/aeppl_nightly-0.1.5.dev20240523.tar.gz --markdown 20240524/a/aeppl-nightly/0.1.5.dev20240522-0.1.5.dev20240523/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/6f/1d/7b1b05ad2088750cc5035e73ac8efb17e2649cf4470a31c7fe64c3195b21/beanhub_import-0.1.7.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-http]: Downloading https://files.pythonhosted.org/packages/78/f9/f0c71e9afbb9c37487c6d16e56090d17500d221823eba6cb32abc5969f84/pulumi_http-0.1.0a1716508709.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/9d/b3/354822b0cfb54cd05ca4773c7bb89de88301dd4305ccecf84240bb3e9c59/pulumi_gitlab-7.1.0a1716508448.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/cb/70/4e390b6156386c336db35d8057dd6cd5fe79eb09cec4b6fad1aa1e0c37ee/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz
+[2024-05-24 02:33:06] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.56.tar.gz tmp/rembg-2.0.57.tar.gz --markdown 20240524/r/rembg/2.0.56-2.0.57/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.1.6.tar.gz tmp/beanhub_import-0.1.7.tar.gz --markdown 20240524/b/beanhub-import/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-http]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_http-0.1.0a1715924824.tar.gz tmp/pulumi_http-0.1.0a1716508709.tar.gz --markdown 20240524/p/pulumi-http/0.1.0a1715924824-0.1.0a1716508709/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz --markdown 20240524/n/nvidia-dali-nightly-cuda110/1.39.0.dev20240520-1.39.0.dev20240522/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240524/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-24 02:33:06] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-7.1.0a1716269914.tar.gz tmp/pulumi_gitlab-7.1.0a1716508448.tar.gz --markdown 20240524/p/pulumi-gitlab/7.1.0a1716269914-7.1.0a1716508448/README.md --exclude *.pyd
+[2024-05-24 02:33:06] INFO root fetch - processPackages [autisto]: Remove: archive file [/home/abi/fetcher/tmp/autisto-1.1rc3.tar.gz]
+[2024-05-24 02:33:06] INFO root fetch - processPackages [autisto]: Remove: archive file [/home/abi/fetcher/tmp/autisto-1.1rc4.tar.gz]
+[2024-05-24 02:33:06] INFO root fetch - main [MainThread]: End processing [autisto]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240522.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240523.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1715924824.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-http]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_http-0.1.0a1716508709.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [pulumi-http]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.1.6.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.1.7.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.56.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [rembg]: Remove: archive file [/home/abi/fetcher/tmp/rembg-2.0.57.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716269914.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716508448.tar.gz]
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-24 02:33:07] INFO root fetch - main [MainThread]: Store serial: [23353630]
