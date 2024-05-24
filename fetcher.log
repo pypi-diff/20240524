@@ -9388,3 +9388,45 @@
 [2024-05-24 05:44:13] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.96.tar.gz]
 [2024-05-24 05:44:13] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
 [2024-05-24 05:44:13] INFO root fetch - main [MainThread]: Store serial: [23356024]
+[2024-05-24 05:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356024]
+[2024-05-24 05:46:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 05:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exa-py
+[2024-05-24 05:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-24 05:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phunky
+[2024-05-24 05:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-webrtc
+[2024-05-24 05:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-24 05:46:21] WARNING root fetch - processPackages [phunky]: Skipping, unable to determine old version
+[2024-05-24 05:46:21] INFO root fetch - main [MainThread]: End processing [phunky] error
+[2024-05-24 05:46:21] INFO root fetch - processPackages [exa-py]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 05:46:21] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.39.0.dev20240522] Old Version: [1.39.0.dev20240520]
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.39.0.dev20240522] Old Version: [1.39.0.dev20240520]
+[2024-05-24 05:46:22] INFO root fetch - processPackages [exa-py]: Downloading https://files.pythonhosted.org/packages/82/62/ada038f563c8a7fca20a86536a638eb4681073235302ccdaa6f52b33a042/exa_py-1.0.8.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/60/37/784dd77e236df078e7cb6608a57c7b3a2d5cbf147041b75580381821d230/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/1d/50/fd1f7650a80c977f88bec35324641232e2cfea17ceb866ac9095241379ec/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [streamlit-webrtc]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/41/d1/24a3494b989fa3b319ea638cc84982b857571ba4c9dbc0492d5f067307bb/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [exa-py]: Downloading https://files.pythonhosted.org/packages/eb/65/7b18ad71bdddfd370f4e3497f9d50c19f9dda10936c5a452908991a3cad1/exa_py-1.0.9.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [streamlit-webrtc]: Downloading https://files.pythonhosted.org/packages/74/17/d5f8b9eb653171d0285a13e0033bf4355548b2f59d3e2dec7dce69e80035/streamlit-webrtc-0.8.1.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/cb/70/4e390b6156386c336db35d8057dd6cd5fe79eb09cec4b6fad1aa1e0c37ee/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz --markdown 20240524/n/nvidia-dali-tf-plugin-nightly-cuda110/1.39.0.dev20240520-1.39.0.dev20240522/README.md --exclude *.pyd
+[2024-05-24 05:46:22] INFO root fetch - processPackages [exa-py]: executing diffoscope
+[2024-05-24 05:46:22] INFO root fetch - processPackages [exa-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exa_py-1.0.8.tar.gz tmp/exa_py-1.0.9.tar.gz --markdown 20240524/e/exa-py/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz --markdown 20240524/n/nvidia-dali-nightly-cuda110/1.39.0.dev20240520-1.39.0.dev20240522/README.md --exclude *.pyd
+[2024-05-24 05:46:22] INFO root fetch - processPackages [streamlit-webrtc]: Downloading https://files.pythonhosted.org/packages/67/13/21c92cb4d03086d16d1a3b164e5c3f19a048c79b49b55973e607288ef3d2/streamlit-webrtc-0.9.0.tar.gz
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz]
+[2024-05-24 05:46:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz]
+[2024-05-24 05:46:22] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-24 05:46:22] INFO root fetch - processPackages [streamlit-webrtc]: executing diffoscope
+[2024-05-24 05:46:22] INFO root fetch - processPackages [streamlit-webrtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-webrtc-0.8.1.tar.gz tmp/streamlit-webrtc-0.9.0.tar.gz --markdown 20240524/s/streamlit-webrtc/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 05:46:23] INFO root fetch - processPackages [exa-py]: Remove: archive file [/home/abi/fetcher/tmp/exa_py-1.0.8.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - processPackages [exa-py]: Remove: archive file [/home/abi/fetcher/tmp/exa_py-1.0.9.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - main [MainThread]: End processing [exa-py]: success
+[2024-05-24 05:46:23] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240520.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240522.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-24 05:46:23] INFO root fetch - processPackages [streamlit-webrtc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-webrtc-0.8.1.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - processPackages [streamlit-webrtc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-webrtc-0.9.0.tar.gz]
+[2024-05-24 05:46:23] INFO root fetch - main [MainThread]: End processing [streamlit-webrtc]: success
+[2024-05-24 05:46:23] INFO root fetch - main [MainThread]: Store serial: [23356037]
