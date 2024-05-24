@@ -18060,3 +18060,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:29:19] INFO root fetch - processPackages [eurepoc]: Remove: archive file [/home/abi/fetcher/tmp/eurepoc-0.1.5.tar.gz]
 [2024-05-24 11:29:19] INFO root fetch - main [MainThread]: End processing [eurepoc]: success
 [2024-05-24 11:29:19] INFO root fetch - main [MainThread]: Store serial: [23359649]
+[2024-05-24 11:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359649]
+[2024-05-24 11:31:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 11:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-05-24 11:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-05-24 11:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartpredict
+[2024-05-24 11:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbon-registry-indexer
+[2024-05-24 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rfc9457
+[2024-05-24 11:31:29] INFO root fetch - processPackages [smartpredict]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-24 11:31:29] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/58/b0/9681aa85a00b5a4fde72f71661f30644387ef123094872ce5e1b718c1577/smartpredict-0.7.2.tar.gz
+[2024-05-24 11:31:29] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 11:31:29] INFO root fetch - processPackages [rfc9457]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 11:31:29] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-24 11:31:29] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-24 11:31:29] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/db/c8/b69f80fbdc1301ee52412c5ef3060e513982e74b54f8ff036c29d1ae1aa0/rfc9457-0.0.7.tar.gz
+[2024-05-24 11:31:29] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-24 11:31:29] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-24 11:31:29] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-24 11:31:29] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/56/1b/78737ac0db54a0b80d9e9265bc07a317d7e415cd78ccdf451fdcfb558326/smartpredict-0.7.3.tar.gz
+[2024-05-24 11:31:29] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-24 11:31:29] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.7.2.tar.gz tmp/smartpredict-0.7.3.tar.gz --markdown 20240524/s/smartpredict/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-24 11:31:29] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/9a/0f/f2f53321355093c66d24b5c8d38412d2a4a96f2554aeb20edb0502de25a7/rfc9457-0.0.8.tar.gz
+[2024-05-24 11:31:29] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-24 11:31:30] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-24 11:31:30] INFO root fetch - processPackages [rfc9457]: executing diffoscope
+[2024-05-24 11:31:30] INFO root fetch - processPackages [rfc9457]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc9457-0.0.7.tar.gz tmp/rfc9457-0.0.8.tar.gz --markdown 20240524/r/rfc9457/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240524/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-24 11:31:30] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-24 11:31:30] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240524/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240524/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-24 11:31:30] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.2.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.3.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-24 11:31:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-24 11:31:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-24 11:31:30] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.7.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.8.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - main [MainThread]: End processing [rfc9457]: success
+[2024-05-24 11:31:30] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-24 11:31:30] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-24 11:31:31] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-24 11:31:31] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-24 11:31:31] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-24 11:31:31] INFO root fetch - main [MainThread]: Store serial: [23359671]
