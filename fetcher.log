@@ -20594,3 +20594,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:59:33] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.9.0.tar.gz]
 [2024-05-24 12:59:33] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
 [2024-05-24 12:59:33] INFO root fetch - main [MainThread]: Store serial: [23360746]
+[2024-05-24 13:01:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360746]
+[2024-05-24 13:01:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timesfm
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: substrate
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langwatch
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataclasses-avroschema
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frogr
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mia-vgg
+[2024-05-24 13:01:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-jobs
+[2024-05-24 13:01:42] WARNING root fetch - processPackages [timesfm]: Skipping, unable to determine old version
+[2024-05-24 13:01:42] INFO root fetch - main [MainThread]: End processing [timesfm] error
+[2024-05-24 13:01:42] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-24 13:01:42] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 13:01:42] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-24 13:01:42] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/e3/fc/bbccf23c284bd7b1b7af12cd3d1559a8bf0aa31779883843d4c685cd3eb1/mia_vgg-0.0.3.tar.gz
+[2024-05-24 13:01:42] INFO root fetch - processPackages [substrate]: New version: [220240509.0.0] Old Version: [120240502.0.3]
+[2024-05-24 13:01:42] INFO root fetch - processPackages [frogr]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-24 13:01:42] INFO root fetch - processPackages [langwatch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:01:42] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 13:01:43] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/22/8d/fb19c05e5333304cb77ec393c54e6d396ad7824607e6107bdf975ddeab97/substrate-120240502.0.3.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [frogr]: Downloading https://files.pythonhosted.org/packages/17/92/52be9db80bef0d9e7c00d17706db6246d0ba7fe56c163484a7a48ed04b90/frogr-0.0.0.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/5a/e9/3864799ca400b5ae11962a267077e41212e295457c88da2b48a58594d35b/langwatch-0.0.8.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/c6/15/c5323dd0bb248aceef0e6fdc6c4be9fd0a9d2ebbbaf39ed5bcbe84148930/mia_vgg-0.0.4.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240524/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.3.tar.gz tmp/mia_vgg-0.0.4.tar.gz --markdown 20240524/m/mia-vgg/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/fa/a0/249bbd30984c573fc8fa01f00b21575a91a706404362058104446105eca8/substrate-220240509.0.0.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [frogr]: Downloading https://files.pythonhosted.org/packages/df/5d/2d236778b85201fdbf6997ef0a627b1feebb9625edbfab29ea65ec7d3232/frogr-0.0.1.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/ca/d2/7dba8299d65257fe500a9d804ac2a4a507381a01516d584c45950754b775/langwatch-0.0.9.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2024-05-24 13:01:43] INFO root fetch - processPackages [langwatch]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [langwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langwatch-0.0.8.tar.gz tmp/langwatch-0.0.9.tar.gz --markdown 20240524/l/langwatch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20240524/d/dataclasses-avroschema/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240502.0.3.tar.gz tmp/substrate-220240509.0.0.tar.gz --markdown 20240524/s/substrate/120240502.0.3-220240509.0.0/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [frogr]: executing diffoscope
+[2024-05-24 13:01:43] INFO root fetch - processPackages [frogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogr-0.0.0.tar.gz tmp/frogr-0.0.1.tar.gz --markdown 20240524/f/frogr/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-24 13:01:43] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-24 13:01:43] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-24 13:01:43] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-24 13:01:43] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.3.tar.gz]
+[2024-05-24 13:01:43] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.4.tar.gz]
+[2024-05-24 13:01:43] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-24 13:01:44] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.8.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - main [MainThread]: End processing [langwatch]: success
+[2024-05-24 13:01:44] INFO root fetch - processPackages [frogr]: Remove: archive file [/home/abi/fetcher/tmp/frogr-0.0.0.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - processPackages [frogr]: Remove: archive file [/home/abi/fetcher/tmp/frogr-0.0.1.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - main [MainThread]: End processing [frogr]: success
+[2024-05-24 13:01:44] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.8.0.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - processPackages [dataclasses-avroschema]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-avroschema-0.9.0.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2024-05-24 13:01:44] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240502.0.3.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-220240509.0.0.tar.gz]
+[2024-05-24 13:01:44] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-05-24 13:01:44] INFO root fetch - main [MainThread]: Store serial: [23360764]
