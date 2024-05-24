@@ -9275,3 +9275,41 @@
 [2024-05-24 05:35:36] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.8.tar.gz]
 [2024-05-24 05:35:36] INFO root fetch - main [MainThread]: End processing [cdbt]: success
 [2024-05-24 05:35:36] INFO root fetch - main [MainThread]: Store serial: [23355980]
+[2024-05-24 05:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355980]
+[2024-05-24 05:37:45] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 05:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355980]
+[2024-05-24 05:39:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-data-preprocessor-mz
+[2024-05-24 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-24 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mptradelib
+[2024-05-24 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDSR-UWB
+[2024-05-24 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: burrow-cli
+[2024-05-24 05:39:50] WARNING root fetch - processPackages [burrow-cli]: Skipping, unable to determine old version
+[2024-05-24 05:39:50] INFO root fetch - main [MainThread]: End processing [burrow-cli] error
+[2024-05-24 05:39:50] WARNING root fetch - processPackages [my-data-preprocessor-mz]: Skipping, unable to determine old version
+[2024-05-24 05:39:50] INFO root fetch - main [MainThread]: End processing [my-data-preprocessor-mz] error
+[2024-05-24 05:39:50] INFO root fetch - processPackages [mptradelib]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-24 05:39:50] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/1a/6f/dbb37302fb012eafc6dfd894640e3dab09e398bb6fb4220846e99599fc1b/mptradelib-0.5.5.tar.gz
+[2024-05-24 05:39:50] INFO root fetch - processPackages [TDSR-UWB]: New version: [1.542] Old Version: [1.541]
+[2024-05-24 05:39:50] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-24 05:39:50] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/61/d4/eececfb84d2e4d31fbd9a6caca20689c666a6b707ea90682baca958f83df/mptradelib-0.5.6.tar.gz
+[2024-05-24 05:39:51] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/13/3e/652b957a814e74656ad2272f600c73950753e75880f6331a67a5b3a5c58f/TDSR-UWB-1.541.tar.gz
+[2024-05-24 05:39:51] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-24 05:39:51] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-24 05:39:51] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.5.5.tar.gz tmp/mptradelib-0.5.6.tar.gz --markdown 20240524/m/mptradelib/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-24 05:39:51] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-24 05:39:51] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/49/ae/b0903c6fb5b2c8be75696a8edc0db53dd01e259339c8252e5a044bf5ca3e/TDSR-UWB-1.542.tar.gz
+[2024-05-24 05:39:51] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-24 05:39:51] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240524/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-24 05:39:51] INFO root fetch - processPackages [TDSR-UWB]: executing diffoscope
+[2024-05-24 05:39:51] INFO root fetch - processPackages [TDSR-UWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDSR-UWB-1.541.tar.gz tmp/TDSR-UWB-1.542.tar.gz --markdown 20240524/T/TDSR-UWB/1.541-1.542/README.md --exclude *.pyd
+[2024-05-24 05:39:51] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.5.5.tar.gz]
+[2024-05-24 05:39:51] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.5.6.tar.gz]
+[2024-05-24 05:39:51] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-24 05:39:52] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-24 05:39:52] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-24 05:39:52] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-24 05:39:52] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.541.tar.gz]
+[2024-05-24 05:39:52] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.542.tar.gz]
+[2024-05-24 05:39:52] INFO root fetch - main [MainThread]: End processing [TDSR-UWB]: success
+[2024-05-24 05:39:52] INFO root fetch - main [MainThread]: Store serial: [23355995]
