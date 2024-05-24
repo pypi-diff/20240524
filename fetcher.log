@@ -2201,3 +2201,51 @@
 [2024-05-24 02:10:03] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-24 02:10:03] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-24 02:10:03] INFO root fetch - main [MainThread]: Store serial: [23353427]
+[2024-05-24 02:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353427]
+[2024-05-24 02:12:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stefutils
+[2024-05-24 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-fastly
+[2024-05-24 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algophon
+[2024-05-24 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-24 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2024-05-24 02:12:12] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-24 02:12:12] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-24 02:12:12] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240523.post1117] Old Version: [1.5.0.20240522.post1048]
+[2024-05-24 02:12:12] INFO root fetch - processPackages [algophon]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-24 02:12:12] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.9.0a1716507685] Old Version: [8.9.0a1716009939]
+[2024-05-24 02:12:12] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/93/58/496d0eb6230e5116d895caf159dbd5f541b5a3ef7bbf711ae80475d37d30/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/08/ea/72b7cb78123727d9b051a23ba57fc69d36f0eb4ca9a0339b277f25cc6724/algophon-0.0.9.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/7c/57/b2e488d9225a3bbd427a949799daea85a42975943bf81a022550a0ac09de/pulumi_fastly-8.9.0a1716009939.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/63/94/c5d1040589bd5158be69fec98fae6b73245bc577cca09a6b53e2af69a8eb/mct-quantizers-nightly-1.5.0.20240523.post1117.tar.gz
+[2024-05-24 02:12:12] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-24 02:12:12] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240524/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-24 02:12:12] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-24 02:12:12] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240524/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-24 02:12:12] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-24 02:12:12] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240523.post1117.tar.gz --markdown 20240524/m/mct-quantizers-nightly/1.5.0.20240522.post1048-1.5.0.20240523.post1117/README.md --exclude *.pyd
+[2024-05-24 02:12:13] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/0a/dd/15c2c010c61f8c5cddab96e780b6acb38fb91b810b564d162ad2703412ec/algophon-0.1.0.tar.gz
+[2024-05-24 02:12:13] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/26/43/e9b6ccaeb2b502b6c72031e7eb6f530c38b629496d44127defb0d1546fcd/pulumi_fastly-8.9.0a1716507685.tar.gz
+[2024-05-24 02:12:13] INFO root fetch - processPackages [algophon]: executing diffoscope
+[2024-05-24 02:12:13] INFO root fetch - processPackages [algophon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algophon-0.0.9.tar.gz tmp/algophon-0.1.0.tar.gz --markdown 20240524/a/algophon/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-24 02:12:13] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-24 02:12:13] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.9.0a1716009939.tar.gz tmp/pulumi_fastly-8.9.0a1716507685.tar.gz --markdown 20240524/p/pulumi-fastly/8.9.0a1716009939-8.9.0a1716507685/README.md --exclude *.pyd
+[2024-05-24 02:12:13] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-24 02:12:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240522.post1048.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240523.post1117.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-24 02:12:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-24 02:12:13] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.9.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.1.0.tar.gz]
+[2024-05-24 02:12:13] INFO root fetch - main [MainThread]: End processing [algophon]: success
+[2024-05-24 02:12:14] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716009939.tar.gz]
+[2024-05-24 02:12:14] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716507685.tar.gz]
+[2024-05-24 02:12:14] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-24 02:12:14] INFO root fetch - main [MainThread]: Store serial: [23353441]
