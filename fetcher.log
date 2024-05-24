@@ -14919,3 +14919,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:53:01] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
 [2024-05-24 09:53:01] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2024-05-24 09:53:01] INFO root fetch - main [MainThread]: Store serial: [23358275]
+[2024-05-24 09:55:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358275]
+[2024-05-24 09:55:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: affine-gaps
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bstblue
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-check
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seedbank
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moordyn
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addons-oca-stock-logistics-warehouse
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swh.scheduler
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autotools-language-server
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-stock-inventory
+[2024-05-24 09:55:10] INFO root fetch - processPackages [bstblue]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.2.0.0.1] Old Version: [16.0.2.0.0]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/94/e0/9ee3a50fe8b973035a2b0b3309e930624cc9f3ef522fb28ea41c1e600bcb/bstblue-0.0.3.tar.gz
+[2024-05-24 09:55:10] WARNING root fetch - processPackages [affine-gaps]: Skipping, unable to determine old version
+[2024-05-24 09:55:10] INFO root fetch - main [MainThread]: End processing [affine-gaps] error
+[2024-05-24 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/8b/b1/729747b63e05b4774694afe210272401c9e0140769b29d24bc53896927d6/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl
+[2024-05-24 09:55:10] INFO root fetch - processPackages [seedbank]: New version: [0.2.0b1] Old Version: [0.2.0a2]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ip-check]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [autotools-language-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: New version: [14.0.20240522.0] Old Version: [14.0.20240314.0]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [swh.scheduler]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [moordyn]: New version: [2.3.1] Old Version: [2.2.2]
+[2024-05-24 09:55:10] INFO root fetch - processPackages [seedbank]: Downloading https://files.pythonhosted.org/packages/35/94/5e3551b1d877e153d95b07942854bb156ed7b8da942e8bbd56aa2b9dacf4/seedbank-0.2.0a2.tar.gz
+[2024-05-24 09:55:10] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/0c/51/e4f4ae454465496f42de983aaafcbf3e9782b3e2f22b4ca8e669cd6aed42/ip_check-1.6.4-py3-none-any.whl
+[2024-05-24 09:55:10] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/1d/f3/76fda1f4ef57626ffe96103b11b41b0162391b1049840a06d119858cc9b6/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240314.0-py3-none-any.whl
+[2024-05-24 09:55:10] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/3b/30/d79f599a3c9a2b489e32099af4f212591a3b86bbccc820e21ab0aac2fc5d/odoo_addon_stock_inventory-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-24 09:55:10] INFO root fetch - processPackages [autotools-language-server]: Downloading https://files.pythonhosted.org/packages/32/74/231a06098348f836ff6a65ba488a8dff7309b3614d242859e01fc2883475/autotools-language-server-0.0.8.tar.gz
+[2024-05-24 09:55:10] INFO root fetch - processPackages [swh.scheduler]: Downloading https://files.pythonhosted.org/packages/2e/1f/a484b727460699bed2173eac2c3a554bd7fb66b236c172a0ae09636bb157/swh_scheduler-2.3.0.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [moordyn]: Downloading https://files.pythonhosted.org/packages/a3/94/3501ea6f49277d16275f62824c2641ec9e936bd329ae08640a916477dbee/moordyn-2.2.2.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/10/a7/226b5d17a04b9c5e1834fd29367a8fe3b5fe878a03aaa5172a6695f261be/bstblue-0.0.4.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-inventory/16.0.2.0.0-16.0.2.0.0.1/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.3.tar.gz tmp/bstblue-0.0.4.tar.gz --markdown 20240524/b/bstblue/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [seedbank]: Downloading https://files.pythonhosted.org/packages/12/47/f99778a3817db87aebec4c8cedca5836a6ebd20ef090731d3e5f7566ce12/seedbank-0.2.0b1.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/b0/a1/80e54a6887e8239eccc3bc35fee3975e11704f2acd4abe29bf9fc526bdf5/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240522.0-py3-none-any.whl
+[2024-05-24 09:55:11] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/db/24/d24d68d1b1843d50e4e772605a096ace10a52ff4a7b857320d45dff5e5ca/ip_check-1.6.5-py3-none-any.whl
+[2024-05-24 09:55:11] INFO root fetch - processPackages [swh.scheduler]: Downloading https://files.pythonhosted.org/packages/7d/7d/b940c2b9ff521b01fd3493f740fbb303b16bca7a8213bbd8b1d8f6f5556f/swh_scheduler-2.3.1.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [autotools-language-server]: Downloading https://files.pythonhosted.org/packages/91/9d/5ef2963e8989d1dd82d162161d304031dc3abebd7ae7b5b5599293009109/autotools_language_server-0.0.9.tar.gz
+[2024-05-24 09:55:11] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.6.4-py3-none-any.whl.zip tmp/ip_check-1.6.5-py3-none-any.whl.zip --markdown 20240524/i/ip-check/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [seedbank]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [seedbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedbank-0.2.0a2.tar.gz tmp/seedbank-0.2.0b1.tar.gz --markdown 20240524/s/seedbank/0.2.0a2-0.2.0b1/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240314.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240522.0-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addons-oca-stock-logistics-warehouse/14.0.20240314.0-14.0.20240522.0/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [autotools-language-server]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [autotools-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotools-language-server-0.0.8.tar.gz tmp/autotools_language_server-0.0.9.tar.gz --markdown 20240524/a/autotools-language-server/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [swh.scheduler]: executing diffoscope
+[2024-05-24 09:55:11] INFO root fetch - processPackages [swh.scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh_scheduler-2.3.0.tar.gz tmp/swh_scheduler-2.3.1.tar.gz --markdown 20240524/s/swh.scheduler/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-24 09:55:11] INFO root fetch - processPackages [moordyn]: Downloading https://files.pythonhosted.org/packages/00/e6/1941b4fd0a3964a58d4d47954e3d0bca843fd37b45cd324378e0d2f7bd09/moordyn-2.3.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-24 09:55:11] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.3.tar.gz]
+[2024-05-24 09:55:11] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.4.tar.gz]
+[2024-05-24 09:55:11] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-24 09:55:11] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:55:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-05-24 09:55:12] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240314.0-py3-none-any.whl.zip]
+[2024-05-24 09:55:12] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_warehouse-14.0.20240522.0-py3-none-any.whl.zip]
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-warehouse]: success
+[2024-05-24 09:55:12] INFO root fetch - processPackages [seedbank]: Remove: archive file [/home/abi/fetcher/tmp/seedbank-0.2.0a2.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - processPackages [seedbank]: Remove: archive file [/home/abi/fetcher/tmp/seedbank-0.2.0b1.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [seedbank]: success
+[2024-05-24 09:55:12] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.4-py3-none-any.whl.zip]
+[2024-05-24 09:55:12] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.5-py3-none-any.whl.zip]
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-05-24 09:55:12] INFO root fetch - processPackages [autotools-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autotools-language-server-0.0.8.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - processPackages [autotools-language-server]: Remove: archive file [/home/abi/fetcher/tmp/autotools_language_server-0.0.9.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [autotools-language-server]: success
+[2024-05-24 09:55:12] WARNING root fetch - processPackages [moordyn]: Skipping package: exceeds size limit 18510587>=10485760
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [moordyn] error
+[2024-05-24 09:55:12] INFO root fetch - processPackages [swh.scheduler]: Remove: archive file [/home/abi/fetcher/tmp/swh_scheduler-2.3.0.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - processPackages [swh.scheduler]: Remove: archive file [/home/abi/fetcher/tmp/swh_scheduler-2.3.1.tar.gz]
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: End processing [swh.scheduler]: success
+[2024-05-24 09:55:12] INFO root fetch - main [MainThread]: Store serial: [23358314]
