@@ -19944,3 +19944,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:35:05] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1552-py3-none-any.whl.zip]
 [2024-05-24 12:35:05] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-24 12:35:05] INFO root fetch - main [MainThread]: Store serial: [23360443]
+[2024-05-24 12:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360443]
+[2024-05-24 12:37:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 12:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adjuster
+[2024-05-24 12:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fuzzylogic
+[2024-05-24 12:37:15] INFO root fetch - processPackages [fuzzylogic]: New version: [1.4.0] Old Version: [1.2.0]
+[2024-05-24 12:37:15] INFO root fetch - processPackages [fuzzylogic]: Downloading https://files.pythonhosted.org/packages/ac/04/2df6849bd6f4c20fe6e9e8689ace6d8d6a06287bbfd8fdf11642c8a5b878/fuzzylogic-1.2.0.tar.gz
+[2024-05-24 12:37:15] INFO root fetch - processPackages [adjuster]: New version: [3.237] Old Version: [3.236]
+[2024-05-24 12:37:15] INFO root fetch - processPackages [fuzzylogic]: Downloading https://files.pythonhosted.org/packages/95/3d/6c8250fc5ffe0faa1b657176ceae25ac09f57903c47474d897ac7a9cc5dd/fuzzylogic-1.4.0.tar.gz
+[2024-05-24 12:37:15] INFO root fetch - processPackages [adjuster]: Downloading https://files.pythonhosted.org/packages/79/97/cfa9e7021723108d2ecc7a03e4d449414c20c3ec7340d12c41648455aa2f/adjuster-3.236.tar.gz
+[2024-05-24 12:37:15] INFO root fetch - processPackages [fuzzylogic]: executing diffoscope
+[2024-05-24 12:37:15] INFO root fetch - processPackages [fuzzylogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzylogic-1.2.0.tar.gz tmp/fuzzylogic-1.4.0.tar.gz --markdown 20240524/f/fuzzylogic/1.2.0-1.4.0/README.md --exclude *.pyd
+[2024-05-24 12:37:15] INFO root fetch - processPackages [adjuster]: Downloading https://files.pythonhosted.org/packages/45/1e/ac437e7a9979f133e63cbe777c0f122a4fb567212456ebfa8d53f5575d9d/adjuster-3.237.tar.gz
+[2024-05-24 12:37:16] INFO root fetch - processPackages [adjuster]: executing diffoscope
+[2024-05-24 12:37:16] INFO root fetch - processPackages [adjuster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adjuster-3.236.tar.gz tmp/adjuster-3.237.tar.gz --markdown 20240524/a/adjuster/3.236-3.237/README.md --exclude *.pyd
+[2024-05-24 12:37:16] INFO root fetch - processPackages [fuzzylogic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylogic-1.2.0.tar.gz]
+[2024-05-24 12:37:16] INFO root fetch - processPackages [fuzzylogic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylogic-1.4.0.tar.gz]
+[2024-05-24 12:37:16] INFO root fetch - main [MainThread]: End processing [fuzzylogic]: success
+[2024-05-24 12:37:16] INFO root fetch - processPackages [adjuster]: Remove: archive file [/home/abi/fetcher/tmp/adjuster-3.236.tar.gz]
+[2024-05-24 12:37:16] INFO root fetch - processPackages [adjuster]: Remove: archive file [/home/abi/fetcher/tmp/adjuster-3.237.tar.gz]
+[2024-05-24 12:37:16] INFO root fetch - main [MainThread]: End processing [adjuster]: success
+[2024-05-24 12:37:16] INFO root fetch - main [MainThread]: Store serial: [23360449]
