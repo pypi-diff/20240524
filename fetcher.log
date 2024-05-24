@@ -7799,3 +7799,42 @@
 [2024-05-24 04:04:34] INFO root fetch - processPackages [proxyllm]: Remove: archive file [/home/abi/fetcher/tmp/proxyllm-0.2.2.tar.gz]
 [2024-05-24 04:04:34] INFO root fetch - main [MainThread]: End processing [proxyllm]: success
 [2024-05-24 04:04:34] INFO root fetch - main [MainThread]: Store serial: [23355437]
+[2024-05-24 04:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355437]
+[2024-05-24 04:06:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ph-utils
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-diff-viewer
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appwrite
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ferfereh
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ph-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:06:43] INFO root fetch - processPackages [appwrite]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-05-24 04:06:43] INFO root fetch - processPackages [st-diff-viewer]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ferfereh]: New version: [1.126.1] Old Version: [1.125.1]
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/d8/11/310d6b84acae23261d82a37edb620e4602f491efd7ded83af320b0fc46ba/ph_utils-0.0.8.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [appwrite]: Downloading https://files.pythonhosted.org/packages/c6/bf/da946486a215f3df8d05d47a361870ca53b0c7de7f7c7c7fb717fefca4aa/appwrite-5.0.1.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ph-utils]: Downloading https://files.pythonhosted.org/packages/9f/ac/1eefc9edce22c6a5cebdf1b29b1610141863d255975c134e0121a2aadeb6/ph_utils-0.0.9.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [st-diff-viewer]: Downloading https://files.pythonhosted.org/packages/c0/69/bd762ccb504d57739495c39cdfd46b56313dc9660940301dd4f700957299/st_diff_viewer-1.0.3.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/2c/4b/9d7ee6c0e0e2a4234efc98e70fdf8687effaa003c6219efde4bc918c5273/ferfereh-1.125.1.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ph-utils]: executing diffoscope
+[2024-05-24 04:06:43] INFO root fetch - processPackages [ph-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ph_utils-0.0.8.tar.gz tmp/ph_utils-0.0.9.tar.gz --markdown 20240524/p/ph-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:06:43] INFO root fetch - processPackages [appwrite]: Downloading https://files.pythonhosted.org/packages/00/5d/b3bf4087c5595bdea20af0af2598b8b68e37b3f7d5d834d22ec9272a290a/appwrite-5.0.2.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [st-diff-viewer]: Downloading https://files.pythonhosted.org/packages/6c/98/91746dafd2bbe5fbac8bd4b6de355c1798b1615e103552fe1b9b8f65a65a/st_diff_viewer-1.0.4.tar.gz
+[2024-05-24 04:06:43] INFO root fetch - processPackages [appwrite]: executing diffoscope
+[2024-05-24 04:06:43] INFO root fetch - processPackages [appwrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appwrite-5.0.1.tar.gz tmp/appwrite-5.0.2.tar.gz --markdown 20240524/a/appwrite/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ferfereh]: Downloading https://files.pythonhosted.org/packages/a2/1b/c5dc70dc4c88e6748fc6e328885ef47beee82356adc2654747b393a588f0/ferfereh-1.126.1.tar.gz
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ferfereh]: executing diffoscope
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ferfereh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferfereh-1.125.1.tar.gz tmp/ferfereh-1.126.1.tar.gz --markdown 20240524/f/ferfereh/1.125.1-1.126.1/README.md --exclude *.pyd
+[2024-05-24 04:06:44] INFO root fetch - processPackages [st-diff-viewer]: executing diffoscope
+[2024-05-24 04:06:44] INFO root fetch - processPackages [st-diff-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_diff_viewer-1.0.3.tar.gz tmp/st_diff_viewer-1.0.4.tar.gz --markdown 20240524/s/st-diff-viewer/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph_utils-0.0.8.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ph-utils]: Remove: archive file [/home/abi/fetcher/tmp/ph_utils-0.0.9.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - main [MainThread]: End processing [ph-utils]: success
+[2024-05-24 04:06:44] INFO root fetch - processPackages [appwrite]: Remove: archive file [/home/abi/fetcher/tmp/appwrite-5.0.1.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - processPackages [appwrite]: Remove: archive file [/home/abi/fetcher/tmp/appwrite-5.0.2.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - main [MainThread]: End processing [appwrite]: success
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.125.1.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - processPackages [ferfereh]: Remove: archive file [/home/abi/fetcher/tmp/ferfereh-1.126.1.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - main [MainThread]: End processing [ferfereh]: success
+[2024-05-24 04:06:44] INFO root fetch - processPackages [st-diff-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_diff_viewer-1.0.3.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - processPackages [st-diff-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_diff_viewer-1.0.4.tar.gz]
+[2024-05-24 04:06:44] INFO root fetch - main [MainThread]: End processing [st-diff-viewer]: success
+[2024-05-24 04:06:44] INFO root fetch - main [MainThread]: Store serial: [23355450]
