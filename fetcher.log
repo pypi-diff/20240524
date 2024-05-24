@@ -11315,3 +11315,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:17:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-24 07:17:51] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-24 07:17:51] INFO root fetch - main [MainThread]: Store serial: [23356690]
+[2024-05-24 07:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356690]
+[2024-05-24 07:19:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzjr
+[2024-05-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osv
+[2024-05-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shift-forex-tester-data
+[2024-05-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freedom-pay-package
+[2024-05-24 07:19:59] INFO root fetch - processPackages [pyzjr]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-24 07:19:59] INFO root fetch - processPackages [shift-forex-tester-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 07:19:59] WARNING root fetch - processPackages [freedom-pay-package]: Skipping, unable to determine old version
+[2024-05-24 07:19:59] INFO root fetch - main [MainThread]: End processing [freedom-pay-package] error
+[2024-05-24 07:19:59] INFO root fetch - processPackages [osv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 07:20:00] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/29/60/cfeb3bf7ca8f001309c206aac8f7cb3b156f1f8713b38ce55c15ec46f521/pyzjr-1.3.8.tar.gz
+[2024-05-24 07:20:00] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/e6/0e/b997962672359521fee3cb2a61323f6ddeb5ee468ba4424c0fdcc5091084/shift_forex_tester_data-0.1.0-py3-none-any.whl
+[2024-05-24 07:20:00] INFO root fetch - processPackages [osv]: Downloading https://files.pythonhosted.org/packages/19/1b/6ce941f038a01b692ed9940cf1ca4144fae61b7af4edb90631acc5217018/osv-0.0.8.tar.gz
+[2024-05-24 07:20:00] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/6a/6e/ce2da8e28977bc63f6931371633505468bac8cb95ac1d896301ee9310bce/pyzjr-1.3.9.tar.gz
+[2024-05-24 07:20:00] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/25/c7/1667f48ef1acf49d1e9468539d7f5ab8b28344f56c83b005b04e5859b6f3/shift_forex_tester_data-0.1.1-py3-none-any.whl
+[2024-05-24 07:20:00] INFO root fetch - processPackages [osv]: Downloading https://files.pythonhosted.org/packages/8e/5a/ac8bcb322f8e087cfed289efcd8737980550aa661b3e027c712555d7261b/osv-0.0.9.tar.gz
+[2024-05-24 07:20:00] INFO root fetch - processPackages [shift-forex-tester-data]: executing diffoscope
+[2024-05-24 07:20:00] INFO root fetch - processPackages [shift-forex-tester-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shift_forex_tester_data-0.1.0-py3-none-any.whl.zip tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip --markdown 20240524/s/shift-forex-tester-data/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 07:20:00] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2024-05-24 07:20:00] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-1.3.8.tar.gz tmp/pyzjr-1.3.9.tar.gz --markdown 20240524/p/pyzjr/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-24 07:20:00] INFO root fetch - processPackages [osv]: executing diffoscope
+[2024-05-24 07:20:00] INFO root fetch - processPackages [osv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osv-0.0.8.tar.gz tmp/osv-0.0.9.tar.gz --markdown 20240524/o/osv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 07:20:01] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.0-py3-none-any.whl.zip]
+[2024-05-24 07:20:01] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip]
+[2024-05-24 07:20:01] INFO root fetch - main [MainThread]: End processing [shift-forex-tester-data]: success
+[2024-05-24 07:20:01] INFO root fetch - processPackages [osv]: Remove: archive file [/home/abi/fetcher/tmp/osv-0.0.8.tar.gz]
+[2024-05-24 07:20:01] INFO root fetch - processPackages [osv]: Remove: archive file [/home/abi/fetcher/tmp/osv-0.0.9.tar.gz]
+[2024-05-24 07:20:01] INFO root fetch - main [MainThread]: End processing [osv]: success
+[2024-05-24 07:20:01] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.8.tar.gz]
+[2024-05-24 07:20:01] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.9.tar.gz]
+[2024-05-24 07:20:01] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2024-05-24 07:20:01] INFO root fetch - main [MainThread]: Store serial: [23356701]
