@@ -3045,3 +3045,45 @@
 [2024-05-24 02:50:43] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1716509390.tar.gz]
 [2024-05-24 02:50:43] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
 [2024-05-24 02:50:43] INFO root fetch - main [MainThread]: Store serial: [23353746]
+[2024-05-24 02:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353746]
+[2024-05-24 02:52:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 02:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-05-24 02:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2024-05-24 02:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logix-ai
+[2024-05-24 02:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-libvirt
+[2024-05-24 02:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-24 02:52:51] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-24 02:52:51] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-24 02:52:51] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-24 02:52:51] WARNING root fetch - processPackages [logix-ai]: Skipping, unable to determine old version
+[2024-05-24 02:52:51] INFO root fetch - main [MainThread]: End processing [logix-ai] error
+[2024-05-24 02:52:51] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-24 02:52:51] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-24 02:52:51] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1716509922] Old Version: [0.5.0a1715930075]
+[2024-05-24 02:52:51] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-24 02:52:51] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-24 02:52:51] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/c5/50/9c7406216dad00316e28ab2d17bb9903e9868d0013c0992378b686dae05d/pulumi_libvirt-0.5.0a1715930075.tar.gz
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-24 02:52:52] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-24 02:52:52] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240524/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240524/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-24 02:52:52] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/bb/be/3b464e179f527311e3a1335fa5c201f0467517fbed912137a1657ade8ec2/pulumi_libvirt-0.5.0a1716509922.tar.gz
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-24 02:52:52] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-24 02:52:52] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715930075.tar.gz tmp/pulumi_libvirt-0.5.0a1716509922.tar.gz --markdown 20240524/p/pulumi-libvirt/0.5.0a1715930075-0.5.0a1716509922/README.md --exclude *.pyd
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-24 02:52:52] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-24 02:52:52] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240524/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-24 02:52:53] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715930075.tar.gz]
+[2024-05-24 02:52:53] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1716509922.tar.gz]
+[2024-05-24 02:52:53] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-24 02:52:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-24 02:52:53] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-24 02:52:53] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-24 02:53:11] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-24 02:53:11] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-24 02:53:11] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-24 02:53:11] INFO root fetch - main [MainThread]: Store serial: [23353773]
