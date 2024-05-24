@@ -10914,3 +10914,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:51:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-24 06:51:41] INFO root fetch - main [MainThread]: Store serial: [23356554]
+[2024-05-24 06:53:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356554]
+[2024-05-24 06:53:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 06:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zopyx-fastapi-auth
+[2024-05-24 06:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit_pandera
+[2024-05-24 06:53:50] INFO root fetch - processPackages [streamlit_pandera]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 06:53:50] INFO root fetch - processPackages [zopyx-fastapi-auth]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 06:53:50] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/1f/f8/82c5bcb95c2cd8b141240ffa0415f0132366b76a0bf124e8b78cb9d12bcc/zopyx_fastapi_auth-0.2.0.tar.gz
+[2024-05-24 06:53:50] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/7f/1f/4072b6c6bda7f5a49d52c8a3534f9e17e32009ded02aec8399b96d36afbf/streamlit_pandera-0.1.3.tar.gz
+[2024-05-24 06:53:51] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/c6/ed/8f51f14fab11826f3667ce278ad37e8d3e39a5b56688b65a00205169c0ac/streamlit_pandera-0.1.4.tar.gz
+[2024-05-24 06:53:51] INFO root fetch - processPackages [streamlit_pandera]: executing diffoscope
+[2024-05-24 06:53:51] INFO root fetch - processPackages [streamlit_pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pandera-0.1.3.tar.gz tmp/streamlit_pandera-0.1.4.tar.gz --markdown 20240524/s/streamlit_pandera/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 06:53:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/55/2a/1865aab183107d7de75b6791ba289063ac45ae03cef56f6583ffab476a0c/zopyx_fastapi_auth-0.2.1.tar.gz
+[2024-05-24 06:53:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: executing diffoscope
+[2024-05-24 06:53:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zopyx_fastapi_auth-0.2.0.tar.gz tmp/zopyx_fastapi_auth-0.2.1.tar.gz --markdown 20240524/z/zopyx-fastapi-auth/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 06:53:51] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.3.tar.gz]
+[2024-05-24 06:53:51] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.4.tar.gz]
+[2024-05-24 06:53:51] INFO root fetch - main [MainThread]: End processing [streamlit_pandera]: success
+[2024-05-24 06:53:52] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.0.tar.gz]
+[2024-05-24 06:53:52] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.1.tar.gz]
+[2024-05-24 06:53:52] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
+[2024-05-24 06:53:52] INFO root fetch - main [MainThread]: Store serial: [23356559]
