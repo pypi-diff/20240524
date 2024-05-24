@@ -20726,3 +20726,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:06:07] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
 [2024-05-24 13:06:07] INFO root fetch - main [MainThread]: End processing [langroid]: success
 [2024-05-24 13:06:07] INFO root fetch - main [MainThread]: Store serial: [23360789]
+[2024-05-24 13:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360789]
+[2024-05-24 13:08:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 13:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleanerPandasVol
+[2024-05-24 13:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lavague-contexts-openai
+[2024-05-24 13:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybluecurrent
+[2024-05-24 13:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: femio
+[2024-05-24 13:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-grid
+[2024-05-24 13:08:16] INFO root fetch - processPackages [cleanerPandasVol]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-24 13:08:16] INFO root fetch - processPackages [lavague-contexts-openai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 13:08:16] INFO root fetch - processPackages [pybluecurrent]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 13:08:16] INFO root fetch - processPackages [femio]: New version: [0.3.3.dev202405241107] Old Version: [0.3.3.dev202311300634]
+[2024-05-24 13:08:16] INFO root fetch - processPackages [fast-grid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 13:08:16] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/2a/3f/91d026dc26dcbd072121037bbd12e70fb889bc002a91a227ce9ff7c771d1/cleanerpandasvol-0.1.4.tar.gz
+[2024-05-24 13:08:16] INFO root fetch - processPackages [pybluecurrent]: Downloading https://files.pythonhosted.org/packages/fd/67/09137b9dc3968e8ad32df25c90defa73f99981521824d09007565a7ea7d1/pybluecurrent-0.0.2.tar.gz
+[2024-05-24 13:08:16] INFO root fetch - processPackages [lavague-contexts-openai]: Downloading https://files.pythonhosted.org/packages/fe/e1/b9dbee6084a1e535dd181d0cb8907bc21601c5154fe56c1e018b4b6b9750/lavague_contexts_openai-0.1.2.tar.gz
+[2024-05-24 13:08:16] INFO root fetch - processPackages [fast-grid]: Downloading https://files.pythonhosted.org/packages/eb/20/f943c67af97b844ce934142ccc42675743601f83b0068aaa1667da47d8c7/fast_grid-0.1.8-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+[2024-05-24 13:08:16] INFO root fetch - processPackages [femio]: Downloading https://files.pythonhosted.org/packages/a7/85/3defc49fd619ce4a262a00a5398ccf8391c88416c04abe35b1c8d9db23ef/femio-0.3.3.dev202311300634-py3-none-any.whl
+[2024-05-24 13:08:17] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/15/d3/9042f50d5fef8e4f0cca2dfaae722e2977048555f6e61fce84cb273f6b28/cleanerpandasvol-0.2.0.tar.gz
+[2024-05-24 13:08:17] INFO root fetch - processPackages [pybluecurrent]: Downloading https://files.pythonhosted.org/packages/2b/bb/395b79659afce6b9d827a15827d1761d02e4faf7f6bdb284f5e14b755ec2/pybluecurrent-0.0.3.tar.gz
+[2024-05-24 13:08:17] INFO root fetch - processPackages [lavague-contexts-openai]: Downloading https://files.pythonhosted.org/packages/a7/66/02a419d19d1d84ba8a70e366630df82ea9450a6acf5f8492ab77ddf42524/lavague_contexts_openai-0.1.3.tar.gz
+[2024-05-24 13:08:17] INFO root fetch - processPackages [fast-grid]: Downloading https://files.pythonhosted.org/packages/8d/3f/b887da1a73fd6deec31d057e62846f1cf8f7463b7b8093d5bc821383406c/fast_grid-0.1.9-py3-none-any.whl
+[2024-05-24 13:08:17] INFO root fetch - processPackages [cleanerPandasVol]: executing diffoscope
+[2024-05-24 13:08:17] INFO root fetch - processPackages [cleanerPandasVol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanerpandasvol-0.1.4.tar.gz tmp/cleanerpandasvol-0.2.0.tar.gz --markdown 20240524/c/cleanerPandasVol/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-24 13:08:17] INFO root fetch - processPackages [pybluecurrent]: executing diffoscope
+[2024-05-24 13:08:17] INFO root fetch - processPackages [pybluecurrent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybluecurrent-0.0.2.tar.gz tmp/pybluecurrent-0.0.3.tar.gz --markdown 20240524/p/pybluecurrent/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 13:08:17] INFO root fetch - processPackages [lavague-contexts-openai]: executing diffoscope
+[2024-05-24 13:08:17] INFO root fetch - processPackages [lavague-contexts-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_contexts_openai-0.1.2.tar.gz tmp/lavague_contexts_openai-0.1.3.tar.gz --markdown 20240524/l/lavague-contexts-openai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 13:08:17] INFO root fetch - processPackages [femio]: Downloading https://files.pythonhosted.org/packages/cd/35/a6f179fe43ad308987e3abb37ccc22ed8dba19b484a6ab3226eef7932a01/femio-0.3.3.dev202405241107-py3-none-any.whl
+[2024-05-24 13:08:17] INFO root fetch - processPackages [fast-grid]: executing diffoscope
+[2024-05-24 13:08:17] INFO root fetch - processPackages [fast-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_grid-0.1.8-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip tmp/fast_grid-0.1.9-py3-none-any.whl.zip --markdown 20240524/f/fast-grid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 13:08:17] INFO root fetch - processPackages [femio]: executing diffoscope
+[2024-05-24 13:08:17] INFO root fetch - processPackages [femio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femio-0.3.3.dev202311300634-py3-none-any.whl.zip tmp/femio-0.3.3.dev202405241107-py3-none-any.whl.zip --markdown 20240524/f/femio/0.3.3.dev202311300634-0.3.3.dev202405241107/README.md --exclude *.pyd
+[2024-05-24 13:08:17] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.1.4.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.2.0.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - main [MainThread]: End processing [cleanerPandasVol]: success
+[2024-05-24 13:08:17] INFO root fetch - processPackages [lavague-contexts-openai]: Remove: archive file [/home/abi/fetcher/tmp/lavague_contexts_openai-0.1.2.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - processPackages [lavague-contexts-openai]: Remove: archive file [/home/abi/fetcher/tmp/lavague_contexts_openai-0.1.3.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - main [MainThread]: End processing [lavague-contexts-openai]: success
+[2024-05-24 13:08:17] INFO root fetch - processPackages [pybluecurrent]: Remove: archive file [/home/abi/fetcher/tmp/pybluecurrent-0.0.2.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - processPackages [pybluecurrent]: Remove: archive file [/home/abi/fetcher/tmp/pybluecurrent-0.0.3.tar.gz]
+[2024-05-24 13:08:17] INFO root fetch - main [MainThread]: End processing [pybluecurrent]: success
+[2024-05-24 13:08:17] INFO root fetch - processPackages [fast-grid]: Remove: archive file [/home/abi/fetcher/tmp/fast_grid-0.1.8-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl.zip]
+[2024-05-24 13:08:17] INFO root fetch - processPackages [fast-grid]: Remove: archive file [/home/abi/fetcher/tmp/fast_grid-0.1.9-py3-none-any.whl.zip]
+[2024-05-24 13:08:17] INFO root fetch - main [MainThread]: End processing [fast-grid]: success
+[2024-05-24 13:08:18] INFO root fetch - processPackages [femio]: Remove: archive file [/home/abi/fetcher/tmp/femio-0.3.3.dev202311300634-py3-none-any.whl.zip]
+[2024-05-24 13:08:18] INFO root fetch - processPackages [femio]: Remove: archive file [/home/abi/fetcher/tmp/femio-0.3.3.dev202405241107-py3-none-any.whl.zip]
+[2024-05-24 13:08:18] INFO root fetch - main [MainThread]: End processing [femio]: success
+[2024-05-24 13:08:18] INFO root fetch - main [MainThread]: Store serial: [23360803]
