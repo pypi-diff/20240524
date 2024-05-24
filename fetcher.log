@@ -8391,3 +8391,35 @@
 [2024-05-24 04:44:14] INFO root fetch - processPackages [wuthery-l10n]: Remove: archive file [/home/abi/fetcher/tmp/wuthery_l10n-0.2.0.tar.gz]
 [2024-05-24 04:44:14] INFO root fetch - main [MainThread]: End processing [wuthery-l10n]: success
 [2024-05-24 04:44:14] INFO root fetch - main [MainThread]: Store serial: [23355679]
+[2024-05-24 04:46:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355679]
+[2024-05-24 04:46:22] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 04:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355679]
+[2024-05-24 04:48:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 04:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-ui-python-types
+[2024-05-24 04:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-live
+[2024-05-24 04:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FRScraper
+[2024-05-24 04:48:28] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 04:48:28] INFO root fetch - processPackages [FRScraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 04:48:28] INFO root fetch - processPackages [aliyun-python-sdk-live]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-05-24 04:48:28] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-24 04:48:28] INFO root fetch - processPackages [FRScraper]: Downloading https://files.pythonhosted.org/packages/cd/b6/9d0a07822d110ae6d7f9ddd5aa88446ba9a964c1df02645aa499a60162ab/frscraper-0.1.0.tar.gz
+[2024-05-24 04:48:28] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/31/65/4f6a896045410caad0fb1072937d98a415358d05f026fcc623fc7b574676/aliyun-python-sdk-live-3.9.8.tar.gz
+[2024-05-24 04:48:28] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-24 04:48:29] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-24 04:48:29] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240524/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 04:48:29] INFO root fetch - processPackages [FRScraper]: Downloading https://files.pythonhosted.org/packages/5f/4a/2d2ff1fd8eed8a7cd9f38da21f9027c4482b6becbb35203e23886dab6ad4/frscraper-0.1.1.tar.gz
+[2024-05-24 04:48:29] INFO root fetch - processPackages [FRScraper]: executing diffoscope
+[2024-05-24 04:48:29] INFO root fetch - processPackages [FRScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frscraper-0.1.0.tar.gz tmp/frscraper-0.1.1.tar.gz --markdown 20240524/F/FRScraper/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 04:48:29] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/c9/c2/cab5cf2ebd2f262d29f54860eed7fac4412fa50e6388b0053c4dd76ae3ad/aliyun-python-sdk-live-3.9.9.tar.gz
+[2024-05-24 04:48:29] INFO root fetch - processPackages [aliyun-python-sdk-live]: executing diffoscope
+[2024-05-24 04:48:29] INFO root fetch - processPackages [aliyun-python-sdk-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-live-3.9.8.tar.gz tmp/aliyun-python-sdk-live-3.9.9.tar.gz --markdown 20240524/a/aliyun-python-sdk-live/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-05-24 04:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-24 04:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-24 04:48:29] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-24 04:48:29] INFO root fetch - processPackages [FRScraper]: Remove: archive file [/home/abi/fetcher/tmp/frscraper-0.1.0.tar.gz]
+[2024-05-24 04:48:29] INFO root fetch - processPackages [FRScraper]: Remove: archive file [/home/abi/fetcher/tmp/frscraper-0.1.1.tar.gz]
+[2024-05-24 04:48:29] INFO root fetch - main [MainThread]: End processing [FRScraper]: success
+[2024-05-24 04:48:30] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.8.tar.gz]
+[2024-05-24 04:48:30] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.9.tar.gz]
+[2024-05-24 04:48:30] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-live]: success
+[2024-05-24 04:48:30] INFO root fetch - main [MainThread]: Store serial: [23355688]
