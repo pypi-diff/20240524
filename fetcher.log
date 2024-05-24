@@ -9823,3 +9823,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 05:59:42] WARNING root fetch - processPackages [assessment-episode-matcher]: Skipping, unable to determine old version
 [2024-05-24 05:59:42] INFO root fetch - main [MainThread]: End processing [assessment-episode-matcher] error
 [2024-05-24 05:59:42] INFO root fetch - main [MainThread]: Store serial: [23356123]
+[2024-05-24 06:01:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356123]
+[2024-05-24 06:01:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: objective-sdk
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objective-sdk
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: objective-sdk
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parzenpy
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-buffer-sales-analysis
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mathrixpy
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-05-24 06:01:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cadprox
+[2024-05-24 06:01:51] WARNING root fetch - processPackages [cadprox]: Skipping, unable to determine old version
+[2024-05-24 06:01:51] INFO root fetch - main [MainThread]: End processing [cadprox] error
+[2024-05-24 06:01:51] WARNING root fetch - processPackages [parzenpy]: Skipping, unable to determine old version
+[2024-05-24 06:01:51] INFO root fetch - main [MainThread]: End processing [parzenpy] error
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-24 06:01:51] WARNING root fetch - processPackages [mathrixpy]: Skipping, unable to determine old version
+[2024-05-24 06:01:51] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-24 06:01:51] INFO root fetch - main [MainThread]: End processing [mathrixpy] error
+[2024-05-24 06:01:51] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.3.0.1] Old Version: [16.0.1.3.0]
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/6cada598c6d02eec284a335615a4a1dc99f49020316adc13f09b911b96ef/objective_sdk-4.0.6.tar.gz
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/6cada598c6d02eec284a335615a4a1dc99f49020316adc13f09b911b96ef/objective_sdk-4.0.6.tar.gz
+[2024-05-24 06:01:51] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/6cada598c6d02eec284a335615a4a1dc99f49020316adc13f09b911b96ef/objective_sdk-4.0.6.tar.gz
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: Downloading https://files.pythonhosted.org/packages/1f/7b/68747d94795be3301f370dfa95b4fb052735ae9d67eecc001c95cad8a49a/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/dc/45/0a235f9cca74a4bd00c5f29ee5dbf6ca56169bc729321692d104c5843151/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/13/bb/35528c32ae6f51737d0f9a3d70a0acd1559e8d742d4e36be52af5179f37f/objective_sdk-4.0.7.tar.gz
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/13/bb/35528c32ae6f51737d0f9a3d70a0acd1559e8d742d4e36be52af5179f37f/objective_sdk-4.0.7.tar.gz
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: Downloading https://files.pythonhosted.org/packages/13/bb/35528c32ae6f51737d0f9a3d70a0acd1559e8d742d4e36be52af5179f37f/objective_sdk-4.0.7.tar.gz
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/e7/cd/8b41cc30811a2de6ee29329d53446584e31ca329fbafb005fc64cd68fa91/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: executing diffoscope
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objective_sdk-4.0.6.tar.gz tmp/objective_sdk-4.0.7.tar.gz --markdown 20240524/o/objective-sdk/4.0.6-4.0.7/README.md --exclude *.pyd
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: executing diffoscope
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objective_sdk-4.0.6.tar.gz tmp/objective_sdk-4.0.7.tar.gz --markdown 20240524/o/objective-sdk/4.0.6-4.0.7/README.md --exclude *.pyd
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: Downloading https://files.pythonhosted.org/packages/55/5a/76309e724576f8d883a9d779a11ca8fe0bfbf220022c2f507f3ab0d7aa49/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: executing diffoscope
+[2024-05-24 06:01:52] INFO root fetch - processPackages [objective-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objective_sdk-4.0.6.tar.gz tmp/objective_sdk-4.0.7.tar.gz --markdown 20240524/o/objective-sdk/4.0.6-4.0.7/README.md --exclude *.pyd
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.3.0-16.0.1.3.0.1/README.md --exclude *.pyd
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: executing diffoscope
+[2024-05-24 06:01:52] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-buffer-sales-analysis/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-24 06:01:53] INFO root fetch - processPackages [objective-sdk]: Remove: archive file [/home/abi/fetcher/tmp/objective_sdk-4.0.6.tar.gz]
+[2024-05-24 06:01:53] INFO root fetch - processPackages [objective-sdk]: Remove: archive file [/home/abi/fetcher/tmp/objective_sdk-4.0.7.tar.gz]
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [objective-sdk]: success
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [objective-sdk]: success
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [objective-sdk]: success
+[2024-05-24 06:01:53] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-24 06:01:53] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-05-24 06:01:53] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 06:01:53] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-buffer-sales-analysis]: success
+[2024-05-24 06:01:53] INFO root fetch - main [MainThread]: Store serial: [23356148]
