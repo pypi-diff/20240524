@@ -20900,3 +20900,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:12:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post542-py3-none-any.whl.zip]
 [2024-05-24 13:12:41] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-24 13:12:41] INFO root fetch - main [MainThread]: Store serial: [23360837]
+[2024-05-24 13:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360837]
+[2024-05-24 13:14:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucleofind
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cornsnake
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypugjs
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openagi
+[2024-05-24 13:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metasdk
+[2024-05-24 13:14:50] INFO root fetch - processPackages [cornsnake]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [cornsnake]: Downloading https://files.pythonhosted.org/packages/37/d3/da98adf156a10c9be5a0df884d31353b9206685170d04247770e40286bfc/cornsnake-0.0.8.tar.gz
+[2024-05-24 13:14:50] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240524] Old Version: [2.5.0b20240523]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [pypugjs]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [nucleofind]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [openagi]: New version: [0.2.1b2] Old Version: [0.2.0b2]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [metasdk]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-24 13:14:50] INFO root fetch - processPackages [cornsnake]: Downloading https://files.pythonhosted.org/packages/b8/3f/a5334cd8a36a0c8234efdf0d9d77296d6037ec10c538a7785aa9e7853913/cornsnake-0.0.9.tar.gz
+[2024-05-24 13:14:50] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/bd/f7/da1c1ed824a1d95a48d5078dbc47c583e8d0207a7d14938500c9de04ac79/bigdl_core_cpp-2.5.0b20240523-py3-none-win_amd64.whl
+[2024-05-24 13:14:50] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/7e/ae/4d402047ae8cc1bca3a37a8f6b3b5fd483e43741c15c5a5f0427d07ffb6b/openagi-0.2.0b2.tar.gz
+[2024-05-24 13:14:50] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/bc/9e/282e15a4c2e383ea8f7910575eba99c7c61fed857f633605fa48569bcf82/pypugjs-5.9.8.tar.gz
+[2024-05-24 13:14:50] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/86/52/371ab472a5ace77fc1f012366cb20c5d660c5926f9d0c23d3eb1642ace0a/metasdk-1.7.8.tar.gz
+[2024-05-24 13:14:50] INFO root fetch - processPackages [nucleofind]: Downloading https://files.pythonhosted.org/packages/89/0a/1cc3bcb08274a7c2e983c811c6fcfa0003ab7707d5252f15c6cf16dc2522/nucleofind-0.5.6-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-05-24 13:14:50] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33500914>=10485760
+[2024-05-24 13:14:50] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-24 13:14:50] INFO root fetch - processPackages [cornsnake]: executing diffoscope
+[2024-05-24 13:14:50] INFO root fetch - processPackages [cornsnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornsnake-0.0.8.tar.gz tmp/cornsnake-0.0.9.tar.gz --markdown 20240524/c/cornsnake/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:14:51] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-24 13:14:51] INFO root fetch - processPackages [openagi]: Downloading https://files.pythonhosted.org/packages/97/b4/afcefa1ece6d94ed1c346b51997489077902a0065f334db77f549c6c9131/openagi-0.2.1b2.tar.gz
+[2024-05-24 13:14:51] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/ba/f1/f73d7982ebf18cb164dceb1ee34eb29a449e27b0f029354a16762d5a4ba2/pypugjs-5.9.9.tar.gz
+[2024-05-24 13:14:51] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/0d/fa/692ac652414508153350aa3d3984f43cfbfb7c26a31af4e643d142d6eaaa/metasdk-1.7.9.tar.gz
+[2024-05-24 13:14:51] INFO root fetch - processPackages [pypugjs]: executing diffoscope
+[2024-05-24 13:14:51] INFO root fetch - processPackages [pypugjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypugjs-5.9.8.tar.gz tmp/pypugjs-5.9.9.tar.gz --markdown 20240524/p/pypugjs/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-24 13:14:51] INFO root fetch - processPackages [metasdk]: executing diffoscope
+[2024-05-24 13:14:51] INFO root fetch - processPackages [metasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasdk-1.7.8.tar.gz tmp/metasdk-1.7.9.tar.gz --markdown 20240524/m/metasdk/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-24 13:14:51] INFO root fetch - processPackages [openagi]: executing diffoscope
+[2024-05-24 13:14:51] INFO root fetch - processPackages [openagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagi-0.2.0b2.tar.gz tmp/openagi-0.2.1b2.tar.gz --markdown 20240524/o/openagi/0.2.0b2-0.2.1b2/README.md --exclude *.pyd
+[2024-05-24 13:14:51] INFO root fetch - processPackages [cornsnake]: Remove: archive file [/home/abi/fetcher/tmp/cornsnake-0.0.8.tar.gz]
+[2024-05-24 13:14:51] INFO root fetch - processPackages [cornsnake]: Remove: archive file [/home/abi/fetcher/tmp/cornsnake-0.0.9.tar.gz]
+[2024-05-24 13:14:51] INFO root fetch - main [MainThread]: End processing [cornsnake]: success
+[2024-05-24 13:14:52] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.8.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.9.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - main [MainThread]: End processing [pypugjs]: success
+[2024-05-24 13:14:52] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-24 13:14:52] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.8.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.9.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - main [MainThread]: End processing [metasdk]: success
+[2024-05-24 13:14:52] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.2.0b2.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - processPackages [openagi]: Remove: archive file [/home/abi/fetcher/tmp/openagi-0.2.1b2.tar.gz]
+[2024-05-24 13:14:52] INFO root fetch - main [MainThread]: End processing [openagi]: success
+[2024-05-24 13:14:52] INFO root fetch - processPackages [nucleofind]: Downloading https://files.pythonhosted.org/packages/53/e1/49abe62d1e18468a9a42aeb40ffb6444382b37e685bf9694c0c8a4f8ab78/nucleofind-0.6.0-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-05-24 13:14:52] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-24 13:14:52] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240524/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-24 13:14:53] INFO root fetch - processPackages [nucleofind]: executing diffoscope
+[2024-05-24 13:14:53] INFO root fetch - processPackages [nucleofind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleofind-0.5.6-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/nucleofind-0.6.0-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20240524/n/nucleofind/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-24 13:14:53] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-24 13:14:53] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-24 13:14:53] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-24 13:15:09] INFO root fetch - processPackages [nucleofind]: Remove: archive file [/home/abi/fetcher/tmp/nucleofind-0.5.6-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-05-24 13:15:09] INFO root fetch - processPackages [nucleofind]: Remove: archive file [/home/abi/fetcher/tmp/nucleofind-0.6.0-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-05-24 13:15:09] INFO root fetch - main [MainThread]: End processing [nucleofind]: success
+[2024-05-24 13:15:09] INFO root fetch - main [MainThread]: Store serial: [23360874]
