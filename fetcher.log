@@ -13485,3 +13485,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:04:38] INFO root fetch - processPackages [pyubx2]: Remove: archive file [/home/abi/fetcher/tmp/pyubx2-1.2.9.tar.gz]
 [2024-05-24 09:04:38] INFO root fetch - main [MainThread]: End processing [pyubx2]: success
 [2024-05-24 09:04:38] INFO root fetch - main [MainThread]: Store serial: [23357722]
+[2024-05-24 09:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357722]
+[2024-05-24 09:06:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 09:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CosinorPy
+[2024-05-24 09:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cadproxdk
+[2024-05-24 09:06:47] INFO root fetch - processPackages [cadproxdk]: New version: [1.7] Old Version: [1.6]
+[2024-05-24 09:06:47] INFO root fetch - processPackages [CosinorPy]: New version: [3.1] Old Version: [3.0]
+[2024-05-24 09:06:47] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/ab/28/d1abde913b30ca0c9dc0e236969cd319642615f635061bf815fcf7a3673e/cadproxdk-1.6.tar.gz
+[2024-05-24 09:06:47] INFO root fetch - processPackages [CosinorPy]: Downloading https://files.pythonhosted.org/packages/7d/bf/1583da7f3793bb1a4fdb5771099c152606ae7f9e306f6b1c882708250c67/CosinorPy-3.0.tar.gz
+[2024-05-24 09:06:47] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/a5/a3/866519fc575e0adb58e6e2689a603b02fb9a4f18f29041972c10c450c6e8/cadproxdk-1.7.tar.gz
+[2024-05-24 09:06:47] INFO root fetch - processPackages [CosinorPy]: Downloading https://files.pythonhosted.org/packages/00/55/304001018302cb771c440ac6c10f6dbcb0b0323db8e415883f7e3d65fce0/CosinorPy-3.1.tar.gz
+[2024-05-24 09:06:47] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:06:47] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-1.6.tar.gz tmp/cadproxdk-1.7.tar.gz --markdown 20240524/c/cadproxdk/1.6-1.7/README.md --exclude *.pyd
+[2024-05-24 09:06:47] INFO root fetch - processPackages [CosinorPy]: executing diffoscope
+[2024-05-24 09:06:47] INFO root fetch - processPackages [CosinorPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosinorPy-3.0.tar.gz tmp/CosinorPy-3.1.tar.gz --markdown 20240524/C/CosinorPy/3.0-3.1/README.md --exclude *.pyd
+[2024-05-24 09:06:48] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-1.6.tar.gz]
+[2024-05-24 09:06:48] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-1.7.tar.gz]
+[2024-05-24 09:06:48] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:06:48] INFO root fetch - processPackages [CosinorPy]: Remove: archive file [/home/abi/fetcher/tmp/CosinorPy-3.0.tar.gz]
+[2024-05-24 09:06:48] INFO root fetch - processPackages [CosinorPy]: Remove: archive file [/home/abi/fetcher/tmp/CosinorPy-3.1.tar.gz]
+[2024-05-24 09:06:48] INFO root fetch - main [MainThread]: End processing [CosinorPy]: success
+[2024-05-24 09:06:48] INFO root fetch - main [MainThread]: Store serial: [23357731]
