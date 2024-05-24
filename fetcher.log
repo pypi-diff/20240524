@@ -2748,3 +2748,42 @@
 [2024-05-24 02:33:07] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716508448.tar.gz]
 [2024-05-24 02:33:07] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-05-24 02:33:07] INFO root fetch - main [MainThread]: Store serial: [23353630]
+[2024-05-24 02:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353630]
+[2024-05-24 02:35:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 02:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-24 02:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blaze-double-bot
+[2024-05-24 02:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smithed
+[2024-05-24 02:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfs-estepona
+[2024-05-24 02:35:16] INFO root fetch - processPackages [blaze-double-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 02:35:16] INFO root fetch - processPackages [smithed]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-24 02:35:16] INFO root fetch - processPackages [nfs-estepona]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-24 02:35:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.39.0.dev20240522] Old Version: [1.39.0.dev20240520]
+[2024-05-24 02:35:16] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/0d/7b/dd895e73ab52f7ac63ec026b6c8bebba0f364809f32e2cb32e376c3772b3/blaze_double_bot-0.1.8.tar.gz
+[2024-05-24 02:35:16] INFO root fetch - processPackages [nfs-estepona]: Downloading https://files.pythonhosted.org/packages/1c/00/35d400e8c01f46f0756442e672b9383674676974bd403cf2fa11e80125f7/nfs-estepona-0.2.4.tar.gz
+[2024-05-24 02:35:16] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/e9/7d/1a5f54cab8468dba20c207ef284467d79177898cba00a36609728dc2f024/smithed-0.9.2.tar.gz
+[2024-05-24 02:35:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/1d/50/fd1f7650a80c977f88bec35324641232e2cfea17ceb866ac9095241379ec/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz
+[2024-05-24 02:35:17] INFO root fetch - processPackages [blaze-double-bot]: Downloading https://files.pythonhosted.org/packages/db/7a/54b056f006f9260a30a346af07029fa83ad6b427a21774e2e3552f099952/blaze_double_bot-0.1.9.tar.gz
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/41/d1/24a3494b989fa3b319ea638cc84982b857571ba4c9dbc0492d5f067307bb/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz
+[2024-05-24 02:35:17] INFO root fetch - processPackages [blaze-double-bot]: executing diffoscope
+[2024-05-24 02:35:17] INFO root fetch - processPackages [blaze-double-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaze_double_bot-0.1.8.tar.gz tmp/blaze_double_bot-0.1.9.tar.gz --markdown 20240524/b/blaze-double-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nfs-estepona]: Downloading https://files.pythonhosted.org/packages/c7/ea/b0ebf82248ba7de587545d2860b364c0707a0fada104849dd568b153707d/nfs_estepona-0.3.0.tar.gz
+[2024-05-24 02:35:17] INFO root fetch - processPackages [smithed]: Downloading https://files.pythonhosted.org/packages/6f/e9/2700ac0fe0f36e9a17f9ab5f811bc42783bf3cd588037c2d032e49402455/smithed-0.9.3.tar.gz
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz --markdown 20240524/n/nvidia-dali-tf-plugin-nightly-cuda110/1.39.0.dev20240520-1.39.0.dev20240522/README.md --exclude *.pyd
+[2024-05-24 02:35:17] INFO root fetch - processPackages [smithed]: executing diffoscope
+[2024-05-24 02:35:17] INFO root fetch - processPackages [smithed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed-0.9.2.tar.gz tmp/smithed-0.9.3.tar.gz --markdown 20240524/s/smithed/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nfs-estepona]: executing diffoscope
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nfs-estepona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfs-estepona-0.2.4.tar.gz tmp/nfs_estepona-0.3.0.tar.gz --markdown 20240524/n/nfs-estepona/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-24 02:35:17] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.8.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - processPackages [blaze-double-bot]: Remove: archive file [/home/abi/fetcher/tmp/blaze_double_bot-0.1.9.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - main [MainThread]: End processing [blaze-double-bot]: success
+[2024-05-24 02:35:17] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.2.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - processPackages [smithed]: Remove: archive file [/home/abi/fetcher/tmp/smithed-0.9.3.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - main [MainThread]: End processing [smithed]: success
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nfs-estepona]: Remove: archive file [/home/abi/fetcher/tmp/nfs-estepona-0.2.4.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nfs-estepona]: Remove: archive file [/home/abi/fetcher/tmp/nfs_estepona-0.3.0.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240520.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240522.tar.gz]
+[2024-05-24 02:35:17] INFO root fetch - main [MainThread]: End processing [nfs-estepona]: success
+[2024-05-24 02:35:17] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-24 02:35:17] INFO root fetch - main [MainThread]: Store serial: [23353641]
