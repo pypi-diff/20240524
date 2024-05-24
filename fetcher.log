@@ -13587,3 +13587,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
 [2024-05-24 09:09:00] INFO root fetch - main [MainThread]: Store serial: [23357759]
+[2024-05-24 09:11:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357759]
+[2024-05-24 09:11:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acetone-nnet
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-contracts
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lavague-core
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bsx-sdk-py
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myscale-telemetry
+[2024-05-24 09:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infrable
+[2024-05-24 09:11:09] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 09:11:09] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 09:11:10] INFO root fetch - processPackages [bsx-sdk-py]: New version: [0.0.1b7] Old Version: [0.0.1b6]
+[2024-05-24 09:11:10] INFO root fetch - processPackages [lavague-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 09:11:10] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.1.dev1] Old Version: [0.3]
+[2024-05-24 09:11:10] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/31/b1/e840acbd1f90a39e51cd6057182888f9c98ebe1229054c3a9692a8b7f15f/myscale-telemetry-0.1.1.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [skale-contracts]: New version: [1.0.1a8] Old Version: [1.0.1a7]
+[2024-05-24 09:11:10] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/e4/40/743a6abd535d3a25db893175a9cd0ebee75c115b3a2c4ef9f48a1e9d4d44/lavague_core-0.1.8.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [bsx-sdk-py]: Downloading https://files.pythonhosted.org/packages/54/25/2ebc3c6d279f7d76361d03b41fb681c89d0d7fa81d857815f319ab81ea8a/bsx_sdk_py-0.0.1b6.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/f1/e8/0d70231be4a4f3365d92894f455b8d3d03642d4cca1392fe7c4470f3fe70/acetone_nnet-0.3.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/86/2c/53340d60da383821e2a009e0b3d90ebf5f505a31204cb4ec93bfc264ee9a/skale_contracts-1.0.1a7.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/09/06/07267c7a108e80ea31fe04d8e3a1c8e51435035b4ce7b273584c43d50266/myscale-telemetry-0.1.2.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240524/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 09:11:10] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/78/6c/0343c53ee821f987b0eb0d3977739465b8818124f5e82f0de318c60022a6/lavague_core-0.1.9.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.1.tar.gz tmp/myscale-telemetry-0.1.2.tar.gz --markdown 20240524/m/myscale-telemetry/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 09:11:10] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/ce/ba/f0a5cd8a5797db11dc66eddb4df625848245fec7a0d14b550e3e633cf109/acetone_nnet-0.3.1.dev1.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/5d/1d/c82ddd509ac059b1e7f4e3ed8aaa9f020c48f9de548b145d793825dd8bb1/skale_contracts-1.0.1a8.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [bsx-sdk-py]: Downloading https://files.pythonhosted.org/packages/6f/4f/15f7965330bb1f4548ab57e95952ce67b25b16943d207e7887e9f3f0716d/bsx_sdk_py-0.0.1b7.tar.gz
+[2024-05-24 09:11:10] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.1.8.tar.gz tmp/lavague_core-0.1.9.tar.gz --markdown 20240524/l/lavague-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 09:11:10] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.tar.gz tmp/acetone_nnet-0.3.1.dev1.tar.gz --markdown 20240524/a/acetone-nnet/0.3-0.3.1.dev1/README.md --exclude *.pyd
+[2024-05-24 09:11:10] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale_contracts-1.0.1a7.tar.gz tmp/skale_contracts-1.0.1a8.tar.gz --markdown 20240524/s/skale-contracts/1.0.1a7-1.0.1a8/README.md --exclude *.pyd
+[2024-05-24 09:11:10] INFO root fetch - processPackages [bsx-sdk-py]: executing diffoscope
+[2024-05-24 09:11:10] INFO root fetch - processPackages [bsx-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsx_sdk_py-0.0.1b6.tar.gz tmp/bsx_sdk_py-0.0.1b7.tar.gz --markdown 20240524/b/bsx-sdk-py/0.0.1b6-0.0.1b7/README.md --exclude *.pyd
+[2024-05-24 09:11:11] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-24 09:11:11] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.1.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.2.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-24 09:11:11] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.8.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.1.9.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-05-24 09:11:11] INFO root fetch - processPackages [bsx-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/bsx_sdk_py-0.0.1b6.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - processPackages [bsx-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/bsx_sdk_py-0.0.1b7.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - main [MainThread]: End processing [bsx-sdk-py]: success
+[2024-05-24 09:11:11] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale_contracts-1.0.1a7.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale_contracts-1.0.1a8.tar.gz]
+[2024-05-24 09:11:11] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2024-05-24 09:11:12] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.tar.gz]
+[2024-05-24 09:11:12] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev1.tar.gz]
+[2024-05-24 09:11:12] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-24 09:11:12] INFO root fetch - main [MainThread]: Store serial: [23357779]
