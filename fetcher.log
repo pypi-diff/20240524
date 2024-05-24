@@ -7925,3 +7925,42 @@
 [2024-05-24 04:13:28] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.11.0.tar.gz]
 [2024-05-24 04:13:28] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-05-24 04:13:28] INFO root fetch - main [MainThread]: Store serial: [23355483]
+[2024-05-24 04:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355483]
+[2024-05-24 04:15:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 04:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorpc
+[2024-05-24 04:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rabbitmq
+[2024-05-24 04:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saphira
+[2024-05-24 04:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duckdb_engine
+[2024-05-24 04:15:37] INFO root fetch - processPackages [tensorpc]: New version: [0.11.0] Old Version: [0.10.7]
+[2024-05-24 04:15:37] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1716514397] Old Version: [3.4.0a1715927156]
+[2024-05-24 04:15:37] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/f0/76/3c2905e64e5e293c1aeee0b4fe99758095cf9b0aba39f1e82eca660b8f83/tensorpc-0.10.7.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [saphira]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:15:37] INFO root fetch - processPackages [duckdb_engine]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-24 04:15:37] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/b2/13/ce2de4e13e56658ca163fe9f52a6350570fa51eeeaafd81d1057eb01fd80/pulumi_rabbitmq-3.4.0a1715927156.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [duckdb_engine]: Downloading https://files.pythonhosted.org/packages/c0/58/45ec039d7ee30f4acfa14fd7496e9ed81494e336d456c05f5dc412c5df6f/duckdb_engine-0.9.4.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/04/3d/11762f9339ad58382e5841b94bb5ee832ed064e0ebe72bea583fc79f3407/pulumi_rabbitmq-3.4.0a1716514397.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/74/b3/ab8844d9279d3ff5eb90eb4c778ae29e0621e5c3508b7fc0d2973a1a33a9/saphira-0.0.8.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/c6/98/c76f368285904d8ad82165f44f6fba3d2d0a4b75b0c73e084b7f54199132/tensorpc-0.11.0.tar.gz
+[2024-05-24 04:15:37] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-24 04:15:37] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz tmp/pulumi_rabbitmq-3.4.0a1716514397.tar.gz --markdown 20240524/p/pulumi-rabbitmq/3.4.0a1715927156-3.4.0a1716514397/README.md --exclude *.pyd
+[2024-05-24 04:15:37] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-05-24 04:15:37] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.7.tar.gz tmp/tensorpc-0.11.0.tar.gz --markdown 20240524/t/tensorpc/0.10.7-0.11.0/README.md --exclude *.pyd
+[2024-05-24 04:15:38] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/50/f0/59e39aba8fe4b42005268c4b80a95d687e3a36e5b2ab39337239db796a31/saphira-0.0.9.tar.gz
+[2024-05-24 04:15:38] INFO root fetch - processPackages [saphira]: executing diffoscope
+[2024-05-24 04:15:38] INFO root fetch - processPackages [saphira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saphira-0.0.8.tar.gz tmp/saphira-0.0.9.tar.gz --markdown 20240524/s/saphira/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:15:38] INFO root fetch - processPackages [duckdb_engine]: Downloading https://files.pythonhosted.org/packages/88/e6/96f825b215f7893dcb5cced97d436355f2baab2cddb553187e1be19c8d9a/duckdb_engine-0.9.5.tar.gz
+[2024-05-24 04:15:38] INFO root fetch - processPackages [duckdb_engine]: executing diffoscope
+[2024-05-24 04:15:38] INFO root fetch - processPackages [duckdb_engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb_engine-0.9.4.tar.gz tmp/duckdb_engine-0.9.5.tar.gz --markdown 20240524/d/duckdb_engine/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-24 04:15:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz]
+[2024-05-24 04:15:38] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1716514397.tar.gz]
+[2024-05-24 04:15:38] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-24 04:15:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.8.tar.gz]
+[2024-05-24 04:15:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.9.tar.gz]
+[2024-05-24 04:15:38] INFO root fetch - main [MainThread]: End processing [saphira]: success
+[2024-05-24 04:15:39] INFO root fetch - processPackages [duckdb_engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.4.tar.gz]
+[2024-05-24 04:15:39] INFO root fetch - processPackages [duckdb_engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.5.tar.gz]
+[2024-05-24 04:15:39] INFO root fetch - main [MainThread]: End processing [duckdb_engine]: success
+[2024-05-24 04:15:40] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.7.tar.gz]
+[2024-05-24 04:15:40] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.11.0.tar.gz]
+[2024-05-24 04:15:40] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-05-24 04:15:40] INFO root fetch - main [MainThread]: Store serial: [23355495]
