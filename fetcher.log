@@ -21126,3 +21126,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:17:26] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.1.0.tar.gz]
 [2024-05-24 13:17:26] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2024-05-24 13:17:26] INFO root fetch - main [MainThread]: Store serial: [23360899]
+[2024-05-24 13:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360899]
+[2024-05-24 13:19:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexdoc
+[2024-05-24 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skope-rules-temp
+[2024-05-24 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-hx-yinying
+[2024-05-24 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brainfuck-tool
+[2024-05-24 13:19:35] INFO root fetch - processPackages [skope-rules-temp]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-24 13:19:35] INFO root fetch - processPackages [hexdoc]: New version: [1!0.1.0a9] Old Version: [1!0.1.0a8]
+[2024-05-24 13:19:35] WARNING root fetch - processPackages [brainfuck-tool]: Skipping, unable to determine old version
+[2024-05-24 13:19:35] INFO root fetch - main [MainThread]: End processing [brainfuck-tool] error
+[2024-05-24 13:19:35] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.3.13] Old Version: [1.3.12]
+[2024-05-24 13:19:36] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/02/68/ea7d30c53573330c09d283302f58a36665defe3a7564de7c4486c65f5985/skope_rules_temp-0.2.4.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/24/ef/347faedf14cc83f354f14791830879e765c68bcd93290180dceb99605b8d/nonebot-plugin-hx-yinying-1.3.12.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/41/3c/095a3abe0276460303a7fb44be7549f3b5eeee9ab93e540fe79d34c61915/hexdoc-1!0.1.0a8.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [skope-rules-temp]: Downloading https://files.pythonhosted.org/packages/56/f0/ba87c79dc51fbb9315b00d235485ce804cfac996923dca59d7b596987d5b/skope_rules_temp-0.2.5.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/cf/24/752b44846bd2acefd66889ac049c9da01b113b8b495decaf521ea677307b/nonebot-plugin-hx-yinying-1.3.13.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [skope-rules-temp]: executing diffoscope
+[2024-05-24 13:19:36] INFO root fetch - processPackages [skope-rules-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skope_rules_temp-0.2.4.tar.gz tmp/skope_rules_temp-0.2.5.tar.gz --markdown 20240524/s/skope-rules-temp/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-24 13:19:36] INFO root fetch - processPackages [hexdoc]: Downloading https://files.pythonhosted.org/packages/cd/f8/77bb4fb48d1590fa4afd9345e60063d3975f2401318af826181c3435d518/hexdoc-1!0.1.0a9.tar.gz
+[2024-05-24 13:19:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-05-24 13:19:36] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-1.3.12.tar.gz tmp/nonebot-plugin-hx-yinying-1.3.13.tar.gz --markdown 20240524/n/nonebot-plugin-hx-yinying/1.3.12-1.3.13/README.md --exclude *.pyd
+[2024-05-24 13:19:36] INFO root fetch - processPackages [hexdoc]: executing diffoscope
+[2024-05-24 13:19:36] INFO root fetch - processPackages [hexdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc-1!0.1.0a8.tar.gz tmp/hexdoc-1!0.1.0a9.tar.gz --markdown 20240524/h/hexdoc/1!0.1.0a8-1!0.1.0a9/README.md --exclude *.pyd
+[2024-05-24 13:19:37] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.2.4.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - processPackages [skope-rules-temp]: Remove: archive file [/home/abi/fetcher/tmp/skope_rules_temp-0.2.5.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - main [MainThread]: End processing [skope-rules-temp]: success
+[2024-05-24 13:19:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.3.12.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.3.13.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-05-24 13:19:37] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a8.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
+[2024-05-24 13:19:37] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
+[2024-05-24 13:19:37] INFO root fetch - main [MainThread]: Store serial: [23360917]
