@@ -14176,3 +14176,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:33:03] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
 [2024-05-24 09:33:03] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
 [2024-05-24 09:33:03] INFO root fetch - main [MainThread]: Store serial: [23358012]
+[2024-05-24 09:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358012]
+[2024-05-24 09:35:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-database-cleanup
+[2024-05-24 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynnacle-uno
+[2024-05-24 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelmerge
+[2024-05-24 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-exception
+[2024-05-24 09:35:13] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.4.dev3]
+[2024-05-24 09:35:13] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fc/9b/6a1330491add1a851798a083a416582b88e0b12bda61bbcad6f6e514847c/odoo14_addon_database_cleanup-14.0.1.0.4.dev3-py3-none-any.whl
+[2024-05-24 09:35:13] INFO root fetch - processPackages [pynnacle-uno]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-24 09:35:13] INFO root fetch - processPackages [modelmerge]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-24 09:35:13] INFO root fetch - processPackages [odoo-addon-base-exception]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-05-24 09:35:14] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/23/18/f1ad4dcd3400f1d230e5e93af2170ee25ac0795028e02e651c17c819ea79/pynnacle_uno-1.0.1.tar.gz
+[2024-05-24 09:35:14] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/33/dc/1a4b88191a5ae7c552bc10bcdb5df8ddb70b3db42e6b8d9db24cfbefed31/modelmerge-0.5.8.tar.gz
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/a9/ed/4bc169cb089bebd874787f907e05c6589959bfc70f7983d7119b3baafff0/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/10/48/8c5afab73607a870fe7e90a7fec150e3599aa60266fd7fb97d97cee5a29d/odoo14_addon_database_cleanup-14.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:35:14] INFO root fetch - processPackages [pynnacle-uno]: Downloading https://files.pythonhosted.org/packages/bc/53/cd4dfc26abb11abb2ac98203614c28e061d282b115e778ef1da721757fc9/pynnacle_uno-1.0.2.tar.gz
+[2024-05-24 09:35:14] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/3d/a7/d7db29b3ea081c07060561a16d84f8a6838a160372c853f9d8e0d8e85483/modelmerge-0.5.9.tar.gz
+[2024-05-24 09:35:14] INFO root fetch - processPackages [pynnacle-uno]: executing diffoscope
+[2024-05-24 09:35:14] INFO root fetch - processPackages [pynnacle-uno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynnacle_uno-1.0.1.tar.gz tmp/pynnacle_uno-1.0.2.tar.gz --markdown 20240524/p/pynnacle-uno/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: executing diffoscope
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_database_cleanup-14.0.1.0.4.dev3-py3-none-any.whl.zip tmp/odoo14_addon_database_cleanup-14.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-database-cleanup/14.0.1.0.4.dev3-14.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/42/20/7e8828b31ef8e4956b6f42a9e7aad5ce077a700e36ac29ec577bb4e29c9d/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 09:35:14] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-24 09:35:14] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.8.tar.gz tmp/modelmerge-0.5.9.tar.gz --markdown 20240524/m/modelmerge/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo-addon-base-exception]: executing diffoscope
+[2024-05-24 09:35:14] INFO root fetch - processPackages [odoo-addon-base-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-exception/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-24 09:35:15] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.1.tar.gz]
+[2024-05-24 09:35:15] INFO root fetch - processPackages [pynnacle-uno]: Remove: archive file [/home/abi/fetcher/tmp/pynnacle_uno-1.0.2.tar.gz]
+[2024-05-24 09:35:15] INFO root fetch - main [MainThread]: End processing [pynnacle-uno]: success
+[2024-05-24 09:35:15] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.8.tar.gz]
+[2024-05-24 09:35:15] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.9.tar.gz]
+[2024-05-24 09:35:15] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-24 09:35:15] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_database_cleanup-14.0.1.0.4.dev3-py3-none-any.whl.zip]
+[2024-05-24 09:35:15] INFO root fetch - processPackages [odoo14-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_database_cleanup-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:35:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-database-cleanup]: success
+[2024-05-24 09:35:15] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 09:35:15] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:35:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-exception]: success
+[2024-05-24 09:35:15] INFO root fetch - main [MainThread]: Store serial: [23358044]
