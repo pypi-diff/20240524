@@ -10068,3 +10068,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:15:15] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python_nightly-2024.5.24.tar.gz]
 [2024-05-24 06:15:15] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-05-24 06:15:15] INFO root fetch - main [MainThread]: Store serial: [23356236]
+[2024-05-24 06:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356236]
+[2024-05-24 06:17:24] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 06:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356236]
+[2024-05-24 06:19:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 06:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Melody-CLI
+[2024-05-24 06:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws_lambda_stream
+[2024-05-24 06:19:30] WARNING root fetch - processPackages [Melody-CLI]: Skipping, unable to determine old version
+[2024-05-24 06:19:30] INFO root fetch - main [MainThread]: End processing [Melody-CLI] error
+[2024-05-24 06:19:30] INFO root fetch - processPackages [aws_lambda_stream]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-24 06:19:30] INFO root fetch - processPackages [aws_lambda_stream]: Downloading https://files.pythonhosted.org/packages/bf/db/957dc27ff2d2eb5c5c922ffc261b35628c6bd9b604c7f4e80676f92c5e69/aws_lambda_stream-1.2.1.tar.gz
+[2024-05-24 06:19:30] INFO root fetch - processPackages [aws_lambda_stream]: Downloading https://files.pythonhosted.org/packages/88/ae/e3b0531d21508e570ab0cc8c5527cc60fb44606c8ee381eb805a61e37320/aws_lambda_stream-1.2.2.tar.gz
+[2024-05-24 06:19:31] INFO root fetch - processPackages [aws_lambda_stream]: executing diffoscope
+[2024-05-24 06:19:31] INFO root fetch - processPackages [aws_lambda_stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_stream-1.2.1.tar.gz tmp/aws_lambda_stream-1.2.2.tar.gz --markdown 20240524/a/aws_lambda_stream/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-24 06:19:31] INFO root fetch - processPackages [aws_lambda_stream]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_stream-1.2.1.tar.gz]
+[2024-05-24 06:19:31] INFO root fetch - processPackages [aws_lambda_stream]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_stream-1.2.2.tar.gz]
+[2024-05-24 06:19:31] INFO root fetch - main [MainThread]: End processing [aws_lambda_stream]: success
+[2024-05-24 06:19:31] INFO root fetch - main [MainThread]: Store serial: [23356245]
