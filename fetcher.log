@@ -12466,3 +12466,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:20:40] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.3.1.tar.gz]
 [2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
 [2024-05-24 08:20:40] INFO root fetch - main [MainThread]: Store serial: [23357288]
+[2024-05-24 08:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357288]
+[2024-05-24 08:22:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foxsenseinnovations.vigil
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlpx
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-openupgrade-framework
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DNA-SE
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-train-dev
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-dev
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-api-dev
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composabl-cli-dev
+[2024-05-24 08:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-core-dev
+[2024-05-24 08:22:49] INFO root fetch - processPackages [DNA-SE]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nlpx]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev93] Old Version: [0.8.0.dev92]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev93] Old Version: [0.8.0.dev92]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev93] Old Version: [0.8.0.dev92]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev93] Old Version: [0.8.0.dev92]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev93] Old Version: [0.8.0.dev92]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.0.0.5]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [foxsenseinnovations.vigil]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/13/cf/e0a6f9244f8c4159e3abf2aa7d5c09862bdd921dfb6013ee87c61e0ef6ae/dna_se-0.0.9.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/02/0a/f587896f6b369a50f6fac81ae8e3f1e2e423f4eb55b9fa2fc2373c43964c/composabl_cli_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/67/7d/58e789e1c2eab7f7792458877e6fd9d810b29f90ee66b98c9304ba261218/composabl_api_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/92/65/8002db80cb450ecce743f7312597930f389ad14fd53de68c7a672dca60d7/nlpx-1.0.9.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/fb/9b/b265d4372e5f714c58647452f8ca7b2d65c1568196188d76010e41728b89/composabl_train_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/37/0d/bb0c734718a9a947b5b86ccf668c232c69ddf053c0c29fb14385ac079f93/composabl_core_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/36/38/f4d32edc9216ad0fbf520f60a89973f62184895807be1bbfb05d838536f9/composabl_dev-0.8.0.dev92-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 26167249>=10485760
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-core-dev]: Start processing: nonebot-plugin-calc24
+[2024-05-24 08:22:49] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: Downloading https://files.pythonhosted.org/packages/87/c0/168698f6c56fe0010cbfdbbbaf9b12c7b98881bb81899b05a9905d147ace/odoo_addon_openupgrade_framework-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/49/aa/06084071d622a2d01817a7f730b5ab5ae4eab738644ad63d6b0da71b0069/foxsenseinnovations.vigil-1.0.1.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/60/c3/42398e86bb70fb9d3974c4b6e499aff0f46534def7edb60c13efc29bf41d/DNA_SE-0.1.0.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nonebot-plugin-calc24]: New version: [1.3.7] Old Version: [1.3.5]
+[2024-05-24 08:22:49] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-24 08:22:49] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.9.tar.gz tmp/DNA_SE-0.1.0.tar.gz --markdown 20240524/D/DNA-SE/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/3e/74/3ce89e79f1499b4474ccc795fab96c1f2e7a26533594d0854256ef43d4d5/nlpx-1.1.0.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a2/40/5cd7d83aefb78cd4c5462d064aaf7571c07638af641c7c2bf032b4f99a9f/composabl_dev-0.8.0.dev93-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/68/24/9e3d4128a9ca8620011ce2d6c97a85ac37ddd2ed2908e2aee7a0bb911675/foxsenseinnovations_vigil-1.0.2.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/04/36/76ae61ac50f97c02d25b15976c6ed615c7426d0f1b97f6210f1f8e3bdbe9/composabl_cli_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.9.tar.gz tmp/nlpx-1.1.0.tar.gz --markdown 20240524/n/nlpx/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: Downloading https://files.pythonhosted.org/packages/91/62/9e0f213dacb9ec8079372f14629d013491a5d2f173d602b38adf885474ff/odoo_addon_openupgrade_framework-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [nonebot-plugin-calc24]: Downloading https://files.pythonhosted.org/packages/e3/68/853ff1c72613639357fc26a4344fa026b57d9d18e30b1a293f50c4d4e64e/nonebot_plugin_calc24-1.3.5.tar.gz
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev92-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev93-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240524/c/composabl-dev/0.8.0.dev92-0.8.0.dev93/README.md --exclude *.pyd
+[2024-05-24 08:22:49] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-24 08:22:49] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/fb/12/21e532e2a97c01b2e393d58156d10d29a4ebcc737f3f264424289e29df0c/composabl_api_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:50] INFO root fetch - processPackages [foxsenseinnovations.vigil]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [foxsenseinnovations.vigil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxsenseinnovations.vigil-1.0.1.tar.gz tmp/foxsenseinnovations_vigil-1.0.2.tar.gz --markdown 20240524/f/foxsenseinnovations.vigil/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/6f/6c/563b09dcb5900df204021ea5745a6aaf19322ef5c1849dd699675f8c3072/composabl_train_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:22:50] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_framework-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_framework-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-openupgrade-framework/16.0.1.0.0.5-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240524/c/composabl-cli-dev/0.8.0.dev92-0.8.0.dev93/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: Downloading https://files.pythonhosted.org/packages/26/6f/d921fce6bfb12633d7942c1997f0a05112b17f5ae7b49902aa0dc36b7589/nonebot_plugin_calc24-1.3.7.tar.gz
+[2024-05-24 08:22:50] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.9.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/DNA_SE-0.1.0.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [DNA-SE]: Start processing: cpg-workflows
+[2024-05-24 08:22:50] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-24 08:22:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [nonebot-plugin-calc24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_calc24-1.3.5.tar.gz tmp/nonebot_plugin_calc24-1.3.7.tar.gz --markdown 20240524/n/nonebot-plugin-calc24/1.3.5-1.3.7/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240524/c/composabl-train-dev/0.8.0.dev92-0.8.0.dev93/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240524/c/composabl-api-dev/0.8.0.dev92-0.8.0.dev93/README.md --exclude *.pyd
+[2024-05-24 08:22:50] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.9.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.1.0.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 08:22:50] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev92-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev93-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:50] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-24 08:22:50] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-24 08:22:50] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations.vigil-1.0.1.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations_vigil-1.0.2.tar.gz]
+[2024-05-24 08:22:50] INFO root fetch - main [MainThread]: End processing [foxsenseinnovations.vigil]: success
+[2024-05-24 08:22:51] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_framework-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - processPackages [odoo-addon-openupgrade-framework]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_framework-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-framework]: success
+[2024-05-24 08:22:51] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-24 08:22:51] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240524/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-24 08:22:51] INFO root fetch - processPackages [nonebot-plugin-calc24]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_calc24-1.3.5.tar.gz]
+[2024-05-24 08:22:51] INFO root fetch - processPackages [nonebot-plugin-calc24]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_calc24-1.3.7.tar.gz]
+[2024-05-24 08:22:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-calc24]: success
+[2024-05-24 08:22:51] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-24 08:22:51] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:22:51] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-24 08:22:51] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-24 08:22:51] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-24 08:22:51] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-24 08:22:53] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-24 08:22:53] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-24 08:22:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-24 08:23:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev92-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:23:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:23:08] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-24 08:23:08] INFO root fetch - main [MainThread]: Store serial: [23357360]
