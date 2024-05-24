@@ -16380,3 +16380,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:42:32] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a66.tar.gz]
 [2024-05-24 10:42:32] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-05-24 10:42:32] INFO root fetch - main [MainThread]: Store serial: [23358910]
+[2024-05-24 10:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358910]
+[2024-05-24 10:44:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nodeocc
+[2024-05-24 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cadproxdk
+[2024-05-24 10:44:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyatf
+[2024-05-24 10:44:42] INFO root fetch - processPackages [pyatf]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 10:44:42] INFO root fetch - processPackages [cadproxdk]: New version: [2.9] Old Version: [2.7]
+[2024-05-24 10:44:42] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3b/13/2df32f0e7c0f2bb3e98b34c7fcf417423fba1cf47589b04d0e6017be5769/cadproxdk-2.7.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [nodeocc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 10:44:42] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/8b/d7/de92287b832803f7a8c75c967fac14ff04b6664c4b0b25804418f5d60b92/pyatf-0.0.4.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [nodeocc]: Downloading https://files.pythonhosted.org/packages/d6/c4/fb448facee27d744b29adeccf6a64ef5647e5b462c4b3cc30c22ea332239/nodeocc-1.0.8.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/2a/a7/02197a4e5f714a9e2fff227a9ad0e29e37960877a7b9ed2d0b71e70592ee/cadproxdk-2.9.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/96/08/f5637ddccfc52c9f3209998aa8ea6ad7a1f9caf4a2d15ac4414c54b0b260/pyatf-0.0.5.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:44:42] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.7.tar.gz tmp/cadproxdk-2.9.tar.gz --markdown 20240524/c/cadproxdk/2.7-2.9/README.md --exclude *.pyd
+[2024-05-24 10:44:42] INFO root fetch - processPackages [nodeocc]: Downloading https://files.pythonhosted.org/packages/d7/a6/bb962cd3343362eb53718bdbc79b350e727899ccb9e18d2237f8afee343d/nodeocc-1.0.9.tar.gz
+[2024-05-24 10:44:42] INFO root fetch - processPackages [pyatf]: executing diffoscope
+[2024-05-24 10:44:42] INFO root fetch - processPackages [pyatf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatf-0.0.4.tar.gz tmp/pyatf-0.0.5.tar.gz --markdown 20240524/p/pyatf/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 10:44:42] INFO root fetch - processPackages [nodeocc]: executing diffoscope
+[2024-05-24 10:44:42] INFO root fetch - processPackages [nodeocc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodeocc-1.0.8.tar.gz tmp/nodeocc-1.0.9.tar.gz --markdown 20240524/n/nodeocc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 10:44:43] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.7.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.9.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:44:43] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.4.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.5.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - main [MainThread]: End processing [pyatf]: success
+[2024-05-24 10:44:43] INFO root fetch - processPackages [nodeocc]: Remove: archive file [/home/abi/fetcher/tmp/nodeocc-1.0.8.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - processPackages [nodeocc]: Remove: archive file [/home/abi/fetcher/tmp/nodeocc-1.0.9.tar.gz]
+[2024-05-24 10:44:43] INFO root fetch - main [MainThread]: End processing [nodeocc]: success
+[2024-05-24 10:44:43] INFO root fetch - main [MainThread]: Store serial: [23358930]
