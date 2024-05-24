@@ -20172,3 +20172,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:43:53] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
 [2024-05-24 12:43:53] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
 [2024-05-24 12:43:53] INFO root fetch - main [MainThread]: Store serial: [23360550]
+[2024-05-24 12:45:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360550]
+[2024-05-24 12:46:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 12:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-websocket-component
+[2024-05-24 12:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cadprox
+[2024-05-24 12:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunholo
+[2024-05-24 12:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2024-05-24 12:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chemfusekit
+[2024-05-24 12:46:02] INFO root fetch - processPackages [cadprox]: New version: [2.4] Old Version: [2.3]
+[2024-05-24 12:46:02] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.1b1] Old Version: [1.1.0b3]
+[2024-05-24 12:46:02] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 12:46:02] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-05-24 12:46:02] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/94/67/4acaf80bbbfc1dfe99929fe5c95f0886357d96d6aa8d242a5eaa246e9a92/cadprox-2.3.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [dash-websocket-component]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-05-24 12:46:02] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/5f/16/537b08afc0ad316941efd041e930c5649e3371fb37d0793cf4d149fe34a6/chemfusekit-1.1.0b3.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [dash-websocket-component]: Downloading https://files.pythonhosted.org/packages/81/42/d77b7c1911ebf0f67e1547a71882b623b7b73533d133ef1fd65eb51aaa3a/dash_websocket_component-0.0.7.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-05-24 12:46:02] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/09/b2/b0465b83082df138e4d8e392d67ab01632079758ce3a772e69884baf9261/cadprox-2.4.tar.gz
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240524/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-05-24 12:46:03] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-24 12:46:03] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240524/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 12:46:03] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:46:03] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.3.tar.gz tmp/cadprox-2.4.tar.gz --markdown 20240524/c/cadprox/2.3-2.4/README.md --exclude *.pyd
+[2024-05-24 12:46:03] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/56/94/cd40b0d6cf1e58b70ad80cb99a853ef7c8cd9d8c42d435bd42b1bd781d54/chemfusekit-1.1.1b1.tar.gz
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dash-websocket-component]: Downloading https://files.pythonhosted.org/packages/0c/7e/b7d978964ec1d77b79d095d4279ea94e7fe317fda713d923b3a322008c29/dash_websocket_component-1.0.0.tar.gz
+[2024-05-24 12:46:03] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-24 12:46:03] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.0b3.tar.gz tmp/chemfusekit-1.1.1b1.tar.gz --markdown 20240524/c/chemfusekit/1.1.0b3-1.1.1b1/README.md --exclude *.pyd
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dash-websocket-component]: executing diffoscope
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dash-websocket-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_websocket_component-0.0.7.tar.gz tmp/dash_websocket_component-1.0.0.tar.gz --markdown 20240524/d/dash-websocket-component/0.0.7-1.0.0/README.md --exclude *.pyd
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-05-24 12:46:03] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-05-24 12:46:03] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-05-24 12:46:03] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.3.tar.gz]
+[2024-05-24 12:46:03] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.4.tar.gz]
+[2024-05-24 12:46:03] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:46:04] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-24 12:46:04] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b3.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b1.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-24 12:46:04] INFO root fetch - processPackages [dash-websocket-component]: Remove: archive file [/home/abi/fetcher/tmp/dash_websocket_component-0.0.7.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - processPackages [dash-websocket-component]: Remove: archive file [/home/abi/fetcher/tmp/dash_websocket_component-1.0.0.tar.gz]
+[2024-05-24 12:46:04] INFO root fetch - main [MainThread]: End processing [dash-websocket-component]: success
+[2024-05-24 12:46:04] INFO root fetch - main [MainThread]: Store serial: [23360568]
