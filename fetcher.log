@@ -13981,3 +13981,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:24:17] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-24 09:24:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-picking-blocking]: success
 [2024-05-24 09:24:17] INFO root fetch - main [MainThread]: Store serial: [23357906]
+[2024-05-24 09:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357906]
+[2024-05-24 09:26:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapieng
+[2024-05-24 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langsmith-evaluation-helper
+[2024-05-24 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-mysql-local
+[2024-05-24 09:26:26] INFO root fetch - processPackages [mapieng]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 09:26:26] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.324] Old Version: [0.0.323]
+[2024-05-24 09:26:26] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/61/5f/1fffd4889a83601930727257aa12616696048becfc49fe3a95297487156b/mapieng-0.1.3.tar.gz
+[2024-05-24 09:26:26] WARNING root fetch - processPackages [langsmith-evaluation-helper]: Skipping, unable to determine old version
+[2024-05-24 09:26:26] INFO root fetch - main [MainThread]: End processing [langsmith-evaluation-helper] error
+[2024-05-24 09:26:26] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e7/fe/211e88a7f92e5b8f5ac2c47f70f49a5b16e7be2e309278fcb1b45de9cdb7/database_mysql_local-0.0.323.tar.gz
+[2024-05-24 09:26:26] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/7e/30/c43d3a44ee2c98e3a2bf7403259e1c4def81d9c739752888d0e9b89abfda/mapieng-0.1.4.tar.gz
+[2024-05-24 09:26:26] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e8/8c/5864f3f25ba69c16e79c62726a5d6ba517fec7717e149f8f369ad936eaeb/database_mysql_local-0.0.324.tar.gz
+[2024-05-24 09:26:26] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 09:26:26] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.3.tar.gz tmp/mapieng-0.1.4.tar.gz --markdown 20240524/m/mapieng/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 09:26:26] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-24 09:26:26] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.323.tar.gz tmp/database_mysql_local-0.0.324.tar.gz --markdown 20240524/d/database-mysql-local/0.0.323-0.0.324/README.md --exclude *.pyd
+[2024-05-24 09:26:27] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.3.tar.gz]
+[2024-05-24 09:26:27] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.4.tar.gz]
+[2024-05-24 09:26:27] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 09:26:27] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.323.tar.gz]
+[2024-05-24 09:26:27] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.324.tar.gz]
+[2024-05-24 09:26:27] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-24 09:26:27] INFO root fetch - main [MainThread]: Store serial: [23357924]
