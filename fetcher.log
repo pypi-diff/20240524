@@ -23256,3 +23256,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:31:18] INFO root fetch - processPackages [beamlime]: Remove: archive file [/home/abi/fetcher/tmp/beamlime-24.5.0.tar.gz]
 [2024-05-24 14:31:18] INFO root fetch - main [MainThread]: End processing [beamlime]: success
 [2024-05-24 14:31:18] INFO root fetch - main [MainThread]: Store serial: [23361828]
+[2024-05-24 14:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361828]
+[2024-05-24 14:33:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BigEDA
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypx800v5
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-mysql-local
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: setup-django-apex
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mq4hemc
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ue4-docker
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautilus_trader
+[2024-05-24 14:33:28] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.325] Old Version: [0.0.324]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e8/8c/5864f3f25ba69c16e79c62726a5d6ba517fec7717e149f8f369ad936eaeb/database_mysql_local-0.0.324.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [setup-django-apex]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [mq4hemc]: New version: [0.2.0] Old Version: [0.0.9]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [pypx800v5]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ue4-docker]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [nautilus_trader]: New version: [1.193.0] Old Version: [1.192.0]
+[2024-05-24 14:33:28] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/cd/2d/3185ba5b7dda7f691a9924f627818e848e7c4352b577d9eb6f5e1f891677/setup_django_apex-0.1.6.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/17/ff/c305b978b3e007000fd785f4d1fac7016440237c188eb8be90a34debd419/mq4hemc-0.0.9.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [pypx800v5]: Downloading https://files.pythonhosted.org/packages/20/02/696df81679962b280c30ce4be37fad998240f1be3a98d04cda03080821b2/pypx800v5-1.2.0.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [ue4-docker]: Downloading https://files.pythonhosted.org/packages/3a/44/00d410b7dba1162ec3054bd1df1c9507502c878523843c58306b9be412ff/ue4-docker-0.0.98.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/7f/a3/c2680d04c8c05bd2bead9f684c647309ac0e64b2ff6e1b1b481c3018612b/database_mysql_local-0.0.325.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [nautilus_trader]: Downloading https://files.pythonhosted.org/packages/c1/3d/b6a0f4c82625cc89398eb463806bc118eff8695cfad7741aaa3c45f73dbe/nautilus_trader-1.192.0.tar.gz
+[2024-05-24 14:33:28] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-24 14:33:28] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240524/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:33:29] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-24 14:33:29] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.324.tar.gz tmp/database_mysql_local-0.0.325.tar.gz --markdown 20240524/d/database-mysql-local/0.0.324-0.0.325/README.md --exclude *.pyd
+[2024-05-24 14:33:29] INFO root fetch - processPackages [pypx800v5]: Downloading https://files.pythonhosted.org/packages/cf/77/46feb9fa1feb58f0a085590edb5dba5946c408eda4b83cd2e43dd01df2a0/pypx800v5-1.2.1.tar.gz
+[2024-05-24 14:33:29] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/3d/b6/16cd78403594c648ef8c77a176de520e250f5c321bcffb0cddcc6e3331d0/setup_django_apex-0.1.7.tar.gz
+[2024-05-24 14:33:29] INFO root fetch - processPackages [mq4hemc]: Downloading https://files.pythonhosted.org/packages/47/ab/7b3dfe08adb54c7b7744f0e4563191a848286f45478388260bb2eaed6dbb/mq4hemc-0.2.0.tar.gz
+[2024-05-24 14:33:29] INFO root fetch - processPackages [pypx800v5]: executing diffoscope
+[2024-05-24 14:33:29] INFO root fetch - processPackages [pypx800v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx800v5-1.2.0.tar.gz tmp/pypx800v5-1.2.1.tar.gz --markdown 20240524/p/pypx800v5/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-24 14:33:29] INFO root fetch - processPackages [setup-django-apex]: executing diffoscope
+[2024-05-24 14:33:29] INFO root fetch - processPackages [setup-django-apex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_django_apex-0.1.6.tar.gz tmp/setup_django_apex-0.1.7.tar.gz --markdown 20240524/s/setup-django-apex/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-24 14:33:29] INFO root fetch - processPackages [mq4hemc]: executing diffoscope
+[2024-05-24 14:33:29] INFO root fetch - processPackages [mq4hemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mq4hemc-0.0.9.tar.gz tmp/mq4hemc-0.2.0.tar.gz --markdown 20240524/m/mq4hemc/0.0.9-0.2.0/README.md --exclude *.pyd
+[2024-05-24 14:33:29] INFO root fetch - processPackages [nautilus_trader]: Downloading https://files.pythonhosted.org/packages/5b/d7/eb452034a1951538939723516b160456d787483a043628566f8817305660/nautilus_trader-1.193.0.tar.gz
+[2024-05-24 14:33:29] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-24 14:33:29] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.324.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.325.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-24 14:33:29] INFO root fetch - processPackages [pypx800v5]: Remove: archive file [/home/abi/fetcher/tmp/pypx800v5-1.2.0.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - processPackages [pypx800v5]: Remove: archive file [/home/abi/fetcher/tmp/pypx800v5-1.2.1.tar.gz]
+[2024-05-24 14:33:29] INFO root fetch - main [MainThread]: End processing [pypx800v5]: success
+[2024-05-24 14:33:30] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.0.9.tar.gz]
+[2024-05-24 14:33:30] INFO root fetch - processPackages [mq4hemc]: Remove: archive file [/home/abi/fetcher/tmp/mq4hemc-0.2.0.tar.gz]
+[2024-05-24 14:33:30] INFO root fetch - main [MainThread]: End processing [mq4hemc]: success
+[2024-05-24 14:33:30] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.6.tar.gz]
+[2024-05-24 14:33:30] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.7.tar.gz]
+[2024-05-24 14:33:30] INFO root fetch - main [MainThread]: End processing [setup-django-apex]: success
+[2024-05-24 14:33:30] INFO root fetch - processPackages [ue4-docker]: Downloading https://files.pythonhosted.org/packages/db/54/2e81cf485a46ebd823a3e694527714022532e9debd59ebc42bfb517bb2b1/ue4-docker-0.0.99.tar.gz
+[2024-05-24 14:33:30] INFO root fetch - processPackages [nautilus_trader]: executing diffoscope
+[2024-05-24 14:33:30] INFO root fetch - processPackages [nautilus_trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautilus_trader-1.192.0.tar.gz tmp/nautilus_trader-1.193.0.tar.gz --markdown 20240524/n/nautilus_trader/1.192.0-1.193.0/README.md --exclude *.pyd
+[2024-05-24 14:33:30] INFO root fetch - processPackages [ue4-docker]: executing diffoscope
+[2024-05-24 14:33:30] INFO root fetch - processPackages [ue4-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ue4-docker-0.0.98.tar.gz tmp/ue4-docker-0.0.99.tar.gz --markdown 20240524/u/ue4-docker/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-24 14:33:31] INFO root fetch - processPackages [ue4-docker]: Remove: archive file [/home/abi/fetcher/tmp/ue4-docker-0.0.98.tar.gz]
+[2024-05-24 14:33:31] INFO root fetch - processPackages [ue4-docker]: Remove: archive file [/home/abi/fetcher/tmp/ue4-docker-0.0.99.tar.gz]
+[2024-05-24 14:33:31] INFO root fetch - main [MainThread]: End processing [ue4-docker]: success
+[2024-05-24 14:33:35] INFO root fetch - processPackages [nautilus_trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.192.0.tar.gz]
+[2024-05-24 14:33:35] INFO root fetch - processPackages [nautilus_trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.193.0.tar.gz]
+[2024-05-24 14:33:35] INFO root fetch - main [MainThread]: End processing [nautilus_trader]: success
+[2024-05-24 14:33:35] INFO root fetch - main [MainThread]: Store serial: [23361847]
