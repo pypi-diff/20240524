@@ -8498,3 +8498,60 @@
 [2024-05-24 04:50:41] INFO root fetch - processPackages [odoo-addon-account-partner-required]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_partner_required-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-24 04:50:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-partner-required]: success
 [2024-05-24 04:50:41] INFO root fetch - main [MainThread]: Store serial: [23355707]
+[2024-05-24 04:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355707]
+[2024-05-24 04:52:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-securitytech
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leptonai
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdbt
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siglost-utils
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-commands
+[2024-05-24 04:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchcat
+[2024-05-24 04:52:50] INFO root fetch - processPackages [leptonai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [openai-commands]: New version: [3.4.1] Old Version: [3.3.1]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [cdbt]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [antchain-securitytech]: New version: [1.2.9] Old Version: [1.2.3]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [siglost-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [torchcat]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 04:52:50] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/6c/ca/84b954c1582e43392aeca6f64a3b4df993385415491359d259ff4aa314a3/cdbt-0.2.3.tar.gz
+[2024-05-24 04:52:50] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/ae/5d/e981b10294d636dced521144aadba2e7ff7287a7370c3846f4dcbb6e96d3/leptonai-0.9.8-py3-none-any.whl
+[2024-05-24 04:52:50] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/2c/44/74be01d6e8d4e382730d7849de8ed3d8f59d319422987a7c5e6020376495/openai_commands-3.3.1.tar.gz
+[2024-05-24 04:52:50] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/a5/80/722b9ddef2bd2022686a034e27827b87d1796a63de3d2c570d8e6a4280e9/siglost_utils-0.1.3.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/ee/85/c07f42dd3629ab2ebc62b358936697fcc2291ef23de1a03d0cae136c51b2/torchcat-0.0.2.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/55/62/0bdd61e3311201ee0770f2db689b107227bf415ac0e19d814eb56deebe69/openai_commands-3.4.1.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/65/41/b1e462cf6b5d63d48f979ef9e41b45cb3cd61b917de78ef86ba62ada9b09/cdbt-0.2.4.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [leptonai]: Downloading https://files.pythonhosted.org/packages/2c/46/8a0440ef08931abb629f99043abb2b21c3a05fc8d92b46bbe53302a34b5a/leptonai-0.9.9-py3-none-any.whl
+[2024-05-24 04:52:51] INFO root fetch - processPackages [openai-commands]: executing diffoscope
+[2024-05-24 04:52:51] INFO root fetch - processPackages [openai-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_commands-3.3.1.tar.gz tmp/openai_commands-3.4.1.tar.gz --markdown 20240524/o/openai-commands/3.3.1-3.4.1/README.md --exclude *.pyd
+[2024-05-24 04:52:51] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-24 04:52:51] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.2.3.tar.gz tmp/cdbt-0.2.4.tar.gz --markdown 20240524/c/cdbt/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-24 04:52:51] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/45/85/460b9de69b213f4f2d0155cfdda1f8ecfcb91fbc147746402136efde1559/siglost_utils-0.1.4.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [leptonai]: executing diffoscope
+[2024-05-24 04:52:51] INFO root fetch - processPackages [leptonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leptonai-0.9.8-py3-none-any.whl.zip tmp/leptonai-0.9.9-py3-none-any.whl.zip --markdown 20240524/l/leptonai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 04:52:51] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 04:52:51] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.1.3.tar.gz tmp/siglost_utils-0.1.4.tar.gz --markdown 20240524/s/siglost-utils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 04:52:51] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/b5/b3/4e0fee0f0f425df2b6a0f00ae171048d135f0f7bf8634d400b57be51f715/torchcat-0.0.3.tar.gz
+[2024-05-24 04:52:51] INFO root fetch - processPackages [torchcat]: executing diffoscope
+[2024-05-24 04:52:51] INFO root fetch - processPackages [torchcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcat-0.0.2.tar.gz tmp/torchcat-0.0.3.tar.gz --markdown 20240524/t/torchcat/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/ae/15/2dcb4f2689e470bfdc867aaa8dcce4fa92730fbee72f03c786d3fa272318/antchain_securitytech-1.2.3.tar.gz
+[2024-05-24 04:52:52] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.3.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.4.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-24 04:52:52] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.3.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.4.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 04:52:52] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.3.1.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.4.1.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - main [MainThread]: End processing [openai-commands]: success
+[2024-05-24 04:52:52] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.8-py3-none-any.whl.zip]
+[2024-05-24 04:52:52] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.9-py3-none-any.whl.zip]
+[2024-05-24 04:52:52] INFO root fetch - main [MainThread]: End processing [leptonai]: success
+[2024-05-24 04:52:52] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.2.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.3.tar.gz]
+[2024-05-24 04:52:52] INFO root fetch - main [MainThread]: End processing [torchcat]: success
+[2024-05-24 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/7f/de/3fe513075186670af8f9ed6211e07964dec9b7da55761a8d3e0207188b82/antchain_securitytech-1.2.9.tar.gz
+[2024-05-24 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: executing diffoscope
+[2024-05-24 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_securitytech-1.2.3.tar.gz tmp/antchain_securitytech-1.2.9.tar.gz --markdown 20240524/a/antchain-securitytech/1.2.3-1.2.9/README.md --exclude *.pyd
+[2024-05-24 04:52:53] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.2.3.tar.gz]
+[2024-05-24 04:52:53] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.2.9.tar.gz]
+[2024-05-24 04:52:53] INFO root fetch - main [MainThread]: End processing [antchain-securitytech]: success
+[2024-05-24 04:52:53] INFO root fetch - main [MainThread]: Store serial: [23355724]
