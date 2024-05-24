@@ -2249,3 +2249,58 @@
 [2024-05-24 02:12:14] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716507685.tar.gz]
 [2024-05-24 02:12:14] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2024-05-24 02:12:14] INFO root fetch - main [MainThread]: Store serial: [23353441]
+[2024-05-24 02:14:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353441]
+[2024-05-24 02:14:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superblocks-agent
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-nag
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speakeasy-client-sdk-python
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-gitlab-runner
+[2024-05-24 02:14:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-events-notify
+[2024-05-24 02:14:22] INFO root fetch - processPackages [superblocks-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-24 02:14:22] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/84/3b/6802ee2a76e5e0104b60f43df911e4711182d98a5f66a7993730f0d45959/superblocks-agent-0.0.8.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/82/0b/fd5477a9620174435fb7a80c3c8200599f6b49f480f1c910f05558252bfd/speakeasy-client-sdk-python-5.9.2.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/c7/b1/71b275379fdc2106748d0c22e5c803b23ddb9e4f4957fdacecf924a05c68/superblocks-agent-0.0.9.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/32/2d/08f7567086342975e01461be19d903c41ecab9b6c9f32683ee871995976e/speakeasy-client-sdk-python-5.9.3.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-24 02:14:23] INFO root fetch - processPackages [superblocks-agent]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [superblocks-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-agent-0.0.8.tar.gz tmp/superblocks-agent-0.0.9.tar.gz --markdown 20240524/s/superblocks-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:14:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.9.2.tar.gz tmp/speakeasy-client-sdk-python-5.9.3.tar.gz --markdown 20240524/s/speakeasy-client-sdk-python/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240524/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240524/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240524/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-24 02:14:23] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240524/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-24 02:14:24] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.8.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.9.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [superblocks-agent]: success
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-24 02:14:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.2.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.3.tar.gz]
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-24 02:14:24] INFO root fetch - main [MainThread]: Store serial: [23353460]
