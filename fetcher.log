@@ -10011,3 +10011,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:10:38] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
 [2024-05-24 06:10:38] INFO root fetch - main [MainThread]: End processing [kBmc]: success
 [2024-05-24 06:10:38] INFO root fetch - main [MainThread]: Store serial: [23356190]
+[2024-05-24 06:12:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356190]
+[2024-05-24 06:12:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usdt-wallet-manager
+[2024-05-24 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-website-sale-product-brand
+[2024-05-24 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2024-05-24 06:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geonomics
+[2024-05-24 06:12:47] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-24 06:12:47] WARNING root fetch - processPackages [usdt-wallet-manager]: Skipping, unable to determine old version
+[2024-05-24 06:12:47] INFO root fetch - main [MainThread]: End processing [usdt-wallet-manager] error
+[2024-05-24 06:12:47] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-24 06:12:47] INFO root fetch - processPackages [geonomics]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-24 06:12:47] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-24 06:12:47] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/65/dc/179abb97b0fdb477ae561a2ee478e906609968a89d7818fdb1b49f83896c/odoo_addon_website_sale_product_brand-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 06:12:47] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/dd/e9/2cc978a68fa1533533fe47655a795a2377103c98fc6ba4c3f64b9dfd8be1/geonomics-1.4.2.tar.gz
+[2024-05-24 06:12:48] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-24 06:12:48] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/94/09/beb419f5a34055f4672996501ac5aa93c3b6e8af64bf70e6c77ed471d41d/odoo_addon_website_sale_product_brand-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-24 06:12:48] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: executing diffoscope
+[2024-05-24 06:12:48] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_brand-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_brand-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-website-sale-product-brand/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-24 06:12:48] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/f3/b5/7d5c94f8e4475f92bab070771366cd0998fdbef8b20f32f28d47ca79e950/geonomics-1.4.3.tar.gz
+[2024-05-24 06:12:48] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-24 06:12:48] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240524/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-24 06:12:48] INFO root fetch - processPackages [geonomics]: executing diffoscope
+[2024-05-24 06:12:48] INFO root fetch - processPackages [geonomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonomics-1.4.2.tar.gz tmp/geonomics-1.4.3.tar.gz --markdown 20240524/g/geonomics/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-24 06:12:48] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-24 06:12:48] INFO root fetch - processPackages [odoo-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_brand-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-24 06:12:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-brand]: success
+[2024-05-24 06:12:49] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.2.tar.gz]
+[2024-05-24 06:12:49] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.3.tar.gz]
+[2024-05-24 06:12:49] INFO root fetch - main [MainThread]: End processing [geonomics]: success
+[2024-05-24 06:13:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-24 06:13:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-24 06:13:04] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-24 06:13:04] INFO root fetch - main [MainThread]: Store serial: [23356203]
