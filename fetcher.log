@@ -8283,3 +8283,54 @@
 [2024-05-24 04:35:25] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-24 04:35:25] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-24 04:35:25] INFO root fetch - main [MainThread]: Store serial: [23355613]
+[2024-05-24 04:37:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355613]
+[2024-05-24 04:37:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 04:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QPAML
+[2024-05-24 04:37:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathways
+[2024-05-24 04:37:34] INFO root fetch - processPackages [QPAML]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 04:37:34] ERROR root fetch - processPackages [pathways]: Unable to get metadata: No such project 'pathways'
+[2024-05-24 04:37:34] INFO root fetch - main [MainThread]: End processing [pathways] error
+[2024-05-24 04:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355613]
+[2024-05-24 04:39:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QPAML
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathways
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adadpython
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-to-package
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FRScraper
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-slb20140515
+[2024-05-24 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: watchfs
+[2024-05-24 04:39:49] INFO root fetch - processPackages [adadpython]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 04:39:49] INFO root fetch - processPackages [QPAML]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 04:39:49] INFO root fetch - processPackages [alibabacloud-slb20140515]: New version: [3.3.9] Old Version: [3.3.24]
+[2024-05-24 04:39:49] INFO root fetch - processPackages [adadpython]: Downloading https://files.pythonhosted.org/packages/dc/02/57c500b06d2b16d13b5ccde5e2cfe8a8a91c901aafc648ed7ec9e1768261/adadpython-0.0.2.tar.gz
+[2024-05-24 04:39:49] WARNING root fetch - processPackages [pathways]: Skipping, unable to determine old version
+[2024-05-24 04:39:49] INFO root fetch - main [MainThread]: End processing [pathways] error
+[2024-05-24 04:39:49] INFO root fetch - processPackages [QPAML]: Downloading https://files.pythonhosted.org/packages/b4/b9/c5bb3cd92779a4be83a4800b909e15486e01f8c567982060cc5fbbc43875/QPAML-1.0.0.tar.gz
+[2024-05-24 04:39:49] WARNING root fetch - processPackages [python-to-package]: Skipping, unable to determine old version
+[2024-05-24 04:39:49] INFO root fetch - main [MainThread]: End processing [python-to-package] error
+[2024-05-24 04:39:49] INFO root fetch - processPackages [watchfs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 04:39:49] WARNING root fetch - processPackages [FRScraper]: Skipping, unable to determine old version
+[2024-05-24 04:39:49] INFO root fetch - main [MainThread]: End processing [FRScraper] error
+[2024-05-24 04:39:50] WARNING root fetch - processPackages [QPAML]: Skipping package: exceeds size limit 13276080>=10485760
+[2024-05-24 04:39:50] INFO root fetch - main [MainThread]: End processing [QPAML] error
+[2024-05-24 04:39:50] INFO root fetch - processPackages [alibabacloud-slb20140515]: Downloading https://files.pythonhosted.org/packages/72/06/92115da85c1e84b13e6da815e15438f0daa252b3a440db9942d237954b09/alibabacloud_slb20140515-3.3.24.tar.gz
+[2024-05-24 04:39:50] INFO root fetch - processPackages [watchfs]: Downloading https://files.pythonhosted.org/packages/50/c9/f077e2a8f148dd260ff00b6bc7a945a218f1246935bc9873fbdc35271bea/watchfs-0.1.0.tar.gz
+[2024-05-24 04:39:50] INFO root fetch - processPackages [adadpython]: Downloading https://files.pythonhosted.org/packages/f0/96/699510d09340c2cf1844a1830c57f4b27b9db6d1163d2f46a0a60a9998ae/adadpython-0.0.3.tar.gz
+[2024-05-24 04:39:50] INFO root fetch - processPackages [adadpython]: executing diffoscope
+[2024-05-24 04:39:50] INFO root fetch - processPackages [adadpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adadpython-0.0.2.tar.gz tmp/adadpython-0.0.3.tar.gz --markdown 20240524/a/adadpython/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 04:39:50] INFO root fetch - processPackages [alibabacloud-slb20140515]: Downloading https://files.pythonhosted.org/packages/08/36/8938b06ab416dbdb8fadd176e704f66d9495833c984b75182f421065050b/alibabacloud_slb20140515-3.3.9.tar.gz
+[2024-05-24 04:39:50] INFO root fetch - processPackages [watchfs]: Downloading https://files.pythonhosted.org/packages/5f/40/fb4f00041c5a49e0b35dc149647e28d156c5f99027839f7cf5092692e10e/watchfs-0.1.1.tar.gz
+[2024-05-24 04:39:50] INFO root fetch - processPackages [watchfs]: executing diffoscope
+[2024-05-24 04:39:50] INFO root fetch - processPackages [watchfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchfs-0.1.0.tar.gz tmp/watchfs-0.1.1.tar.gz --markdown 20240524/w/watchfs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 04:39:50] INFO root fetch - processPackages [alibabacloud-slb20140515]: executing diffoscope
+[2024-05-24 04:39:50] INFO root fetch - processPackages [alibabacloud-slb20140515]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_slb20140515-3.3.24.tar.gz tmp/alibabacloud_slb20140515-3.3.9.tar.gz --markdown 20240524/a/alibabacloud-slb20140515/3.3.24-3.3.9/README.md --exclude *.pyd
+[2024-05-24 04:39:51] INFO root fetch - processPackages [adadpython]: Remove: archive file [/home/abi/fetcher/tmp/adadpython-0.0.2.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - processPackages [adadpython]: Remove: archive file [/home/abi/fetcher/tmp/adadpython-0.0.3.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - main [MainThread]: End processing [adadpython]: success
+[2024-05-24 04:39:51] INFO root fetch - processPackages [watchfs]: Remove: archive file [/home/abi/fetcher/tmp/watchfs-0.1.0.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - processPackages [watchfs]: Remove: archive file [/home/abi/fetcher/tmp/watchfs-0.1.1.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - main [MainThread]: End processing [watchfs]: success
+[2024-05-24 04:39:51] INFO root fetch - processPackages [alibabacloud-slb20140515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_slb20140515-3.3.24.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - processPackages [alibabacloud-slb20140515]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_slb20140515-3.3.9.tar.gz]
+[2024-05-24 04:39:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-slb20140515]: success
+[2024-05-24 04:39:51] INFO root fetch - main [MainThread]: Store serial: [23355639]
