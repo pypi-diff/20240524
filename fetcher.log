@@ -19228,3 +19228,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:11:47] INFO root fetch - processPackages [fuzzylogic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylogic-1.4.0.tar.gz]
 [2024-05-24 12:11:47] INFO root fetch - main [MainThread]: End processing [fuzzylogic]: success
 [2024-05-24 12:11:47] INFO root fetch - main [MainThread]: Store serial: [23360157]
+[2024-05-24 12:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360157]
+[2024-05-24 12:13:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpme
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-odata
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyperclip-plus
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argtoml
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authwa
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hui-tools
+[2024-05-24 12:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-report-invoice-modifications
+[2024-05-24 12:13:56] INFO root fetch - processPackages [otpme]: New version: [0.3.0a70] Old Version: [0.3.0a69]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: New version: [14.0.0.0.1] Old Version: [14.0.0.0.0]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [pyperclip-plus]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [argtoml]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [python-odata]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/42/e8/86d1771d97aa3574a97d4fdd0137d317a3cd42401d602be60df28b3c2ecd/otpme-0.3.0a69.tar.gz
+[2024-05-24 12:13:56] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/cb/55/e3955628419137540a830736addc7bf9dc7b888420c8b78c572d59f3828b/argtoml-0.5.3.tar.gz
+[2024-05-24 12:13:56] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:13:56] INFO root fetch - processPackages [hui-tools]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-24 12:13:56] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: Downloading https://files.pythonhosted.org/packages/61/5b/54b117f8766cac4ce166392396bfeee1d3a7370a7024769344bae183dc76/odoo14_addon_report_invoice_modifications-14.0.0.0.0-py3-none-any.whl
+[2024-05-24 12:13:56] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/31/2d/187883166479f03ecf4fa7d59c1394f70ea80bb7807ac57f29579c7bf46e/pyperclip_plus-0.1-py3-none-any.whl
+[2024-05-24 12:13:56] INFO root fetch - processPackages [python-odata]: Downloading https://files.pythonhosted.org/packages/d8/49/f0d423e660098c803d45bba9db512902f2958141bbbbecb14f94aa1ae5a8/python_odata-0.5.4.tar.gz
+[2024-05-24 12:13:56] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/f4/47/02f4e695afd34d7805beab333950328692088b0fce3c4d24d5afde9c8737/hui-tools-0.4.1.tar.gz
+[2024-05-24 12:13:56] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:13:57] INFO root fetch - processPackages [argtoml]: Downloading https://files.pythonhosted.org/packages/58/7d/5eb873afcc04661ae8b88fe0d96064cf5fdb12fa087f3b61d61aa53fd854/argtoml-0.5.4.tar.gz
+[2024-05-24 12:13:57] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: Downloading https://files.pythonhosted.org/packages/91/a1/0be3be1079cee85ff87a70f1f91c422815ccdfb138300ff08838ff1e9412/odoo14_addon_report_invoice_modifications-14.0.0.0.1-py3-none-any.whl
+[2024-05-24 12:13:57] INFO root fetch - processPackages [argtoml]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [argtoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argtoml-0.5.3.tar.gz tmp/argtoml-0.5.4.tar.gz --markdown 20240524/a/argtoml/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/b0/5c/9ba1a3c2f9296185308fd407e5ca9afd861eb746505464989040177bafd2/pyperclip_plus-0.1.1-py3-none-any.whl
+[2024-05-24 12:13:57] INFO root fetch - processPackages [python-odata]: Downloading https://files.pythonhosted.org/packages/81/51/9a89a49a368232c378033dfc77da01b1373259fccb153ee193d25e67a2b5/python_odata-0.5.5.tar.gz
+[2024-05-24 12:13:57] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/60/cf/0cbfce11fa8da1049ad90fd67ca5bac70e78f5093c5417450c706414a576/hui-tools-0.4.2.tar.gz
+[2024-05-24 12:13:57] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_invoice_modifications-14.0.0.0.0-py3-none-any.whl.zip tmp/odoo14_addon_report_invoice_modifications-14.0.0.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-report-invoice-modifications/14.0.0.0.0-14.0.0.0.1/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [pyperclip-plus]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [pyperclip-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperclip_plus-0.1-py3-none-any.whl.zip tmp/pyperclip_plus-0.1.1-py3-none-any.whl.zip --markdown 20240524/p/pyperclip-plus/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/cd/5c/16778c7b1e29e80816317e9f804558c3fa3408c25e5728a3f64f4104c33a/otpme-0.3.0a70.tar.gz
+[2024-05-24 12:13:57] INFO root fetch - processPackages [python-odata]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [python-odata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_odata-0.5.4.tar.gz tmp/python_odata-0.5.5.tar.gz --markdown 20240524/p/python-odata/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [hui-tools]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [hui-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hui-tools-0.4.1.tar.gz tmp/hui-tools-0.4.2.tar.gz --markdown 20240524/h/hui-tools/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 12:13:57] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a69.tar.gz tmp/otpme-0.3.0a70.tar.gz --markdown 20240524/o/otpme/0.3.0a69-0.3.0a70/README.md --exclude *.pyd
+[2024-05-24 12:13:57] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_invoice_modifications-14.0.0.0.0-py3-none-any.whl.zip]
+[2024-05-24 12:13:57] INFO root fetch - processPackages [odoo14-addon-report-invoice-modifications]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_invoice_modifications-14.0.0.0.1-py3-none-any.whl.zip]
+[2024-05-24 12:13:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-invoice-modifications]: success
+[2024-05-24 12:13:57] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:13:57] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:13:57] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:13:57] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.5.3.tar.gz]
+[2024-05-24 12:13:57] INFO root fetch - processPackages [argtoml]: Remove: archive file [/home/abi/fetcher/tmp/argtoml-0.5.4.tar.gz]
+[2024-05-24 12:13:57] INFO root fetch - main [MainThread]: End processing [argtoml]: success
+[2024-05-24 12:13:57] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip_plus-0.1-py3-none-any.whl.zip]
+[2024-05-24 12:13:57] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip_plus-0.1.1-py3-none-any.whl.zip]
+[2024-05-24 12:13:57] INFO root fetch - main [MainThread]: End processing [pyperclip-plus]: success
+[2024-05-24 12:13:58] INFO root fetch - processPackages [python-odata]: Remove: archive file [/home/abi/fetcher/tmp/python_odata-0.5.4.tar.gz]
+[2024-05-24 12:13:58] INFO root fetch - processPackages [python-odata]: Remove: archive file [/home/abi/fetcher/tmp/python_odata-0.5.5.tar.gz]
+[2024-05-24 12:13:58] INFO root fetch - main [MainThread]: End processing [python-odata]: success
+[2024-05-24 12:13:58] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.4.1.tar.gz]
+[2024-05-24 12:13:58] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.4.2.tar.gz]
+[2024-05-24 12:13:58] INFO root fetch - main [MainThread]: End processing [hui-tools]: success
+[2024-05-24 12:13:59] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a69.tar.gz]
+[2024-05-24 12:13:59] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a70.tar.gz]
+[2024-05-24 12:13:59] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 12:13:59] INFO root fetch - main [MainThread]: Store serial: [23360177]
