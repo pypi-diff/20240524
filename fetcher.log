@@ -7688,3 +7688,42 @@
 [2024-05-24 03:55:26] INFO root fetch - main [MainThread]: End processing [blueness]: success
 [2024-05-24 03:55:26] INFO root fetch - main [MainThread]: End processing [blueness]: success
 [2024-05-24 03:55:26] INFO root fetch - main [MainThread]: Store serial: [23355406]
+[2024-05-24 03:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355406]
+[2024-05-24 03:57:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rabbitmq
+[2024-05-24 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abcli
+[2024-05-24 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goodest
+[2024-05-24 03:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dockerblade
+[2024-05-24 03:57:35] INFO root fetch - processPackages [goodest]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-24 03:57:35] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/85/03/5adc39629ce341837ff77fa650cb958b05d9fea56b66422710d3401503b1/goodest-1.8.0.tar.gz
+[2024-05-24 03:57:35] INFO root fetch - processPackages [abcli]: New version: [8.211.1] Old Version: [8.208.1]
+[2024-05-24 03:57:35] INFO root fetch - processPackages [dockerblade]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-24 03:57:35] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1716514397] Old Version: [3.4.0a1715927156]
+[2024-05-24 03:57:36] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/ad/13/af8ee6b5d612081de00192f4a4a4fe2fb4ebb9b3e078a232d84c0c0e8a3a/abcli-8.208.1.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/b2/13/ce2de4e13e56658ca163fe9f52a6350570fa51eeeaafd81d1057eb01fd80/pulumi_rabbitmq-3.4.0a1715927156.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [dockerblade]: Downloading https://files.pythonhosted.org/packages/df/7e/bf872efb60eb318e29a5072d10b5d5c0749a4b53300d2f8f49a65bccb4cf/dockerblade-0.6.0.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/b9/7c/952e374b6e466ac284a538bdf6b1af11fc715fdfb6d7c6fb46092a3cf694/goodest-1.9.0.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/ca/ce/4ea433cae1f20f91c6d264628becdfbc5c16a6f2e562d458c2598643e854/abcli-8.211.1.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/04/3d/11762f9339ad58382e5841b94bb5ee832ed064e0ebe72bea583fc79f3407/pulumi_rabbitmq-3.4.0a1716514397.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-24 03:57:36] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.208.1.tar.gz tmp/abcli-8.211.1.tar.gz --markdown 20240524/a/abcli/8.208.1-8.211.1/README.md --exclude *.pyd
+[2024-05-24 03:57:36] INFO root fetch - processPackages [dockerblade]: Downloading https://files.pythonhosted.org/packages/3f/1d/d3ca1d0a385c8625018b769db61cbe81008c39afa46fec8f44683d0b53f0/dockerblade-0.6.1.tar.gz
+[2024-05-24 03:57:36] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-24 03:57:36] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz tmp/pulumi_rabbitmq-3.4.0a1716514397.tar.gz --markdown 20240524/p/pulumi-rabbitmq/3.4.0a1715927156-3.4.0a1716514397/README.md --exclude *.pyd
+[2024-05-24 03:57:36] INFO root fetch - processPackages [dockerblade]: executing diffoscope
+[2024-05-24 03:57:36] INFO root fetch - processPackages [dockerblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockerblade-0.6.0.tar.gz tmp/dockerblade-0.6.1.tar.gz --markdown 20240524/d/dockerblade/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-24 03:57:36] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-24 03:57:36] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.8.0.tar.gz tmp/goodest-1.9.0.tar.gz --markdown 20240524/g/goodest/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-24 03:57:37] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715927156.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1716514397.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-24 03:57:37] INFO root fetch - processPackages [dockerblade]: Remove: archive file [/home/abi/fetcher/tmp/dockerblade-0.6.0.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - processPackages [dockerblade]: Remove: archive file [/home/abi/fetcher/tmp/dockerblade-0.6.1.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - main [MainThread]: End processing [dockerblade]: success
+[2024-05-24 03:57:37] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.208.1.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.211.1.tar.gz]
+[2024-05-24 03:57:37] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-24 03:57:57] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.8.0.tar.gz]
+[2024-05-24 03:57:57] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.9.0.tar.gz]
+[2024-05-24 03:57:57] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-24 03:57:57] INFO root fetch - main [MainThread]: Store serial: [23355417]
