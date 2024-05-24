@@ -9313,3 +9313,33 @@
 [2024-05-24 05:39:52] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.542.tar.gz]
 [2024-05-24 05:39:52] INFO root fetch - main [MainThread]: End processing [TDSR-UWB]: success
 [2024-05-24 05:39:52] INFO root fetch - main [MainThread]: Store serial: [23355995]
+[2024-05-24 05:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355995]
+[2024-05-24 05:42:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 05:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gandai
+[2024-05-24 05:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siglost-utils
+[2024-05-24 05:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentforge
+[2024-05-24 05:42:01] INFO root fetch - processPackages [siglost-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 05:42:01] INFO root fetch - processPackages [gandai]: New version: [1.7.44] Old Version: [1.7.43]
+[2024-05-24 05:42:01] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/7f/a6/7ebc38253c2a372e924dc11d2ddc1a6d05c7f059a722e490e2255810e4bd/siglost_utils-0.2.0.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [agentforge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 05:42:01] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/bc/66/0f52c9cd10a2796ed9a6318b9aa15f1d9d58cebc9040f24b2a09da301d02/gandai-1.7.43.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/ee/8e/66c93be2800c61a49a8e05255959440a964f61bc12fc350d687eef6e0468/agentforge-0.2.8.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/ba/31/84ffc0c70a649462ba9be7db685bcdb1490a442d3aad75b2548fa87d8f46/siglost_utils-0.2.1.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/ea/73/d7e4950bc4835f5aec5d740f34fef6544d005d024cbb62297a23919623b8/gandai-1.7.44.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 05:42:01] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.2.0.tar.gz tmp/siglost_utils-0.2.1.tar.gz --markdown 20240524/s/siglost-utils/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 05:42:01] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 05:42:01] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.43.tar.gz tmp/gandai-1.7.44.tar.gz --markdown 20240524/g/gandai/1.7.43-1.7.44/README.md --exclude *.pyd
+[2024-05-24 05:42:01] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/27/4d/3ba886c7d34c7b76efeb089e1e5644689d63133705549ac4d79f8c98afe0/agentforge-0.2.9.tar.gz
+[2024-05-24 05:42:01] INFO root fetch - processPackages [agentforge]: executing diffoscope
+[2024-05-24 05:42:01] INFO root fetch - processPackages [agentforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentforge-0.2.8.tar.gz tmp/agentforge-0.2.9.tar.gz --markdown 20240524/a/agentforge/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 05:42:02] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.2.0.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.2.1.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 05:42:02] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.43.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.44.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 05:42:02] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.8.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.9.tar.gz]
+[2024-05-24 05:42:02] INFO root fetch - main [MainThread]: End processing [agentforge]: success
+[2024-05-24 05:42:02] INFO root fetch - main [MainThread]: Store serial: [23356005]
