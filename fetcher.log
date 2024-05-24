@@ -19525,3 +19525,131 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:20:50] INFO root fetch - processPackages [cardioception]: Remove: archive file [/home/abi/fetcher/tmp/cardioception-0.5.1.tar.gz]
 [2024-05-24 12:20:50] INFO root fetch - main [MainThread]: End processing [cardioception]: success
 [2024-05-24 12:20:50] INFO root fetch - main [MainThread]: Store serial: [23360266]
+[2024-05-24 12:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360266]
+[2024-05-24 12:23:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2enetworks
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keycare
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authwa
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeforlife-portal
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cornac
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfl-common
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: R4-lib
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybotrade
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-energiepartagee
+[2024-05-24 12:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-lookup-property
+[2024-05-24 12:23:00] INFO root fetch - processPackages [keycare]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/85/a3/5d06550db6b35546b98fbe1eb20cc1d857b333af9db3d119840d0ec71bb9/keycare-0.0.3.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [django-lookup-property]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:23:00] WARNING root fetch - processPackages [R4-lib]: Skipping, unable to determine old version
+[2024-05-24 12:23:00] INFO root fetch - processPackages [R4-lib]: Start processing: pyperclip-plus
+[2024-05-24 12:23:00] INFO root fetch - main [MainThread]: End processing [R4-lib] error
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cybotrade]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cornac]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [pyperclip-plus]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/d0/bb/4bdd16092478da248fe3e0fa1f3fdd478bf944ea4b7e07772e39e57ec3b0/pyperclip_plus-0.1.2.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/d0/db/b9901e788cbbe118b5c78970b8077b3fdbb20c21993828bc457acbe0692c/e2enetworks-1.2.5.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [django-lookup-property]: Downloading https://files.pythonhosted.org/packages/2f/06/e73b32b9460d4cb9d0cba194e8d0bb4042cf3803679968969a4dafaf3c53/django_lookup_property-0.1.4.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/89/5f/5203e438160e56834ebba10e427a039bee8d67f261493a754ebfe86c9435/cybotrade-1.4.4-cp312-none-win_amd64.whl
+[2024-05-24 12:23:00] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/ba/83/6e1265abdf2eb1e0544f38d4cdda8d1bb27b05e1ce8a2d5979d3c4360223/cornac-2.2.0.tar.gz
+[2024-05-24 12:23:00] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/ee/d2/06be772bffb5559e363a085a219a89cabdb765b72fdce75785464c446961/keycare-0.0.4.tar.gz
+[2024-05-24 12:23:01] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 11557468>=10485760
+[2024-05-24 12:23:01] INFO root fetch - processPackages [cybotrade]: Start processing: supervisely
+[2024-05-24 12:23:01] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2024-05-24 12:23:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-24 12:23:01] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.3.tar.gz tmp/keycare-0.0.4.tar.gz --markdown 20240524/k/keycare/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/41/c6/5fbe7ed14b8a8bc0a8b3dd5af1b0c33e8decc882a36c1423ae9929a4e09e/pyperclip-plus-0.1.3.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240524/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240524/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/d6/d9/4eaaf6a6b2663847d78dd754194af81aba45bfb4ee1d6e62b04d0e07836f/e2enetworks-1.2.6.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [pyperclip-plus]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [pyperclip-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperclip_plus-0.1.2.tar.gz tmp/pyperclip-plus-0.1.3.tar.gz --markdown 20240524/p/pyperclip-plus/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [django-lookup-property]: Downloading https://files.pythonhosted.org/packages/13/3c/f9dc0cbfedaf7560cd3b5f1e6d80a9a0d9559804866a5f8e284b47c34b6a/django_lookup_property-0.1.5.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.2.5.tar.gz tmp/e2enetworks-1.2.6.tar.gz --markdown 20240524/e/e2enetworks/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [django-lookup-property]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [django-lookup-property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_lookup_property-0.1.4.tar.gz tmp/django_lookup_property-0.1.5.tar.gz --markdown 20240524/d/django-lookup-property/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [cornac]: Downloading https://files.pythonhosted.org/packages/33/65/886c67990511ae6dd6cd4cb050cac46ca8cf8b8357d7e7f75df4804a9ed7/cornac-2.2.1.tar.gz
+[2024-05-24 12:23:01] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240524/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-24 12:23:01] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-24 12:23:01] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240524/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-24 12:23:02] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [authwa]: Start processing: itertree
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.3.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.4.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [keycare]: Start processing: nix-gpt-client
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [itertree]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [cfl-common]: Start processing: singlestore-demo
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [nix-gpt-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.5.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.6.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [itertree]: Downloading https://files.pythonhosted.org/packages/1f/64/5cb623089d42910f9a78657ca1fc8f1199efef324a1ae3ddd90ce4f2165b/itertree-1.0.5.tar.gz
+[2024-05-24 12:23:02] INFO root fetch - processPackages [singlestore-demo]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [django-lookup-property]: Remove: archive file [/home/abi/fetcher/tmp/django_lookup_property-0.1.4.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [django-lookup-property]: Remove: archive file [/home/abi/fetcher/tmp/django_lookup_property-0.1.5.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [django-lookup-property]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip_plus-0.1.2.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip-plus-0.1.3.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [pyperclip-plus]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/db/67/eed85fb6203a6c6bf0a1c68daecc4c1ea319d0a377c4047562231718812c/nix_gpt_client-0.1.2.tar.gz
+[2024-05-24 12:23:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-24 12:23:02] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-24 12:23:02] INFO root fetch - processPackages [cornac]: executing diffoscope
+[2024-05-24 12:23:02] INFO root fetch - processPackages [cornac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornac-2.2.0.tar.gz tmp/cornac-2.2.1.tar.gz --markdown 20240524/c/cornac/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-24 12:23:02] INFO root fetch - processPackages [singlestore-demo]: Downloading https://files.pythonhosted.org/packages/38/35/478d29f42e302d5a088ac84fc3e7ed95678ab3ea3cca4fec171e23384f0f/singlestore_demo-1.0.7-py3-none-any.whl
+[2024-05-24 12:23:02] INFO root fetch - processPackages [itertree]: Downloading https://files.pythonhosted.org/packages/a3/6a/bc652e63743fa97dc15f2716d99ba3e30b3d38fe4688ad438abe0b420be1/itertree-1.1.0.tar.gz
+[2024-05-24 12:23:02] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/e1/21/d4a27c1fbe7af3df6f8b5885198c4489dce26e5d2b18b7c604cb309e12ca/nix_gpt_client-0.1.3.tar.gz
+[2024-05-24 12:23:03] INFO root fetch - processPackages [itertree]: executing diffoscope
+[2024-05-24 12:23:03] INFO root fetch - processPackages [itertree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itertree-1.0.5.tar.gz tmp/itertree-1.1.0.tar.gz --markdown 20240524/i/itertree/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-05-24 12:23:03] INFO root fetch - processPackages [nix-gpt-client]: executing diffoscope
+[2024-05-24 12:23:03] INFO root fetch - processPackages [nix-gpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nix_gpt_client-0.1.2.tar.gz tmp/nix_gpt_client-0.1.3.tar.gz --markdown 20240524/n/nix-gpt-client/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 12:23:03] INFO root fetch - processPackages [singlestore-demo]: Downloading https://files.pythonhosted.org/packages/79/90/5a696ed212c292576e4663a6516b76075d7bccc83bf415786fe330abb004/singlestore_demo-1.0.9-py3-none-any.whl
+[2024-05-24 12:23:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-24 12:23:03] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-24 12:23:03] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-24 12:23:03] INFO root fetch - processPackages [singlestore-demo]: executing diffoscope
+[2024-05-24 12:23:03] INFO root fetch - processPackages [singlestore-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlestore_demo-1.0.7-py3-none-any.whl.zip tmp/singlestore_demo-1.0.9-py3-none-any.whl.zip --markdown 20240524/s/singlestore-demo/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-24 12:23:03] INFO root fetch - processPackages [singlestore-demo]: Remove: archive file [/home/abi/fetcher/tmp/singlestore_demo-1.0.7-py3-none-any.whl.zip]
+[2024-05-24 12:23:03] INFO root fetch - processPackages [singlestore-demo]: Remove: archive file [/home/abi/fetcher/tmp/singlestore_demo-1.0.9-py3-none-any.whl.zip]
+[2024-05-24 12:23:03] INFO root fetch - main [MainThread]: End processing [singlestore-demo]: success
+[2024-05-24 12:23:03] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.2.tar.gz]
+[2024-05-24 12:23:03] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.3.tar.gz]
+[2024-05-24 12:23:03] INFO root fetch - main [MainThread]: End processing [nix-gpt-client]: success
+[2024-05-24 12:23:04] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.0.5.tar.gz]
+[2024-05-24 12:23:04] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.1.0.tar.gz]
+[2024-05-24 12:23:04] INFO root fetch - main [MainThread]: End processing [itertree]: success
+[2024-05-24 12:23:04] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-24 12:23:04] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-24 12:23:04] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-24 12:23:23] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-2.2.0.tar.gz]
+[2024-05-24 12:23:23] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-2.2.1.tar.gz]
+[2024-05-24 12:23:23] INFO root fetch - main [MainThread]: End processing [cornac]: success
+[2024-05-24 12:23:23] INFO root fetch - main [MainThread]: Store serial: [23360329]
