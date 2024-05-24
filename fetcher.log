@@ -7199,3 +7199,27 @@
 [2024-05-24 03:24:49] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1716512789.tar.gz]
 [2024-05-24 03:24:49] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
 [2024-05-24 03:24:49] INFO root fetch - main [MainThread]: Store serial: [23354815]
+[2024-05-24 03:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23354815]
+[2024-05-24 03:26:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 03:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-signalfx
+[2024-05-24 03:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdepy
+[2024-05-24 03:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JupyterExport
+[2024-05-24 03:26:58] WARNING root fetch - processPackages [JupyterExport]: Skipping, unable to determine old version
+[2024-05-24 03:26:58] INFO root fetch - main [MainThread]: End processing [JupyterExport] error
+[2024-05-24 03:26:58] INFO root fetch - processPackages [cdepy]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-24 03:26:58] INFO root fetch - processPackages [cdepy]: Downloading https://files.pythonhosted.org/packages/67/48/7a1b07dcfe45fc2f67d2af818b122aba15624d76bee8c5738a78e70f0f3a/cdepy-0.1.7.tar.gz
+[2024-05-24 03:26:58] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1716512682] Old Version: [7.2.0a1716157100]
+[2024-05-24 03:26:58] INFO root fetch - processPackages [cdepy]: Downloading https://files.pythonhosted.org/packages/75/be/d3b2b5c7ac70a8f26b02c5581d90226a51b060fa7fd7e7495b1947820a4a/cdepy-0.1.8.tar.gz
+[2024-05-24 03:26:58] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/78/5f/b9c1516b3268485bff0eda227c2e301501ee75e0d882c36cc6a1cc7f3c05/pulumi_signalfx-7.2.0a1716157100.tar.gz
+[2024-05-24 03:26:59] INFO root fetch - processPackages [cdepy]: executing diffoscope
+[2024-05-24 03:26:59] INFO root fetch - processPackages [cdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdepy-0.1.7.tar.gz tmp/cdepy-0.1.8.tar.gz --markdown 20240524/c/cdepy/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-24 03:26:59] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/9a/46/fb355a9b903298b19b3013a375dc350692e24b48598b26d057a515f82a57/pulumi_signalfx-7.2.0a1716512682.tar.gz
+[2024-05-24 03:26:59] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-24 03:26:59] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz tmp/pulumi_signalfx-7.2.0a1716512682.tar.gz --markdown 20240524/p/pulumi-signalfx/7.2.0a1716157100-7.2.0a1716512682/README.md --exclude *.pyd
+[2024-05-24 03:26:59] INFO root fetch - processPackages [cdepy]: Remove: archive file [/home/abi/fetcher/tmp/cdepy-0.1.7.tar.gz]
+[2024-05-24 03:26:59] INFO root fetch - processPackages [cdepy]: Remove: archive file [/home/abi/fetcher/tmp/cdepy-0.1.8.tar.gz]
+[2024-05-24 03:26:59] INFO root fetch - main [MainThread]: End processing [cdepy]: success
+[2024-05-24 03:27:00] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz]
+[2024-05-24 03:27:00] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716512682.tar.gz]
+[2024-05-24 03:27:00] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-24 03:27:00] INFO root fetch - main [MainThread]: Store serial: [23354894]
