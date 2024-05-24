@@ -13307,3 +13307,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:57:47] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240522.tar.gz]
 [2024-05-24 08:57:47] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-24 08:57:47] INFO root fetch - main [MainThread]: Store serial: [23357668]
+[2024-05-24 08:59:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357668]
+[2024-05-24 08:59:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oshit
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-report-to-printer
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-report-to-printer
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-report-to-printer
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-report-to-printer
+[2024-05-24 08:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myscale-telemetry
+[2024-05-24 08:59:57] WARNING root fetch - processPackages [myscale-telemetry]: Skipping, unable to determine old version
+[2024-05-24 08:59:57] INFO root fetch - main [MainThread]: End processing [myscale-telemetry] error
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-24 08:59:57] INFO root fetch - processPackages [oshit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/90/2d/e2b26f37fc053c7372a39968b5a538c215813465260b02bcf24cc7d4e864/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/96/47/24f62ba0eb3d12ff72351ebe217ee0840af2d857b9e99cef76e0a64de1da/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/96/47/24f62ba0eb3d12ff72351ebe217ee0840af2d857b9e99cef76e0a64de1da/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/96/47/24f62ba0eb3d12ff72351ebe217ee0840af2d857b9e99cef76e0a64de1da/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [oshit]: Downloading https://files.pythonhosted.org/packages/2d/c2/8fc209030cbb9de653bd0733eb43e895a4a99f6973d977770d55752a5239/oshit-0.8.0-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/10/9b/5ae75d8e6ddb94ade0eb92e74940c2ae5fbffa1ba761875e1f47a59b58f4/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/f0/4e/b2e34d085931bcb43bc0f5d1f2a78aa61c491aef727c1188c4d188617759/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/f0/4e/b2e34d085931bcb43bc0f5d1f2a78aa61c491aef727c1188c4d188617759/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/f0/4e/b2e34d085931bcb43bc0f5d1f2a78aa61c491aef727c1188c4d188617759/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [oshit]: Downloading https://files.pythonhosted.org/packages/cf/68/317283467f0b94e9b7bab9168c7fcf057434da27e3dc2fdb503db04c6d46/oshit-0.9.0-py3-none-any.whl
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: executing diffoscope
+[2024-05-24 08:59:57] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-base-report-to-printer/14.0.2.0.2.dev8-14.0.2.0.2.dev9/README.md --exclude *.pyd
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-report-to-printer/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-report-to-printer/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-report-to-printer/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-24 08:59:58] INFO root fetch - processPackages [oshit]: executing diffoscope
+[2024-05-24 08:59:58] INFO root fetch - processPackages [oshit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oshit-0.8.0-py3-none-any.whl.zip tmp/oshit-0.9.0-py3-none-any.whl.zip --markdown 20240524/o/oshit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 08:59:58] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-24 08:59:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2024-05-24 08:59:58] INFO root fetch - processPackages [oshit]: Remove: archive file [/home/abi/fetcher/tmp/oshit-0.8.0-py3-none-any.whl.zip]
+[2024-05-24 08:59:58] INFO root fetch - processPackages [oshit]: Remove: archive file [/home/abi/fetcher/tmp/oshit-0.9.0-py3-none-any.whl.zip]
+[2024-05-24 08:59:58] INFO root fetch - main [MainThread]: End processing [oshit]: success
+[2024-05-24 08:59:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2024-05-24 08:59:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2024-05-24 08:59:59] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2024-05-24 08:59:59] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2024-05-24 08:59:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
+[2024-05-24 08:59:59] INFO root fetch - main [MainThread]: Store serial: [23357679]
