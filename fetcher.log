@@ -12014,3 +12014,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:55:02] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/dragonlog-1.2.1.tar.gz]
 [2024-05-24 07:55:02] INFO root fetch - main [MainThread]: End processing [DragonLog]: success
 [2024-05-24 07:55:02] INFO root fetch - main [MainThread]: Store serial: [23357071]
+[2024-05-24 07:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357071]
+[2024-05-24 07:57:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 07:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oktmoparser
+[2024-05-24 07:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splatoon-weapon-selector
+[2024-05-24 07:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-oci
+[2024-05-24 07:57:11] WARNING root fetch - processPackages [oktmoparser]: Skipping, unable to determine old version
+[2024-05-24 07:57:11] INFO root fetch - main [MainThread]: End processing [oktmoparser] error
+[2024-05-24 07:57:11] WARNING root fetch - processPackages [splatoon-weapon-selector]: Skipping, unable to determine old version
+[2024-05-24 07:57:11] INFO root fetch - main [MainThread]: End processing [splatoon-weapon-selector] error
+[2024-05-24 07:57:11] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-24 07:57:11] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-24 07:57:12] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-24 07:57:12] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-24 07:57:12] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240524/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-24 07:57:26] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-24 07:57:26] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-24 07:57:26] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-24 07:57:26] INFO root fetch - main [MainThread]: Store serial: [23357086]
