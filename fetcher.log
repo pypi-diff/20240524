@@ -15508,3 +15508,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:13:45] INFO root fetch - processPackages [acoular]: Remove: archive file [/home/abi/fetcher/tmp/acoular-24.5.tar.gz]
 [2024-05-24 10:13:45] INFO root fetch - main [MainThread]: End processing [acoular]: success
 [2024-05-24 10:13:45] INFO root fetch - main [MainThread]: Store serial: [23358552]
+[2024-05-24 10:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358552]
+[2024-05-24 10:15:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 10:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyeballvul
+[2024-05-24 10:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobb-cmip
+[2024-05-24 10:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcd-stitcher
+[2024-05-24 10:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mag-net-hub
+[2024-05-24 10:15:54] INFO root fetch - processPackages [mag-net-hub]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-24 10:15:54] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/07/3f/788f9e8a08d00b8806854cd9abfe0a7977300aa21e85fcfc262aa244725d/mag_net_hub-0.0.6.tar.gz
+[2024-05-24 10:15:54] INFO root fetch - processPackages [eyeballvul]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-24 10:15:54] WARNING root fetch - processPackages [mcd-stitcher]: Skipping, unable to determine old version
+[2024-05-24 10:15:54] INFO root fetch - main [MainThread]: End processing [mcd-stitcher] error
+[2024-05-24 10:15:54] INFO root fetch - processPackages [biobb-cmip]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-05-24 10:15:55] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/77/3f/8e8f3c89ac82e80d724039a8d89e2779c41792f1ff539acff58000c4c4b1/eyeballvul-0.2.0.tar.gz
+[2024-05-24 10:15:55] INFO root fetch - processPackages [biobb-cmip]: Downloading https://files.pythonhosted.org/packages/43/bf/a0fcca7a0d3bbf403690eed1ab3a74e21150fe73b73bae34d5443c9ef26e/biobb_cmip-4.1.1.tar.gz
+[2024-05-24 10:15:55] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/8b/16/710d63ca7cc3c189ec2797dd19abac8edf35aca2d282666a8f8f16b2b5d6/mag_net_hub-0.0.8.tar.gz
+[2024-05-24 10:15:55] INFO root fetch - processPackages [mag-net-hub]: executing diffoscope
+[2024-05-24 10:15:55] INFO root fetch - processPackages [mag-net-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mag_net_hub-0.0.6.tar.gz tmp/mag_net_hub-0.0.8.tar.gz --markdown 20240524/m/mag-net-hub/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-24 10:15:55] INFO root fetch - processPackages [biobb-cmip]: Downloading https://files.pythonhosted.org/packages/40/52/68ec8281e5bf4f37a5a64cffebbaf5f5b1d609d39028126a31577abc8306/biobb_cmip-4.2.0.tar.gz
+[2024-05-24 10:15:55] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/65/09/9d27498ed0927be23bd34f91af5892b9d340f8618ae5b0fbc70f537ed903/eyeballvul-0.3.0.tar.gz
+[2024-05-24 10:15:55] INFO root fetch - processPackages [eyeballvul]: executing diffoscope
+[2024-05-24 10:15:55] INFO root fetch - processPackages [eyeballvul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeballvul-0.2.0.tar.gz tmp/eyeballvul-0.3.0.tar.gz --markdown 20240524/e/eyeballvul/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-24 10:15:55] INFO root fetch - processPackages [biobb-cmip]: executing diffoscope
+[2024-05-24 10:15:55] INFO root fetch - processPackages [biobb-cmip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_cmip-4.1.1.tar.gz tmp/biobb_cmip-4.2.0.tar.gz --markdown 20240524/b/biobb-cmip/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-05-24 10:15:56] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.2.0.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.3.0.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - main [MainThread]: End processing [eyeballvul]: success
+[2024-05-24 10:15:56] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.6.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.8.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - main [MainThread]: End processing [mag-net-hub]: success
+[2024-05-24 10:15:56] INFO root fetch - processPackages [biobb-cmip]: Remove: archive file [/home/abi/fetcher/tmp/biobb_cmip-4.1.1.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - processPackages [biobb-cmip]: Remove: archive file [/home/abi/fetcher/tmp/biobb_cmip-4.2.0.tar.gz]
+[2024-05-24 10:15:56] INFO root fetch - main [MainThread]: End processing [biobb-cmip]: success
+[2024-05-24 10:15:56] INFO root fetch - main [MainThread]: Store serial: [23358567]
