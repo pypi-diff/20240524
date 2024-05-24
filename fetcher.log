@@ -22670,3 +22670,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:08:44] INFO root fetch - processPackages [plopp]: Remove: archive file [/home/abi/fetcher/tmp/plopp-24.5.0.tar.gz]
 [2024-05-24 14:08:44] INFO root fetch - main [MainThread]: End processing [plopp]: success
 [2024-05-24 14:08:44] INFO root fetch - main [MainThread]: Store serial: [23361598]
+[2024-05-24 14:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361598]
+[2024-05-24 14:10:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: standardbots
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyexclient
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyapp
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SIST02-converter
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lektricowifi
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alteia
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: standardbots
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nice-gui-utils
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentf-tools-nightly
+[2024-05-24 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyapp
+[2024-05-24 14:10:53] INFO root fetch - processPackages [hyapp]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 14:10:53] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.7] Old Version: [2.20240401.6]
+[2024-05-24 14:10:53] INFO root fetch - processPackages [SIST02-converter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 14:10:53] INFO root fetch - processPackages [pyexclient]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 14:10:53] INFO root fetch - processPackages [hyapp]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 14:10:53] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.7] Old Version: [2.20240401.6]
+[2024-05-24 14:10:54] INFO root fetch - processPackages [lektricowifi]: New version: [0.0.9] Old Version: [0.0.28]
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/57/f4/893ae93b54e57aa0936e3b5a8b84af1fed6a0fab3bd82040699491df4dff/standardbots-2.20240401.6.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/a5/6e/e9424caf8f5fad291b507c275e23a8ebd1e6fb4948adcd493d48c17202f9/hyapp-0.1.0.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [alteia]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-24 14:10:54] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/b8/36/60177dd64e9c7bda768af7681397ef84f7e86d92380f1600256a9b0b12cc/SIST02-Converter-0.1.3.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [nice-gui-utils]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev8]
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/a5/6e/e9424caf8f5fad291b507c275e23a8ebd1e6fb4948adcd493d48c17202f9/hyapp-0.1.0.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/57/f4/893ae93b54e57aa0936e3b5a8b84af1fed6a0fab3bd82040699491df4dff/standardbots-2.20240401.6.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [pyexclient]: Downloading https://files.pythonhosted.org/packages/1c/d7/bf79277c6941a07f8be28fcf378d0e76826dae572f70a6dc7f5b494fd449/pyexclient-1.0.0-py3-none-any.whl
+[2024-05-24 14:10:54] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev746] Old Version: [0.47.0.dev743]
+[2024-05-24 14:10:54] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/ec/52/388ce260fe6468aa020ed4fbddf5c2c5449d096f439638e50d85a86d64d3/lektricowifi-0.0.28.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [alteia]: Downloading https://files.pythonhosted.org/packages/03/dd/1bbe43ce6286e80a5584aa0c950f6bb4e9d0c726a0abd173c2c34918b0f2/alteia-2.9.0.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [nice-gui-utils]: Downloading https://files.pythonhosted.org/packages/35/13/a9b5fa0d423865a040ff3688ed614edeaba98788a4d0b0ff45667d96e4ec/nice_gui_utils-0.3.1.dev8.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/26/49/7e80c6b61a5fad92bdbae38a9c4d4b3cb55436210f2715818f9d90c8d082/standardbots-2.20240401.7.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/ab/24/544956ef7949caf405679b0871b56230583fcceab950a62869be65a525ee/hyapp-0.2.0.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/bf/6b/13095e0378c2b186424fd32bb0ae2d2e59dc422d46a54596ec77e747014d/opentf_tools_nightly-0.47.0.dev743-py3-none-any.whl
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/26/49/7e80c6b61a5fad92bdbae38a9c4d4b3cb55436210f2715818f9d90c8d082/standardbots-2.20240401.7.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [pyexclient]: Downloading https://files.pythonhosted.org/packages/e4/5c/6dbda5cf8e51e8f87d16aa73ae6e9b5edf1524a0f3e4b4968d706fba35dc/pyexclient-1.0.1-py3-none-any.whl
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/ab/24/544956ef7949caf405679b0871b56230583fcceab950a62869be65a525ee/hyapp-0.2.0.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/ed/2d/c43ffbd114f14921ed5832a49aac396e0bee6e6c75f290b381cf34f2b976/SIST02-converter-0.1.4.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240401.6.tar.gz tmp/standardbots-2.20240401.7.tar.gz --markdown 20240524/s/standardbots/2.20240401.6-2.20240401.7/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyapp-0.1.0.tar.gz tmp/hyapp-0.2.0.tar.gz --markdown 20240524/h/hyapp/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240401.6.tar.gz tmp/standardbots-2.20240401.7.tar.gz --markdown 20240524/s/standardbots/2.20240401.6-2.20240401.7/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [pyexclient]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [pyexclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexclient-1.0.0-py3-none-any.whl.zip tmp/pyexclient-1.0.1-py3-none-any.whl.zip --markdown 20240524/p/pyexclient/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/14/11/f224fa1f58d2852240b73632f6f13082434177fb1ee9610a7285b6225a73/lektricowifi-0.0.9.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [SIST02-converter]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [SIST02-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIST02-Converter-0.1.3.tar.gz tmp/SIST02-converter-0.1.4.tar.gz --markdown 20240524/S/SIST02-converter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [hyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyapp-0.1.0.tar.gz tmp/hyapp-0.2.0.tar.gz --markdown 20240524/h/hyapp/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [alteia]: Downloading https://files.pythonhosted.org/packages/83/97/462486cd2a1363b277d00e996e2015fe14f71990faa27d742578a6de36d1/alteia-2.9.1.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [lektricowifi]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [lektricowifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektricowifi-0.0.28.tar.gz tmp/lektricowifi-0.0.9.tar.gz --markdown 20240524/l/lektricowifi/0.0.28-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:10:54] INFO root fetch - processPackages [nice-gui-utils]: Downloading https://files.pythonhosted.org/packages/87/8f/2c161be5499b7f5a4fff4c9813a7aa0cfe7bf2df328921a9a13c5f19c5c4/nice_gui_utils-0.3.1.dev9.tar.gz
+[2024-05-24 14:10:54] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/ab/26/6173846e873e8c4ed4799f0ace55552f0ad3d81291d7f4a07de718cd469e/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl
+[2024-05-24 14:10:54] INFO root fetch - processPackages [alteia]: executing diffoscope
+[2024-05-24 14:10:54] INFO root fetch - processPackages [alteia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alteia-2.9.0.tar.gz tmp/alteia-2.9.1.tar.gz --markdown 20240524/a/alteia/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-24 14:10:55] INFO root fetch - processPackages [nice-gui-utils]: executing diffoscope
+[2024-05-24 14:10:55] INFO root fetch - processPackages [nice-gui-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice_gui_utils-0.3.1.dev8.tar.gz tmp/nice_gui_utils-0.3.1.dev9.tar.gz --markdown 20240524/n/nice-gui-utils/0.3.1.dev8-0.3.1.dev9/README.md --exclude *.pyd
+[2024-05-24 14:10:55] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-05-24 14:10:55] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev743-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip --markdown 20240524/o/opentf-tools-nightly/0.47.0.dev743-0.47.0.dev746/README.md --exclude *.pyd
+[2024-05-24 14:10:55] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.6.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.7.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02-Converter-0.1.3.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02-converter-0.1.4.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [SIST02-converter]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [hyapp]: Remove: archive file [/home/abi/fetcher/tmp/hyapp-0.1.0.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [hyapp]: Remove: archive file [/home/abi/fetcher/tmp/hyapp-0.2.0.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [hyapp]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [pyexclient]: Remove: archive file [/home/abi/fetcher/tmp/pyexclient-1.0.0-py3-none-any.whl.zip]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [pyexclient]: Remove: archive file [/home/abi/fetcher/tmp/pyexclient-1.0.1-py3-none-any.whl.zip]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [pyexclient]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.28.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.9.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [lektricowifi]: success
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [hyapp]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [nice-gui-utils]: Remove: archive file [/home/abi/fetcher/tmp/nice_gui_utils-0.3.1.dev8.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [nice-gui-utils]: Remove: archive file [/home/abi/fetcher/tmp/nice_gui_utils-0.3.1.dev9.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [nice-gui-utils]: success
+[2024-05-24 14:10:55] INFO root fetch - processPackages [alteia]: Remove: archive file [/home/abi/fetcher/tmp/alteia-2.9.0.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - processPackages [alteia]: Remove: archive file [/home/abi/fetcher/tmp/alteia-2.9.1.tar.gz]
+[2024-05-24 14:10:55] INFO root fetch - main [MainThread]: End processing [alteia]: success
+[2024-05-24 14:10:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev743-py3-none-any.whl.zip]
+[2024-05-24 14:10:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev746-py3-none-any.whl.zip]
+[2024-05-24 14:10:56] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-05-24 14:10:56] INFO root fetch - main [MainThread]: Store serial: [23361621]
