@@ -7568,3 +7568,29 @@
 [2024-05-24 03:44:39] ERROR root fetch - processPackages [JupyterExport]: Unable to get metadata: No such project 'JupyterExport'
 [2024-05-24 03:44:39] INFO root fetch - main [MainThread]: End processing [JupyterExport] error
 [2024-05-24 03:44:39] INFO root fetch - main [MainThread]: Store serial: [23355354]
+[2024-05-24 03:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355354]
+[2024-05-24 03:46:48] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 03:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355358]
+[2024-05-24 03:48:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 03:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_medilab_dental
+[2024-05-24 03:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mgktools
+[2024-05-24 03:48:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyDecision
+[2024-05-24 03:48:53] INFO root fetch - processPackages [mgktools]: New version: [2.1.1] Old Version: [2.0.1]
+[2024-05-24 03:48:53] WARNING root fetch - processPackages [django_medilab_dental]: Skipping, unable to determine old version
+[2024-05-24 03:48:53] INFO root fetch - processPackages [pyDecision]: New version: [4.5.7] Old Version: [4.5.5]
+[2024-05-24 03:48:53] INFO root fetch - main [MainThread]: End processing [django_medilab_dental] error
+[2024-05-24 03:48:54] INFO root fetch - processPackages [mgktools]: Downloading https://files.pythonhosted.org/packages/3c/02/21cbae1e5797c569a813380c329a9df28b3f058f084044979c00611287fc/mgktools-2.0.1.tar.gz
+[2024-05-24 03:48:54] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/71/f3/acc02b3ff4678e7b332cda22e184e22f4bdfade49ae7440b68026ce3be57/pyDecision-4.5.5.tar.gz
+[2024-05-24 03:48:54] INFO root fetch - processPackages [mgktools]: Downloading https://files.pythonhosted.org/packages/57/1c/2baf1646ca0f046fbaf64ebc3cc89cef89c51467562b4251195505a16ff1/mgktools-2.1.1.tar.gz
+[2024-05-24 03:48:54] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/9d/4e/739e94fc06aa3c48d110c89a220b4c608a2f7d308dd6e1758bb2d7c80644/pyDecision-4.5.7.tar.gz
+[2024-05-24 03:48:54] INFO root fetch - processPackages [mgktools]: executing diffoscope
+[2024-05-24 03:48:54] INFO root fetch - processPackages [mgktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgktools-2.0.1.tar.gz tmp/mgktools-2.1.1.tar.gz --markdown 20240524/m/mgktools/2.0.1-2.1.1/README.md --exclude *.pyd
+[2024-05-24 03:48:54] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2024-05-24 03:48:54] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.5.5.tar.gz tmp/pyDecision-4.5.7.tar.gz --markdown 20240524/p/pyDecision/4.5.5-4.5.7/README.md --exclude *.pyd
+[2024-05-24 03:48:55] INFO root fetch - processPackages [mgktools]: Remove: archive file [/home/abi/fetcher/tmp/mgktools-2.0.1.tar.gz]
+[2024-05-24 03:48:55] INFO root fetch - processPackages [mgktools]: Remove: archive file [/home/abi/fetcher/tmp/mgktools-2.1.1.tar.gz]
+[2024-05-24 03:48:55] INFO root fetch - main [MainThread]: End processing [mgktools]: success
+[2024-05-24 03:48:55] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.5.tar.gz]
+[2024-05-24 03:48:55] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.7.tar.gz]
+[2024-05-24 03:48:55] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2024-05-24 03:48:55] INFO root fetch - main [MainThread]: Store serial: [23355370]
