@@ -14327,3 +14327,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:37:33] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
 [2024-05-24 09:37:33] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2024-05-24 09:37:33] INFO root fetch - main [MainThread]: Store serial: [23358077]
+[2024-05-24 09:39:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358077]
+[2024-05-24 09:39:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrable
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddle-python-sdk
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-base-tier-validation
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-preprocessing-library-sevvalcucuk-asudesozcu
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AAIT
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autotrain-advanced
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: superb-ai-curate
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-date-range
+[2024-05-24 09:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-tier-validation
+[2024-05-24 09:39:43] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 09:39:43] WARNING root fetch - processPackages [data-preprocessing-library-sevvalcucuk-asudesozcu]: Skipping, unable to determine old version
+[2024-05-24 09:39:43] INFO root fetch - processPackages [data-preprocessing-library-sevvalcucuk-asudesozcu]: Start processing: odoo-addon-base-optional-quick-create
+[2024-05-24 09:39:43] INFO root fetch - main [MainThread]: End processing [data-preprocessing-library-sevvalcucuk-asudesozcu] error
+[2024-05-24 09:39:43] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [paddle-python-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-24 09:39:43] INFO root fetch - processPackages [superb-ai-curate]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: New version: [14.0.4.0.1.dev9] Old Version: [14.0.4.0.1.dev8]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [odoo-addon-date-range]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/df/66/808ea4334f7510caeb9e6ec1e28a97d1bd46f508e4316d0ebd472d657372/AAIT-0.0.2.2.tar.gz
+[2024-05-24 09:39:43] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-24 09:39:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.1.2] Old Version: [17.0.1.5.1.1]
+[2024-05-24 09:39:43] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-24 09:39:44] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-24 09:39:44] INFO root fetch - processPackages [paddle-python-sdk]: Downloading https://files.pythonhosted.org/packages/bb/c0/cb473eab5085a46e71e11b42144fa27132fb9b9cb98296be20fd78c990f3/paddle_python_sdk-0.1.0.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/52/5a/1bcd3f2e4c207714068b40754bf71df54394d5145445947e000982e74f87/odoo14_addon_base_tier_validation-14.0.4.0.1.dev8-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/02/4a/11d0330948a716c11e65727d26ad5285f9f7c96e9a2b2aa04eaaaa169821/superb_ai_curate-1.2.2.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Downloading https://files.pythonhosted.org/packages/ea/3e/ab514293b8c2f8d40069a2624e4dd16b8e07c2342dd0400f8f356650b142/odoo_addon_base_optional_quick_create-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/56/f1/54e5707b84be7467b9dcc3f4d64cf220d9a8b175ccbd115a40d28e073717/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/b4/15/c040ca169cf97bef17b15dda0cab96ee093cf7d749454b991048e42dcf59/odoo_addon_date_range-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d8/4c/a57fe5dc80fe1c04db23903261d5d0320d8477c1efc1461f1d2ce5ccc1e4/autotrain-advanced-0.7.99.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/62/48/62073c4cdc2c3b2baa71ec8ea61ad3cf424082b77fb3cfde60c58852d97e/AAIT-0.0.2.3.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-24 09:39:44] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-24 09:39:44] INFO root fetch - processPackages [lalsuite]: Start processing: aiorobonect
+[2024-05-24 09:39:44] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-24 09:39:44] INFO root fetch - processPackages [aiorobonect]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 09:39:44] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.98.tar.gz tmp/autotrain-advanced-0.7.99.tar.gz --markdown 20240524/a/autotrain-advanced/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [paddle-python-sdk]: Downloading https://files.pythonhosted.org/packages/cc/3f/904157ba8c26d44a913fb350cec54fb91f6e4c1bf996342bfdd7f0a214b3/paddle_python_sdk-0.1.1.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.2.tar.gz tmp/AAIT-0.0.2.3.tar.gz --markdown 20240524/A/AAIT/0.0.2.2-0.0.2.3/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/3a/d5/dfaf16c5da2d96abfe8abdde4eafa19211e71eba8e84b1e2fa8548d2fd91/superb_ai_curate-1.3.0.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240524/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/63/e6/ec6fa72076bb5bc38e615d71a0fefa3c5ce8062fc2c3d212ab152aec3962/aiorobonect-1.0.2.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Downloading https://files.pythonhosted.org/packages/95/f8/4716874315bda69d1959e9cfc7be701711f541fbff5dc60429cf8bed7bfa/odoo_addon_base_optional_quick_create-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/fe/78/1eaaf3cc6b3bc1d673baa1ee229418bdea9cf872026271de652c64c802cc/odoo14_addon_base_tier_validation-14.0.4.0.1.dev9-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/64/78/cff42998e5761f7a858fb7dd027d40b85cb82d87e122b390d7e95b76fbda/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl
+[2024-05-24 09:39:44] INFO root fetch - processPackages [paddle-python-sdk]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [paddle-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle_python_sdk-0.1.0.tar.gz tmp/paddle_python_sdk-0.1.1.tar.gz --markdown 20240524/p/paddle-python-sdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [superb-ai-curate]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [superb-ai-curate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb_ai_curate-1.2.2.tar.gz tmp/superb_ai_curate-1.3.0.tar.gz --markdown 20240524/s/superb-ai-curate/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation-14.0.4.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation-14.0.4.0.1.dev9-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-base-tier-validation/14.0.4.0.1.dev8-14.0.4.0.1.dev9/README.md --exclude *.pyd
+[2024-05-24 09:39:44] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/18/db/881fba7f08b6ac6fd2c1497e458f96839a9c05f26729ee4e132706c844aa/aiorobonect-1.0.3.tar.gz
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: executing diffoscope
+[2024-05-24 09:39:44] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-optional-quick-create/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-tier-validation/17.0.1.5.1.1-17.0.1.5.1.2/README.md --exclude *.pyd
+[2024-05-24 09:39:45] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2024-05-24 09:39:45] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-1.0.2.tar.gz tmp/aiorobonect-1.0.3.tar.gz --markdown 20240524/a/aiorobonect/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/24/4b/10462b09a5229c8d8642b9316e331c86f2f5c82aa6c5f986279d41d227e6/odoo_addon_date_range-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 09:39:45] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.2.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.3.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [AAIT]: Start processing: odoo-addon-date-range
+[2024-05-24 09:39:45] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/24/4b/10462b09a5229c8d8642b9316e331c86f2f5c82aa6c5f986279d41d227e6/odoo_addon_date_range-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 09:39:45] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: executing diffoscope
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_date_range-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_date_range-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-date-range/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 09:39:45] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.2.2.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.3.0.tar.gz]
+[2024-05-24 09:39:45] INFO root fetch - main [MainThread]: End processing [superb-ai-curate]: success
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-24 09:39:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-optional-quick-create]: success
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: executing diffoscope
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_date_range-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_date_range-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-date-range/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip]
+[2024-05-24 09:39:45] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.2-py3-none-any.whl.zip]
+[2024-05-24 09:39:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-05-24 09:39:46] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.2.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - processPackages [aiorobonect]: Remove: archive file [/home/abi/fetcher/tmp/aiorobonect-1.0.3.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2024-05-24 09:39:46] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.4.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-24 09:39:46] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.4.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation]: success
+[2024-05-24 09:39:46] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.99.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-24 09:39:46] INFO root fetch - processPackages [paddle-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paddle_python_sdk-0.1.0.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - processPackages [paddle-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paddle_python_sdk-0.1.1.tar.gz]
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [paddle-python-sdk]: success
+[2024-05-24 09:39:46] INFO root fetch - processPackages [odoo-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 09:39:46] INFO root fetch - processPackages [odoo-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
+[2024-05-24 09:39:46] INFO root fetch - main [MainThread]: Store serial: [23358125]
