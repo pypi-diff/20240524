@@ -16410,3 +16410,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:44:43] INFO root fetch - processPackages [nodeocc]: Remove: archive file [/home/abi/fetcher/tmp/nodeocc-1.0.9.tar.gz]
 [2024-05-24 10:44:43] INFO root fetch - main [MainThread]: End processing [nodeocc]: success
 [2024-05-24 10:44:43] INFO root fetch - main [MainThread]: Store serial: [23358930]
+[2024-05-24 10:46:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358930]
+[2024-05-24 10:46:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandex-taxi-testsuite
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-it-fatturapa-import-zip
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdbeccdutils
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dzidb
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SBGeom
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-database-cleanup
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: youwol
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythub
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-waiter
+[2024-05-24 10:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zalando-kubectl
+[2024-05-24 10:46:53] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-05-24 10:46:53] WARNING root fetch - processPackages [pythub]: Skipping, unable to determine old version
+[2024-05-24 10:46:53] INFO root fetch - processPackages [pythub]: Start processing: flatpack
+[2024-05-24 10:46:53] INFO root fetch - main [MainThread]: End processing [pythub] error
+[2024-05-24 10:46:53] INFO root fetch - processPackages [dzidb]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [yandex-taxi-testsuite]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fe/63/d1bb2af2b3adec404b4be95bcaaa8777907679a26582b251396b0bd56763/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 10:46:53] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [youwol]: New version: [0.1.9rc1] Old Version: [0.1.9rc0]
+[2024-05-24 10:46:53] WARNING root fetch - processPackages [SBGeom]: Skipping, unable to determine old version
+[2024-05-24 10:46:53] INFO root fetch - processPackages [SBGeom]: Start processing: cace
+[2024-05-24 10:46:53] INFO root fetch - main [MainThread]: End processing [SBGeom] error
+[2024-05-24 10:46:53] INFO root fetch - processPackages [pdbeccdutils]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [nonebot-plugin-waiter]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/d4/50/5fc95e69413484c42ffa9c6eae2bc6fdc142ea5ee52326a656c4fae6a8d0/dzidb-1.2.7-py3-none-any.whl
+[2024-05-24 10:46:53] INFO root fetch - processPackages [cace]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-24 10:46:53] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/97/b1/2cc4d85d991cb59c3462a53d9571631005fc4dcb77203483f3f2daff731c/yandex-taxi-testsuite-0.1.9.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: Downloading https://files.pythonhosted.org/packages/ea/df/2fd203fbde688ee7939994e12bcec50e948a56ed425957b73cd095313225/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.2-py3-none-any.whl
+[2024-05-24 10:46:53] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/93/c5/fb22dea0343819de441f782e2a1a6d066b18976f32e748ce5af0da2b64ee/cace-2.2.4.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/d1/0b/3346293495321ca05f54f22bf76428fb93c279cd896a7bb38c3fba2dbc19/youwol-0.1.9rc0.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [nonebot-plugin-waiter]: Downloading https://files.pythonhosted.org/packages/4c/4c/8ea28acb2fb70cff82d9c72e60f101e5f3073646d3d32e154b9ca0803f6b/nonebot_plugin_waiter-0.4.1.tar.gz
+[2024-05-24 10:46:53] INFO root fetch - processPackages [pdbeccdutils]: Downloading https://files.pythonhosted.org/packages/1d/08/85d5d8d7bed19a3f89e12cc8a756f0a9f78a4c5afa36b40669e25d9db9ad/pdbeccdutils-0.8.4.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/36/66/b824ab12eeac992447a80275dab41bb215db6773df95ae685c02e8c4b9ef/dzidb-1.2.8-py3-none-any.whl
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/e5/35/05a2a02bc6eb6e521b86089aa47070692bc2ac10a1533900aec0acd345e5/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-24 10:46:54] INFO root fetch - processPackages [yandex-taxi-testsuite]: Downloading https://files.pythonhosted.org/packages/e3/fb/864f2338fa3903a375f577215f0c76a12eae61af2fae665d82fdc88018b0/yandex-taxi-testsuite-0.1.9.1.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: Downloading https://files.pythonhosted.org/packages/6d/9b/da6ecfc4be7ab961b666f47935c7fc73c5dae7ebceda7ec0db5b5f7742fb/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.3-py3-none-any.whl
+[2024-05-24 10:46:54] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.2.7-py3-none-any.whl.zip tmp/dzidb-1.2.8-py3-none-any.whl.zip --markdown 20240524/d/dzidb/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/9e/42/3d7811c7a33214ffdf0537d9231f2ae903e06631b1c085abb5a00cf99ca5/youwol-0.1.9rc1.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-database-cleanup/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/67/33/29e0da1e4822b09409c1f9cb6927c56682cf6cae2d065cac0960c187b2d9/cace-2.2.5.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [nonebot-plugin-waiter]: Downloading https://files.pythonhosted.org/packages/e6/65/ff916f755f907ae31e8e1bebd92d273b8ecc8b364fd7baca340c50b02b84/nonebot_plugin_waiter-0.5.0.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240524/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [pdbeccdutils]: Downloading https://files.pythonhosted.org/packages/1a/b0/632f7692b29bdfe95eac7e00ce1c62a868aeaa6e3bd576b4d05c699f6c80/pdbeccdutils-0.8.5.tar.gz
+[2024-05-24 10:46:54] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.9rc0.tar.gz tmp/youwol-0.1.9rc1.tar.gz --markdown 20240524/y/youwol/0.1.9rc0-0.1.9rc1/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-l10n-it-fatturapa-import-zip/14.0.1.0.2-14.0.1.0.3/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.2.4.tar.gz tmp/cace-2.2.5.tar.gz --markdown 20240524/c/cace/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240524/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [nonebot-plugin-waiter]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [nonebot-plugin-waiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_waiter-0.4.1.tar.gz tmp/nonebot_plugin_waiter-0.5.0.tar.gz --markdown 20240524/n/nonebot-plugin-waiter/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [yandex-taxi-testsuite]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [yandex-taxi-testsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex-taxi-testsuite-0.1.9.tar.gz tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz --markdown 20240524/y/yandex-taxi-testsuite/0.1.9-0.1.9.1/README.md --exclude *.pyd
+[2024-05-24 10:46:54] INFO root fetch - processPackages [pdbeccdutils]: executing diffoscope
+[2024-05-24 10:46:54] INFO root fetch - processPackages [pdbeccdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdbeccdutils-0.8.4.tar.gz tmp/pdbeccdutils-0.8.5.tar.gz --markdown 20240524/p/pdbeccdutils/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-24 10:46:55] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.7-py3-none-any.whl.zip]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.8-py3-none-any.whl.zip]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [dzidb]: Start processing: scegot
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [scegot]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [scegot]: Downloading https://files.pythonhosted.org/packages/d4/de/cabf5ee934e7ccc9a4f1eeb1ffcda04708d1495ea7bedfb9ccd7f2726fe3/scegot-0.1.7.tar.gz
+[2024-05-24 10:46:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [scegot]: Downloading https://files.pythonhosted.org/packages/3a/93/ef8797caae835c36b5a9abbd03efced4a93018f5bb9ff7cf65d4be02e520/scegot-0.2.0.tar.gz
+[2024-05-24 10:46:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-import-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_import_zip-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-import-zip]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [scegot]: executing diffoscope
+[2024-05-24 10:46:55] INFO root fetch - processPackages [scegot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scegot-0.1.7.tar.gz tmp/scegot-0.2.0.tar.gz --markdown 20240524/s/scegot/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-24 10:46:55] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [nonebot-plugin-waiter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_waiter-0.4.1.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [nonebot-plugin-waiter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_waiter-0.5.0.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-waiter]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [yandex-taxi-testsuite]: Remove: archive file [/home/abi/fetcher/tmp/yandex-taxi-testsuite-0.1.9.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [yandex-taxi-testsuite]: Remove: archive file [/home/abi/fetcher/tmp/yandex-taxi-testsuite-0.1.9.1.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [yandex-taxi-testsuite]: success
+[2024-05-24 10:46:55] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.4.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.2.5.tar.gz]
+[2024-05-24 10:46:55] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-05-24 10:46:56] INFO root fetch - processPackages [pdbeccdutils]: Remove: archive file [/home/abi/fetcher/tmp/pdbeccdutils-0.8.4.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - processPackages [pdbeccdutils]: Remove: archive file [/home/abi/fetcher/tmp/pdbeccdutils-0.8.5.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - main [MainThread]: End processing [pdbeccdutils]: success
+[2024-05-24 10:46:56] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 10:46:56] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 10:46:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-24 10:46:56] INFO root fetch - processPackages [scegot]: Remove: archive file [/home/abi/fetcher/tmp/scegot-0.1.7.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - processPackages [scegot]: Remove: archive file [/home/abi/fetcher/tmp/scegot-0.2.0.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - main [MainThread]: End processing [scegot]: success
+[2024-05-24 10:46:56] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc0.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
+[2024-05-24 10:46:56] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2024-05-24 10:46:56] INFO root fetch - main [MainThread]: Store serial: [23358997]
