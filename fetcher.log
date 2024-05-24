@@ -12924,3 +12924,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:38:42] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.2.0.tar.gz]
 [2024-05-24 08:38:42] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-24 08:38:42] INFO root fetch - main [MainThread]: Store serial: [23357493]
+[2024-05-24 08:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357493]
+[2024-05-24 08:40:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-origin
+[2024-05-24 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-packaging-level
+[2024-05-24 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-standard-price-tax-included
+[2024-05-24 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2024-05-24 08:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-set
+[2024-05-24 08:40:51] INFO root fetch - processPackages [xklb]: New version: [2.8.9] Old Version: [2.8.7]
+[2024-05-24 08:40:51] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2024-05-24 08:40:51] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2024-05-24 08:40:51] INFO root fetch - processPackages [odoo-addon-product-origin]: New version: [16.0.1.0.0.15] Old Version: [16.0.1.0.0.14]
+[2024-05-24 08:40:51] INFO root fetch - processPackages [odoo-addon-product-set]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-05-24 08:40:51] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d0/4c/dd8350e7201f303ad86c28ba6e4c3856a9aebf36175bf2091b4f223b9c8c/xklb-2.8.7.tar.gz
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: Downloading https://files.pythonhosted.org/packages/f2/ae/3ec289143894bd8a0925e2b46e6b3fe17bcd2ff66fc5547a0ddfc222a0c8/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-origin]: Downloading https://files.pythonhosted.org/packages/61/08/82476f4d9f9867fa7361b1242f5109e05816652be5b6e3fc7de6c6b5fa94/odoo_addon_product_origin-16.0.1.0.0.14-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Downloading https://files.pythonhosted.org/packages/9f/c8/31b27ce86c76bcd6a48cd0897ee6be1335bd9d72bfc425bea590f205f404/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-set]: Downloading https://files.pythonhosted.org/packages/f1/d8/9310e666a521d5e9bd5416f25b553bc619da3f400cf8080ce14d2d016a91/odoo_addon_product_set-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/9c/400b6a77dca189a0e6b267e0a874e85e6bc388a14703931b845294411c06/xklb-2.8.9.tar.gz
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: Downloading https://files.pythonhosted.org/packages/c3/96/056dff01816769dbb97284a089b46ff753a6296784d73b80a0a55b3cbecc/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.5-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-24 08:40:52] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.7.tar.gz tmp/xklb-2.8.9.tar.gz --markdown 20240524/x/xklb/2.8.7-2.8.9/README.md --exclude *.pyd
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-origin]: Downloading https://files.pythonhosted.org/packages/ab/d0/899562d38c58d9e6ea57267fe99908c838bb830ac524f830b96b31084c91/odoo_addon_product_origin-16.0.1.0.0.15-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Downloading https://files.pythonhosted.org/packages/6a/bf/856c211ed5a44a2cad25469902cd505168605e8198df0e42a0cee00611e4/odoo_addon_product_packaging_level-16.0.1.2.0.4-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: executing diffoscope
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-standard-price-tax-included/16.0.1.0.1.4-16.0.1.0.1.5/README.md --exclude *.pyd
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-origin]: executing diffoscope
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-origin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_origin-16.0.1.0.0.14-py3-none-any.whl.zip tmp/odoo_addon_product_origin-16.0.1.0.0.15-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-origin/16.0.1.0.0.14-16.0.1.0.0.15/README.md --exclude *.pyd
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-set]: Downloading https://files.pythonhosted.org/packages/b6/8e/e88de8a380c7f9eddf2e5b9e52636c978626c0413d4e9af2909cdf81fc18/odoo_addon_product_set-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: executing diffoscope
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_packaging_level-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-packaging-level/16.0.1.2.0.3-16.0.1.2.0.4/README.md --exclude *.pyd
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-set]: executing diffoscope
+[2024-05-24 08:40:52] INFO root fetch - processPackages [odoo-addon-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_set-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_set-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-set/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-standard-price-tax-included]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_price_tax_included-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-standard-price-tax-included]: success
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-origin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_origin-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-origin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_origin-16.0.1.0.0.15-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-origin]: success
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_level-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-packaging-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_packaging_level-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-packaging-level]: success
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_set-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - processPackages [odoo-addon-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_set-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-set]: success
+[2024-05-24 08:40:53] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.7.tar.gz]
+[2024-05-24 08:40:53] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-24 08:40:53] INFO root fetch - main [MainThread]: Store serial: [23357505]
