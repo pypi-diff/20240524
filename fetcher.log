@@ -17399,3 +17399,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:11:33] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.90.tar.gz]
 [2024-05-24 11:11:33] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-24 11:11:33] INFO root fetch - main [MainThread]: Store serial: [23359374]
+[2024-05-24 11:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359374]
+[2024-05-24 11:13:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicelayer
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aapp-runner
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dzidb
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grafana-foundation-sdk
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epyfun
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cela
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eliasliu
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grafana-foundation-sdk
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: everai
+[2024-05-24 11:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SIST02-converter
+[2024-05-24 11:13:43] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dzidb]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [cela]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 11:13:43] WARNING root fetch - processPackages [SIST02-converter]: Skipping, unable to determine old version
+[2024-05-24 11:13:43] INFO root fetch - processPackages [SIST02-converter]: Start processing: python-avisheknayal
+[2024-05-24 11:13:43] INFO root fetch - main [MainThread]: End processing [SIST02-converter] error
+[2024-05-24 11:13:43] INFO root fetch - processPackages [everai]: New version: [0.1.61] Old Version: [0.1.60]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/36/66/b824ab12eeac992447a80275dab41bb215db6773df95ae685c02e8c4b9ef/dzidb-1.2.8-py3-none-any.whl
+[2024-05-24 11:13:43] INFO root fetch - processPackages [epyfun]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [aapp-runner]: New version: [0.11.0] Old Version: [0.10.0]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716541850!10.1.0] Old Version: [1716541742!11.0.0]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716541850!10.1.0] Old Version: [1716541742!11.0.0]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [eliasliu]: New version: [0.1.60] Old Version: [0.1.59]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/0f/87/0cc6ce431f828be9a610505759da701a1bb6c8deec49025d84bac87fc4c9/everai-0.1.60-py3-none-any.whl
+[2024-05-24 11:13:43] WARNING root fetch - processPackages [python-avisheknayal]: Skipping, unable to determine old version
+[2024-05-24 11:13:43] INFO root fetch - processPackages [python-avisheknayal]: Start processing: dynamicio
+[2024-05-24 11:13:43] INFO root fetch - main [MainThread]: End processing [python-avisheknayal] error
+[2024-05-24 11:13:43] INFO root fetch - processPackages [cela]: Downloading https://files.pythonhosted.org/packages/40/13/1f77937cdcd4fb1294b3afb4c548c086aa4a496905c861c396b762e34cea/cela-0.0.1-py2.py3-none-any.whl
+[2024-05-24 11:13:43] INFO root fetch - processPackages [epyfun]: Downloading https://files.pythonhosted.org/packages/62/20/b5d192aab9c13cf8ebe44182960d12d753eb52aa340c7f37351eb413b595/epyfun-0.3.3.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [aapp-runner]: Downloading https://files.pythonhosted.org/packages/93/fa/cf717fc9a65dae1d1eba4493170b1cb34630a3496ac16f3ad6e1591b51db/aapp_runner-0.10.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dynamicio]: New version: [5.0.0rc4] Old Version: [5.0.0rc3]
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/94/07/71e1c524952200b16e85b3746f03cf3f1feaf1abbfb12808e1a51284c99b/grafana_foundation_sdk-1716541742!11.0.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/cc/cd/4414a23c982e40307604bcc87ada2c4a5fb09a55155dd1929951b9e38c37/eliasliu-0.1.59.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/94/07/71e1c524952200b16e85b3746f03cf3f1feaf1abbfb12808e1a51284c99b/grafana_foundation_sdk-1716541742!11.0.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/f5/2f/d0c19f6f091114945fe4aa6f0f9f41ec41c3e553dec692ba43dc0934e3f1/dzidb-1.2.9-py3-none-any.whl
+[2024-05-24 11:13:43] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/38/6d/1a88316a2e850250733882d53b978c37ba4e7a927081547291198945e128/everai-0.1.61-py3-none-any.whl
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/0d/89/18c1870891d79962900af8a44d2e942f4036a770024f97a264fb68a57c63/dynamicio-5.0.0rc3.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [cela]: Downloading https://files.pythonhosted.org/packages/ba/45/787272fad848f016d4f8f1d2d8c1ccb8deb7f6f6d7eaaffdeb76a7651d56/cela-0.0.2-py2.py3-none-any.whl
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-24 11:13:43] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.2.8-py3-none-any.whl.zip tmp/dzidb-1.2.9-py3-none-any.whl.zip --markdown 20240524/d/dzidb/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-24 11:13:43] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-24 11:13:43] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240524/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-24 11:13:43] INFO root fetch - processPackages [epyfun]: Downloading https://files.pythonhosted.org/packages/64/6a/d6c0da355f7743ebcf50007d2c7a8f5df340a8f0086e49f3ce77ca674712/epyfun-0.3.4.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [aapp-runner]: Downloading https://files.pythonhosted.org/packages/7a/f5/926a048b465d195580936f49772cebae29cf4df9aa3360ab4529590c5d6f/aapp_runner-0.11.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-24 11:13:43] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.60-py3-none-any.whl.zip tmp/everai-0.1.61-py3-none-any.whl.zip --markdown 20240524/e/everai/0.1.60-0.1.61/README.md --exclude *.pyd
+[2024-05-24 11:13:43] INFO root fetch - processPackages [cela]: executing diffoscope
+[2024-05-24 11:13:43] INFO root fetch - processPackages [cela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cela-0.0.1-py2.py3-none-any.whl.zip tmp/cela-0.0.2-py2.py3-none-any.whl.zip --markdown 20240524/c/cela/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 11:13:43] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/41/79/7c2244598d01cc17c94b567619ad8e51a9fc14f4823d84ace3998d1f5a41/eliasliu-0.1.60.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-24 11:13:43] INFO root fetch - processPackages [epyfun]: executing diffoscope
+[2024-05-24 11:13:43] INFO root fetch - processPackages [epyfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyfun-0.3.3.tar.gz tmp/epyfun-0.3.4.tar.gz --markdown 20240524/e/epyfun/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [aapp-runner]: executing diffoscope
+[2024-05-24 11:13:44] INFO root fetch - processPackages [aapp-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aapp_runner-0.10.0.tar.gz tmp/aapp_runner-0.11.0.tar.gz --markdown 20240524/a/aapp-runner/0.10.0-0.11.0/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-24 11:13:44] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.59.tar.gz tmp/eliasliu-0.1.60.tar.gz --markdown 20240524/e/eliasliu/0.1.59-0.1.60/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/d3/aa/e39a76c74588171f41b7ff209d5d315131f8d833362605ad994d7ccf7fd0/dynamicio-5.0.0rc4.tar.gz
+[2024-05-24 11:13:44] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-24 11:13:44] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz --markdown 20240524/g/grafana-foundation-sdk/1716541742!11.0.0-1716541850!10.1.0/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-24 11:13:44] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz --markdown 20240524/g/grafana-foundation-sdk/1716541742!11.0.0-1716541850!10.1.0/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dynamicio]: executing diffoscope
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dynamicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicio-5.0.0rc3.tar.gz tmp/dynamicio-5.0.0rc4.tar.gz --markdown 20240524/d/dynamicio/5.0.0rc3-5.0.0rc4/README.md --exclude *.pyd
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.8-py3-none-any.whl.zip]
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.9-py3-none-any.whl.zip]
+[2024-05-24 11:13:44] INFO root fetch - processPackages [dzidb]: Start processing: sarus-data-spec-public
+[2024-05-24 11:13:44] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-24 11:13:44] INFO root fetch - processPackages [epyfun]: Remove: archive file [/home/abi/fetcher/tmp/epyfun-0.3.3.tar.gz]
+[2024-05-24 11:13:44] INFO root fetch - processPackages [epyfun]: Remove: archive file [/home/abi/fetcher/tmp/epyfun-0.3.4.tar.gz]
+[2024-05-24 11:13:44] INFO root fetch - main [MainThread]: End processing [epyfun]: success
+[2024-05-24 11:13:44] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.2.dev0] Old Version: [4.0.2]
+[2024-05-24 11:13:44] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-24 11:13:44] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-24 11:13:44] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-24 11:13:45] INFO root fetch - processPackages [cela]: Remove: archive file [/home/abi/fetcher/tmp/cela-0.0.1-py2.py3-none-any.whl.zip]
+[2024-05-24 11:13:45] INFO root fetch - processPackages [cela]: Remove: archive file [/home/abi/fetcher/tmp/cela-0.0.2-py2.py3-none-any.whl.zip]
+[2024-05-24 11:13:45] INFO root fetch - main [MainThread]: End processing [cela]: success
+[2024-05-24 11:13:45] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.59.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.60.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-24 11:13:45] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/19/3f/27fa78a455cf52dd2db46ec192ec7f736f684800fa84b83c18d3b49b7878/sarus_data_spec_public-4.0.2.tar.gz
+[2024-05-24 11:13:45] INFO root fetch - processPackages [aapp-runner]: Remove: archive file [/home/abi/fetcher/tmp/aapp_runner-0.10.0.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - processPackages [aapp-runner]: Remove: archive file [/home/abi/fetcher/tmp/aapp_runner-0.11.0.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - main [MainThread]: End processing [aapp-runner]: success
+[2024-05-24 11:13:45] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc3.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - processPackages [dynamicio]: Remove: archive file [/home/abi/fetcher/tmp/dynamicio-5.0.0rc4.tar.gz]
+[2024-05-24 11:13:45] INFO root fetch - main [MainThread]: End processing [dynamicio]: success
+[2024-05-24 11:13:45] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5c/f4/c0e603c32ae1cb6845c0e1f235b45776c275e27f5b7d211d0cc0cae0a239/sarus_data_spec_public-4.0.2.dev0.tar.gz
+[2024-05-24 11:13:45] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-24 11:13:45] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.2.tar.gz tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz --markdown 20240524/s/sarus-data-spec-public/4.0.2-4.0.2.dev0/README.md --exclude *.pyd
+[2024-05-24 11:13:45] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.60-py3-none-any.whl.zip]
+[2024-05-24 11:13:45] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.61-py3-none-any.whl.zip]
+[2024-05-24 11:13:45] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-24 11:13:46] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541742!11.0.0.tar.gz]
+[2024-05-24 11:13:46] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz]
+[2024-05-24 11:13:46] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-24 11:13:46] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-24 11:13:46] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.tar.gz]
+[2024-05-24 11:13:46] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz]
+[2024-05-24 11:13:46] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-24 11:13:46] INFO root fetch - main [MainThread]: Store serial: [23359411]
