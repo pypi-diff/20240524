@@ -17115,3 +17115,157 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:04:53] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.7.1.tar.gz]
 [2024-05-24 11:04:53] INFO root fetch - main [MainThread]: End processing [foxes]: success
 [2024-05-24 11:04:53] INFO root fetch - main [MainThread]: Store serial: [23359263]
+[2024-05-24 11:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359263]
+[2024-05-24 11:07:04] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.core
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: distcrab
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.cloud
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.tabular
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sardana-nxsrecorder
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOghma
+[2024-05-24 11:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2024-05-24 11:07:04] INFO root fetch - processPackages [PyOghma]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240523] Old Version: [0.4.0b20240522]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240524] Old Version: [1.1.1b20240523]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [distcrab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [sardana-nxsrecorder]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/5e/4e/b11dd7f410f109744f311b907497fe919e30fd0b62e77e9feed8ef5de2c9/autogluon.tabular-1.1.1b20240522.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/f2/78/107926438c69f079c73229506fb90b7c3db85020969a36008328ae161810/autogluon.multimodal-1.1.1b20240522.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/e7/07/cccc8b9a23ffe37f3ef79efccac878312cbc2340af0a1e660cc5127d4b52/autogluon.cloud-0.4.0b20240522.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/31/03/2b0a255c5ef6cb0db60dedd7cf9bdc372a4773d25ebb5839b0049da01fb5/autogluon.common-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/0f/b7/16a10064a0231736f0d6de5e9f9c60c5aaee4328942689347d6101075de6/pyoghma-0.0.6.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/a9/45/1d07590c35b3629c905986d1751d722a3796f5ed90f7ad9916eac0d7d9e7/autogluon.core-1.1.1b20240522.tar.gz
+[2024-05-24 11:07:04] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271419>=10485760
+[2024-05-24 11:07:04] INFO root fetch - processPackages [PyOghma]: Start processing: mia-vgg
+[2024-05-24 11:07:04] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-24 11:07:04] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/03/eb/ebc8bd95fc1ecfcf4dd95daa26d48903698867a1f3fb921f4b003ac24bd8/autogluon.features-1.1.1b20240522.tar.gz
+[2024-05-24 11:07:04] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/dc/ac/54f66fb4b83a926c3839c5502dcbe0f0a0a00e21f943dd692399b994b5b0/distcrab-0.0.8.tar.gz
+[2024-05-24 11:07:05] WARNING root fetch - processPackages [mia-vgg]: Skipping, unable to determine old version
+[2024-05-24 11:07:05] INFO root fetch - processPackages [mia-vgg]: Start processing: autogluon.timeseries
+[2024-05-24 11:07:05] INFO root fetch - main [MainThread]: End processing [mia-vgg] error
+[2024-05-24 11:07:05] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/1d/1c/abdf8355a1e02a330d34c8a32f2717b6b3ac504f21d6dec10aa008fbb851/sardana-nxsrecorder-3.9.1.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/83/5b/6b91d85becd21969a60a26b803e34e8507ccf38c4ff1b03aae9d672d0631/autogluon.cloud-0.4.0b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/42/60/8f1f94265f20a9b4c5e81e778ab685e49a7876e33b05b4aa02b4300a6b30/autogluon.tabular-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/37/5e/5a0c2528dad3e88f239096f7cc8005380e2338af2eac98f903e975e39898/autogluon.common-1.1.1b20240524.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240524/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/19/df/565f701abee65a9d611668850c424b535eedfe3c8d38da587941c7c14360/autogluon.core-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ad/f6/009c6119a6cc5a1b28b7bab470617abd51c61d4424a11f791b2d272b94a4/autogluon.timeseries-1.1.1b20240522.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [distcrab]: Downloading https://files.pythonhosted.org/packages/bb/77/3651b4f9952f0091761a1bce6614d428b71ebcfce2aaeae915a5c1b7e324/distcrab-0.0.9.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/89/2e/737f4b2afdc2da70c9778dd3d3e4969c1aa3c8457b0f0138ddd3bcdca389/autogluon.multimodal-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/bb/d9/f16ebf944743e553902374af8f1532041d082d6def346975c89da917abc3/autogluon.features-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240522.tar.gz tmp/autogluon.cloud-0.4.0b20240523.tar.gz --markdown 20240524/a/autogluon.cloud/0.4.0b20240522-0.4.0b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240522.tar.gz tmp/autogluon.tabular-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.tabular/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240522.tar.gz tmp/autogluon.core-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.core/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/22/56/3ba2b4035af19c2da8e7160365c3c06e834b747c243650261705211be616/sardana-nxsrecorder-3.9.2.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240522.tar.gz tmp/autogluon.multimodal-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.multimodal/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240523.tar.gz tmp/autogluon.common-1.1.1b20240524.tar.gz --markdown 20240524/a/autogluon.common/1.1.1b20240523-1.1.1b20240524/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [distcrab]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [distcrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distcrab-0.0.8.tar.gz tmp/distcrab-0.0.9.tar.gz --markdown 20240524/d/distcrab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240522.tar.gz tmp/autogluon.features-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.features/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [sardana-nxsrecorder]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [sardana-nxsrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardana-nxsrecorder-3.9.1.tar.gz tmp/sardana-nxsrecorder-3.9.2.tar.gz --markdown 20240524/s/sardana-nxsrecorder/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/0f/a0/11e4077e0b3a82d39df2009fa3809124f1774ddd60d8a357b3a70762ae98/autogluon.timeseries-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-24 11:07:05] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240522.tar.gz tmp/autogluon.timeseries-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.timeseries/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:07:06] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [flatpack]: Start processing: bec-widgets
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.8.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [distcrab]: Remove: archive file [/home/abi/fetcher/tmp/distcrab-0.0.9.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [distcrab]: Start processing: autogluon
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [distcrab]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240522.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.cloud]: Start processing: PySide6
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240522.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.core]: Start processing: wizata-dsapi
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [PySide6]: New version: [6.7.1] Old Version: [6.7.0]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240524] Old Version: [1.1.1b20240523]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240522.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.features]: Start processing: geo-roughness-tool
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [wizata-dsapi]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240522.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.tabular]: Start processing: PySide6-Examples
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240524.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.common]: Start processing: SIST02-converter
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.1.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.2.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [sardana-nxsrecorder]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.10.dev0] Old Version: [0.4.0]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/07/92/f06dacad81e3ae11dc96775baacb2a983c83fc57e75f39651d78b2e3acbf/PySide6-6.7.0-cp39-abi3-win_amd64.whl
+[2024-05-24 11:07:06] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/89/ae/83fcfd6946a00d64c823b9a728cb65edbb41499fc50007c210cadf617574/wizata_dsapi-1.0.5.tar.gz
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240522.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-24 11:07:06] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/43/80/c510ed7c2735ad146b3ee98ad4305d0959095f031297a73f3dd232918fb3/geo_roughness_tool-0.4.0.tar.gz
+[2024-05-24 11:07:06] INFO root fetch - processPackages [PySide6-Examples]: New version: [6.7.1] Old Version: [6.7.0]
+[2024-05-24 11:07:06] WARNING root fetch - processPackages [SIST02-converter]: Skipping, unable to determine old version
+[2024-05-24 11:07:06] INFO root fetch - main [MainThread]: End processing [SIST02-converter] error
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/c0/29/83abda0ef5c332213796a538c3c6186721ade20f9993bdfe859e83247aee/autogluon-1.1.1b20240523.tar.gz
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240522.tar.gz]
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:07] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-24 11:07:07] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-05-24 11:07:07] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-05-24 11:07:07] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240524/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 11:07:07] INFO root fetch - processPackages [PySide6-Examples]: Downloading https://files.pythonhosted.org/packages/e6/d1/4e11572620fa8f1b7789c452720d63a7fb0a106762c984b62c3b725d517c/PySide6_Examples-6.7.0-cp39-abi3-win_amd64.whl
+[2024-05-24 11:07:07] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/7f/f4/2aac24f49850f35226581a6e3d833462b80214e6faa56eeb5887fc55b31f/PySide6-6.7.1-cp39-abi3-win_amd64.whl
+[2024-05-24 11:07:07] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/fe/0f/c49fab0db24cea66a6c4cb60cf68e8c50c6fe61ff240c484ff8a2bb630fc/wizata-dsapi-1.0.6.tar.gz
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/f5/0d/b9527b81a255cf75f94f4a578ab5143731b3665ebce93218eb8c5a362a28/autogluon-1.1.1b20240524.tar.gz
+[2024-05-24 11:07:07] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/b5/3b/65c93d4c90f1c7221de41254fcfb1e333bc50d0517d70add3f458e0ffcaa/geo_roughness_tool-0.4.10.dev0.tar.gz
+[2024-05-24 11:07:07] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-05-24 11:07:07] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata_dsapi-1.0.5.tar.gz tmp/wizata-dsapi-1.0.6.tar.gz --markdown 20240524/w/wizata-dsapi/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-24 11:07:07] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240523.tar.gz tmp/autogluon-1.1.1b20240524.tar.gz --markdown 20240524/a/autogluon/1.1.1b20240523-1.1.1b20240524/README.md --exclude *.pyd
+[2024-05-24 11:07:07] INFO root fetch - processPackages [PySide6]: executing diffoscope
+[2024-05-24 11:07:07] INFO root fetch - processPackages [PySide6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-6.7.0-cp39-abi3-win_amd64.whl.zip tmp/PySide6-6.7.1-cp39-abi3-win_amd64.whl.zip --markdown 20240524/P/PySide6/6.7.0-6.7.1/README.md --exclude *.pyd
+[2024-05-24 11:07:07] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 11:07:07] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.0.tar.gz tmp/geo_roughness_tool-0.4.10.dev0.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.0-0.4.10.dev0/README.md --exclude *.pyd
+[2024-05-24 11:07:07] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-05-24 11:07:07] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-05-24 11:07:07] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-05-24 11:07:07] WARNING root fetch - processPackages [PySide6-Examples]: Skipping package: exceeds size limit 11714650>=10485760
+[2024-05-24 11:07:07] INFO root fetch - main [MainThread]: End processing [PySide6-Examples] error
+[2024-05-24 11:07:08] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240523.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240524.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-24 11:07:08] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.5.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-1.0.6.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-05-24 11:07:08] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.0.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.10.dev0.tar.gz]
+[2024-05-24 11:07:08] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 11:07:09] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.7.0-cp39-abi3-win_amd64.whl.zip]
+[2024-05-24 11:07:09] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.7.1-cp39-abi3-win_amd64.whl.zip]
+[2024-05-24 11:07:09] INFO root fetch - main [MainThread]: End processing [PySide6]: success
+[2024-05-24 11:07:09] INFO root fetch - main [MainThread]: Store serial: [23359324]
