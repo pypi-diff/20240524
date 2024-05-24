@@ -15661,3 +15661,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:18:08] INFO root fetch - processPackages [scegot]: Remove: archive file [/home/abi/fetcher/tmp/scegot-0.2.0.tar.gz]
 [2024-05-24 10:18:08] INFO root fetch - main [MainThread]: End processing [scegot]: success
 [2024-05-24 10:18:08] INFO root fetch - main [MainThread]: Store serial: [23358597]
+[2024-05-24 10:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358597]
+[2024-05-24 10:20:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovhai
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-eigen-ingenuity
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AAIT
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bstblue
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wenxian
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqlib
+[2024-05-24 10:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clonellm
+[2024-05-24 10:20:18] INFO root fetch - processPackages [bstblue]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 10:20:18] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-05-24 10:20:18] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-24 10:20:18] INFO root fetch - processPackages [wenxian]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 10:20:18] INFO root fetch - processPackages [clonellm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 10:20:18] WARNING root fetch - processPackages [ovhai]: Skipping, unable to determine old version
+[2024-05-24 10:20:18] INFO root fetch - main [MainThread]: End processing [ovhai] error
+[2024-05-24 10:20:18] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/10/a7/226b5d17a04b9c5e1834fd29367a8fe3b5fe878a03aaa5172a6695f261be/bstblue-0.0.4.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [pyqlib]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-24 10:20:18] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/62/48/62073c4cdc2c3b2baa71ec8ea61ad3cf424082b77fb3cfde60c58852d97e/AAIT-0.0.2.3.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [wenxian]: Downloading https://files.pythonhosted.org/packages/ab/34/17df30a724c63605eef0333572ba0e2512d23a1df23bb91d5870cf874c72/wenxian-0.0.2.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [clonellm]: Downloading https://files.pythonhosted.org/packages/fd/57/f052b6487519aa0f3031e28b19e3b9da90be9492c5fff5118e218091cb90/clonellm-0.0.1.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/d2/3a/3db73ec26b1b216736ffe322e22513ca566281c494aa0af8d6c959982d91/pyqlib-0.9.4-cp38-cp38-win_amd64.whl
+[2024-05-24 10:20:18] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/a0/68/6c097e2467152a19b9494e56646adbb6715f74865ee758eb8e8060214620/bstblue-0.0.5.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/f2/43/d939b878e31313b15dd293bfdba1b1874b27feebe4e826d869ef606d5486/AAIT-0.0.2.4.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-05-24 10:20:18] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240524/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-24 10:20:18] INFO root fetch - processPackages [clonellm]: Downloading https://files.pythonhosted.org/packages/ee/62/0112159e79fb366ffb11db5ca4bb0f9e5aeb4913905cf642d6b7ebaaf65b/clonellm-0.0.2.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 10:20:18] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.4.tar.gz tmp/bstblue-0.0.5.tar.gz --markdown 20240524/b/bstblue/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 10:20:18] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 10:20:18] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.3.tar.gz tmp/AAIT-0.0.2.4.tar.gz --markdown 20240524/A/AAIT/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-05-24 10:20:18] INFO root fetch - processPackages [wenxian]: Downloading https://files.pythonhosted.org/packages/51/29/4f65e4a8aec32a331ed7ace00339ed277b1496b4c9b16d6bb8d3f4a0ad52/wenxian-0.0.3.tar.gz
+[2024-05-24 10:20:18] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/90/05/77f7183ac32f884829fc1c82be29cc4c75da64a5fbb73613fc3ac6087caf/pyqlib-0.9.5-cp38-cp38-win_amd64.whl
+[2024-05-24 10:20:19] INFO root fetch - processPackages [clonellm]: executing diffoscope
+[2024-05-24 10:20:19] INFO root fetch - processPackages [clonellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonellm-0.0.1.tar.gz tmp/clonellm-0.0.2.tar.gz --markdown 20240524/c/clonellm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 10:20:19] INFO root fetch - processPackages [wenxian]: executing diffoscope
+[2024-05-24 10:20:19] INFO root fetch - processPackages [wenxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wenxian-0.0.2.tar.gz tmp/wenxian-0.0.3.tar.gz --markdown 20240524/w/wenxian/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 10:20:19] INFO root fetch - processPackages [pyqlib]: executing diffoscope
+[2024-05-24 10:20:19] INFO root fetch - processPackages [pyqlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqlib-0.9.4-cp38-cp38-win_amd64.whl.zip tmp/pyqlib-0.9.5-cp38-cp38-win_amd64.whl.zip --markdown 20240524/p/pyqlib/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-24 10:20:19] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-05-24 10:20:19] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.4.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.5.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 10:20:19] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.3.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.4.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 10:20:19] INFO root fetch - processPackages [clonellm]: Remove: archive file [/home/abi/fetcher/tmp/clonellm-0.0.1.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - processPackages [clonellm]: Remove: archive file [/home/abi/fetcher/tmp/clonellm-0.0.2.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - main [MainThread]: End processing [clonellm]: success
+[2024-05-24 10:20:19] INFO root fetch - processPackages [wenxian]: Remove: archive file [/home/abi/fetcher/tmp/wenxian-0.0.2.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - processPackages [wenxian]: Remove: archive file [/home/abi/fetcher/tmp/wenxian-0.0.3.tar.gz]
+[2024-05-24 10:20:19] INFO root fetch - main [MainThread]: End processing [wenxian]: success
+[2024-05-24 10:20:20] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.4-cp38-cp38-win_amd64.whl.zip]
+[2024-05-24 10:20:20] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.5-cp38-cp38-win_amd64.whl.zip]
+[2024-05-24 10:20:20] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
+[2024-05-24 10:20:20] INFO root fetch - main [MainThread]: Store serial: [23358621]
