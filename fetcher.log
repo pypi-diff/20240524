@@ -10429,3 +10429,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:41:15] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-24 06:41:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-motive]: success
 [2024-05-24 06:41:15] INFO root fetch - main [MainThread]: Store serial: [23356387]
+[2024-05-24 06:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356387]
+[2024-05-24 06:43:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 06:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: io_file_validator
+[2024-05-24 06:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sketchpy3
+[2024-05-24 06:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commute-agci
+[2024-05-24 06:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htmltestreport-ably
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: New version: [0.6.6] Old Version: [0.4.6]
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/b1/59/3f66c7c38cecf2b86113c56b5b3cb4bb0014c2794ec65558664f0f4be6f6/commute_agci-0.4.6.tar.gz
+[2024-05-24 06:43:24] WARNING root fetch - processPackages [htmltestreport-ably]: Skipping, unable to determine old version
+[2024-05-24 06:43:24] INFO root fetch - main [MainThread]: End processing [htmltestreport-ably] error
+[2024-05-24 06:43:24] INFO root fetch - processPackages [io_file_validator]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 06:43:24] WARNING root fetch - processPackages [sketchpy3]: Skipping, unable to determine old version
+[2024-05-24 06:43:24] INFO root fetch - main [MainThread]: End processing [sketchpy3] error
+[2024-05-24 06:43:24] INFO root fetch - processPackages [io_file_validator]: Downloading https://files.pythonhosted.org/packages/5e/da/9acf8583a80e9578f542258171b1383dbda052f3972f134f0711e9903cad/io_file_validator-0.1.3.tar.gz
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/6f/fc/b6824659db4669bea4815279ed6077cda0657250fff4848dc01a69d13103/commute_agci-0.6.6.tar.gz
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: executing diffoscope
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commute_agci-0.4.6.tar.gz tmp/commute_agci-0.6.6.tar.gz --markdown 20240524/c/commute-agci/0.4.6-0.6.6/README.md --exclude *.pyd
+[2024-05-24 06:43:24] INFO root fetch - processPackages [io_file_validator]: Downloading https://files.pythonhosted.org/packages/57/2a/154bd4c89d87c91b5bfdbbc9de1cfa97d8bf535d1a350076d79475a9ee10/io_file_validator-0.1.4.tar.gz
+[2024-05-24 06:43:24] INFO root fetch - processPackages [io_file_validator]: executing diffoscope
+[2024-05-24 06:43:24] INFO root fetch - processPackages [io_file_validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/io_file_validator-0.1.3.tar.gz tmp/io_file_validator-0.1.4.tar.gz --markdown 20240524/i/io_file_validator/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.4.6.tar.gz]
+[2024-05-24 06:43:24] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.6.6.tar.gz]
+[2024-05-24 06:43:24] INFO root fetch - main [MainThread]: End processing [commute-agci]: success
+[2024-05-24 06:43:25] INFO root fetch - processPackages [io_file_validator]: Remove: archive file [/home/abi/fetcher/tmp/io_file_validator-0.1.3.tar.gz]
+[2024-05-24 06:43:25] INFO root fetch - processPackages [io_file_validator]: Remove: archive file [/home/abi/fetcher/tmp/io_file_validator-0.1.4.tar.gz]
+[2024-05-24 06:43:25] INFO root fetch - main [MainThread]: End processing [io_file_validator]: success
+[2024-05-24 06:43:25] INFO root fetch - main [MainThread]: Store serial: [23356401]
