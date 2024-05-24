@@ -2033,3 +2033,26 @@
 [2024-05-24 01:56:59] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.20.3.tar.gz]
 [2024-05-24 01:56:59] INFO root fetch - main [MainThread]: End processing [biobear]: success
 [2024-05-24 01:56:59] INFO root fetch - main [MainThread]: Store serial: [23353368]
+[2024-05-24 01:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353368]
+[2024-05-24 01:59:07] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 02:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353368]
+[2024-05-24 02:01:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 02:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-dbtcloud
+[2024-05-24 02:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protai
+[2024-05-24 02:01:14] INFO root fetch - processPackages [protai]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-24 02:01:14] INFO root fetch - processPackages [protai]: Downloading https://files.pythonhosted.org/packages/26/d5/8e6549b6cbe0d2382f646fbca7f1b11650d24af126c2938e5149e6278158/protai-0.3.0.tar.gz
+[2024-05-24 02:01:14] INFO root fetch - processPackages [pulumi-dbtcloud]: New version: [0.2.0a1716506595] Old Version: [0.2.0a1716230957]
+[2024-05-24 02:01:14] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/50/9d/7352aa28e135d53d4314bced8387df94ec4f22bf247ba693caa50b74b47c/pulumi_dbtcloud-0.2.0a1716230957.tar.gz
+[2024-05-24 02:01:14] INFO root fetch - processPackages [protai]: Downloading https://files.pythonhosted.org/packages/4f/7c/0ccb6fa3751a276756225c81ae6e70428ecaf158be269385c6557a4c5501/protai-0.4.0.tar.gz
+[2024-05-24 02:01:14] INFO root fetch - processPackages [protai]: executing diffoscope
+[2024-05-24 02:01:14] INFO root fetch - processPackages [protai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protai-0.3.0.tar.gz tmp/protai-0.4.0.tar.gz --markdown 20240524/p/protai/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-24 02:01:14] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/94/da/88af73e0444900a8462f9f0d6ef205dacd58521f345b909e14203c3bad9f/pulumi_dbtcloud-0.2.0a1716506595.tar.gz
+[2024-05-24 02:01:15] INFO root fetch - processPackages [pulumi-dbtcloud]: executing diffoscope
+[2024-05-24 02:01:15] INFO root fetch - processPackages [pulumi-dbtcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dbtcloud-0.2.0a1716230957.tar.gz tmp/pulumi_dbtcloud-0.2.0a1716506595.tar.gz --markdown 20240524/p/pulumi-dbtcloud/0.2.0a1716230957-0.2.0a1716506595/README.md --exclude *.pyd
+[2024-05-24 02:01:15] INFO root fetch - processPackages [protai]: Remove: archive file [/home/abi/fetcher/tmp/protai-0.3.0.tar.gz]
+[2024-05-24 02:01:15] INFO root fetch - processPackages [protai]: Remove: archive file [/home/abi/fetcher/tmp/protai-0.4.0.tar.gz]
+[2024-05-24 02:01:15] INFO root fetch - main [MainThread]: End processing [protai]: success
+[2024-05-24 02:01:15] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716230957.tar.gz]
+[2024-05-24 02:01:15] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716506595.tar.gz]
+[2024-05-24 02:01:15] INFO root fetch - main [MainThread]: End processing [pulumi-dbtcloud]: success
+[2024-05-24 02:01:15] INFO root fetch - main [MainThread]: Store serial: [23353375]
