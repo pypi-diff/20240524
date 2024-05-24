@@ -9135,3 +9135,33 @@
 [2024-05-24 05:26:43] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
 [2024-05-24 05:26:43] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2024-05-24 05:26:43] INFO root fetch - main [MainThread]: Store serial: [23355925]
+[2024-05-24 05:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355925]
+[2024-05-24 05:28:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 05:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAlgoEngine
+[2024-05-24 05:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopify-custom-api
+[2024-05-24 05:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-databricks
+[2024-05-24 05:28:52] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.9.post4] Old Version: [0.3.9.post2]
+[2024-05-24 05:28:52] INFO root fetch - processPackages [shopify-custom-api]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-24 05:28:52] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-24 05:28:52] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/5b/dd/c9215edffe96a24a457d718e4ac1d33011306cb42a50ca2ff5465250308b/PyAlgoEngine-0.3.9.post2.tar.gz
+[2024-05-24 05:28:52] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/69/df/b16d49399594afec1a1db0daaf5f759f1b7dc49202108c7ff4d4cef23a3f/shopify_custom_api-0.0.5.tar.gz
+[2024-05-24 05:28:52] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2024-05-24 05:28:52] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/0d/d4/d7f6825e9646ec0414fc3fd8495efcf5c27040cd50d5679019adfff7ebea/shopify_custom_api-0.1.0.tar.gz
+[2024-05-24 05:28:52] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/8d/d7/9cc3d830ab0d313eb7f729e762812f1fa37406b140275ab38f82bb3ddf47/PyAlgoEngine-0.3.9.post4.tar.gz
+[2024-05-24 05:28:52] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2024-05-24 05:28:52] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.9.post2.tar.gz tmp/PyAlgoEngine-0.3.9.post4.tar.gz --markdown 20240524/P/PyAlgoEngine/0.3.9.post2-0.3.9.post4/README.md --exclude *.pyd
+[2024-05-24 05:28:52] INFO root fetch - processPackages [shopify-custom-api]: executing diffoscope
+[2024-05-24 05:28:52] INFO root fetch - processPackages [shopify-custom-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopify_custom_api-0.0.5.tar.gz tmp/shopify_custom_api-0.1.0.tar.gz --markdown 20240524/s/shopify-custom-api/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-24 05:28:53] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.0.5.tar.gz]
+[2024-05-24 05:28:53] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.0.tar.gz]
+[2024-05-24 05:28:53] INFO root fetch - main [MainThread]: End processing [shopify-custom-api]: success
+[2024-05-24 05:28:53] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post2.tar.gz]
+[2024-05-24 05:28:53] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.9.post4.tar.gz]
+[2024-05-24 05:28:53] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2024-05-24 05:28:54] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/cc/3a/8e28dd4a45c0a00150d822d03862c508cb6c485bb959ef5ce80e1adb4448/cdktf-cdktf-provider-databricks-9.0.3.tar.gz
+[2024-05-24 05:28:54] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2024-05-24 05:28:54] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz --markdown 20240524/c/cdktf-cdktf-provider-databricks/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-24 05:28:58] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2024-05-24 05:28:58] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
+[2024-05-24 05:28:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2024-05-24 05:28:58] INFO root fetch - main [MainThread]: Store serial: [23355936]
