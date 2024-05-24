@@ -22897,3 +22897,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:17:29] INFO root fetch - processPackages [pazok]: Remove: archive file [/home/abi/fetcher/tmp/pazok-0.1.4.tar.gz]
 [2024-05-24 14:17:29] INFO root fetch - main [MainThread]: End processing [pazok]: success
 [2024-05-24 14:17:29] INFO root fetch - main [MainThread]: Store serial: [23361677]
+[2024-05-24 14:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361677]
+[2024-05-24 14:19:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 14:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydra-callbacks
+[2024-05-24 14:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casadata
+[2024-05-24 14:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-24 14:19:38] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-05-24 14:19:38] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/50/c7/06f3b0cde60a5ee898b7c6ede2410bc2eba254a67452265ba7d8304403ac/dve_lumipy_testing-1.0.95-py3-none-any.whl
+[2024-05-24 14:19:38] INFO root fetch - processPackages [hydra-callbacks]: New version: [0.6.1] Old Version: [0.5.1]
+[2024-05-24 14:19:38] INFO root fetch - processPackages [casadata]: New version: [2024.5.22] Old Version: [2024.1.15]
+[2024-05-24 14:19:38] INFO root fetch - processPackages [casadata]: Downloading https://files.pythonhosted.org/packages/a9/b3/af8a463184a65cdcf2cbe09824e9061825bcf14b911dae94735e2191d115/casadata-2024.1.15-py3-none-any.whl
+[2024-05-24 14:19:38] INFO root fetch - processPackages [hydra-callbacks]: Downloading https://files.pythonhosted.org/packages/82/8a/3ec3301f7080d5506f587f8073362debcc26d29578236bad92d15363b83f/hydra-callbacks-0.5.1.tar.gz
+[2024-05-24 14:19:38] WARNING root fetch - processPackages [casadata]: Skipping package: exceeds size limit 349283569>=10485760
+[2024-05-24 14:19:38] INFO root fetch - main [MainThread]: End processing [casadata] error
+[2024-05-24 14:19:38] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/e4/b7/29daae6d6370df293d2d2d4faf567ef035086f076e2145a182ca348a6e07/dve_lumipy_testing-1.0.96-py3-none-any.whl
+[2024-05-24 14:19:38] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-24 14:19:38] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.95-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.96-py3-none-any.whl.zip --markdown 20240524/d/dve-lumipy-testing/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-05-24 14:19:38] INFO root fetch - processPackages [hydra-callbacks]: Downloading https://files.pythonhosted.org/packages/59/81/2c73ffba354d5aa9144431033a548d497586f71c631254a4883fb498c787/hydra_callbacks-0.6.1.tar.gz
+[2024-05-24 14:19:39] INFO root fetch - processPackages [hydra-callbacks]: executing diffoscope
+[2024-05-24 14:19:39] INFO root fetch - processPackages [hydra-callbacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-callbacks-0.5.1.tar.gz tmp/hydra_callbacks-0.6.1.tar.gz --markdown 20240524/h/hydra-callbacks/0.5.1-0.6.1/README.md --exclude *.pyd
+[2024-05-24 14:19:39] INFO root fetch - processPackages [hydra-callbacks]: Remove: archive file [/home/abi/fetcher/tmp/hydra-callbacks-0.5.1.tar.gz]
+[2024-05-24 14:19:39] INFO root fetch - processPackages [hydra-callbacks]: Remove: archive file [/home/abi/fetcher/tmp/hydra_callbacks-0.6.1.tar.gz]
+[2024-05-24 14:19:39] INFO root fetch - main [MainThread]: End processing [hydra-callbacks]: success
+[2024-05-24 14:19:40] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.95-py3-none-any.whl.zip]
+[2024-05-24 14:19:40] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.96-py3-none-any.whl.zip]
+[2024-05-24 14:19:40] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-24 14:19:40] INFO root fetch - main [MainThread]: Store serial: [23361685]
