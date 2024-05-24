@@ -23442,3 +23442,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:37:58] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.9.tar.gz]
 [2024-05-24 14:37:58] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
 [2024-05-24 14:37:58] INFO root fetch - main [MainThread]: Store serial: [23361890]
+[2024-05-24 14:40:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361890]
+[2024-05-24 14:40:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-table-db
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipp
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxycycle
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-meraki
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bblib
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: girder-large-image-annotation
+[2024-05-24 14:40:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-converter
+[2024-05-24 14:40:07] INFO root fetch - processPackages [my-table-db]: New version: [3.3.3] Old Version: [16.6.6]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [pulumi-meraki]: New version: [0.2.0a1716483448] Old Version: [0.2.0a1716250106]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [bblib]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-24 14:40:07] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/38/d3/6ea0df75017c11a6beb73ded2c848dc7990319061fd58ed523284daff208/pulumi_meraki-0.2.0a1716250106.tar.gz
+[2024-05-24 14:40:07] INFO root fetch - processPackages [proxycycle]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-24 14:40:08] INFO root fetch - processPackages [scipp]: New version: [24.5.0] Old Version: [24.2.0]
+[2024-05-24 14:40:08] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/3d/8b/d3ad3e04f9eea198bbbd6457dd40229f89925d587a870e8a0c70074a47ee/bblib-2.0.3.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [my-table-db]: Downloading https://files.pythonhosted.org/packages/cd/ef/b92667520e965224146d6da31ed527d33a6cbb324dbd6d723f7872d372ae/my_table_db-16.6.6.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/2e/28/86efbd8606a97b923eeb072da5e58aeb8b2b615458058ee82f8245c2cb68/scipp-24.2.0.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [proxycycle]: Downloading https://files.pythonhosted.org/packages/82/1b/622db890d01c711aba7f5b6fb7197194e8bda5c8250814a68b92c8fb1304/proxycycle-1.1.2.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/7f/35/3dcf41f7cae155c5eeb32f1a0a49d86abf8183c20026e3e6673239bb63f5/bblib-2.1.0.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/c0/06/2d873329313bc9ea354f450e452873969ee4b4d700fecf7ff362864999ee/pulumi_meraki-0.2.0a1716483448.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [my-table-db]: Downloading https://files.pythonhosted.org/packages/09/1f/760e0856dd9494aff4d0813ae2d30212c6321708108fae7426a3e4b4f95e/my_table_db-3.3.3.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240524/l/large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-2.0.3.tar.gz tmp/bblib-2.1.0.tar.gz --markdown 20240524/b/bblib/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240524/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [pulumi-meraki]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [pulumi-meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_meraki-0.2.0a1716250106.tar.gz tmp/pulumi_meraki-0.2.0a1716483448.tar.gz --markdown 20240524/p/pulumi-meraki/0.2.0a1716250106-0.2.0a1716483448/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [my-table-db]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [my-table-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_table_db-16.6.6.tar.gz tmp/my_table_db-3.3.3.tar.gz --markdown 20240524/m/my-table-db/16.6.6-3.3.3/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240524/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240524/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-24 14:40:08] INFO root fetch - processPackages [proxycycle]: Downloading https://files.pythonhosted.org/packages/3b/d9/285898788e6e6cd9722d031263b7203f67356af3aaa566bd161f7fe9e6e9/proxycycle-1.2.0.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/d9/af/7e772bb0481b912c1b7c3e4edc9978afcd20c7eb4ed1a19225b985b124fd/scipp-24.5.0.tar.gz
+[2024-05-24 14:40:08] INFO root fetch - processPackages [proxycycle]: executing diffoscope
+[2024-05-24 14:40:08] INFO root fetch - processPackages [proxycycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxycycle-1.1.2.tar.gz tmp/proxycycle-1.2.0.tar.gz --markdown 20240524/p/proxycycle/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-24 14:40:09] INFO root fetch - processPackages [scipp]: executing diffoscope
+[2024-05-24 14:40:09] INFO root fetch - processPackages [scipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipp-24.2.0.tar.gz tmp/scipp-24.5.0.tar.gz --markdown 20240524/s/scipp/24.2.0-24.5.0/README.md --exclude *.pyd
+[2024-05-24 14:40:09] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [my-table-db]: Remove: archive file [/home/abi/fetcher/tmp/my_table_db-16.6.6.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [my-table-db]: Remove: archive file [/home/abi/fetcher/tmp/my_table_db-3.3.3.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [my-table-db]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.0.3.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.1.0.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-05-24 14:40:09] INFO root fetch - processPackages [proxycycle]: Remove: archive file [/home/abi/fetcher/tmp/proxycycle-1.1.2.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - processPackages [proxycycle]: Remove: archive file [/home/abi/fetcher/tmp/proxycycle-1.2.0.tar.gz]
+[2024-05-24 14:40:09] INFO root fetch - main [MainThread]: End processing [proxycycle]: success
+[2024-05-24 14:40:11] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1716250106.tar.gz]
+[2024-05-24 14:40:11] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1716483448.tar.gz]
+[2024-05-24 14:40:11] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
+[2024-05-24 14:40:15] INFO root fetch - processPackages [scipp]: Remove: archive file [/home/abi/fetcher/tmp/scipp-24.2.0.tar.gz]
+[2024-05-24 14:40:15] INFO root fetch - processPackages [scipp]: Remove: archive file [/home/abi/fetcher/tmp/scipp-24.5.0.tar.gz]
+[2024-05-24 14:40:15] INFO root fetch - main [MainThread]: End processing [scipp]: success
+[2024-05-24 14:40:15] INFO root fetch - main [MainThread]: Store serial: [23361934]
