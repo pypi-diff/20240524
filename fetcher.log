@@ -10166,3 +10166,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.3.tar.gz]
 [2024-05-24 06:26:01] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
 [2024-05-24 06:26:01] INFO root fetch - main [MainThread]: Store serial: [23356266]
+[2024-05-24 06:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356266]
+[2024-05-24 06:28:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fennel-ai
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rigging
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ithaca-py
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadprox
+[2024-05-24 06:28:10] INFO root fetch - processPackages [cadprox]: New version: [1.6] Old Version: [1.5]
+[2024-05-24 06:28:10] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-24 06:28:10] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/e7/84/8e4d57dfacbcbf92a5aedee2836e1ec9cfcec66a51eb52b3d9731365ecb0/cadprox-1.5.tar.gz
+[2024-05-24 06:28:10] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-24 06:28:10] INFO root fetch - processPackages [rigging]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-24 06:28:10] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-24 06:28:10] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ithaca-py]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-24 06:28:10] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/aa/f5/30a9c59750129555441daacd650e6905ae37d2a5e7bb34c84b109ad3335a/rigging-1.1.1.tar.gz
+[2024-05-24 06:28:10] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/a7/bb/379fd88051a158e45095a61ee11597d0e789df83ca8219ebdafafbd3b9ec/cadprox-1.6.tar.gz
+[2024-05-24 06:28:10] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/40/8c/6d567db6a02a5e4b74fb33b1ee57d7dfa46aa3e572ebc6f19db6ee932338/ithaca_py-0.2.7.tar.gz
+[2024-05-24 06:28:10] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 06:28:10] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.5.tar.gz tmp/cadprox-1.6.tar.gz --markdown 20240524/c/cadprox/1.5-1.6/README.md --exclude *.pyd
+[2024-05-24 06:28:10] INFO root fetch - processPackages [rigging]: Downloading https://files.pythonhosted.org/packages/09/8f/f2f331d4f94d8260c332f8a823983d4a6a77fd60f3b033be59d9e8874b03/rigging-1.1.2.tar.gz
+[2024-05-24 06:28:11] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/e7/01/4269c0dd3f7ce801ed5b40d64ab1f09a55241f2548d9b7b7cc46d4fafe39/ithaca_py-0.2.8.tar.gz
+[2024-05-24 06:28:11] INFO root fetch - processPackages [rigging]: executing diffoscope
+[2024-05-24 06:28:11] INFO root fetch - processPackages [rigging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rigging-1.1.1.tar.gz tmp/rigging-1.1.2.tar.gz --markdown 20240524/r/rigging/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-24 06:28:11] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-05-24 06:28:11] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.2.7.tar.gz tmp/ithaca_py-0.2.8.tar.gz --markdown 20240524/i/ithaca-py/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-24 06:28:11] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.5.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.6.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 06:28:11] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.7.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.8.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-05-24 06:28:11] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.1.1.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.1.2.tar.gz]
+[2024-05-24 06:28:11] INFO root fetch - main [MainThread]: End processing [rigging]: success
+[2024-05-24 06:28:11] INFO root fetch - main [MainThread]: Store serial: [23356275]
