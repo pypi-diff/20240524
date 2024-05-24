@@ -12341,3 +12341,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:14:03] INFO root fetch - processPackages [dckit]: Remove: archive file [/home/abi/fetcher/tmp/dckit-0.9.1.tar.gz]
 [2024-05-24 08:14:03] INFO root fetch - main [MainThread]: End processing [dckit]: success
 [2024-05-24 08:14:03] INFO root fetch - main [MainThread]: Store serial: [23357230]
+[2024-05-24 08:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357230]
+[2024-05-24 08:16:12] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 08:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357236]
+[2024-05-24 08:18:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breathcount
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espy-contact
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jy_lib
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DNA-SE
+[2024-05-24 08:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module
+[2024-05-24 08:18:17] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240523] Old Version: [20240522]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240523] Old Version: [20240522]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [jy_lib]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/1f/75/e6a27ccf99f5f01732adc47824801fe6f73d71d8edf02850104146cbbef8/fake_bpy_module-20240522.tar.gz
+[2024-05-24 08:18:17] WARNING root fetch - processPackages [breathcount]: Skipping, unable to determine old version
+[2024-05-24 08:18:17] INFO root fetch - main [MainThread]: End processing [breathcount] error
+[2024-05-24 08:18:17] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 08:18:17] INFO root fetch - processPackages [DNA-SE]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240524] Old Version: [2.6.0.dev20240523]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [pretext]: New version: [2.4.2.dev20240524] Old Version: [2.4.2.dev20240519]
+[2024-05-24 08:18:17] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/b2/f5/15e49d13ea73db8f25d773625a673c2761d8b4f4e3497e981f1bc6358583/fake_bpy_module_latest-20240522.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/8e/32/76a27029952d66ae9852e7e1b19e48b3850b3bb33b2f9977264208f2cc8f/jy_lib-0.7.8.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/a2/fc/371031fd81a1e21ac1feb4ae8d988a42da030810803c96d289c6ece86514/pretext-2.4.2.dev20240519.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/13/cf/e0a6f9244f8c4159e3abf2aa7d5c09862bdd921dfb6013ee87c61e0ef6ae/dna_se-0.0.9.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/08/35/29bc844de0dbb7b055e912c060694955be184384dc0626b71a294775708a/pyg_nightly-2.6.0.dev20240523.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/33/4e/2b5e8982c68ba631f2af99a79f782372ae3c4287bb880ba4498a2211a4dc/fake_bpy_module_latest-20240523.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/36/49/0c5202c1599a57af40c04f05b5115cda96c826044cc64ce58e9843a3304d/fake_bpy_module-20240523.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/14/7b/de9a43a43e33ad6cf9febd9b9798e0f0dd08b8ef3b4d662b796ef76bf287/jy_lib-0.7.9.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/60/c3/42398e86bb70fb9d3974c4b6e499aff0f46534def7edb60c13efc29bf41d/DNA_SE-0.1.0.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240522.tar.gz tmp/fake_bpy_module_latest-20240523.tar.gz --markdown 20240524/f/fake-bpy-module-latest/20240522-20240523/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.8.tar.gz tmp/jy_lib-0.7.9.tar.gz --markdown 20240524/j/jy_lib/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240522.tar.gz tmp/fake_bpy_module-20240523.tar.gz --markdown 20240524/f/fake-bpy-module/20240522-20240523/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f6/fa/ce30b5a8d4ddd9e1a9b618d1fa24821d9eb673ceee3d80a6d83f319cd43a/pretext-2.4.2.dev20240524.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/99/6c/31feec1e23abb3383c9bbea855ccbc53ae5a74452f852f5ed2433b06b7d0/pyg_nightly-2.6.0.dev20240524.tar.gz
+[2024-05-24 08:18:18] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.9.tar.gz tmp/DNA_SE-0.1.0.tar.gz --markdown 20240524/D/DNA-SE/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240523.tar.gz tmp/pyg_nightly-2.6.0.dev20240524.tar.gz --markdown 20240524/p/pyg-nightly/2.6.0.dev20240523-2.6.0.dev20240524/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-24 08:18:18] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.4.2.dev20240519.tar.gz tmp/pretext-2.4.2.dev20240524.tar.gz --markdown 20240524/p/pretext/2.4.2.dev20240519-2.4.2.dev20240524/README.md --exclude *.pyd
+[2024-05-24 08:18:18] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 08:18:18] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 08:18:18] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 08:18:19] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.8.tar.gz]
+[2024-05-24 08:18:19] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.9.tar.gz]
+[2024-05-24 08:18:19] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-24 08:18:19] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.9.tar.gz]
+[2024-05-24 08:18:19] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/DNA_SE-0.1.0.tar.gz]
+[2024-05-24 08:18:19] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-24 08:18:21] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240523.tar.gz]
+[2024-05-24 08:18:21] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240524.tar.gz]
+[2024-05-24 08:18:21] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-24 08:18:22] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.2.dev20240519.tar.gz]
+[2024-05-24 08:18:22] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.2.dev20240524.tar.gz]
+[2024-05-24 08:18:22] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-24 08:18:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240522.tar.gz]
+[2024-05-24 08:18:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240523.tar.gz]
+[2024-05-24 08:18:25] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-24 08:18:25] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240522.tar.gz]
+[2024-05-24 08:18:25] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240523.tar.gz]
+[2024-05-24 08:18:25] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-24 08:18:25] INFO root fetch - main [MainThread]: Store serial: [23357264]
