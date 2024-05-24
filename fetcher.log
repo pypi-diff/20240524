@@ -3087,3 +3087,33 @@
 [2024-05-24 02:53:11] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-24 02:53:11] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-24 02:53:11] INFO root fetch - main [MainThread]: Store serial: [23353773]
+[2024-05-24 02:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353773]
+[2024-05-24 02:55:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 02:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: masscube
+[2024-05-24 02:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mailgun
+[2024-05-24 02:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcpcio-board-spider
+[2024-05-24 02:55:20] INFO root fetch - processPackages [masscube]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:55:20] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 02:55:20] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1716510191] Old Version: [3.6.0a1715925120]
+[2024-05-24 02:55:20] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/2d/db/d89b0c94182f9a980eb8ccbe6a67015e382e56c741eb440f976bba4f6632/masscube-0.0.8.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/d5/e8/93eb07becf872b6db723095bb3f0908214a3d2b21dc599973ab1af8f8e97/xcpcio_board_spider-0.0.8.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/16/5a/5091e49bcab7c719e3632dc6b30af3d01e3bfd04a278937aa36cd32e8c5b/pulumi_mailgun-3.6.0a1715925120.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/66/a0/09dc9397e36d49af596baa4961b36b1b20ede6adc588fac9a598cdf973ff/pulumi_mailgun-3.6.0a1716510191.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/23/85/7e2bcc229940ed51da5d1c47693efc3f82ae21eecd44490b8897c460f772/xcpcio_board_spider-0.0.9.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/0c/7c/bba8006bb6b76d1d8768783a3d30f994e908adfb08f2a87be88aea597a2c/masscube-0.0.9.tar.gz
+[2024-05-24 02:55:20] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-24 02:55:20] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715925120.tar.gz tmp/pulumi_mailgun-3.6.0a1716510191.tar.gz --markdown 20240524/p/pulumi-mailgun/3.6.0a1715925120-3.6.0a1716510191/README.md --exclude *.pyd
+[2024-05-24 02:55:20] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2024-05-24 02:55:20] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20240524/x/xcpcio-board-spider/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:55:21] INFO root fetch - processPackages [masscube]: executing diffoscope
+[2024-05-24 02:55:21] INFO root fetch - processPackages [masscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masscube-0.0.8.tar.gz tmp/masscube-0.0.9.tar.gz --markdown 20240524/m/masscube/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 02:55:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715925120.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1716510191.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-24 02:55:21] INFO root fetch - processPackages [xcpcio-board-spider]: Remove: archive file [/home/abi/fetcher/tmp/xcpcio_board_spider-0.0.8.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - processPackages [xcpcio-board-spider]: Remove: archive file [/home/abi/fetcher/tmp/xcpcio_board_spider-0.0.9.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2024-05-24 02:55:21] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.8.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.9.tar.gz]
+[2024-05-24 02:55:21] INFO root fetch - main [MainThread]: End processing [masscube]: success
+[2024-05-24 02:55:21] INFO root fetch - main [MainThread]: Store serial: [23353782]
