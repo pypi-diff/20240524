@@ -9430,3 +9430,33 @@
 [2024-05-24 05:46:23] INFO root fetch - processPackages [streamlit-webrtc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-webrtc-0.9.0.tar.gz]
 [2024-05-24 05:46:23] INFO root fetch - main [MainThread]: End processing [streamlit-webrtc]: success
 [2024-05-24 05:46:23] INFO root fetch - main [MainThread]: Store serial: [23356037]
+[2024-05-24 05:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356037]
+[2024-05-24 05:48:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-interface-synchronization
+[2024-05-24 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seatable-api
+[2024-05-24 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywayne
+[2024-05-24 05:48:32] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.7.3] Old Version: [1.0.0.7.2]
+[2024-05-24 05:48:32] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/6c/6b/6a0b200ac413a4fc2d5ded2e15e2144c56093ea8381635693fcc22de996d/pywayne-1.0.0.7.2.tar.gz
+[2024-05-24 05:48:32] INFO root fetch - processPackages [netbox-interface-synchronization]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-24 05:48:32] INFO root fetch - processPackages [seatable-api]: New version: [2.8.0] Old Version: [2.7.2]
+[2024-05-24 05:48:32] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/f7/a6/8274deac5f63a4cd2a21fabc0731448f5fb2ee1843719b5ad72b86c6d677/pywayne-1.0.0.7.3.tar.gz
+[2024-05-24 05:48:32] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/44/46/26dd683c245355a2fba12fe703bf5af1fc7ad3760808ff69a5fb6607b298/netbox_interface_synchronization-4.0.1.tar.gz
+[2024-05-24 05:48:32] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/52/84/2c512b9ffc78482ced045d981e371edb3032b4c8c3eed17cdc530284eef9/seatable-api-2.7.2.tar.gz
+[2024-05-24 05:48:32] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-05-24 05:48:32] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.7.2.tar.gz tmp/pywayne-1.0.0.7.3.tar.gz --markdown 20240524/p/pywayne/1.0.0.7.2-1.0.0.7.3/README.md --exclude *.pyd
+[2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: Downloading https://files.pythonhosted.org/packages/ff/df/156f5d7660214bda896ce160f067f635143daedb6252d73119128008767d/seatable-api-2.8.0.tar.gz
+[2024-05-24 05:48:33] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/88/89/a07a337bd389f79a0bc127594d4db4d379397ca2354747fe1a573edc5161/netbox_interface_synchronization-4.0.2.tar.gz
+[2024-05-24 05:48:33] INFO root fetch - processPackages [netbox-interface-synchronization]: executing diffoscope
+[2024-05-24 05:48:33] INFO root fetch - processPackages [netbox-interface-synchronization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_interface_synchronization-4.0.1.tar.gz tmp/netbox_interface_synchronization-4.0.2.tar.gz --markdown 20240524/n/netbox-interface-synchronization/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: executing diffoscope
+[2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seatable-api-2.7.2.tar.gz tmp/seatable-api-2.8.0.tar.gz --markdown 20240524/s/seatable-api/2.7.2-2.8.0/README.md --exclude *.pyd
+[2024-05-24 05:48:33] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.2.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.3.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-05-24 05:48:33] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.1.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.2.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - main [MainThread]: End processing [netbox-interface-synchronization]: success
+[2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.7.2.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.8.0.tar.gz]
+[2024-05-24 05:48:33] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
+[2024-05-24 05:48:33] INFO root fetch - main [MainThread]: Store serial: [23356045]
