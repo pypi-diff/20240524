@@ -17611,3 +17611,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:18:10] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
 [2024-05-24 11:18:10] INFO root fetch - main [MainThread]: End processing [blockapi]: success
 [2024-05-24 11:18:10] INFO root fetch - main [MainThread]: Store serial: [23359461]
+[2024-05-24 11:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359461]
+[2024-05-24 11:20:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hukudo-ingress
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadproxdk
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amulet-nbt
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rottentomatoes-reviews-scraper
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grafana-foundation-sdk
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ETH-GTD-cli
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: istr-python
+[2024-05-24 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QEasyWidgets
+[2024-05-24 11:20:19] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [cadproxdk]: New version: [3.6] Old Version: [3.5]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.66] Old Version: [0.0.65]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1716541850!10.1.0] Old Version: [1716541837!10.2.0]
+[2024-05-24 11:20:19] WARNING root fetch - processPackages [rottentomatoes-reviews-scraper]: Skipping, unable to determine old version
+[2024-05-24 11:20:19] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: Start processing: echo-assigner
+[2024-05-24 11:20:19] INFO root fetch - main [MainThread]: End processing [rottentomatoes-reviews-scraper] error
+[2024-05-24 11:20:19] INFO root fetch - processPackages [hukudo-ingress]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [istr-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/fd/e4/dda9e8da4b9d4c6e2091c24160c4ecf747c6f18c9cb42d29103c37660652/cadproxdk-3.5.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [QEasyWidgets]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/97/af/654e6ca27f9b475a6787bc16682c8510a9540c8237308701a4a239c6fddc/eth_gtd_cli-0.0.65.tar.gz
+[2024-05-24 11:20:19] WARNING root fetch - processPackages [echo-assigner]: Skipping, unable to determine old version
+[2024-05-24 11:20:19] INFO root fetch - main [MainThread]: End processing [echo-assigner] error
+[2024-05-24 11:20:19] INFO root fetch - processPackages [amulet-nbt]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2024-05-24 11:20:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/60/ee/06badeaf570a3b49a2b540f4f61a9134284ef6a42a4bd79144d274ebcc5a/grafana_foundation_sdk-1716541837!10.2.0.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [hukudo-ingress]: Downloading https://files.pythonhosted.org/packages/d9/f2/dc74701a234a5256d5874414d17440b63382edee22313b2a532ea8dbb773/hukudo-ingress-2.1.2.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/b5/dd/d1282349a343c545abe7e93c6e007f8025e3329ccb8f77b54bc5a03fc7c0/istr_python-1.0.2.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/7b/2f/1bd6a089d6d08172fd85a327b443ccd03eadc0f60b4997a9167ea9691fd5/QEasyWidgets-0.1.9.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [amulet-nbt]: Downloading https://files.pythonhosted.org/packages/1f/aa/d43edac0407caa947d01637809c8d6f5e61744a4b20b9b6bd312840bdca8/amulet-nbt-3.0.0a2.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-24 11:20:19] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d3/52/fb418069368017e3229a346d6adfee6384c15f4f14310551b4bc6064a63e/cadproxdk-3.6.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/43/e4c234afcb417ff967cab1333960920401b6e73620922a6730808890190c/grafana_foundation_sdk-1716541850!10.1.0.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/86/6e/979e33c7b63100aee3efcb3500491ef98f5b8e643277738340bfa654e93a/eth_gtd_cli-0.0.66.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240524/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 11:20:19] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-24 11:20:19] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240524/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 11:20:19] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-24 11:20:19] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1716541837!10.2.0.tar.gz tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz --markdown 20240524/g/grafana-foundation-sdk/1716541837!10.2.0-1716541850!10.1.0/README.md --exclude *.pyd
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-24 11:20:19] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.65.tar.gz tmp/eth_gtd_cli-0.0.66.tar.gz --markdown 20240524/E/ETH-GTD-cli/0.0.65-0.0.66/README.md --exclude *.pyd
+[2024-05-24 11:20:19] INFO root fetch - processPackages [hukudo-ingress]: Downloading https://files.pythonhosted.org/packages/4c/a1/807888e043a9eb81db97941d1d4a9b9eb95021ca3767615c94a6e4643638/hukudo-ingress-2.2.0.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/72/cc/480b13229723968382e7c9ac74084801e6f0065e0fac2d0d220fce9707f4/istr_python-1.0.3.tar.gz
+[2024-05-24 11:20:19] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:20:19] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.5.tar.gz tmp/cadproxdk-3.6.tar.gz --markdown 20240524/c/cadproxdk/3.5-3.6/README.md --exclude *.pyd
+[2024-05-24 11:20:19] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/78/18/8e8156c2444b6b08de89d3bd2c1c12a45e8e7ba360dd94890643458bf8e8/QEasyWidgets-0.2.0.tar.gz
+[2024-05-24 11:20:20] INFO root fetch - processPackages [amulet-nbt]: Downloading https://files.pythonhosted.org/packages/3f/92/b0ccdbc76644e3b1538031b0b288cf2139e566d20ce01c1f5c1a60589e31/amulet_nbt-3.0.0a3.tar.gz
+[2024-05-24 11:20:20] INFO root fetch - processPackages [hukudo-ingress]: executing diffoscope
+[2024-05-24 11:20:20] INFO root fetch - processPackages [hukudo-ingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hukudo-ingress-2.1.2.tar.gz tmp/hukudo-ingress-2.2.0.tar.gz --markdown 20240524/h/hukudo-ingress/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-24 11:20:20] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-05-24 11:20:20] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-1.0.2.tar.gz tmp/istr_python-1.0.3.tar.gz --markdown 20240524/i/istr-python/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 11:20:20] INFO root fetch - processPackages [QEasyWidgets]: executing diffoscope
+[2024-05-24 11:20:20] INFO root fetch - processPackages [QEasyWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QEasyWidgets-0.1.9.tar.gz tmp/QEasyWidgets-0.2.0.tar.gz --markdown 20240524/Q/QEasyWidgets/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-24 11:20:20] INFO root fetch - processPackages [amulet-nbt]: executing diffoscope
+[2024-05-24 11:20:20] INFO root fetch - processPackages [amulet-nbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-nbt-3.0.0a2.tar.gz tmp/amulet_nbt-3.0.0a3.tar.gz --markdown 20240524/a/amulet-nbt/3.0.0a2-3.0.0a3/README.md --exclude *.pyd
+[2024-05-24 11:20:20] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-24 11:20:20] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.65.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.66.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-24 11:20:20] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.5.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.6.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:20:20] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-24 11:20:20] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-24 11:20:20] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-24 11:20:20] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-1.0.2.tar.gz]
+[2024-05-24 11:20:20] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-1.0.3.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-05-24 11:20:21] INFO root fetch - processPackages [hukudo-ingress]: Remove: archive file [/home/abi/fetcher/tmp/hukudo-ingress-2.1.2.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - processPackages [hukudo-ingress]: Remove: archive file [/home/abi/fetcher/tmp/hukudo-ingress-2.2.0.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - main [MainThread]: End processing [hukudo-ingress]: success
+[2024-05-24 11:20:21] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.9.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.2.0.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - main [MainThread]: End processing [QEasyWidgets]: success
+[2024-05-24 11:20:21] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541837!10.2.0.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1716541850!10.1.0.tar.gz]
+[2024-05-24 11:20:21] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-24 11:20:24] INFO root fetch - processPackages [amulet-nbt]: Remove: archive file [/home/abi/fetcher/tmp/amulet-nbt-3.0.0a2.tar.gz]
+[2024-05-24 11:20:24] INFO root fetch - processPackages [amulet-nbt]: Remove: archive file [/home/abi/fetcher/tmp/amulet_nbt-3.0.0a3.tar.gz]
+[2024-05-24 11:20:24] INFO root fetch - main [MainThread]: End processing [amulet-nbt]: success
+[2024-05-24 11:20:24] INFO root fetch - main [MainThread]: Store serial: [23359497]
