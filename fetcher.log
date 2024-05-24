@@ -15880,3 +15880,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:26:56] INFO root fetch - processPackages [rsam-ew]: Remove: archive file [/home/abi/fetcher/tmp/rsam_ew-1.3.0.tar.gz]
 [2024-05-24 10:26:56] INFO root fetch - main [MainThread]: End processing [rsam-ew]: success
 [2024-05-24 10:26:56] INFO root fetch - main [MainThread]: Store serial: [23358688]
+[2024-05-24 10:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358688]
+[2024-05-24 10:29:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aidee-living-docs
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GnosisTech
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scingestor
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prem-utils
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tardis-em
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretix-payone
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretix-sepadebit
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygradflow
+[2024-05-24 10:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imio.pyutils
+[2024-05-24 10:29:04] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [tardis-em]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [aidee-living-docs]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-05-24 10:29:04] INFO root fetch - processPackages [pretix-payone]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-24 10:29:04] WARNING root fetch - processPackages [GnosisTech]: Skipping, unable to determine old version
+[2024-05-24 10:29:04] INFO root fetch - main [MainThread]: End processing [GnosisTech] error
+[2024-05-24 10:29:04] INFO root fetch - processPackages [scingestor]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [pretix-sepadebit]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [imio.pyutils]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-24 10:29:04] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/3f/fd/cb55563154d54c3bb64d611404516a24dad4f2925fa7300983b7c34f676a/tardis_em-0.2.5.tar.gz
+[2024-05-24 10:29:04] INFO root fetch - processPackages [scingestor]: Downloading https://files.pythonhosted.org/packages/c4/c4/2f5566c86569c3033a44ced2ac5251de61d3bfeebd67979f5313faefe367/scingestor-0.8.1.tar.gz
+[2024-05-24 10:29:04] INFO root fetch - processPackages [aidee-living-docs]: Downloading https://files.pythonhosted.org/packages/dc/d0/c0503c39a4035e5480318fa131a7dce63a5631349bb170dddba25140ed61/aidee_living_docs-1.0.3.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-payone]: Downloading https://files.pythonhosted.org/packages/b7/2b/c13d9fcf6e4ecb3f86198f015ddc00fb4220f9af8d323e51b9fafd402353/pretix-payone-1.3.2.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-sepadebit]: Downloading https://files.pythonhosted.org/packages/d6/ff/6cca1f000ef816ac8173b34fcafca02536f497f0a1333ab6bdd6f48e8809/pretix-sepadebit-2.4.2.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/c6/4c/a37ea837c8e721c39964d986fb74385469415ee5bb75fb43eeb6375d0e60/imio_pyutils-1.0.2.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240524/p/prem-utils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [tardis-em]: Downloading https://files.pythonhosted.org/packages/df/16/ddc11179672e02fb5a470868c818150406fefd348dfeeb8da6519408e8f2/tardis_em-0.2.6.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [aidee-living-docs]: Downloading https://files.pythonhosted.org/packages/ba/bf/ba5f28222b4b82f4e0ffe31ea2fc95147a9d06afeb7d9e402f6de1109313/aidee_living_docs-1.0.4.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [imio.pyutils]: Downloading https://files.pythonhosted.org/packages/72/45/4d0bda4f6dca171077674a9425d50fc7044f2ee22dbf0f33107f2df438f8/imio.pyutils-1.0.3.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [scingestor]: Downloading https://files.pythonhosted.org/packages/e3/b1/d0cad21fb5d6a25db4b7e93d8230a63f9883b3eed628f5b7805372f2864e/scingestor-0.9.0.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-sepadebit]: Downloading https://files.pythonhosted.org/packages/41/e1/4745b02d16f0dadec5baeac607a5b82c3637aaa80ccab9956be0b22e07fa/pretix_sepadebit-2.5.0.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-payone]: Downloading https://files.pythonhosted.org/packages/01/33/1d9973539106b08131d9285a717dc299a1da058668cf34d738afd71c913f/pretix_payone-1.3.3.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-24 10:29:05] INFO root fetch - processPackages [tardis-em]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [tardis-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tardis_em-0.2.5.tar.gz tmp/tardis_em-0.2.6.tar.gz --markdown 20240524/t/tardis-em/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [scingestor]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [scingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scingestor-0.8.1.tar.gz tmp/scingestor-0.9.0.tar.gz --markdown 20240524/s/scingestor/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [aidee-living-docs]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [aidee-living-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aidee_living_docs-1.0.3.tar.gz tmp/aidee_living_docs-1.0.4.tar.gz --markdown 20240524/a/aidee-living-docs/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [imio.pyutils]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [imio.pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio_pyutils-1.0.2.tar.gz tmp/imio.pyutils-1.0.3.tar.gz --markdown 20240524/i/imio.pyutils/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240524/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-sepadebit]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-payone]: executing diffoscope
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-payone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-payone-1.3.2.tar.gz tmp/pretix_payone-1.3.3.tar.gz --markdown 20240524/p/pretix-payone/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-24 10:29:05] INFO root fetch - processPackages [pretix-sepadebit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-sepadebit-2.4.2.tar.gz tmp/pretix_sepadebit-2.5.0.tar.gz --markdown 20240524/p/pretix-sepadebit/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-05-24 10:29:06] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio_pyutils-1.0.2.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [imio.pyutils]: Remove: archive file [/home/abi/fetcher/tmp/imio.pyutils-1.0.3.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [imio.pyutils]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [aidee-living-docs]: Remove: archive file [/home/abi/fetcher/tmp/aidee_living_docs-1.0.3.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [aidee-living-docs]: Remove: archive file [/home/abi/fetcher/tmp/aidee_living_docs-1.0.4.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [aidee-living-docs]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [scingestor]: Remove: archive file [/home/abi/fetcher/tmp/scingestor-0.8.1.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [scingestor]: Remove: archive file [/home/abi/fetcher/tmp/scingestor-0.9.0.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [scingestor]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [pretix-payone]: Remove: archive file [/home/abi/fetcher/tmp/pretix-payone-1.3.2.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [pretix-payone]: Remove: archive file [/home/abi/fetcher/tmp/pretix_payone-1.3.3.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [pretix-payone]: success
+[2024-05-24 10:29:06] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.5.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - processPackages [tardis-em]: Remove: archive file [/home/abi/fetcher/tmp/tardis_em-0.2.6.tar.gz]
+[2024-05-24 10:29:06] INFO root fetch - main [MainThread]: End processing [tardis-em]: success
+[2024-05-24 10:29:07] INFO root fetch - processPackages [pretix-sepadebit]: Remove: archive file [/home/abi/fetcher/tmp/pretix-sepadebit-2.4.2.tar.gz]
+[2024-05-24 10:29:07] INFO root fetch - processPackages [pretix-sepadebit]: Remove: archive file [/home/abi/fetcher/tmp/pretix_sepadebit-2.5.0.tar.gz]
+[2024-05-24 10:29:07] INFO root fetch - main [MainThread]: End processing [pretix-sepadebit]: success
+[2024-05-24 10:29:07] INFO root fetch - main [MainThread]: Store serial: [23358715]
