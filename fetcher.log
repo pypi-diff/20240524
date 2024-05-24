@@ -15433,3 +15433,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:09:21] INFO root fetch - processPackages [termux-language-server]: Remove: archive file [/home/abi/fetcher/tmp/termux-language-server-0.0.9.tar.gz]
 [2024-05-24 10:09:21] INFO root fetch - main [MainThread]: End processing [termux-language-server]: success
 [2024-05-24 10:09:21] INFO root fetch - main [MainThread]: Store serial: [23358525]
+[2024-05-24 10:11:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358525]
+[2024-05-24 10:11:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 10:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygda
+[2024-05-24 10:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqladaptor
+[2024-05-24 10:11:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-tool-kit
+[2024-05-24 10:11:31] INFO root fetch - processPackages [music-tool-kit]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-05-24 10:11:31] WARNING root fetch - processPackages [pygda]: Skipping, unable to determine old version
+[2024-05-24 10:11:31] INFO root fetch - main [MainThread]: End processing [pygda] error
+[2024-05-24 10:11:31] INFO root fetch - processPackages [sqladaptor]: New version: [0.2] Old Version: [0.1.1]
+[2024-05-24 10:11:31] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/fa/07/e97e49b2076389ac9389a5e0536ee113a6b979da08156c5fc1ba903842c2/music-tool-kit-1.3.7.tar.gz
+[2024-05-24 10:11:31] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/3d/39/0e53b6df64f7613ff4ee44a80cd106f645cfb3401c9ecadfa1ec8f590dbc/sqladaptor-0.1.1.tar.gz
+[2024-05-24 10:11:31] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/61/46/9dea7689535604f310b9ef6eb925e2991a1484513db2ec6ba68994663584/music-tool-kit-1.3.9.tar.gz
+[2024-05-24 10:11:32] INFO root fetch - processPackages [music-tool-kit]: executing diffoscope
+[2024-05-24 10:11:32] INFO root fetch - processPackages [music-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-tool-kit-1.3.7.tar.gz tmp/music-tool-kit-1.3.9.tar.gz --markdown 20240524/m/music-tool-kit/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/ed/8e/34d66def6fea792d8eaea767a2eecafe7e9b0232d6de08134d757771d26d/sqladaptor-0.2.tar.gz
+[2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: executing diffoscope
+[2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladaptor-0.1.1.tar.gz tmp/sqladaptor-0.2.tar.gz --markdown 20240524/s/sqladaptor/0.1.1-0.2/README.md --exclude *.pyd
+[2024-05-24 10:11:32] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.7.tar.gz]
+[2024-05-24 10:11:32] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.9.tar.gz]
+[2024-05-24 10:11:32] INFO root fetch - main [MainThread]: End processing [music-tool-kit]: success
+[2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.1.1.tar.gz]
+[2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.2.tar.gz]
+[2024-05-24 10:11:32] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
+[2024-05-24 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23358536]
