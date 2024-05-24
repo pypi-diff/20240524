@@ -20220,3 +20220,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:46:04] INFO root fetch - processPackages [dash-websocket-component]: Remove: archive file [/home/abi/fetcher/tmp/dash_websocket_component-1.0.0.tar.gz]
 [2024-05-24 12:46:04] INFO root fetch - main [MainThread]: End processing [dash-websocket-component]: success
 [2024-05-24 12:46:04] INFO root fetch - main [MainThread]: Store serial: [23360568]
+[2024-05-24 12:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360568]
+[2024-05-24 12:48:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncedlyrics
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqladaptor
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chemfusekit
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: behaverse
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slurmray
+[2024-05-24 12:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faststream
+[2024-05-24 12:48:13] INFO root fetch - processPackages [sqladaptor]: New version: [0.2] Old Version: [0.1.1]
+[2024-05-24 12:48:13] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.1b2] Old Version: [1.1.1b1]
+[2024-05-24 12:48:13] INFO root fetch - processPackages [behaverse]: New version: [0.0.5.dev3] Old Version: [0.0.5.dev2]
+[2024-05-24 12:48:13] INFO root fetch - processPackages [faststream]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-24 12:48:13] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/3d/39/0e53b6df64f7613ff4ee44a80cd106f645cfb3401c9ecadfa1ec8f590dbc/sqladaptor-0.1.1.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/56/94/cd40b0d6cf1e58b70ad80cb99a853ef7c8cd9d8c42d435bd42b1bd781d54/chemfusekit-1.1.1b1.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/3d/19/a269f2ddb968438bbdd60a34cbbe37de2a33948a982b2ba5d547a15cb2f5/behaverse-0.0.5.dev2.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [syncedlyrics]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 12:48:14] INFO root fetch - processPackages [slurmray]: New version: [3.6.0] Old Version: [3.5.9]
+[2024-05-24 12:48:14] INFO root fetch - processPackages [jupyterhub]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2024-05-24 12:48:14] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/2b/39/4129ea714c8fee19ca175305a0deeaaca2d4f182f2df1fcebc81e4c7fda6/faststream-0.5.7.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [sqladaptor]: Downloading https://files.pythonhosted.org/packages/ed/8e/34d66def6fea792d8eaea767a2eecafe7e9b0232d6de08134d757771d26d/sqladaptor-0.2.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [syncedlyrics]: Downloading https://files.pythonhosted.org/packages/e7/35/418243d399a5af43bf6e44e456c06aeca9e99b7f50b87c760b6bc105bdeb/syncedlyrics-0.8.0.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/53/74/d6a4476f9ccc95cd2200dd968674995ed220614a046aa8fe1dc0dc72aabc/jupyterhub-5.0.0b1.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [slurmray]: Downloading https://files.pythonhosted.org/packages/a0/5b/8252ff7d6b1e566f6232b243782592a5b465e3cdaba22d9df735f139e1d4/slurmray-3.5.9.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/cb/0a/a79f24e21c344c771ee409a46302e72be67e6b1693007518e79a956a450e/faststream-0.5.8.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [sqladaptor]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [sqladaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladaptor-0.1.1.tar.gz tmp/sqladaptor-0.2.tar.gz --markdown 20240524/s/sqladaptor/0.1.1-0.2/README.md --exclude *.pyd
+[2024-05-24 12:48:14] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/64/2d/8128a90075337356107046b571f747b586645aecaa976dac17f9d8e43804/chemfusekit-1.1.1b2.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [faststream]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [faststream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststream-0.5.7.tar.gz tmp/faststream-0.5.8.tar.gz --markdown 20240524/f/faststream/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-24 12:48:14] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/73/0c/7c25d6198595949c235aee689a250fb4bdaf63dbbc884545eb064de40887/behaverse-0.0.5.dev3.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [syncedlyrics]: Downloading https://files.pythonhosted.org/packages/ad/79/502e7f3e08b4981f1c88e0164217e9ca9e507e7bdfee9f5285615437586a/syncedlyrics-0.9.0.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [slurmray]: Downloading https://files.pythonhosted.org/packages/cf/f7/0901b3245a62121f6156a98d9e47ab40ea2c95b18c54eae29eacccbe0c32/slurmray-3.6.0.tar.gz
+[2024-05-24 12:48:14] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.5.dev2.tar.gz tmp/behaverse-0.0.5.dev3.tar.gz --markdown 20240524/b/behaverse/0.0.5.dev2-0.0.5.dev3/README.md --exclude *.pyd
+[2024-05-24 12:48:14] WARNING root fetch - processPackages [jupyterhub]: Skipping package: exceeds size limit 16839619>=10485760
+[2024-05-24 12:48:14] INFO root fetch - main [MainThread]: End processing [jupyterhub] error
+[2024-05-24 12:48:14] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.1b1.tar.gz tmp/chemfusekit-1.1.1b2.tar.gz --markdown 20240524/c/chemfusekit/1.1.1b1-1.1.1b2/README.md --exclude *.pyd
+[2024-05-24 12:48:14] INFO root fetch - processPackages [syncedlyrics]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [syncedlyrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncedlyrics-0.8.0.tar.gz tmp/syncedlyrics-0.9.0.tar.gz --markdown 20240524/s/syncedlyrics/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 12:48:14] INFO root fetch - processPackages [slurmray]: executing diffoscope
+[2024-05-24 12:48:14] INFO root fetch - processPackages [slurmray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmray-3.5.9.tar.gz tmp/slurmray-3.6.0.tar.gz --markdown 20240524/s/slurmray/3.5.9-3.6.0/README.md --exclude *.pyd
+[2024-05-24 12:48:15] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.1.1.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.2.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
+[2024-05-24 12:48:15] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.5.dev2.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.5.dev3.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-24 12:48:15] INFO root fetch - processPackages [syncedlyrics]: Remove: archive file [/home/abi/fetcher/tmp/syncedlyrics-0.8.0.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - processPackages [syncedlyrics]: Remove: archive file [/home/abi/fetcher/tmp/syncedlyrics-0.9.0.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - main [MainThread]: End processing [syncedlyrics]: success
+[2024-05-24 12:48:15] INFO root fetch - processPackages [slurmray]: Remove: archive file [/home/abi/fetcher/tmp/slurmray-3.5.9.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - processPackages [slurmray]: Remove: archive file [/home/abi/fetcher/tmp/slurmray-3.6.0.tar.gz]
+[2024-05-24 12:48:15] INFO root fetch - main [MainThread]: End processing [slurmray]: success
+[2024-05-24 12:48:16] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b1.tar.gz]
+[2024-05-24 12:48:16] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.1b2.tar.gz]
+[2024-05-24 12:48:16] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-24 12:48:16] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.7.tar.gz]
+[2024-05-24 12:48:16] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.8.tar.gz]
+[2024-05-24 12:48:16] INFO root fetch - main [MainThread]: End processing [faststream]: success
+[2024-05-24 12:48:16] INFO root fetch - main [MainThread]: Store serial: [23360590]
