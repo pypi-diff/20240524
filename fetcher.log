@@ -21159,3 +21159,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:19:37] INFO root fetch - processPackages [hexdoc]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc-1!0.1.0a9.tar.gz]
 [2024-05-24 13:19:37] INFO root fetch - main [MainThread]: End processing [hexdoc]: success
 [2024-05-24 13:19:37] INFO root fetch - main [MainThread]: Store serial: [23360917]
+[2024-05-24 13:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360917]
+[2024-05-24 13:21:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerix77
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: writer-sdk
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydaikin
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BigEDA
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mangopaysdk
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taurex-madhuseager2009
+[2024-05-24 13:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zopyx-fastapi-auth
+[2024-05-24 13:21:47] INFO root fetch - processPackages [zopyx-fastapi-auth]: New version: [0.2.2.4] Old Version: [0.2.2.3]
+[2024-05-24 13:21:47] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:21:47] WARNING root fetch - processPackages [numerix77]: Skipping, unable to determine old version
+[2024-05-24 13:21:47] INFO root fetch - main [MainThread]: End processing [numerix77] error
+[2024-05-24 13:21:47] INFO root fetch - processPackages [pydaikin]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-24 13:21:47] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/aa/4c/51f0829572e80f5f20984be3d823daeeb6965b4f1ae284da17dbb6c53408/zopyx_fastapi_auth-0.2.2.3.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [writer-sdk]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-05-24 13:21:47] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-24 13:21:47] WARNING root fetch - processPackages [taurex-madhuseager2009]: Skipping, unable to determine old version
+[2024-05-24 13:21:47] INFO root fetch - main [MainThread]: End processing [taurex-madhuseager2009] error
+[2024-05-24 13:21:47] INFO root fetch - processPackages [mangopaysdk]: New version: [3.9.0] Old Version: [3.8.5]
+[2024-05-24 13:21:47] INFO root fetch - processPackages [writer-sdk]: Downloading https://files.pythonhosted.org/packages/d0/c4/3aa6f2305f98b235fcb6fe5300507166ec069caec8ee9e9e46e436f8fc4d/writer_sdk-0.1.0a2.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/e2/88/0631f9d803cd3199e583608206108a145ee541fc58b4920077e9353df088/pydaikin-2.9.0.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/b5/d3/8afd78cac231143acf70ef4161ce2a1af10fda7c818afb4e919d105f4295/mangopaysdk-3.8.5.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-24 13:21:47] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240524/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:21:47] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/63/87/b4e4d0bef9e4e60dcfb6bfacc842cfc248f5ad6abce98555e214b358c4e5/zopyx_fastapi_auth-0.2.2.4.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [writer-sdk]: Downloading https://files.pythonhosted.org/packages/f7/d1/eeca200cffda999976c91ce069c53831fa6151633d38ab1f1d28e7371a1a/writer_sdk-0.1.0a3.tar.gz
+[2024-05-24 13:21:47] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/99/49/070680f90659bb933ab3457c9cacc3e8b1304ae1a9efb8edaa1ed48d4fef/mangopaysdk-3.9.0.tar.gz
+[2024-05-24 13:21:48] INFO root fetch - processPackages [mangopaysdk]: executing diffoscope
+[2024-05-24 13:21:48] INFO root fetch - processPackages [mangopaysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangopaysdk-3.8.5.tar.gz tmp/mangopaysdk-3.9.0.tar.gz --markdown 20240524/m/mangopaysdk/3.8.5-3.9.0/README.md --exclude *.pyd
+[2024-05-24 13:21:48] INFO root fetch - processPackages [zopyx-fastapi-auth]: executing diffoscope
+[2024-05-24 13:21:48] INFO root fetch - processPackages [zopyx-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zopyx_fastapi_auth-0.2.2.3.tar.gz tmp/zopyx_fastapi_auth-0.2.2.4.tar.gz --markdown 20240524/z/zopyx-fastapi-auth/0.2.2.3-0.2.2.4/README.md --exclude *.pyd
+[2024-05-24 13:21:48] INFO root fetch - processPackages [writer-sdk]: executing diffoscope
+[2024-05-24 13:21:48] INFO root fetch - processPackages [writer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/writer_sdk-0.1.0a2.tar.gz tmp/writer_sdk-0.1.0a3.tar.gz --markdown 20240524/w/writer-sdk/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-05-24 13:21:48] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-24 13:21:48] INFO root fetch - processPackages [writer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/writer_sdk-0.1.0a2.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - processPackages [writer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/writer_sdk-0.1.0a3.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - main [MainThread]: End processing [writer-sdk]: success
+[2024-05-24 13:21:48] INFO root fetch - processPackages [pydaikin]: Downloading https://files.pythonhosted.org/packages/d7/9a/48b5098f0b08ea5787259050de846b8dbff99f1e2255d548aaf42bf9e4bb/pydaikin-2.9.1.tar.gz
+[2024-05-24 13:21:48] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.8.5.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.9.0.tar.gz]
+[2024-05-24 13:21:48] INFO root fetch - main [MainThread]: End processing [mangopaysdk]: success
+[2024-05-24 13:21:49] INFO root fetch - processPackages [pydaikin]: executing diffoscope
+[2024-05-24 13:21:49] INFO root fetch - processPackages [pydaikin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaikin-2.9.0.tar.gz tmp/pydaikin-2.9.1.tar.gz --markdown 20240524/p/pydaikin/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-24 13:21:49] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.3.tar.gz]
+[2024-05-24 13:21:49] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.4.tar.gz]
+[2024-05-24 13:21:49] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
+[2024-05-24 13:21:49] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.0.tar.gz]
+[2024-05-24 13:21:49] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
+[2024-05-24 13:21:49] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
+[2024-05-24 13:21:49] INFO root fetch - main [MainThread]: Store serial: [23360940]
