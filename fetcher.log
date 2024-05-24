@@ -18225,3 +18225,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:35:56] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.1.tar.gz]
 [2024-05-24 11:35:56] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
 [2024-05-24 11:35:56] INFO root fetch - main [MainThread]: Store serial: [23359713]
+[2024-05-24 11:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359713]
+[2024-05-24 11:38:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadproxdk
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrasta
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-rpc
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fundamend
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mns-common
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quart-rpc
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: person-local
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rustitude
+[2024-05-24 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartpredict
+[2024-05-24 11:38:05] WARNING root fetch - processPackages [fundamend]: Skipping, unable to determine old version
+[2024-05-24 11:38:05] INFO root fetch - processPackages [fundamend]: Start processing: internal-rdbms
+[2024-05-24 11:38:05] INFO root fetch - main [MainThread]: End processing [fundamend] error
+[2024-05-24 11:38:05] INFO root fetch - processPackages [smartpredict]: New version: [0.7.5] Old Version: [0.7.3]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [flask-rpc]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [cadproxdk]: New version: [3.8] Old Version: [3.7]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [mns-common]: New version: [1.1.2.5] Old Version: [1.1.2.4]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [rustitude]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [pyrasta]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [quart-rpc]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-05-24 11:38:05] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/7e/57/75cec4e746d5195cfa9058f9502f27bbd08c5581bb05760fb13db955b25a/flask_rpc-1.3.0.tar.gz
+[2024-05-24 11:38:05] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-24 11:38:06] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/56/1b/78737ac0db54a0b80d9e9265bc07a317d7e415cd78ccdf451fdcfb558326/smartpredict-0.7.3.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/58/ce/624545f9baf32b7d31c47fed7eb02cabfee0596740f9fda1b9e561607286/cadproxdk-3.7.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/db/86/0d9352ddb65a7075aac9656c090ed9e87d0dafd3f9d1ccee7ff7d051c7e2/mns_common-1.1.2.4.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/69/cc/e81b24dde68e4ce24c7971c569fa5728f78d61f80151c751a68efea18329/quart_rpc-1.3.1.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/26/95/876df8e65f7aeefad4a45be03c9dd18c2d195575717cdea6d482de616146/pyrasta-1.3.8.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/24/df/2b15ac7a982cdf777ae79fe80df248e7ecd3a54e45de8de6ecc52cfc05a5/rustitude-0.4.3.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/72/46/04882fce26fc71ddf7d4c341a7a7a17fbf189bad7bc3c10d619beb4b484d/internal_rdbms-0.1.6.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/51/cc/756c042044555fb5bc2e84fddf861f38815add53d87ed175e3995273cab9/flask_rpc-1.3.1.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d6/c6/63d527a25b60d1daa7742c6bf585196bf36bf431dd2f2ec214d46502a7e4/cadproxdk-3.8.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/5c/c0/1d23979a52a2b2c4a801985b259c5a770b48277bcedf32d4a0fc57f5a245/smartpredict-0.7.5.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/6b/6f/a02294202c77a2baf23a5a6e224b935c5b01556d1c3387a7589e06b5e391/mns_common-1.1.2.5.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-1.3.0.tar.gz tmp/flask_rpc-1.3.1.tar.gz --markdown 20240524/f/flask-rpc/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/61/8a/b9f17b13d027d48fc24f3eabd03ebebb9e1ecdf527bd0ec01fb28dc5ccf2/quart_rpc-1.4.0.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240524/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240524/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.7.tar.gz tmp/cadproxdk-3.8.tar.gz --markdown 20240524/c/cadproxdk/3.7-3.8/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/4d/1e/11625287d6caec78c1688d389be7275b7334d458d00c313358be768d0f09/internal_rdbms-0.1.7.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/40/4b/717bc7c9626096e5d6f681e721bc2fef5029ecc0f19d0a4a2a13cf9ab5f2/pyrasta-1.3.9.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.7.3.tar.gz tmp/smartpredict-0.7.5.tar.gz --markdown 20240524/s/smartpredict/0.7.3-0.7.5/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.2.4.tar.gz tmp/mns_common-1.1.2.5.tar.gz --markdown 20240524/m/mns-common/1.1.2.4-1.1.2.5/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/91/7d/01ac79adf1faebc9cdbce8a8d8cc8ff6ff5a5b32d20f372d66e5e30fa7ee/rustitude-0.5.0.tar.gz
+[2024-05-24 11:38:06] INFO root fetch - processPackages [quart-rpc]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [quart-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_rpc-1.3.1.tar.gz tmp/quart_rpc-1.4.0.tar.gz --markdown 20240524/q/quart-rpc/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-05-24 11:38:06] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-24 11:38:06] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.6.tar.gz tmp/internal_rdbms-0.1.7.tar.gz --markdown 20240524/i/internal-rdbms/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-24 11:38:07] INFO root fetch - processPackages [pyrasta]: executing diffoscope
+[2024-05-24 11:38:07] INFO root fetch - processPackages [pyrasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrasta-1.3.8.tar.gz tmp/pyrasta-1.3.9.tar.gz --markdown 20240524/p/pyrasta/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-24 11:38:07] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.3.0.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.3.1.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [flask-rpc]: Start processing: DataFrameProcessor
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-05-24 11:38:07] WARNING root fetch - processPackages [DataFrameProcessor]: Skipping, unable to determine old version
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [DataFrameProcessor] error
+[2024-05-24 11:38:07] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.7.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.8.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.3.1.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.4.0.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.6.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.7.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.3.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.5.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.4.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.5.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-24 11:38:07] INFO root fetch - processPackages [rustitude]: executing diffoscope
+[2024-05-24 11:38:07] INFO root fetch - processPackages [rustitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustitude-0.4.3.tar.gz tmp/rustitude-0.5.0.tar.gz --markdown 20240524/r/rustitude/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-24 11:38:07] INFO root fetch - processPackages [pyrasta]: Remove: archive file [/home/abi/fetcher/tmp/pyrasta-1.3.8.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - processPackages [pyrasta]: Remove: archive file [/home/abi/fetcher/tmp/pyrasta-1.3.9.tar.gz]
+[2024-05-24 11:38:07] INFO root fetch - main [MainThread]: End processing [pyrasta]: success
+[2024-05-24 11:38:09] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.3.tar.gz]
+[2024-05-24 11:38:09] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.5.0.tar.gz]
+[2024-05-24 11:38:09] INFO root fetch - main [MainThread]: End processing [rustitude]: success
+[2024-05-24 11:38:09] INFO root fetch - main [MainThread]: Store serial: [23359758]
