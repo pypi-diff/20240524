@@ -7223,3 +7223,63 @@
 [2024-05-24 03:27:00] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716512682.tar.gz]
 [2024-05-24 03:27:00] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2024-05-24 03:27:00] INFO root fetch - main [MainThread]: Store serial: [23354894]
+[2024-05-24 03:29:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23354894]
+[2024-05-24 03:29:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwbot
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GofileIOUploader
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-null
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datazone
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: number-of-terms-inside-a-square-root6
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onediff
+[2024-05-24 03:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onediffx
+[2024-05-24 03:29:09] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405230127] Old Version: [1.1.0.dev202405220128]
+[2024-05-24 03:29:09] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-24 03:29:09] INFO root fetch - processPackages [onediffx]: New version: [1.1.0.dev202405230127] Old Version: [1.1.0.dev202405220128]
+[2024-05-24 03:29:09] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1716511442] Old Version: [0.1.0a1715926439]
+[2024-05-24 03:29:09] INFO root fetch - processPackages [datazone]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 03:29:09] INFO root fetch - processPackages [GofileIOUploader]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 03:29:09] WARNING root fetch - processPackages [number-of-terms-inside-a-square-root6]: Skipping, unable to determine old version
+[2024-05-24 03:29:09] INFO root fetch - main [MainThread]: End processing [number-of-terms-inside-a-square-root6] error
+[2024-05-24 03:29:09] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ec/e3/e832fe2126f349509813a3742a38ddfa01e934a99b8a0397a09613f6063b/onediff-1.1.0.dev202405220128.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/6b/78/3d1384e247f2496b10a3b3031f9547777fe054629e30f097e52a1e748596/pulumi_null-0.1.0a1715926439.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/aa/bd/d984c7e5ebc597fe34a33195dbfa6519b30d88627de46cd0578804dd67ca/onediffx-1.1.0.dev202405220128.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [GofileIOUploader]: Downloading https://files.pythonhosted.org/packages/fb/d1/ec176f7766a149d8fa7730e6327c1aa2857577ca0281cb42482f0a77cedc/GofileIOUploader-0.9.8.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [datazone]: Downloading https://files.pythonhosted.org/packages/68/58/951e1c42558769a1918541cc8945d95c90f4b258ceee670483a65c586813/datazone-0.0.5.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/6e/15/5f70b5ee066d8daed6566d4fe8d8376ab8179f7f3a450e9bfc8015a6f549/pulumi_null-0.1.0a1716511442.tar.gz
+[2024-05-24 03:29:09] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-24 03:29:10] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-24 03:29:10] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1715926439.tar.gz tmp/pulumi_null-0.1.0a1716511442.tar.gz --markdown 20240524/p/pulumi-null/0.1.0a1715926439-0.1.0a1716511442/README.md --exclude *.pyd
+[2024-05-24 03:29:10] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-24 03:29:10] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240524/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/00/64/84d398f613236ed70c2c8ee17e32000b5857b039984e9e4b4b783f9c6151/onediffx-1.1.0.dev202405230127.tar.gz
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/47/1a/6d83fd331bcd7ad1eb9099c7ec7a38042b2fe109c10fff358e7354d11493/onediff-1.1.0.dev202405230127.tar.gz
+[2024-05-24 03:29:10] INFO root fetch - processPackages [datazone]: Downloading https://files.pythonhosted.org/packages/96/6a/a69a0b758af445a706e53abc7cbedfaf3f6f3fae80f405387eba6891e710/datazone-0.0.6.tar.gz
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.1.0.dev202405220128.tar.gz tmp/onediffx-1.1.0.dev202405230127.tar.gz --markdown 20240524/o/onediffx/1.1.0.dev202405220128-1.1.0.dev202405230127/README.md --exclude *.pyd
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405220128.tar.gz tmp/onediff-1.1.0.dev202405230127.tar.gz --markdown 20240524/o/onediff/1.1.0.dev202405220128-1.1.0.dev202405230127/README.md --exclude *.pyd
+[2024-05-24 03:29:10] INFO root fetch - processPackages [datazone]: executing diffoscope
+[2024-05-24 03:29:10] INFO root fetch - processPackages [datazone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazone-0.0.5.tar.gz tmp/datazone-0.0.6.tar.gz --markdown 20240524/d/datazone/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 03:29:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715926439.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1716511442.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-24 03:29:10] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405220128.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405230127.tar.gz]
+[2024-05-24 03:29:10] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-24 03:29:11] INFO root fetch - processPackages [datazone]: Remove: archive file [/home/abi/fetcher/tmp/datazone-0.0.5.tar.gz]
+[2024-05-24 03:29:11] INFO root fetch - processPackages [datazone]: Remove: archive file [/home/abi/fetcher/tmp/datazone-0.0.6.tar.gz]
+[2024-05-24 03:29:11] INFO root fetch - main [MainThread]: End processing [datazone]: success
+[2024-05-24 03:29:11] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405220128.tar.gz]
+[2024-05-24 03:29:11] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405230127.tar.gz]
+[2024-05-24 03:29:11] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-24 03:29:11] INFO root fetch - processPackages [GofileIOUploader]: Downloading https://files.pythonhosted.org/packages/7d/9c/3e49756dade43968c36dae4932d816bfdd801248318c650b1ac631eb15d8/GofileIOUploader-0.9.9.tar.gz
+[2024-05-24 03:29:11] INFO root fetch - processPackages [GofileIOUploader]: executing diffoscope
+[2024-05-24 03:29:11] INFO root fetch - processPackages [GofileIOUploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GofileIOUploader-0.9.8.tar.gz tmp/GofileIOUploader-0.9.9.tar.gz --markdown 20240524/G/GofileIOUploader/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 03:29:12] INFO root fetch - processPackages [GofileIOUploader]: Remove: archive file [/home/abi/fetcher/tmp/GofileIOUploader-0.9.8.tar.gz]
+[2024-05-24 03:29:12] INFO root fetch - processPackages [GofileIOUploader]: Remove: archive file [/home/abi/fetcher/tmp/GofileIOUploader-0.9.9.tar.gz]
+[2024-05-24 03:29:12] INFO root fetch - main [MainThread]: End processing [GofileIOUploader]: success
+[2024-05-24 03:29:12] INFO root fetch - main [MainThread]: Store serial: [23354976]
