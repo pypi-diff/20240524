@@ -8555,3 +8555,69 @@
 [2024-05-24 04:52:53] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.2.9.tar.gz]
 [2024-05-24 04:52:53] INFO root fetch - main [MainThread]: End processing [antchain-securitytech]: success
 [2024-05-24 04:52:53] INFO root fetch - main [MainThread]: Store serial: [23355724]
+[2024-05-24 04:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355724]
+[2024-05-24 04:55:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validate-pyproject-schema-store
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdproxy
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FRScraper
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-commands
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdbt
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkrcomponents
+[2024-05-24 04:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-comment-template
+[2024-05-24 04:55:01] INFO root fetch - processPackages [cdbt]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [openai-commands]: New version: [3.5.1] Old Version: [3.4.1]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [FRScraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [cdproxy]: New version: [1.2] Old Version: [1.1]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/55/62/0bdd61e3311201ee0770f2db689b107227bf415ac0e19d814eb56deebe69/openai_commands-3.4.1.tar.gz
+[2024-05-24 04:55:01] INFO root fetch - processPackages [odoo-addon-account-comment-template]: New version: [16.0.1.0.1.7] Old Version: [16.0.1.0.1.5]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [validate-pyproject-schema-store]: New version: [2024.5.24] Old Version: [2024.5.20]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [pkrcomponents]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-24 04:55:01] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/65/41/b1e462cf6b5d63d48f979ef9e41b45cb3cd61b917de78ef86ba62ada9b09/cdbt-0.2.4.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdproxy]: Downloading https://files.pythonhosted.org/packages/18/7e/aa66abedd3c14774fd3bea50cdf5c9866cd3bd6e9296582418b0618c4dff/cdproxy-1.1.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [FRScraper]: Downloading https://files.pythonhosted.org/packages/5f/4a/2d2ff1fd8eed8a7cd9f38da21f9027c4482b6becbb35203e23886dab6ad4/frscraper-0.1.1.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Downloading https://files.pythonhosted.org/packages/64/c3/341c2b6cea4e3ae24cfd5fc1077e841210e51fd31268d30f0c97f8805560/odoo_addon_account_comment_template-16.0.1.0.1.5-py3-none-any.whl
+[2024-05-24 04:55:02] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/8c/c8/117c44da9121d537d9d36f1556555806efb43ddfa916a78e13a587bc8dc4/pkrcomponents-1.6.4.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/ae/31/7a4338cbe7916d62493e161ba2be2816bf09dc50fd5b6a73226d516f8a95/validate_pyproject_schema_store-2024.5.20.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/c2/82/b674322b980f443b024d6866dd225c33a77e7a9e028014e8b27ccabf475f/openai_commands-3.5.1.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdproxy]: Downloading https://files.pythonhosted.org/packages/77/be/1798f3e59c86f2cdb973e830917b9ff5e95605faf85d0d111868470e4bd0/cdproxy-1.2.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/76/ff/716bf123a995f1a6b6ef29391e9a50ff699b56f9ac4260d8dfc4bce2a5df/cdbt-0.2.5.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [FRScraper]: Downloading https://files.pythonhosted.org/packages/a1/ea/94c1e2c45c7f057acc906d1d80068c9df14d4136091ad9f6415704f2e78c/frscraper-0.1.2.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [openai-commands]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [openai-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_commands-3.4.1.tar.gz tmp/openai_commands-3.5.1.tar.gz --markdown 20240524/o/openai-commands/3.4.1-3.5.1/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdproxy]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdproxy-1.1.tar.gz tmp/cdproxy-1.2.tar.gz --markdown 20240524/c/cdproxy/1.1-1.2/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [FRScraper]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [FRScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frscraper-0.1.1.tar.gz tmp/frscraper-0.1.2.tar.gz --markdown 20240524/F/FRScraper/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.2.4.tar.gz tmp/cdbt-0.2.5.tar.gz --markdown 20240524/c/cdbt/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/99/33/a6868fb794f2ce1e86509be3a59d3f92842acf4b52bc291d97e9f646ac4b/pkrcomponents-1.6.5.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Downloading https://files.pythonhosted.org/packages/c7/28/c2725747361e8d679493153f1b11d32f3b931af6aade337f01c3966c67be/odoo_addon_account_comment_template-16.0.1.0.1.7-py3-none-any.whl
+[2024-05-24 04:55:02] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/69/bd/6b0c944b2447519113814f883117beb8f647ecd8e66502ab8068f1a294c5/validate_pyproject_schema_store-2024.5.24.tar.gz
+[2024-05-24 04:55:02] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.6.4.tar.gz tmp/pkrcomponents-1.6.5.tar.gz --markdown 20240524/p/pkrcomponents/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [odoo-addon-account-comment-template]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [odoo-addon-account-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_comment_template-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_account_comment_template-16.0.1.0.1.7-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-comment-template/16.0.1.0.1.5-16.0.1.0.1.7/README.md --exclude *.pyd
+[2024-05-24 04:55:02] INFO root fetch - processPackages [validate-pyproject-schema-store]: executing diffoscope
+[2024-05-24 04:55:02] INFO root fetch - processPackages [validate-pyproject-schema-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validate_pyproject_schema_store-2024.5.20.tar.gz tmp/validate_pyproject_schema_store-2024.5.24.tar.gz --markdown 20240524/v/validate-pyproject-schema-store/2024.5.20-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 04:55:03] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.4.1.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.5.1.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [openai-commands]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [cdproxy]: Remove: archive file [/home/abi/fetcher/tmp/cdproxy-1.1.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [cdproxy]: Remove: archive file [/home/abi/fetcher/tmp/cdproxy-1.2.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [cdproxy]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.4.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.5.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [FRScraper]: Remove: archive file [/home/abi/fetcher/tmp/frscraper-0.1.1.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [FRScraper]: Remove: archive file [/home/abi/fetcher/tmp/frscraper-0.1.2.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [FRScraper]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.6.4.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.6.5.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.20.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.24.tar.gz]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [validate-pyproject-schema-store]: success
+[2024-05-24 04:55:03] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_comment_template-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-24 04:55:03] INFO root fetch - processPackages [odoo-addon-account-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_comment_template-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-comment-template]: success
+[2024-05-24 04:55:03] INFO root fetch - main [MainThread]: Store serial: [23355744]
