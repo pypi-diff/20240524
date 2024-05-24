@@ -14710,3 +14710,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:46:24] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
 [2024-05-24 09:46:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
 [2024-05-24 09:46:24] INFO root fetch - main [MainThread]: Store serial: [23358213]
+[2024-05-24 09:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358213]
+[2024-05-24 09:48:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embody-codec
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretscraper
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-location-orderpoint
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collider-check
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cadproxdk
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cadproxdk
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-request
+[2024-05-24 09:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-request
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: New version: [2] Old Version: [1.8]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: New version: [2] Old Version: [1.8]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.2]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9.6] Old Version: [1.3.9.5]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.2]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [collider-check]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [embody-codec]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3a/fc/23b547e3cb1066f0eaf635b41bdba8a529a1b395e16853284910b93f9475/cadproxdk-1.8.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: New version: [16.0.2.0.1.2] Old Version: [16.0.2.0.1]
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3a/fc/23b547e3cb1066f0eaf635b41bdba8a529a1b395e16853284910b93f9475/cadproxdk-1.8.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/09/1e/39454caae0f087da23302337ecfdb5f27f83701f6bbaade1deeda6cf4670/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl
+[2024-05-24 09:48:33] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/ef/dd/2e61c9496426946ad608c0f98cef17dafcd20a5db3396e88bbc52ff7f9e0/secretscraper-1.3.9.5.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/09/1e/39454caae0f087da23302337ecfdb5f27f83701f6bbaade1deeda6cf4670/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl
+[2024-05-24 09:48:33] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/be/8e/d27f9cf42aac9e1d93d50f6595c75b042365a1208fb9a803f87d53fe2592/embody_codec-1.0.8.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/e5/a8/d433d914ae04e0d2d39bbc2675bedbfffeeb4deb304bb653c38716ad347d/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl
+[2024-05-24 09:48:33] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/39/b5/af352fab7283241c0076b08f3bfec242060bc866b6a914c5584affc9deee/collider_check-0.2.0.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/f6/38/a90097d171488c363bb78bdffb296261c31e79878ec7bc2a52634936e0bc/secretscraper-1.3.9.6.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/02/cf/87984870a0265f6fd1994feecb9b77d265debe40b9acaf4f1850b0699fea/cadproxdk-2.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/02/cf/87984870a0265f6fd1994feecb9b77d265debe40b9acaf4f1850b0699fea/cadproxdk-2.tar.gz
+[2024-05-24 09:48:33] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-05-24 09:48:33] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.9.5.tar.gz tmp/secretscraper-1.3.9.6.tar.gz --markdown 20240524/s/secretscraper/1.3.9.5-1.3.9.6/README.md --exclude *.pyd
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/5b/00/855e5415b49c3c95507363d6ea0a07bd7f6ff2197e5b30b60d6ae5856fc1/odoo_addon_stock_request-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:48:33] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/5b/00/855e5415b49c3c95507363d6ea0a07bd7f6ff2197e5b30b60d6ae5856fc1/odoo_addon_stock_request-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-1.8.tar.gz tmp/cadproxdk-2.tar.gz --markdown 20240524/c/cadproxdk/1.8-2/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-1.8.tar.gz tmp/cadproxdk-2.tar.gz --markdown 20240524/c/cadproxdk/1.8-2/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/b8/3b/4fca4ac46a9ba12495935f8612808e483116fb55a66de1c4b5d05acbe416/odoo_addon_stock_location_orderpoint-16.0.2.0.1.2-py3-none-any.whl
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-request/17.0.1.0.2-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-request/17.0.1.0.2-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/27/32/622016750235a814335cee980fa54e80cc09ca2ded753308251ae3059b68/collider_check-0.2.1.tar.gz
+[2024-05-24 09:48:34] INFO root fetch - processPackages [embody-codec]: Downloading https://files.pythonhosted.org/packages/7d/57/0c220ff3b777024e60dd44ce88c7057ec13b04bccd5b5536c45ea4875d8a/embody_codec-1.0.9.tar.gz
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-location-orderpoint/16.0.2.0.1-16.0.2.0.1.2/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [collider-check]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [collider-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_check-0.2.0.tar.gz tmp/collider_check-0.2.1.tar.gz --markdown 20240524/c/collider-check/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [embody-codec]: executing diffoscope
+[2024-05-24 09:48:34] INFO root fetch - processPackages [embody-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_codec-1.0.8.tar.gz tmp/embody_codec-1.0.9.tar.gz --markdown 20240524/e/embody-codec/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 09:48:34] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.5.tar.gz]
+[2024-05-24 09:48:34] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.6.tar.gz]
+[2024-05-24 09:48:34] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-1.8.tar.gz]
+[2024-05-24 09:48:34] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.tar.gz]
+[2024-05-24 09:48:34] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:48:34] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:48:35] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.0.tar.gz]
+[2024-05-24 09:48:35] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.1.tar.gz]
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [collider-check]: success
+[2024-05-24 09:48:35] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:48:35] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.1.2-py3-none-any.whl.zip]
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-location-orderpoint]: success
+[2024-05-24 09:48:35] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:48:35] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-24 09:48:35] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.8.tar.gz]
+[2024-05-24 09:48:35] INFO root fetch - processPackages [embody-codec]: Remove: archive file [/home/abi/fetcher/tmp/embody_codec-1.0.9.tar.gz]
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [embody-codec]: success
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-05-24 09:48:35] INFO root fetch - main [MainThread]: Store serial: [23358234]
