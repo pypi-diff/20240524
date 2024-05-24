@@ -11808,3 +11808,9 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
 [2024-05-24 07:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
 [2024-05-24 07:46:15] INFO root fetch - main [MainThread]: Store serial: [23356912]
+[2024-05-24 07:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356912]
+[2024-05-24 07:48:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 07:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kyoto-sightseeing
+[2024-05-24 07:48:25] WARNING root fetch - processPackages [kyoto-sightseeing]: Skipping, unable to determine old version
+[2024-05-24 07:48:25] INFO root fetch - main [MainThread]: End processing [kyoto-sightseeing] error
+[2024-05-24 07:48:25] INFO root fetch - main [MainThread]: Store serial: [23356918]
