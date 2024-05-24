@@ -17701,3 +17701,188 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:20:24] INFO root fetch - processPackages [amulet-nbt]: Remove: archive file [/home/abi/fetcher/tmp/amulet_nbt-3.0.0a3.tar.gz]
 [2024-05-24 11:20:24] INFO root fetch - main [MainThread]: End processing [amulet-nbt]: success
 [2024-05-24 11:20:24] INFO root fetch - main [MainThread]: Store serial: [23359497]
+[2024-05-24 11:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359497]
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowtasks
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DataFrameProcessor
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collider-dashboard
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: request-api-builder
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-to-lnh
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: siat
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyperclip-plus
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intel-extension-for-transformers
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2024-05-24 11:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gigachain-community
+[2024-05-24 11:22:34] INFO root fetch - processPackages [request-api-builder]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-24 11:22:34] WARNING root fetch - processPackages [flowtasks]: Skipping, unable to determine old version
+[2024-05-24 11:22:34] INFO root fetch - processPackages [flowtasks]: Start processing: RobotVidSub
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: End processing [flowtasks] error
+[2024-05-24 11:22:34] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/f3/9d/87521535f8cc711526b2fe5455dbbf6482a66cb5253bb7988f22c9433c1a/request_api_builder-2.0.3.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [DataFrameProcessor]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-24 11:22:34] WARNING root fetch - processPackages [sql-to-lnh]: Skipping, unable to determine old version
+[2024-05-24 11:22:34] INFO root fetch - processPackages [sql-to-lnh]: Start processing: python-inoreader
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: End processing [sql-to-lnh] error
+[2024-05-24 11:22:34] INFO root fetch - processPackages [gigachain-community]: New version: [0.2.0] Old Version: [0.0.6.1]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [collider-dashboard]: New version: [1.3.5.0] Old Version: [1.3.4.0]
+[2024-05-24 11:22:34] WARNING root fetch - processPackages [pyperclip-plus]: Skipping, unable to determine old version
+[2024-05-24 11:22:34] INFO root fetch - processPackages [pyperclip-plus]: Start processing: istr-python
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: End processing [pyperclip-plus] error
+[2024-05-24 11:22:34] INFO root fetch - processPackages [intel-extension-for-transformers]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [siat]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-24 11:22:34] INFO root fetch - processPackages [istr-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 11:22:34] WARNING root fetch - processPackages [RobotVidSub]: Skipping, unable to determine old version
+[2024-05-24 11:22:34] INFO root fetch - processPackages [RobotVidSub]: Start processing: annet
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: End processing [RobotVidSub] error
+[2024-05-24 11:22:34] INFO root fetch - processPackages [python-inoreader]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/7c/23/54fdcd40ed7bec46eb42cb6b81dcedc3fbbba00820cb7156b17f3c366e98/collider_dashboard-1.3.4.0.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/b5/dd/d1282349a343c545abe7e93c6e007f8025e3329ccb8f77b54bc5a03fc7c0/istr_python-1.0.2.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [DataFrameProcessor]: Downloading https://files.pythonhosted.org/packages/99/7c/0d0d1d6ec410b5efed2caf4ea890e166d50e31af00ec4fbb9548d859daa4/DataFrameProcessor-1.0.0-py3-none-any.whl
+[2024-05-24 11:22:34] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 11:22:34] INFO root fetch - processPackages [gigachain-community]: Downloading https://files.pythonhosted.org/packages/58/07/8bd30ff59ba737b577ca96e88b723620150840d69d02cdeb37f8cf33aa31/gigachain_community-0.0.6.1.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [intel-extension-for-transformers]: Downloading https://files.pythonhosted.org/packages/62/88/dffedcbcf6c5c001ff15d064149a7459684d2094e46999faa4f30fadf53d/intel_extension_for_transformers-1.4.1.tar.gz
+[2024-05-24 11:22:34] WARNING root fetch - processPackages [intel-extension-for-transformers]: Skipping package: exceeds size limit 106323598>=10485760
+[2024-05-24 11:22:34] INFO root fetch - main [MainThread]: End processing [intel-extension-for-transformers] error
+[2024-05-24 11:22:34] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/bd/e2/05cd503bb53a8b91943e2fc86769d8c512dca6dfdcf63e1dd9247bd7232d/siat-3.1.2-py3-none-any.whl
+[2024-05-24 11:22:34] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [python-inoreader]: Downloading https://files.pythonhosted.org/packages/f1/5e/63d9797fdfffcf0e3637be48a47d5dc251fe852ed5c36afdc2c32800fee9/python_inoreader-0.7.0.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [istr-python]: Downloading https://files.pythonhosted.org/packages/72/cc/480b13229723968382e7c9ac74084801e6f0065e0fac2d0d220fce9707f4/istr_python-1.0.3.tar.gz
+[2024-05-24 11:22:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-24 11:22:35] INFO root fetch - processPackages [istr-python]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [istr-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/istr_python-1.0.2.tar.gz tmp/istr_python-1.0.3.tar.gz --markdown 20240524/i/istr-python/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [DataFrameProcessor]: Downloading https://files.pythonhosted.org/packages/7f/1a/5482d8d919af28a9b112cc9c4a9eb302f45b4f36bbd7cf83e0048795a47c/DataFrameProcessor-1.1.0-py3-none-any.whl
+[2024-05-24 11:22:35] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-24 11:22:35] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/c8/1a/35efe6308419d7cd0275b646b790fff33815208ce004f1b471e9bb9ba9e4/request_api_builder-2.0.4.tar.gz
+[2024-05-24 11:22:35] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240524/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [request-api-builder]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [request-api-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_api_builder-2.0.3.tar.gz tmp/request_api_builder-2.0.4.tar.gz --markdown 20240524/r/request-api-builder/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [DataFrameProcessor]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [DataFrameProcessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataFrameProcessor-1.0.0-py3-none-any.whl.zip tmp/DataFrameProcessor-1.1.0-py3-none-any.whl.zip --markdown 20240524/D/DataFrameProcessor/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240524/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [python-inoreader]: Downloading https://files.pythonhosted.org/packages/3f/d7/dfcac9d034fa62d18b72b9edfa30b8076440debc616e122d59227a223f14/python_inoreader-0.7.1.tar.gz
+[2024-05-24 11:22:35] INFO root fetch - processPackages [gigachain-community]: Downloading https://files.pythonhosted.org/packages/30/5e/3500e4e5415bcbea887600cbddeecb708e09a8e61590cd47ca2bdd04c495/gigachain_community-0.2.0.tar.gz
+[2024-05-24 11:22:35] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.1.1-py3-none-any.whl.zip tmp/siat-3.1.2-py3-none-any.whl.zip --markdown 20240524/s/siat/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [python-inoreader]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [python-inoreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_inoreader-0.7.0.tar.gz tmp/python_inoreader-0.7.1.tar.gz --markdown 20240524/p/python-inoreader/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/da/00/b2df98eee4148f777825e9ec174b3e6777f30633dbf7d8c36701f2cd4bec/collider_dashboard-1.3.5.0.tar.gz
+[2024-05-24 11:22:35] INFO root fetch - processPackages [gigachain-community]: executing diffoscope
+[2024-05-24 11:22:35] INFO root fetch - processPackages [gigachain-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_community-0.0.6.1.tar.gz tmp/gigachain_community-0.2.0.tar.gz --markdown 20240524/g/gigachain-community/0.0.6.1-0.2.0/README.md --exclude *.pyd
+[2024-05-24 11:22:35] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-1.0.2.tar.gz]
+[2024-05-24 11:22:35] INFO root fetch - processPackages [istr-python]: Remove: archive file [/home/abi/fetcher/tmp/istr_python-1.0.3.tar.gz]
+[2024-05-24 11:22:35] INFO root fetch - main [MainThread]: End processing [istr-python]: success
+[2024-05-24 11:22:36] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.0.3.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.0.4.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - main [MainThread]: End processing [request-api-builder]: success
+[2024-05-24 11:22:36] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-24T11:22:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-24 11:22:36] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-24 11:22:36] INFO root fetch - processPackages [python-inoreader]: Remove: archive file [/home/abi/fetcher/tmp/python_inoreader-0.7.0.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - processPackages [python-inoreader]: Remove: archive file [/home/abi/fetcher/tmp/python_inoreader-0.7.1.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - main [MainThread]: End processing [python-inoreader]: success
+[2024-05-24 11:22:36] INFO root fetch - processPackages [DataFrameProcessor]: Remove: archive file [/home/abi/fetcher/tmp/DataFrameProcessor-1.0.0-py3-none-any.whl.zip]
+[2024-05-24 11:22:36] INFO root fetch - processPackages [DataFrameProcessor]: Remove: archive file [/home/abi/fetcher/tmp/DataFrameProcessor-1.1.0-py3-none-any.whl.zip]
+[2024-05-24 11:22:36] INFO root fetch - main [MainThread]: End processing [DataFrameProcessor]: success
+[2024-05-24 11:22:36] INFO root fetch - processPackages [collider-dashboard]: executing diffoscope
+[2024-05-24 11:22:36] INFO root fetch - processPackages [collider-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_dashboard-1.3.4.0.tar.gz tmp/collider_dashboard-1.3.5.0.tar.gz --markdown 20240524/c/collider-dashboard/1.3.4.0-1.3.5.0/README.md --exclude *.pyd
+[2024-05-24 11:22:36] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-24 11:22:36] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-24 11:22:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-24 11:22:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-24 11:22:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-24 11:22:39] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.4.0.tar.gz]
+[2024-05-24 11:22:39] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.5.0.tar.gz]
+[2024-05-24 11:22:39] INFO root fetch - main [MainThread]: End processing [collider-dashboard]: success
+[2024-05-24 11:22:42] INFO root fetch - processPackages [gigachain-community]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_community-0.0.6.1.tar.gz]
+[2024-05-24 11:22:42] INFO root fetch - processPackages [gigachain-community]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_community-0.2.0.tar.gz]
+[2024-05-24 11:22:42] INFO root fetch - main [MainThread]: End processing [gigachain-community]: success
+[2024-05-24 11:22:42] INFO root fetch - main [MainThread]: Store serial: [23359552]
