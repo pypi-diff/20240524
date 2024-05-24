@@ -21705,3 +21705,137 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:39:16] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post543-py3-none-any.whl.zip]
 [2024-05-24 13:39:16] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-24 13:39:16] INFO root fetch - main [MainThread]: Store serial: [23361164]
+[2024-05-24 13:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361164]
+[2024-05-24 13:41:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bblib
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-sdk
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-operator
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libtsm
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-telemetry
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: x21
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: timesfm
+[2024-05-24 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DataCleaningWithPandas
+[2024-05-24 13:41:25] WARNING root fetch - processPackages [DataCleaningWithPandas]: Skipping, unable to determine old version
+[2024-05-24 13:41:25] INFO root fetch - processPackages [DataCleaningWithPandas]: Start processing: frogr
+[2024-05-24 13:41:25] INFO root fetch - main [MainThread]: End processing [DataCleaningWithPandas] error
+[2024-05-24 13:41:25] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev8] Old Version: [4.1.2.dev7]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [frogr]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [libtsm]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [timesfm]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [bblib]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/a8/1a/3f11273fd235febb5f481b80f73b5d5e74202fa287d0be625410cf17d725/gaea_operator-4.1.2.dev7-py3-none-any.whl
+[2024-05-24 13:41:25] INFO root fetch - processPackages [x21]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/63/aa/79f6ed5ed201d0dcbce5c9522b8ab6e557c0ef52427da7bab1abb86836a7/nucliadb_protos-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/83/95/704efbf0c472c497a6d898aa0ef5106c2742c3da68cf854c0e332dc67c05/nucliadb_sdk-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:41:25] INFO root fetch - processPackages [frogr]: Downloading https://files.pythonhosted.org/packages/17/92/52be9db80bef0d9e7c00d17706db6246d0ba7fe56c163484a7a48ed04b90/frogr-0.0.0.tar.gz
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/05/e5/f3e31c5e71b6a84d3f0cc8fa648cf1df2473672abfb2684b7a8f316e4385/nucliadb_telemetry-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:41:25] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/6c/3b/b08536071b2269c2049472fa12025fd0097e8519bbaf8fbc85ea1f25b27e/nucliadb_utils-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:41:25] INFO root fetch - processPackages [libtsm]: Downloading https://files.pythonhosted.org/packages/f0/7f/741cd0bcaf81cb8cc8c62906d94023548f00e58be7f8fac220d09d398771/libtsm-1.1.0.tar.gz
+[2024-05-24 13:41:25] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/cd/da/6ee2c0fbb661570264605daa3c3ec73801cd30f4dba6caf1a72381b37d0f/timesfm-0.0.1.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/3f/11/794c857dd97475a9e95756a3dc28f53332ecfe104a9f974ba3a9bd728dd0/x21-0.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/3d/8b/d3ad3e04f9eea198bbbd6457dd40229f89925d587a870e8a0c70074a47ee/bblib-2.0.3.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/3e/bb/2b409c98938d3b5a98a2381de43a00a6c94b2de908d5795dd7b1ec042bbc/gaea_operator-4.1.2.dev8-py3-none-any.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [frogr]: Downloading https://files.pythonhosted.org/packages/df/5d/2d236778b85201fdbf6997ef0a627b1feebb9625edbfab29ea65ec7d3232/frogr-0.0.1.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/47/f0/49d0393de4c68034731a0e1374abba835f22fcf54117279cdc57375a2b6f/nucliadb_protos-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c3/f3/0415a9eb12c05b6b6d2f2ac0d7046c85e096fcf83100bcbb228c9457d957/nucliadb_sdk-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip --markdown 20240524/g/gaea-operator/4.1.2.dev7-4.1.2.dev8/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/f7/89/3cc00c13b60b2ef1182b8c21763de2c9d995b808abc5c14e4c1e98f3b2e2/nucliadb_telemetry-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c2/f0/9f9a5a52970721e819e6d0239c8acbc3622bd9ba53eed0e841608d7137ff/nucliadb_utils-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [libtsm]: Downloading https://files.pythonhosted.org/packages/e0/06/48b633b6d0a4d880ee1ee55f3b9c6cd9ccfe0c4a86d99fa3a32dac101767/libtsm-1.1.1.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [frogr]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [frogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogr-0.0.0.tar.gz tmp/frogr-0.0.1.tar.gz --markdown 20240524/f/frogr/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-protos/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/53/4c/cc2cd58582df00ba065252106638541f34ea8093a8f724af8c8d18f5a509/timesfm-0.0.3.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/7f/35/3dcf41f7cae155c5eeb32f1a0a49d86abf8183c20026e3e6673239bb63f5/bblib-2.1.0.tar.gz
+[2024-05-24 13:41:26] INFO root fetch - processPackages [libtsm]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [libtsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtsm-1.1.0.tar.gz tmp/libtsm-1.1.1.tar.gz --markdown 20240524/l/libtsm/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/2e/bc/93dd34c0f74a4e53c67c6184cbc740177f6dcb3bfcc456386d872c308f58/x21-0.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-sdk/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-utils/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-2.0.3.tar.gz tmp/bblib-2.1.0.tar.gz --markdown 20240524/b/bblib/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.1.tar.gz tmp/timesfm-0.0.3.tar.gz --markdown 20240524/t/timesfm/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-telemetry/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:41:26] INFO root fetch - processPackages [x21]: executing diffoscope
+[2024-05-24 13:41:26] INFO root fetch - processPackages [x21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/x21-0.5.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240524/x/x21/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-24 13:41:27] INFO root fetch - processPackages [frogr]: Remove: archive file [/home/abi/fetcher/tmp/frogr-0.0.0.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [frogr]: Remove: archive file [/home/abi/fetcher/tmp/frogr-0.0.1.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [frogr]: Start processing: torchserve-nightly
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [frogr]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [libtsm]: Remove: archive file [/home/abi/fetcher/tmp/libtsm-1.1.0.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [libtsm]: Remove: archive file [/home/abi/fetcher/tmp/libtsm-1.1.1.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [libtsm]: Start processing: torch-model-archiver-nightly
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [libtsm]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-protos]: Start processing: torch-workflow-archiver-nightly
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-24 13:41:27] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torchserve-nightly]: Start processing: cadprox
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-24 13:41:27] INFO root fetch - processPackages [cadprox]: New version: [3.4] Old Version: [3.3]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: brainfuck-tool
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.1.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.3.tar.gz]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [timesfm]: Start processing: unprint
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-24 13:41:27] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/a5/42/b25d2c87629ad2e40de1a094a3bb869a161396a1a8734b06a92c55e1a4a1/cadprox-3.3.tar.gz
+[2024-05-24 13:41:27] WARNING root fetch - processPackages [brainfuck-tool]: Skipping, unable to determine old version
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [brainfuck-tool] error
+[2024-05-24 13:41:27] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.5.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [x21]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-24 13:41:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip]
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-24 13:41:27] WARNING root fetch - processPackages [unprint]: Skipping, unable to determine old version
+[2024-05-24 13:41:27] INFO root fetch - main [MainThread]: End processing [unprint] error
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-24 13:41:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240524/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/36/4f/39e32ff934dc7973e6c498fea2b4e4d3ce53dc631b40bbce28f24e3a33fe/cadprox-3.4.tar.gz
+[2024-05-24 13:41:28] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.0.3.tar.gz]
+[2024-05-24 13:41:28] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.1.0.tar.gz]
+[2024-05-24 13:41:28] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240524/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.3.tar.gz tmp/cadprox-3.4.tar.gz --markdown 20240524/c/cadprox/3.3-3.4/README.md --exclude *.pyd
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-24 13:41:28] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-24 13:41:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-24 13:41:28] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.3.tar.gz]
+[2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.4.tar.gz]
+[2024-05-24 13:41:28] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:41:28] INFO root fetch - main [MainThread]: Store serial: [23361258]
