@@ -16249,3 +16249,134 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:40:16] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
 [2024-05-24 10:40:16] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-24 10:40:16] INFO root fetch - main [MainThread]: Store serial: [23358836]
+[2024-05-24 10:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358836]
+[2024-05-24 10:42:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mentat-ng
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bstblue
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mfire
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydeps2env
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mteb
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrfuniverse
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrfuniverse-test
+[2024-05-24 10:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pikepdf
+[2024-05-24 10:42:27] INFO root fetch - processPackages [bstblue]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/a0/68/6c097e2467152a19b9494e56646adbb6715f74865ee758eb8e8060214620/bstblue-0.0.5.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pikepdf]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.49.0] Old Version: [16.0.1.48.0.1]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.3.1] Old Version: [6.3.0]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pydeps2env]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse]: New version: [0.9.20] Old Version: [0.9.13]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse-test]: New version: [0.20.3.1] Old Version: [0.20.3]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mentat-ng]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mfire]: New version: [3.2] Old Version: [3.1.post5]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/57/0b/04c26b2b0a51f90cf3a88686852f200460dcfb26632959db79f5febd2f69/pyrfuniverse-0.9.13.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/09/9f/86e934fbfcec690144ffd65bd5faa975ba2dbf1896364cbaad21f36d0be6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl
+[2024-05-24 10:42:27] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/99/b8/9a2bbcfe744ff79af84b5cdd31302031d0d37c56e7cd17714a34aea7ca8c/nonebot-plugin-osubot-6.3.0.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pydeps2env]: Downloading https://files.pythonhosted.org/packages/6e/ea/7db8429b0bd81bee622e626640e57be2ef0a9490f80252aeddd830dabe6a/pydeps2env-1.0.0.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse-test]: Downloading https://files.pythonhosted.org/packages/ff/e1/c67f722e5c33055e5ba28bc212cd7b106373c2a532b1279b1b90d2fe106e/pyrfuniverse_test-0.20.3.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/b1/e0/f3e40c8121f09147e1e31c7b32f0768e574d77f649d6f6c013db949bb95a/pikepdf-8.8.0.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mentat-ng]: Downloading https://files.pythonhosted.org/packages/7f/98/47190a94f08ddc349ab98678e4e9411c654d452a30d76dd389378c6fb3da/mentat-ng-2.9.0.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mfire]: Downloading https://files.pythonhosted.org/packages/b5/21/20c60e9c31fc0ee1ea5707a9408e89305c7e6b6cbea42421a4db571476b2/mfire-3.1.post5.tar.gz
+[2024-05-24 10:42:27] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29719985>=10485760
+[2024-05-24 10:42:27] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: embody-file
+[2024-05-24 10:42:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-24 10:42:27] WARNING root fetch - processPackages [pyrfuniverse-test]: Skipping package: exceeds size limit 39912553>=10485760
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse-test]: Start processing: odoo-addon-hr-expense-payment
+[2024-05-24 10:42:27] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/a2/3d/0d3104b7c913d38e3210c4c2776c394d7c0db03b519628a8057e65844089/bstblue-0.0.6.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - main [MainThread]: End processing [pyrfuniverse-test] error
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-24 10:42:27] WARNING root fetch - processPackages [mentat-ng]: Skipping package: exceeds size limit 17891705>=10485760
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mentat-ng]: Start processing: flatpack
+[2024-05-24 10:42:27] INFO root fetch - main [MainThread]: End processing [mentat-ng] error
+[2024-05-24 10:42:27] INFO root fetch - processPackages [embody-file]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.1]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/de/28/c647a803c333624edfabd6877a0847eb1d960b91c827dc6bcbc7ecfd74ab/pyrfuniverse-0.9.20.tar.gz
+[2024-05-24 10:42:27] WARNING root fetch - processPackages [mfire]: Skipping package: exceeds size limit 41813415>=10485760
+[2024-05-24 10:42:27] INFO root fetch - processPackages [mfire]: Start processing: ih-common
+[2024-05-24 10:42:27] INFO root fetch - main [MainThread]: End processing [mfire] error
+[2024-05-24 10:42:27] INFO root fetch - processPackages [pydeps2env]: Downloading https://files.pythonhosted.org/packages/2f/d7/102ccdfa3d885648c0a0305a80a20920287894ffa2da9700ba82504bb780/pydeps2env-1.1.0.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/7f/c7/bf32ccc49fffe7388738800e0d8fa59de5b9d3b1a48aa553d6ac828f953c/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl
+[2024-05-24 10:42:27] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-05-24 10:42:27] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-24 10:42:27] INFO root fetch - processPackages [embody-file]: Downloading https://files.pythonhosted.org/packages/fb/98/6a49d4d86c36168a3fa9b55946a452a4fd21063cbceafa32b3985bb017d5/embody_file-1.0.8.tar.gz
+[2024-05-24 10:42:28] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240524/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [pyrfuniverse]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [pyrfuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfuniverse-0.9.13.tar.gz tmp/pyrfuniverse-0.9.20.tar.gz --markdown 20240524/p/pyrfuniverse/0.9.13-0.9.20/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Downloading https://files.pythonhosted.org/packages/2a/e3/6a3359d848e453fbe9a9455acc8fef1c975fb01f1e6a4501e99de7bae0b4/odoo_addon_hr_expense_payment-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 10:42:28] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-05-24 10:42:28] INFO root fetch - processPackages [pydeps2env]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [pydeps2env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeps2env-1.0.0.tar.gz tmp/pydeps2env-1.1.0.tar.gz --markdown 20240524/p/pydeps2env/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.48.0.1-16.0.1.49.0/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.5.tar.gz tmp/bstblue-0.0.6.tar.gz --markdown 20240524/b/bstblue/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-24 10:42:28] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-05-24 10:42:28] INFO root fetch - processPackages [embody-file]: Downloading https://files.pythonhosted.org/packages/e1/07/0eeea4d0aa2f1e834541754af02fd360d0b58614af0b2d59ca31326267af/embody_file-1.0.9.tar.gz
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Downloading https://files.pythonhosted.org/packages/25/e6/09d2b28b259cf0abca893f9059e600f7fbe222df170d216d7ea139a28f57/odoo_addon_hr_expense_payment-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 10:42:28] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240524/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240524/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [embody-file]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [embody-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody_file-1.0.8.tar.gz tmp/embody_file-1.0.9.tar.gz --markdown 20240524/e/embody-file/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: executing diffoscope
+[2024-05-24 10:42:28] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_payment-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_payment-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-hr-expense-payment/16.0.1.0.1.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-24 10:42:28] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/bf/58/5070ce7ff15a29d1f0aa8faa4604a97d3606645a5a09fbfbc04521482ea4/pikepdf-8.9.0.tar.gz
+[2024-05-24 10:42:29] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.5.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.6.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [bstblue]: Start processing: haniwers
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pydeps2env]: Remove: archive file [/home/abi/fetcher/tmp/pydeps2env-1.0.0.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pydeps2env]: Remove: archive file [/home/abi/fetcher/tmp/pydeps2env-1.1.0.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pydeps2env]: Start processing: otpme
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [pydeps2env]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [otpme]: New version: [0.3.0a66] Old Version: [0.3.0a65]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl.zip]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-8.8.0.tar.gz tmp/pikepdf-8.9.0.tar.gz --markdown 20240524/p/pikepdf/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-05-24 10:42:29] INFO root fetch - processPackages [haniwers]: New version: [0.14.3] Old Version: [0.14.2]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/9e/99/dbae324ffe26d8f6d9bfdc93a13add4cb111dede10b52d3e98b8289d3aa9/otpme-0.3.0a65.tar.gz
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.13.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.20.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/06/93/723c89d52fc02a841bc31728ff1e068d820aff8b256d0932e172486d3285/haniwers-0.14.2.tar.gz
+[2024-05-24 10:42:29] INFO root fetch - processPackages [embody-file]: Remove: archive file [/home/abi/fetcher/tmp/embody_file-1.0.8.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [embody-file]: Remove: archive file [/home/abi/fetcher/tmp/embody_file-1.0.9.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [embody-file]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-24 10:42:29] INFO root fetch - processPackages [odoo-addon-hr-expense-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_payment-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 10:42:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-payment]: success
+[2024-05-24 10:42:29] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/8a/f2/930e79c7968d37a153a850d258910d38499d9f944b26456f4dc00a649df2/haniwers-0.14.3.tar.gz
+[2024-05-24 10:42:29] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/81/6b/75f7b8925e19cb0b5eb05a095825525fd6517a7db1e8fd80f26228b46adf/otpme-0.3.0a66.tar.gz
+[2024-05-24 10:42:30] INFO root fetch - processPackages [haniwers]: executing diffoscope
+[2024-05-24 10:42:30] INFO root fetch - processPackages [haniwers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haniwers-0.14.2.tar.gz tmp/haniwers-0.14.3.tar.gz --markdown 20240524/h/haniwers/0.14.2-0.14.3/README.md --exclude *.pyd
+[2024-05-24 10:42:30] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 10:42:30] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a65.tar.gz tmp/otpme-0.3.0a66.tar.gz --markdown 20240524/o/otpme/0.3.0a65-0.3.0a66/README.md --exclude *.pyd
+[2024-05-24 10:42:30] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.14.2.tar.gz]
+[2024-05-24 10:42:30] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.14.3.tar.gz]
+[2024-05-24 10:42:30] INFO root fetch - main [MainThread]: End processing [haniwers]: success
+[2024-05-24 10:42:30] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.8.0.tar.gz]
+[2024-05-24 10:42:30] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.9.0.tar.gz]
+[2024-05-24 10:42:30] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2024-05-24 10:42:31] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-24 10:42:31] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-24 10:42:31] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-24 10:42:32] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a65.tar.gz]
+[2024-05-24 10:42:32] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a66.tar.gz]
+[2024-05-24 10:42:32] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 10:42:32] INFO root fetch - main [MainThread]: Store serial: [23358910]
