@@ -10252,3 +10252,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip]
 [2024-05-24 06:30:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2024-05-24 06:30:22] INFO root fetch - main [MainThread]: Store serial: [23356289]
+[2024-05-24 06:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356289]
+[2024-05-24 06:32:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Rangekeeper
+[2024-05-24 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pd-extras
+[2024-05-24 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okahu-observability
+[2024-05-24 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytrend
+[2024-05-24 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathrixpy
+[2024-05-24 06:32:31] INFO root fetch - processPackages [mathrixpy]: New version: [0.5] Old Version: [0.4]
+[2024-05-24 06:32:31] INFO root fetch - processPackages [pd-extras]: New version: [6.1.3] Old Version: [6.1.2]
+[2024-05-24 06:32:31] INFO root fetch - processPackages [Rangekeeper]: New version: [0.6.3a0] Old Version: [0.6.2a0]
+[2024-05-24 06:32:31] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/68/b0/ecec2f776a512755c5027a17a213c0276102019998958cdaeed78fdd9a49/mathrixpy-0.4.tar.gz
+[2024-05-24 06:32:31] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/68/03/e0a2de20ee79d8147b2f076d5116d3743e5c2bfe00d338c0a2291fadb63b/pd_extras-6.1.2.tar.gz
+[2024-05-24 06:32:31] INFO root fetch - processPackages [okahu-observability]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 06:32:31] INFO root fetch - processPackages [Rangekeeper]: Downloading https://files.pythonhosted.org/packages/c1/21/d8f2c6024bb9cc61fba3e4fd09c7dfc8f76679fbf2d6c465409103409942/rangekeeper-0.6.2a0.tar.gz
+[2024-05-24 06:32:31] INFO root fetch - processPackages [talkytrend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-24 06:32:31] INFO root fetch - processPackages [okahu-observability]: Downloading https://files.pythonhosted.org/packages/a1/01/8e8f309b4cbdd7f3234afaef51171bae0b8c202603264c2668aa936bbbef/okahu_observability-0.0.4.tar.gz
+[2024-05-24 06:32:31] INFO root fetch - processPackages [Rangekeeper]: Downloading https://files.pythonhosted.org/packages/1e/d2/091bc3f8059618022f1c60ad4cd6753f7f9f198a2b8860117db0aeadb791/rangekeeper-0.6.3a0.tar.gz
+[2024-05-24 06:32:31] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/1a/d04f1433816847e928b17d9e6c0e90e8459f488952009fe839e87a89d7fa/talkytrend-2.0.8.tar.gz
+[2024-05-24 06:32:32] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/f8/57/b25b4b35310f69c127ca4cf7a5e01c7471dd01f82feed3d39999c1e1911b/pd_extras-6.1.3.tar.gz
+[2024-05-24 06:32:32] INFO root fetch - processPackages [Rangekeeper]: executing diffoscope
+[2024-05-24 06:32:32] INFO root fetch - processPackages [Rangekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rangekeeper-0.6.2a0.tar.gz tmp/rangekeeper-0.6.3a0.tar.gz --markdown 20240524/R/Rangekeeper/0.6.2a0-0.6.3a0/README.md --exclude *.pyd
+[2024-05-24 06:32:32] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/9a/1f/6ece1800fdcdf32c6778f7bd5d1eca8292673f4675b9d66a538fcefecec7/mathrixpy-0.5.tar.gz
+[2024-05-24 06:32:32] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-24 06:32:32] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.1.2.tar.gz tmp/pd_extras-6.1.3.tar.gz --markdown 20240524/p/pd-extras/6.1.2-6.1.3/README.md --exclude *.pyd
+[2024-05-24 06:32:32] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-24 06:32:32] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-0.4.tar.gz tmp/mathrixpy-0.5.tar.gz --markdown 20240524/m/mathrixpy/0.4-0.5/README.md --exclude *.pyd
+[2024-05-24 06:32:32] INFO root fetch - processPackages [okahu-observability]: Downloading https://files.pythonhosted.org/packages/2e/57/72d6199decb5d25378de67fd41ae364fa16a4c96b6f8d9015411fd38467b/okahu_observability-0.0.5.tar.gz
+[2024-05-24 06:32:32] INFO root fetch - processPackages [okahu-observability]: executing diffoscope
+[2024-05-24 06:32:32] INFO root fetch - processPackages [okahu-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okahu_observability-0.0.4.tar.gz tmp/okahu_observability-0.0.5.tar.gz --markdown 20240524/o/okahu-observability/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 06:32:32] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a8/ac/85c2085482e8605071233f8932cefc380144eddfe79bd52977eb45970c7f/talkytrend-2.0.9.tar.gz
+[2024-05-24 06:32:32] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2024-05-24 06:32:32] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-2.0.8.tar.gz tmp/talkytrend-2.0.9.tar.gz --markdown 20240524/t/talkytrend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-24 06:32:32] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.4.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.5.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-24 06:32:32] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.2.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.3.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-24 06:32:32] INFO root fetch - processPackages [Rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.6.2a0.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - processPackages [Rangekeeper]: Remove: archive file [/home/abi/fetcher/tmp/rangekeeper-0.6.3a0.tar.gz]
+[2024-05-24 06:32:32] INFO root fetch - main [MainThread]: End processing [Rangekeeper]: success
+[2024-05-24 06:32:33] INFO root fetch - processPackages [okahu-observability]: Remove: archive file [/home/abi/fetcher/tmp/okahu_observability-0.0.4.tar.gz]
+[2024-05-24 06:32:33] INFO root fetch - processPackages [okahu-observability]: Remove: archive file [/home/abi/fetcher/tmp/okahu_observability-0.0.5.tar.gz]
+[2024-05-24 06:32:33] INFO root fetch - main [MainThread]: End processing [okahu-observability]: success
+[2024-05-24 06:32:33] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.8.tar.gz]
+[2024-05-24 06:32:33] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
+[2024-05-24 06:32:33] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2024-05-24 06:32:33] INFO root fetch - main [MainThread]: Store serial: [23356312]
