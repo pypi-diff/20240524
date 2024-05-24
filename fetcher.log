@@ -10854,3 +10854,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:49:30] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-05-24 06:49:30] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-05-24 06:49:30] INFO root fetch - main [MainThread]: Store serial: [23356532]
+[2024-05-24 06:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356532]
+[2024-05-24 06:51:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linkedin-analytics-to-sqlite
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest_robotframework
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logbesselk
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathrixpy
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multimodal-cci
+[2024-05-24 06:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: affliction
+[2024-05-24 06:51:39] INFO root fetch - processPackages [mathrixpy]: New version: [0.7] Old Version: [0.6]
+[2024-05-24 06:51:39] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-24 06:51:39] WARNING root fetch - processPackages [linkedin-analytics-to-sqlite]: Skipping, unable to determine old version
+[2024-05-24 06:51:39] INFO root fetch - main [MainThread]: End processing [linkedin-analytics-to-sqlite] error
+[2024-05-24 06:51:39] INFO root fetch - processPackages [pytest_robotframework]: New version: [4.2.0] Old Version: [4.1.4]
+[2024-05-24 06:51:39] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/20/84/ba7e7e15c4e7d519334443dafc647964e2c320761b4b04611359b35dccb4/mathrixpy-0.6.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [logbesselk]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-24 06:51:39] INFO root fetch - processPackages [multimodal-cci]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-24 06:51:39] INFO root fetch - processPackages [affliction]: New version: [0.8] Old Version: [0.7]
+[2024-05-24 06:51:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/16/0b/f44657b60af81b015de7bd209652dd14dfb637c1ac5c6f2576a7dfdbb8e0/pytest_robotframework-4.1.4.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [logbesselk]: Downloading https://files.pythonhosted.org/packages/46/d7/5831e4c6cb595050d9c5d3899640b1fde37f525d6406bba43b44417c1498/logbesselk-3.2.0.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [affliction]: Downloading https://files.pythonhosted.org/packages/1d/d6/018da1e649100ec8fe2d55895a5d0735900b509b910711e7aed728883bcc/affliction-0.7.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [multimodal-cci]: Downloading https://files.pythonhosted.org/packages/e8/1f/c336028d3c64dd79faafeff9213ae4abedcda2e0020ff8fa6eeff29f8086/multimodal_cci-1.1.0.tar.gz
+[2024-05-24 06:51:39] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/81/c1/3bb295d90fc7e5e57715dbfb35750ea4d416950dc4a85a73ee70acd9832a/mathrixpy-0.7.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-0.6.tar.gz tmp/mathrixpy-0.7.tar.gz --markdown 20240524/m/mathrixpy/0.6-0.7/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [affliction]: Downloading https://files.pythonhosted.org/packages/e9/36/f60c06372f6c247521a27f9949d8c18ad234f3f84fa186a000099d4c663a/affliction-0.8.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [pytest_robotframework]: Downloading https://files.pythonhosted.org/packages/a4/8b/d0dce2a77c5d9486c19e54572bfbcca6480f842502644d5b08ad613b0517/pytest_robotframework-4.2.0.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [multimodal-cci]: Downloading https://files.pythonhosted.org/packages/53/85/0d2e709b1f35d9042159dc2c26de9631f40828655ef86de430790807a68a/multimodal_cci-1.1.1.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [logbesselk]: Downloading https://files.pythonhosted.org/packages/59/f4/a544abbd2b7b61b80d4a5d302a5081093e6a5c67b06695b75a13eee58286/logbesselk-3.2.1.tar.gz
+[2024-05-24 06:51:40] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240524/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [multimodal-cci]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [multimodal-cci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimodal_cci-1.1.0.tar.gz tmp/multimodal_cci-1.1.1.tar.gz --markdown 20240524/m/multimodal-cci/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [logbesselk]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [logbesselk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logbesselk-3.2.0.tar.gz tmp/logbesselk-3.2.1.tar.gz --markdown 20240524/l/logbesselk/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [pytest_robotframework]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [pytest_robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_robotframework-4.1.4.tar.gz tmp/pytest_robotframework-4.2.0.tar.gz --markdown 20240524/p/pytest_robotframework/4.1.4-4.2.0/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [affliction]: executing diffoscope
+[2024-05-24 06:51:40] INFO root fetch - processPackages [affliction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affliction-0.7.tar.gz tmp/affliction-0.8.tar.gz --markdown 20240524/a/affliction/0.7-0.8/README.md --exclude *.pyd
+[2024-05-24 06:51:40] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.6.tar.gz]
+[2024-05-24 06:51:40] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.7.tar.gz]
+[2024-05-24 06:51:40] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-24 06:51:41] INFO root fetch - processPackages [multimodal-cci]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_cci-1.1.0.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - processPackages [multimodal-cci]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_cci-1.1.1.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [multimodal-cci]: success
+[2024-05-24 06:51:41] INFO root fetch - processPackages [logbesselk]: Remove: archive file [/home/abi/fetcher/tmp/logbesselk-3.2.0.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - processPackages [logbesselk]: Remove: archive file [/home/abi/fetcher/tmp/logbesselk-3.2.1.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [logbesselk]: success
+[2024-05-24 06:51:41] INFO root fetch - processPackages [affliction]: Remove: archive file [/home/abi/fetcher/tmp/affliction-0.7.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - processPackages [affliction]: Remove: archive file [/home/abi/fetcher/tmp/affliction-0.8.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [affliction]: success
+[2024-05-24 06:51:41] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.1.4.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - processPackages [pytest_robotframework]: Remove: archive file [/home/abi/fetcher/tmp/pytest_robotframework-4.2.0.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [pytest_robotframework]: success
+[2024-05-24 06:51:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-24 06:51:41] INFO root fetch - main [MainThread]: Store serial: [23356554]
