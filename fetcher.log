@@ -7340,3 +7340,99 @@
 [2024-05-24 03:31:22] INFO root fetch - processPackages [ourskyai_platform_api]: Remove: archive file [/home/abi/fetcher/tmp/ourskyai_platform_api-1.3.3657.tar.gz]
 [2024-05-24 03:31:22] INFO root fetch - main [MainThread]: End processing [ourskyai_platform_api]: success
 [2024-05-24 03:31:22] INFO root fetch - main [MainThread]: Store serial: [23355051]
+[2024-05-24 03:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355051]
+[2024-05-24 03:33:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: story-protocol-python-sdk
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: centralcli
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compendium
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-splunk
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-snowflake
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-spotinst
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlibrary-api
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axion
+[2024-05-24 03:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-wavefront
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [centralcli]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [compendium]: New version: [0.1.3.post9] Old Version: [0.1.3.post8]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [story-protocol-python-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [axion]: New version: [4.2.5] Old Version: [4.2.3]
+[2024-05-24 03:33:32] WARNING root fetch - processPackages [openlibrary-api]: Skipping, unable to determine old version
+[2024-05-24 03:33:32] INFO root fetch - processPackages [openlibrary-api]: Start processing: langflow
+[2024-05-24 03:33:32] INFO root fetch - main [MainThread]: End processing [openlibrary-api] error
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1716513058] Old Version: [1.3.0a1715928933]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1716513396] Old Version: [3.2.0a1715929422]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/33/7d/1e6f6c9ea7b75854df00822e554fc7c3ea55206395e5ca6f4365581b024f/story_protocol_python_sdk-0.2.1.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/ea/5f/80a929696321d88a56f1697f50cac71a9849ca2a80fcc7cb8ee443e86c15/compendium-0.1.3.post8.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-24 03:33:32] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/ad/24/45260e49d7f9b59945d36d6432eff74ee2a4ff66ba9de5c06ac544b88ed0/axion-4.2.3-cp312-none-win_amd64.whl
+[2024-05-24 03:33:32] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/07/94/ff2136b32dbe51983feaaf58053f23b3dab6718fa511a0967e724a4b66d4/centralcli-5.0.0.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/77/39/66845821d93e5f2090de4dadb1580f06a7b6b0432e0e553129713a0123e6/pulumi_wavefront-3.2.0a1715929422.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/04/fd/59edf2a5da8cea0b651bb2e662a26f05f12b31127d48da7331e86f300826/pulumi_splunk-1.3.0a1715928933.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240524/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-24 03:33:32] INFO root fetch - processPackages [story-protocol-python-sdk]: Downloading https://files.pythonhosted.org/packages/d9/c4/56856888781a24fe50ad49b410371dcfb298df10f06c2c5a3deaa55562f9/story_protocol_python_sdk-0.2.2.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/f5/c5/284089ec1114f1a03e51dc5d9530f04cdf8f3ddac6f0daa9171b53c02a0e/compendium-0.1.3.post9.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/eb/73/96790f8f3d361e22f54c887e8b115aa8df36945e659b997eb5871b9bdd92/centralcli-5.1.0.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-24 03:33:32] INFO root fetch - processPackages [compendium]: executing diffoscope
+[2024-05-24 03:33:32] INFO root fetch - processPackages [compendium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compendium-0.1.3.post8.tar.gz tmp/compendium-0.1.3.post9.tar.gz --markdown 20240524/c/compendium/0.1.3.post8-0.1.3.post9/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/b7/fe/f7f6b3af58e142e0d463cf15eccfa421610fe63d12fe40261c601facaa98/axion-4.2.5-cp312-none-win_amd64.whl
+[2024-05-24 03:33:33] INFO root fetch - processPackages [story-protocol-python-sdk]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [story-protocol-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/story_protocol_python_sdk-0.2.1.tar.gz tmp/story_protocol_python_sdk-0.2.2.tar.gz --markdown 20240524/s/story-protocol-python-sdk/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240524/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/7f/e1/b832250579c6cd3a28030fd694093642f012406c437fb77e6a8dfdfc7a04/pulumi_wavefront-3.2.0a1716513396.tar.gz
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/2d/e5/b78b9f6889ed1b4f4f955f7b89d3a9b817bbe057db9d3087415e515e7505/pulumi_splunk-1.3.0a1716513058.tar.gz
+[2024-05-24 03:33:33] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-24 03:33:33] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-5.0.0.tar.gz tmp/centralcli-5.1.0.tar.gz --markdown 20240524/c/centralcli/5.0.0-5.1.0/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1715928933.tar.gz tmp/pulumi_splunk-1.3.0a1716513058.tar.gz --markdown 20240524/p/pulumi-splunk/1.3.0a1715928933-1.3.0a1716513058/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240524/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip tmp/axion-4.2.5-cp312-none-win_amd64.whl.zip --markdown 20240524/a/axion/4.2.3-4.2.5/README.md --exclude *.pyd
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-24 03:33:33] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715929422.tar.gz tmp/pulumi_wavefront-3.2.0a1716513396.tar.gz --markdown 20240524/p/pulumi-wavefront/3.2.0a1715929422-3.2.0a1716513396/README.md --exclude *.pyd
+[2024-05-24 03:33:34] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240524/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-24 03:33:34] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.3-cp312-none-win_amd64.whl.zip]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.5-cp312-none-win_amd64.whl.zip]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post8.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post9.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [compendium]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715928933.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1716513058.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.2.1.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [story-protocol-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/story_protocol_python_sdk-0.2.2.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [story-protocol-python-sdk]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715929422.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1716513396.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-24 03:33:34] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.0.0.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.1.0.tar.gz]
+[2024-05-24 03:33:34] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-05-24 03:33:35] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-24 03:33:35] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-24 03:33:35] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-24 03:33:35] INFO root fetch - main [MainThread]: Store serial: [23355143]
