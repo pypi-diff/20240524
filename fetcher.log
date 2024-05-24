@@ -22812,3 +22812,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:13:07] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.1.0.tar.gz]
 [2024-05-24 14:13:07] INFO root fetch - main [MainThread]: End processing [mistral-common]: success
 [2024-05-24 14:13:07] INFO root fetch - main [MainThread]: Store serial: [23361643]
+[2024-05-24 14:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361643]
+[2024-05-24 14:15:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 14:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imspy-connector
+[2024-05-24 14:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-pydantic-form
+[2024-05-24 14:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adapta
+[2024-05-24 14:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytroll-db
+[2024-05-24 14:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2024-05-24 14:15:16] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-24 14:15:16] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-24 14:15:16] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 14:15:16] INFO root fetch - processPackages [imspy-connector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 14:15:16] WARNING root fetch - processPackages [pytroll-db]: Skipping, unable to determine old version
+[2024-05-24 14:15:16] INFO root fetch - main [MainThread]: End processing [pytroll-db] error
+[2024-05-24 14:15:16] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-24 14:15:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/5d/79/f2446a74a0647d97f1ed631fb51aac1114a2235ba75271a8e7912a8c0ae8/dash_pydantic_form-0.1.8.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [imspy-connector]: Downloading https://files.pythonhosted.org/packages/83/06/e03fe18da5ea7b3c03487eb550ab27a3d054eb12fe31f0095c32ca12033b/imspy_connector-0.2.8.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-24 14:15:17] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240524/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-24 14:15:17] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-24 14:15:17] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240524/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-24 14:15:17] INFO root fetch - processPackages [imspy-connector]: Downloading https://files.pythonhosted.org/packages/18/15/988f2f301c6aa5b395ee2b3f1281bf60c358867620d6718db6c8325b29ec/imspy_connector-0.2.9.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/27/6d/ebcc7cd94582252583d5ed56864691c7d23afa009ca5100c21ab9f8bb15d/dash_pydantic_form-0.1.9.tar.gz
+[2024-05-24 14:15:17] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-24 14:15:17] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.8.tar.gz tmp/dash_pydantic_form-0.1.9.tar.gz --markdown 20240524/d/dash-pydantic-form/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 14:15:17] INFO root fetch - processPackages [imspy-connector]: executing diffoscope
+[2024-05-24 14:15:17] INFO root fetch - processPackages [imspy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imspy_connector-0.2.8.tar.gz tmp/imspy_connector-0.2.9.tar.gz --markdown 20240524/i/imspy-connector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 14:15:18] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-24 14:15:18] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.8.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.9.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-24 14:15:18] INFO root fetch - processPackages [imspy-connector]: Remove: archive file [/home/abi/fetcher/tmp/imspy_connector-0.2.8.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - processPackages [imspy-connector]: Remove: archive file [/home/abi/fetcher/tmp/imspy_connector-0.2.9.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - main [MainThread]: End processing [imspy-connector]: success
+[2024-05-24 14:15:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-24 14:15:18] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-24 14:15:18] INFO root fetch - main [MainThread]: Store serial: [23361658]
