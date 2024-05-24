@@ -12052,3 +12052,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:02:37] ERROR root fetch - processPackages [streamlit-flow-component]: Timeout during execution of pkgdiff
 [2024-05-24 08:02:37] INFO root fetch - main [MainThread]: End processing [streamlit-flow-component] error
 [2024-05-24 08:02:37] INFO root fetch - main [MainThread]: Store serial: [23357096]
+[2024-05-24 08:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357096]
+[2024-05-24 08:04:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genpypress
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretscraper
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-signedUrl-uploader
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Multiclass-interface
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-cpp-python
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-marketo
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdict
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-mrp-production-quant-manual-assign
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ete-pass
+[2024-05-24 08:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cacoepy
+[2024-05-24 08:04:47] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9.5] Old Version: [1.3.9.4]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.2] Old Version: [1.1]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [cacoepy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [genpypress]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.3.0] Old Version: [1.2.7]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [tdict]: New version: [0.3] Old Version: [0.2.2]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/8b/ba/0e1eb07df9b293fd35539b752aab906f4bba32dc711480e9a578162ded8a/secretscraper-1.3.9.4.tar.gz
+[2024-05-24 08:04:47] INFO root fetch - processPackages [airbyte-source-marketo]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-24 08:04:47] WARNING root fetch - processPackages [ete-pass]: Skipping, unable to determine old version
+[2024-05-24 08:04:47] INFO root fetch - main [MainThread]: End processing [ete-pass] error
+[2024-05-24 08:04:47] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 08:04:47] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/d0/24/ba2c4e2db873ef37a92cc4a2ee29944e90d67caaef928fe48a8717dfc563/Multiclass_interface-1.1.tar.gz
+[2024-05-24 08:04:47] INFO root fetch - processPackages [airbyte-source-marketo]: Downloading https://files.pythonhosted.org/packages/a0/a0/39569186717fce316183e080934608d38bc81ddcec9b19eb58f9b296d881/airbyte_source_marketo-1.4.0.tar.gz
+[2024-05-24 08:04:47] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/37/f5/e9e63e7cf6afba6c701e94cbb8fe816b4aa749da21f0b780c80276c79628/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 08:04:47] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/8e/82/87891c036f614920b801527072ee0fca14b1a8dd379afa32a9bde8dca3d0/st_signedurl_uploader-1.2.7.tar.gz
+[2024-05-24 08:04:47] INFO root fetch - processPackages [genpypress]: Downloading https://files.pythonhosted.org/packages/c7/83/e197c70e19fd0c9c66398a9772e8e2969f8da51346fff7f3f05de1040461/genpypress-0.1.8.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [cacoepy]: Downloading https://files.pythonhosted.org/packages/7c/3a/465052ebe37033baa479e0cd11215dcb7ad21addcb5ea99b17159f1527ed/cacoepy-1.0.0.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [tdict]: Downloading https://files.pythonhosted.org/packages/2c/27/dae8685507c02d829cb3265de0dbed4008991bab38f483b8ce3aaa5ac32f/tdict-0.2.2.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/ef/dd/2e61c9496426946ad608c0f98cef17dafcd20a5db3396e88bbc52ff7f9e0/secretscraper-1.3.9.5.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/51/79/47007e0dc4c69f091f290b681c5ebf448c8081fdf5ce73b8a942af164a92/multiclass_interface-1.2.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.9.4.tar.gz tmp/secretscraper-1.3.9.5.tar.gz --markdown 20240524/s/secretscraper/1.3.9.4-1.3.9.5/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [airbyte-source-marketo]: Downloading https://files.pythonhosted.org/packages/59/f0/3f5956e161845ea725f3c5a63db00bf5955dfeadca75f49f279a9fed14f1/airbyte_source_marketo-1.4.1.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/57/3a/d96ef780ea433aef6559bfc6db738099567472de699254eea85e49181d4e/st_signedurl_uploader-1.3.0.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Multiclass_interface-1.1.tar.gz tmp/multiclass_interface-1.2.tar.gz --markdown 20240524/M/Multiclass-interface/1.1-1.2/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/13/5b/ae39aa7c76cc4ea991f3a5f34acf723abd1e8c4be0ed946b04e056eec620/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-24 08:04:48] INFO root fetch - processPackages [cacoepy]: Downloading https://files.pythonhosted.org/packages/a1/b4/faa3e0b262462e0ecee24600a1521eb8c14de167d41ac36dfd9127b97807/cacoepy-1.1.0.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [tdict]: Downloading https://files.pythonhosted.org/packages/e7/84/2a712ae80bbb87938912e8839460a8e175ca841eb0dab194c65ceb3b418a/tdict-0.3.tar.gz
+[2024-05-24 08:04:48] INFO root fetch - processPackages [airbyte-source-marketo]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [airbyte-source-marketo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_marketo-1.4.0.tar.gz tmp/airbyte_source_marketo-1.4.1.tar.gz --markdown 20240524/a/airbyte-source-marketo/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.2.7.tar.gz tmp/st_signedurl_uploader-1.3.0.tar.gz --markdown 20240524/s/st-signedUrl-uploader/1.2.7-1.3.0/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [cacoepy]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [cacoepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacoepy-1.0.0.tar.gz tmp/cacoepy-1.1.0.tar.gz --markdown 20240524/c/cacoepy/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-mrp-production-quant-manual-assign/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-24 08:04:48] INFO root fetch - processPackages [tdict]: executing diffoscope
+[2024-05-24 08:04:48] INFO root fetch - processPackages [tdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdict-0.2.2.tar.gz tmp/tdict-0.3.tar.gz --markdown 20240524/t/tdict/0.2.2-0.3/README.md --exclude *.pyd
+[2024-05-24 08:04:49] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-05-24 08:04:49] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.4.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.5.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/Multiclass_interface-1.1.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.2.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [airbyte-source-marketo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_marketo-1.4.0.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [airbyte-source-marketo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_marketo-1.4.1.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-marketo]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [tdict]: Remove: archive file [/home/abi/fetcher/tmp/tdict-0.2.2.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [tdict]: Remove: archive file [/home/abi/fetcher/tmp/tdict-0.3.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [tdict]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [cacoepy]: Remove: archive file [/home/abi/fetcher/tmp/cacoepy-1.0.0.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [cacoepy]: Remove: archive file [/home/abi/fetcher/tmp/cacoepy-1.1.0.tar.gz]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [cacoepy]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 08:04:49] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-24 08:04:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-quant-manual-assign]: success
+[2024-05-24 08:04:49] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-05-24 08:04:49] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240524/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 08:04:50] INFO root fetch - processPackages [genpypress]: Downloading https://files.pythonhosted.org/packages/2a/9e/608e959428fc7982d96135c6b3793e003806144ecfc6116570adc2f29066/genpypress-0.1.9.tar.gz
+[2024-05-24 08:04:51] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-05-24 08:04:51] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-05-24 08:04:51] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-05-24 08:04:51] INFO root fetch - processPackages [genpypress]: executing diffoscope
+[2024-05-24 08:04:51] INFO root fetch - processPackages [genpypress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genpypress-0.1.8.tar.gz tmp/genpypress-0.1.9.tar.gz --markdown 20240524/g/genpypress/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 08:04:52] INFO root fetch - processPackages [genpypress]: Remove: archive file [/home/abi/fetcher/tmp/genpypress-0.1.8.tar.gz]
+[2024-05-24 08:04:52] INFO root fetch - processPackages [genpypress]: Remove: archive file [/home/abi/fetcher/tmp/genpypress-0.1.9.tar.gz]
+[2024-05-24 08:04:52] INFO root fetch - main [MainThread]: End processing [genpypress]: success
+[2024-05-24 08:04:59] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.7.tar.gz]
+[2024-05-24 08:04:59] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.3.0.tar.gz]
+[2024-05-24 08:04:59] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-24 08:04:59] INFO root fetch - main [MainThread]: Store serial: [23357140]
