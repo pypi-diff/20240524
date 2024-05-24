@@ -9079,3 +9079,20 @@
 [2024-05-24 05:22:22] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
 [2024-05-24 05:22:22] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
 [2024-05-24 05:22:22] INFO root fetch - main [MainThread]: Store serial: [23355908]
+[2024-05-24 05:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355908]
+[2024-05-24 05:24:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 05:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcery-nightly
+[2024-05-24 05:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartpasslib
+[2024-05-24 05:24:31] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-24 05:24:31] INFO root fetch - processPackages [smartpasslib]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-24 05:24:31] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-24 05:24:31] INFO root fetch - processPackages [smartpasslib]: Downloading https://files.pythonhosted.org/packages/3d/c7/7c27b3573f78858a1e99467928fc7d2243aeba7eb041359da056ab44f0c2/smartpasslib-0.4.1.tar.gz
+[2024-05-24 05:24:31] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-24 05:24:31] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-24 05:24:31] INFO root fetch - processPackages [smartpasslib]: Downloading https://files.pythonhosted.org/packages/6a/c0/7b0d93fe3b263c9e5ce73d42cc5122b117efc969f93f3e3b2f40b9f38403/smartpasslib-0.4.2.tar.gz
+[2024-05-24 05:24:32] INFO root fetch - processPackages [smartpasslib]: executing diffoscope
+[2024-05-24 05:24:32] INFO root fetch - processPackages [smartpasslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpasslib-0.4.1.tar.gz tmp/smartpasslib-0.4.2.tar.gz --markdown 20240524/s/smartpasslib/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-24 05:24:32] INFO root fetch - processPackages [smartpasslib]: Remove: archive file [/home/abi/fetcher/tmp/smartpasslib-0.4.1.tar.gz]
+[2024-05-24 05:24:32] INFO root fetch - processPackages [smartpasslib]: Remove: archive file [/home/abi/fetcher/tmp/smartpasslib-0.4.2.tar.gz]
+[2024-05-24 05:24:32] INFO root fetch - main [MainThread]: End processing [smartpasslib]: success
+[2024-05-24 05:24:32] INFO root fetch - main [MainThread]: Store serial: [23355916]
