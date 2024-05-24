@@ -11883,3 +11883,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:50:38] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
 [2024-05-24 07:50:38] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2024-05-24 07:50:38] INFO root fetch - main [MainThread]: Store serial: [23356944]
+[2024-05-24 07:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356944]
+[2024-05-24 07:52:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-messages
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csv-summary
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-omni-converter
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zopyx-fastapi-auth
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-agents
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.interface
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ADViewpy
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: espy-contact
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rdflib-endpoint
+[2024-05-24 07:52:48] INFO root fetch - processPackages [zopyx-fastapi-auth]: New version: [0.2.2.2] Old Version: [0.2.2.1]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [zope.interface]: New version: [6.4.post1] Old Version: [6.4.post0]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/48/7e/e38de3b9d0eda660a6d042d4c6d6aeedf1ff1c684cc1682b3502407ece81/zopyx_fastapi_auth-0.2.2.1.tar.gz
+[2024-05-24 07:52:48] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 07:52:48] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 07:52:48] WARNING root fetch - processPackages [csv-summary]: Skipping, unable to determine old version
+[2024-05-24 07:52:48] INFO root fetch - main [MainThread]: End processing [csv-summary] error
+[2024-05-24 07:52:48] INFO root fetch - processPackages [rdflib-endpoint]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [py-omni-converter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [ADViewpy]: New version: [0.6a0] Old Version: [0.5a0]
+[2024-05-24 07:52:48] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/0d/5a/91fe2710d715a551636800e12b72c338facfa8fe67f81842fdf9d99d546c/zope.interface-6.4.post0.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/25/0f/ce33b958b10d49658da98af96fe8029289822968952893e499d7373ea186/sirji-messages-0.0.7.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [py-omni-converter]: Downloading https://files.pythonhosted.org/packages/64/55/bd042911f9815d537db6145770e84036b339ddc294d207b2e78d5034b534/py-omni-converter-0.1.8.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/12/37/8682fe24afbdb544ba672f121a2ff38619e1ed23d9129b1a91a04ac12280/ADViewpy-0.5a0.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [rdflib-endpoint]: Downloading https://files.pythonhosted.org/packages/7b/3a/fdba3782265d39340ff01e7fe79887b6d866ddfb53f6567bd231a51248a9/rdflib_endpoint-0.5.0.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/0e/48/019d4fa5bf3c552b70645c1a51c0369896fe865fb2d214346faf2fae7ffd/zope.interface-6.4.post1.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zopyx-fastapi-auth]: Downloading https://files.pythonhosted.org/packages/98/85/fd150484500791fd90f7eadf662ed61a00161dbd06f65038ebd70a974d13/zopyx_fastapi_auth-0.2.2.2.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zope.interface]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zope.interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.interface-6.4.post0.tar.gz tmp/zope.interface-6.4.post1.tar.gz --markdown 20240524/z/zope.interface/6.4.post0-6.4.post1/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a5/c6/4ac7d143f28208fd31dc3a617bb8d957ddd00f4c7eb41fe7fe62b3590af7/sirji-messages-0.0.9.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/c8/1b/e5e492292a5b1d45b17988657fbdb3ad42aa370c76be553b8964e2366dd6/ADViewpy-0.6a0.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [py-omni-converter]: Downloading https://files.pythonhosted.org/packages/e9/0e/7766342ea1129d3c975b78fb68280b6776acc9d2725113a87f966ff2aa2b/py-omni-converter-0.1.9.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [rdflib-endpoint]: Downloading https://files.pythonhosted.org/packages/a4/7c/524377613b4d4770a0ad95efaed0c9bf4e3e3df6a4efaba4a4c71fadeceb/rdflib_endpoint-0.5.1.tar.gz
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.7.tar.gz tmp/sirji-messages-0.0.9.tar.gz --markdown 20240524/s/sirji-messages/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240524/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zopyx-fastapi-auth]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [zopyx-fastapi-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zopyx_fastapi_auth-0.2.2.1.tar.gz tmp/zopyx_fastapi_auth-0.2.2.2.tar.gz --markdown 20240524/z/zopyx-fastapi-auth/0.2.2.1-0.2.2.2/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [ADViewpy]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [ADViewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ADViewpy-0.5a0.tar.gz tmp/ADViewpy-0.6a0.tar.gz --markdown 20240524/A/ADViewpy/0.5a0-0.6a0/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [py-omni-converter]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [py-omni-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-omni-converter-0.1.8.tar.gz tmp/py-omni-converter-0.1.9.tar.gz --markdown 20240524/p/py-omni-converter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 07:52:49] INFO root fetch - processPackages [rdflib-endpoint]: executing diffoscope
+[2024-05-24 07:52:49] INFO root fetch - processPackages [rdflib-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_endpoint-0.5.0.tar.gz tmp/rdflib_endpoint-0.5.1.tar.gz --markdown 20240524/r/rdflib-endpoint/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-24 07:52:50] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.7.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.9.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope.interface-6.4.post0.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope.interface-6.4.post1.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [zope.interface]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [py-omni-converter]: Remove: archive file [/home/abi/fetcher/tmp/py-omni-converter-0.1.8.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [py-omni-converter]: Remove: archive file [/home/abi/fetcher/tmp/py-omni-converter-0.1.9.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [py-omni-converter]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [rdflib-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_endpoint-0.5.0.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [rdflib-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/rdflib_endpoint-0.5.1.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [rdflib-endpoint]: success
+[2024-05-24 07:52:50] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.5a0.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.6a0.tar.gz]
+[2024-05-24 07:52:50] INFO root fetch - main [MainThread]: End processing [ADViewpy]: success
+[2024-05-24 07:52:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.1.tar.gz]
+[2024-05-24 07:52:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.2.tar.gz]
+[2024-05-24 07:52:51] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
+[2024-05-24 07:52:51] INFO root fetch - main [MainThread]: Store serial: [23356986]
