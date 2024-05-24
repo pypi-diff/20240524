@@ -22580,3 +22580,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:06:31] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.5.0.tar.gz]
 [2024-05-24 14:06:31] INFO root fetch - main [MainThread]: End processing [collider-dashboard]: success
 [2024-05-24 14:06:31] INFO root fetch - main [MainThread]: Store serial: [23361560]
+[2024-05-24 14:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361560]
+[2024-05-24 14:08:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plopp
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blues-lib
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: random-slugs
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-databases
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartpredict
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goit-phone-book-bot
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pcomfortcloud
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mesh2vec
+[2024-05-24 14:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-inventory
+[2024-05-24 14:08:40] INFO root fetch - processPackages [goit-phone-book-bot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.1.dev6] Old Version: [0.4.1.dev5]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [goit-phone-book-bot]: Downloading https://files.pythonhosted.org/packages/5b/c8/485761d5736c09c0789649f9004e220ee2209df5930da5c16b402564956c/goit-phone-book-bot-0.0.2.tar.gz
+[2024-05-24 14:08:41] WARNING root fetch - processPackages [random-slugs]: Skipping, unable to determine old version
+[2024-05-24 14:08:41] INFO root fetch - processPackages [random-slugs]: Start processing: metabolights-utils
+[2024-05-24 14:08:41] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-24 14:08:41] INFO root fetch - main [MainThread]: End processing [random-slugs] error
+[2024-05-24 14:08:41] INFO root fetch - processPackages [plopp]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-24 14:08:41] WARNING root fetch - processPackages [common-databases]: Skipping, unable to determine old version
+[2024-05-24 14:08:41] INFO root fetch - main [MainThread]: End processing [common-databases] error
+[2024-05-24 14:08:41] INFO root fetch - processPackages [pcomfortcloud]: New version: [0.0.27] Old Version: [0.0.25]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [smartpredict]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [mesh2vec]: New version: [1.1.5] Old Version: [1.1.2]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/db/bf/80c3d12478a6fa2ba3e0b1684f6cc080a455c1632c267b0713a0d51b3704/torch_model_manager-0.4.1.dev5.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 14:08:41] INFO root fetch - processPackages [pcomfortcloud]: Downloading https://files.pythonhosted.org/packages/22/fa/579d1cec24376ac29c7f35497e679f6eea77ec1736a49dc3ced921b409ac/pcomfortcloud-0.0.25.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/bd/8e/b47b096b774dd9884b891bede5c49ce79167a93bab19fe93e5d40ff73d61/metabolights_utils-0.9.8.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [mesh2vec]: Downloading https://files.pythonhosted.org/packages/87/5e/1340bc001f08cd7ac7b6a3c0ffb770721b703f245a3aa057f4aa4374aa69/mesh2vec-1.1.2-py3-none-any.whl
+[2024-05-24 14:08:41] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/bd/9f/d02fb5c70f2c79338c55459258463119296f12cfe7269cca10d0d5cb2bd4/plopp-24.4.0.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/87/4b/177ccd0cb92c2ff34e62caabf02c0d21d0f61d906019adafdc53f728342c/smartpredict-0.7.7.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [goit-phone-book-bot]: Downloading https://files.pythonhosted.org/packages/4c/8f/4c019b562b5eb605258a74b885ba4a14630373e99a833d329377af49da97/goit-phone-book-bot-0.0.3.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/95/c2/d563798129a2c158395235f88666d1c0607f8977159e0f38f17c06c9c438/torch_model_manager-0.4.1.dev6.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [goit-phone-book-bot]: executing diffoscope
+[2024-05-24 14:08:41] INFO root fetch - processPackages [goit-phone-book-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goit-phone-book-bot-0.0.2.tar.gz tmp/goit-phone-book-bot-0.0.3.tar.gz --markdown 20240524/g/goit-phone-book-bot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 14:08:41] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/87/47/6c0324333142cb1da7e62fca84a9198992ffb8901c7f9642e1f58cd5ed2f/metabolights_utils-0.9.9.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-24 14:08:41] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240524/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-24 14:08:41] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-24 14:08:41] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.1.dev5.tar.gz tmp/torch_model_manager-0.4.1.dev6.tar.gz --markdown 20240524/t/torch-model-manager/0.4.1.dev5-0.4.1.dev6/README.md --exclude *.pyd
+[2024-05-24 14:08:41] INFO root fetch - processPackages [pcomfortcloud]: Downloading https://files.pythonhosted.org/packages/b1/5d/292b6819ba3f3c4b7c98aecc97994d4deaed6baaf7fdab8abbf4d0b60f2c/pcomfortcloud-0.0.27.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/1e/f8/521aeddae43de326a77fec7a90b19fb3906964296d84ce22bbc79f83218c/smartpredict-0.7.8.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2024-05-24 14:08:41] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.8.tar.gz tmp/metabolights_utils-0.9.9.tar.gz --markdown 20240524/m/metabolights-utils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 14:08:41] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/bf/b6/0a74efd7537c631c4350175cd578f3ea605a7a0038736294fa0bea28c258/plopp-24.5.0.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [pcomfortcloud]: executing diffoscope
+[2024-05-24 14:08:41] INFO root fetch - processPackages [pcomfortcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcomfortcloud-0.0.25.tar.gz tmp/pcomfortcloud-0.0.27.tar.gz --markdown 20240524/p/pcomfortcloud/0.0.25-0.0.27/README.md --exclude *.pyd
+[2024-05-24 14:08:41] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-24 14:08:41] INFO root fetch - processPackages [mesh2vec]: Downloading https://files.pythonhosted.org/packages/2f/10/698e0fbe3a161531aed7ef1830865ebfa7de4e5e25ab04b4189891410e53/mesh2vec-1.1.5-py3-none-any.whl
+[2024-05-24 14:08:42] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-24 14:08:42] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.7.7.tar.gz tmp/smartpredict-0.7.8.tar.gz --markdown 20240524/s/smartpredict/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-24 14:08:42] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-24 14:08:42] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240524/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-24 14:08:42] INFO root fetch - processPackages [mesh2vec]: executing diffoscope
+[2024-05-24 14:08:42] INFO root fetch - processPackages [mesh2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh2vec-1.1.2-py3-none-any.whl.zip tmp/mesh2vec-1.1.5-py3-none-any.whl.zip --markdown 20240524/m/mesh2vec/1.1.2-1.1.5/README.md --exclude *.pyd
+[2024-05-24 14:08:42] INFO root fetch - processPackages [plopp]: executing diffoscope
+[2024-05-24 14:08:42] INFO root fetch - processPackages [plopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plopp-24.4.0.tar.gz tmp/plopp-24.5.0.tar.gz --markdown 20240524/p/plopp/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-24 14:08:42] INFO root fetch - processPackages [goit-phone-book-bot]: Remove: archive file [/home/abi/fetcher/tmp/goit-phone-book-bot-0.0.2.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - processPackages [goit-phone-book-bot]: Remove: archive file [/home/abi/fetcher/tmp/goit-phone-book-bot-0.0.3.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - main [MainThread]: End processing [goit-phone-book-bot]: success
+[2024-05-24 14:08:42] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.1.dev5.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.1.dev6.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-24 14:08:42] INFO root fetch - processPackages [pcomfortcloud]: Remove: archive file [/home/abi/fetcher/tmp/pcomfortcloud-0.0.25.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - processPackages [pcomfortcloud]: Remove: archive file [/home/abi/fetcher/tmp/pcomfortcloud-0.0.27.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - main [MainThread]: End processing [pcomfortcloud]: success
+[2024-05-24 14:08:42] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-24 14:08:42] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.8.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.9.tar.gz]
+[2024-05-24 14:08:42] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2024-05-24 14:08:43] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.7.tar.gz]
+[2024-05-24 14:08:43] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.8.tar.gz]
+[2024-05-24 14:08:43] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-24 14:08:43] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-24 14:08:43] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-24 14:08:43] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-24 14:08:43] INFO root fetch - processPackages [mesh2vec]: Remove: archive file [/home/abi/fetcher/tmp/mesh2vec-1.1.2-py3-none-any.whl.zip]
+[2024-05-24 14:08:43] INFO root fetch - processPackages [mesh2vec]: Remove: archive file [/home/abi/fetcher/tmp/mesh2vec-1.1.5-py3-none-any.whl.zip]
+[2024-05-24 14:08:43] INFO root fetch - main [MainThread]: End processing [mesh2vec]: success
+[2024-05-24 14:08:44] INFO root fetch - processPackages [plopp]: Remove: archive file [/home/abi/fetcher/tmp/plopp-24.4.0.tar.gz]
+[2024-05-24 14:08:44] INFO root fetch - processPackages [plopp]: Remove: archive file [/home/abi/fetcher/tmp/plopp-24.5.0.tar.gz]
+[2024-05-24 14:08:44] INFO root fetch - main [MainThread]: End processing [plopp]: success
+[2024-05-24 14:08:44] INFO root fetch - main [MainThread]: Store serial: [23361598]
