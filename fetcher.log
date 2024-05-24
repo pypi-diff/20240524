@@ -22502,3 +22502,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:04:18] INFO root fetch - processPackages [cloudsnorkel.cdk-github-runners]: Remove: archive file [/home/abi/fetcher/tmp/cloudsnorkel.cdk-github-runners-0.9.8.tar.gz]
 [2024-05-24 14:04:18] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
 [2024-05-24 14:04:18] INFO root fetch - main [MainThread]: Store serial: [23361528]
+[2024-05-24 14:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361528]
+[2024-05-24 14:06:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collider-dashboard
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goit-phone-book-bot
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanfis
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oxaigen
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BigEDA
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unprint
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DataHandlerForCSV
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-widgets
+[2024-05-24 14:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-cleaning-assistant
+[2024-05-24 14:06:27] INFO root fetch - processPackages [collider-dashboard]: New version: [1.3.5.0] Old Version: [1.3.4.0]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [pyanfis]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [BigEDA]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [DataHandlerForCSV]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [goit-phone-book-bot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [unprint]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/9c/4f/b6cb1c31a57500943f28f1827576b32d78f8797a11efade03feee703a1c8/pyanfis-0.1.3.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [oxaigen]: New version: [0.0.1.1] Old Version: [0.0.1.0]
+[2024-05-24 14:06:27] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/7c/23/54fdcd40ed7bec46eb42cb6b81dcedc3fbbba00820cb7156b17f3c366e98/collider_dashboard-1.3.4.0.tar.gz
+[2024-05-24 14:06:27] WARNING root fetch - processPackages [data-cleaning-assistant]: Skipping, unable to determine old version
+[2024-05-24 14:06:27] INFO root fetch - main [MainThread]: End processing [data-cleaning-assistant] error
+[2024-05-24 14:06:27] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/2f/fe/5c10bf9dfaa50e4e1234e81e022638b3ef20c821e939dae4cdc3da332e46/bigeda-0.0.8.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [DataHandlerForCSV]: Downloading https://files.pythonhosted.org/packages/de/45/9c0da36223d06414796d06806b1331559c985d6c2bcd0f6fd7ea4d87c9f7/DataHandlerForCSV-0.8.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [unprint]: Downloading https://files.pythonhosted.org/packages/ef/ce/c8d07d247f7072c2024de2c80cca6678b4576adfe30aa955a480acadd0d6/unprint-0.0.1.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [goit-phone-book-bot]: Downloading https://files.pythonhosted.org/packages/ec/cf/94ccc897368429c446f1e6932fccbb9f3459447b2af4bedac75dcf9ef868/goit-phone-book-bot-0.0.1.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/a9/0d/1127243d36d2aac0eb4813cdba459bf1d9d8436c72d1e4b1ed5c4849e315/oxaigen-0.0.1.0.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [BigEDA]: Downloading https://files.pythonhosted.org/packages/b1/5d/ec41b2b9af7223a14c0e82d4f64cbeb0d0339a0d8bca37dbb041af6ef14d/bigeda-0.0.9.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/a5/a9/e01d4711efb6f632ca9a0ff8daabffea43eb8bf9117a57e531c781d8c489/pyanfis-0.1.4.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/da/00/b2df98eee4148f777825e9ec174b3e6777f30633dbf7d8c36701f2cd4bec/collider_dashboard-1.3.5.0.tar.gz
+[2024-05-24 14:06:27] INFO root fetch - processPackages [DataHandlerForCSV]: Downloading https://files.pythonhosted.org/packages/8f/e6/cb84cbfeabf74456f8933ca61313634e1a51c96412ba861915056504a947/datahandlerforcsv-0.9.tar.gz
+[2024-05-24 14:06:28] INFO root fetch - processPackages [BigEDA]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [BigEDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeda-0.0.8.tar.gz tmp/bigeda-0.0.9.tar.gz --markdown 20240524/B/BigEDA/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240524/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [unprint]: Downloading https://files.pythonhosted.org/packages/38/a2/0022265e7b861a3adfd32acebbbc14d29e11d866dea3272cd036566eafc2/unprint-0.0.2.tar.gz
+[2024-05-24 14:06:28] INFO root fetch - processPackages [pyanfis]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [pyanfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanfis-0.1.3.tar.gz tmp/pyanfis-0.1.4.tar.gz --markdown 20240524/p/pyanfis/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [goit-phone-book-bot]: Downloading https://files.pythonhosted.org/packages/5b/c8/485761d5736c09c0789649f9004e220ee2209df5930da5c16b402564956c/goit-phone-book-bot-0.0.2.tar.gz
+[2024-05-24 14:06:28] INFO root fetch - processPackages [DataHandlerForCSV]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [DataHandlerForCSV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataHandlerForCSV-0.8.tar.gz tmp/datahandlerforcsv-0.9.tar.gz --markdown 20240524/D/DataHandlerForCSV/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/b0/1d/604a8c2a359cf263c45524935a68897c4ab9cdaa3f0e00417bd84f4fe235/oxaigen-0.0.1.1.tar.gz
+[2024-05-24 14:06:28] INFO root fetch - processPackages [unprint]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [unprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unprint-0.0.1.tar.gz tmp/unprint-0.0.2.tar.gz --markdown 20240524/u/unprint/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [goit-phone-book-bot]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [goit-phone-book-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goit-phone-book-bot-0.0.1.tar.gz tmp/goit-phone-book-bot-0.0.2.tar.gz --markdown 20240524/g/goit-phone-book-bot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [oxaigen]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [oxaigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxaigen-0.0.1.0.tar.gz tmp/oxaigen-0.0.1.1.tar.gz --markdown 20240524/o/oxaigen/0.0.1.0-0.0.1.1/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [collider-dashboard]: executing diffoscope
+[2024-05-24 14:06:28] INFO root fetch - processPackages [collider-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_dashboard-1.3.4.0.tar.gz tmp/collider_dashboard-1.3.5.0.tar.gz --markdown 20240524/c/collider-dashboard/1.3.4.0-1.3.5.0/README.md --exclude *.pyd
+[2024-05-24 14:06:28] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-05-24 14:06:28] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.8.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - processPackages [BigEDA]: Remove: archive file [/home/abi/fetcher/tmp/bigeda-0.0.9.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - main [MainThread]: End processing [BigEDA]: success
+[2024-05-24 14:06:28] INFO root fetch - processPackages [DataHandlerForCSV]: Remove: archive file [/home/abi/fetcher/tmp/DataHandlerForCSV-0.8.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - processPackages [DataHandlerForCSV]: Remove: archive file [/home/abi/fetcher/tmp/datahandlerforcsv-0.9.tar.gz]
+[2024-05-24 14:06:28] INFO root fetch - main [MainThread]: End processing [DataHandlerForCSV]: success
+[2024-05-24 14:06:29] INFO root fetch - processPackages [unprint]: Remove: archive file [/home/abi/fetcher/tmp/unprint-0.0.1.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - processPackages [goit-phone-book-bot]: Remove: archive file [/home/abi/fetcher/tmp/goit-phone-book-bot-0.0.1.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - processPackages [unprint]: Remove: archive file [/home/abi/fetcher/tmp/unprint-0.0.2.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - processPackages [goit-phone-book-bot]: Remove: archive file [/home/abi/fetcher/tmp/goit-phone-book-bot-0.0.2.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - main [MainThread]: End processing [unprint]: success
+[2024-05-24 14:06:29] INFO root fetch - main [MainThread]: End processing [goit-phone-book-bot]: success
+[2024-05-24 14:06:29] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.3.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.4.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - main [MainThread]: End processing [pyanfis]: success
+[2024-05-24 14:06:29] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.1.0.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.1.1.tar.gz]
+[2024-05-24 14:06:29] INFO root fetch - main [MainThread]: End processing [oxaigen]: success
+[2024-05-24 14:06:31] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.4.0.tar.gz]
+[2024-05-24 14:06:31] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.5.0.tar.gz]
+[2024-05-24 14:06:31] INFO root fetch - main [MainThread]: End processing [collider-dashboard]: success
+[2024-05-24 14:06:31] INFO root fetch - main [MainThread]: Store serial: [23361560]
