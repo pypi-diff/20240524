@@ -18627,3 +18627,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:49:07] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.96-py3-none-any.whl.zip]
 [2024-05-24 11:49:07] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-24 11:49:07] INFO root fetch - main [MainThread]: Store serial: [23359909]
+[2024-05-24 11:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359909]
+[2024-05-24 11:51:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 11:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaraco.xonsh
+[2024-05-24 11:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-05-24 11:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-roughness-tool
+[2024-05-24 11:51:16] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.11.dev0] Old Version: [0.4.10.dev0]
+[2024-05-24 11:51:16] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-24 11:51:16] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/b5/3b/65c93d4c90f1c7221de41254fcfb1e333bc50d0517d70add3f458e0ffcaa/geo_roughness_tool-0.4.10.dev0.tar.gz
+[2024-05-24 11:51:16] INFO root fetch - processPackages [jaraco.xonsh]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-24 11:51:16] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-24 11:51:16] INFO root fetch - processPackages [jaraco.xonsh]: Downloading https://files.pythonhosted.org/packages/66/d2/e863322cb1d35f5631e68522f76ddd8068cba0e21518a9653e88949ce268/jaraco_xonsh-0.6.0.tar.gz
+[2024-05-24 11:51:16] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-24 11:51:17] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/f1/4b/37a10770976fcea4955e90bcb8fd31b3d16d34b4cd8d076bb224a102e0ab/geo_roughness_tool-0.4.11.dev0.tar.gz
+[2024-05-24 11:51:17] INFO root fetch - processPackages [jaraco.xonsh]: Downloading https://files.pythonhosted.org/packages/51/6a/a267e20184d44be09ec009baba0b2c215bbc1e91e0072d650d836f19249e/jaraco_xonsh-0.7.0.tar.gz
+[2024-05-24 11:51:17] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 11:51:17] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.10.dev0.tar.gz tmp/geo_roughness_tool-0.4.11.dev0.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.10.dev0-0.4.11.dev0/README.md --exclude *.pyd
+[2024-05-24 11:51:17] INFO root fetch - processPackages [jaraco.xonsh]: executing diffoscope
+[2024-05-24 11:51:17] INFO root fetch - processPackages [jaraco.xonsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco_xonsh-0.6.0.tar.gz tmp/jaraco_xonsh-0.7.0.tar.gz --markdown 20240524/j/jaraco.xonsh/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-24 11:51:17] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-24 11:51:17] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240524/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-24 11:51:17] INFO root fetch - processPackages [jaraco.xonsh]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_xonsh-0.6.0.tar.gz]
+[2024-05-24 11:51:17] INFO root fetch - processPackages [jaraco.xonsh]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_xonsh-0.7.0.tar.gz]
+[2024-05-24 11:51:17] INFO root fetch - main [MainThread]: End processing [jaraco.xonsh]: success
+[2024-05-24 11:51:18] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.10.dev0.tar.gz]
+[2024-05-24 11:51:18] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.11.dev0.tar.gz]
+[2024-05-24 11:51:18] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 11:51:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-24 11:51:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-24 11:51:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-24 11:51:20] INFO root fetch - main [MainThread]: Store serial: [23359935]
