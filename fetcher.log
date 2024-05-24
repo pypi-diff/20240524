@@ -7748,3 +7748,24 @@
 [2024-05-24 04:00:11] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.6.tar.gz]
 [2024-05-24 04:00:11] INFO root fetch - main [MainThread]: End processing [meetlify]: success
 [2024-05-24 04:00:11] INFO root fetch - main [MainThread]: Store serial: [23355423]
+[2024-05-24 04:02:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355423]
+[2024-05-24 04:02:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 04:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-05-24 04:02:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abcli
+[2024-05-24 04:02:19] INFO root fetch - processPackages [abcli]: New version: [8.211.1] Old Version: [8.208.1]
+[2024-05-24 04:02:19] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/ad/13/af8ee6b5d612081de00192f4a4a4fe2fb4ebb9b3e078a232d84c0c0e8a3a/abcli-8.208.1.tar.gz
+[2024-05-24 04:02:19] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-24 04:02:20] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-05-24 04:02:20] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/ca/ce/4ea433cae1f20f91c6d264628becdfbc5c16a6f2e562d458c2598643e854/abcli-8.211.1.tar.gz
+[2024-05-24 04:02:20] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-24 04:02:20] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.208.1.tar.gz tmp/abcli-8.211.1.tar.gz --markdown 20240524/a/abcli/8.208.1-8.211.1/README.md --exclude *.pyd
+[2024-05-24 04:02:20] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-05-24 04:02:21] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.208.1.tar.gz]
+[2024-05-24 04:02:21] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.211.1.tar.gz]
+[2024-05-24 04:02:21] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-24 04:02:21] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-05-24 04:02:21] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240524/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-24 04:02:22] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-05-24 04:02:22] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-05-24 04:02:22] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-05-24 04:02:22] INFO root fetch - main [MainThread]: Store serial: [23355428]
