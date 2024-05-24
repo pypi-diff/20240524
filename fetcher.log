@@ -22305,3 +22305,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:55:02] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.4.tar.gz]
 [2024-05-24 13:55:02] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2024-05-24 13:55:02] INFO root fetch - main [MainThread]: Store serial: [23361440]
+[2024-05-24 13:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361440]
+[2024-05-24 13:57:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain-upstage
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestipy
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timesfm
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain-postgres
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fasttyper
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xinference
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xcube-core
+[2024-05-24 13:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartpredict
+[2024-05-24 13:57:11] INFO root fetch - processPackages [smartpredict]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-24 13:57:11] INFO root fetch - processPackages [timesfm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 13:57:11] INFO root fetch - processPackages [xcube-core]: New version: [1.6.0.dev0] Old Version: [1.4.1]
+[2024-05-24 13:57:11] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-24 13:57:11] INFO root fetch - processPackages [nestipy]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-24 13:57:11] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/5c/c0/1d23979a52a2b2c4a801985b259c5a770b48277bcedf32d4a0fc57f5a245/smartpredict-0.7.5.tar.gz
+[2024-05-24 13:57:11] INFO root fetch - processPackages [fasttyper]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-24 13:57:11] WARNING root fetch - processPackages [gigachain-postgres]: Skipping, unable to determine old version
+[2024-05-24 13:57:11] INFO root fetch - main [MainThread]: End processing [gigachain-postgres] error
+[2024-05-24 13:57:11] WARNING root fetch - processPackages [gigachain-upstage]: Skipping, unable to determine old version
+[2024-05-24 13:57:11] INFO root fetch - main [MainThread]: End processing [gigachain-upstage] error
+[2024-05-24 13:57:11] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/c0/18/324e1277c8b14927222d7649886330d202995931a7cb3c0b85790f9a2c4d/timesfm-0.0.6.tar.gz
+[2024-05-24 13:57:11] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/da/6b/096e839f013d12b49aa1447f6b5a30de3d91f7587fd88f405499e1bfea06/xcube-core-1.4.1.tar.gz
+[2024-05-24 13:57:11] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-05-24 13:57:11] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-05-24 13:57:11] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-05-24 13:57:11] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/68/72/c94bc1c522fe80e7276f5102d65584ad307368088e567ac8c6933118734c/nestipy-0.3.1.tar.gz
+[2024-05-24 13:57:11] INFO root fetch - processPackages [fasttyper]: Downloading https://files.pythonhosted.org/packages/78/60/df6236ee05d9733643e74444c50d5d50899d6008237e7f5a482afcf69f04/fasttyper-2.4.1.tar.gz
+[2024-05-24 13:57:11] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/76/85/61a0a1dde9018c8ff939a411abff3fa785f0afe7f8ad51507c62f562e606/timesfm-0.0.7.tar.gz
+[2024-05-24 13:57:12] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/aa/7c/e23c75fc177b8279d9ed8e1e7a87a6148b727278d674176525359ab72713/smartpredict-0.7.6.tar.gz
+[2024-05-24 13:57:12] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:57:12] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.6.tar.gz tmp/timesfm-0.0.7.tar.gz --markdown 20240524/t/timesfm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 13:57:12] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/35/af/09ba961e3e6ae97316ab06e8cbfe7826ccb4e98775c67e7f2348329614d9/xcube_core-1.6.0.dev0.tar.gz
+[2024-05-24 13:57:12] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-24 13:57:12] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.7.5.tar.gz tmp/smartpredict-0.7.6.tar.gz --markdown 20240524/s/smartpredict/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-24 13:57:12] INFO root fetch - processPackages [fasttyper]: Downloading https://files.pythonhosted.org/packages/db/0b/1ec559f113ef9852fee28f957c4a80011ec7e30ead9ebfee3fcd4577fc84/fasttyper-2.4.2.tar.gz
+[2024-05-24 13:57:12] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/a4/72/3f337f0757d556b195bc158b4656c2fabc5a0e6595441bf14f155daf30a4/nestipy-0.3.2.tar.gz
+[2024-05-24 13:57:12] INFO root fetch - processPackages [fasttyper]: executing diffoscope
+[2024-05-24 13:57:12] INFO root fetch - processPackages [fasttyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttyper-2.4.1.tar.gz tmp/fasttyper-2.4.2.tar.gz --markdown 20240524/f/fasttyper/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-24 13:57:12] INFO root fetch - processPackages [xcube-core]: executing diffoscope
+[2024-05-24 13:57:12] INFO root fetch - processPackages [xcube-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcube-core-1.4.1.tar.gz tmp/xcube_core-1.6.0.dev0.tar.gz --markdown 20240524/x/xcube-core/1.4.1-1.6.0.dev0/README.md --exclude *.pyd
+[2024-05-24 13:57:12] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-05-24 13:57:12] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.3.1.tar.gz tmp/nestipy-0.3.2.tar.gz --markdown 20240524/n/nestipy/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-24 13:57:12] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.6.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.7.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:57:12] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.5.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.6.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-24 13:57:12] INFO root fetch - processPackages [fasttyper]: Remove: archive file [/home/abi/fetcher/tmp/fasttyper-2.4.1.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - processPackages [fasttyper]: Remove: archive file [/home/abi/fetcher/tmp/fasttyper-2.4.2.tar.gz]
+[2024-05-24 13:57:12] INFO root fetch - main [MainThread]: End processing [fasttyper]: success
+[2024-05-24 13:57:13] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.1.tar.gz]
+[2024-05-24 13:57:13] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.2.tar.gz]
+[2024-05-24 13:57:13] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-05-24 13:57:39] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube-core-1.4.1.tar.gz]
+[2024-05-24 13:57:39] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev0.tar.gz]
+[2024-05-24 13:57:39] INFO root fetch - main [MainThread]: End processing [xcube-core]: success
+[2024-05-24 13:57:39] INFO root fetch - main [MainThread]: Store serial: [23361468]
