@@ -12866,3 +12866,61 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:36:29] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240524022416.tar.gz]
 [2024-05-24 08:36:29] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-24 08:36:29] INFO root fetch - main [MainThread]: Store serial: [23357470]
+[2024-05-24 08:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357470]
+[2024-05-24 08:38:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taibun
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_herobiz_dental
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baidu-serp-api
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-product-attribute
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memory-game
+[2024-05-24 08:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memory-game
+[2024-05-24 08:38:38] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.4.1]
+[2024-05-24 08:38:38] INFO root fetch - processPackages [django_herobiz_dental]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-24 08:38:38] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20240517.1] Old Version: [16.0.20240511.0]
+[2024-05-24 08:38:38] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/76/5d/cfc4188c056fde9b4b90bb5edc04074fdeff2b191bbad2e68f14313c97a4/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.4.1-py3-none-any.whl
+[2024-05-24 08:38:38] INFO root fetch - processPackages [memory-game]: New version: [0.2] Old Version: [0.1]
+[2024-05-24 08:38:38] INFO root fetch - processPackages [memory-game]: New version: [0.2] Old Version: [0.1]
+[2024-05-24 08:38:38] WARNING root fetch - processPackages [baidu-serp-api]: Skipping, unable to determine old version
+[2024-05-24 08:38:38] INFO root fetch - processPackages [taibun]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-24 08:38:38] INFO root fetch - main [MainThread]: End processing [baidu-serp-api] error
+[2024-05-24 08:38:38] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/d0/2d/4fc81280a1c61858d97da2bcab90dd41614ecc72b66d16bcd54c6be824d3/django_herobiz_dental-3.1.0.tar.gz
+[2024-05-24 08:38:38] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/ba/de/3d1ea7835b61309fb79e20559082236a37d51cf8f0eb9abff8f7e7ba487e/memory_game-0.1.tar.gz
+[2024-05-24 08:38:38] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/ba/de/3d1ea7835b61309fb79e20559082236a37d51cf8f0eb9abff8f7e7ba487e/memory_game-0.1.tar.gz
+[2024-05-24 08:38:38] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/c3/fc/b70fd4562a1d6e9a6fcf09c79e0a3abcb2114eda376625e204c0b977a158/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl
+[2024-05-24 08:38:39] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/82/31/34a5a0816fd0f49cccb2149bb838bd5fa9753d8fb8e128fd89aae672f65c/taibun-1.1.3.tar.gz
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/fd/ae/db71bb72f2b827eca5e83cea352f9acc9863287b546221895121eb55b58c/odoo_addon_product_supplierinfo_for_customer-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.4.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/42/53/e12d0c2227d957575af004cbd4db2b29c18c4384d931affcdc35473fd715/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/34/67/ab6f14c002a4e9047f7404a36018344ce3161305d26f1b43622f3f2dbebe/memory_game-0.2.tar.gz
+[2024-05-24 08:38:39] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/3a/2f/808129532678755f8cb115a0988fe8e571d7fb1fe1d417ed3bf8493bb05f/taibun-1.1.4.tar.gz
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/34/67/ab6f14c002a4e9047f7404a36018344ce3161305d26f1b43622f3f2dbebe/memory_game-0.2.tar.gz
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addons-oca-product-attribute/16.0.20240511.0-16.0.20240517.1/README.md --exclude *.pyd
+[2024-05-24 08:38:39] INFO root fetch - processPackages [taibun]: executing diffoscope
+[2024-05-24 08:38:39] INFO root fetch - processPackages [taibun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taibun-1.1.3.tar.gz tmp/taibun-1.1.4.tar.gz --markdown 20240524/t/taibun/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: executing diffoscope
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_game-0.1.tar.gz tmp/memory_game-0.2.tar.gz --markdown 20240524/m/memory-game/0.1-0.2/README.md --exclude *.pyd
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: executing diffoscope
+[2024-05-24 08:38:39] INFO root fetch - processPackages [memory-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_game-0.1.tar.gz tmp/memory_game-0.2.tar.gz --markdown 20240524/m/memory-game/0.1-0.2/README.md --exclude *.pyd
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.4.1-py3-none-any.whl.zip]
+[2024-05-24 08:38:39] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_for_customer-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 08:38:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2024-05-24 08:38:40] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl.zip]
+[2024-05-24 08:38:40] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl.zip]
+[2024-05-24 08:38:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2024-05-24 08:38:40] INFO root fetch - processPackages [memory-game]: Remove: archive file [/home/abi/fetcher/tmp/memory_game-0.1.tar.gz]
+[2024-05-24 08:38:40] INFO root fetch - processPackages [memory-game]: Remove: archive file [/home/abi/fetcher/tmp/memory_game-0.2.tar.gz]
+[2024-05-24 08:38:40] INFO root fetch - main [MainThread]: End processing [memory-game]: success
+[2024-05-24 08:38:40] INFO root fetch - main [MainThread]: End processing [memory-game]: success
+[2024-05-24 08:38:40] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.3.tar.gz]
+[2024-05-24 08:38:40] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.4.tar.gz]
+[2024-05-24 08:38:40] INFO root fetch - main [MainThread]: End processing [taibun]: success
+[2024-05-24 08:38:40] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/00/b4/843a00c7d2077df33dfe1641bf799ad4748fbd4bb69100e5d8ff13d38b9d/django_herobiz_dental-3.2.0.tar.gz
+[2024-05-24 08:38:40] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-24 08:38:40] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-3.1.0.tar.gz tmp/django_herobiz_dental-3.2.0.tar.gz --markdown 20240524/d/django_herobiz_dental/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-24 08:38:42] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.1.0.tar.gz]
+[2024-05-24 08:38:42] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-3.2.0.tar.gz]
+[2024-05-24 08:38:42] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-24 08:38:42] INFO root fetch - main [MainThread]: Store serial: [23357493]
