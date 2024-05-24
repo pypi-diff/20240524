@@ -14434,3 +14434,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
 [2024-05-24 09:39:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
 [2024-05-24 09:39:46] INFO root fetch - main [MainThread]: Store serial: [23358125]
+[2024-05-24 09:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358125]
+[2024-05-24 09:41:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyansys-tools-report
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-maintenance-sign-oca
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sign-oca
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fedbadges
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biobb-amber
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cadproxdk
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cadproxdk
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ClappScrapers
+[2024-05-24 09:41:55] INFO root fetch - processPackages [pyansys-tools-report]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [cadproxdk]: New version: [1.8] Old Version: [1.7]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [cadproxdk]: New version: [1.8] Old Version: [1.7]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.2.0.4] Old Version: [16.0.2.0.3]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [biobb-amber]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [pyansys-tools-report]: Downloading https://files.pythonhosted.org/packages/ec/5e/c87579f6df01e1fffddb71449338239a5fb7f6703b41c2108bd786bea423/pyansys_tools_report-0.7.0.tar.gz
+[2024-05-24 09:41:55] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: New version: [15.0.1.0.1.1] Old Version: [15.0.1.0.1]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/a5/a3/866519fc575e0adb58e6e2689a603b02fb9a4f18f29041972c10c450c6e8/cadproxdk-1.7.tar.gz
+[2024-05-24 09:41:55] INFO root fetch - processPackages [fedbadges]: New version: [2.1.1] Old Version: [2.0.0]
+[2024-05-24 09:41:55] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/1c/47/1e59b33592ae8b7ae44ee5a6c683a164a3631efca06359b21abfcb75b638/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl
+[2024-05-24 09:41:56] INFO root fetch - processPackages [biobb-amber]: Downloading https://files.pythonhosted.org/packages/d1/47/886f1966a52d31028e9218ba163cc2802d38a27ab79acc609376ae072ce8/biobb_amber-4.1.0.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Downloading https://files.pythonhosted.org/packages/eb/6c/c0c19c6ef972cd466cb99f7cbfdb3d5a9b438f2f9ef122c8820998718264/odoo_addon_maintenance_sign_oca-15.0.1.0.1-py3-none-any.whl
+[2024-05-24 09:41:56] INFO root fetch - processPackages [fedbadges]: Downloading https://files.pythonhosted.org/packages/72/58/52a88ebda0c817d9afaad6912642dd200ee47476a0254424c566b0703c18/fedbadges-2.0.0.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [pyansys-tools-report]: Downloading https://files.pythonhosted.org/packages/d1/60/6b934ed6ac15b710aa8f6fd317e65c54224513880500af9eb9ddad3dd309/pyansys_tools_report-0.7.1.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3a/fc/23b547e3cb1066f0eaf635b41bdba8a529a1b395e16853284910b93f9475/cadproxdk-1.8.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3a/fc/23b547e3cb1066f0eaf635b41bdba8a529a1b395e16853284910b93f9475/cadproxdk-1.8.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/8f/f1/ea22228db1e14f66b0650613bd902fcde0f7faf3c6c4adfcc3436749a131/odoo_addon_sign_oca-16.0.2.0.4-py3-none-any.whl
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Downloading https://files.pythonhosted.org/packages/27/6b/f5ccc865ed5619773b357c302c300d944923c7d45f6fd6783b195b2be2b0/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 09:41:56] INFO root fetch - processPackages [biobb-amber]: Downloading https://files.pythonhosted.org/packages/43/ec/f9a8db3d113ae0e01a2d1af76f8ba0c0a6a2a9ad8393ca0d866bd66559fe/biobb_amber-4.2.0.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-1.7.tar.gz tmp/cadproxdk-1.8.tar.gz --markdown 20240524/c/cadproxdk/1.7-1.8/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [pyansys-tools-report]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [pyansys-tools-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys_tools_report-0.7.0.tar.gz tmp/pyansys_tools_report-0.7.1.tar.gz --markdown 20240524/p/pyansys-tools-report/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-1.7.tar.gz tmp/cadproxdk-1.8.tar.gz --markdown 20240524/c/cadproxdk/1.7-1.8/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.2.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sign-oca/16.0.2.0.3-16.0.2.0.4/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [biobb-amber]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [biobb-amber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_amber-4.1.0.tar.gz tmp/biobb_amber-4.2.0.tar.gz --markdown 20240524/b/biobb-amber/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [fedbadges]: Downloading https://files.pythonhosted.org/packages/7e/5c/75dbf7edb7f59922cffdf50967d623376afe2b1c6a3010b0f7fb49812888/fedbadges-2.1.1.tar.gz
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-maintenance-sign-oca/15.0.1.0.1-15.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240524/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 09:41:56] INFO root fetch - processPackages [fedbadges]: executing diffoscope
+[2024-05-24 09:41:56] INFO root fetch - processPackages [fedbadges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedbadges-2.0.0.tar.gz tmp/fedbadges-2.1.1.tar.gz --markdown 20240524/f/fedbadges/2.0.0-2.1.1/README.md --exclude *.pyd
+[2024-05-24 09:41:57] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-1.7.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-1.8.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:41:57] INFO root fetch - processPackages [pyansys-tools-report]: Remove: archive file [/home/abi/fetcher/tmp/pyansys_tools_report-0.7.0.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [pyansys-tools-report]: Remove: archive file [/home/abi/fetcher/tmp/pyansys_tools_report-0.7.1.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [pyansys-tools-report]: success
+[2024-05-24 09:41:57] INFO root fetch - processPackages [biobb-amber]: Remove: archive file [/home/abi/fetcher/tmp/biobb_amber-4.1.0.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [biobb-amber]: Remove: archive file [/home/abi/fetcher/tmp/biobb_amber-4.2.0.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [biobb-amber]: success
+[2024-05-24 09:41:57] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-24 09:41:57] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-sign-oca]: success
+[2024-05-24 09:41:57] INFO root fetch - processPackages [fedbadges]: Remove: archive file [/home/abi/fetcher/tmp/fedbadges-2.0.0.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - processPackages [fedbadges]: Remove: archive file [/home/abi/fetcher/tmp/fedbadges-2.1.1.tar.gz]
+[2024-05-24 09:41:57] INFO root fetch - main [MainThread]: End processing [fedbadges]: success
+[2024-05-24 09:41:58] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.3-py3-none-any.whl.zip]
+[2024-05-24 09:41:58] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.4-py3-none-any.whl.zip]
+[2024-05-24 09:41:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-05-24 09:41:58] INFO root fetch - main [MainThread]: Store serial: [23358147]
