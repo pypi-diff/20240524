@@ -20687,3 +20687,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:03:56] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.2.tar.gz]
 [2024-05-24 13:03:56] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2024-05-24 13:03:56] INFO root fetch - main [MainThread]: Store serial: [23360778]
+[2024-05-24 13:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360778]
+[2024-05-24 13:06:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyapp
+[2024-05-24 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tactigon-speech
+[2024-05-24 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langroid
+[2024-05-24 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-aws-apigateway
+[2024-05-24 13:06:05] INFO root fetch - processPackages [tactigon-speech]: New version: [5.0.4] Old Version: [5.0.3.post1]
+[2024-05-24 13:06:05] INFO root fetch - processPackages [hyapp]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 13:06:05] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-24 13:06:05] INFO root fetch - processPackages [pytest-aws-apigateway]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-24 13:06:05] INFO root fetch - processPackages [tactigon-speech]: Downloading https://files.pythonhosted.org/packages/a2/59/1b1348461b287ab87867a705ae1fbad96050c0e5450754964cb7058f8fd4/tactigon_speech-5.0.3.post1.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/a5/6e/e9424caf8f5fad291b507c275e23a8ebd1e6fb4948adcd493d48c17202f9/hyapp-0.1.0.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/30/d3/d3e58cb3de4f65060dcc32c0e2bd61a8e472616103a4461c40b52b47973c/pytest_aws_apigateway-0.7.0.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [hyapp]: Downloading https://files.pythonhosted.org/packages/ab/24/544956ef7949caf405679b0871b56230583fcceab950a62869be65a525ee/hyapp-0.2.0.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [tactigon-speech]: Downloading https://files.pythonhosted.org/packages/00/a8/e493896207a4170b69e651efe1adc93ca69ec4962014dd68ef82ed7d0cbd/tactigon_speech-5.0.4.tar.gz
+[2024-05-24 13:06:05] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/13/0f/5fb0838831f29768d3e28d60af7864d81ea040bd4c8d71684afd332ca86d/pytest_aws_apigateway-0.7.1.tar.gz
+[2024-05-24 13:06:06] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-24 13:06:06] INFO root fetch - processPackages [tactigon-speech]: executing diffoscope
+[2024-05-24 13:06:06] INFO root fetch - processPackages [tactigon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tactigon_speech-5.0.3.post1.tar.gz tmp/tactigon_speech-5.0.4.tar.gz --markdown 20240524/t/tactigon-speech/5.0.3.post1-5.0.4/README.md --exclude *.pyd
+[2024-05-24 13:06:06] INFO root fetch - processPackages [hyapp]: executing diffoscope
+[2024-05-24 13:06:06] INFO root fetch - processPackages [hyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyapp-0.1.0.tar.gz tmp/hyapp-0.2.0.tar.gz --markdown 20240524/h/hyapp/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 13:06:06] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-24 13:06:06] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240524/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-24 13:06:06] INFO root fetch - processPackages [pytest-aws-apigateway]: executing diffoscope
+[2024-05-24 13:06:06] INFO root fetch - processPackages [pytest-aws-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aws_apigateway-0.7.0.tar.gz tmp/pytest_aws_apigateway-0.7.1.tar.gz --markdown 20240524/p/pytest-aws-apigateway/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-24 13:06:06] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.7.0.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.7.1.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - main [MainThread]: End processing [pytest-aws-apigateway]: success
+[2024-05-24 13:06:06] INFO root fetch - processPackages [hyapp]: Remove: archive file [/home/abi/fetcher/tmp/hyapp-0.1.0.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - processPackages [hyapp]: Remove: archive file [/home/abi/fetcher/tmp/hyapp-0.2.0.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - main [MainThread]: End processing [hyapp]: success
+[2024-05-24 13:06:06] INFO root fetch - processPackages [tactigon-speech]: Remove: archive file [/home/abi/fetcher/tmp/tactigon_speech-5.0.3.post1.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - processPackages [tactigon-speech]: Remove: archive file [/home/abi/fetcher/tmp/tactigon_speech-5.0.4.tar.gz]
+[2024-05-24 13:06:06] INFO root fetch - main [MainThread]: End processing [tactigon-speech]: success
+[2024-05-24 13:06:07] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-24 13:06:07] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-24 13:06:07] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-24 13:06:07] INFO root fetch - main [MainThread]: Store serial: [23360789]
