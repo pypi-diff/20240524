@@ -18767,3 +18767,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:57:54] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.6.7-py3-none-any.whl.zip]
 [2024-05-24 11:57:54] INFO root fetch - main [MainThread]: End processing [viur-core]: success
 [2024-05-24 11:57:54] INFO root fetch - main [MainThread]: Store serial: [23359969]
+[2024-05-24 11:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359969]
+[2024-05-24 12:00:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etypes
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catalog-builder
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atla
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c4m-flexio
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maling
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyOghma
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-05-24 12:00:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: InsulaWorkflowClient
+[2024-05-24 12:00:03] WARNING root fetch - processPackages [etypes]: Skipping, unable to determine old version
+[2024-05-24 12:00:03] INFO root fetch - main [MainThread]: End processing [etypes] error
+[2024-05-24 12:00:03] INFO root fetch - processPackages [atla]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [PyOghma]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [catalog-builder]: New version: [0.5] Old Version: [0.4]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [cg]: New version: [60.8.8] Old Version: [60.8.7]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/30/40/0662ca794aa92c46ed43ce9b90428e337b9dbb1f2186ab43571422081738/catalog_builder-0.4.tar.gz
+[2024-05-24 12:00:03] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/de/d6/58cd258cd4affadfff20381688dd102316ae4d7e9bcb664e38d8f9dad6aa/atla-0.1.0a2.tar.gz
+[2024-05-24 12:00:03] WARNING root fetch - processPackages [InsulaWorkflowClient]: Skipping, unable to determine old version
+[2024-05-24 12:00:03] INFO root fetch - main [MainThread]: End processing [InsulaWorkflowClient] error
+[2024-05-24 12:00:03] INFO root fetch - processPackages [c4m-flexio]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/fb/91/aaf3e60af5dde833c49112204a269b3da5f2bd768122c1fe9ecf67e20f69/cg-60.8.7.tar.gz
+[2024-05-24 12:00:03] INFO root fetch - processPackages [maling]: New version: [2.3.7] Old Version: [2.3.6]
+[2024-05-24 12:00:03] INFO root fetch - processPackages [PyOghma]: Downloading https://files.pythonhosted.org/packages/44/9e/6dcf20e849c60bd9bde6594793f1fdedf20b3be65d68b39808e10de404dc/pyoghma-0.0.7.tar.gz
+[2024-05-24 12:00:03] WARNING root fetch - processPackages [PyOghma]: Skipping package: exceeds size limit 22271367>=10485760
+[2024-05-24 12:00:03] INFO root fetch - main [MainThread]: End processing [PyOghma] error
+[2024-05-24 12:00:03] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/c2/28/1ffe0a4b414077acddee80a2a0f2d66e68c5cf115a272797256b8af99d34/c4m_flexio-0.4.3.tar.gz
+[2024-05-24 12:00:03] INFO root fetch - processPackages [catalog-builder]: Downloading https://files.pythonhosted.org/packages/a6/81/3cfa3d828af636e5c3e1395652a53856e1d2fe5a9b51ec6fd2617ade04fe/catalog_builder-0.5.tar.gz
+[2024-05-24 12:00:03] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/a2/f7/a08780908c14d8bcb63437d9197929f68edc2a0f7b4f162981d537f2ad86/maling-2.3.6.tar.gz
+[2024-05-24 12:00:03] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/a8/1b/971d7745362a67e25d64048ba4cfd8904e3c913f814b885a51c0ed24b15f/atla-0.1.0a3.tar.gz
+[2024-05-24 12:00:04] INFO root fetch - processPackages [catalog-builder]: executing diffoscope
+[2024-05-24 12:00:04] INFO root fetch - processPackages [catalog-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalog_builder-0.4.tar.gz tmp/catalog_builder-0.5.tar.gz --markdown 20240524/c/catalog-builder/0.4-0.5/README.md --exclude *.pyd
+[2024-05-24 12:00:04] INFO root fetch - processPackages [atla]: executing diffoscope
+[2024-05-24 12:00:04] INFO root fetch - processPackages [atla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atla-0.1.0a2.tar.gz tmp/atla-0.1.0a3.tar.gz --markdown 20240524/a/atla/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-05-24 12:00:04] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/1c/bf/6547029b01cf594836a3ec6094c0d36d02b7d13ea8da6e4d950e282c7b37/c4m_flexio-0.4.4.tar.gz
+[2024-05-24 12:00:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-24 12:00:04] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/cd/ac/9b4e999c63afd5b0a9e2ebec062d7ce7318b55b02d3e17a9a7fb22bf1c6f/maling-2.3.7.tar.gz
+[2024-05-24 12:00:04] INFO root fetch - processPackages [c4m-flexio]: executing diffoscope
+[2024-05-24 12:00:04] INFO root fetch - processPackages [c4m-flexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexio-0.4.3.tar.gz tmp/c4m_flexio-0.4.4.tar.gz --markdown 20240524/c/c4m-flexio/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-24 12:00:04] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-05-24 12:00:04] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.3.6.tar.gz tmp/maling-2.3.7.tar.gz --markdown 20240524/m/maling/2.3.6-2.3.7/README.md --exclude *.pyd
+[2024-05-24 12:00:04] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.4.tar.gz]
+[2024-05-24 12:00:04] INFO root fetch - processPackages [catalog-builder]: Remove: archive file [/home/abi/fetcher/tmp/catalog_builder-0.5.tar.gz]
+[2024-05-24 12:00:04] INFO root fetch - main [MainThread]: End processing [catalog-builder]: success
+[2024-05-24 12:00:04] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-24 12:00:04] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.7.tar.gz tmp/cg-60.8.8.tar.gz --markdown 20240524/c/cg/60.8.7-60.8.8/README.md --exclude *.pyd
+[2024-05-24 12:00:04] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a2.tar.gz]
+[2024-05-24 12:00:04] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a3.tar.gz]
+[2024-05-24 12:00:04] INFO root fetch - main [MainThread]: End processing [atla]: success
+[2024-05-24 12:00:05] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.3.tar.gz]
+[2024-05-24 12:00:05] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.4.tar.gz]
+[2024-05-24 12:00:05] INFO root fetch - main [MainThread]: End processing [c4m-flexio]: success
+[2024-05-24 12:00:06] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.3.6.tar.gz]
+[2024-05-24 12:00:06] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.3.7.tar.gz]
+[2024-05-24 12:00:06] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-05-24 12:00:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.7.tar.gz]
+[2024-05-24 12:00:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-24 12:00:08] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-24 12:00:08] INFO root fetch - main [MainThread]: Store serial: [23359995]
