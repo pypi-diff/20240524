@@ -7508,3 +7508,9 @@
 [2024-05-24 03:37:59] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-24 03:37:59] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-24 03:37:59] INFO root fetch - main [MainThread]: Store serial: [23355288]
+[2024-05-24 03:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355288]
+[2024-05-24 03:40:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 03:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlibrary-api
+[2024-05-24 03:40:09] WARNING root fetch - processPackages [openlibrary-api]: Skipping, unable to determine old version
+[2024-05-24 03:40:09] INFO root fetch - main [MainThread]: End processing [openlibrary-api] error
+[2024-05-24 03:40:09] INFO root fetch - main [MainThread]: Store serial: [23355328]
