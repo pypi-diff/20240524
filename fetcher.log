@@ -19770,3 +19770,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:28:17] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.1.1.tar.gz]
 [2024-05-24 12:28:17] INFO root fetch - main [MainThread]: End processing [fermo-core]: success
 [2024-05-24 12:28:17] INFO root fetch - main [MainThread]: Store serial: [23360383]
+[2024-05-24 12:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360383]
+[2024-05-24 12:30:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geo-skeletons
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-115
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i6-models
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-05-24 12:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keycare
+[2024-05-24 12:30:26] INFO root fetch - processPackages [keycare]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [python-115]: New version: [0.0.8.1] Old Version: [0.0.8]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/fd/d8/fc93f3f06b7e3a2dbfa89cbc160b50f32dcdffac4a8125957238541c4bcd/keycare-0.0.5.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [i6-models]: New version: [1.20240524.122324] Old Version: [1.20240521.121705]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/24/32/2af423ad2cbc0371fa543b4a4ca6b453ac7b02a09a6fd20fe20fd3fa9cef/python_115-0.0.8.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 12:30:26] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [i6-models]: Downloading https://files.pythonhosted.org/packages/84/cc/01f087123ed1d1dcd476cfb2cdc66dc15768687b91a0725cecf3774c0a2e/i6_models-1.20240521.121705.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/c6/b5/52cc4550a125c3457d951532d91698c5f349cb7b055227156c700cddb80e/python_115-0.0.8.1.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-24 12:30:26] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240524/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 12:30:26] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-24 12:30:26] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.tar.gz tmp/python_115-0.0.8.1.tar.gz --markdown 20240524/p/python-115/0.0.8-0.0.8.1/README.md --exclude *.pyd
+[2024-05-24 12:30:26] INFO root fetch - processPackages [i6-models]: Downloading https://files.pythonhosted.org/packages/51/7d/49f453667458b18283fb335ae9b75be6b604ebdad2aa8d61979f004312e6/i6_models-1.20240524.122324.tar.gz
+[2024-05-24 12:30:26] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-24 12:30:27] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-05-24 12:30:27] INFO root fetch - processPackages [i6-models]: executing diffoscope
+[2024-05-24 12:30:27] INFO root fetch - processPackages [i6-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i6_models-1.20240521.121705.tar.gz tmp/i6_models-1.20240524.122324.tar.gz --markdown 20240524/i/i6-models/1.20240521.121705-1.20240524.122324/README.md --exclude *.pyd
+[2024-05-24 12:30:27] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-24 12:30:27] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240524/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-24 12:30:27] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-05-24 12:30:27] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240524/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 12:30:27] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-24 12:30:27] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.1.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-24 12:30:27] INFO root fetch - processPackages [i6-models]: Remove: archive file [/home/abi/fetcher/tmp/i6_models-1.20240521.121705.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - processPackages [i6-models]: Remove: archive file [/home/abi/fetcher/tmp/i6_models-1.20240524.122324.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - main [MainThread]: End processing [i6-models]: success
+[2024-05-24 12:30:27] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-05-24 12:30:27] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-05-24 12:30:28] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/18/cb/83f65601e76443e9bcc8c59a46feae88dfd0f124ce44ed921cabb1ba8c40/keycare-0.0.6.tar.gz
+[2024-05-24 12:30:28] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-24 12:30:28] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.5.tar.gz tmp/keycare-0.0.6.tar.gz --markdown 20240524/k/keycare/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 12:30:28] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.5.tar.gz]
+[2024-05-24 12:30:28] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.6.tar.gz]
+[2024-05-24 12:30:28] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-24 12:30:29] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-24 12:30:29] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-24 12:30:29] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-24 12:30:29] INFO root fetch - main [MainThread]: Store serial: [23360401]
