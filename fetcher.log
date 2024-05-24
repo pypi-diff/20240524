@@ -11249,3 +11249,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.9.tar.gz]
 [2024-05-24 07:13:28] INFO root fetch - main [MainThread]: End processing [bacore]: success
 [2024-05-24 07:13:28] INFO root fetch - main [MainThread]: Store serial: [23356660]
+[2024-05-24 07:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356660]
+[2024-05-24 07:15:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freedom-pay
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaclogger
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picopy
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CustomKit
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: covalent-cloud
+[2024-05-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freedom-pay
+[2024-05-24 07:15:38] WARNING root fetch - processPackages [freedom-pay]: Skipping, unable to determine old version
+[2024-05-24 07:15:38] INFO root fetch - main [MainThread]: End processing [freedom-pay] error
+[2024-05-24 07:15:38] WARNING root fetch - processPackages [freedom-pay]: Skipping, unable to determine old version
+[2024-05-24 07:15:38] INFO root fetch - main [MainThread]: End processing [freedom-pay] error
+[2024-05-24 07:15:38] INFO root fetch - processPackages [picopy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 07:15:38] WARNING root fetch - processPackages [yaclogger]: Skipping, unable to determine old version
+[2024-05-24 07:15:38] INFO root fetch - main [MainThread]: End processing [yaclogger] error
+[2024-05-24 07:15:38] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/a8/40/186fe804abf9783dd3fa48c3fd3ce3940f5cf5f9187d6e6aa4247a056cba/picopy-1.0.8.tar.gz
+[2024-05-24 07:15:38] WARNING root fetch - processPackages [CustomKit]: Skipping, unable to determine old version
+[2024-05-24 07:15:38] INFO root fetch - main [MainThread]: End processing [CustomKit] error
+[2024-05-24 07:15:38] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.66.0rc0]
+[2024-05-24 07:15:38] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-24 07:15:39] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/78/d2/548327e357401e1dc5952345cee44eabb4289d3fc4996f956258fde9a98e/covalent-cloud-0.66.0rc0.tar.gz
+[2024-05-24 07:15:39] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-24 07:15:39] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/8b/21/3ef19d0f45cc9608502ba2fb2f74b590a34a2da2b40089bac4ac267609f0/picopy-1.0.9.tar.gz
+[2024-05-24 07:15:39] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 07:15:39] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.8.tar.gz tmp/picopy-1.0.9.tar.gz --markdown 20240524/p/picopy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 07:15:39] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2024-05-24 07:15:39] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-24 07:15:39] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2024-05-24 07:15:39] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.66.0rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20240524/c/covalent-cloud/0.66.0rc0-0.8.0rc0/README.md --exclude *.pyd
+[2024-05-24 07:15:39] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-24 07:15:39] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240524/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-24 07:15:39] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.8.tar.gz]
+[2024-05-24 07:15:39] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.9.tar.gz]
+[2024-05-24 07:15:39] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 07:15:40] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-24 07:15:40] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-24 07:15:40] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-24 07:15:40] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.66.0rc0.tar.gz]
+[2024-05-24 07:15:40] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2024-05-24 07:15:40] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2024-05-24 07:15:40] INFO root fetch - main [MainThread]: Store serial: [23356682]
