@@ -9592,3 +9592,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 05:50:44] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
 [2024-05-24 05:50:44] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
 [2024-05-24 05:50:44] INFO root fetch - main [MainThread]: Store serial: [23356059]
+[2024-05-24 05:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356059]
+[2024-05-24 05:52:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-financial-risk
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adadpython
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volcengine-python-sdk
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m3u8-XZ
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: any-parser
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shopify-custom-api
+[2024-05-24 05:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-crm-lead-currency
+[2024-05-24 05:52:52] INFO root fetch - processPackages [m3u8-XZ]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [adadpython]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [shopify-custom-api]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.82]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/6b/3c/9703b65954edecd0609e2afb7f9e775dcb01b43556de4a9c156408409861/m3u8_XZ-0.0.8.tar.gz
+[2024-05-24 05:52:52] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: New version: [14.0.1.0.2.dev6] Old Version: [14.0.1.0.2.dev5]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [any-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 05:52:52] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/2b/7f/a63b0970e1ac503828076bb3a7e77c0b0579f43f9f6f2c3a1ec01ae52e0d/volcengine-python-sdk-1.0.82.tar.gz
+[2024-05-24 05:52:52] INFO root fetch - processPackages [adadpython]: Downloading https://files.pythonhosted.org/packages/e5/76/cb0a53b439cc9eddbd4df2b617dc52153c96296228dd29826ed50600f2a0/adadpython-0.0.4.tar.gz
+[2024-05-24 05:52:52] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/69/df/b16d49399594afec1a1db0daaf5f759f1b7dc49202108c7ff4d4cef23a3f/shopify_custom_api-0.0.5.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/2f/2a/31b25dce0c282c25374a563582685d1ff5c85f934bc972d41bdf79361ea1/m3u8_XZ-0.0.9.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: Downloading https://files.pythonhosted.org/packages/25/ef/8356343f18f13435928beef0b604f67a24de135c2341e544fc2ad5370eae/odoo_addon_stock_financial_risk-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 05:52:53] INFO root fetch - processPackages [any-parser]: Downloading https://files.pythonhosted.org/packages/08/67/17a81f7c46205af2d4291ba2ef7c280eef2042fcc19012cba067c5bc2801/any_parser-0.0.8.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: Downloading https://files.pythonhosted.org/packages/fa/2b/3186a1b19d42769cc93f28b8144d61c6d3c81a6f64042acd3ae951b8d94e/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev5-py3-none-any.whl
+[2024-05-24 05:52:53] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/0d/d4/d7f6825e9646ec0414fc3fd8495efcf5c27040cd50d5679019adfff7ebea/shopify_custom_api-0.1.0.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [m3u8-XZ]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [m3u8-XZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_XZ-0.0.8.tar.gz tmp/m3u8_XZ-0.0.9.tar.gz --markdown 20240524/m/m3u8-XZ/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [adadpython]: Downloading https://files.pythonhosted.org/packages/39/ec/f4b89a93a61549ef6bb807ce2f6dffb5a92def0a01c891fc4c76313decd9/adadpython-0.1.0.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [shopify-custom-api]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [shopify-custom-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopify_custom_api-0.0.5.tar.gz tmp/shopify_custom_api-0.1.0.tar.gz --markdown 20240524/s/shopify-custom-api/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [adadpython]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [adadpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adadpython-0.0.4.tar.gz tmp/adadpython-0.1.0.tar.gz --markdown 20240524/a/adadpython/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: Downloading https://files.pythonhosted.org/packages/09/02/0f20d947946fdc211a9d643d2a11a9f1f88d27654d950101350f8257db5e/odoo_addon_stock_financial_risk-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-24 05:52:53] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.82.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240524/v/volcengine-python-sdk/1.0.82-1.0.9/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [any-parser]: Downloading https://files.pythonhosted.org/packages/a6/b6/c7182041c56b5dc7bbf2ed454ae0d7a0beb2e95a77974988c647ad5c60a7/any_parser-0.0.9.tar.gz
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: Downloading https://files.pythonhosted.org/packages/81/88/5b0a75cb6bcac489a2ee0cef13bd411f718ff8f3fe3171a36d7689b1e88b/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev6-py3-none-any.whl
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_financial_risk-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_stock_financial_risk-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-financial-risk/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [any-parser]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [any-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/any_parser-0.0.8.tar.gz tmp/any_parser-0.0.9.tar.gz --markdown 20240524/a/any-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: executing diffoscope
+[2024-05-24 05:52:53] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev6-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-crm-lead-currency/14.0.1.0.2.dev5-14.0.1.0.2.dev6/README.md --exclude *.pyd
+[2024-05-24 05:52:53] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.8.tar.gz]
+[2024-05-24 05:52:53] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.9.tar.gz]
+[2024-05-24 05:52:53] INFO root fetch - main [MainThread]: End processing [m3u8-XZ]: success
+[2024-05-24 05:52:54] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.0.5.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.0.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - main [MainThread]: End processing [shopify-custom-api]: success
+[2024-05-24 05:52:54] INFO root fetch - processPackages [any-parser]: Remove: archive file [/home/abi/fetcher/tmp/any_parser-0.0.8.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - processPackages [any-parser]: Remove: archive file [/home/abi/fetcher/tmp/any_parser-0.0.9.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - main [MainThread]: End processing [any-parser]: success
+[2024-05-24 05:52:54] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_financial_risk-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 05:52:54] INFO root fetch - processPackages [odoo-addon-stock-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_financial_risk-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-24 05:52:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-financial-risk]: success
+[2024-05-24 05:52:54] INFO root fetch - processPackages [adadpython]: Remove: archive file [/home/abi/fetcher/tmp/adadpython-0.0.4.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - processPackages [adadpython]: Remove: archive file [/home/abi/fetcher/tmp/adadpython-0.1.0.tar.gz]
+[2024-05-24 05:52:54] INFO root fetch - main [MainThread]: End processing [adadpython]: success
+[2024-05-24 05:52:54] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2024-05-24 05:52:54] INFO root fetch - processPackages [odoo14-addon-crm-lead-currency]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_lead_currency-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2024-05-24 05:52:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-lead-currency]: success
+[2024-05-24 05:53:09] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.82.tar.gz]
+[2024-05-24 05:53:09] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-05-24 05:53:09] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-05-24 05:53:09] INFO root fetch - main [MainThread]: Store serial: [23356079]
