@@ -2304,3 +2304,42 @@
 [2024-05-24 02:14:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.3.tar.gz]
 [2024-05-24 02:14:24] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
 [2024-05-24 02:14:24] INFO root fetch - main [MainThread]: Store serial: [23353460]
+[2024-05-24 02:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353460]
+[2024-05-24 02:16:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-24 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-skylight
+[2024-05-24 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-llama
+[2024-05-24 02:16:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-24 02:16:33] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240524/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240524/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-24 02:16:33] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-24 02:16:34] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-24 02:16:34] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-24 02:16:34] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240524/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240524/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-24 02:16:34] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-24 02:16:34] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-24 02:16:34] INFO root fetch - main [MainThread]: Store serial: [23353471]
