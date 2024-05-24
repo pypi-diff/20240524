@@ -19195,3 +19195,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:09:34] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.25.post1.tar.gz]
 [2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
 [2024-05-24 12:09:34] INFO root fetch - main [MainThread]: Store serial: [23360145]
+[2024-05-24 12:11:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360145]
+[2024-05-24 12:11:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 12:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-prep-toolkit
+[2024-05-24 12:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyn-rm
+[2024-05-24 12:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SamplePackage1
+[2024-05-24 12:11:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuzzylogic
+[2024-05-24 12:11:43] INFO root fetch - processPackages [data-prep-toolkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 12:11:43] WARNING root fetch - processPackages [SamplePackage1]: Skipping, unable to determine old version
+[2024-05-24 12:11:43] INFO root fetch - main [MainThread]: End processing [SamplePackage1] error
+[2024-05-24 12:11:43] INFO root fetch - processPackages [dyn-rm]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-24 12:11:43] INFO root fetch - processPackages [data-prep-toolkit]: Downloading https://files.pythonhosted.org/packages/9a/8f/f0f95f6e006393f95773ca963f6314b48b39dbf89af7823c8dde08b980e2/data_prep_toolkit-0.1.0.tar.gz
+[2024-05-24 12:11:43] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/94/9a/d60fa2278af2df1afc83416d1810b3a25bf9f299e5c0903939764aa9fb40/dyn_rm-2.0.8.tar.gz
+[2024-05-24 12:11:44] INFO root fetch - processPackages [data-prep-toolkit]: Downloading https://files.pythonhosted.org/packages/e6/b6/2534572542308b512adbe7591f4e90e3dd060cc662e5eedb6128cdabff29/data_prep_toolkit-0.1.1.tar.gz
+[2024-05-24 12:11:44] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/54/17/bc93c4cca4f26724d71a1323d31cb026290b03356fb89bbcf3e67ac0cd77/dyn_rm-2.0.9.tar.gz
+[2024-05-24 12:11:44] INFO root fetch - processPackages [data-prep-toolkit]: executing diffoscope
+[2024-05-24 12:11:44] INFO root fetch - processPackages [data-prep-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit-0.1.0.tar.gz tmp/data_prep_toolkit-0.1.1.tar.gz --markdown 20240524/d/data-prep-toolkit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 12:11:44] INFO root fetch - processPackages [dyn-rm]: executing diffoscope
+[2024-05-24 12:11:44] INFO root fetch - processPackages [dyn-rm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn_rm-2.0.8.tar.gz tmp/dyn_rm-2.0.9.tar.gz --markdown 20240524/d/dyn-rm/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-24 12:11:45] INFO root fetch - processPackages [data-prep-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit-0.1.0.tar.gz]
+[2024-05-24 12:11:45] INFO root fetch - processPackages [data-prep-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit-0.1.1.tar.gz]
+[2024-05-24 12:11:45] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit]: success
+[2024-05-24 12:11:45] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-2.0.8.tar.gz]
+[2024-05-24 12:11:45] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-2.0.9.tar.gz]
+[2024-05-24 12:11:45] INFO root fetch - main [MainThread]: End processing [dyn-rm]: success
+[2024-05-24 12:11:45] INFO root fetch - processPackages [fuzzylogic]: New version: [1.4.0] Old Version: [1.2.0]
+[2024-05-24 12:11:46] INFO root fetch - processPackages [fuzzylogic]: Downloading https://files.pythonhosted.org/packages/ac/04/2df6849bd6f4c20fe6e9e8689ace6d8d6a06287bbfd8fdf11642c8a5b878/fuzzylogic-1.2.0.tar.gz
+[2024-05-24 12:11:46] INFO root fetch - processPackages [fuzzylogic]: Downloading https://files.pythonhosted.org/packages/95/3d/6c8250fc5ffe0faa1b657176ceae25ac09f57903c47474d897ac7a9cc5dd/fuzzylogic-1.4.0.tar.gz
+[2024-05-24 12:11:46] INFO root fetch - processPackages [fuzzylogic]: executing diffoscope
+[2024-05-24 12:11:46] INFO root fetch - processPackages [fuzzylogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzylogic-1.2.0.tar.gz tmp/fuzzylogic-1.4.0.tar.gz --markdown 20240524/f/fuzzylogic/1.2.0-1.4.0/README.md --exclude *.pyd
+[2024-05-24 12:11:47] INFO root fetch - processPackages [fuzzylogic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylogic-1.2.0.tar.gz]
+[2024-05-24 12:11:47] INFO root fetch - processPackages [fuzzylogic]: Remove: archive file [/home/abi/fetcher/tmp/fuzzylogic-1.4.0.tar.gz]
+[2024-05-24 12:11:47] INFO root fetch - main [MainThread]: End processing [fuzzylogic]: success
+[2024-05-24 12:11:47] INFO root fetch - main [MainThread]: Store serial: [23360157]
