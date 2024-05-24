@@ -18449,3 +18449,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:42:31] INFO root fetch - processPackages [gauge-api-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-api-steps-0.9.tar.gz]
 [2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [gauge-api-steps]: success
 [2024-05-24 11:42:31] INFO root fetch - main [MainThread]: Store serial: [23359811]
+[2024-05-24 11:44:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359811]
+[2024-05-24 11:44:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unified-planning
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ms-salesforce-api
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysmlib
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otpme
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mns-common
+[2024-05-24 11:44:40] INFO root fetch - processPackages [mns-common]: New version: [1.1.2.6] Old Version: [1.1.2.5]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [otpme]: New version: [0.3.0a67] Old Version: [0.3.0a66]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.65.dev1]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.94] Old Version: [1.0.93]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/81/6b/75f7b8925e19cb0b5eb05a095825525fd6517a7db1e8fd80f26228b46adf/otpme-0.3.0a66.tar.gz
+[2024-05-24 11:44:40] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/6b/6f/a02294202c77a2baf23a5a6e224b935c5b01556d1c3387a7589e06b5e391/mns_common-1.1.2.5.tar.gz
+[2024-05-24 11:44:40] INFO root fetch - processPackages [ms-salesforce-api]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [pysmlib]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-05-24 11:44:40] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/d9/d6/b6f5c1fd0d676b75e13b7be88fa670438e1bf82dcc33f94618cc67bcf6e8/dve_lumipy_testing-1.0.93-py3-none-any.whl
+[2024-05-24 11:44:40] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/04/45/a532edef6dd5792c01bf45f2a95674e6d287f887073e45edb48fac2dc502/unified_planning-1.1.0.65.dev1.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pysmlib]: Downloading https://files.pythonhosted.org/packages/b5/d5/b4378b01885eb67dc180712fccf77497123b9424488ff53fc7981c7dc5ec/pysmlib-3.4.1.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/bc/e7/26cba7ba85d672065dad8b95022e56185166211d7bc981fe549cfc0e20a1/ms_salesforce_api-2.4.1.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/b1/89/3cf57f879b3e03cf40f3a1fb94b5a96a57c3854e097032d704a4369f64ed/mns_common-1.1.2.6.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/b4/5f/94f36fbb6c7ff66c8c89e3bc75669549159b37bf9ce6fc928da8c67a1e40/dve_lumipy_testing-1.0.94-py3-none-any.whl
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/ba/ea/475478e5901a1041f56bac2899219c6429bfdfbf29e62161332d0b641b8b/ms_salesforce_api-2.5.0.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pysmlib]: Downloading https://files.pythonhosted.org/packages/d7/5c/679661d8166c0030f4ec44ca1f3bfbfd17731b46bdcd8db884bdb7c0865e/pysmlib-3.4.2.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/b6/12/ea621f029b638d96b3e35b958c766c4b9f068241f7945827f6876ddb1bcb/otpme-0.3.0a67.tar.gz
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240524/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 11:44:41] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.2.5.tar.gz tmp/mns_common-1.1.2.6.tar.gz --markdown 20240524/m/mns-common/1.1.2.5-1.1.2.6/README.md --exclude *.pyd
+[2024-05-24 11:44:41] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.65.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240524/u/unified-planning/1.1.0.65.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-05-24 11:44:41] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.93-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.94-py3-none-any.whl.zip --markdown 20240524/d/dve-lumipy-testing/1.0.93-1.0.94/README.md --exclude *.pyd
+[2024-05-24 11:44:41] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-2.4.1.tar.gz tmp/ms_salesforce_api-2.5.0.tar.gz --markdown 20240524/m/ms-salesforce-api/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pysmlib]: executing diffoscope
+[2024-05-24 11:44:41] INFO root fetch - processPackages [pysmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmlib-3.4.1.tar.gz tmp/pysmlib-3.4.2.tar.gz --markdown 20240524/p/pysmlib/3.4.1-3.4.2/README.md --exclude *.pyd
+[2024-05-24 11:44:42] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 11:44:42] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a66.tar.gz tmp/otpme-0.3.0a67.tar.gz --markdown 20240524/o/otpme/0.3.0a66-0.3.0a67/README.md --exclude *.pyd
+[2024-05-24 11:44:42] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-24 11:44:42] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.4.1.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.5.0.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2024-05-24 11:44:42] INFO root fetch - processPackages [pysmlib]: Remove: archive file [/home/abi/fetcher/tmp/pysmlib-3.4.1.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - processPackages [pysmlib]: Remove: archive file [/home/abi/fetcher/tmp/pysmlib-3.4.2.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - main [MainThread]: End processing [pysmlib]: success
+[2024-05-24 11:44:42] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.5.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.6.tar.gz]
+[2024-05-24 11:44:42] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-24 11:44:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.93-py3-none-any.whl.zip]
+[2024-05-24 11:44:43] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.94-py3-none-any.whl.zip]
+[2024-05-24 11:44:43] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-24 11:44:43] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.65.dev1.tar.gz]
+[2024-05-24 11:44:43] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-05-24 11:44:43] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-05-24 11:44:44] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a66.tar.gz]
+[2024-05-24 11:44:44] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a67.tar.gz]
+[2024-05-24 11:44:44] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 11:44:44] INFO root fetch - main [MainThread]: Store serial: [23359832]
