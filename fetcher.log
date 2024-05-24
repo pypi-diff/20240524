@@ -19294,3 +19294,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:13:59] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a70.tar.gz]
 [2024-05-24 12:13:59] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-05-24 12:13:59] INFO root fetch - main [MainThread]: Store serial: [23360177]
+[2024-05-24 12:16:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360177]
+[2024-05-24 12:16:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-prep-toolkit-kfp
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-oidc-backend
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: billzio-api
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openobd-protocol
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promising-stocks
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-hr-employee-birthday-mail
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-hr-holidays-settings
+[2024-05-24 12:16:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mns-common
+[2024-05-24 12:16:09] INFO root fetch - processPackages [fastapi-oidc-backend]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-24 12:16:09] WARNING root fetch - processPackages [promising-stocks]: Skipping, unable to determine old version
+[2024-05-24 12:16:09] INFO root fetch - main [MainThread]: End processing [promising-stocks] error
+[2024-05-24 12:16:09] INFO root fetch - processPackages [billzio-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [mns-common]: New version: [1.1.2.7] Old Version: [1.1.2.6]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [fastapi-oidc-backend]: Downloading https://files.pythonhosted.org/packages/1b/d2/b4cc4785c055d08491b4f9f9b0200d93ad0606d66d964e4ad6b8bc11d346/fastapi_oidc_backend-0.4.0.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/c3/af/80b311eef1619e3d57bb85478711fc45473a569b115891a17b793fe34d23/billzio_api-1.0.7.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [openobd-protocol]: New version: [0.14.0] Old Version: [0.13.0]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.1.dev0] Old Version: [0.1.1]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-24 12:16:09] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/b1/89/3cf57f879b3e03cf40f3a1fb94b5a96a57c3854e097032d704a4369f64ed/mns_common-1.1.2.6.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/ce/4f/c6d04b778309a9ca4499bad8d98c9400266336324d8615bc51628a3bd974/openobd_protocol-0.13.0.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/dc/8a/282e7e9b833926b79c206cb6083918c97919be6f4f64383537145738d99c/data_prep_toolkit_kfp-0.1.1.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/65/eb/8c6a32509f2666ede6f6369eb06f44e50a6d7ee96d63328681393bebe216/billzio_api-1.0.8.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [fastapi-oidc-backend]: Downloading https://files.pythonhosted.org/packages/01/bd/8c4820eeefecd79b4469688d2db34877f42baac01d7cc009769c72ca1083/fastapi_oidc_backend-0.4.1.tar.gz
+[2024-05-24 12:16:09] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: Downloading https://files.pythonhosted.org/packages/b4/0d/049ac69a2fe77c84530880cc7799686effeacb5031aca054ed74f3cf829f/odoo_addon_hr_holidays_settings-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 12:16:09] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: Downloading https://files.pythonhosted.org/packages/08/75/a5d36e5cbea3a94849fe8f8cb876cd695db979d9966ac84844381eb0e250/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-24 12:16:09] INFO root fetch - processPackages [fastapi-oidc-backend]: executing diffoscope
+[2024-05-24 12:16:09] INFO root fetch - processPackages [fastapi-oidc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_oidc_backend-0.4.0.tar.gz tmp/fastapi_oidc_backend-0.4.1.tar.gz --markdown 20240524/f/fastapi-oidc-backend/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-24 12:16:09] INFO root fetch - processPackages [billzio-api]: executing diffoscope
+[2024-05-24 12:16:09] INFO root fetch - processPackages [billzio-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/billzio_api-1.0.7.tar.gz tmp/billzio_api-1.0.8.tar.gz --markdown 20240524/b/billzio-api/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/67/6b/e43816671d4ad47542e4d5703480bb82610ef4a242b4fc6fea3396c2c932/mns_common-1.1.2.7.tar.gz
+[2024-05-24 12:16:10] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/5e/b7/cd0f0d1979f94e4a7751b0697d18c51f5a95232d78e2d57681d627c85997/openobd_protocol-0.14.0.tar.gz
+[2024-05-24 12:16:10] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/98/1d/13df464399161484c3d8284b4df2681dc385268c78ccac701298db4cb028/data_prep_toolkit_kfp-0.1.1.dev0.tar.gz
+[2024-05-24 12:16:10] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-24 12:16:10] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.2.6.tar.gz tmp/mns_common-1.1.2.7.tar.gz --markdown 20240524/m/mns-common/1.1.2.6-1.1.2.7/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.13.0.tar.gz tmp/openobd_protocol-0.14.0.tar.gz --markdown 20240524/o/openobd-protocol/0.13.0-0.14.0/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: Downloading https://files.pythonhosted.org/packages/d1/6b/729d578b82a86c0e599006fdd7e50fece338fc3c1f7593d5d2530d30ba44/odoo_addon_hr_holidays_settings-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: Downloading https://files.pythonhosted.org/packages/fc/63/c751b5b7a2b554abe1f8644ca18fc49f921a2ddf1e71e0a6147c370cbd79/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 12:16:10] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.1.1.tar.gz tmp/data_prep_toolkit_kfp-0.1.1.dev0.tar.gz --markdown 20240524/d/data-prep-toolkit-kfp/0.1.1-0.1.1.dev0/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_holidays_settings-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_hr_holidays_settings-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-hr-holidays-settings/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240524/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-24 12:16:10] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.7.tar.gz]
+[2024-05-24 12:16:10] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.8.tar.gz]
+[2024-05-24 12:16:10] INFO root fetch - main [MainThread]: End processing [billzio-api]: success
+[2024-05-24 12:16:10] INFO root fetch - processPackages [fastapi-oidc-backend]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oidc_backend-0.4.0.tar.gz]
+[2024-05-24 12:16:10] INFO root fetch - processPackages [fastapi-oidc-backend]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_oidc_backend-0.4.1.tar.gz]
+[2024-05-24 12:16:10] INFO root fetch - main [MainThread]: End processing [fastapi-oidc-backend]: success
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: executing diffoscope
+[2024-05-24 12:16:10] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-hr-employee-birthday-mail/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-24 12:16:11] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.13.0.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.14.0.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-05-24 12:16:11] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.1.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.1.dev0.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-24 12:16:11] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.6.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.7.tar.gz]
+[2024-05-24 12:16:11] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-24 12:16:11] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_settings-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 12:16:11] INFO root fetch - processPackages [odoo-addon-hr-holidays-settings]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_holidays_settings-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 12:16:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-settings]: success
+[2024-05-24 12:16:11] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-24 12:16:11] INFO root fetch - processPackages [odoo-addon-hr-employee-birthday-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_birthday_mail-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 12:16:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-birthday-mail]: success
+[2024-05-24 12:16:13] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-24 12:16:13] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-24 12:16:13] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-24 12:16:13] INFO root fetch - main [MainThread]: Store serial: [23360202]
