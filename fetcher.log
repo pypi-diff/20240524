@@ -7877,3 +7877,51 @@
 [2024-05-24 04:11:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-24 04:11:15] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-24 04:11:15] INFO root fetch - main [MainThread]: Store serial: [23355470]
+[2024-05-24 04:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355470]
+[2024-05-24 04:13:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 04:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Unified-python-sdk
+[2024-05-24 04:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siglost-utils
+[2024-05-24 04:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wavio
+[2024-05-24 04:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-digitalocean
+[2024-05-24 04:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorpc
+[2024-05-24 04:13:24] INFO root fetch - processPackages [siglost-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 04:13:24] INFO root fetch - processPackages [wavio]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:13:24] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-24 04:13:24] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.22.8] Old Version: [0.22.7]
+[2024-05-24 04:13:24] INFO root fetch - processPackages [tensorpc]: New version: [0.11.0] Old Version: [0.10.7]
+[2024-05-24 04:13:24] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/3f/bf/c5d9a2fd9eb6c9e6fba69475cd5c20924f127fe6c56ab1f36f97596549bc/siglost_utils-0.1.2.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/f0/76/3c2905e64e5e293c1aeee0b4fe99758095cf9b0aba39f1e82eca660b8f83/tensorpc-0.10.7.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [wavio]: Downloading https://files.pythonhosted.org/packages/38/14/7b7fb6db2925435137ab1019e4a6e298b94e3c936e8be8e579f8a0b199ee/wavio-0.0.8.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/f8/7c/5e5020f81911c0245990544bbc48b3742e3e0a846366ab3c87455f217928/Unified-python-sdk-0.22.7.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/32/a6/f72a437f394e4be7013e909d461fac60a361f3138d10f790ffc410ed32a8/Unified-python-sdk-0.22.8.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [tensorpc]: Downloading https://files.pythonhosted.org/packages/c6/98/c76f368285904d8ad82165f44f6fba3d2d0a4b75b0c73e084b7f54199132/tensorpc-0.11.0.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/a5/80/722b9ddef2bd2022686a034e27827b87d1796a63de3d2c570d8e6a4280e9/siglost_utils-0.1.3.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [wavio]: Downloading https://files.pythonhosted.org/packages/d2/fa/e016582788aead27a0add5fe8b121bf0a370947c6779cf4e0fae35c3d3bb/wavio-0.0.9.tar.gz
+[2024-05-24 04:13:25] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-05-24 04:13:25] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.22.7.tar.gz tmp/Unified-python-sdk-0.22.8.tar.gz --markdown 20240524/U/Unified-python-sdk/0.22.7-0.22.8/README.md --exclude *.pyd
+[2024-05-24 04:13:25] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 04:13:25] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.1.2.tar.gz tmp/siglost_utils-0.1.3.tar.gz --markdown 20240524/s/siglost-utils/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 04:13:25] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-24 04:13:25] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240524/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-24 04:13:25] INFO root fetch - processPackages [wavio]: executing diffoscope
+[2024-05-24 04:13:25] INFO root fetch - processPackages [wavio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavio-0.0.8.tar.gz tmp/wavio-0.0.9.tar.gz --markdown 20240524/w/wavio/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:13:26] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.2.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.3.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 04:13:26] INFO root fetch - processPackages [wavio]: Remove: archive file [/home/abi/fetcher/tmp/wavio-0.0.8.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - processPackages [wavio]: Remove: archive file [/home/abi/fetcher/tmp/wavio-0.0.9.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - main [MainThread]: End processing [wavio]: success
+[2024-05-24 04:13:26] INFO root fetch - processPackages [tensorpc]: executing diffoscope
+[2024-05-24 04:13:26] INFO root fetch - processPackages [tensorpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorpc-0.10.7.tar.gz tmp/tensorpc-0.11.0.tar.gz --markdown 20240524/t/tensorpc/0.10.7-0.11.0/README.md --exclude *.pyd
+[2024-05-24 04:13:26] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-24 04:13:26] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-24 04:13:27] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.7.tar.gz]
+[2024-05-24 04:13:27] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.8.tar.gz]
+[2024-05-24 04:13:27] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-05-24 04:13:28] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.10.7.tar.gz]
+[2024-05-24 04:13:28] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.11.0.tar.gz]
+[2024-05-24 04:13:28] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
+[2024-05-24 04:13:28] INFO root fetch - main [MainThread]: Store serial: [23355483]
