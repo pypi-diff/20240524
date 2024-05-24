@@ -7838,3 +7838,24 @@
 [2024-05-24 04:06:44] INFO root fetch - processPackages [st-diff-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_diff_viewer-1.0.4.tar.gz]
 [2024-05-24 04:06:44] INFO root fetch - main [MainThread]: End processing [st-diff-viewer]: success
 [2024-05-24 04:06:44] INFO root fetch - main [MainThread]: Store serial: [23355450]
+[2024-05-24 04:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355450]
+[2024-05-24 04:08:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 04:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-05-24 04:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picopy
+[2024-05-24 04:08:53] INFO root fetch - processPackages [picopy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-24 04:08:53] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/e0/47/c60f2ea0a95b09dec17608de2a6630424f3d34672bee2add49b5a52d8b60/picopy-1.0.5.tar.gz
+[2024-05-24 04:08:53] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-24 04:08:53] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-24 04:08:54] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/f5/ad/4ce7e029b7b0d7d390f0cac2c14a7f989b2282eac5c0037723bf50b0a913/picopy-1.0.6.tar.gz
+[2024-05-24 04:08:54] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 04:08:54] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.5.tar.gz tmp/picopy-1.0.6.tar.gz --markdown 20240524/p/picopy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-24 04:08:54] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-24 04:08:54] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-24 04:08:54] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240524/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-24 04:08:54] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.5.tar.gz]
+[2024-05-24 04:08:54] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.6.tar.gz]
+[2024-05-24 04:08:54] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 04:08:54] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-24 04:08:54] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-24 04:08:54] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-24 04:08:54] INFO root fetch - main [MainThread]: Store serial: [23355455]
