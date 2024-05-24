@@ -23009,3 +23009,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:21:51] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.97-py3-none-any.whl.zip]
 [2024-05-24 14:21:51] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-24 14:21:51] INFO root fetch - main [MainThread]: Store serial: [23361719]
+[2024-05-24 14:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361719]
+[2024-05-24 14:24:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-dirtyfields
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirji-agents
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-roughness-tool
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jfk-django-core
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-pipeline-engine
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pbx-code-owners
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ledger-dev
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DataCleaningWithPandas
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ml-pipeline-engine]: New version: [2.0.0a0] Old Version: [1.6.0]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [django-dirtyfields]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [pbx-code-owners]: New version: [1.2.0a0] Old Version: [1.1.2]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.26.post1] Old Version: [0.4.25.post1]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ml-pipeline-engine]: Downloading https://files.pythonhosted.org/packages/5a/17/796461af77accbfad63c4848868439a8cfc0f5969640c2499aa2e22725c0/ml_pipeline_engine-1.6.0.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [django-dirtyfields]: Downloading https://files.pythonhosted.org/packages/df/09/eade43b3572baf71e24561aac15621a4f44658d7c36eaac3bbb90eb07768/django-dirtyfields-1.9.2.tar.gz
+[2024-05-24 14:24:01] ERROR root fetch - processPackages [DataCleaningWithPandas]: Unable to get metadata: No such project 'DataCleaningWithPandas'
+[2024-05-24 14:24:01] INFO root fetch - main [MainThread]: End processing [DataCleaningWithPandas] error
+[2024-05-24 14:24:01] INFO root fetch - processPackages [jfk-django-core]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 14:24:01] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/97/cd/c09130f10dc419c8161c59c69c357b7fe468f31d97e4a52d60f394981438/pbx_code_owners-1.1.2-py3-none-any.whl
+[2024-05-24 14:24:01] WARNING root fetch - processPackages [ledger-dev]: Skipping, unable to determine old version
+[2024-05-24 14:24:01] INFO root fetch - main [MainThread]: End processing [ledger-dev] error
+[2024-05-24 14:24:01] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/64/0d/4e4841351df3166faf5f2754023585b1ba75b6fa94f26ee9a9d2d63ab98c/geo_roughness_tool-0.4.25.post1.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [jfk-django-core]: Downloading https://files.pythonhosted.org/packages/4b/57/c11e3bfa2521b616b6ed0933e0060c6407f21e9046eb0102ff896bd27090/jfk_django_core-0.0.3.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/4c/18/389438cc12c94291df5973a5aad77ef93284d6a89ddcf9d6efcbcf094d53/pbx_code_owners-1.2.0a0-py3-none-any.whl
+[2024-05-24 14:24:01] INFO root fetch - processPackages [django-dirtyfields]: Downloading https://files.pythonhosted.org/packages/74/db/a4e8685b0f0ac6df89141bbd64e6959f2b90a0f2943675b3082b798212ea/django-dirtyfields-1.9.3.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [pbx-code-owners]: executing diffoscope
+[2024-05-24 14:24:01] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-05-24 14:24:01] INFO root fetch - processPackages [pbx-code-owners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_code_owners-1.1.2-py3-none-any.whl.zip tmp/pbx_code_owners-1.2.0a0-py3-none-any.whl.zip --markdown 20240524/p/pbx-code-owners/1.1.2-1.2.0a0/README.md --exclude *.pyd
+[2024-05-24 14:24:01] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240524/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:24:01] INFO root fetch - processPackages [ml-pipeline-engine]: Downloading https://files.pythonhosted.org/packages/df/b3/86892b9198f8654af7d41237348eedfa4dae02271e3848926a09921c9599/ml_pipeline_engine-2.0.0a0.tar.gz
+[2024-05-24 14:24:01] INFO root fetch - processPackages [django-dirtyfields]: executing diffoscope
+[2024-05-24 14:24:01] INFO root fetch - processPackages [django-dirtyfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dirtyfields-1.9.2.tar.gz tmp/django-dirtyfields-1.9.3.tar.gz --markdown 20240524/d/django-dirtyfields/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-24 14:24:01] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/fa/59/5fa7e9800e0a8d60abc151a6f711072c922ab36767f67cb3b024aea72851/geo_roughness_tool-0.4.26.post1.tar.gz
+[2024-05-24 14:24:02] INFO root fetch - processPackages [jfk-django-core]: Downloading https://files.pythonhosted.org/packages/d2/56/b253b7ae006722fdc34838efe18c226be477f1106af9e122a57a61678e1e/jfk_django_core-0.0.4.tar.gz
+[2024-05-24 14:24:02] INFO root fetch - processPackages [ml-pipeline-engine]: executing diffoscope
+[2024-05-24 14:24:02] INFO root fetch - processPackages [ml-pipeline-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_pipeline_engine-1.6.0.tar.gz tmp/ml_pipeline_engine-2.0.0a0.tar.gz --markdown 20240524/m/ml-pipeline-engine/1.6.0-2.0.0a0/README.md --exclude *.pyd
+[2024-05-24 14:24:02] INFO root fetch - processPackages [jfk-django-core]: executing diffoscope
+[2024-05-24 14:24:02] INFO root fetch - processPackages [jfk-django-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfk_django_core-0.0.3.tar.gz tmp/jfk_django_core-0.0.4.tar.gz --markdown 20240524/j/jfk-django-core/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 14:24:02] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 14:24:02] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.25.post1.tar.gz tmp/geo_roughness_tool-0.4.26.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.25.post1-0.4.26.post1/README.md --exclude *.pyd
+[2024-05-24 14:24:02] INFO root fetch - processPackages [django-dirtyfields]: Remove: archive file [/home/abi/fetcher/tmp/django-dirtyfields-1.9.2.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - processPackages [django-dirtyfields]: Remove: archive file [/home/abi/fetcher/tmp/django-dirtyfields-1.9.3.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - main [MainThread]: End processing [django-dirtyfields]: success
+[2024-05-24 14:24:02] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-05-24 14:24:02] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.2-py3-none-any.whl.zip]
+[2024-05-24 14:24:02] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.2.0a0-py3-none-any.whl.zip]
+[2024-05-24 14:24:02] INFO root fetch - main [MainThread]: End processing [pbx-code-owners]: success
+[2024-05-24 14:24:02] INFO root fetch - processPackages [jfk-django-core]: Remove: archive file [/home/abi/fetcher/tmp/jfk_django_core-0.0.3.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - processPackages [jfk-django-core]: Remove: archive file [/home/abi/fetcher/tmp/jfk_django_core-0.0.4.tar.gz]
+[2024-05-24 14:24:02] INFO root fetch - main [MainThread]: End processing [jfk-django-core]: success
+[2024-05-24 14:24:03] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.25.post1.tar.gz]
+[2024-05-24 14:24:03] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.26.post1.tar.gz]
+[2024-05-24 14:24:03] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 14:24:03] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-1.6.0.tar.gz]
+[2024-05-24 14:24:03] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-2.0.0a0.tar.gz]
+[2024-05-24 14:24:03] INFO root fetch - main [MainThread]: End processing [ml-pipeline-engine]: success
+[2024-05-24 14:24:03] INFO root fetch - main [MainThread]: Store serial: [23361751]
