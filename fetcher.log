@@ -13032,3 +13032,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:43:05] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc4.tar.gz]
 [2024-05-24 08:43:05] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2024-05-24 08:43:05] INFO root fetch - main [MainThread]: Store serial: [23357526]
+[2024-05-24 08:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357526]
+[2024-05-24 08:45:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-variant-sale-price
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-order-line-variant-description
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npDoseResponse
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: everai
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-connect
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gandai
+[2024-05-24 08:45:14] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-24 08:45:14] INFO root fetch - processPackages [npDoseResponse]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 08:45:14] INFO root fetch - processPackages [everai]: New version: [0.1.60] Old Version: [0.1.59]
+[2024-05-24 08:45:14] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.2]
+[2024-05-24 08:45:14] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/7e/e1/fb71493fff98cf01032084a99d109259e14e0497845db449e7b35c901e22/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 08:45:14] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/1c/c0/7b94ec0f60c3ca8f1f83a11054f72439016d5f145de29f7e842492dbb5f9/npdoseresponse-0.0.7.tar.gz
+[2024-05-24 08:45:14] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.258] Old Version: [0.1.257]
+[2024-05-24 08:45:14] INFO root fetch - processPackages [gandai]: New version: [1.7.51] Old Version: [1.7.50]
+[2024-05-24 08:45:15] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/10/eb/0cbbe36a9da97c78b9c720dfe75d8faaf909f28bd7fff3dde32dbb610441/everai-0.1.59-py3-none-any.whl
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/a2/fd/f530c0d696211b4f12749c7e7efb7d8baf8fcac2d176c81cc87245add26c/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-24 08:45:15] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/ad/11/ea46b68f5e683e560e90673c4bf858a05ccf8cd531ae8581c64e8964a74f/ansar_connect-0.1.257.tar.gz
+[2024-05-24 08:45:15] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/82/dc/42957720bd0ccc1fa6a9e55b33fe4987ca36917abf2dfd45cf181101eee8/gandai-1.7.50.tar.gz
+[2024-05-24 08:45:15] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/61/b0/c9295180d4ebad9d6b7f09615fcf3b7d8fab194926cbd4056b15cacc431f/npdoseresponse-0.0.8.tar.gz
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/88/0e/bcaf098c26b3b49bc2de9b372cff835ea59cd11b216d7f99758a55d60559/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 08:45:15] INFO root fetch - processPackages [npDoseResponse]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [npDoseResponse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npdoseresponse-0.0.7.tar.gz tmp/npdoseresponse-0.0.8.tar.gz --markdown 20240524/n/npDoseResponse/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-product-variant-sale-price/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/8d/bb654117c8a6eddcc64df280697f04d094779725622802f1e63ddd6ed3e7/ansar_connect-0.1.258.tar.gz
+[2024-05-24 08:45:15] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/0f/87/0cc6ce431f828be9a610505759da701a1bb6c8deec49025d84bac87fc4c9/everai-0.1.60-py3-none-any.whl
+[2024-05-24 08:45:15] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/24/79/6ccc984e85c326c58bcd40d880d3f4d7e9f4a4ee43c9a0ca0a6ddea9223d/gandai-1.7.51.tar.gz
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Downloading https://files.pythonhosted.org/packages/8d/7c/823e99479c206d7a70492c93305ca70179075eaa87de2f94672ccc9cd723/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.3-py3-none-any.whl
+[2024-05-24 08:45:15] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.257.tar.gz tmp/ansar_connect-0.1.258.tar.gz --markdown 20240524/a/ansar-connect/0.1.257-0.1.258/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.50.tar.gz tmp/gandai-1.7.51.tar.gz --markdown 20240524/g/gandai/1.7.50-1.7.51/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sale-order-line-variant-description/16.0.1.1.0.2-16.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-24 08:45:15] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.59-py3-none-any.whl.zip tmp/everai-0.1.60-py3-none-any.whl.zip --markdown 20240524/e/everai/0.1.59-0.1.60/README.md --exclude *.pyd
+[2024-05-24 08:45:15] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.7.tar.gz]
+[2024-05-24 08:45:15] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.8.tar.gz]
+[2024-05-24 08:45:15] INFO root fetch - main [MainThread]: End processing [npDoseResponse]: success
+[2024-05-24 08:45:16] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 08:45:16] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 08:45:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-sale-price]: success
+[2024-05-24 08:45:16] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-24 08:45:16] INFO root fetch - processPackages [odoo-addon-sale-order-line-variant-description]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_variant_description-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:45:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-variant-description]: success
+[2024-05-24 08:45:16] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.50.tar.gz]
+[2024-05-24 08:45:16] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.51.tar.gz]
+[2024-05-24 08:45:16] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 08:45:16] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.257.tar.gz]
+[2024-05-24 08:45:16] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.258.tar.gz]
+[2024-05-24 08:45:16] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-24 08:45:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.59-py3-none-any.whl.zip]
+[2024-05-24 08:45:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.60-py3-none-any.whl.zip]
+[2024-05-24 08:45:17] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-24 08:45:17] INFO root fetch - main [MainThread]: Store serial: [23357541]
