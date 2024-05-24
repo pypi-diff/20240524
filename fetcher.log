@@ -21558,3 +21558,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:34:11] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.7.2.tar.gz]
 [2024-05-24 13:34:11] INFO root fetch - main [MainThread]: End processing [pysmartdatamodels]: success
 [2024-05-24 13:34:11] INFO root fetch - main [MainThread]: Store serial: [23361095]
+[2024-05-24 13:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361095]
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SphericalTexture
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rivalz-py-client
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2enetworks
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authentik-client
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goit-phone-book-bot
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchsnapshot-nightly
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servicelayer
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dariopdf
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UrsinaNetworking
+[2024-05-24 13:37:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taurex-madhuseager2009
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [rivalz-py-client]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [rivalz-py-client]: Start processing: cadprox
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [rivalz-py-client] error
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [taurex-madhuseager2009]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [taurex-madhuseager2009]: Start processing: DataCleaningWithPandas
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [taurex-madhuseager2009] error
+[2024-05-24 13:37:00] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-24 13:37:00] INFO root fetch - processPackages [authentik-client]: New version: [2024.4.2.post1716485755] Old Version: [2024.4.2.post1716338601]
+[2024-05-24 13:37:00] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-24 13:37:00] INFO root fetch - processPackages [cadprox]: New version: [3.3] Old Version: [3.2]
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [SphericalTexture]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [SphericalTexture]: Start processing: AISO-processor
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [SphericalTexture] error
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [DataCleaningWithPandas]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [DataCleaningWithPandas]: Start processing: simple-build-system
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [DataCleaningWithPandas] error
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [dariopdf]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [dariopdf]: Start processing: restmapi
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [dariopdf] error
+[2024-05-24 13:37:00] INFO root fetch - processPackages [UrsinaNetworking]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-24 13:37:00] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.24] Old Version: [2024.5.22]
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [goit-phone-book-bot]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/d0/db/b9901e788cbbe118b5c78970b8077b3fdbb20c21993828bc457acbe0692c/e2enetworks-1.2.5.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [goit-phone-book-bot] error
+[2024-05-24 13:37:00] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/da/ac/c1aa7f2670bcb235faa333b80e54d9716a31a17d1262bb495afdd93f5dc1/authentik_client-2024.4.2.post1716338601.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/06/37/86e6debaf249a03be25b0e4ffdf1b7ea33527333545f7d9fb55ec8a6e9e5/cadprox-3.2.tar.gz
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [AISO-processor]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [AISO-processor] error
+[2024-05-24 13:37:00] INFO root fetch - processPackages [simple-build-system]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-24 13:37:00] WARNING root fetch - processPackages [restmapi]: Skipping, unable to determine old version
+[2024-05-24 13:37:00] INFO root fetch - main [MainThread]: End processing [restmapi] error
+[2024-05-24 13:37:00] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/ac/1e/792eb97740d8339d904f0abe6931c6d3bb14e20a190d364fdf1bbf786233/torchsnapshot_nightly-2024.5.22.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [UrsinaNetworking]: Downloading https://files.pythonhosted.org/packages/23/b4/234ad0536f6e15d21a6f859a27b4e113b14cc806a5f9520fe63eab6c3b86/UrsinaNetworking-2.1.4.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/d6/d9/4eaaf6a6b2663847d78dd754194af81aba45bfb4ee1d6e62b04d0e07836f/e2enetworks-1.2.6.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/d7/db/ae8b93582f1a2a82ec76ae454f50c46c6df2310ea268bc18bfec6afd5adf/simple_build_system-1.2.1.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/f7/69/c350b0bc9a6bc1526627d61f8b97b35e80a4832cb3beec42a1f3a835fee6/authentik_client-2024.4.2.post1716485755.tar.gz
+[2024-05-24 13:37:00] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-05-24 13:37:00] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.2.5.tar.gz tmp/e2enetworks-1.2.6.tar.gz --markdown 20240524/e/e2enetworks/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-24 13:37:00] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/a5/42/b25d2c87629ad2e40de1a094a3bb869a161396a1a8734b06a92c55e1a4a1/cadprox-3.3.tar.gz
+[2024-05-24 13:37:01] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240524/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.4.2.post1716338601.tar.gz tmp/authentik_client-2024.4.2.post1716485755.tar.gz --markdown 20240524/a/authentik-client/2024.4.2.post1716338601-2024.4.2.post1716485755/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/23/8d/e8d00394625aea7e0e7225a1dd1f11efdf08fe7c8b75096143a44ab5b770/torchsnapshot_nightly-2024.5.24.tar.gz
+[2024-05-24 13:37:01] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.2.tar.gz tmp/cadprox-3.3.tar.gz --markdown 20240524/c/cadprox/3.2-3.3/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [UrsinaNetworking]: Downloading https://files.pythonhosted.org/packages/8a/7d/be09be56bad92f9a7868854f74e50cd3af84f6bdc00c3afa1c1c119803d4/UrsinaNetworking-2.1.5.tar.gz
+[2024-05-24 13:37:01] INFO root fetch - processPackages [simple-build-system]: Downloading https://files.pythonhosted.org/packages/45/fb/82245a202dcfb012d9c8a0ea245957289819132bd20cab95d3350ddc2f8f/simple_build_system-1.2.2.tar.gz
+[2024-05-24 13:37:01] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.22.tar.gz tmp/torchsnapshot_nightly-2024.5.24.tar.gz --markdown 20240524/t/torchsnapshot-nightly/2024.5.22-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [UrsinaNetworking]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [UrsinaNetworking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UrsinaNetworking-2.1.4.tar.gz tmp/UrsinaNetworking-2.1.5.tar.gz --markdown 20240524/U/UrsinaNetworking/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [simple-build-system]: executing diffoscope
+[2024-05-24 13:37:01] INFO root fetch - processPackages [simple-build-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_system-1.2.1.tar.gz tmp/simple_build_system-1.2.2.tar.gz --markdown 20240524/s/simple-build-system/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-24 13:37:01] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-24 13:37:01] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.5.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.6.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-05-24 13:37:01] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.2.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.3.tar.gz]
+[2024-05-24 13:37:01] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:37:02] INFO root fetch - processPackages [UrsinaNetworking]: Remove: archive file [/home/abi/fetcher/tmp/UrsinaNetworking-2.1.4.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - processPackages [UrsinaNetworking]: Remove: archive file [/home/abi/fetcher/tmp/UrsinaNetworking-2.1.5.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - main [MainThread]: End processing [UrsinaNetworking]: success
+[2024-05-24 13:37:02] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.22.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.24.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-24 13:37:02] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.2.1.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - processPackages [simple-build-system]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_system-1.2.2.tar.gz]
+[2024-05-24 13:37:02] INFO root fetch - main [MainThread]: End processing [simple-build-system]: success
+[2024-05-24 13:37:03] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716338601.tar.gz]
+[2024-05-24 13:37:03] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716485755.tar.gz]
+[2024-05-24 13:37:03] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-05-24 13:37:03] INFO root fetch - main [MainThread]: Store serial: [23361148]
