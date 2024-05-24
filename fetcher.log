@@ -12242,3 +12242,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:09:24] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.4.tar.gz]
 [2024-05-24 08:09:24] INFO root fetch - main [MainThread]: End processing [mnt.nanoplacer]: success
 [2024-05-24 08:09:24] INFO root fetch - main [MainThread]: Store serial: [23357194]
+[2024-05-24 08:11:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357194]
+[2024-05-24 08:11:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unofficial-ffm-openai
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nntool
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlpx
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-multi-company
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-intercompany-bidirectional
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchlogit
+[2024-05-24 08:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-intercompany
+[2024-05-24 08:11:34] INFO root fetch - processPackages [nlpx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 08:11:34] INFO root fetch - processPackages [nntool]: New version: [0.3.4] Old Version: [0.3.2]
+[2024-05-24 08:11:34] WARNING root fetch - processPackages [unofficial-ffm-openai]: Skipping, unable to determine old version
+[2024-05-24 08:11:34] INFO root fetch - main [MainThread]: End processing [unofficial-ffm-openai] error
+[2024-05-24 08:11:34] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/a3/ba/0ce6323226dd5cccbdff67caaccf39d2301ba4538c6b6c0585f11c57e680/nlpx-1.0.8.tar.gz
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: New version: [14.0.20240522.0] Old Version: [14.0.20240329.0]
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-24 08:11:34] INFO root fetch - processPackages [nntool]: Downloading https://files.pythonhosted.org/packages/5e/3f/d350dfcefc656b0152afd5e96d6d970efcbfd40d42ed6956afda5e216273/nntool-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/32/c9/38b14b766cc40068d14726ef7f9c8a35882085229ed1e5a25fb31f8942bc/odoo14_addons_oca_multi_company-14.0.20240329.0-py3-none-any.whl
+[2024-05-24 08:11:34] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: Downloading https://files.pythonhosted.org/packages/f7/46/8a1aa65a923e3196227bc90169e0de8557719bec28fba7c275501324ebb5/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 08:11:34] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/d2/5a/9ba0c51106d09f6d9f174821934704700a9aba9d31c6b354a7dc2065510e/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-24 08:11:34] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/92/65/8002db80cb450ecce743f7312597930f389ad14fd53de68c7a672dca60d7/nlpx-1.0.9.tar.gz
+[2024-05-24 08:11:35] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/0d/49/083a1c68a74e13f22bdeebea78100fb1667dc4616cdc25b7322590d9f2ff/odoo14_addons_oca_multi_company-14.0.20240522.0-py3-none-any.whl
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.8.tar.gz tmp/nlpx-1.0.9.tar.gz --markdown 20240524/n/nlpx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nntool]: Downloading https://files.pythonhosted.org/packages/cd/76/2b56e672f08f885ed14fafa9e6b02cccba8d2be271fa5e7f23e90780b598/nntool-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: Downloading https://files.pythonhosted.org/packages/e4/2c/3be83ce48cc4f2db7dc7fb5132c5043f5eda9514edf96ee24cd35d9410ca/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_multi_company-14.0.20240329.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_multi_company-14.0.20240522.0-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addons-oca-multi-company/14.0.20240329.0-14.0.20240522.0/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Downloading https://files.pythonhosted.org/packages/8c/5a/8f09ec0851e10c060e94877addbfc023e0a0e6a7822ceccf082573f94411/odoo_addon_stock_intercompany-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-intercompany-bidirectional/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_intercompany-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-intercompany/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20240524/s/searchlogit/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nntool]: executing diffoscope
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nntool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nntool-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nntool-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240524/n/nntool/0.3.2-0.3.4/README.md --exclude *.pyd
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.8.tar.gz]
+[2024-05-24 08:11:35] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.9.tar.gz]
+[2024-05-24 08:11:35] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_multi_company-14.0.20240329.0-py3-none-any.whl.zip]
+[2024-05-24 08:11:35] INFO root fetch - processPackages [odoo14-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_multi_company-14.0.20240522.0-py3-none-any.whl.zip]
+[2024-05-24 08:11:35] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-multi-company]: success
+[2024-05-24 08:11:36] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 08:11:36] INFO root fetch - processPackages [odoo-addon-stock-intercompany-bidirectional]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany_bidirectional-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 08:11:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-intercompany-bidirectional]: success
+[2024-05-24 08:11:36] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-24 08:11:36] INFO root fetch - processPackages [odoo-addon-stock-intercompany]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_intercompany-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 08:11:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-intercompany]: success
+[2024-05-24 08:11:36] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2024-05-24 08:11:36] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2024-05-24 08:11:36] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2024-05-24 08:11:49] INFO root fetch - processPackages [nntool]: Remove: archive file [/home/abi/fetcher/tmp/nntool-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:11:49] INFO root fetch - processPackages [nntool]: Remove: archive file [/home/abi/fetcher/tmp/nntool-0.3.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-24 08:11:49] INFO root fetch - main [MainThread]: End processing [nntool]: success
+[2024-05-24 08:11:49] INFO root fetch - main [MainThread]: Store serial: [23357213]
