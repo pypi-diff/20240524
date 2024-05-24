@@ -3117,3 +3117,45 @@
 [2024-05-24 02:55:21] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.9.tar.gz]
 [2024-05-24 02:55:21] INFO root fetch - main [MainThread]: End processing [masscube]: success
 [2024-05-24 02:55:21] INFO root fetch - main [MainThread]: Store serial: [23353782]
+[2024-05-24 02:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353782]
+[2024-05-24 02:57:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 02:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vellum-ai
+[2024-05-24 02:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-github
+[2024-05-24 02:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-05-24 02:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jwtgen
+[2024-05-24 02:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: altair-nx
+[2024-05-24 02:57:30] WARNING root fetch - processPackages [jwtgen]: Skipping, unable to determine old version
+[2024-05-24 02:57:30] INFO root fetch - main [MainThread]: End processing [jwtgen] error
+[2024-05-24 02:57:30] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1716508083] Old Version: [6.3.0a1715924735]
+[2024-05-24 02:57:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-24 02:57:30] INFO root fetch - processPackages [vellum-ai]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-24 02:57:30] INFO root fetch - processPackages [altair-nx]: New version: [1.3] Old Version: [1.2]
+[2024-05-24 02:57:30] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/e8/02/436cc58ae03be7e7aaff889277cfaa92e3a7e092120209c90123785445d1/pulumi_github-6.3.0a1715924735.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/0e/01/0b86c2662e9657b52bf4c34d78a1b37b9e291bebcfea3961f7192b434da9/altair_nx-1.2.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/9e/c3/c07c3f0a522881c960e1074af4f173e54538b567fbebf806413ba52f185d/vellum_ai-0.5.2.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/d9/81/7ec0722a2cb98b5865df7093204c68e5ba117800cb4a12ae9475ffbc5c49/pulumi_github-6.3.0a1716508083.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-24 02:57:30] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-24 02:57:30] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1715924735.tar.gz tmp/pulumi_github-6.3.0a1716508083.tar.gz --markdown 20240524/p/pulumi-github/6.3.0a1715924735-6.3.0a1716508083/README.md --exclude *.pyd
+[2024-05-24 02:57:31] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/27/da/40b5101fee274b06f835dd45c930571a2e0648a4c921b8a0808629ec231d/vellum_ai-0.6.0.tar.gz
+[2024-05-24 02:57:31] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/e1/18/518fa7ee428744027b3a8860a50c31c202c3e931fe33810b0451a81d02ac/altair_nx-1.3.tar.gz
+[2024-05-24 02:57:31] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2024-05-24 02:57:31] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.5.2.tar.gz tmp/vellum_ai-0.6.0.tar.gz --markdown 20240524/v/vellum-ai/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-24 02:57:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-24 02:57:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240524/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-24 02:57:31] INFO root fetch - processPackages [altair-nx]: executing diffoscope
+[2024-05-24 02:57:31] INFO root fetch - processPackages [altair-nx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altair_nx-1.2.tar.gz tmp/altair_nx-1.3.tar.gz --markdown 20240524/a/altair-nx/1.2-1.3/README.md --exclude *.pyd
+[2024-05-24 02:57:32] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715924735.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1716508083.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-24 02:57:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-24 02:57:32] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.5.2.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - processPackages [vellum-ai]: Remove: archive file [/home/abi/fetcher/tmp/vellum_ai-0.6.0.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2024-05-24 02:57:32] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.2.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.3.tar.gz]
+[2024-05-24 02:57:32] INFO root fetch - main [MainThread]: End processing [altair-nx]: success
+[2024-05-24 02:57:32] INFO root fetch - main [MainThread]: Store serial: [23353801]
