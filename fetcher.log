@@ -2930,3 +2930,58 @@
 [2024-05-24 02:46:20] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405230936.tar.gz]
 [2024-05-24 02:46:20] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-24 02:46:20] INFO root fetch - main [MainThread]: Store serial: [23353699]
+[2024-05-24 02:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353699]
+[2024-05-24 02:48:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gen3-tracker
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubernator
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camera-ui-python-types
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-keycloak
+[2024-05-24 02:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camera-ui-python-types
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [gen3-tracker]: New version: [0.0.4rc6] Old Version: [0.0.4rc5]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [kubernator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/2c/46/9af0e05ad02b9449b49e892c43d69397745d0fab42e776b482f7c5b0d4fb/kubernator-1.0.8.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1716509308] Old Version: [5.4.0a1715925009]
+[2024-05-24 02:48:29] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/be/38/47abf514e9f2f99f59c73d4c108f62ad57adbe164afc6e1c1ac76be88900/gen3_tracker-0.0.4rc5.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/44/d7/8e87d8249c00ef4a947b7b2dd577c257e11694961796433fda98a68379d6/pulumi_keycloak-5.4.0a1715925009.tar.gz
+[2024-05-24 02:48:29] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/3d/3a/f4fc92df915f81b62593a43db2e8d608735d2df1672fc2c1ffceecb45870/kubernator-1.0.9.tar.gz
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240524/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [gen3-tracker]: Downloading https://files.pythonhosted.org/packages/2b/43/22bab01c7d214225899b3285579203b57af693b6d25b03c9588c047d26a3/gen3_tracker-0.0.4rc6.tar.gz
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240524/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [kubernator]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [kubernator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernator-1.0.8.tar.gz tmp/kubernator-1.0.9.tar.gz --markdown 20240524/k/kubernator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [gen3-tracker]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [gen3-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3_tracker-0.0.4rc5.tar.gz tmp/gen3_tracker-0.0.4rc6.tar.gz --markdown 20240524/g/gen3-tracker/0.0.4rc5-0.0.4rc6/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-24 02:48:30] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/f2/90/acd6dd10d92b9e5beaafcf28e4494eb6125b44d79ab8e5d30d83b721373a/pulumi_keycloak-5.4.0a1716509308.tar.gz
+[2024-05-24 02:48:30] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240524/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-24 02:48:30] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715925009.tar.gz tmp/pulumi_keycloak-5.4.0a1716509308.tar.gz --markdown 20240524/p/pulumi-keycloak/5.4.0a1715925009-5.4.0a1716509308/README.md --exclude *.pyd
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-24 02:48:30] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.8.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.9.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - main [MainThread]: End processing [kubernator]: success
+[2024-05-24 02:48:30] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.4rc5.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - processPackages [gen3-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gen3_tracker-0.0.4rc6.tar.gz]
+[2024-05-24 02:48:30] INFO root fetch - main [MainThread]: End processing [gen3-tracker]: success
+[2024-05-24 02:48:30] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-24 02:48:31] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-24 02:48:31] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-24 02:48:31] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-24 02:48:31] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715925009.tar.gz]
+[2024-05-24 02:48:31] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1716509308.tar.gz]
+[2024-05-24 02:48:31] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-24 02:48:31] INFO root fetch - main [MainThread]: Store serial: [23353723]
