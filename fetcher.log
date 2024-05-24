@@ -23072,3 +23072,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:24:03] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-2.0.0a0.tar.gz]
 [2024-05-24 14:24:03] INFO root fetch - main [MainThread]: End processing [ml-pipeline-engine]: success
 [2024-05-24 14:24:03] INFO root fetch - main [MainThread]: Store serial: [23361751]
+[2024-05-24 14:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361751]
+[2024-05-24 14:26:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coltrane
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyremotechrome
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transitions-gui
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: new-random-topic-generator
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-file-router
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rucio
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rucio-clients
+[2024-05-24 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rucio-webui
+[2024-05-24 14:26:13] INFO root fetch - processPackages [pyremotechrome]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [fastapi-file-router]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/17/5f/232d30d2d2a3ed5ef5e6b65af3a64a081ca77beeace680138164fed98eb9/fastapi_file_router-0.1.8.tar.gz
+[2024-05-24 14:26:13] INFO root fetch - processPackages [transitions-gui]: New version: [0.9.0] Old Version: [0.1.0]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-24 14:26:13] INFO root fetch - processPackages [rucio-clients]: New version: [34.4.1] Old Version: [34.4.0]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [coltrane]: New version: [0.35.0] Old Version: [0.34.0]
+[2024-05-24 14:26:13] WARNING root fetch - processPackages [new-random-topic-generator]: Skipping, unable to determine old version
+[2024-05-24 14:26:13] INFO root fetch - main [MainThread]: End processing [new-random-topic-generator] error
+[2024-05-24 14:26:13] INFO root fetch - processPackages [rucio-webui]: New version: [34.4.1] Old Version: [34.4.0]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [rucio]: New version: [34.4.1] Old Version: [34.4.0]
+[2024-05-24 14:26:13] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/32/54/fbd27be2561c75c8b34f40e0f41d6b6171d7a5f735b1719e089781ac8ce3/pyremotechrome-0.0.8.tar.gz
+[2024-05-24 14:26:13] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/99/58/2bce583488d98fc4dc8fd2593456168fc3553937419df8c73dc0c699b252/fastapi_file_router-0.1.9.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [coltrane]: Downloading https://files.pythonhosted.org/packages/de/cd/adac256866ef67f309f56aeeab902149c29a55095eb246719148954b7aef/coltrane-0.34.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [transitions-gui]: Downloading https://files.pythonhosted.org/packages/75/b5/389c4045ab9acf2c55f498d8435263f140eb2ab95adb2d10eff52f1005c0/transitions-gui-0.1.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/2b/63/99957c2f000e1136301b009adf99b3ed9dd27e6f80e08f739296a6ede3a6/rucio_clients-34.4.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/c8/96/02ad917c380af766e40d185a90f63ba5615e04bec1cc06640244724b1523/rucio_webui-34.4.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/e9/91/c6212eec8659f5940f1b373281e99d5800a83022692c847725cb74223c39/rucio-34.4.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [fastapi-file-router]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [fastapi-file-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_file_router-0.1.8.tar.gz tmp/fastapi_file_router-0.1.9.tar.gz --markdown 20240524/f/fastapi-file-router/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-24 14:26:14] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/0f/f9/cf2be78eae15a38c42ffff283b16f771ecd9bc99f3b07acedbc09c959be9/pyremotechrome-0.0.9.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240524/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [coltrane]: Downloading https://files.pythonhosted.org/packages/04/e9/27bcd9177c835299cb71bab2104c4ff6a8efd15bfcb74c72ce2be155b313/coltrane-0.35.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [pyremotechrome]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [pyremotechrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyremotechrome-0.0.8.tar.gz tmp/pyremotechrome-0.0.9.tar.gz --markdown 20240524/p/pyremotechrome/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/34/5f/28620f6340604ae439fbbfdf7e93efd8ef5a2f155ffe9d518132bf6aebbe/rucio_clients-34.4.1.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/93/be/8240b2293d2955584602443432dffbd875d06bb0c4375e90b5496d007353/rucio-34.4.1.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/23/ff/651c56ad8913f2336faebe851cff2e0c508d44cdb352009556a2a14f557f/rucio_webui-34.4.1.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [transitions-gui]: Downloading https://files.pythonhosted.org/packages/18/cc/6cc16085c66c7e477f5c9763ac089c04dabf106d919e74ea70bb8ee92df4/transitions_gui-0.9.0.tar.gz
+[2024-05-24 14:26:14] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.8.tar.gz]
+[2024-05-24 14:26:14] INFO root fetch - processPackages [coltrane]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [coltrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coltrane-0.34.0.tar.gz tmp/coltrane-0.35.0.tar.gz --markdown 20240524/c/coltrane/0.34.0-0.35.0/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.9.tar.gz]
+[2024-05-24 14:26:14] INFO root fetch - main [MainThread]: End processing [fastapi-file-router]: success
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio_clients-34.4.0.tar.gz tmp/rucio_clients-34.4.1.tar.gz --markdown 20240524/r/rucio-clients/34.4.0-34.4.1/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio_webui-34.4.0.tar.gz tmp/rucio_webui-34.4.1.tar.gz --markdown 20240524/r/rucio-webui/34.4.0-34.4.1/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [transitions-gui]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [transitions-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitions-gui-0.1.0.tar.gz tmp/transitions_gui-0.9.0.tar.gz --markdown 20240524/t/transitions-gui/0.1.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2024-05-24 14:26:14] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-34.4.0.tar.gz tmp/rucio-34.4.1.tar.gz --markdown 20240524/r/rucio/34.4.0-34.4.1/README.md --exclude *.pyd
+[2024-05-24 14:26:15] INFO root fetch - processPackages [coltrane]: Remove: archive file [/home/abi/fetcher/tmp/coltrane-0.34.0.tar.gz]
+[2024-05-24 14:26:15] INFO root fetch - processPackages [coltrane]: Remove: archive file [/home/abi/fetcher/tmp/coltrane-0.35.0.tar.gz]
+[2024-05-24 14:26:15] INFO root fetch - main [MainThread]: End processing [coltrane]: success
+[2024-05-24 14:26:16] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.8.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.9.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
+[2024-05-24 14:26:16] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio_clients-34.4.0.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio_clients-34.4.1.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2024-05-24 14:26:16] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio_webui-34.4.0.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio_webui-34.4.1.tar.gz]
+[2024-05-24 14:26:16] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2024-05-24 14:26:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-24 14:26:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-24 14:26:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-24 14:26:17] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.4.0.tar.gz]
+[2024-05-24 14:26:17] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.4.1.tar.gz]
+[2024-05-24 14:26:17] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2024-05-24 14:26:55] INFO root fetch - processPackages [transitions-gui]: Remove: archive file [/home/abi/fetcher/tmp/transitions-gui-0.1.0.tar.gz]
+[2024-05-24 14:26:55] INFO root fetch - processPackages [transitions-gui]: Remove: archive file [/home/abi/fetcher/tmp/transitions_gui-0.9.0.tar.gz]
+[2024-05-24 14:26:55] INFO root fetch - main [MainThread]: End processing [transitions-gui]: success
+[2024-05-24 14:26:55] INFO root fetch - main [MainThread]: Store serial: [23361778]
