@@ -9460,3 +9460,135 @@
 [2024-05-24 05:48:33] INFO root fetch - processPackages [seatable-api]: Remove: archive file [/home/abi/fetcher/tmp/seatable-api-2.8.0.tar.gz]
 [2024-05-24 05:48:33] INFO root fetch - main [MainThread]: End processing [seatable-api]: success
 [2024-05-24 05:48:33] INFO root fetch - main [MainThread]: Store serial: [23356045]
+[2024-05-24 05:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356045]
+[2024-05-24 05:50:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 05:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-24 05:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-interface-synchronization
+[2024-05-24 05:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siat
+[2024-05-24 05:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siglost-utils
+[2024-05-24 05:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphafold3-pytorch
+[2024-05-24 05:50:42] INFO root fetch - processPackages [netbox-interface-synchronization]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-24 05:50:42] INFO root fetch - processPackages [siglost-utils]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-24 05:50:42] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 05:50:42] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-24 05:50:42] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/44/46/26dd683c245355a2fba12fe703bf5af1fc7ad3760808ff69a5fb6607b298/netbox_interface_synchronization-4.0.1.tar.gz
+[2024-05-24 05:50:42] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/ba/31/84ffc0c70a649462ba9be7db685bcdb1490a442d3aad75b2548fa87d8f46/siglost_utils-0.2.1.tar.gz
+[2024-05-24 05:50:42] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/e9/e2/142b19b529aba5b96d18902a5f1c99660ab625fa64921af86b97ac678b40/alphafold3_pytorch-0.0.8.tar.gz
+[2024-05-24 05:50:42] INFO root fetch - processPackages [siat]: New version: [3.1.1] Old Version: [3.0.44]
+[2024-05-24 05:50:43] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/88/89/a07a337bd389f79a0bc127594d4db4d379397ca2354747fe1a573edc5161/netbox_interface_synchronization-4.0.2.tar.gz
+[2024-05-24 05:50:43] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/bd/67/7a01adca2eb7aa6fe58cbe706970bba7192e37ff018971302f93e1d284d8/siglost_utils-0.2.2.tar.gz
+[2024-05-24 05:50:43] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/96/47/97f198b647d508e9e64e32b67c24069f872d2ff29ca39b5d1ef44a81f68b/alphafold3_pytorch-0.0.9.tar.gz
+[2024-05-24 05:50:43] INFO root fetch - processPackages [netbox-interface-synchronization]: executing diffoscope
+[2024-05-24 05:50:43] INFO root fetch - processPackages [netbox-interface-synchronization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_interface_synchronization-4.0.1.tar.gz tmp/netbox_interface_synchronization-4.0.2.tar.gz --markdown 20240524/n/netbox-interface-synchronization/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.2.1.tar.gz tmp/siglost_utils-0.2.2.tar.gz --markdown 20240524/s/siglost-utils/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/8e/45/de7912f3db5bf9ae125cde42094983d3ebb81def4f928fdb9d19e9e5b841/siat-3.1.1-py3-none-any.whl
+[2024-05-24 05:50:43] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-24 05:50:43] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.8.tar.gz tmp/alphafold3_pytorch-0.0.9.tar.gz --markdown 20240524/a/alphafold3-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:50:43] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-24 05:50:43] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-24 05:50:43] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240524/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.44-py3-none-any.whl.zip tmp/siat-3.1.1-py3-none-any.whl.zip --markdown 20240524/s/siat/3.0.44-3.1.1/README.md --exclude *.pyd
+[2024-05-24 05:50:43] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.1.tar.gz]
+[2024-05-24 05:50:43] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.2.tar.gz]
+[2024-05-24 05:50:43] INFO root fetch - main [MainThread]: End processing [netbox-interface-synchronization]: success
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.2.1.tar.gz]
+[2024-05-24 05:50:43] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.2.2.tar.gz]
+[2024-05-24 05:50:43] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 05:50:44] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.8.tar.gz]
+[2024-05-24 05:50:44] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.9.tar.gz]
+[2024-05-24 05:50:44] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-24 05:50:44] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-24T05:50:43+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-24 05:50:44] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-24 05:50:44] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-24 05:50:44] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-24 05:50:44] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-24 05:50:44] INFO root fetch - main [MainThread]: Store serial: [23356059]
