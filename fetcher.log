@@ -19653,3 +19653,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:23:23] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-2.2.1.tar.gz]
 [2024-05-24 12:23:23] INFO root fetch - main [MainThread]: End processing [cornac]: success
 [2024-05-24 12:23:23] INFO root fetch - main [MainThread]: Store serial: [23360329]
+[2024-05-24 12:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360329]
+[2024-05-24 12:25:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: singlestore-demo
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowtasks
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collider-check
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atla
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keycare
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xcube-core
+[2024-05-24 12:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerix
+[2024-05-24 12:25:33] WARNING root fetch - processPackages [flowtasks]: Skipping, unable to determine old version
+[2024-05-24 12:25:33] INFO root fetch - main [MainThread]: End processing [flowtasks] error
+[2024-05-24 12:25:33] INFO root fetch - processPackages [atla]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [keycare]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [collider-check]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [singlestore-demo]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [xcube-core]: New version: [1.6.0.dev0] Old Version: [1.4.1]
+[2024-05-24 12:25:33] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/a8/1b/971d7745362a67e25d64048ba4cfd8904e3c913f814b885a51c0ed24b15f/atla-0.1.0a3.tar.gz
+[2024-05-24 12:25:33] WARNING root fetch - processPackages [numerix]: Skipping, unable to determine old version
+[2024-05-24 12:25:33] INFO root fetch - main [MainThread]: End processing [numerix] error
+[2024-05-24 12:25:33] INFO root fetch - processPackages [singlestore-demo]: Downloading https://files.pythonhosted.org/packages/38/35/478d29f42e302d5a088ac84fc3e7ed95678ab3ea3cca4fec171e23384f0f/singlestore_demo-1.0.7-py3-none-any.whl
+[2024-05-24 12:25:33] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/39/b5/af352fab7283241c0076b08f3bfec242060bc866b6a914c5584affc9deee/collider_check-0.2.0.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/ee/d2/06be772bffb5559e363a085a219a89cabdb765b72fdce75785464c446961/keycare-0.0.4.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/da/6b/096e839f013d12b49aa1447f6b5a30de3d91f7587fd88f405499e1bfea06/xcube-core-1.4.1.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [singlestore-demo]: Downloading https://files.pythonhosted.org/packages/79/90/5a696ed212c292576e4663a6516b76075d7bccc83bf415786fe330abb004/singlestore_demo-1.0.9-py3-none-any.whl
+[2024-05-24 12:25:33] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/27/32/622016750235a814335cee980fa54e80cc09ca2ded753308251ae3059b68/collider_check-0.2.1.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/47/9d/f4773390f12ed95d446a3774afdf9484023224b916b28347d1fc6e905179/atla-0.1.0a4.tar.gz
+[2024-05-24 12:25:33] INFO root fetch - processPackages [singlestore-demo]: executing diffoscope
+[2024-05-24 12:25:33] INFO root fetch - processPackages [singlestore-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlestore_demo-1.0.7-py3-none-any.whl.zip tmp/singlestore_demo-1.0.9-py3-none-any.whl.zip --markdown 20240524/s/singlestore-demo/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-24 12:25:33] INFO root fetch - processPackages [collider-check]: executing diffoscope
+[2024-05-24 12:25:33] INFO root fetch - processPackages [collider-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_check-0.2.0.tar.gz tmp/collider_check-0.2.1.tar.gz --markdown 20240524/c/collider-check/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 12:25:33] INFO root fetch - processPackages [atla]: executing diffoscope
+[2024-05-24 12:25:33] INFO root fetch - processPackages [atla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atla-0.1.0a3.tar.gz tmp/atla-0.1.0a4.tar.gz --markdown 20240524/a/atla/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-05-24 12:25:33] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/fd/d8/fc93f3f06b7e3a2dbfa89cbc160b50f32dcdffac4a8125957238541c4bcd/keycare-0.0.5.tar.gz
+[2024-05-24 12:25:34] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-24 12:25:34] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240524/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-24 12:25:34] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-24 12:25:34] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.4.tar.gz tmp/keycare-0.0.5.tar.gz --markdown 20240524/k/keycare/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-24 12:25:34] INFO root fetch - processPackages [singlestore-demo]: Remove: archive file [/home/abi/fetcher/tmp/singlestore_demo-1.0.7-py3-none-any.whl.zip]
+[2024-05-24 12:25:34] INFO root fetch - processPackages [singlestore-demo]: Remove: archive file [/home/abi/fetcher/tmp/singlestore_demo-1.0.9-py3-none-any.whl.zip]
+[2024-05-24 12:25:34] INFO root fetch - main [MainThread]: End processing [singlestore-demo]: success
+[2024-05-24 12:25:34] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.0.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.1.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - main [MainThread]: End processing [collider-check]: success
+[2024-05-24 12:25:34] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a3.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a4.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - main [MainThread]: End processing [atla]: success
+[2024-05-24 12:25:34] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.4.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.5.tar.gz]
+[2024-05-24 12:25:34] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-24 12:25:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-24 12:25:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-24 12:25:35] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-24 12:25:36] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/35/af/09ba961e3e6ae97316ab06e8cbfe7826ccb4e98775c67e7f2348329614d9/xcube_core-1.6.0.dev0.tar.gz
+[2024-05-24 12:25:36] INFO root fetch - processPackages [xcube-core]: executing diffoscope
+[2024-05-24 12:25:36] INFO root fetch - processPackages [xcube-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcube-core-1.4.1.tar.gz tmp/xcube_core-1.6.0.dev0.tar.gz --markdown 20240524/x/xcube-core/1.4.1-1.6.0.dev0/README.md --exclude *.pyd
+[2024-05-24 12:26:04] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube-core-1.4.1.tar.gz]
+[2024-05-24 12:26:04] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev0.tar.gz]
+[2024-05-24 12:26:04] INFO root fetch - main [MainThread]: End processing [xcube-core]: success
+[2024-05-24 12:26:04] INFO root fetch - main [MainThread]: Store serial: [23360360]
