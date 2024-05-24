@@ -8009,3 +8009,42 @@
 [2024-05-24 04:20:00] INFO root fetch - processPackages [JupyterExport]: Remove: archive file [/home/abi/fetcher/tmp/jupyterexport-0.1.5.tar.gz]
 [2024-05-24 04:20:00] INFO root fetch - main [MainThread]: End processing [JupyterExport]: success
 [2024-05-24 04:20:00] INFO root fetch - main [MainThread]: Store serial: [23355508]
+[2024-05-24 04:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355508]
+[2024-05-24 04:22:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 04:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-core
+[2024-05-24 04:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-agent
+[2024-05-24 04:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-server
+[2024-05-24 04:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sync-env
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/4e/50/ef5ff8db12bd0a0bea02860845717710f244c263322bd19106ce61e40c5f/docmesh_server-0.0.7.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 04:22:09] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/fc/76/ee492e00e25ab8e40842eb0c6def2ceb5aa04bf4a8c103d0105039703eee/docmesh_server-0.0.8.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/b0/5fc9c83a2bcc65d8d51dca6ffee6eae36b23585bb31cc0af364af19c914d/docmesh_agent-0.0.8.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.7.tar.gz tmp/docmesh_server-0.0.8.tar.gz --markdown 20240524/d/docmesh-server/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/74/15e929e9f72b2a648f760cad7f92f4689c6b6af3deda97d5d136baebe27c/docmesh_agent-0.0.9.tar.gz
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240524/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:22:09] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-05-24 04:22:09] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240524/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-24 04:22:09] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.8.tar.gz tmp/docmesh_agent-0.0.9.tar.gz --markdown 20240524/d/docmesh-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.7.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.8.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.8.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.9.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-24 04:22:10] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-05-24 04:22:10] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-05-24 04:22:10] INFO root fetch - main [MainThread]: Store serial: [23355521]
