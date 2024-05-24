@@ -9957,3 +9957,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:06:15] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
 [2024-05-24 06:06:15] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
 [2024-05-24 06:06:15] INFO root fetch - main [MainThread]: Store serial: [23356171]
+[2024-05-24 06:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356171]
+[2024-05-24 06:08:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commute-agci
+[2024-05-24 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: source-parser
+[2024-05-24 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadprox
+[2024-05-24 06:08:23] INFO root fetch - processPackages [commute-agci]: New version: [0.6.6] Old Version: [0.4.6]
+[2024-05-24 06:08:23] INFO root fetch - processPackages [cadprox]: New version: [1.4] Old Version: [1.0]
+[2024-05-24 06:08:23] INFO root fetch - processPackages [source-parser]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-24 06:08:24] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/b1/59/3f66c7c38cecf2b86113c56b5b3cb4bb0014c2794ec65558664f0f4be6f6/commute_agci-0.4.6.tar.gz
+[2024-05-24 06:08:24] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/ed/97/363c32ae56031f8c95703a3ef67f04a4eaa48268875dc6b480652a2dcffc/cadprox-1.0.tar.gz
+[2024-05-24 06:08:24] INFO root fetch - processPackages [source-parser]: Downloading https://files.pythonhosted.org/packages/b1/c2/3a6aecb56e90340d1b1d49642065e73562c97fcd1be3ad2660d9865158c9/source_parser-1.1.0-py3-none-any.whl
+[2024-05-24 06:08:24] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/6f/fc/b6824659db4669bea4815279ed6077cda0657250fff4848dc01a69d13103/commute_agci-0.6.6.tar.gz
+[2024-05-24 06:08:24] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/c2/67/f779ca01ec52e03b37c8ddaac7b8a7b6e0495412a64303a3ce3c1e4121bf/cadprox-1.4.tar.gz
+[2024-05-24 06:08:24] INFO root fetch - processPackages [commute-agci]: executing diffoscope
+[2024-05-24 06:08:24] INFO root fetch - processPackages [commute-agci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commute_agci-0.4.6.tar.gz tmp/commute_agci-0.6.6.tar.gz --markdown 20240524/c/commute-agci/0.4.6-0.6.6/README.md --exclude *.pyd
+[2024-05-24 06:08:24] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 06:08:24] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.0.tar.gz tmp/cadprox-1.4.tar.gz --markdown 20240524/c/cadprox/1.0-1.4/README.md --exclude *.pyd
+[2024-05-24 06:08:24] INFO root fetch - processPackages [source-parser]: Downloading https://files.pythonhosted.org/packages/ab/cd/a92cc43eb19804b2d15c190cff7f7ae16049cb31e3439cb5e6a7b0ac4ad0/source_parser-1.2.0-py3-none-any.whl
+[2024-05-24 06:08:25] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.4.6.tar.gz]
+[2024-05-24 06:08:25] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.6.6.tar.gz]
+[2024-05-24 06:08:25] INFO root fetch - main [MainThread]: End processing [commute-agci]: success
+[2024-05-24 06:08:25] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.0.tar.gz]
+[2024-05-24 06:08:25] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.4.tar.gz]
+[2024-05-24 06:08:25] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 06:08:26] INFO root fetch - processPackages [source-parser]: executing diffoscope
+[2024-05-24 06:08:26] INFO root fetch - processPackages [source-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/source_parser-1.1.0-py3-none-any.whl.zip tmp/source_parser-1.2.0-py3-none-any.whl.zip --markdown 20240524/s/source-parser/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-24 06:08:29] INFO root fetch - processPackages [source-parser]: Remove: archive file [/home/abi/fetcher/tmp/source_parser-1.1.0-py3-none-any.whl.zip]
+[2024-05-24 06:08:29] INFO root fetch - processPackages [source-parser]: Remove: archive file [/home/abi/fetcher/tmp/source_parser-1.2.0-py3-none-any.whl.zip]
+[2024-05-24 06:08:29] INFO root fetch - main [MainThread]: End processing [source-parser]: success
+[2024-05-24 06:08:29] INFO root fetch - main [MainThread]: Store serial: [23356179]
