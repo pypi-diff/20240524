@@ -20654,3 +20654,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:01:44] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-220240509.0.0.tar.gz]
 [2024-05-24 13:01:44] INFO root fetch - main [MainThread]: End processing [substrate]: success
 [2024-05-24 13:01:44] INFO root fetch - main [MainThread]: Store serial: [23360764]
+[2024-05-24 13:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360764]
+[2024-05-24 13:03:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-05-24 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistapi
+[2024-05-24 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slither-app
+[2024-05-24 13:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PasskeyGenerator
+[2024-05-24 13:03:53] INFO root fetch - processPackages [slither-app]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 13:03:53] INFO root fetch - processPackages [mistapi]: New version: [0.48.2] Old Version: [0.48.1]
+[2024-05-24 13:03:53] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-24 13:03:53] INFO root fetch - processPackages [slither-app]: Downloading https://files.pythonhosted.org/packages/f6/c9/cff3cfdfce11bbcaeb09ea4985893f21f9136aef967a862c968d63beebed/slither_app-0.0.7.tar.gz
+[2024-05-24 13:03:53] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/60/b4/5a63357c4696f8b9000c1160526a81e2b771c7e9eeb280d8c54b3748d1f0/mistapi-0.48.1.tar.gz
+[2024-05-24 13:03:53] WARNING root fetch - processPackages [PasskeyGenerator]: Skipping, unable to determine old version
+[2024-05-24 13:03:53] INFO root fetch - main [MainThread]: End processing [PasskeyGenerator] error
+[2024-05-24 13:03:53] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-24 13:03:54] INFO root fetch - processPackages [slither-app]: Downloading https://files.pythonhosted.org/packages/09/b5/5b44c8bd6fed959538d7f4e2d90d5a1a2733acb87a0a269da8a0d7d22350/slither_app-0.0.8.tar.gz
+[2024-05-24 13:03:54] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/c5/b1/9fa13aea4ba52eae719e814bba6056dfbbe499be89b96a45301b688a64b8/mistapi-0.48.2.tar.gz
+[2024-05-24 13:03:54] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-24 13:03:54] INFO root fetch - processPackages [slither-app]: executing diffoscope
+[2024-05-24 13:03:54] INFO root fetch - processPackages [slither-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slither_app-0.0.7.tar.gz tmp/slither_app-0.0.8.tar.gz --markdown 20240524/s/slither-app/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 13:03:54] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-24 13:03:54] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240524/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-24 13:03:54] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2024-05-24 13:03:54] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.48.1.tar.gz tmp/mistapi-0.48.2.tar.gz --markdown 20240524/m/mistapi/0.48.1-0.48.2/README.md --exclude *.pyd
+[2024-05-24 13:03:54] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-24 13:03:54] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-24 13:03:54] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-24 13:03:54] INFO root fetch - processPackages [slither-app]: Remove: archive file [/home/abi/fetcher/tmp/slither_app-0.0.7.tar.gz]
+[2024-05-24 13:03:54] INFO root fetch - processPackages [slither-app]: Remove: archive file [/home/abi/fetcher/tmp/slither_app-0.0.8.tar.gz]
+[2024-05-24 13:03:54] INFO root fetch - main [MainThread]: End processing [slither-app]: success
+[2024-05-24 13:03:56] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.1.tar.gz]
+[2024-05-24 13:03:56] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.2.tar.gz]
+[2024-05-24 13:03:56] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2024-05-24 13:03:56] INFO root fetch - main [MainThread]: Store serial: [23360778]
