@@ -12412,3 +12412,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:18:25] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240523.tar.gz]
 [2024-05-24 08:18:25] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-24 08:18:25] INFO root fetch - main [MainThread]: Store serial: [23357264]
+[2024-05-24 08:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357264]
+[2024-05-24 08:20:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funnylog
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-rpc
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drift-monitor
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotinst-sdk2
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Imap2Dict-kiyoshirou
+[2024-05-24 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quart-rpc
+[2024-05-24 08:20:38] WARNING root fetch - processPackages [Imap2Dict-kiyoshirou]: Skipping, unable to determine old version
+[2024-05-24 08:20:38] INFO root fetch - main [MainThread]: End processing [Imap2Dict-kiyoshirou] error
+[2024-05-24 08:20:38] WARNING root fetch - processPackages [drift-monitor]: Skipping, unable to determine old version
+[2024-05-24 08:20:38] INFO root fetch - main [MainThread]: End processing [drift-monitor] error
+[2024-05-24 08:20:38] INFO root fetch - processPackages [funnylog]: New version: [2024.5.24] Old Version: [2023.8.23]
+[2024-05-24 08:20:38] INFO root fetch - processPackages [spotinst-sdk2]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-24 08:20:38] INFO root fetch - processPackages [quart-rpc]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-24 08:20:38] INFO root fetch - processPackages [flask-rpc]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-24 08:20:38] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-24 08:20:38] INFO root fetch - processPackages [funnylog]: Downloading https://files.pythonhosted.org/packages/5a/45/c2a5d1168c8876a9f9e90c55549470c6a47c98d9d9eafaa7093771b43ba7/funnylog-2023.8.23.tar.gz
+[2024-05-24 08:20:38] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/be/57/2d6a209fe8aa37750ce3d62f91c1a5b3f6ad899af23a7f7414bef597a6c7/spotinst-sdk2-3.3.0.tar.gz
+[2024-05-24 08:20:38] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/eb/27/1b28727d22fc117de79336897465822aa71ecf5ba28fa2fe50bbb199b435/quart_rpc-1.3.0.tar.gz
+[2024-05-24 08:20:38] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/7e/57/75cec4e746d5195cfa9058f9502f27bbd08c5581bb05760fb13db955b25a/flask_rpc-1.3.0.tar.gz
+[2024-05-24 08:20:38] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [spotinst-sdk2]: Downloading https://files.pythonhosted.org/packages/d8/91/3c278b32bc43b27d63ee05f8321d7aecfa35f627ab2303964d9fbaa4306a/spotinst-sdk2-3.4.0.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [flask-rpc]: Downloading https://files.pythonhosted.org/packages/51/cc/756c042044555fb5bc2e84fddf861f38815add53d87ed175e3995273cab9/flask_rpc-1.3.1.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [funnylog]: Downloading https://files.pythonhosted.org/packages/5b/13/e74cdbf11dc0151370424899a3581554a678a064569964ee98a4cde027c3/funnylog-2024.5.24.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quart-rpc]: Downloading https://files.pythonhosted.org/packages/69/cc/e81b24dde68e4ce24c7971c569fa5728f78d61f80151c751a68efea18329/quart_rpc-1.3.1.tar.gz
+[2024-05-24 08:20:39] INFO root fetch - processPackages [spotinst-sdk2]: executing diffoscope
+[2024-05-24 08:20:39] INFO root fetch - processPackages [spotinst-sdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-sdk2-3.3.0.tar.gz tmp/spotinst-sdk2-3.4.0.tar.gz --markdown 20240524/s/spotinst-sdk2/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-24 08:20:39] INFO root fetch - processPackages [flask-rpc]: executing diffoscope
+[2024-05-24 08:20:39] INFO root fetch - processPackages [flask-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_rpc-1.3.0.tar.gz tmp/flask_rpc-1.3.1.tar.gz --markdown 20240524/f/flask-rpc/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240524/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-24 08:20:39] INFO root fetch - processPackages [funnylog]: executing diffoscope
+[2024-05-24 08:20:39] INFO root fetch - processPackages [funnylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funnylog-2023.8.23.tar.gz tmp/funnylog-2024.5.24.tar.gz --markdown 20240524/f/funnylog/2023.8.23-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quart-rpc]: executing diffoscope
+[2024-05-24 08:20:39] INFO root fetch - processPackages [quart-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_rpc-1.3.0.tar.gz tmp/quart_rpc-1.3.1.tar.gz --markdown 20240524/q/quart-rpc/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-24 08:20:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-24 08:20:40] INFO root fetch - processPackages [funnylog]: Remove: archive file [/home/abi/fetcher/tmp/funnylog-2023.8.23.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - processPackages [funnylog]: Remove: archive file [/home/abi/fetcher/tmp/funnylog-2024.5.24.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [funnylog]: success
+[2024-05-24 08:20:40] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.3.0.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - processPackages [flask-rpc]: Remove: archive file [/home/abi/fetcher/tmp/flask_rpc-1.3.1.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [flask-rpc]: success
+[2024-05-24 08:20:40] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.3.0.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.4.0.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
+[2024-05-24 08:20:40] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.3.0.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - processPackages [quart-rpc]: Remove: archive file [/home/abi/fetcher/tmp/quart_rpc-1.3.1.tar.gz]
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: End processing [quart-rpc]: success
+[2024-05-24 08:20:40] INFO root fetch - main [MainThread]: Store serial: [23357288]
