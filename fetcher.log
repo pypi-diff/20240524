@@ -13354,3 +13354,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:59:59] INFO root fetch - processPackages [odoo14-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_report_to_printer-14.0.2.0.2.dev9-py3-none-any.whl.zip]
 [2024-05-24 08:59:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-report-to-printer]: success
 [2024-05-24 08:59:59] INFO root fetch - main [MainThread]: Store serial: [23357679]
+[2024-05-24 09:02:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357679]
+[2024-05-24 09:02:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myscale-telemetry
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DIPEX
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-report-async
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myscale-telemetry
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gandai
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-report-substitute
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-oci
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-models-nightly
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: image-center
+[2024-05-24 09:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: everai
+[2024-05-24 09:02:11] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [odoo-addon-report-substitute]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.2]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [everai]: New version: [0.1.60] Old Version: [0.1.59]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [gandai]: New version: [1.7.51] Old Version: [1.7.50]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [odoo14-addon-report-async]: New version: [14.0.1.1.2.dev6] Old Version: [14.0.1.1.2.dev5]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [image-center]: New version: [2024.5.24] Old Version: [2024.4.23]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [odoo-addon-report-substitute]: Downloading https://files.pythonhosted.org/packages/8b/7e/880ef5ca68b2e126ddd39ccf3e28860c83c5a2e8d78df4b76f2d8907b686/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-24 09:02:11] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-24 09:02:11] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/10/eb/0cbbe36a9da97c78b9c720dfe75d8faaf909f28bd7fff3dde32dbb610441/everai-0.1.59-py3-none-any.whl
+[2024-05-24 09:02:11] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-24 09:02:11] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/82/dc/42957720bd0ccc1fa6a9e55b33fe4987ca36917abf2dfd45cf181101eee8/gandai-1.7.50.tar.gz
+[2024-05-24 09:02:11] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-24 09:02:11] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/99/0e/111bbaa970839b0330630b1892562ca1a513c8cd2bda8890fcb530bafda6/myscale-telemetry-0.1.0.tar.gz
+[2024-05-24 09:02:11] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/99/0e/111bbaa970839b0330630b1892562ca1a513c8cd2bda8890fcb530bafda6/myscale-telemetry-0.1.0.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [odoo14-addon-report-async]: Downloading https://files.pythonhosted.org/packages/83/8d/28490e5972cca837a371e9f739e2b7b927d9e740e9f5a10cd8515be96482/odoo14_addon_report_async-14.0.1.1.2.dev5-py3-none-any.whl
+[2024-05-24 09:02:12] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/16/eb/b9faad1e7a1cf597a7f319ac3c02a43ba782cd5c0b5ac37c5928a1b9522c/image_center-2024.4.23.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [odoo-addon-report-substitute]: Downloading https://files.pythonhosted.org/packages/6d/1d/0fcddf6218bc03cb5772784e2ff79411fdcfbdd70ec31c240d3a7b49e6da/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 09:02:12] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/0f/87/0cc6ce431f828be9a610505759da701a1bb6c8deec49025d84bac87fc4c9/everai-0.1.60-py3-none-any.whl
+[2024-05-24 09:02:12] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/24/79/6ccc984e85c326c58bcd40d880d3f4d7e9f4a4ee43c9a0ca0a6ddea9223d/gandai-1.7.51.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [odoo-addon-report-substitute]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [odoo-addon-report-substitute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-report-substitute/16.0.1.0.1.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/31/b1/e840acbd1f90a39e51cd6057182888f9c98ebe1229054c3a9692a8b7f15f/myscale-telemetry-0.1.1.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/31/b1/e840acbd1f90a39e51cd6057182888f9c98ebe1229054c3a9692a8b7f15f/myscale-telemetry-0.1.1.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-24 09:02:12] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.50.tar.gz tmp/gandai-1.7.51.tar.gz --markdown 20240524/g/gandai/1.7.50-1.7.51/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.59-py3-none-any.whl.zip tmp/everai-0.1.60-py3-none-any.whl.zip --markdown 20240524/e/everai/0.1.59-0.1.60/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/0d/e9/2c62d5adec6e5c0b5de05e95aa135eab63dfa27213c0458b8b13dfeef428/image_center-2024.5.24.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.0.tar.gz tmp/myscale-telemetry-0.1.1.tar.gz --markdown 20240524/m/myscale-telemetry/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.0.tar.gz tmp/myscale-telemetry-0.1.1.tar.gz --markdown 20240524/m/myscale-telemetry/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [image-center]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [image-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_center-2024.4.23.tar.gz tmp/image_center-2024.5.24.tar.gz --markdown 20240524/i/image-center/2024.4.23-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240524/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240524/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-24 09:02:12] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-05-24 09:02:12] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-05-24 09:02:12] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240524/D/DIPEX/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-24 09:02:13] INFO root fetch - processPackages [odoo14-addon-report-async]: Downloading https://files.pythonhosted.org/packages/d7/48/0aee0dfcfac15eeb6feb020550dbc559e1f8509bada1eca2e94de962f765/odoo14_addon_report_async-14.0.1.1.2.dev6-py3-none-any.whl
+[2024-05-24 09:02:13] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.0.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.1.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-24 09:02:13] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-24 09:02:13] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.4.23.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2024.5.24.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - main [MainThread]: End processing [image-center]: success
+[2024-05-24 09:02:13] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.50.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.51.tar.gz]
+[2024-05-24 09:02:13] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 09:02:13] INFO root fetch - processPackages [odoo-addon-report-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_substitute-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-24 09:02:13] INFO root fetch - processPackages [odoo-addon-report-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_substitute-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:02:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-substitute]: success
+[2024-05-24 09:02:13] INFO root fetch - processPackages [odoo14-addon-report-async]: executing diffoscope
+[2024-05-24 09:02:13] INFO root fetch - processPackages [odoo14-addon-report-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_report_async-14.0.1.1.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_report_async-14.0.1.1.2.dev6-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-report-async/14.0.1.1.2.dev5-14.0.1.1.2.dev6/README.md --exclude *.pyd
+[2024-05-24 09:02:14] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-05-24 09:02:14] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-05-24 09:02:14] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-05-24 09:02:14] INFO root fetch - processPackages [odoo14-addon-report-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_async-14.0.1.1.2.dev5-py3-none-any.whl.zip]
+[2024-05-24 09:02:14] INFO root fetch - processPackages [odoo14-addon-report-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_report_async-14.0.1.1.2.dev6-py3-none-any.whl.zip]
+[2024-05-24 09:02:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-report-async]: success
+[2024-05-24 09:02:14] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.59-py3-none-any.whl.zip]
+[2024-05-24 09:02:14] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.60-py3-none-any.whl.zip]
+[2024-05-24 09:02:14] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-24 09:02:16] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-24 09:02:16] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-24 09:02:16] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-24 09:02:27] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-24 09:02:27] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-24 09:02:27] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-24 09:02:27] INFO root fetch - main [MainThread]: Store serial: [23357705]
