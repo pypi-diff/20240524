@@ -12573,3 +12573,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:23:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev93-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-24 08:23:08] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-24 08:23:08] INFO root fetch - main [MainThread]: Store serial: [23357360]
+[2024-05-24 08:25:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357360]
+[2024-05-24 08:25:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-operating-unit
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-operating-unit
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DNA-SE
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oktmoparser
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allure-custom
+[2024-05-24 08:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtailvideos
+[2024-05-24 08:25:23] INFO root fetch - processPackages [DNA-SE]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/60/c3/42398e86bb70fb9d3974c4b6e499aff0f46534def7edb60c13efc29bf41d/DNA_SE-0.1.0.tar.gz
+[2024-05-24 08:25:23] INFO root fetch - processPackages [oktmoparser]: New version: [1.2] Old Version: [1.1]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [allure-custom]: New version: [2024.5.24] Old Version: [2023.7.7]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: New version: [14.0.1.2.1.dev1] Old Version: [14.0.1.2.0]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: New version: [15.0.1.2.2.1] Old Version: [15.0.1.2.2]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [wagtailvideos]: New version: [6.1.0] Old Version: [6.0.0]
+[2024-05-24 08:25:23] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/c0/93/2aabdac8b43574ae302079ed182d42cf9685ee97970309cc31eb3602e2a1/odoo_addon_account_operating_unit-15.0.1.2.2-py3-none-any.whl
+[2024-05-24 08:25:23] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Downloading https://files.pythonhosted.org/packages/8d/9f/07c04787471b297b4bedbfd3eafbfd834f6446f163254e4d444add4f95da/odoo14_addon_purchase_operating_unit-14.0.1.2.0-py3-none-any.whl
+[2024-05-24 08:25:23] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/30/c8/8e8d7a8d1d653deba140924ed1dd7240d11fb13e2e0dd4e85e41e623f44d/oktmoparser-1.1.tar.gz
+[2024-05-24 08:25:23] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/15/34/3b2818d45238600c6ee9439eb5c975f67eb6ca4fa5962bae67aa46ab9790/allure_custom-2023.7.7.tar.gz
+[2024-05-24 08:25:23] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/59/8e/8f2c669bcc2026187ad594d8dc53651f77b3cc756d81a9d93e98f20894e7/dna_se-0.1.1.tar.gz
+[2024-05-24 08:25:23] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/af/e1/952cea824334c620b9283cf1f130dc705e7a26e076533923d29413b15718/wagtailvideos-6.0.0.tar.gz
+[2024-05-24 08:25:23] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-24 08:25:23] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DNA_SE-0.1.0.tar.gz tmp/dna_se-0.1.1.tar.gz --markdown 20240524/D/DNA-SE/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Downloading https://files.pythonhosted.org/packages/44/78/c4ffa778e581d878600f65f5686ac1783366f9f755df4f44fdac625bcdff/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-05-24 08:25:24] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/77/13/2113640049ca236632cdd6ad8564362b506f77121ab922a2a1b2dfc4c6d0/oktmoparser-1.2.tar.gz
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/17/e4/69ac27f1bbb3c92a24689187957bcb129bb50b3b5f29e7926844a17fb990/odoo_addon_account_operating_unit-15.0.1.2.2.1-py3-none-any.whl
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: executing diffoscope
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addon-purchase-operating-unit/14.0.1.2.0-14.0.1.2.1.dev1/README.md --exclude *.pyd
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: executing diffoscope
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_operating_unit-15.0.1.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_operating_unit-15.0.1.2.2.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-operating-unit/15.0.1.2.2-15.0.1.2.2.1/README.md --exclude *.pyd
+[2024-05-24 08:25:24] INFO root fetch - processPackages [wagtailvideos]: Downloading https://files.pythonhosted.org/packages/e9/b4/7f4aadbaef581fe264b7d2e9604d550d255b78410cb445e81c65bf50110e/wagtailvideos-6.1.0.tar.gz
+[2024-05-24 08:25:24] INFO root fetch - processPackages [oktmoparser]: executing diffoscope
+[2024-05-24 08:25:24] INFO root fetch - processPackages [oktmoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oktmoparser-1.1.tar.gz tmp/oktmoparser-1.2.tar.gz --markdown 20240524/o/oktmoparser/1.1-1.2/README.md --exclude *.pyd
+[2024-05-24 08:25:24] INFO root fetch - processPackages [wagtailvideos]: executing diffoscope
+[2024-05-24 08:25:24] INFO root fetch - processPackages [wagtailvideos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailvideos-6.0.0.tar.gz tmp/wagtailvideos-6.1.0.tar.gz --markdown 20240524/w/wagtailvideos/6.0.0-6.1.0/README.md --exclude *.pyd
+[2024-05-24 08:25:24] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/DNA_SE-0.1.0.tar.gz]
+[2024-05-24 08:25:24] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.1.1.tar.gz]
+[2024-05-24 08:25:24] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-24 08:25:24] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.1.tar.gz]
+[2024-05-24 08:25:24] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.2.tar.gz]
+[2024-05-24 08:25:24] INFO root fetch - main [MainThread]: End processing [oktmoparser]: success
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-05-24 08:25:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-operating-unit]: success
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_operating_unit-15.0.1.2.2-py3-none-any.whl.zip]
+[2024-05-24 08:25:24] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_operating_unit-15.0.1.2.2.1-py3-none-any.whl.zip]
+[2024-05-24 08:25:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-operating-unit]: success
+[2024-05-24 08:25:25] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-6.0.0.tar.gz]
+[2024-05-24 08:25:25] INFO root fetch - processPackages [wagtailvideos]: Remove: archive file [/home/abi/fetcher/tmp/wagtailvideos-6.1.0.tar.gz]
+[2024-05-24 08:25:25] INFO root fetch - main [MainThread]: End processing [wagtailvideos]: success
+[2024-05-24 08:25:27] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 20742579>=10485760
+[2024-05-24 08:25:27] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2024-05-24 08:25:27] INFO root fetch - main [MainThread]: Store serial: [23357373]
