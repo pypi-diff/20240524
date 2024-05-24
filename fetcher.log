@@ -13843,3 +13843,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:19:54] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.9.tar.gz]
 [2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-appflow]: success
 [2024-05-24 09:19:54] INFO root fetch - main [MainThread]: Store serial: [23357849]
+[2024-05-24 09:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357849]
+[2024-05-24 09:22:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrtlib
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-planner-calendar
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alert-System-for-Face-and-Pose
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pluto-client
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strengths
+[2024-05-24 09:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weapon-selector2
+[2024-05-24 09:22:03] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.2.0.0] Old Version: [15.0.1.7.1]
+[2024-05-24 09:22:03] INFO root fetch - processPackages [pluto-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:22:03] INFO root fetch - processPackages [pyrtlib]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-24 09:22:03] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/dd/0c/a73ed3f2bb41b043009f2f5696f2541a9b17a3f14ec654e35a035afdd2d4/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl
+[2024-05-24 09:22:03] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/9a/b4/fc3db6c9de530a5bd7b27a8409d47f89cce89495dc6684d7439b79411b44/pluto_client-0.0.8.tar.gz
+[2024-05-24 09:22:03] WARNING root fetch - processPackages [Alert-System-for-Face-and-Pose]: Skipping, unable to determine old version
+[2024-05-24 09:22:03] INFO root fetch - main [MainThread]: End processing [Alert-System-for-Face-and-Pose] error
+[2024-05-24 09:22:03] INFO root fetch - processPackages [strengths]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:22:03] WARNING root fetch - processPackages [weapon-selector2]: Skipping, unable to determine old version
+[2024-05-24 09:22:03] INFO root fetch - main [MainThread]: End processing [weapon-selector2] error
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/90/d1/398232033d160b2893be4c61c925b4248af6cc3fd23fb36be1221b7b1573/pyrtlib-1.0.6.tar.gz
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/56/38/7b25b598a400edb65031f93b6b67d415a4a09d7af536c684551beb2e61f1/pluto_client-0.0.9.tar.gz
+[2024-05-24 09:22:04] INFO root fetch - processPackages [strengths]: Downloading https://files.pythonhosted.org/packages/2f/7f/d9bca540afc4f73ae41e249e2dbf622bc65df195ea7b6044a5c20800e413/strengths-0.0.8.tar.gz
+[2024-05-24 09:22:04] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/f3/4f/4dea0dfe7eb15c87c0c8d297cbb8d6499f880cb3b17eeada1e1a67ad9d44/odoo_addon_sale_planner_calendar-15.0.2.0.0-py3-none-any.whl
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pluto-client]: executing diffoscope
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pluto-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_client-0.0.8.tar.gz tmp/pluto_client-0.0.9.tar.gz --markdown 20240524/p/pluto-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:22:04] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2024-05-24 09:22:04] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.2.0.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sale-planner-calendar/15.0.1.7.1-15.0.2.0.0/README.md --exclude *.pyd
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/c3/d3/0425a6dc86e66e14eb98197e2a514188adfa3ecb28e98fa547d9ac80599f/pyrtlib-1.0.7.tar.gz
+[2024-05-24 09:22:04] INFO root fetch - processPackages [strengths]: Downloading https://files.pythonhosted.org/packages/87/c6/92fc1c10db8994ca86c79091268f41b2521f53369b093d1bf5c914213457/strengths-0.0.9.tar.gz
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pyrtlib]: executing diffoscope
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pyrtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtlib-1.0.6.tar.gz tmp/pyrtlib-1.0.7.tar.gz --markdown 20240524/p/pyrtlib/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-24 09:22:04] INFO root fetch - processPackages [strengths]: executing diffoscope
+[2024-05-24 09:22:04] INFO root fetch - processPackages [strengths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strengths-0.0.8.tar.gz tmp/strengths-0.0.9.tar.gz --markdown 20240524/s/strengths/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.8.tar.gz]
+[2024-05-24 09:22:04] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.9.tar.gz]
+[2024-05-24 09:22:04] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
+[2024-05-24 09:22:05] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.1.7.1-py3-none-any.whl.zip]
+[2024-05-24 09:22:05] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_planner_calendar-15.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2024-05-24 09:22:05] INFO root fetch - processPackages [strengths]: Remove: archive file [/home/abi/fetcher/tmp/strengths-0.0.8.tar.gz]
+[2024-05-24 09:22:05] INFO root fetch - processPackages [strengths]: Remove: archive file [/home/abi/fetcher/tmp/strengths-0.0.9.tar.gz]
+[2024-05-24 09:22:05] INFO root fetch - main [MainThread]: End processing [strengths]: success
+[2024-05-24 09:22:05] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.6.tar.gz]
+[2024-05-24 09:22:05] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.7.tar.gz]
+[2024-05-24 09:22:05] INFO root fetch - main [MainThread]: End processing [pyrtlib]: success
+[2024-05-24 09:22:05] INFO root fetch - main [MainThread]: Store serial: [23357872]
