@@ -10300,3 +10300,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:32:33] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
 [2024-05-24 06:32:33] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
 [2024-05-24 06:32:33] INFO root fetch - main [MainThread]: Store serial: [23356312]
+[2024-05-24 06:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356312]
+[2024-05-24 06:34:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 06:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-tailwind-manager
+[2024-05-24 06:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Melody-CLI
+[2024-05-24 06:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cambridge
+[2024-05-24 06:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Datadash
+[2024-05-24 06:34:41] WARNING root fetch - processPackages [Melody-CLI]: Skipping, unable to determine old version
+[2024-05-24 06:34:41] INFO root fetch - main [MainThread]: End processing [Melody-CLI] error
+[2024-05-24 06:34:42] INFO root fetch - processPackages [flask-tailwind-manager]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 06:34:42] WARNING root fetch - processPackages [Datadash]: Skipping, unable to determine old version
+[2024-05-24 06:34:42] INFO root fetch - main [MainThread]: End processing [Datadash] error
+[2024-05-24 06:34:42] INFO root fetch - processPackages [cambridge]: New version: [3.9.8] Old Version: [3.9.7]
+[2024-05-24 06:34:42] INFO root fetch - processPackages [flask-tailwind-manager]: Downloading https://files.pythonhosted.org/packages/8d/e8/4fe86a08c8d14c9a8146fcdcb59f243df7bc3cbcdcc2089dec88614b0c2d/flask_tailwind_manager-0.0.5.tar.gz
+[2024-05-24 06:34:42] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/93/f3/3bfbe36cfaf0434bc9157921cd11a54e0cf4e48b9cd3e78e413cd78ba215/cambridge-3.9.7.tar.gz
+[2024-05-24 06:34:42] INFO root fetch - processPackages [flask-tailwind-manager]: Downloading https://files.pythonhosted.org/packages/7c/2a/05377b46cc53f526632b17f6144f090e2bc870b3eb7e9111d597af72b7a3/flask_tailwind_manager-0.0.6.tar.gz
+[2024-05-24 06:34:42] INFO root fetch - processPackages [flask-tailwind-manager]: executing diffoscope
+[2024-05-24 06:34:42] INFO root fetch - processPackages [flask-tailwind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_tailwind_manager-0.0.5.tar.gz tmp/flask_tailwind_manager-0.0.6.tar.gz --markdown 20240524/f/flask-tailwind-manager/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 06:34:42] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/1a/6c/f6eac9a9a3c73dffe3d4cf7f2a1eb667444409b93eadf6759403b2fd04f0/cambridge-3.9.8.tar.gz
+[2024-05-24 06:34:42] INFO root fetch - processPackages [cambridge]: executing diffoscope
+[2024-05-24 06:34:42] INFO root fetch - processPackages [cambridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cambridge-3.9.7.tar.gz tmp/cambridge-3.9.8.tar.gz --markdown 20240524/c/cambridge/3.9.7-3.9.8/README.md --exclude *.pyd
+[2024-05-24 06:34:43] INFO root fetch - processPackages [flask-tailwind-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask_tailwind_manager-0.0.5.tar.gz]
+[2024-05-24 06:34:43] INFO root fetch - processPackages [flask-tailwind-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask_tailwind_manager-0.0.6.tar.gz]
+[2024-05-24 06:34:43] INFO root fetch - main [MainThread]: End processing [flask-tailwind-manager]: success
+[2024-05-24 06:34:43] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.7.tar.gz]
+[2024-05-24 06:34:43] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.8.tar.gz]
+[2024-05-24 06:34:43] INFO root fetch - main [MainThread]: End processing [cambridge]: success
+[2024-05-24 06:34:43] INFO root fetch - main [MainThread]: Store serial: [23356327]
