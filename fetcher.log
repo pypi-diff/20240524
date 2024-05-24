@@ -7562,3 +7562,9 @@
 [2024-05-24 03:42:30] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-24 03:42:30] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-24 03:42:30] INFO root fetch - main [MainThread]: Store serial: [23355347]
+[2024-05-24 03:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355347]
+[2024-05-24 03:44:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 03:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JupyterExport
+[2024-05-24 03:44:39] ERROR root fetch - processPackages [JupyterExport]: Unable to get metadata: No such project 'JupyterExport'
+[2024-05-24 03:44:39] INFO root fetch - main [MainThread]: End processing [JupyterExport] error
+[2024-05-24 03:44:39] INFO root fetch - main [MainThread]: Store serial: [23355354]
