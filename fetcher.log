@@ -8690,3 +8690,24 @@
 [2024-05-24 04:59:24] INFO root fetch - processPackages [universal-common-configuration]: Remove: archive file [/home/abi/fetcher/tmp/universal_common_configuration-1.0.1.tar.gz]
 [2024-05-24 04:59:24] INFO root fetch - main [MainThread]: End processing [universal-common-configuration]: success
 [2024-05-24 04:59:24] INFO root fetch - main [MainThread]: Store serial: [23355763]
+[2024-05-24 05:01:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355763]
+[2024-05-24 05:01:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 05:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcquant-sdk
+[2024-05-24 05:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-transmit-method
+[2024-05-24 05:01:33] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 05:01:33] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-24 05:01:33] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-24 05:01:33] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-24 05:01:33] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: Downloading https://files.pythonhosted.org/packages/f4/e9/d7e5b79e57fd83af6137405dc4e3a5bad403bb013a3c5aa1cab1c228c6b4/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 05:01:33] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-24 05:01:33] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240524/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:01:33] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: Downloading https://files.pythonhosted.org/packages/41/6e/fb1aa2ca3ac1c17702ac5fe541292897901e8853f6872fb0f74cf823cf16/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 05:01:33] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: executing diffoscope
+[2024-05-24 05:01:33] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-account-invoice-transmit-method/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 05:01:34] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-24 05:01:34] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-24 05:01:34] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-24 05:01:34] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 05:01:34] INFO root fetch - processPackages [odoo-addon-account-invoice-transmit-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_transmit_method-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 05:01:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-transmit-method]: success
+[2024-05-24 05:01:34] INFO root fetch - main [MainThread]: Store serial: [23355768]
