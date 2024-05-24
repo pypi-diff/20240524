@@ -15123,3 +15123,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:00:29] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
 [2024-05-24 10:00:29] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2024-05-24 10:00:29] INFO root fetch - main [MainThread]: Store serial: [23358404]
+[2024-05-24 10:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358404]
+[2024-05-24 10:02:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colorchecker2cielab
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrathon-payments
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-move-line-reference-link
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cert-schema
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toucan-connectors
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buzz-client
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeUtils
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biobb-chemistry
+[2024-05-24 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unified-planning
+[2024-05-24 10:02:40] INFO root fetch - processPackages [scrathon-payments]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [biobb-chemistry]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [toucan-connectors]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [buzz-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/f7/ec/f74b2d65f12ee08cfaae7bea1a5bfeb0b3b9a5b5ae16b5b4365ba1d78dde/scrathon_payments-0.2.0.tar.gz
+[2024-05-24 10:02:40] WARNING root fetch - processPackages [colorchecker2cielab]: Skipping, unable to determine old version
+[2024-05-24 10:02:40] INFO root fetch - processPackages [colorchecker2cielab]: Start processing: embody-serial
+[2024-05-24 10:02:40] INFO root fetch - main [MainThread]: End processing [colorchecker2cielab] error
+[2024-05-24 10:02:40] INFO root fetch - processPackages [cert-schema]: New version: [3.6.4] Old Version: [3.6.3]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.62.dev1]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/b8/ac/26374c223db9fd6eef4c338fb825b79031086f0891492cdd0a9e4d7a22ef/toucan_connectors-6.1.1.tar.gz
+[2024-05-24 10:02:40] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [embody-serial]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 10:02:40] INFO root fetch - processPackages [biobb-chemistry]: Downloading https://files.pythonhosted.org/packages/df/6f/c77e5f0f4796ecc8e8672f88ffa79e29813f36a2f23e63617e583d38c68b/biobb_chemistry-4.1.0.tar.gz
+[2024-05-24 10:02:40] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Downloading https://files.pythonhosted.org/packages/8c/8d/797caa10e3d3900e8f65ca6612d3acbc35325f08b8efe8f592dd531d4768/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 10:02:41] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/ad/fc/5a153363c0c3c422a381320cea6c8c9b4f12b9901e9d309cb3c453c21245/buzz_client-1.1.2.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [cert-schema]: Downloading https://files.pythonhosted.org/packages/34/1e/51068a02f1244c44a4c529e80f11816ae55e54d1af0c8d1011e1937d8232/cert-schema-3.6.3.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/8e/87/b0a081f581e8f129d314d59eb63c1f8d56dd82030025a87aa05a4b458ce3/unified_planning-1.1.0.62.dev1.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/17/61/82df3423cf018eaad62a90dc55e7a2f3fd44a58af9e6c1ac3181eaac6502/scrathon_payments-0.2.1.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/e7/77/fa978eac98c8eb5f519394b8b4f1a9c3ce894a4e6b51eaa5be0e306126db/toucan_connectors-6.1.2.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [embody-serial]: Downloading https://files.pythonhosted.org/packages/04/74/9308651493917bfb0cb83eccacc47dd42e814446dc9cbc222d069b988d4b/embody-serial-1.0.8.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.2.0.tar.gz tmp/scrathon_payments-0.2.1.tar.gz --markdown 20240524/s/scrathon-payments/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Downloading https://files.pythonhosted.org/packages/3a/64/def789ad8d06e6037eae6f70d812d7f8ac03c2e4d2f569389f83db0827b5/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 10:02:41] INFO root fetch - processPackages [biobb-chemistry]: Downloading https://files.pythonhosted.org/packages/4f/b0/aeb99ff3b188b72d43179a27c275e4583fc80bc9163cf62be519702ff7fd/biobb_chemistry-4.2.0.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [cert-schema]: Downloading https://files.pythonhosted.org/packages/de/45/392421a43866f4a2aaf8803b2ad1662d9a8d1babf31bf4e4745a6ef2f074/cert-schema-3.6.4.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/11/8a/02c5cd8dd00758bc137766fa7094b27ac34a160d2857570858569b3dc795/buzz_client-1.1.3.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-6.1.1.tar.gz tmp/toucan_connectors-6.1.2.tar.gz --markdown 20240524/t/toucan-connectors/6.1.1-6.1.2/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-stock-move-line-reference-link/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [biobb-chemistry]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [biobb-chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_chemistry-4.1.0.tar.gz tmp/biobb_chemistry-4.2.0.tar.gz --markdown 20240524/b/biobb-chemistry/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [buzz-client]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [buzz-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buzz_client-1.1.2.tar.gz tmp/buzz_client-1.1.3.tar.gz --markdown 20240524/b/buzz-client/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [cert-schema]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [cert-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cert-schema-3.6.3.tar.gz tmp/cert-schema-3.6.4.tar.gz --markdown 20240524/c/cert-schema/3.6.3-3.6.4/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [embody-serial]: Downloading https://files.pythonhosted.org/packages/35/d6/1bf15e5abc6b9802785f23c929e67a1fa6517dd233459edb65aa86bc888d/embody-serial-1.0.9.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-24 10:02:41] INFO root fetch - processPackages [embody-serial]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [embody-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embody-serial-1.0.8.tar.gz tmp/embody-serial-1.0.9.tar.gz --markdown 20240524/e/embody-serial/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240524/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-24 10:02:41] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-05-24 10:02:41] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.62.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240524/u/unified-planning/1.1.0.62.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-05-24 10:02:42] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.2.0.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.2.1.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [scrathon-payments]: Start processing: torch-model-manager
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.1.dev5] Old Version: [0.4.1.dev4]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_line_reference_link-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [odoo-addon-stock-move-line-reference-link]: Start processing: tidal-dl-ng
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-reference-link]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.1.2.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.1.3.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [buzz-client]: Start processing: cadproxdk
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [buzz-client]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [biobb-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/biobb_chemistry-4.1.0.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [biobb-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/biobb_chemistry-4.2.0.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [biobb-chemistry]: Start processing: taskingai
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [biobb-chemistry]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [cadproxdk]: New version: [2.5] Old Version: [2.4]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/e9/3a/0f8970b49f7845a80b55678d204a14fbd5f6887cc36d51ec0bee18717a51/torch_model_manager-0.4.1.dev4.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [cert-schema]: Remove: archive file [/home/abi/fetcher/tmp/cert-schema-3.6.3.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [cert-schema]: Remove: archive file [/home/abi/fetcher/tmp/cert-schema-3.6.4.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [cert-schema]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [taskingai]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d8/56/d33d71cb8406def453067f47efa65c614a9e6af4f4bdfe773d19548e578f/cadproxdk-2.4.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.1.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.2.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [embody-serial]: Remove: archive file [/home/abi/fetcher/tmp/embody-serial-1.0.8.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - processPackages [embody-serial]: Remove: archive file [/home/abi/fetcher/tmp/embody-serial-1.0.9.tar.gz]
+[2024-05-24 10:02:42] INFO root fetch - main [MainThread]: End processing [embody-serial]: success
+[2024-05-24 10:02:42] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [taskingai]: Downloading https://files.pythonhosted.org/packages/8b/fe/f0b2e4297bcc4f98990cb617f0e21687b14c7565aec304224992a3449578/taskingai-0.2.4.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/db/bf/80c3d12478a6fa2ba3e0b1684f6cc080a455c1632c267b0713a0d51b3704/torch_model_manager-0.4.1.dev5.tar.gz
+[2024-05-24 10:02:42] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-24 10:02:42] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240524/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-24 10:02:42] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/43/30/96133031650a9fb8eb23a749aaa686bedc11cf5c76e39d3e3d8e3aceb214/cadproxdk-2.5.tar.gz
+[2024-05-24 10:02:43] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-05-24 10:02:43] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240524/t/tidal-dl-ng/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 10:02:43] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-24 10:02:43] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.1.dev4.tar.gz tmp/torch_model_manager-0.4.1.dev5.tar.gz --markdown 20240524/t/torch-model-manager/0.4.1.dev4-0.4.1.dev5/README.md --exclude *.pyd
+[2024-05-24 10:02:43] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:02:43] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.4.tar.gz tmp/cadproxdk-2.5.tar.gz --markdown 20240524/c/cadproxdk/2.4-2.5/README.md --exclude *.pyd
+[2024-05-24 10:02:43] INFO root fetch - processPackages [taskingai]: Downloading https://files.pythonhosted.org/packages/13/3f/c49141076259cceb49475157db7d6d03374a7f1d076f92cd364c520807dc/taskingai-0.2.5.tar.gz
+[2024-05-24 10:02:43] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-24 10:02:43] INFO root fetch - processPackages [taskingai]: executing diffoscope
+[2024-05-24 10:02:43] INFO root fetch - processPackages [taskingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskingai-0.2.4.tar.gz tmp/taskingai-0.2.5.tar.gz --markdown 20240524/t/taskingai/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-24 10:02:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.1.dev4.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.1.dev5.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-24 10:02:43] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.4.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.5.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:02:43] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-05-24 10:02:43] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-05-24 10:02:44] INFO root fetch - processPackages [taskingai]: Remove: archive file [/home/abi/fetcher/tmp/taskingai-0.2.4.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - processPackages [taskingai]: Remove: archive file [/home/abi/fetcher/tmp/taskingai-0.2.5.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - main [MainThread]: End processing [taskingai]: success
+[2024-05-24 10:02:44] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.62.dev1.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-05-24 10:02:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
+[2024-05-24 10:02:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-24 10:02:44] INFO root fetch - main [MainThread]: Store serial: [23358450]
