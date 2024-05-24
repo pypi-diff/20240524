@@ -15457,3 +15457,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:11:32] INFO root fetch - processPackages [sqladaptor]: Remove: archive file [/home/abi/fetcher/tmp/sqladaptor-0.2.tar.gz]
 [2024-05-24 10:11:32] INFO root fetch - main [MainThread]: End processing [sqladaptor]: success
 [2024-05-24 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23358536]
+[2024-05-24 10:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358536]
+[2024-05-24 10:13:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuclia.plone
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ih-common
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acoular
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Encryptionsuite
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nostr-dvm
+[2024-05-24 10:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ift-test
+[2024-05-24 10:13:43] INFO root fetch - processPackages [Encryptionsuite]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nuclia.plone]: New version: [1.0b1] Old Version: [1.0a3]
+[2024-05-24 10:13:43] INFO root fetch - processPackages [acoular]: New version: [24.5] Old Version: [24.3]
+[2024-05-24 10:13:43] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-05-24 10:13:43] WARNING root fetch - processPackages [ift-test]: Skipping, unable to determine old version
+[2024-05-24 10:13:43] INFO root fetch - main [MainThread]: End processing [ift-test] error
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nostr-dvm]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nuclia.plone]: Downloading https://files.pythonhosted.org/packages/d1/18/d117a96ae76740e59c80219c02c0adb5481aba7bfcf79e91f4b06dc3149a/nuclia.plone-1.0a3.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [Encryptionsuite]: Downloading https://files.pythonhosted.org/packages/76/22/5a3f15aeaa245f7b97d66f8e24b7437d1663d57d536cb74311287641a47b/Encryptionsuite-1.0.1.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [acoular]: Downloading https://files.pythonhosted.org/packages/32/50/217505e70aa3882e286d46a8fd29db91aeffb62645e5664ab92731f4d331/acoular-24.3.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/7e/de/f3427952611c7c869a673c2fe0ed97366c1511e94622830920828b54f7a1/nostr_dvm-0.4.6.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [Encryptionsuite]: Downloading https://files.pythonhosted.org/packages/c5/c2/1ad4dadaddddf45ac73cc55307814635138704063f2b3c261cd3ba99ccab/Encryptionsuite-1.0.2-py3-none-any.whl
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nuclia.plone]: Downloading https://files.pythonhosted.org/packages/6d/04/aec9aeae6ab38d59cec4fce7f8920b5cff1424f3d0e58eeb1b134438dafd/nuclia.plone-1.0b1.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/e1/cf/37977112dcfff82dca368e8d9d7a637162bb120941b61ff954396f254bad/nostr_dvm-0.4.7.tar.gz
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nuclia.plone]: executing diffoscope
+[2024-05-24 10:13:43] INFO root fetch - processPackages [nuclia.plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia.plone-1.0a3.tar.gz tmp/nuclia.plone-1.0b1.tar.gz --markdown 20240524/n/nuclia.plone/1.0a3-1.0b1/README.md --exclude *.pyd
+[2024-05-24 10:13:43] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-05-24 10:13:43] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240524/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-05-24 10:13:43] INFO root fetch - processPackages [Encryptionsuite]: executing diffoscope
+[2024-05-24 10:13:43] INFO root fetch - processPackages [Encryptionsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Encryptionsuite-1.0.1.tar.gz tmp/Encryptionsuite-1.0.2-py3-none-any.whl.zip --markdown 20240524/E/Encryptionsuite/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-24 10:13:44] INFO root fetch - processPackages [acoular]: Downloading https://files.pythonhosted.org/packages/77/3b/d1037d7de2ac0812e89e3370c049ed14ba6d0850974a93d43d18ac0ed712/acoular-24.5.tar.gz
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.4.6.tar.gz tmp/nostr_dvm-0.4.7.tar.gz --markdown 20240524/n/nostr-dvm/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-24 10:13:44] INFO root fetch - processPackages [acoular]: executing diffoscope
+[2024-05-24 10:13:44] INFO root fetch - processPackages [acoular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acoular-24.3.tar.gz tmp/acoular-24.5.tar.gz --markdown 20240524/a/acoular/24.3-24.5/README.md --exclude *.pyd
+[2024-05-24 10:13:44] INFO root fetch - processPackages [Encryptionsuite]: Remove: archive file [/home/abi/fetcher/tmp/Encryptionsuite-1.0.1.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - processPackages [Encryptionsuite]: Remove: archive file [/home/abi/fetcher/tmp/Encryptionsuite-1.0.2-py3-none-any.whl.zip]
+[2024-05-24 10:13:44] INFO root fetch - main [MainThread]: End processing [Encryptionsuite]: success
+[2024-05-24 10:13:44] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nuclia.plone]: Remove: archive file [/home/abi/fetcher/tmp/nuclia.plone-1.0a3.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nuclia.plone]: Remove: archive file [/home/abi/fetcher/tmp/nuclia.plone-1.0b1.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - main [MainThread]: End processing [nuclia.plone]: success
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.6.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.7.tar.gz]
+[2024-05-24 10:13:44] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-24 10:13:45] INFO root fetch - processPackages [acoular]: Remove: archive file [/home/abi/fetcher/tmp/acoular-24.3.tar.gz]
+[2024-05-24 10:13:45] INFO root fetch - processPackages [acoular]: Remove: archive file [/home/abi/fetcher/tmp/acoular-24.5.tar.gz]
+[2024-05-24 10:13:45] INFO root fetch - main [MainThread]: End processing [acoular]: success
+[2024-05-24 10:13:45] INFO root fetch - main [MainThread]: Store serial: [23358552]
