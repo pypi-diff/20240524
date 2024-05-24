@@ -8678,3 +8678,15 @@
 [2024-05-24 04:57:14] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.1.0.tar.gz]
 [2024-05-24 04:57:14] INFO root fetch - main [MainThread]: End processing [centralcli]: success
 [2024-05-24 04:57:14] INFO root fetch - main [MainThread]: Store serial: [23355760]
+[2024-05-24 04:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355760]
+[2024-05-24 04:59:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 04:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: universal-common-configuration
+[2024-05-24 04:59:23] INFO root fetch - processPackages [universal-common-configuration]: New version: [1.0.1] Old Version: [1.0.0a0]
+[2024-05-24 04:59:23] INFO root fetch - processPackages [universal-common-configuration]: Downloading https://files.pythonhosted.org/packages/0f/46/68edab0d5012f6f777814c6e20030c27b9d4d2ddc533b734b739aab28b6f/universal_common_configuration-1.0.0a0.tar.gz
+[2024-05-24 04:59:23] INFO root fetch - processPackages [universal-common-configuration]: Downloading https://files.pythonhosted.org/packages/97/8d/1be31c1922ed29331b8458dc67a57c3c3ee774ff73d6ddbdae9d49d2ed1e/universal_common_configuration-1.0.1.tar.gz
+[2024-05-24 04:59:23] INFO root fetch - processPackages [universal-common-configuration]: executing diffoscope
+[2024-05-24 04:59:23] INFO root fetch - processPackages [universal-common-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_common_configuration-1.0.0a0.tar.gz tmp/universal_common_configuration-1.0.1.tar.gz --markdown 20240524/u/universal-common-configuration/1.0.0a0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 04:59:24] INFO root fetch - processPackages [universal-common-configuration]: Remove: archive file [/home/abi/fetcher/tmp/universal_common_configuration-1.0.0a0.tar.gz]
+[2024-05-24 04:59:24] INFO root fetch - processPackages [universal-common-configuration]: Remove: archive file [/home/abi/fetcher/tmp/universal_common_configuration-1.0.1.tar.gz]
+[2024-05-24 04:59:24] INFO root fetch - main [MainThread]: End processing [universal-common-configuration]: success
+[2024-05-24 04:59:24] INFO root fetch - main [MainThread]: Store serial: [23355763]
