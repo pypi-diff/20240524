@@ -11348,3 +11348,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:20:01] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.9.tar.gz]
 [2024-05-24 07:20:01] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
 [2024-05-24 07:20:01] INFO root fetch - main [MainThread]: Store serial: [23356701]
+[2024-05-24 07:22:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356701]
+[2024-05-24 07:22:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 07:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-hep-testdata
+[2024-05-24 07:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commute-agci
+[2024-05-24 07:22:10] INFO root fetch - processPackages [scikit-hep-testdata]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-24 07:22:10] INFO root fetch - processPackages [commute-agci]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-24 07:22:10] INFO root fetch - processPackages [scikit-hep-testdata]: Downloading https://files.pythonhosted.org/packages/46/92/42962f4e28eb602716aa16f43dcfa80db4f3622309e2f3cf4c2950703dd7/scikit_hep_testdata-0.4.8.tar.gz
+[2024-05-24 07:22:10] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/1e/ad/ec1b24dcf72cfee451066c30afe4662c5a7c689ebd453bd776b5ab385a60/commute_agci-0.6.1.tar.gz
+[2024-05-24 07:22:11] INFO root fetch - processPackages [commute-agci]: Downloading https://files.pythonhosted.org/packages/21/8f/d6dd6467ba972b9f6e56450f4f7d8b703c624b5fe3dd40ec6f773ac96948/commute_agci-0.6.2.tar.gz
+[2024-05-24 07:22:11] INFO root fetch - processPackages [commute-agci]: executing diffoscope
+[2024-05-24 07:22:11] INFO root fetch - processPackages [commute-agci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commute_agci-0.6.1.tar.gz tmp/commute_agci-0.6.2.tar.gz --markdown 20240524/c/commute-agci/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-24 07:22:11] INFO root fetch - processPackages [scikit-hep-testdata]: Downloading https://files.pythonhosted.org/packages/8c/84/567507054c3e89a623cf5c13a515d3899a19446964909bdbae9fae4cfa5c/scikit_hep_testdata-0.4.9.tar.gz
+[2024-05-24 07:22:11] INFO root fetch - processPackages [scikit-hep-testdata]: executing diffoscope
+[2024-05-24 07:22:11] INFO root fetch - processPackages [scikit-hep-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_hep_testdata-0.4.8.tar.gz tmp/scikit_hep_testdata-0.4.9.tar.gz --markdown 20240524/s/scikit-hep-testdata/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-24 07:22:11] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.6.1.tar.gz]
+[2024-05-24 07:22:11] INFO root fetch - processPackages [commute-agci]: Remove: archive file [/home/abi/fetcher/tmp/commute_agci-0.6.2.tar.gz]
+[2024-05-24 07:22:11] INFO root fetch - main [MainThread]: End processing [commute-agci]: success
+[2024-05-24 07:22:12] INFO root fetch - processPackages [scikit-hep-testdata]: Remove: archive file [/home/abi/fetcher/tmp/scikit_hep_testdata-0.4.8.tar.gz]
+[2024-05-24 07:22:12] INFO root fetch - processPackages [scikit-hep-testdata]: Remove: archive file [/home/abi/fetcher/tmp/scikit_hep_testdata-0.4.9.tar.gz]
+[2024-05-24 07:22:12] INFO root fetch - main [MainThread]: End processing [scikit-hep-testdata]: success
+[2024-05-24 07:22:12] INFO root fetch - main [MainThread]: Store serial: [23356708]
