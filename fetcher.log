@@ -14859,3 +14859,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:50:47] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
 [2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
 [2024-05-24 09:50:47] INFO root fetch - main [MainThread]: Store serial: [23358254]
+[2024-05-24 09:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358254]
+[2024-05-24 09:52:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webopen
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laboneq
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-saver-utilsss-sss
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadproxdk
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: request-api-builder
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaea-operator
+[2024-05-24 09:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchcat
+[2024-05-24 09:52:58] INFO root fetch - processPackages [torchcat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [cadproxdk]: New version: [2.3] Old Version: [2.1]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [request-api-builder]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [webopen]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/b5/b3/4e0fee0f0f425df2b6a0f00ae171048d135f0f7bf8634d400b57be51f715/torchcat-0.0.3.tar.gz
+[2024-05-24 09:52:58] WARNING root fetch - processPackages [text-saver-utilsss-sss]: Skipping, unable to determine old version
+[2024-05-24 09:52:58] INFO root fetch - main [MainThread]: End processing [text-saver-utilsss-sss] error
+[2024-05-24 09:52:58] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev8] Old Version: [4.1.2.dev7]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-24 09:52:58] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/fd/32/61ee1c0a70f407180280477dfd29c2ed2c246ec4a26eb2967897d146bcf8/request_api_builder-2.0.2.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d1/b5/09a06e86c22d9db28163e6c5d81cee96fff8ece82d7793f847d7edb5405f/cadproxdk-2.1.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [webopen]: Downloading https://files.pythonhosted.org/packages/59/fc/19032ff2a9caf7ae72b186e5baae68076caf82a1c0e9c08f76b390a56664/webopen-0.0.1.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/a8/1a/3f11273fd235febb5f481b80f73b5d5e74202fa287d0be625410cf17d725/gaea_operator-4.1.2.dev7-py3-none-any.whl
+[2024-05-24 09:52:58] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2024-05-24 09:52:58] INFO root fetch - processPackages [request-api-builder]: Downloading https://files.pythonhosted.org/packages/f3/9d/87521535f8cc711526b2fe5455dbbf6482a66cb5253bb7988f22c9433c1a/request_api_builder-2.0.3.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/ce/e0/90705ef9578d629309e5a6127f2a921f995b77e9f5a55f4424dcc9c86913/torchcat-0.0.4.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [request-api-builder]: executing diffoscope
+[2024-05-24 09:52:58] INFO root fetch - processPackages [request-api-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_api_builder-2.0.2.tar.gz tmp/request_api_builder-2.0.3.tar.gz --markdown 20240524/r/request-api-builder/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-24 09:52:58] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/e2/f7/41489b90b02496f372074915cfad78feabf5e7afe2416f8c0bdeba84677f/cadproxdk-2.3.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [webopen]: Downloading https://files.pythonhosted.org/packages/41/7d/a93f0a43c44a6b81e6c1599f51d1e4d7cd836ac3f1e2756d0a32b3a8e2a0/webopen-0.0.2.tar.gz
+[2024-05-24 09:52:58] INFO root fetch - processPackages [torchcat]: executing diffoscope
+[2024-05-24 09:52:58] INFO root fetch - processPackages [torchcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcat-0.0.3.tar.gz tmp/torchcat-0.0.4.tar.gz --markdown 20240524/t/torchcat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 09:52:58] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 09:52:58] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.1.tar.gz tmp/cadproxdk-2.3.tar.gz --markdown 20240524/c/cadproxdk/2.1-2.3/README.md --exclude *.pyd
+[2024-05-24 09:52:59] INFO root fetch - processPackages [webopen]: executing diffoscope
+[2024-05-24 09:52:59] INFO root fetch - processPackages [webopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webopen-0.0.1.tar.gz tmp/webopen-0.0.2.tar.gz --markdown 20240524/w/webopen/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 09:52:59] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/3e/bb/2b409c98938d3b5a98a2381de43a00a6c94b2de908d5795dd7b1ec042bbc/gaea_operator-4.1.2.dev8-py3-none-any.whl
+[2024-05-24 09:52:59] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2024-05-24 09:52:59] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-24 09:52:59] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip --markdown 20240524/g/gaea-operator/4.1.2.dev7-4.1.2.dev8/README.md --exclude *.pyd
+[2024-05-24 09:52:59] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2024-05-24 09:52:59] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20240524/l/laboneq/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-24 09:52:59] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.0.2.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - processPackages [request-api-builder]: Remove: archive file [/home/abi/fetcher/tmp/request_api_builder-2.0.3.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - main [MainThread]: End processing [request-api-builder]: success
+[2024-05-24 09:52:59] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.3.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.4.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - main [MainThread]: End processing [torchcat]: success
+[2024-05-24 09:52:59] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.1.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.3.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 09:52:59] INFO root fetch - processPackages [webopen]: Remove: archive file [/home/abi/fetcher/tmp/webopen-0.0.1.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - processPackages [webopen]: Remove: archive file [/home/abi/fetcher/tmp/webopen-0.0.2.tar.gz]
+[2024-05-24 09:52:59] INFO root fetch - main [MainThread]: End processing [webopen]: success
+[2024-05-24 09:53:00] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip]
+[2024-05-24 09:53:00] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip]
+[2024-05-24 09:53:00] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-24 09:53:01] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2024-05-24 09:53:01] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2024-05-24 09:53:01] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2024-05-24 09:53:01] INFO root fetch - main [MainThread]: Store serial: [23358275]
