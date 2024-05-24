@@ -10145,3 +10145,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.45.tar.gz]
 [2024-05-24 06:23:51] INFO root fetch - main [MainThread]: End processing [gandai]: success
 [2024-05-24 06:23:51] INFO root fetch - main [MainThread]: Store serial: [23356262]
+[2024-05-24 06:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356262]
+[2024-05-24 06:26:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 06:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 06:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathrixpy
+[2024-05-24 06:26:00] INFO root fetch - processPackages [mathrixpy]: New version: [0.3] Old Version: [0.2]
+[2024-05-24 06:26:00] INFO root fetch - processPackages [nlpx]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-24 06:26:00] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/c7/a8/34680e8fecdb32daf1f6b88bf6c2e8f4cc223b3fe882fba9135f0c1bde50/mathrixpy-0.2.tar.gz
+[2024-05-24 06:26:00] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/94/df/5d2e469981657a33123fd63a8710f3cd322cd2056f16be122b02f548d588/nlpx-1.0.1.tar.gz
+[2024-05-24 06:26:01] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/39/5d/dc4d4fb73468263ee2449d259859d113f60d3b3bd1aff395d2bef509e559/nlpx-1.0.2.tar.gz
+[2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/af/10/75339e07d71d82ffdbb73954d5aa272c9344247ae22602475b63e0722ac7/mathrixpy-0.3.tar.gz
+[2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-0.2.tar.gz tmp/mathrixpy-0.3.tar.gz --markdown 20240524/m/mathrixpy/0.2-0.3/README.md --exclude *.pyd
+[2024-05-24 06:26:01] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 06:26:01] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.1.tar.gz tmp/nlpx-1.0.2.tar.gz --markdown 20240524/n/nlpx/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-24 06:26:01] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.1.tar.gz]
+[2024-05-24 06:26:01] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.2.tar.gz]
+[2024-05-24 06:26:01] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.2.tar.gz]
+[2024-05-24 06:26:01] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.3.tar.gz]
+[2024-05-24 06:26:01] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-24 06:26:01] INFO root fetch - main [MainThread]: Store serial: [23356266]
