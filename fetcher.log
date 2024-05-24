@@ -21356,3 +21356,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-24 13:26:13] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-24 13:26:13] INFO root fetch - main [MainThread]: Store serial: [23361004]
+[2024-05-24 13:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361004]
+[2024-05-24 13:28:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoquanta
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-file-router
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadprox
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opfunu
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchx-nightly
+[2024-05-24 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydev
+[2024-05-24 13:28:22] INFO root fetch - processPackages [cadprox]: New version: [3.2] Old Version: [3.1]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.23] Old Version: [2024.5.22]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [fastapi-file-router]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/fa/d8/76738f43ac80d8c6e2f2918bca200c4133fb3e86b91f82f5d42c8404c485/cadprox-3.1.tar.gz
+[2024-05-24 13:28:22] INFO root fetch - processPackages [geoquanta]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [hydev]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/6f/52/503cf98874e62b8d5fc6aacc079fa526f55a3ef1342d6dcd3ef1a671cbe2/torchtnt_nightly-2024.5.22.tar.gz
+[2024-05-24 13:28:22] INFO root fetch - processPackages [opfunu]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 13:28:22] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-24 13:28:23] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/17/5f/232d30d2d2a3ed5ef5e6b65af3a64a081ca77beeace680138164fed98eb9/fastapi_file_router-0.1.8.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [geoquanta]: Downloading https://files.pythonhosted.org/packages/26/25/4641cefd580219627e41c003135142a085009c423c724a1f0a3361b4f1e6/geoquanta-0.0.4.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [opfunu]: Downloading https://files.pythonhosted.org/packages/33/c8/2f49120ad317342d7e0df002097527f608bcc1409127f8272a258a60fb81/opfunu-1.0.2.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/67/a9/5fa8f88e6460da2c22d65fb410cc2bb95ce418d4680ed2141a7833dd4b94/torchtnt_nightly-2024.5.23.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/7f/0a/4087410df59da13c26b55b5208b3a80a1779e6f0d8c5c24b8b5312ee318f/hydev-1.6.1.tar.gz
+[2024-05-24 13:28:23] WARNING root fetch - processPackages [geoquanta]: Skipping package: exceeds size limit 10712883>=10485760
+[2024-05-24 13:28:23] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/06/37/86e6debaf249a03be25b0e4ffdf1b7ea33527333545f7d9fb55ec8a6e9e5/cadprox-3.2.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - main [MainThread]: End processing [geoquanta] error
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.22.tar.gz tmp/torchtnt_nightly-2024.5.23.tar.gz --markdown 20240524/t/torchtnt-nightly/2024.5.22-2024.5.23/README.md --exclude *.pyd
+[2024-05-24 13:28:23] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:28:23] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.1.tar.gz tmp/cadprox-3.2.tar.gz --markdown 20240524/c/cadprox/3.1-3.2/README.md --exclude *.pyd
+[2024-05-24 13:28:23] WARNING root fetch - processPackages [opfunu]: Skipping package: exceeds size limit 12345933>=10485760
+[2024-05-24 13:28:23] INFO root fetch - main [MainThread]: End processing [opfunu] error
+[2024-05-24 13:28:23] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/99/58/2bce583488d98fc4dc8fd2593456168fc3553937419df8c73dc0c699b252/fastapi_file_router-0.1.9.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-24 13:28:23] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240524/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-24 13:28:23] INFO root fetch - processPackages [hydev]: Downloading https://files.pythonhosted.org/packages/d8/3f/0418955cd57058765745062ee7daf07585fba9f001a86dda92be7ea44d9c/hydev-1.7.0.tar.gz
+[2024-05-24 13:28:23] INFO root fetch - processPackages [fastapi-file-router]: executing diffoscope
+[2024-05-24 13:28:23] INFO root fetch - processPackages [fastapi-file-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_file_router-0.1.8.tar.gz tmp/fastapi_file_router-0.1.9.tar.gz --markdown 20240524/f/fastapi-file-router/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 13:28:23] INFO root fetch - processPackages [hydev]: executing diffoscope
+[2024-05-24 13:28:23] INFO root fetch - processPackages [hydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydev-1.6.1.tar.gz tmp/hydev-1.7.0.tar.gz --markdown 20240524/h/hydev/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-05-24 13:28:24] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.1.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.2.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:28:24] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.8.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.9.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: End processing [fastapi-file-router]: success
+[2024-05-24 13:28:24] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.22.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.23.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-24 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-24 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-24 13:28:24] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.6.1.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - processPackages [hydev]: Remove: archive file [/home/abi/fetcher/tmp/hydev-1.7.0.tar.gz]
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: End processing [hydev]: success
+[2024-05-24 13:28:24] INFO root fetch - main [MainThread]: Store serial: [23361025]
