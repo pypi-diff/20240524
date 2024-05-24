@@ -14215,3 +14215,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:35:15] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-24 09:35:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-exception]: success
 [2024-05-24 09:35:15] INFO root fetch - main [MainThread]: Store serial: [23358044]
+[2024-05-24 09:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358044]
+[2024-05-24 09:37:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-database-cleanup
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffoscope
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-upgrade-analysis
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-database-cleanup
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: request-api-builder
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-name-search-improved
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidal-dl-ng
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-scheduler-error-mailer
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-module-auto-update
+[2024-05-24 09:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rippling-flux-sdk
+[2024-05-24 09:37:25] WARNING root fetch - processPackages [request-api-builder]: Skipping, unable to determine old version
+[2024-05-24 09:37:25] INFO root fetch - processPackages [request-api-builder]: Start processing: odoo-addons-oca-server-tools
+[2024-05-24 09:37:25] INFO root fetch - main [MainThread]: End processing [request-api-builder] error
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: New version: [17.0.1.0.0.6] Old Version: [16.0.1.0.2]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/74/a8/d23cd65ef2c445b036663605f0c0416adb7c652607fd17b8777c807e2f91/odoo_addon_database_cleanup-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-module-auto-update]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20240523.0] Old Version: [16.0.20240515.0]
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/a7/d7/907be5fdd64cffd80bc9c0615f93b8d4ba49b8bd20ea53140b24811aabfa/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl
+[2024-05-24 09:37:25] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/74/a8/d23cd65ef2c445b036663605f0c0416adb7c652607fd17b8777c807e2f91/odoo_addon_database_cleanup-17.0.1.0.1-py3-none-any.whl
+[2024-05-24 09:37:25] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/fe/20/ddfba78f332c84feeba02120f3256f37b11cfab62945675d5333ec77a1b7/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/9d/fc/43b2a2fa4eb84913f46060b03a95d28697b00634caf9cad10d03d320c870/odoo_addon_base_name_search_improved-16.0.1.0.1-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/f6/14/36b97f6e282f9b7bb8727d3ecb057874a85e68398ed60112232dee274c42/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-05-24 09:37:26] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/58/42/d8eeef5b3179b9c3b134bd1937bb8e2d7711c578055aad8fc8e1290b888b/odoo_addons_oca_server_tools-16.0.20240515.0-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/7b/66/0121c544fddfb264efac52ef09b4e3bd64728d8299e17a66eff228a22fba/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fe/63/d1bb2af2b3adec404b4be95bcaaa8777907679a26582b251396b0bd56763/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fe/63/d1bb2af2b3adec404b4be95bcaaa8777907679a26582b251396b0bd56763/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-upgrade-analysis/16.0.1.0.2-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Downloading https://files.pythonhosted.org/packages/11/7d/abc54da37ba468007ca7d6a776b1ada732953400b2f339185cbe10a8f929/odoo_addon_module_auto_update-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-database-cleanup/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240524/t/tidal-dl-ng/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-database-cleanup/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/e2/87/c653ae6807d532ed3407c9295d6439592e233d95d4c16bad9a8e0a8287cc/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Downloading https://files.pythonhosted.org/packages/97/b7/a447f1a66183b50b382e457305d5971d061c7a9f998057e87845d1fff131/odoo_addon_base_name_search_improved-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-module-auto-update]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-module-auto-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_module_auto_update-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-module-auto-update/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/49/84/409dc0a1c756a468f1bd6b647b92656b8573e18124e35f6806cd553b6e8a/odoo_addons_oca_server_tools-16.0.20240523.0-py3-none-any.whl
+[2024-05-24 09:37:26] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240524/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-scheduler-error-mailer/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_name_search_improved-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_name_search_improved-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-name-search-improved/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2024-05-24 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20240515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20240523.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addons-oca-server-tools/16.0.20240515.0-16.0.20240523.0/README.md --exclude *.pyd
+[2024-05-24 09:37:27] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [rippling-flux-sdk]: Start processing: odoo13-addon-base-tier-validation
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Start processing: syndicate-py
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-scheduler-error-mailer]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_upgrade_analysis-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_upgrade_analysis-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-upgrade-analysis]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240515.0-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240523.0-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: New version: [13.0.1.9.3.dev9] Old Version: [13.0.1.9.3.dev8]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-module-auto-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_module_auto_update-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-auto-update]: success
+[2024-05-24 09:37:27] INFO root fetch - processPackages [syndicate-py]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - processPackages [odoo-addon-base-name-search-improved]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_name_search_improved-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-24 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-name-search-improved]: success
+[2024-05-24 09:37:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-24 09:37:28] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-05-24 09:37:28] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-05-24 09:37:28] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-05-24 09:37:28] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-05-24 09:37:28] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/fc/e8/c13eabdac818e98d6bca96b12acb3d2cf7dabe69b3b840fe303675d605ec/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl
+[2024-05-24 09:37:28] INFO root fetch - processPackages [syndicate-py]: Downloading https://files.pythonhosted.org/packages/7a/ff/73860ff6b743e65965332ef07b140f1362469bd47d172bebf9a5582b3e3b/syndicate-py-0.8.5.tar.gz
+[2024-05-24 09:37:28] INFO root fetch - processPackages [syndicate-py]: Downloading https://files.pythonhosted.org/packages/2f/15/7278ecce39015adb56532b461a934e9079acd054e0a86eac4a75bd2cfaeb/syndicate-py-0.9.0.tar.gz
+[2024-05-24 09:37:28] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/72/32/6439fa8214a31a2dd1f34c69478ddd98438503b7ed359f0fd85dcd5e8f82/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl
+[2024-05-24 09:37:28] INFO root fetch - processPackages [syndicate-py]: executing diffoscope
+[2024-05-24 09:37:28] INFO root fetch - processPackages [syndicate-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syndicate-py-0.8.5.tar.gz tmp/syndicate-py-0.9.0.tar.gz --markdown 20240524/s/syndicate-py/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-24 09:37:28] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: executing diffoscope
+[2024-05-24 09:37:28] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl.zip --markdown 20240524/o/odoo13-addon-base-tier-validation/13.0.1.9.3.dev8-13.0.1.9.3.dev9/README.md --exclude *.pyd
+[2024-05-24 09:37:29] INFO root fetch - processPackages [syndicate-py]: Remove: archive file [/home/abi/fetcher/tmp/syndicate-py-0.8.5.tar.gz]
+[2024-05-24 09:37:29] INFO root fetch - processPackages [syndicate-py]: Remove: archive file [/home/abi/fetcher/tmp/syndicate-py-0.9.0.tar.gz]
+[2024-05-24 09:37:29] INFO root fetch - main [MainThread]: End processing [syndicate-py]: success
+[2024-05-24 09:37:29] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev8-py3-none-any.whl.zip]
+[2024-05-24 09:37:29] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_tier_validation-13.0.1.9.3.dev9-py3-none-any.whl.zip]
+[2024-05-24 09:37:29] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
+[2024-05-24 09:37:30] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-05-24 09:37:30] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240524/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-05-24 09:37:33] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-05-24 09:37:33] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-05-24 09:37:33] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-05-24 09:37:33] INFO root fetch - main [MainThread]: Store serial: [23358077]
