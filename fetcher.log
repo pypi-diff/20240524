@@ -16664,3 +16664,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:51:31] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-24 10:51:31] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-24 10:51:31] INFO root fetch - main [MainThread]: Store serial: [23359070]
+[2024-05-24 10:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359070]
+[2024-05-24 10:53:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythub
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycaption
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvisuspy
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SparkleLogging-new
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ochat
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-searcher
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SilverStreamingApplicationPoC
+[2024-05-24 10:53:41] INFO root fetch - processPackages [pycaption]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-24 10:53:41] INFO root fetch - processPackages [audio-searcher]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 10:53:41] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 10:53:41] INFO root fetch - processPackages [pythub]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 10:53:41] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-05-24 10:53:41] WARNING root fetch - processPackages [SparkleLogging-new]: Skipping, unable to determine old version
+[2024-05-24 10:53:41] INFO root fetch - main [MainThread]: End processing [SparkleLogging-new] error
+[2024-05-24 10:53:41] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/c2/df/d8f74b7054e8c92981e7e6a4d3fb8dbac3019167122c8119bf9ee58b1d22/pycaption-2.2.8.tar.gz
+[2024-05-24 10:53:41] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-05-24 10:53:41] INFO root fetch - processPackages [ochat]: New version: [3.6.0] Old Version: [3.5.2]
+[2024-05-24 10:53:42] INFO root fetch - processPackages [audio-searcher]: Downloading https://files.pythonhosted.org/packages/72/68/f2269096da29b116e053e1fdc26276bebc4444a43665ced08e718adc6a91/audio_searcher-0.1.1.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-05-24 10:53:42] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pythub]: Downloading https://files.pythonhosted.org/packages/4b/bf/a3615f64475ae4567b910352e5b814f343046c406210efc87886257e8a93/pythub-0.1.0.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [audio-searcher]: Downloading https://files.pythonhosted.org/packages/48/b9/f4d7311c74e850dd4ff3df8bbc9e06f3f21d60e0e4bcc590af1d181a6f32/audio_searcher-0.1.2.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/37/4f/ff126d3dac7277c83ccd127a3608fa651641ee2289ebb84f0625d5c4497d/pycaption-2.2.9.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-05-24 10:53:42] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-05-24 10:53:42] INFO root fetch - processPackages [ochat]: Downloading https://files.pythonhosted.org/packages/85/f2/c2a9e4697a4984e2764211c67bf755ce629a85809091bcfa80b515599681/ochat-3.5.2.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [audio-searcher]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [audio-searcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_searcher-0.1.1.tar.gz tmp/audio_searcher-0.1.2.tar.gz --markdown 20240524/a/audio-searcher/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 10:53:42] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240524/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pycaption]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pycaption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaption-2.2.8.tar.gz tmp/pycaption-2.2.9.tar.gz --markdown 20240524/p/pycaption/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-24 10:53:42] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240524/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pythub]: Downloading https://files.pythonhosted.org/packages/74/e0/ec9941ac87e1e0be3e88ce85f08b66ad1caf06353d3678f2ae26965d71e7/pythub-0.1.1.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pythub]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [pythub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythub-0.1.0.tar.gz tmp/pythub-0.1.1.tar.gz --markdown 20240524/p/pythub/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 10:53:42] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-24 10:53:42] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240524/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-05-24 10:53:43] INFO root fetch - processPackages [audio-searcher]: Remove: archive file [/home/abi/fetcher/tmp/audio_searcher-0.1.1.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [audio-searcher]: Remove: archive file [/home/abi/fetcher/tmp/audio_searcher-0.1.2.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [audio-searcher]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [pythub]: Remove: archive file [/home/abi/fetcher/tmp/pythub-0.1.0.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [pythub]: Remove: archive file [/home/abi/fetcher/tmp/pythub-0.1.1.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [pythub]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.8.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.9.tar.gz]
+[2024-05-24 10:53:43] INFO root fetch - main [MainThread]: End processing [pycaption]: success
+[2024-05-24 10:53:43] INFO root fetch - processPackages [ochat]: Downloading https://files.pythonhosted.org/packages/b3/8e/8c2436615404b23a47573dfb7cc5db46768ca738e9b99b2782e20d5fc51d/ochat-3.6.0.tar.gz
+[2024-05-24 10:53:44] INFO root fetch - processPackages [ochat]: executing diffoscope
+[2024-05-24 10:53:44] INFO root fetch - processPackages [ochat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ochat-3.5.2.tar.gz tmp/ochat-3.6.0.tar.gz --markdown 20240524/o/ochat/3.5.2-3.6.0/README.md --exclude *.pyd
+[2024-05-24 10:53:51] INFO root fetch - processPackages [ochat]: Remove: archive file [/home/abi/fetcher/tmp/ochat-3.5.2.tar.gz]
+[2024-05-24 10:53:51] INFO root fetch - processPackages [ochat]: Remove: archive file [/home/abi/fetcher/tmp/ochat-3.6.0.tar.gz]
+[2024-05-24 10:53:51] INFO root fetch - main [MainThread]: End processing [ochat]: success
+[2024-05-24 10:53:51] INFO root fetch - main [MainThread]: Store serial: [23359126]
