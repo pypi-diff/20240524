@@ -12758,3 +12758,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:29:52] INFO root fetch - processPackages [odoo-addon-partner-email-check]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_email_check-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-24 08:29:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-email-check]: success
 [2024-05-24 08:29:52] INFO root fetch - main [MainThread]: Store serial: [23357423]
+[2024-05-24 08:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357423]
+[2024-05-24 08:32:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 08:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RGBMatrixEmulator
+[2024-05-24 08:32:03] INFO root fetch - processPackages [RGBMatrixEmulator]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 08:32:03] INFO root fetch - processPackages [RGBMatrixEmulator]: Downloading https://files.pythonhosted.org/packages/54/6e/c4089e95e00f17c00cb663b1cbfcd28a71f3ffad0e4d23c4516cab89b13b/RGBMatrixEmulator-0.9.0.tar.gz
+[2024-05-24 08:32:03] INFO root fetch - processPackages [RGBMatrixEmulator]: Downloading https://files.pythonhosted.org/packages/a7/f8/19a8dfefe6ff63c16f05c72806aa39c7c3cc1cb6a8410374ae1b2b7bb2ad/RGBMatrixEmulator-0.9.1.tar.gz
+[2024-05-24 08:32:03] INFO root fetch - processPackages [RGBMatrixEmulator]: executing diffoscope
+[2024-05-24 08:32:03] INFO root fetch - processPackages [RGBMatrixEmulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RGBMatrixEmulator-0.9.0.tar.gz tmp/RGBMatrixEmulator-0.9.1.tar.gz --markdown 20240524/R/RGBMatrixEmulator/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 08:32:04] INFO root fetch - processPackages [RGBMatrixEmulator]: Remove: archive file [/home/abi/fetcher/tmp/RGBMatrixEmulator-0.9.0.tar.gz]
+[2024-05-24 08:32:04] INFO root fetch - processPackages [RGBMatrixEmulator]: Remove: archive file [/home/abi/fetcher/tmp/RGBMatrixEmulator-0.9.1.tar.gz]
+[2024-05-24 08:32:04] INFO root fetch - main [MainThread]: End processing [RGBMatrixEmulator]: success
+[2024-05-24 08:32:04] INFO root fetch - main [MainThread]: Store serial: [23357426]
