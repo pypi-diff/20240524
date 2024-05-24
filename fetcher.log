@@ -10375,3 +10375,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:36:55] INFO root fetch - processPackages [apngasm-python]: Remove: archive file [/home/abi/fetcher/tmp/apngasm_python-1.3.0.tar.gz]
 [2024-05-24 06:36:55] INFO root fetch - main [MainThread]: End processing [apngasm-python]: success
 [2024-05-24 06:36:55] INFO root fetch - main [MainThread]: Store serial: [23356372]
+[2024-05-24 06:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356372]
+[2024-05-24 06:39:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 06:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-commands
+[2024-05-24 06:39:03] INFO root fetch - processPackages [openai-commands]: New version: [3.6.1] Old Version: [3.5.1]
+[2024-05-24 06:39:03] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/c2/82/b674322b980f443b024d6866dd225c33a77e7a9e028014e8b27ccabf475f/openai_commands-3.5.1.tar.gz
+[2024-05-24 06:39:04] INFO root fetch - processPackages [openai-commands]: Downloading https://files.pythonhosted.org/packages/d9/54/717ae82744564a611cb94bc2001d87a9766e90fe7e4352e71e487e9d2dc9/openai_commands-3.6.1.tar.gz
+[2024-05-24 06:39:04] INFO root fetch - processPackages [openai-commands]: executing diffoscope
+[2024-05-24 06:39:04] INFO root fetch - processPackages [openai-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_commands-3.5.1.tar.gz tmp/openai_commands-3.6.1.tar.gz --markdown 20240524/o/openai-commands/3.5.1-3.6.1/README.md --exclude *.pyd
+[2024-05-24 06:39:04] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.5.1.tar.gz]
+[2024-05-24 06:39:04] INFO root fetch - processPackages [openai-commands]: Remove: archive file [/home/abi/fetcher/tmp/openai_commands-3.6.1.tar.gz]
+[2024-05-24 06:39:04] INFO root fetch - main [MainThread]: End processing [openai-commands]: success
+[2024-05-24 06:39:04] INFO root fetch - main [MainThread]: Store serial: [23356375]
