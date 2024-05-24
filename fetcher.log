@@ -9096,3 +9096,42 @@
 [2024-05-24 05:24:32] INFO root fetch - processPackages [smartpasslib]: Remove: archive file [/home/abi/fetcher/tmp/smartpasslib-0.4.2.tar.gz]
 [2024-05-24 05:24:32] INFO root fetch - main [MainThread]: End processing [smartpasslib]: success
 [2024-05-24 05:24:32] INFO root fetch - main [MainThread]: Store serial: [23355916]
+[2024-05-24 05:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355916]
+[2024-05-24 05:26:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 05:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-business-requirement
+[2024-05-24 05:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mc-netease-sdk
+[2024-05-24 05:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siglost-utils
+[2024-05-24 05:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlpx
+[2024-05-24 05:26:41] INFO root fetch - processPackages [siglost-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 05:26:41] INFO root fetch - processPackages [nlpx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-24 05:26:41] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.9.0.44290] Old Version: [2.9.0.44274]
+[2024-05-24 05:26:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2024-05-24 05:26:41] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/0a/17/7c3b3dc1e86ac3a09caa9c25ec0092644eb447f27b8572146c3f9b46da71/nlpx-0.7.0.tar.gz
+[2024-05-24 05:26:41] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/45/85/460b9de69b213f4f2d0155cfdda1f8ecfcb91fbc147746402136efde1559/siglost_utils-0.1.4.tar.gz
+[2024-05-24 05:26:41] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/ce/bd/ce66c963701930ef65984ffe07a603cf9a40839ee616187f8a9af3b96d24/mc_netease_sdk-2.9.0.44274-py2-none-any.whl
+[2024-05-24 05:26:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/9b/f6/361dbdd1b1a2b8653ea765df0f0cbe2d16b27b40a9b5567bc27c8dcd5c5d/odoo_addon_business_requirement-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-24 05:26:41] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/63/0d/f58f720ee05ea75b4a3c959d9fa6e49e17b844e50741adff621cdf8590a5/mc_netease_sdk-2.9.0.44290-py2-none-any.whl
+[2024-05-24 05:26:41] INFO root fetch - processPackages [siglost-utils]: Downloading https://files.pythonhosted.org/packages/d0/cd/c638a742151954e3e61b4351a312c9b1387d7bb0e5c3a4e42e459af1a7ab/siglost_utils-0.1.5.tar.gz
+[2024-05-24 05:26:41] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/91/d1/906d171d265db7150a29a830f26726bd571c8fdc8512776d0d25f14c2315/nlpx-0.8.0.tar.gz
+[2024-05-24 05:26:41] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2024-05-24 05:26:41] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip --markdown 20240524/m/mc-netease-sdk/2.9.0.44274-2.9.0.44290/README.md --exclude *.pyd
+[2024-05-24 05:26:41] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 05:26:41] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-0.7.0.tar.gz tmp/nlpx-0.8.0.tar.gz --markdown 20240524/n/nlpx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-24 05:26:41] INFO root fetch - processPackages [siglost-utils]: executing diffoscope
+[2024-05-24 05:26:41] INFO root fetch - processPackages [siglost-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siglost_utils-0.1.4.tar.gz tmp/siglost_utils-0.1.5.tar.gz --markdown 20240524/s/siglost-utils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 05:26:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/58/e4/e82c17b960129385b3504265f9fc2afd76b23070f3ad75bc12fefcf0c8f8/odoo_addon_business_requirement-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-24 05:26:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2024-05-24 05:26:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-business-requirement/16.0.1.0.1.2-16.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-24 05:26:42] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.7.0.tar.gz]
+[2024-05-24 05:26:42] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.8.0.tar.gz]
+[2024-05-24 05:26:42] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 05:26:42] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.4.tar.gz]
+[2024-05-24 05:26:42] INFO root fetch - processPackages [siglost-utils]: Remove: archive file [/home/abi/fetcher/tmp/siglost_utils-0.1.5.tar.gz]
+[2024-05-24 05:26:42] INFO root fetch - main [MainThread]: End processing [siglost-utils]: success
+[2024-05-24 05:26:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-24 05:26:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-24 05:26:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2024-05-24 05:26:43] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip]
+[2024-05-24 05:26:43] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
+[2024-05-24 05:26:43] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2024-05-24 05:26:43] INFO root fetch - main [MainThread]: Store serial: [23355925]
