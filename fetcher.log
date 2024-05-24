@@ -20534,3 +20534,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:57:17] INFO root fetch - processPackages [dieke]: Remove: archive file [/home/abi/fetcher/tmp/dieke-0.4.1.tar.gz]
 [2024-05-24 12:57:17] INFO root fetch - main [MainThread]: End processing [dieke]: success
 [2024-05-24 12:57:17] INFO root fetch - main [MainThread]: Store serial: [23360721]
+[2024-05-24 12:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360721]
+[2024-05-24 12:59:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SBGeom
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soundtools
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadprox
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelmerge
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iceye-audit-log
+[2024-05-24 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-dread-rando
+[2024-05-24 12:59:26] INFO root fetch - processPackages [soundtools]: New version: [0.2.3.0] Old Version: [0.2.2.2]
+[2024-05-24 12:59:26] INFO root fetch - processPackages [cadprox]: New version: [2.7] Old Version: [2.6]
+[2024-05-24 12:59:26] INFO root fetch - processPackages [modelmerge]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-24 12:59:26] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/40/04/082ba0b0b78eeaffc2d8de702ff119f32f49fd37989e799c4bda5c4c9c32/soundtools-0.2.2.2.tar.gz
+[2024-05-24 12:59:26] INFO root fetch - processPackages [iceye-audit-log]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 12:59:26] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/ab/f0/eeb9a01b9d28a1eddb598f5123419fb74be23b55beb997d8868bcd4f72c8/cadprox-2.6.tar.gz
+[2024-05-24 12:59:26] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/33/dc/1a4b88191a5ae7c552bc10bcdb5df8ddb70b3db42e6b8d9db24cfbefed31/modelmerge-0.5.8.tar.gz
+[2024-05-24 12:59:26] WARNING root fetch - processPackages [SBGeom]: Skipping, unable to determine old version
+[2024-05-24 12:59:26] INFO root fetch - main [MainThread]: End processing [SBGeom] error
+[2024-05-24 12:59:26] INFO root fetch - processPackages [open-dread-rando]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-24 12:59:26] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev6] Old Version: [3.9.1.dev5]
+[2024-05-24 12:59:27] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/3f/20/3829fcfe4d88f7e5202300ca64b63f76e464bfd20c2be43727ba138433a5/soundtools-0.2.3.0.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/82/c7/3ca2c4682b09edddf1b386790a250f2006d8657996ece8c3797c9968fe1c/cadprox-2.7.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/3d/a7/d7db29b3ea081c07060561a16d84f8a6838a160372c853f9d8e0d8e85483/modelmerge-0.5.9.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [iceye-audit-log]: Downloading https://files.pythonhosted.org/packages/90/09/f1117a92b57e34d3a21a2effcc8b617ee6ce2cf308f850b80d37e6fdcecf/iceye_audit_log-0.1.1.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/2e/10/88c91f289de46189e8c8a0c7b5bb55acf28fd440b8489e47618e2f53b049/open-dread-rando-2.8.3.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [soundtools]: executing diffoscope
+[2024-05-24 12:59:27] INFO root fetch - processPackages [soundtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundtools-0.2.2.2.tar.gz tmp/soundtools-0.2.3.0.tar.gz --markdown 20240524/s/soundtools/0.2.2.2-0.2.3.0/README.md --exclude *.pyd
+[2024-05-24 12:59:27] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:59:27] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.6.tar.gz tmp/cadprox-2.7.tar.gz --markdown 20240524/c/cadprox/2.6-2.7/README.md --exclude *.pyd
+[2024-05-24 12:59:27] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-24 12:59:27] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.8.tar.gz tmp/modelmerge-0.5.9.tar.gz --markdown 20240524/m/modelmerge/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-24 12:59:27] INFO root fetch - processPackages [iceye-audit-log]: Downloading https://files.pythonhosted.org/packages/ca/31/c1cc03d857816300d774ac3c532aed4197256cb38946876f4d84f30f1abe/iceye_audit_log-0.1.2.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d8/a1/7103165b8eee9a961fe91767e7be994cc8a17c5b1f12ee6f37dcccb855b7/tinybird-cli-3.9.1.dev6.tar.gz
+[2024-05-24 12:59:27] INFO root fetch - processPackages [iceye-audit-log]: executing diffoscope
+[2024-05-24 12:59:27] INFO root fetch - processPackages [iceye-audit-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceye_audit_log-0.1.1.tar.gz tmp/iceye_audit_log-0.1.2.tar.gz --markdown 20240524/i/iceye-audit-log/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 12:59:27] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-24 12:59:27] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev5.tar.gz tmp/tinybird-cli-3.9.1.dev6.tar.gz --markdown 20240524/t/tinybird-cli/3.9.1.dev5-3.9.1.dev6/README.md --exclude *.pyd
+[2024-05-24 12:59:27] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.2.2.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.3.0.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - main [MainThread]: End processing [soundtools]: success
+[2024-05-24 12:59:27] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.8.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.9.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-24 12:59:27] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.6.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.7.tar.gz]
+[2024-05-24 12:59:27] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:59:28] INFO root fetch - processPackages [iceye-audit-log]: Remove: archive file [/home/abi/fetcher/tmp/iceye_audit_log-0.1.1.tar.gz]
+[2024-05-24 12:59:28] INFO root fetch - processPackages [iceye-audit-log]: Remove: archive file [/home/abi/fetcher/tmp/iceye_audit_log-0.1.2.tar.gz]
+[2024-05-24 12:59:28] INFO root fetch - main [MainThread]: End processing [iceye-audit-log]: success
+[2024-05-24 12:59:28] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev5.tar.gz]
+[2024-05-24 12:59:28] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev6.tar.gz]
+[2024-05-24 12:59:28] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-24 12:59:29] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/d6/ee/313af16cec0c3e6cf0d9740ad07d7139f8ec8977f7a53c50d41ae6e6e461/open-dread-rando-2.9.0.tar.gz
+[2024-05-24 12:59:32] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2024-05-24 12:59:32] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.8.3.tar.gz tmp/open-dread-rando-2.9.0.tar.gz --markdown 20240524/o/open-dread-rando/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-24 12:59:33] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.8.3.tar.gz]
+[2024-05-24 12:59:33] INFO root fetch - processPackages [open-dread-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-dread-rando-2.9.0.tar.gz]
+[2024-05-24 12:59:33] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2024-05-24 12:59:33] INFO root fetch - main [MainThread]: Store serial: [23360746]
