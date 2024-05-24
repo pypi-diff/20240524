@@ -20489,3 +20489,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:55:04] INFO root fetch - processPackages [gdstk]: Remove: archive file [/home/abi/fetcher/tmp/gdstk-0.9.52-cp39-cp39-musllinux_1_1_i686.whl.zip]
 [2024-05-24 12:55:04] INFO root fetch - main [MainThread]: End processing [gdstk]: success
 [2024-05-24 12:55:04] INFO root fetch - main [MainThread]: Store serial: [23360695]
+[2024-05-24 12:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360695]
+[2024-05-24 12:57:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timesfm
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flk
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viking-log-keeper
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mia-vgg
+[2024-05-24 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dieke
+[2024-05-24 12:57:14] INFO root fetch - processPackages [viking-log-keeper]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-24 12:57:14] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 12:57:14] INFO root fetch - processPackages [cadprox]: New version: [2.7] Old Version: [2.6]
+[2024-05-24 12:57:14] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/cd/3e/995f28c1e65478f9d82c6d0ed5430a9c5ea9aa49550ff799e5ed7a08ebec/viking_log_keeper-1.2.0.tar.gz
+[2024-05-24 12:57:14] WARNING root fetch - processPackages [timesfm]: Skipping, unable to determine old version
+[2024-05-24 12:57:14] INFO root fetch - main [MainThread]: End processing [timesfm] error
+[2024-05-24 12:57:14] WARNING root fetch - processPackages [flk]: Skipping, unable to determine old version
+[2024-05-24 12:57:14] INFO root fetch - main [MainThread]: End processing [flk] error
+[2024-05-24 12:57:14] INFO root fetch - processPackages [dieke]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-24 12:57:14] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/94/f8/1324f68b3d78b9394977ee26a1134b9b55c1be91762b8cdc9026526402da/mia_vgg-0.0.2.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/ab/f0/eeb9a01b9d28a1eddb598f5123419fb74be23b55beb997d8868bcd4f72c8/cadprox-2.6.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [dieke]: Downloading https://files.pythonhosted.org/packages/3f/3a/103f2f185de95058f8448d70b0dce943a2795a7cf5e532bf35170a0d9af0/dieke-0.4.0.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/10/d7/67c3cfc330ddc1648aaa4460a6120cc64e3a6a6a15a15b04243ac1991c00/viking-log-keeper-1.3.0.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/e3/fc/bbccf23c284bd7b1b7af12cd3d1559a8bf0aa31779883843d4c685cd3eb1/mia_vgg-0.0.3.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/82/c7/3ca2c4682b09edddf1b386790a250f2006d8657996ece8c3797c9968fe1c/cadprox-2.7.tar.gz
+[2024-05-24 12:57:14] INFO root fetch - processPackages [viking-log-keeper]: executing diffoscope
+[2024-05-24 12:57:14] INFO root fetch - processPackages [viking-log-keeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viking_log_keeper-1.2.0.tar.gz tmp/viking-log-keeper-1.3.0.tar.gz --markdown 20240524/v/viking-log-keeper/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-24 12:57:15] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-24 12:57:15] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.2.tar.gz tmp/mia_vgg-0.0.3.tar.gz --markdown 20240524/m/mia-vgg/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 12:57:15] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:57:15] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.6.tar.gz tmp/cadprox-2.7.tar.gz --markdown 20240524/c/cadprox/2.6-2.7/README.md --exclude *.pyd
+[2024-05-24 12:57:15] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking_log_keeper-1.2.0.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking-log-keeper-1.3.0.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - main [MainThread]: End processing [viking-log-keeper]: success
+[2024-05-24 12:57:15] INFO root fetch - processPackages [dieke]: Downloading https://files.pythonhosted.org/packages/05/91/9c2643d8c992135650dd4571ed5076728a2c24282c45d354c6de3111d0e8/dieke-0.4.1.tar.gz
+[2024-05-24 12:57:15] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.2.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.3.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-24 12:57:15] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.6.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.7.tar.gz]
+[2024-05-24 12:57:15] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:57:16] INFO root fetch - processPackages [dieke]: executing diffoscope
+[2024-05-24 12:57:16] INFO root fetch - processPackages [dieke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dieke-0.4.0.tar.gz tmp/dieke-0.4.1.tar.gz --markdown 20240524/d/dieke/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-24 12:57:17] INFO root fetch - processPackages [dieke]: Remove: archive file [/home/abi/fetcher/tmp/dieke-0.4.0.tar.gz]
+[2024-05-24 12:57:17] INFO root fetch - processPackages [dieke]: Remove: archive file [/home/abi/fetcher/tmp/dieke-0.4.1.tar.gz]
+[2024-05-24 12:57:17] INFO root fetch - main [MainThread]: End processing [dieke]: success
+[2024-05-24 12:57:17] INFO root fetch - main [MainThread]: Store serial: [23360721]
