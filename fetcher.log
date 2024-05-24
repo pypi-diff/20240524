@@ -7979,3 +7979,33 @@
 [2024-05-24 04:17:50] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-05-24 04:17:50] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-05-24 04:17:50] INFO root fetch - main [MainThread]: Store serial: [23355499]
+[2024-05-24 04:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355499]
+[2024-05-24 04:19:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-ui-python-types
+[2024-05-24 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JupyterExport
+[2024-05-24 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bw-temporalis
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [bw-temporalis]: New version: [1.1] Old Version: [1.0]
+[2024-05-24 04:19:59] INFO root fetch - processPackages [JupyterExport]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 04:19:59] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/e6/aa/1b4b8c0d416cce3428ee580296f5d22fb6418814f1b5c0dcf86c25e90d25/bw_temporalis-1.0.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [JupyterExport]: Downloading https://files.pythonhosted.org/packages/12/eb/1b4d37d9a182abc3519a8d475847a9f8daa6a8b6289188a240a58a864fcf/jupyterexport-0.1.4.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240524/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 04:19:59] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/85/a2/0b1fe84a5a4bece1d6e5e5a203167174d07f7d11ab18b8df4a0fe9659459/bw_temporalis-1.1.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [bw-temporalis]: executing diffoscope
+[2024-05-24 04:19:59] INFO root fetch - processPackages [bw-temporalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_temporalis-1.0.tar.gz tmp/bw_temporalis-1.1.tar.gz --markdown 20240524/b/bw-temporalis/1.0-1.1/README.md --exclude *.pyd
+[2024-05-24 04:19:59] INFO root fetch - processPackages [JupyterExport]: Downloading https://files.pythonhosted.org/packages/5e/c7/5661b98ac6ec5863fc50f7b59862a4ea5eea09cf0bab4cd5b84799fb746b/jupyterexport-0.1.5.tar.gz
+[2024-05-24 04:19:59] INFO root fetch - processPackages [JupyterExport]: executing diffoscope
+[2024-05-24 04:19:59] INFO root fetch - processPackages [JupyterExport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterexport-0.1.4.tar.gz tmp/jupyterexport-0.1.5.tar.gz --markdown 20240524/J/JupyterExport/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-24 04:19:59] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-24 04:19:59] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-24 04:20:00] INFO root fetch - processPackages [bw-temporalis]: Remove: archive file [/home/abi/fetcher/tmp/bw_temporalis-1.0.tar.gz]
+[2024-05-24 04:20:00] INFO root fetch - processPackages [bw-temporalis]: Remove: archive file [/home/abi/fetcher/tmp/bw_temporalis-1.1.tar.gz]
+[2024-05-24 04:20:00] INFO root fetch - main [MainThread]: End processing [bw-temporalis]: success
+[2024-05-24 04:20:00] INFO root fetch - processPackages [JupyterExport]: Remove: archive file [/home/abi/fetcher/tmp/jupyterexport-0.1.4.tar.gz]
+[2024-05-24 04:20:00] INFO root fetch - processPackages [JupyterExport]: Remove: archive file [/home/abi/fetcher/tmp/jupyterexport-0.1.5.tar.gz]
+[2024-05-24 04:20:00] INFO root fetch - main [MainThread]: End processing [JupyterExport]: success
+[2024-05-24 04:20:00] INFO root fetch - main [MainThread]: Store serial: [23355508]
