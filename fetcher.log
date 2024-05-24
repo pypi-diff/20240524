@@ -17886,3 +17886,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:22:42] INFO root fetch - processPackages [gigachain-community]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_community-0.2.0.tar.gz]
 [2024-05-24 11:22:42] INFO root fetch - main [MainThread]: End processing [gigachain-community]: success
 [2024-05-24 11:22:42] INFO root fetch - main [MainThread]: Store serial: [23359552]
+[2024-05-24 11:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359552]
+[2024-05-24 11:24:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cartagen4py
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: woningwaardering
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-dds
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: callisto-core
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trufflehog3
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkdantic
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cv-smart-house-camera
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acepython
+[2024-05-24 11:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avnet-scotty
+[2024-05-24 11:24:52] INFO root fetch - processPackages [avnet-scotty]: New version: [2024.5rc5] Old Version: [2024.5rc2]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [cartagen4py]: New version: [0.3] Old Version: [0.2.9]
+[2024-05-24 11:24:52] WARNING root fetch - processPackages [callisto-core]: Skipping, unable to determine old version
+[2024-05-24 11:24:52] INFO root fetch - main [MainThread]: End processing [callisto-core] error
+[2024-05-24 11:24:52] INFO root fetch - processPackages [woningwaardering]: New version: [0.3.0a6] Old Version: [0.3.0a5]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [cv-smart-house-camera]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/b2/d6/963f154ce32455fb07d79c3d7fd276a002e61524ee536bcd7169bd4c11b5/avnet_scotty-2024.5rc2.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [aliyun-python-sdk-dds]: New version: [3.7.9] Old Version: [3.7.8]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [sparkdantic]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [trufflehog3]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [acepython]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 11:24:52] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/c4/cf/fb70b4eca8239f9b29e5c9aeccf256b0c2e73ee914428ef5afa0a83211e7/cartagen4py-0.2.9-py3-none-any.whl
+[2024-05-24 11:24:52] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/85/9a/d6e384d7fc2513973f652a78e5b25a05264166538aa5ebcb5e5739b3192a/woningwaardering-0.3.0a5.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [cv-smart-house-camera]: Downloading https://files.pythonhosted.org/packages/11/71/d9c53e5e9de05bdf34b4b02bf60f2f80fea1db3f36e3d2188ba1a994d589/cv_smart_house_camera-0.1.5.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [trufflehog3]: Downloading https://files.pythonhosted.org/packages/67/7a/c158b3690dba08b83fcae5f4352476377bf63c2fe3eb11a3af01ceaa7e41/trufflehog3-3.0.8.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/06/fa/1dc013a404a542dbcf0a1c76aa3487111efd637be778f9a97f1cb77af9f0/avnet_scotty-2024.5rc5.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/86/bc/8da016d88f5ef830911ce743ebf8343f8e906bcbb63d484269cd30684c11/aliyun-python-sdk-dds-3.7.8.tar.gz
+[2024-05-24 11:24:52] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/95/86/2fa957f6cc385703d9d1e79c66cdd79cb28b5527780f27b2d2fd7fac418e/sparkdantic-0.9.2.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [acepython]: Downloading https://files.pythonhosted.org/packages/fd/cd/78dee0f7eaa5a2a4bfcdcd7551549a5c1c8edcfcc0f9b8e13cd07aa5fb38/acepython-0.0.8.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet_scotty-2024.5rc2.tar.gz tmp/avnet_scotty-2024.5rc5.tar.gz --markdown 20240524/a/avnet-scotty/2024.5rc2-2024.5rc5/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/c1/e3/c4321c6af9307bd4c95f26bda409f5b3e99582ebd6a310251b563863b5f2/cartagen4py-0.3-py3-none-any.whl
+[2024-05-24 11:24:53] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/21/4e/99d186fc183b07c7d46ec7aa2e4813bc987a96bd61519fff62f11217e27b/woningwaardering-0.3.0a6.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [trufflehog3]: Downloading https://files.pythonhosted.org/packages/a4/12/c603ce8a8d3e34d906ffc827e67f66b97da6a15f57d75851090fd2c582b6/trufflehog3-3.0.9.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cv-smart-house-camera]: Downloading https://files.pythonhosted.org/packages/58/c3/4eed0f1d20b0b2011fa598dc4fca30d3d3470ac654a954f626e5657fe1b4/cv_smart_house_camera-0.1.6.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.2.9-py3-none-any.whl.zip tmp/cartagen4py-0.3-py3-none-any.whl.zip --markdown 20240524/c/cartagen4py/0.2.9-0.3/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/2c/e5/2607a9ee653dfb18421e896d3841ae97303d6d8f9bccf725000404041fc9/aliyun-python-sdk-dds-3.7.9.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/e2/2d/31a0581ff6d0736f484d2826f2ba07487c21c99e263e1910729a8bfc4ae2/sparkdantic-0.9.3.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [trufflehog3]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [trufflehog3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trufflehog3-3.0.8.tar.gz tmp/trufflehog3-3.0.9.tar.gz --markdown 20240524/t/trufflehog3/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.3.0a5.tar.gz tmp/woningwaardering-0.3.0a6.tar.gz --markdown 20240524/w/woningwaardering/0.3.0a5-0.3.0a6/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [aliyun-python-sdk-dds]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [aliyun-python-sdk-dds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dds-3.7.8.tar.gz tmp/aliyun-python-sdk-dds-3.7.9.tar.gz --markdown 20240524/a/aliyun-python-sdk-dds/3.7.8-3.7.9/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [acepython]: Downloading https://files.pythonhosted.org/packages/5b/f4/3d7f6c6c7a1a16cf1c2c1bf41e7d25a865641876a286e167e895e50c96b6/acepython-0.0.9.tar.gz
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cv-smart-house-camera]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [cv-smart-house-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cv_smart_house_camera-0.1.5.tar.gz tmp/cv_smart_house_camera-0.1.6.tar.gz --markdown 20240524/c/cv-smart-house-camera/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [sparkdantic]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [sparkdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdantic-0.9.2.tar.gz tmp/sparkdantic-0.9.3.tar.gz --markdown 20240524/s/sparkdantic/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [acepython]: executing diffoscope
+[2024-05-24 11:24:53] INFO root fetch - processPackages [acepython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acepython-0.0.8.tar.gz tmp/acepython-0.0.9.tar.gz --markdown 20240524/a/acepython/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 11:24:53] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet_scotty-2024.5rc2.tar.gz]
+[2024-05-24 11:24:53] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet_scotty-2024.5rc5.tar.gz]
+[2024-05-24 11:24:53] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [trufflehog3]: Remove: archive file [/home/abi/fetcher/tmp/trufflehog3-3.0.8.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [trufflehog3]: Remove: archive file [/home/abi/fetcher/tmp/trufflehog3-3.0.9.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [trufflehog3]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.9.2.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.9.3.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [sparkdantic]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.2.9-py3-none-any.whl.zip]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.3-py3-none-any.whl.zip]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.8.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.9.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dds]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [cv-smart-house-camera]: Remove: archive file [/home/abi/fetcher/tmp/cv_smart_house_camera-0.1.5.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [cv-smart-house-camera]: Remove: archive file [/home/abi/fetcher/tmp/cv_smart_house_camera-0.1.6.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [cv-smart-house-camera]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [acepython]: Remove: archive file [/home/abi/fetcher/tmp/acepython-0.0.8.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [acepython]: Remove: archive file [/home/abi/fetcher/tmp/acepython-0.0.9.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - main [MainThread]: End processing [acepython]: success
+[2024-05-24 11:24:54] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a5.tar.gz]
+[2024-05-24 11:24:54] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a6.tar.gz]
+[2024-05-24 11:24:55] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-24 11:24:55] INFO root fetch - main [MainThread]: Store serial: [23359596]
