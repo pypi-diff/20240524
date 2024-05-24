@@ -19030,3 +19030,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:04:38] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
 [2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
 [2024-05-24 12:04:38] INFO root fetch - main [MainThread]: Store serial: [23360073]
+[2024-05-24 12:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360073]
+[2024-05-24 12:06:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flim-labs
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsgm
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-devs20230714
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wlkata-mirobot-Virtual
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cohere-haystack
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otpme
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygwalker
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yuekseltoprak888-de-toolkit
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: R4package1
+[2024-05-24 12:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qdrant-haystack
+[2024-05-24 12:06:48] INFO root fetch - processPackages [flim-labs]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-24 12:06:48] INFO root fetch - processPackages [otpme]: New version: [0.3.0a69] Old Version: [0.3.0a68]
+[2024-05-24 12:06:48] INFO root fetch - processPackages [qdrant-haystack]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-24 12:06:48] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/2b/a5/9d7ca1d525b2199503e6b84207b969e0bcb6beef3048cf3cad355d2ba539/flim_labs-1.0.7-cp39-none-win_amd64.whl
+[2024-05-24 12:06:48] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/93/e1/01d79fef29302cb17526963a0ae95acf931b96c517c30b47b3f3c78139fc/otpme-0.3.0a68.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [cohere-haystack]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-24 12:06:48] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/9e/91/53e0cf86853262b4cd8043dc5cfa44a2e4eaa55250337d6431e3c032ae79/qdrant_haystack-3.5.0.tar.gz
+[2024-05-24 12:06:48] WARNING root fetch - processPackages [yuekseltoprak888-de-toolkit]: Skipping, unable to determine old version
+[2024-05-24 12:06:48] INFO root fetch - main [MainThread]: End processing [yuekseltoprak888-de-toolkit] error
+[2024-05-24 12:06:48] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-24 12:06:48] WARNING root fetch - processPackages [alibabacloud-devs20230714]: Skipping, unable to determine old version
+[2024-05-24 12:06:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-devs20230714] error
+[2024-05-24 12:06:48] INFO root fetch - processPackages [tsgm]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 12:06:48] WARNING root fetch - processPackages [R4package1]: Skipping, unable to determine old version
+[2024-05-24 12:06:48] INFO root fetch - main [MainThread]: End processing [R4package1] error
+[2024-05-24 12:06:48] INFO root fetch - processPackages [pygwalker]: New version: [0.4.9a3] Old Version: [0.4.9a2]
+[2024-05-24 12:06:48] INFO root fetch - processPackages [cohere-haystack]: Downloading https://files.pythonhosted.org/packages/8e/36/acb21af0ee226283d04cd0c8061585ddc1a6d243ca58edbd740dba1abc90/cohere_haystack-1.0.0.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [tsgm]: Downloading https://files.pythonhosted.org/packages/b6/5e/f69310653998d032b90db61fa615f62f5986fb8a2fd445dff6fceb0128bb/tsgm-0.0.5.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/2c/0d/58bfa37cfa2d70fd0e3d453676731d1290323c1fbf309fb007e2118fa702/wlkata_mirobot_Virtual-2.0.0.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/82/e5/9c0d43db55f894717c52d914ccee9febfccf54befce7a4e566ee756f9c8e/pygwalker-0.4.9a2.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/3c/f3/8654952def676533f0f7a132c56c9d67d33c127eba8d381dffc2d27203a3/qdrant_haystack-3.6.0.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/97/bf/1e9f32b4bd313feb87eb49da5551b2d09d968c2d2fdfe0543a41ebb9ac99/flim_labs-1.0.9-cp39-none-win_amd64.whl
+[2024-05-24 12:06:48] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2024-05-24 12:06:48] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-3.5.0.tar.gz tmp/qdrant_haystack-3.6.0.tar.gz --markdown 20240524/q/qdrant-haystack/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-24 12:06:48] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/42/e8/86d1771d97aa3574a97d4fdd0137d317a3cd42401d602be60df28b3c2ecd/otpme-0.3.0a69.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [flim-labs]: executing diffoscope
+[2024-05-24 12:06:48] INFO root fetch - processPackages [flim-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip --markdown 20240524/f/flim-labs/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-24 12:06:48] INFO root fetch - processPackages [tsgm]: Downloading https://files.pythonhosted.org/packages/e8/3c/0006c9ad6bbe3277398b6fb5312e4f7c8f32d49b596d67a32512d9ca3cbf/tsgm-0.0.6.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/66/a2/c060c9feb9d926fdd07d92c77a8c1214c339b2972b4fa9c594584fb7787f/wlkata_mirobot_Virtual-2.0.1.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [cohere-haystack]: Downloading https://files.pythonhosted.org/packages/b8/e8/fc70bd4680b0381860c29107fdc030bb8a94e40c8cbb8a8f252f35186641/cohere_haystack-1.1.0.tar.gz
+[2024-05-24 12:06:48] INFO root fetch - processPackages [tsgm]: executing diffoscope
+[2024-05-24 12:06:48] INFO root fetch - processPackages [tsgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsgm-0.0.5.tar.gz tmp/tsgm-0.0.6.tar.gz --markdown 20240524/t/tsgm/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 12:06:48] INFO root fetch - processPackages [cohere-haystack]: executing diffoscope
+[2024-05-24 12:06:48] INFO root fetch - processPackages [cohere-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere_haystack-1.0.0.tar.gz tmp/cohere_haystack-1.1.0.tar.gz --markdown 20240524/c/cohere-haystack/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-24 12:06:48] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-24 12:06:48] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-2.0.0.tar.gz tmp/wlkata_mirobot_Virtual-2.0.1.tar.gz --markdown 20240524/w/wlkata-mirobot-Virtual/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-24 12:06:49] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 12:06:49] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a68.tar.gz tmp/otpme-0.3.0a69.tar.gz --markdown 20240524/o/otpme/0.3.0a68-0.3.0a69/README.md --exclude *.pyd
+[2024-05-24 12:06:49] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-3.5.0.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-3.6.0.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2024-05-24 12:06:49] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
+[2024-05-24 12:06:49] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-2.0.0.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-2.0.1.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-24 12:06:49] INFO root fetch - processPackages [tsgm]: Remove: archive file [/home/abi/fetcher/tmp/tsgm-0.0.5.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [tsgm]: Remove: archive file [/home/abi/fetcher/tmp/tsgm-0.0.6.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - main [MainThread]: End processing [tsgm]: success
+[2024-05-24 12:06:49] INFO root fetch - processPackages [cohere-haystack]: Remove: archive file [/home/abi/fetcher/tmp/cohere_haystack-1.0.0.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - processPackages [cohere-haystack]: Remove: archive file [/home/abi/fetcher/tmp/cohere_haystack-1.1.0.tar.gz]
+[2024-05-24 12:06:49] INFO root fetch - main [MainThread]: End processing [cohere-haystack]: success
+[2024-05-24 12:06:51] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a68.tar.gz]
+[2024-05-24 12:06:51] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a69.tar.gz]
+[2024-05-24 12:06:51] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 12:06:51] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f4/83/e04a8a041152e4eb155910dbf4cb2ce4f19db2fa28b18c71600e1146bd79/pygwalker-0.4.9a3.tar.gz
+[2024-05-24 12:06:51] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-05-24 12:06:51] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.9a2.tar.gz tmp/pygwalker-0.4.9a3.tar.gz --markdown 20240524/p/pygwalker/0.4.9a2-0.4.9a3/README.md --exclude *.pyd
+[2024-05-24 12:07:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a2.tar.gz]
+[2024-05-24 12:07:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
+[2024-05-24 12:07:22] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-05-24 12:07:22] INFO root fetch - main [MainThread]: Store serial: [23360111]
