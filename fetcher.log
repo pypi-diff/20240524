@@ -19965,3 +19965,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:37:16] INFO root fetch - processPackages [adjuster]: Remove: archive file [/home/abi/fetcher/tmp/adjuster-3.237.tar.gz]
 [2024-05-24 12:37:16] INFO root fetch - main [MainThread]: End processing [adjuster]: success
 [2024-05-24 12:37:16] INFO root fetch - main [MainThread]: Store serial: [23360449]
+[2024-05-24 12:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360449]
+[2024-05-24 12:39:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keycare
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cadprox
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cefi
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osw
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iamlistening
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skypilot-nightly
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gunshotmatch-cli
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mistapi
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MyLLM
+[2024-05-24 12:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyperclip-plus
+[2024-05-24 12:39:25] INFO root fetch - processPackages [cadprox]: New version: [2.2] Old Version: [2.1]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [keycare]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [pyperclip-plus]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240523] Old Version: [1.0.0.dev20240522]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/41/c6/5fbe7ed14b8a8bc0a8b3dd5af1b0c33e8decc882a36c1423ae9929a4e09e/pyperclip-plus-0.1.3.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/c5/1b/3f79de302c6d1bbbfb00ee0545a7f354c2e75b1e184c45089b39917aed73/cadprox-2.1.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [mistapi]: New version: [0.48.1] Old Version: [0.48.0]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/17/29/2f91ef0566dd884403980772202ef26deb8c8030a65cde16b50a74029b41/skypilot_nightly-1.0.0.dev20240522.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [gunshotmatch-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [cefi]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [iamlistening]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-05-24 12:39:25] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/18/cb/83f65601e76443e9bcc8c59a46feae88dfd0f124ce44ed921cabb1ba8c40/keycare-0.0.6.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/82/45/3201bee4a72a9ada4999dec3f62edc0b84870d84c11500d548b7b380f5d0/cadprox-2.2.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/e8/90/1ab8f929e7c7342e3914032959ce10cea7145e5a1656b1aa9edc5f80e06c/mistapi-0.48.0.tar.gz
+[2024-05-24 12:39:25] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/da/f1/92abbd2decfc0346c9278093c2658be60d63f0c11d27e14b5236615afc4f/cefi-4.7.0.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [gunshotmatch-cli]: Downloading https://files.pythonhosted.org/packages/2f/24/5f4a4764fe0cb03fc34bcec82881709f51f4f8e794b4f95d09c2f80e4a75/gunshotmatch_cli-0.8.0.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [pyperclip-plus]: Downloading https://files.pythonhosted.org/packages/b7/8b/d656f5caa49aa45d28b25aa3c6b4deb742ee50dc908796b8637493f937ad/pyperclip_plus-0.1.4.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.1.tar.gz tmp/cadprox-2.2.tar.gz --markdown 20240524/c/cadprox/2.1-2.2/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/e8/c3/101c863b0a62d2d041123c0f07e64fec7db243f7049bc3a236267fe841c9/keycare-0.0.7.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [pyperclip-plus]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [pyperclip-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperclip-plus-0.1.3.tar.gz tmp/pyperclip_plus-0.1.4.tar.gz --markdown 20240524/p/pyperclip-plus/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/a4/ce/ce849542f8340d0d4914c0acc1bca98e8ee1bbf1b59b92f711a103b35e22/skypilot_nightly-1.0.0.dev20240523.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.6.tar.gz tmp/keycare-0.0.7.tar.gz --markdown 20240524/k/keycare/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [gunshotmatch-cli]: Downloading https://files.pythonhosted.org/packages/a0/b9/18d2663d78ba1d5ec53109c64e5b5928abe1f53404e9c963e50c8a7407e6/gunshotmatch_cli-0.9.0.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/47/e3/a49454e49cbdca8ef1905b00ac583479f52df3f0099fc1f5d664109e7d05/cefi-4.7.1.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/60/b4/5a63357c4696f8b9000c1160526a81e2b771c7e9eeb280d8c54b3748d1f0/mistapi-0.48.1.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/1e/81/79876c2de874a7124601107f9019de809d107376866a30720062e102ab24/iamlistening-5.1.9.tar.gz
+[2024-05-24 12:39:26] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240522.tar.gz tmp/skypilot_nightly-1.0.0.dev20240523.tar.gz --markdown 20240524/s/skypilot-nightly/1.0.0.dev20240522-1.0.0.dev20240523/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240524/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [osw]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20240524/o/osw/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.8.tar.gz tmp/iamlistening-5.1.9.tar.gz --markdown 20240524/i/iamlistening/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [gunshotmatch-cli]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [gunshotmatch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gunshotmatch_cli-0.8.0.tar.gz tmp/gunshotmatch_cli-0.9.0.tar.gz --markdown 20240524/g/gunshotmatch-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.7.0.tar.gz tmp/cefi-4.7.1.tar.gz --markdown 20240524/c/cefi/4.7.0-4.7.1/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2024-05-24 12:39:26] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.48.0.tar.gz tmp/mistapi-0.48.1.tar.gz --markdown 20240524/m/mistapi/0.48.0-0.48.1/README.md --exclude *.pyd
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.1.tar.gz]
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.2.tar.gz]
+[2024-05-24 12:39:26] INFO root fetch - processPackages [cadprox]: Start processing: slither-app
+[2024-05-24 12:39:26] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:39:26] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip-plus-0.1.3.tar.gz]
+[2024-05-24 12:39:26] INFO root fetch - processPackages [pyperclip-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyperclip_plus-0.1.4.tar.gz]
+[2024-05-24 12:39:26] INFO root fetch - main [MainThread]: End processing [pyperclip-plus]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [slither-app]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.6.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.7.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [slither-app]: Downloading https://files.pythonhosted.org/packages/f6/c9/cff3cfdfce11bbcaeb09ea4985893f21f9136aef967a862c968d63beebed/slither_app-0.0.7.tar.gz
+[2024-05-24 12:39:27] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.9.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [gunshotmatch-cli]: Remove: archive file [/home/abi/fetcher/tmp/gunshotmatch_cli-0.8.0.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [gunshotmatch-cli]: Remove: archive file [/home/abi/fetcher/tmp/gunshotmatch_cli-0.9.0.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [gunshotmatch-cli]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.7.0.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.7.1.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [slither-app]: Downloading https://files.pythonhosted.org/packages/09/b5/5b44c8bd6fed959538d7f4e2d90d5a1a2733acb87a0a269da8a0d7d22350/slither_app-0.0.8.tar.gz
+[2024-05-24 12:39:27] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2024-05-24 12:39:27] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2024-05-24 12:39:27] INFO root fetch - processPackages [slither-app]: executing diffoscope
+[2024-05-24 12:39:27] INFO root fetch - processPackages [slither-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slither_app-0.0.7.tar.gz tmp/slither_app-0.0.8.tar.gz --markdown 20240524/s/slither-app/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 12:39:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240522.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240523.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-24 12:39:28] INFO root fetch - processPackages [slither-app]: Remove: archive file [/home/abi/fetcher/tmp/slither_app-0.0.7.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - processPackages [slither-app]: Remove: archive file [/home/abi/fetcher/tmp/slither_app-0.0.8.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - main [MainThread]: End processing [slither-app]: success
+[2024-05-24 12:39:28] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.0.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.1.tar.gz]
+[2024-05-24 12:39:28] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2024-05-24 12:39:28] INFO root fetch - main [MainThread]: Store serial: [23360488]
