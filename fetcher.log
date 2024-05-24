@@ -15769,3 +15769,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:22:31] INFO root fetch - processPackages [sri-check]: Remove: archive file [/home/abi/fetcher/tmp/sri-check-1.9.0.tar.gz]
 [2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [sri-check]: success
 [2024-05-24 10:22:31] INFO root fetch - main [MainThread]: Store serial: [23358639]
+[2024-05-24 10:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358639]
+[2024-05-24 10:24:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretix-pages
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodify
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unified-planning
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rsscrawler
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-passbook
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dashtable2
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RecoLul
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2024-05-24 10:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py2exe-gui
+[2024-05-24 10:24:41] INFO root fetch - processPackages [nodify]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [dashtable2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.62.dev1]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-pages]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [RecoLul]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/2c/5c/5433fa948c35d2459bfd9018b23a4f8f0dce7edb5e5960e162be03c095a9/nodify-0.0.7.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/de/08/10145a7ea263a96146f3307130c92d01878542e398e475cb315545f3b910/dashtable2-1.4.8.tar.gz
+[2024-05-24 10:24:41] WARNING root fetch - processPackages [rsscrawler]: Skipping, unable to determine old version
+[2024-05-24 10:24:41] INFO root fetch - main [MainThread]: End processing [rsscrawler] error
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-passbook]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [py2exe-gui]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/8e/87/b0a081f581e8f129d314d59eb63c1f8d56dd82030025a87aa05a4b458ce3/unified_planning-1.1.0.62.dev1.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-pages]: Downloading https://files.pythonhosted.org/packages/1d/64/8d64abb7c05900860392bff1fc4fb084a3e9e7d570527ad9f7018c6cabbd/pretix-pages-1.6.0.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-passbook]: Downloading https://files.pythonhosted.org/packages/d8/26/871292b6c4a5eec3901ba260585dac54a7bce4b29438ad0881ee7ec785e6/pretix-passbook-1.9.0.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [RecoLul]: Downloading https://files.pythonhosted.org/packages/29/c9/77be5819cb245e470f3ad847f79c78900e436b3153626a7d6dc7710bf91e/RecoLul-1.8.0.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/98/6c/d1db4d289833af3ab19cd26ef013a389de43e6fffe50950a6db8f8b1f488/dashtable2-1.4.9.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [py2exe-gui]: Downloading https://files.pythonhosted.org/packages/4f/19/786a6b116ff1e5684445e82b8f1afc4515e5f4a9a1b8c560e7decbc441e8/py2exe_gui-0.3.1.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/a0/fb/1f085300b3e17f084eb925b97ec3f6cb0da9723163bcee246771bc84ddd1/nodify-0.0.8.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [dashtable2]: executing diffoscope
+[2024-05-24 10:24:41] INFO root fetch - processPackages [dashtable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtable2-1.4.8.tar.gz tmp/dashtable2-1.4.9.tar.gz --markdown 20240524/d/dashtable2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-24 10:24:41] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-05-24 10:24:41] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.62.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240524/u/unified-planning/1.1.0.62.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-05-24 10:24:41] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-pages]: Downloading https://files.pythonhosted.org/packages/e4/6a/801756475dd7bf6e52e7c570ceb34eeb73696d789ea352b1d716ed5d4864/pretix_pages-1.6.1.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [pretix-passbook]: Downloading https://files.pythonhosted.org/packages/08/66/cb0b27ac219cef59b6332642e32d18bc2784a09c2b7862efd75ca700a70a/pretix-passbook-1.9.1.tar.gz
+[2024-05-24 10:24:41] INFO root fetch - processPackages [RecoLul]: Downloading https://files.pythonhosted.org/packages/ca/49/5f550fd9ff0be4f5545d8a1e5bbeabc4b8cb345b0fc1894c45d854f0f1c9/RecoLul-1.9.0.tar.gz
+[2024-05-24 10:24:42] INFO root fetch - processPackages [py2exe-gui]: Downloading https://files.pythonhosted.org/packages/f0/af/cd9af73f7773b3dd1af7249f8a98b32987cb75008d1b34d6f2c088da4c3f/py2exe_gui-0.3.2.tar.gz
+[2024-05-24 10:24:42] INFO root fetch - processPackages [pretix-pages]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [pretix-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-pages-1.6.0.tar.gz tmp/pretix_pages-1.6.1.tar.gz --markdown 20240524/p/pretix-pages/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [nodify]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [nodify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodify-0.0.7.tar.gz tmp/nodify-0.0.8.tar.gz --markdown 20240524/n/nodify/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-24 10:24:42] INFO root fetch - processPackages [RecoLul]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [RecoLul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RecoLul-1.8.0.tar.gz tmp/RecoLul-1.9.0.tar.gz --markdown 20240524/R/RecoLul/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [pretix-passbook]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [pretix-passbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-passbook-1.9.0.tar.gz tmp/pretix-passbook-1.9.1.tar.gz --markdown 20240524/p/pretix-passbook/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [py2exe-gui]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [py2exe-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2exe_gui-0.3.1.tar.gz tmp/py2exe_gui-0.3.2.tar.gz --markdown 20240524/p/py2exe-gui/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.8.tar.gz]
+[2024-05-24 10:24:42] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.9.tar.gz]
+[2024-05-24 10:24:42] INFO root fetch - main [MainThread]: End processing [dashtable2]: success
+[2024-05-24 10:24:42] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-24 10:24:42] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-24 10:24:42] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240524/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-24 10:24:42] INFO root fetch - processPackages [RecoLul]: Remove: archive file [/home/abi/fetcher/tmp/RecoLul-1.8.0.tar.gz]
+[2024-05-24 10:24:42] INFO root fetch - processPackages [RecoLul]: Remove: archive file [/home/abi/fetcher/tmp/RecoLul-1.9.0.tar.gz]
+[2024-05-24 10:24:42] INFO root fetch - main [MainThread]: End processing [RecoLul]: success
+[2024-05-24 10:24:43] INFO root fetch - processPackages [pretix-passbook]: Remove: archive file [/home/abi/fetcher/tmp/pretix-passbook-1.9.0.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - processPackages [pretix-passbook]: Remove: archive file [/home/abi/fetcher/tmp/pretix-passbook-1.9.1.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - main [MainThread]: End processing [pretix-passbook]: success
+[2024-05-24 10:24:43] INFO root fetch - processPackages [pretix-pages]: Remove: archive file [/home/abi/fetcher/tmp/pretix-pages-1.6.0.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - processPackages [pretix-pages]: Remove: archive file [/home/abi/fetcher/tmp/pretix_pages-1.6.1.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - main [MainThread]: End processing [pretix-pages]: success
+[2024-05-24 10:24:43] INFO root fetch - processPackages [py2exe-gui]: Remove: archive file [/home/abi/fetcher/tmp/py2exe_gui-0.3.1.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - processPackages [py2exe-gui]: Remove: archive file [/home/abi/fetcher/tmp/py2exe_gui-0.3.2.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - main [MainThread]: End processing [py2exe-gui]: success
+[2024-05-24 10:24:43] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.7.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.8.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - main [MainThread]: End processing [nodify]: success
+[2024-05-24 10:24:43] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.62.dev1.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-05-24 10:24:43] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-05-24 10:24:45] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-24 10:24:45] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-24 10:24:45] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-24 10:24:45] INFO root fetch - main [MainThread]: Store serial: [23358669]
