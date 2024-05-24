@@ -13089,3 +13089,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:45:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.60-py3-none-any.whl.zip]
 [2024-05-24 08:45:17] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-24 08:45:17] INFO root fetch - main [MainThread]: Store serial: [23357541]
+[2024-05-24 08:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357541]
+[2024-05-24 08:47:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 08:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ete-pass
+[2024-05-24 08:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-task-pull-request
+[2024-05-24 08:47:26] WARNING root fetch - processPackages [ete-pass]: Skipping, unable to determine old version
+[2024-05-24 08:47:26] INFO root fetch - main [MainThread]: End processing [ete-pass] error
+[2024-05-24 08:47:26] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-24 08:47:26] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/06/dd/009ce447ef5994df1883d1eb9ba9e460336bba560039ca798db39c92b441/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 08:47:26] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Downloading https://files.pythonhosted.org/packages/40/3c/5c934a7d57894a6a5529319cab38332f89da6e851a6ff39dea7acb55864e/odoo_addon_project_task_pull_request-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 08:47:26] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: executing diffoscope
+[2024-05-24 08:47:26] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-project-task-pull-request/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 08:47:27] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 08:47:27] INFO root fetch - processPackages [odoo-addon-project-task-pull-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_pull_request-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 08:47:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-pull-request]: success
+[2024-05-24 08:47:27] INFO root fetch - main [MainThread]: Store serial: [23357546]
