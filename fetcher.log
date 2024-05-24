@@ -11724,3 +11724,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:39:41] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.6.dev1.tar.gz]
 [2024-05-24 07:39:41] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
 [2024-05-24 07:39:41] INFO root fetch - main [MainThread]: Store serial: [23356833]
+[2024-05-24 07:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356833]
+[2024-05-24 07:41:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyHAMS
+[2024-05-24 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MAMMAL-MagNav
+[2024-05-24 07:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localizable
+[2024-05-24 07:41:51] INFO root fetch - processPackages [pyHAMS]: New version: [1.3.0] Old Version: [1.1.0]
+[2024-05-24 07:41:51] INFO root fetch - processPackages [localizable]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 07:41:51] WARNING root fetch - processPackages [MAMMAL-MagNav]: Skipping, unable to determine old version
+[2024-05-24 07:41:51] INFO root fetch - main [MainThread]: End processing [MAMMAL-MagNav] error
+[2024-05-24 07:41:51] INFO root fetch - processPackages [localizable]: Downloading https://files.pythonhosted.org/packages/d8/3d/9ec328461f97cb7fbd41b09160190914dd0d7c3bb9195beadb6518997a8c/localizable-0.1.2.tar.gz
+[2024-05-24 07:41:51] INFO root fetch - processPackages [pyHAMS]: Downloading https://files.pythonhosted.org/packages/1a/7c/c9ca903186b731b0e90eeccf08b2d0d1bcc1b3c6295dff20818f214e9506/pyHAMS-1.1.0.tar.gz
+[2024-05-24 07:41:51] INFO root fetch - processPackages [localizable]: Downloading https://files.pythonhosted.org/packages/f3/4f/41a646026e646ff18525168e0b86f54373329a0ab61a420ba43b6a8d2caa/localizable-0.1.3.tar.gz
+[2024-05-24 07:41:52] INFO root fetch - processPackages [localizable]: executing diffoscope
+[2024-05-24 07:41:52] INFO root fetch - processPackages [localizable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localizable-0.1.2.tar.gz tmp/localizable-0.1.3.tar.gz --markdown 20240524/l/localizable/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 07:41:52] INFO root fetch - processPackages [localizable]: Remove: archive file [/home/abi/fetcher/tmp/localizable-0.1.2.tar.gz]
+[2024-05-24 07:41:52] INFO root fetch - processPackages [localizable]: Remove: archive file [/home/abi/fetcher/tmp/localizable-0.1.3.tar.gz]
+[2024-05-24 07:41:52] INFO root fetch - main [MainThread]: End processing [localizable]: success
+[2024-05-24 07:41:52] INFO root fetch - processPackages [pyHAMS]: Downloading https://files.pythonhosted.org/packages/06/7f/b0f60ac7692bc46e30a62b1d960b7715e5c03735f1ca4b2845dbfa736713/pyhams-1.3.0.tar.gz
+[2024-05-24 07:41:52] INFO root fetch - processPackages [pyHAMS]: executing diffoscope
+[2024-05-24 07:41:52] INFO root fetch - processPackages [pyHAMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHAMS-1.1.0.tar.gz tmp/pyhams-1.3.0.tar.gz --markdown 20240524/p/pyHAMS/1.1.0-1.3.0/README.md --exclude *.pyd
+[2024-05-24 07:41:53] INFO root fetch - processPackages [pyHAMS]: Remove: archive file [/home/abi/fetcher/tmp/pyHAMS-1.1.0.tar.gz]
+[2024-05-24 07:41:53] INFO root fetch - processPackages [pyHAMS]: Remove: archive file [/home/abi/fetcher/tmp/pyhams-1.3.0.tar.gz]
+[2024-05-24 07:41:53] INFO root fetch - main [MainThread]: End processing [pyHAMS]: success
+[2024-05-24 07:41:53] INFO root fetch - main [MainThread]: Store serial: [23356882]
