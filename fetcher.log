@@ -18108,3 +18108,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:31:31] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-24 11:31:31] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-24 11:31:31] INFO root fetch - main [MainThread]: Store serial: [23359671]
+[2024-05-24 11:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359671]
+[2024-05-24 11:33:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bstk-notitia
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundamend
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-outlook-email-backend
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toucan-connectors
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rottentomatoes-reviews-scraper
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbluemind5
+[2024-05-24 11:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerc-hub
+[2024-05-24 11:33:40] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [cerc-hub]: New version: [0.2.0.3] Old Version: [0.2.0.2]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [toucan-connectors]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [django-outlook-email-backend]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [netbluemind5]: New version: [5.0.7417] Old Version: [5.0.7397]
+[2024-05-24 11:33:40] INFO root fetch - processPackages [bstk-notitia]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-24 11:33:40] WARNING root fetch - processPackages [fundamend]: Skipping, unable to determine old version
+[2024-05-24 11:33:40] INFO root fetch - main [MainThread]: End processing [fundamend] error
+[2024-05-24 11:33:40] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/40/1a/d636b21100f68befaa91e3dd0d846e5abf0684098e10dbc217b3ffaa8390/PyQtUIkit-2.9.3.tar.gz
+[2024-05-24 11:33:40] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/97/c9/760dc10a56afeee59860697eaf3dbbca91717eff666255d6f73f472590da/cerc_hub-0.2.0.2.tar.gz
+[2024-05-24 11:33:40] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/b8/ac/26374c223db9fd6eef4c338fb825b79031086f0891492cdd0a9e4d7a22ef/toucan_connectors-6.1.1.tar.gz
+[2024-05-24 11:33:40] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: Downloading https://files.pythonhosted.org/packages/87/1f/e557a5c51f23c95ba2bf3674dd4fce9cb936a96e319f21889fd56018c942/rottentomatoes-reviews-scraper-0.0.1.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/04/d1/bbfba92d06c505c8bf6c51f9ece699e17d2c104e541e2012dad12a173761/django_outlook_email_backend-1.1.8.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [bstk-notitia]: Downloading https://files.pythonhosted.org/packages/26/59/2d03d21774c8210ebc8c22e790dc0d63a561a3a67a8efff6da6e4ca6fb93/bstk_notitia-0.4.0.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/56/dd/48ba53658e1fd3ee109f675d94ea782d3befc38b58524b5ac87c700d9937/netbluemind5-5.0.7397.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/e7/77/fa978eac98c8eb5f519394b8b4f1a9c3ce894a4e6b51eaa5be0e306126db/toucan_connectors-6.1.2.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2e/47/9c7a845880448933cbadbbdb3aaa39eeee86fa65f22173af1bdc3833e09d/PyQtUIkit-2.9.4.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/92/89/ec32757e7e35af1d14daf0ab6d6eeef0f5e1b92fb5c2637438f7ac77eed0/django_outlook_email_backend-1.1.9.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: Downloading https://files.pythonhosted.org/packages/3b/3a/1b0bee61be77dfa13f468d7d3fc078f8f743392229563ab1a5bed6ccde7d/rottentomatoes-reviews-scraper-0.0.2.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/9f/49/f91004f08be213301ef161b4a85df0284d054887901a8f7227ffadf36f46/netbluemind5-5.0.7417.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/e6/0d/806c1d9635bd39bc3109e7148674d410f0d0a8e98c50f0b67149071aee8f/cerc_hub-0.2.0.3.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [bstk-notitia]: Downloading https://files.pythonhosted.org/packages/d8/a2/8439cd87bbcb17856a492a8414d61dbe9186694a5dad480fd98c84e272a1/bstk_notitia-0.5.0.tar.gz
+[2024-05-24 11:33:41] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-6.1.1.tar.gz tmp/toucan_connectors-6.1.2.tar.gz --markdown 20240524/t/toucan-connectors/6.1.1-6.1.2/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rottentomatoes-reviews-scraper-0.0.1.tar.gz tmp/rottentomatoes-reviews-scraper-0.0.2.tar.gz --markdown 20240524/r/rottentomatoes-reviews-scraper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [bstk-notitia]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [bstk-notitia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstk_notitia-0.4.0.tar.gz tmp/bstk_notitia-0.5.0.tar.gz --markdown 20240524/b/bstk-notitia/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [django-outlook-email-backend]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [django-outlook-email-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_outlook_email_backend-1.1.8.tar.gz tmp/django_outlook_email_backend-1.1.9.tar.gz --markdown 20240524/d/django-outlook-email-backend/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [netbluemind5]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [netbluemind5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind5-5.0.7397.tar.gz tmp/netbluemind5-5.0.7417.tar.gz --markdown 20240524/n/netbluemind5/5.0.7397-5.0.7417/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.9.3.tar.gz tmp/PyQtUIkit-2.9.4.tar.gz --markdown 20240524/P/PyQtUIkit/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-24 11:33:41] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2024-05-24 11:33:41] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc_hub-0.2.0.2.tar.gz tmp/cerc_hub-0.2.0.3.tar.gz --markdown 20240524/c/cerc-hub/0.2.0.2-0.2.0.3/README.md --exclude *.pyd
+[2024-05-24 11:33:42] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/rottentomatoes-reviews-scraper-0.0.1.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - processPackages [rottentomatoes-reviews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/rottentomatoes-reviews-scraper-0.0.2.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - main [MainThread]: End processing [rottentomatoes-reviews-scraper]: success
+[2024-05-24 11:33:42] INFO root fetch - processPackages [bstk-notitia]: Remove: archive file [/home/abi/fetcher/tmp/bstk_notitia-0.4.0.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - processPackages [bstk-notitia]: Remove: archive file [/home/abi/fetcher/tmp/bstk_notitia-0.5.0.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - main [MainThread]: End processing [bstk-notitia]: success
+[2024-05-24 11:33:42] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.1.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-6.1.2.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2024-05-24 11:33:42] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.1.8.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.1.9.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - main [MainThread]: End processing [django-outlook-email-backend]: success
+[2024-05-24 11:33:42] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.3.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
+[2024-05-24 11:33:42] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-24 11:33:44] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7397.tar.gz]
+[2024-05-24 11:33:44] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7417.tar.gz]
+[2024-05-24 11:33:44] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
+[2024-05-24 11:33:44] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.2.tar.gz]
+[2024-05-24 11:33:44] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.3.tar.gz]
+[2024-05-24 11:33:44] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2024-05-24 11:33:44] INFO root fetch - main [MainThread]: Store serial: [23359697]
