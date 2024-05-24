@@ -21928,3 +21928,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:43:41] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a75.tar.gz]
 [2024-05-24 13:43:41] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-05-24 13:43:41] INFO root fetch - main [MainThread]: Store serial: [23361308]
+[2024-05-24 13:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361308]
+[2024-05-24 13:45:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyanfis
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2-cdk
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otpme
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastly
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fpb
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: authwa
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accsr
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taurex-madhuseager2009
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: misleep
+[2024-05-24 13:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cadprox
+[2024-05-24 13:45:51] INFO root fetch - processPackages [pyanfis]: New version: [0.1.3] Old Version: [0.1]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [taurex-madhuseager2009]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [fpb]: New version: [0.5] Old Version: [0.4]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [cadprox]: New version: [3.5] Old Version: [3.4]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [otpme]: New version: [0.3.0a75] Old Version: [0.3.0a74]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [fastly]: New version: [5.3.0] Old Version: [5.2.0]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/cc/a7/c85ae559727ca310deb14c3cafae1c6eb373af07a233f0aae45d1008a928/pyanfis-0.1.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [accsr]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-24 13:45:51] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/50/62/eac8a153cea67864bc32eefa79a1e5f9a63f08527f23792eba68b338969b/fpb-0.4.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/36/4f/39e32ff934dc7973e6c498fea2b4e4d3ce53dc631b40bbce28f24e3a33fe/cadprox-3.4.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/dc/49/0450c24ba685fc5b7eec6ebf466c50ed11845eee810484cd756e8468cb37/otpme-0.3.0a74.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2024-05-24 13:45:51] INFO root fetch - processPackages [taurex-madhuseager2009]: Downloading https://files.pythonhosted.org/packages/7e/4b/31764023db67c9a068f0d5f28aa9df6cefb83dddc50914c66cb00653c1ef/taurex_madhuseager2009-0.0.1.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [accsr]: Downloading https://files.pythonhosted.org/packages/a9/5e/c9c04a80beeaccb1b5ba3427e2664eb141d82e30773220c5c29fc41c8cce/accsr-0.4.6.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/96/47/d5838b467cffebf5a5c8517f2c0a426e34b45c31a68dc197834db92b341c/fastly-5.2.0.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/9c/4f/b6cb1c31a57500943f28f1827576b32d78f8797a11efade03feee703a1c8/pyanfis-0.1.3.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [fpb]: Downloading https://files.pythonhosted.org/packages/08/f3/441a90165f58c81a18b2ec16bb30dcb02922af05f2ec7f626c3a2855c534/fpb-0.5.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [pyanfis]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [pyanfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanfis-0.1.tar.gz tmp/pyanfis-0.1.3.tar.gz --markdown 20240524/p/pyanfis/0.1-0.1.3/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/bb/a8/24f9afc7e41a3528475ddfca59674cbb54696b1eb4d338e765347fed20ff/cadprox-3.5.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [taurex-madhuseager2009]: Downloading https://files.pythonhosted.org/packages/e5/ad/5af5bca1352322c02778fdb25f0d85e505a82638c6e4c68feb8466e25c6b/taurex_madhuseager2009-0.0.2.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [fpb]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [fpb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpb-0.4.tar.gz tmp/fpb-0.5.tar.gz --markdown 20240524/f/fpb/0.4-0.5/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.4.tar.gz tmp/cadprox-3.5.tar.gz --markdown 20240524/c/cadprox/3.4-3.5/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [accsr]: Downloading https://files.pythonhosted.org/packages/10/3c/5ecc88ab1fa847ba719e78b63b78262958002442207c6e73b22c4d50fd02/accsr-0.4.7.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [taurex-madhuseager2009]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [taurex-madhuseager2009]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taurex_madhuseager2009-0.0.1.tar.gz tmp/taurex_madhuseager2009-0.0.2.tar.gz --markdown 20240524/t/taurex-madhuseager2009/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20240524/g/gs2-cdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/e0/e2/c8f14299c7d5be2106d46993cd6e785f4fff5e2b7118a1590023689797c0/otpme-0.3.0a75.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/b4/d0/716451278de6640a2d399d81b0a6b96945774751d0292302f61f7ec70949/fastly-5.3.0.tar.gz
+[2024-05-24 13:45:52] INFO root fetch - processPackages [accsr]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [accsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accsr-0.4.6.tar.gz tmp/accsr-0.4.7.tar.gz --markdown 20240524/a/accsr/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-24 13:45:52] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 13:45:52] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a74.tar.gz tmp/otpme-0.3.0a75.tar.gz --markdown 20240524/o/otpme/0.3.0a74-0.3.0a75/README.md --exclude *.pyd
+[2024-05-24 13:45:53] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2024-05-24 13:45:53] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-5.2.0.tar.gz tmp/fastly-5.3.0.tar.gz --markdown 20240524/f/fastly/5.2.0-5.3.0/README.md --exclude *.pyd
+[2024-05-24 13:45:53] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.3.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [pyanfis]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.4.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [fpb]: Remove: archive file [/home/abi/fetcher/tmp/fpb-0.5.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [fpb]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.4.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.5.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [accsr]: Remove: archive file [/home/abi/fetcher/tmp/accsr-0.4.6.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [accsr]: Remove: archive file [/home/abi/fetcher/tmp/accsr-0.4.7.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [accsr]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [taurex-madhuseager2009]: Remove: archive file [/home/abi/fetcher/tmp/taurex_madhuseager2009-0.0.1.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - processPackages [taurex-madhuseager2009]: Remove: archive file [/home/abi/fetcher/tmp/taurex_madhuseager2009-0.0.2.tar.gz]
+[2024-05-24 13:45:53] INFO root fetch - main [MainThread]: End processing [taurex-madhuseager2009]: success
+[2024-05-24 13:45:53] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-24 13:45:53] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240524/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-24 13:45:54] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-24 13:45:54] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-24 13:45:54] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-24 13:45:54] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2024-05-24 13:45:54] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2024-05-24 13:45:54] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2024-05-24 13:45:55] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a74.tar.gz]
+[2024-05-24 13:45:55] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a75.tar.gz]
+[2024-05-24 13:45:55] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 13:46:08] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-5.2.0.tar.gz]
+[2024-05-24 13:46:08] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-5.3.0.tar.gz]
+[2024-05-24 13:46:08] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2024-05-24 13:46:08] INFO root fetch - main [MainThread]: Store serial: [23361334]
