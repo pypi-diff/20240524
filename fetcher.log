@@ -11028,3 +11028,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:58:13] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.tar.gz]
 [2024-05-24 06:58:13] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
 [2024-05-24 06:58:13] INFO root fetch - main [MainThread]: Store serial: [23356592]
+[2024-05-24 07:00:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356592]
+[2024-05-24 07:00:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 07:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htmltestreport-ably
+[2024-05-24 07:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdnmon
+[2024-05-24 07:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-analyzer
+[2024-05-24 07:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whyhow
+[2024-05-24 07:00:22] WARNING root fetch - processPackages [htmltestreport-ably]: Skipping, unable to determine old version
+[2024-05-24 07:00:22] INFO root fetch - main [MainThread]: End processing [htmltestreport-ably] error
+[2024-05-24 07:00:22] INFO root fetch - processPackages [torch-analyzer]: New version: [1.0] Old Version: [0.2]
+[2024-05-24 07:00:22] INFO root fetch - processPackages [cdnmon]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-24 07:00:22] INFO root fetch - processPackages [torch-analyzer]: Downloading https://files.pythonhosted.org/packages/a4/c2/2af1dcc679c12044f2f8d7766c5896b39e2064cfa5ad94c68bc39b7d5a7c/torch_analyzer-0.2.tar.gz
+[2024-05-24 07:00:22] INFO root fetch - processPackages [whyhow]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 07:00:22] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/02/30/dba999d5153d9cf9f4c54cb127a3ca617059cbb4eee8c6a5717bd9052786/cdnmon-0.5.1.tar.gz
+[2024-05-24 07:00:22] INFO root fetch - processPackages [torch-analyzer]: Downloading https://files.pythonhosted.org/packages/c7/87/86871c93fbfcef512d31635b07c38127772c8b8be51d4de15abfa2bcc160/torch_analyzer-1.0.tar.gz
+[2024-05-24 07:00:22] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/5a/b3/a47a1b4a8202cecc98233fd96f76cf0c21a4950683dfc0bc093892b0fd20/whyhow-0.0.5.tar.gz
+[2024-05-24 07:00:22] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/2e/7f/7afc21efd31accfb335c7dda9ebe911eb7f3d78d82bb2c8a14a73593a773/cdnmon-0.5.2-py3-none-any.whl
+[2024-05-24 07:00:23] INFO root fetch - processPackages [torch-analyzer]: executing diffoscope
+[2024-05-24 07:00:23] INFO root fetch - processPackages [torch-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_analyzer-0.2.tar.gz tmp/torch_analyzer-1.0.tar.gz --markdown 20240524/t/torch-analyzer/0.2-1.0/README.md --exclude *.pyd
+[2024-05-24 07:00:23] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-24 07:00:23] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.5.1.tar.gz tmp/cdnmon-0.5.2-py3-none-any.whl.zip --markdown 20240524/c/cdnmon/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/60/68/f91b67e110a603c4a98c519edab04a8ca0d701a729c0a6e2730c5a113146/whyhow-0.0.6.tar.gz
+[2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: executing diffoscope
+[2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyhow-0.0.5.tar.gz tmp/whyhow-0.0.6.tar.gz --markdown 20240524/w/whyhow/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 07:00:23] INFO root fetch - processPackages [torch-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/torch_analyzer-0.2.tar.gz]
+[2024-05-24 07:00:23] INFO root fetch - processPackages [torch-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/torch_analyzer-1.0.tar.gz]
+[2024-05-24 07:00:23] INFO root fetch - main [MainThread]: End processing [torch-analyzer]: success
+[2024-05-24 07:00:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.1.tar.gz]
+[2024-05-24 07:00:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.2-py3-none-any.whl.zip]
+[2024-05-24 07:00:23] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.5.tar.gz]
+[2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.6.tar.gz]
+[2024-05-24 07:00:23] INFO root fetch - main [MainThread]: End processing [whyhow]: success
+[2024-05-24 07:00:23] INFO root fetch - main [MainThread]: Store serial: [23356611]
