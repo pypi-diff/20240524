@@ -22364,3 +22364,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:57:39] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev0.tar.gz]
 [2024-05-24 13:57:39] INFO root fetch - main [MainThread]: End processing [xcube-core]: success
 [2024-05-24 13:57:39] INFO root fetch - main [MainThread]: Store serial: [23361468]
+[2024-05-24 13:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361468]
+[2024-05-24 13:59:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 13:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timesfm
+[2024-05-24 13:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoxJS
+[2024-05-24 13:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: power-grid-model
+[2024-05-24 13:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beamlime
+[2024-05-24 13:59:49] INFO root fetch - processPackages [timesfm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 13:59:49] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/76/85/61a0a1dde9018c8ff939a411abff3fa785f0afe7f8ad51507c62f562e606/timesfm-0.0.7.tar.gz
+[2024-05-24 13:59:49] WARNING root fetch - processPackages [AutoxJS]: Skipping, unable to determine old version
+[2024-05-24 13:59:49] INFO root fetch - main [MainThread]: End processing [AutoxJS] error
+[2024-05-24 13:59:49] INFO root fetch - processPackages [beamlime]: New version: [24.5] Old Version: [23.3.0.dev0]
+[2024-05-24 13:59:49] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-24 13:59:49] INFO root fetch - processPackages [beamlime]: Downloading https://files.pythonhosted.org/packages/c2/57/914ae37fc08602369918ce9f919c5f687e71e358baaef54ac895d5ef5b65/beamlime-23.3.0.dev0.tar.gz
+[2024-05-24 13:59:49] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/59/9c/c7f5dd5992783901f9a046c0a2fd02e1e7e8818dae9c477b471fd69f5a24/timesfm-0.0.8.tar.gz
+[2024-05-24 13:59:49] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-24 13:59:49] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:59:49] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.7.tar.gz tmp/timesfm-0.0.8.tar.gz --markdown 20240524/t/timesfm/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 13:59:49] INFO root fetch - processPackages [beamlime]: Downloading https://files.pythonhosted.org/packages/08/3b/5bac1f25c63eb512b43ce98f75b2cae65c05f92cd8f2210aaa8b7e66e068/beamlime-24.5.tar.gz
+[2024-05-24 13:59:50] INFO root fetch - processPackages [beamlime]: executing diffoscope
+[2024-05-24 13:59:50] INFO root fetch - processPackages [beamlime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamlime-23.3.0.dev0.tar.gz tmp/beamlime-24.5.tar.gz --markdown 20240524/b/beamlime/23.3.0.dev0-24.5/README.md --exclude *.pyd
+[2024-05-24 13:59:50] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-24 13:59:50] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.7.tar.gz]
+[2024-05-24 13:59:50] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.8.tar.gz]
+[2024-05-24 13:59:50] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:59:50] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-24 13:59:50] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240524/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-24 13:59:50] INFO root fetch - processPackages [beamlime]: Remove: archive file [/home/abi/fetcher/tmp/beamlime-23.3.0.dev0.tar.gz]
+[2024-05-24 13:59:50] INFO root fetch - processPackages [beamlime]: Remove: archive file [/home/abi/fetcher/tmp/beamlime-24.5.tar.gz]
+[2024-05-24 13:59:50] INFO root fetch - main [MainThread]: End processing [beamlime]: success
+[2024-05-24 13:59:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-24 13:59:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-24 13:59:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-24 13:59:52] INFO root fetch - main [MainThread]: Store serial: [23361493]
