@@ -2802,3 +2802,56 @@
 [2024-05-24 02:37:27] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.6.5.tar.gz]
 [2024-05-24 02:37:27] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
 [2024-05-24 02:37:27] INFO root fetch - main [MainThread]: Store serial: [23353650]
+[2024-05-24 02:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353650]
+[2024-05-24 02:39:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icloudpd
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automvs
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isolate
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openad
+[2024-05-24 02:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kafka
+[2024-05-24 02:39:37] INFO root fetch - processPackages [keras-nlp]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2024-05-24 02:39:37] INFO root fetch - processPackages [automvs]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 02:39:37] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/83/32/20a22225dd8137c13005edaf0bb6cdfdd488c90f8a7e510791538ce36506/keras-nlp-0.9.3.tar.gz
+[2024-05-24 02:39:37] INFO root fetch - processPackages [openad]: New version: [0.3.0] Old Version: [0.2.7]
+[2024-05-24 02:39:37] INFO root fetch - processPackages [isolate]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-24 02:39:37] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-24 02:39:38] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1716509240] Old Version: [3.8.0a1715924897]
+[2024-05-24 02:39:38] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/45/74/0086c67bc40de18c4543b2cffd4e1f4befb204025c92707a24d4fd6c795d/automvs-0.1.0.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [isolate]: Downloading https://files.pythonhosted.org/packages/64/32/211fe725a3bf7449d63f5b9210aed9bebdc93f360ec91a4e8804c891e5dd/isolate-0.9.2.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [openad]: Downloading https://files.pythonhosted.org/packages/dd/f6/29407db9a3ed479ab09087a65daa7ce23137bafc1f2c3565866ad559dadc/openad-0.2.7.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/b4/b4/77a34d094447631579707e2238a11403eb3c35511fd6eb4c97563e4a8ff0/keras-nlp-0.9.3.dev0.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2024-05-24 02:39:38] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/21/60/cd0046c59f2ea74358896557a25fec7b17b289a804a65c039f5e6744defa/pulumi_kafka-3.8.0a1715924897.tar.gz
+[2024-05-24 02:39:38] WARNING root fetch - processPackages [openad]: Skipping package: exceeds size limit 18056829>=10485760
+[2024-05-24 02:39:38] INFO root fetch - main [MainThread]: End processing [openad] error
+[2024-05-24 02:39:38] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2024-05-24 02:39:38] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.9.3.tar.gz tmp/keras-nlp-0.9.3.dev0.tar.gz --markdown 20240524/k/keras-nlp/0.9.3-0.9.3.dev0/README.md --exclude *.pyd
+[2024-05-24 02:39:38] INFO root fetch - processPackages [automvs]: Downloading https://files.pythonhosted.org/packages/94/27/fab3b50c1367fd62ff3e65b0dcb0934254eb3bc4e5933030fbccfa5f9fd9/automvs-0.2.0.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [isolate]: Downloading https://files.pythonhosted.org/packages/93/d5/1ab6e68b9f2f196a9982c5cab3879975f19e872887debadb439227f3e01b/isolate-0.9.3.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [automvs]: executing diffoscope
+[2024-05-24 02:39:38] INFO root fetch - processPackages [automvs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automvs-0.1.0.tar.gz tmp/automvs-0.2.0.tar.gz --markdown 20240524/a/automvs/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 02:39:38] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2024-05-24 02:39:38] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/96/e4/a3dd95ccec51a6cc834b82a1eb6bcfc5349b0f0e841fec188432d19cba95/pulumi_kafka-3.8.0a1716509240.tar.gz
+[2024-05-24 02:39:38] INFO root fetch - processPackages [isolate]: executing diffoscope
+[2024-05-24 02:39:38] INFO root fetch - processPackages [isolate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate-0.9.2.tar.gz tmp/isolate-0.9.3.tar.gz --markdown 20240524/i/isolate/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-24 02:39:38] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2024-05-24 02:39:38] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20240524/i/icloudpd/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-24 02:39:39] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.1.0.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - processPackages [automvs]: Remove: archive file [/home/abi/fetcher/tmp/automvs-0.2.0.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [automvs]: success
+[2024-05-24 02:39:39] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-24 02:39:39] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715924897.tar.gz tmp/pulumi_kafka-3.8.0a1716509240.tar.gz --markdown 20240524/p/pulumi-kafka/3.8.0a1715924897-3.8.0a1716509240/README.md --exclude *.pyd
+[2024-05-24 02:39:39] INFO root fetch - processPackages [isolate]: Remove: archive file [/home/abi/fetcher/tmp/isolate-0.9.2.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - processPackages [isolate]: Remove: archive file [/home/abi/fetcher/tmp/isolate-0.9.3.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [isolate]: success
+[2024-05-24 02:39:39] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2024-05-24 02:39:39] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2024-05-24 02:39:39] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.9.3.dev0.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2024-05-24 02:39:39] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715924897.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1716509240.tar.gz]
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-24 02:39:39] INFO root fetch - main [MainThread]: Store serial: [23353671]
