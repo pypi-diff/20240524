@@ -10201,3 +10201,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:28:11] INFO root fetch - processPackages [rigging]: Remove: archive file [/home/abi/fetcher/tmp/rigging-1.1.2.tar.gz]
 [2024-05-24 06:28:11] INFO root fetch - main [MainThread]: End processing [rigging]: success
 [2024-05-24 06:28:11] INFO root fetch - main [MainThread]: Store serial: [23356275]
+[2024-05-24 06:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356275]
+[2024-05-24 06:30:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retackAI-sdk-django
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-fieldservice-isp-account
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice-geoengine
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice
+[2024-05-24 06:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mathrixpy
+[2024-05-24 06:30:20] INFO root fetch - processPackages [cadprox]: New version: [1.6] Old Version: [1.5]
+[2024-05-24 06:30:20] INFO root fetch - processPackages [mathrixpy]: New version: [0.4] Old Version: [0.3]
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-24 06:30:21] WARNING root fetch - processPackages [retackAI-sdk-django]: Skipping, unable to determine old version
+[2024-05-24 06:30:21] INFO root fetch - main [MainThread]: End processing [retackAI-sdk-django] error
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/af/10/75339e07d71d82ffdbb73954d5aa272c9344247ae22602475b63e0722ac7/mathrixpy-0.3.tar.gz
+[2024-05-24 06:30:21] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/e7/84/8e4d57dfacbcbf92a5aedee2836e1ec9cfcec66a51eb52b3d9731365ecb0/cadprox-1.5.tar.gz
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/9b/ee/2563b4bbd3f9b66ad762163645af9de9a4cb3f9d98a6f691fbbc84d5239e/odoo_addon_fieldservice_geoengine-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: Downloading https://files.pythonhosted.org/packages/be/05/30d7c86b249d96895d1c6995862fa632a775fd85dfb4814235fa992e2618/odoo_addon_fieldservice_isp_account-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/a7/bb/379fd88051a158e45095a61ee11597d0e789df83ca8219ebdafafbd3b9ec/cadprox-1.6.tar.gz
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/b2/70/c555944198d28de47ee1dcc0d696de18f900554c2e4af4dcda0b989cbc6c/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/68/b0/ecec2f776a512755c5027a17a213c0276102019998958cdaeed78fdd9a49/mathrixpy-0.4.tar.gz
+[2024-05-24 06:30:21] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 06:30:21] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.5.tar.gz tmp/cadprox-1.6.tar.gz --markdown 20240524/c/cadprox/1.5-1.6/README.md --exclude *.pyd
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-0.3.tar.gz tmp/mathrixpy-0.4.tar.gz --markdown 20240524/m/mathrixpy/0.3-0.4/README.md --exclude *.pyd
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: Downloading https://files.pythonhosted.org/packages/fe/fd/5a35b2e959e198bd9beb1cccc1ee2e696af03c8fddce3bcad1735f30b618/odoo_addon_fieldservice_isp_account-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: Downloading https://files.pythonhosted.org/packages/67/c5/b609df4c3dbe7ee55109caef87c3f7a741d970dc24afb740688c4aad481c/odoo_addon_fieldservice_geoengine-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: executing diffoscope
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_isp_account-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_isp_account-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-fieldservice-isp-account/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: executing diffoscope
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_geoengine-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_geoengine-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-fieldservice-geoengine/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/04/12/a634d972bd2e72415ae3fabb12d30b7fa50c731d3d3a71da39ab82ca0ee1/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-05-24 06:30:21] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-fieldservice/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.3.tar.gz]
+[2024-05-24 06:30:21] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.4.tar.gz]
+[2024-05-24 06:30:21] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-24 06:30:22] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.5.tar.gz]
+[2024-05-24 06:30:22] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.6.tar.gz]
+[2024-05-24 06:30:22] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_isp_account-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice-isp-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_isp_account-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-isp-account]: success
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_geoengine-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_geoengine-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-geoengine]: success
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-24 06:30:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-05-24 06:30:22] INFO root fetch - main [MainThread]: Store serial: [23356289]
