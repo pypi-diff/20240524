@@ -21213,3 +21213,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:21:49] INFO root fetch - processPackages [pydaikin]: Remove: archive file [/home/abi/fetcher/tmp/pydaikin-2.9.1.tar.gz]
 [2024-05-24 13:21:49] INFO root fetch - main [MainThread]: End processing [pydaikin]: success
 [2024-05-24 13:21:49] INFO root fetch - main [MainThread]: Store serial: [23360940]
+[2024-05-24 13:23:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360940]
+[2024-05-24 13:23:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-django-hhupd
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faiss-minio-connection
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadprox
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyanfis
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cornsnake
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: input4mips-validation
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rivalz-py-client
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contentstack-management
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edb-enterprise-beta
+[2024-05-24 13:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhulong
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cadprox]: New version: [3.1] Old Version: [3]
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cornsnake]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:23:58] WARNING root fetch - processPackages [flake8-django-hhupd]: Skipping, unable to determine old version
+[2024-05-24 13:23:58] INFO root fetch - main [MainThread]: End processing [flake8-django-hhupd] error
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/63/fd/593ea343d8e4a63aa303b3c84227f2215f9cafb02fe592b92d90e2ec8f26/cadprox-3.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [contentstack-management]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-24 13:23:58] WARNING root fetch - processPackages [zhulong]: Skipping, unable to determine old version
+[2024-05-24 13:23:58] INFO root fetch - main [MainThread]: End processing [zhulong] error
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cornsnake]: Downloading https://files.pythonhosted.org/packages/37/d3/da98adf156a10c9be5a0df884d31353b9206685170d04247770e40286bfc/cornsnake-0.0.8.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [pyanfis]: New version: [0.1.3] Old Version: [0.1]
+[2024-05-24 13:23:58] WARNING root fetch - processPackages [edb-enterprise-beta]: Skipping, unable to determine old version
+[2024-05-24 13:23:58] INFO root fetch - processPackages [input4mips-validation]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-24 13:23:58] INFO root fetch - main [MainThread]: End processing [edb-enterprise-beta] error
+[2024-05-24 13:23:58] WARNING root fetch - processPackages [rivalz-py-client]: Skipping, unable to determine old version
+[2024-05-24 13:23:58] INFO root fetch - main [MainThread]: End processing [rivalz-py-client] error
+[2024-05-24 13:23:58] INFO root fetch - processPackages [contentstack-management]: Downloading https://files.pythonhosted.org/packages/b2/24/7f0816d1281e9403a1c58774577eccf05a170664b8c433d29886b438a6c2/contentstack_management-1.1.0.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/0d/93/7b4490f73989cdf1597d39a2039c00648601091453dd06557e601a8cf0a8/input4mips_validation-0.3.3.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cornsnake]: Downloading https://files.pythonhosted.org/packages/b8/3f/a5334cd8a36a0c8234efdf0d9d77296d6037ec10c538a7785aa9e7853913/cornsnake-0.0.9.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/cc/a7/c85ae559727ca310deb14c3cafae1c6eb373af07a233f0aae45d1008a928/pyanfis-0.1.tar.gz
+[2024-05-24 13:23:58] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/fa/d8/76738f43ac80d8c6e2f2918bca200c4133fb3e86b91f82f5d42c8404c485/cadprox-3.1.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [faiss-minio-connection]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cornsnake]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cornsnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornsnake-0.0.8.tar.gz tmp/cornsnake-0.0.9.tar.gz --markdown 20240524/c/cornsnake/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.tar.gz tmp/cadprox-3.1.tar.gz --markdown 20240524/c/cadprox/3-3.1/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [contentstack-management]: Downloading https://files.pythonhosted.org/packages/04/8c/6e26661d4031236dcbf35cb8d7371bba9a974de6567dbf39f2e4b98f8d45/contentstack_management-1.1.1.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [faiss-minio-connection]: Downloading https://files.pythonhosted.org/packages/71/ad/df48af29b29764476893b47a2fa14da8dcd11d1dad671d31bae0f75e71e6/faiss-minio-connection-0.0.1.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [input4mips-validation]: Downloading https://files.pythonhosted.org/packages/a6/25/3e9eba2847bb80ed4efd87fdb54efffcc32e4596883a5ea237f3f610f2ea/input4mips_validation-0.3.4.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [pyanfis]: Downloading https://files.pythonhosted.org/packages/9c/4f/b6cb1c31a57500943f28f1827576b32d78f8797a11efade03feee703a1c8/pyanfis-0.1.3.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [contentstack-management]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [contentstack-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentstack_management-1.1.0.tar.gz tmp/contentstack_management-1.1.1.tar.gz --markdown 20240524/c/contentstack-management/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [input4mips-validation]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [input4mips-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/input4mips_validation-0.3.3.tar.gz tmp/input4mips_validation-0.3.4.tar.gz --markdown 20240524/i/input4mips-validation/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [pyanfis]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [pyanfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanfis-0.1.tar.gz tmp/pyanfis-0.1.3.tar.gz --markdown 20240524/p/pyanfis/0.1-0.1.3/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [faiss-minio-connection]: Downloading https://files.pythonhosted.org/packages/e4/29/7c0bb175739f28d550452be524d26964ba58323dd41b74550a4ace69627b/faiss-minio-connection-0.0.2.tar.gz
+[2024-05-24 13:23:59] INFO root fetch - processPackages [faiss-minio-connection]: executing diffoscope
+[2024-05-24 13:23:59] INFO root fetch - processPackages [faiss-minio-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faiss-minio-connection-0.0.1.tar.gz tmp/faiss-minio-connection-0.0.2.tar.gz --markdown 20240524/f/faiss-minio-connection/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.tar.gz]
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.1.tar.gz]
+[2024-05-24 13:23:59] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cornsnake]: Remove: archive file [/home/abi/fetcher/tmp/cornsnake-0.0.8.tar.gz]
+[2024-05-24 13:23:59] INFO root fetch - processPackages [cornsnake]: Remove: archive file [/home/abi/fetcher/tmp/cornsnake-0.0.9.tar.gz]
+[2024-05-24 13:23:59] INFO root fetch - main [MainThread]: End processing [cornsnake]: success
+[2024-05-24 13:24:00] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - processPackages [pyanfis]: Remove: archive file [/home/abi/fetcher/tmp/pyanfis-0.1.3.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - main [MainThread]: End processing [pyanfis]: success
+[2024-05-24 13:24:00] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.3.3.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - processPackages [input4mips-validation]: Remove: archive file [/home/abi/fetcher/tmp/input4mips_validation-0.3.4.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - main [MainThread]: End processing [input4mips-validation]: success
+[2024-05-24 13:24:00] INFO root fetch - processPackages [contentstack-management]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_management-1.1.0.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - processPackages [contentstack-management]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_management-1.1.1.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - main [MainThread]: End processing [contentstack-management]: success
+[2024-05-24 13:24:00] INFO root fetch - processPackages [faiss-minio-connection]: Remove: archive file [/home/abi/fetcher/tmp/faiss-minio-connection-0.0.1.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - processPackages [faiss-minio-connection]: Remove: archive file [/home/abi/fetcher/tmp/faiss-minio-connection-0.0.2.tar.gz]
+[2024-05-24 13:24:00] INFO root fetch - main [MainThread]: End processing [faiss-minio-connection]: success
+[2024-05-24 13:24:00] INFO root fetch - main [MainThread]: Store serial: [23360978]
