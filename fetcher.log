@@ -19105,3 +19105,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:07:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
 [2024-05-24 12:07:22] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-05-24 12:07:22] INFO root fetch - main [MainThread]: Store serial: [23360111]
+[2024-05-24 12:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360111]
+[2024-05-24 12:09:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: InsulaWorkflowClient
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: billzio-api
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadproxdk
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authwa
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-create
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geo-roughness-tool
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansar-connect
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biobb-flexserv
+[2024-05-24 12:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keycare
+[2024-05-24 12:09:32] INFO root fetch - processPackages [cadproxdk]: New version: [4.0] Old Version: [3.9]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.261] Old Version: [0.1.260]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [keycare]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-create]: New version: [0.1.94] Old Version: [0.1.93]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.25.post1] Old Version: [0.4.24.post1]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [billzio-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-24 12:09:32] WARNING root fetch - processPackages [InsulaWorkflowClient]: Skipping, unable to determine old version
+[2024-05-24 12:09:32] INFO root fetch - processPackages [InsulaWorkflowClient]: Start processing: sakura-fm
+[2024-05-24 12:09:32] INFO root fetch - main [MainThread]: End processing [InsulaWorkflowClient] error
+[2024-05-24 12:09:32] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/53/a5/36c2243aaa18e381cef5d6fa4053e6eda0a04790f7336363c734dedca692/cadproxdk-3.9.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/80/1e/1b0e33b9140d7a9f72c44b6803c9ed230ac4655e2fd1aa2a60e4e4fb2cb3/ansar_connect-0.1.260.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [biobb-flexserv]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/3d/53/4e56da328d41f8b884f248d15284b4d5c30fd9cd72801990ed8d4a8c636b/ansar_create-0.1.93.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-24 12:09:32] WARNING root fetch - processPackages [sakura-fm]: Skipping, unable to determine old version
+[2024-05-24 12:09:32] INFO root fetch - main [MainThread]: End processing [sakura-fm] error
+[2024-05-24 12:09:32] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/c6/a6/13c4baec5e65ee656eb7e03d814be5e4308491eef0f86abf8527e319269a/geo_roughness_tool-0.4.24.post1.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/64/89/f3a3c9864853cfdd818ce57ebe267deafb7fc6e219eca651007adfccf060/keycare-0.0.1.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/c3/af/80b311eef1619e3d57bb85478711fc45473a569b115891a17b793fe34d23/billzio_api-1.0.7.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [biobb-flexserv]: Downloading https://files.pythonhosted.org/packages/a7/12/0e87c66f3cf2b1f3d3bdabda8f45145d3efcbdaf6ed65dbf7d41d42e148a/biobb_flexserv-4.1.0.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/ed/43/396b566887014f7adf5891bc78c87c57d4c545ef1df42fdcb4fb8896509b/cadproxdk-4.0.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/e3/d7/da65f70ce8fd0074a8730838743f5fba0468fa644b220febfe25ed82f180/ansar_create-0.1.94.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/6f/85/6295820be576808b664dbe84d04ff448fb680134ba5fd9b6db38e7404bfa/ansar_connect-0.1.261.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/5e/90/05fc8f589e1227ca10b835692857f6fcdaa2363afe5e99c12b31aa015cef/keycare-0.0.2.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.9.tar.gz tmp/cadproxdk-4.0.tar.gz --markdown 20240524/c/cadproxdk/3.9-4.0/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [billzio-api]: Downloading https://files.pythonhosted.org/packages/65/eb/8c6a32509f2666ede6f6369eb06f44e50a6d7ee96d63328681393bebe216/billzio_api-1.0.8.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/64/0d/4e4841351df3166faf5f2754023585b1ba75b6fa94f26ee9a9d2d63ab98c/geo_roughness_tool-0.4.25.post1.tar.gz
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.93.tar.gz tmp/ansar_create-0.1.94.tar.gz --markdown 20240524/a/ansar-create/0.1.93-0.1.94/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240524/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.260.tar.gz tmp/ansar_connect-0.1.261.tar.gz --markdown 20240524/a/ansar-connect/0.1.260-0.1.261/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-24 12:09:32] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.1.tar.gz tmp/keycare-0.0.2.tar.gz --markdown 20240524/k/keycare/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 12:09:32] INFO root fetch - processPackages [biobb-flexserv]: Downloading https://files.pythonhosted.org/packages/1b/01/e49ca22addc91d17cb3f7f3d90fc4832faaf7b78dd73464b2eb485a0be21/biobb_flexserv-4.2.0.tar.gz
+[2024-05-24 12:09:33] INFO root fetch - processPackages [billzio-api]: executing diffoscope
+[2024-05-24 12:09:33] INFO root fetch - processPackages [billzio-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/billzio_api-1.0.7.tar.gz tmp/billzio_api-1.0.8.tar.gz --markdown 20240524/b/billzio-api/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-24 12:09:33] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 12:09:33] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.24.post1.tar.gz tmp/geo_roughness_tool-0.4.25.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.24.post1-0.4.25.post1/README.md --exclude *.pyd
+[2024-05-24 12:09:33] INFO root fetch - processPackages [biobb-flexserv]: executing diffoscope
+[2024-05-24 12:09:33] INFO root fetch - processPackages [biobb-flexserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_flexserv-4.1.0.tar.gz tmp/biobb_flexserv-4.2.0.tar.gz --markdown 20240524/b/biobb-flexserv/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-24 12:09:33] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:09:33] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.9.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-4.0.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 12:09:33] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.1.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.2.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-24 12:09:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-24 12:09:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.260.tar.gz]
+[2024-05-24 12:09:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.261.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-24 12:09:34] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.7.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - processPackages [billzio-api]: Remove: archive file [/home/abi/fetcher/tmp/billzio_api-1.0.8.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [billzio-api]: success
+[2024-05-24 12:09:34] INFO root fetch - processPackages [biobb-flexserv]: Remove: archive file [/home/abi/fetcher/tmp/biobb_flexserv-4.1.0.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - processPackages [biobb-flexserv]: Remove: archive file [/home/abi/fetcher/tmp/biobb_flexserv-4.2.0.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [biobb-flexserv]: success
+[2024-05-24 12:09:34] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.93.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.94.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-24 12:09:34] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.24.post1.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.25.post1.tar.gz]
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 12:09:34] INFO root fetch - main [MainThread]: Store serial: [23360145]
