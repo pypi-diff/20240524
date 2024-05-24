@@ -21282,3 +21282,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:24:00] INFO root fetch - processPackages [faiss-minio-connection]: Remove: archive file [/home/abi/fetcher/tmp/faiss-minio-connection-0.0.2.tar.gz]
 [2024-05-24 13:24:00] INFO root fetch - main [MainThread]: End processing [faiss-minio-connection]: success
 [2024-05-24 13:24:00] INFO root fetch - main [MainThread]: Store serial: [23360978]
+[2024-05-24 13:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360978]
+[2024-05-24 13:26:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NFA-Aerosol
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SIST02-converter
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerix77
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaflow-dbt
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyremotechrome
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cleanerPandasVol
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nb2workflow
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-core-xe-21
+[2024-05-24 13:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchrl-nightly
+[2024-05-24 13:26:10] WARNING root fetch - processPackages [numerix77]: Skipping, unable to determine old version
+[2024-05-24 13:26:10] INFO root fetch - main [MainThread]: End processing [numerix77] error
+[2024-05-24 13:26:10] INFO root fetch - processPackages [SIST02-converter]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [NFA-Aerosol]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [cleanerPandasVol]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [pyremotechrome]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/0b/6e/4f46663357a73bc0e447cde221f6c3bfba54878d5eabb396de8919cc86e1/SIST02_converter-0.1.2.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [NFA-Aerosol]: Downloading https://files.pythonhosted.org/packages/72/54/b52a05ba4014adb3d8f0b6d027f448863afeafdb28de76c8cb3a3e6a61cf/NFA_Aerosol-1.0.7.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240524] Old Version: [2.5.0b20240523]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/15/d3/9042f50d5fef8e4f0cca2dfaae722e2977048555f6e61fce84cb273f6b28/cleanerpandasvol-0.2.0.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/32/54/fbd27be2561c75c8b34f40e0f41d6b6171d7a5f735b1719e089781ac8ce3/pyremotechrome-0.0.8.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [metaflow-dbt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.80]
+[2024-05-24 13:26:10] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/13/3b/2e4f6563f0b124f956c740543b4a498bfbb310fdc5e7aa45169560eb6cd9/metaflow_dbt-1.0.1.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/74/8e/ca44788820e2f7b5d0edc2209cf8ef69110e09295f25d0992e8ed83ae3be/nb2workflow-1.3.80.tar.gz
+[2024-05-24 13:26:10] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/4f/8b/57a237fe72500d6aaf55e3d4bfc84584a7dc81893110329d3c7047e0ae5b/bigdl_core_xe_21-2.5.0b20240523-cp39-cp39-win_amd64.whl
+[2024-05-24 13:26:11] INFO root fetch - processPackages [SIST02-converter]: Downloading https://files.pythonhosted.org/packages/b8/36/60177dd64e9c7bda768af7681397ef84f7e86d92380f1600256a9b0b12cc/SIST02-Converter-0.1.3.tar.gz
+[2024-05-24 13:26:11] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/cf/46/9b8033b98181199b36c9c577c5095e00e9807ca9f91d676c333ed20cf748/cleanerpandasvol-0.2.1.tar.gz
+[2024-05-24 13:26:11] INFO root fetch - processPackages [NFA-Aerosol]: Downloading https://files.pythonhosted.org/packages/c7/48/0a4fb2167f1e4c4bc18b333b6154dccdbcfe1e8c613558eda0080242fb60/nfa_aerosol-1.0.8.tar.gz
+[2024-05-24 13:26:11] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/0f/f9/cf2be78eae15a38c42ffff283b16f771ecd9bc99f3b07acedbc09c959be9/pyremotechrome-0.0.9.tar.gz
+[2024-05-24 13:26:11] INFO root fetch - processPackages [SIST02-converter]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [SIST02-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIST02_converter-0.1.2.tar.gz tmp/SIST02-Converter-0.1.3.tar.gz --markdown 20240524/S/SIST02-converter/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [cleanerPandasVol]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [cleanerPandasVol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanerpandasvol-0.2.0.tar.gz tmp/cleanerpandasvol-0.2.1.tar.gz --markdown 20240524/c/cleanerPandasVol/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-24 13:26:11] INFO root fetch - processPackages [NFA-Aerosol]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [NFA-Aerosol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NFA_Aerosol-1.0.7.tar.gz tmp/nfa_aerosol-1.0.8.tar.gz --markdown 20240524/N/NFA-Aerosol/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [pyremotechrome]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [pyremotechrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyremotechrome-0.0.8.tar.gz tmp/pyremotechrome-0.0.9.tar.gz --markdown 20240524/p/pyremotechrome/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/24/8c/ee6178b5d9688bf8454f2a34538f7b23cd1e933d297daffbf8e72f7434f6/metaflow_dbt-1.0.2.tar.gz
+[2024-05-24 13:26:11] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33864954>=10485760
+[2024-05-24 13:26:11] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-24 13:26:11] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-24 13:26:11] INFO root fetch - processPackages [metaflow-dbt]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [metaflow-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow_dbt-1.0.1.tar.gz tmp/metaflow_dbt-1.0.2.tar.gz --markdown 20240524/m/metaflow-dbt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/2f/4a/9716cb3189e1dce858fa737e50cd60c9dee030f82fbe62a49495486fe26e/nb2workflow-1.3.9.tar.gz
+[2024-05-24 13:26:11] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2024-05-24 13:26:11] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.80.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20240524/n/nb2workflow/1.3.80-1.3.9/README.md --exclude *.pyd
+[2024-05-24 13:26:11] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02_converter-0.1.2.tar.gz]
+[2024-05-24 13:26:11] INFO root fetch - processPackages [SIST02-converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02-Converter-0.1.3.tar.gz]
+[2024-05-24 13:26:11] INFO root fetch - main [MainThread]: End processing [SIST02-converter]: success
+[2024-05-24 13:26:11] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.2.0.tar.gz]
+[2024-05-24 13:26:11] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.2.1.tar.gz]
+[2024-05-24 13:26:11] INFO root fetch - main [MainThread]: End processing [cleanerPandasVol]: success
+[2024-05-24 13:26:11] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-24 13:26:12] INFO root fetch - processPackages [NFA-Aerosol]: Remove: archive file [/home/abi/fetcher/tmp/NFA_Aerosol-1.0.7.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - processPackages [NFA-Aerosol]: Remove: archive file [/home/abi/fetcher/tmp/nfa_aerosol-1.0.8.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - main [MainThread]: End processing [NFA-Aerosol]: success
+[2024-05-24 13:26:12] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-24 13:26:12] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240524/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-24 13:26:12] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.1.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.2.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - main [MainThread]: End processing [metaflow-dbt]: success
+[2024-05-24 13:26:12] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.80.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.9.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2024-05-24 13:26:12] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.8.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.9.tar.gz]
+[2024-05-24 13:26:12] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
+[2024-05-24 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 13:26:13] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-24 13:26:13] INFO root fetch - main [MainThread]: Store serial: [23361004]
