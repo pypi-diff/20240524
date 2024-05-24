@@ -16909,3 +16909,134 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.4-py3-none-any.whl.zip]
 [2024-05-24 11:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-central-journal-reportlab]: success
 [2024-05-24 11:00:25] INFO root fetch - main [MainThread]: Store serial: [23359212]
+[2024-05-24 11:02:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359212]
+[2024-05-24 11:02:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 11:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rottentomatoes-review-scraper
+[2024-05-24 11:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lycoris-lora
+[2024-05-24 11:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AAIT
+[2024-05-24 11:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-05-24 11:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shiboken6
+[2024-05-24 11:02:36] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.6] Old Version: [0.0.2.5]
+[2024-05-24 11:02:36] INFO root fetch - processPackages [shiboken6]: New version: [6.7.0] Old Version: [6.6.3.1]
+[2024-05-24 11:02:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.49.0] Old Version: [16.0.1.48.0.1]
+[2024-05-24 11:02:36] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/3e/a3/340c47bf6d2020b69d00d5b57dc4cbfdf4b66e4b8caa6758a905e302dffa/AAIT-0.0.2.5.tar.gz
+[2024-05-24 11:02:36] WARNING root fetch - processPackages [rottentomatoes-review-scraper]: Skipping, unable to determine old version
+[2024-05-24 11:02:36] INFO root fetch - main [MainThread]: End processing [rottentomatoes-review-scraper] error
+[2024-05-24 11:02:36] INFO root fetch - processPackages [lycoris-lora]: New version: [3.0.0.dev3] Old Version: [3.0.0.dev2]
+[2024-05-24 11:02:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/09/9f/86e934fbfcec690144ffd65bd5faa975ba2dbf1896364cbaad21f36d0be6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl
+[2024-05-24 11:02:36] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/b8/f3/b4153287806a63ee064570ed527f16f9eacedab4f4ea99cb84b55e624e21/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl
+[2024-05-24 11:02:36] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/f0/0f/83e97581a78bb14532a8f9000e069da5226dd19710349e1c6ec74f842cfa/lycoris_lora-3.0.0.dev2.tar.gz
+[2024-05-24 11:02:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/7f/c7/bf32ccc49fffe7388738800e0d8fa59de5b9d3b1a48aa553d6ac828f953c/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl
+[2024-05-24 11:02:37] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/c8/0e/43d930dc54c07a020966b97ba08d958fd32afb1d989d3464d05f5a2c2777/AAIT-0.0.2.6.tar.gz
+[2024-05-24 11:02:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-05-24 11:02:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.48.0.1-16.0.1.49.0/README.md --exclude *.pyd
+[2024-05-24 11:02:37] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 11:02:37] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.5.tar.gz tmp/AAIT-0.0.2.6.tar.gz --markdown 20240524/A/AAIT/0.0.2.5-0.0.2.6/README.md --exclude *.pyd
+[2024-05-24 11:02:37] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/b9/82/98d6cff96bcb450382cc0356375ed504e23b098a49e9e9c2e3733e2dc99f/lycoris_lora-3.0.0.dev3.tar.gz
+[2024-05-24 11:02:37] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/a9/00/8c531bdf5d3f208a055f28b5e701939e5bc4c9de1a48d81ba326369d42e0/shiboken6-6.7.0-cp39-abi3-win_amd64.whl
+[2024-05-24 11:02:37] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-24 11:02:37] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-3.0.0.dev2.tar.gz tmp/lycoris_lora-3.0.0.dev3.tar.gz --markdown 20240524/l/lycoris-lora/3.0.0.dev2-3.0.0.dev3/README.md --exclude *.pyd
+[2024-05-24 11:02:37] INFO root fetch - processPackages [shiboken6]: executing diffoscope
+[2024-05-24 11:02:37] INFO root fetch - processPackages [shiboken6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl.zip tmp/shiboken6-6.7.0-cp39-abi3-win_amd64.whl.zip --markdown 20240524/s/shiboken6/6.6.3.1-6.7.0/README.md --exclude *.pyd
+[2024-05-24 11:02:37] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.5.tar.gz]
+[2024-05-24 11:02:37] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.6.tar.gz]
+[2024-05-24 11:02:37] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 11:02:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip]
+[2024-05-24 11:02:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.49.0-py3-none-any.whl.zip]
+[2024-05-24 11:02:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-05-24 11:02:38] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-3.0.0.dev2.tar.gz]
+[2024-05-24 11:02:38] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-3.0.0.dev3.tar.gz]
+[2024-05-24 11:02:38] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-24 11:02:42] ERROR root fetch - processPackages [shiboken6]: Diffoscope failed: time="2024-05-24T11:02:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140236118040064)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140235983822320)
+
+[2024-05-24 11:02:42] INFO root fetch - main [MainThread]: End processing [shiboken6] error
+[2024-05-24 11:02:42] INFO root fetch - main [MainThread]: Store serial: [23359234]
