@@ -18943,3 +18943,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:02:25] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.53-py3-none-any.whl.zip]
 [2024-05-24 12:02:25] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-05-24 12:02:25] INFO root fetch - main [MainThread]: Store serial: [23360039]
+[2024-05-24 12:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360039]
+[2024-05-24 12:04:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geo-roughness-tool
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secprompt
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authwa
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsanic
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geo-roughness-tool
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keycare
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-database-cleanup
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geo-roughness-tool
+[2024-05-24 12:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sakura-fm
+[2024-05-24 12:04:36] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.22.post1] Old Version: [0.4.21.post1]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.22.post1] Old Version: [0.4.21.post1]
+[2024-05-24 12:04:36] WARNING root fetch - processPackages [keycare]: Skipping, unable to determine old version
+[2024-05-24 12:04:36] INFO root fetch - processPackages [keycare]: Start processing: authwa
+[2024-05-24 12:04:36] INFO root fetch - main [MainThread]: End processing [keycare] error
+[2024-05-24 12:04:36] INFO root fetch - processPackages [nsanic]: New version: [2024.5.24] Old Version: [2024.5.16]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.22.post1] Old Version: [0.4.21.post1]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 12:04:36] WARNING root fetch - processPackages [secprompt]: Skipping, unable to determine old version
+[2024-05-24 12:04:36] INFO root fetch - processPackages [secprompt]: Start processing: flim-labs
+[2024-05-24 12:04:36] INFO root fetch - main [MainThread]: End processing [secprompt] error
+[2024-05-24 12:04:36] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fe/63/d1bb2af2b3adec404b4be95bcaaa8777907679a26582b251396b0bd56763/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 12:04:36] WARNING root fetch - processPackages [sakura-fm]: Skipping, unable to determine old version
+[2024-05-24 12:04:36] INFO root fetch - main [MainThread]: End processing [sakura-fm] error
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/73/41/c935eec871e8220f85c1ff5640c4fdba5e2a5f94a9f477b31bd07eea0fa8/geo_roughness_tool-0.4.21.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/73/41/c935eec871e8220f85c1ff5640c4fdba5e2a5f94a9f477b31bd07eea0fa8/geo_roughness_tool-0.4.21.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/03/7e/4d87616e5daf5f18c7034f19cede55cff6318a8ec7fbf76bed7347e5ede9/nsanic-2024.5.16-py3-none-any.whl
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/73/41/c935eec871e8220f85c1ff5640c4fdba5e2a5f94a9f477b31bd07eea0fa8/geo_roughness_tool-0.4.21.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [flim-labs]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-24 12:04:36] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/e5/35/05a2a02bc6eb6e521b86089aa47070692bc2ac10a1533900aec0acd345e5/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-24 12:04:36] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/3c/79/49a182fef9c63da2360c36d657cf35e70ae67549a44320c3acf8ab21f58e/nsanic-2024.5.24-py3-none-any.whl
+[2024-05-24 12:04:36] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/2b/a5/9d7ca1d525b2199503e6b84207b969e0bcb6beef3048cf3cad355d2ba539/flim_labs-1.0.7-cp39-none-win_amd64.whl
+[2024-05-24 12:04:36] INFO root fetch - processPackages [nsanic]: executing diffoscope
+[2024-05-24 12:04:36] INFO root fetch - processPackages [nsanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsanic-2024.5.16-py3-none-any.whl.zip tmp/nsanic-2024.5.24-py3-none-any.whl.zip --markdown 20240524/n/nsanic/2024.5.16-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 12:04:36] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-24 12:04:36] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240524/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 12:04:36] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-24 12:04:36] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-database-cleanup/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/5f/c0/f54b7eef31cf2d5409e8bd9ddd8b2bd7f13671a7db35b943bf716cb58971/geo_roughness_tool-0.4.22.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/5f/c0/f54b7eef31cf2d5409e8bd9ddd8b2bd7f13671a7db35b943bf716cb58971/geo_roughness_tool-0.4.22.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/5f/c0/f54b7eef31cf2d5409e8bd9ddd8b2bd7f13671a7db35b943bf716cb58971/geo_roughness_tool-0.4.22.post1.tar.gz
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 12:04:36] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.21.post1.tar.gz tmp/geo_roughness_tool-0.4.22.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.21.post1-0.4.22.post1/README.md --exclude *.pyd
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.21.post1.tar.gz tmp/geo_roughness_tool-0.4.22.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.21.post1-0.4.22.post1/README.md --exclude *.pyd
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.21.post1.tar.gz tmp/geo_roughness_tool-0.4.22.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.21.post1-0.4.22.post1/README.md --exclude *.pyd
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:04:37] INFO root fetch - processPackages [flim-labs]: Downloading https://files.pythonhosted.org/packages/97/bf/1e9f32b4bd313feb87eb49da5551b2d09d968c2d2fdfe0543a41ebb9ac99/flim_labs-1.0.9-cp39-none-win_amd64.whl
+[2024-05-24 12:04:37] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.16-py3-none-any.whl.zip]
+[2024-05-24 12:04:37] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.24-py3-none-any.whl.zip]
+[2024-05-24 12:04:37] INFO root fetch - main [MainThread]: End processing [nsanic]: success
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:04:37] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:04:37] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.21.post1.tar.gz]
+[2024-05-24 12:04:37] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.22.post1.tar.gz]
+[2024-05-24 12:04:37] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 12:04:38] INFO root fetch - processPackages [flim-labs]: executing diffoscope
+[2024-05-24 12:04:38] INFO root fetch - processPackages [flim-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip --markdown 20240524/f/flim-labs/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-24 12:04:38] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-24 12:04:38] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 12:04:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 12:04:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-24 12:04:38] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.7-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:04:38] INFO root fetch - processPackages [flim-labs]: Remove: archive file [/home/abi/fetcher/tmp/flim_labs-1.0.9-cp39-none-win_amd64.whl.zip]
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: End processing [flim-labs]: success
+[2024-05-24 12:04:38] INFO root fetch - main [MainThread]: Store serial: [23360073]
