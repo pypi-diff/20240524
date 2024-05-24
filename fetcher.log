@@ -18564,3 +18564,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:46:55] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.6.0.tar.gz]
 [2024-05-24 11:46:55] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
 [2024-05-24 11:46:55] INFO root fetch - main [MainThread]: Store serial: [23359850]
+[2024-05-24 11:48:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359850]
+[2024-05-24 11:49:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: murfey
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-dcqq-relay
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-enumerate-and-reference
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: x21
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xinference-client
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cela
+[2024-05-24 11:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-testing
+[2024-05-24 11:49:04] INFO root fetch - processPackages [arion-library]: New version: [1.1rc99.dev99] Old Version: [1.1rc97.dev97]
+[2024-05-24 11:49:04] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/25/17/5717be908ed9d21ee6240007e1f51f957f0148589c543e0d5ba749bb33bc/arion_library-1.1rc97.dev97.tar.gz
+[2024-05-24 11:49:04] WARNING root fetch - processPackages [nonebot-plugin-dcqq-relay]: Skipping, unable to determine old version
+[2024-05-24 11:49:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-dcqq-relay] error
+[2024-05-24 11:49:04] INFO root fetch - processPackages [xinference-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-24 11:49:04] WARNING root fetch - processPackages [cela]: Skipping, unable to determine old version
+[2024-05-24 11:49:04] INFO root fetch - main [MainThread]: End processing [cela] error
+[2024-05-24 11:49:04] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-24 11:49:04] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 11:49:04] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-05-24 11:49:04] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-05-24 11:49:04] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/eb/6a/2a118dcc80b4b2d77ee26a645a3495fb1302d856a327caeeb4d26e4d2f59/arion_library-1.1rc99.dev99.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: Downloading https://files.pythonhosted.org/packages/4e/da/a6bf7b7496a3fcad9b540c49c39e86449db5260e18dd39e0c840ef190274/mkdocs_enumerate_and_reference-0.1.1.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/6d/b8/345520866b2a4eb03a3d6c561cf46ac494e6acf0df5c25ed27d73a37d6c4/xinference-client-0.9.3.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-05-24 11:49:05] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc97.dev97.tar.gz tmp/arion_library-1.1rc99.dev99.tar.gz --markdown 20240524/a/arion-library/1.1rc97.dev97-1.1rc99.dev99/README.md --exclude *.pyd
+[2024-05-24 11:49:05] INFO root fetch - processPackages [x21]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-24 11:49:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/50/c7/06f3b0cde60a5ee898b7c6ede2410bc2eba254a67452265ba7d8304403ac/dve_lumipy_testing-1.0.95-py3-none-any.whl
+[2024-05-24 11:49:05] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/76/7d/a1a28bf03d4ddb450a0004e07be72fa1c9a883ac739bd0b0fce5509b5188/x21-0.4.9-cp39-cp39-win_amd64.whl
+[2024-05-24 11:49:05] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: Downloading https://files.pythonhosted.org/packages/cb/71/fb04ff71fe653e9e347efa6b097dfd7e3a3086d8749c14421aa290eefb48/mkdocs_enumerate_and_reference-0.2.0.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/d9/51/a0c540e0cc12db8debdfbcd787c091fe47401f5b510b3dced4113987d99c/xinference-client-0.9.4.tar.gz
+[2024-05-24 11:49:05] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-05-24 11:49:05] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240524/m/murfey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 11:49:05] INFO root fetch - processPackages [xinference-client]: executing diffoscope
+[2024-05-24 11:49:05] INFO root fetch - processPackages [xinference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-client-0.9.3.tar.gz tmp/xinference-client-0.9.4.tar.gz --markdown 20240524/x/xinference-client/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-24 11:49:05] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: executing diffoscope
+[2024-05-24 11:49:05] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_enumerate_and_reference-0.1.1.tar.gz tmp/mkdocs_enumerate_and_reference-0.2.0.tar.gz --markdown 20240524/m/mkdocs-enumerate-and-reference/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-24 11:49:05] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc97.dev97.tar.gz]
+[2024-05-24 11:49:05] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc99.dev99.tar.gz]
+[2024-05-24 11:49:05] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-05-24 11:49:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/e4/b7/29daae6d6370df293d2d2d4faf567ef035086f076e2145a182ca348a6e07/dve_lumipy_testing-1.0.96-py3-none-any.whl
+[2024-05-24 11:49:05] INFO root fetch - processPackages [x21]: Downloading https://files.pythonhosted.org/packages/78/f6/b22e390da03248d7f290c392d2c6865531d0901127f2486a399da79c7848/x21-0.5.0-pp310-pypy310_pp73-macosx_10_14_x86_64.whl
+[2024-05-24 11:49:06] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-24 11:49:06] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.95-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.96-py3-none-any.whl.zip --markdown 20240524/d/dve-lumipy-testing/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-05-24 11:49:06] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.3.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.4.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - main [MainThread]: End processing [xinference-client]: success
+[2024-05-24 11:49:06] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_enumerate_and_reference-0.1.1.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - processPackages [mkdocs-enumerate-and-reference]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_enumerate_and_reference-0.2.0.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - main [MainThread]: End processing [mkdocs-enumerate-and-reference]: success
+[2024-05-24 11:49:06] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-05-24 11:49:06] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-05-24 11:49:06] INFO root fetch - processPackages [x21]: executing diffoscope
+[2024-05-24 11:49:06] INFO root fetch - processPackages [x21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip tmp/x21-0.5.0-pp310-pypy310_pp73-macosx_10_14_x86_64.whl.zip --markdown 20240524/x/x21/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-24 11:49:07] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 11:49:07] INFO root fetch - processPackages [x21]: Remove: archive file [/home/abi/fetcher/tmp/x21-0.5.0-pp310-pypy310_pp73-macosx_10_14_x86_64.whl.zip]
+[2024-05-24 11:49:07] INFO root fetch - main [MainThread]: End processing [x21]: success
+[2024-05-24 11:49:07] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.95-py3-none-any.whl.zip]
+[2024-05-24 11:49:07] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.96-py3-none-any.whl.zip]
+[2024-05-24 11:49:07] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-24 11:49:07] INFO root fetch - main [MainThread]: Store serial: [23359909]
