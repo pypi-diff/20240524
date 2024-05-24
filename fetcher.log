@@ -17040,3 +17040,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2024-05-24 11:02:42] INFO root fetch - main [MainThread]: End processing [shiboken6] error
 [2024-05-24 11:02:42] INFO root fetch - main [MainThread]: Store serial: [23359234]
+[2024-05-24 11:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359234]
+[2024-05-24 11:04:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadproxdk
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypas-cli
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxes
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ReverseBox
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piptoolpeteryang
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cela
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geo-roughness-tool
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sd-frost-sta-client
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AAIT
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.common
+[2024-05-24 11:04:51] INFO root fetch - processPackages [cadproxdk]: New version: [3.4] Old Version: [3.3]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.7] Old Version: [0.0.2.6]
+[2024-05-24 11:04:51] WARNING root fetch - processPackages [cela]: Skipping, unable to determine old version
+[2024-05-24 11:04:51] INFO root fetch - main [MainThread]: End processing [cela] error
+[2024-05-24 11:04:51] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240523] Old Version: [1.1.1b20240522]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/6e/2a/d6a456bb4de82e0549e4beeea7914efe50e83c935313c3ea880dfbdb4e4d/cadproxdk-3.3.tar.gz
+[2024-05-24 11:04:51] WARNING root fetch - processPackages [piptoolpeteryang]: Skipping, unable to determine old version
+[2024-05-24 11:04:51] INFO root fetch - main [MainThread]: End processing [piptoolpeteryang] error
+[2024-05-24 11:04:51] WARNING root fetch - processPackages [sd-frost-sta-client]: Skipping, unable to determine old version
+[2024-05-24 11:04:51] INFO root fetch - main [MainThread]: End processing [sd-frost-sta-client] error
+[2024-05-24 11:04:51] INFO root fetch - processPackages [foxes]: New version: [0.7.1] Old Version: [0.7.0.6]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [pypas-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 11:04:51] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/c8/0e/43d930dc54c07a020966b97ba08d958fd32afb1d989d3464d05f5a2c2777/AAIT-0.0.2.6.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/25/c2/6f0004ef4e58076b46275d7dfef20b39b38f81bf890f0aad9f332b7f0978/geo_roughness_tool-0.3.2.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/1f/70/41e4ea9b6b91a2a93dcc6191ef0d7e0ec555162304b9f6df2a312d0067db/autogluon.common-1.1.1b20240522.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/e1/80/b88b1d7016c9406b36b569e332bf02b66f26b25d90a5ecb2d506731df82d/foxes-0.7.0.6.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/4b/cc/9eb7e9c3cafe27cc3fd15c50aa40125dcadb948f666c344dee00393e1fc6/pypas_cli-0.0.1.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/4a/58/7a7b782237cfeaa6f4930edfd83b87995cd40b65c79be087c32798140949/ReverseBox-0.9.8.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/4d/cf/82f2c3e24afb47036b9c4d8b54d9ca9eb5c5f10969dd0451dc5469dd1020/cadproxdk-3.4.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/43/80/c510ed7c2735ad146b3ee98ad4305d0959095f031297a73f3dd232918fb3/geo_roughness_tool-0.4.0.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/fc/a5/11e9ad72f21d0360f463eb92542239f830a74f7a6e00a5e88307ebbb32a1/AAIT-0.0.2.7.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:04:51] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.3.tar.gz tmp/cadproxdk-3.4.tar.gz --markdown 20240524/c/cadproxdk/3.3-3.4/README.md --exclude *.pyd
+[2024-05-24 11:04:51] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/31/03/2b0a255c5ef6cb0db60dedd7cf9bdc372a4773d25ebb5839b0049da01fb5/autogluon.common-1.1.1b20240523.tar.gz
+[2024-05-24 11:04:51] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 11:04:51] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.6.tar.gz tmp/AAIT-0.0.2.7.tar.gz --markdown 20240524/A/AAIT/0.0.2.6-0.0.2.7/README.md --exclude *.pyd
+[2024-05-24 11:04:51] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/8f/d5/5c6f07f439d4d3d5c604ce8a7692644c9ac675a255cd54d78d6876cc8ed0/pypas_cli-0.0.2.tar.gz
+[2024-05-24 11:04:52] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 11:04:52] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.3.2.tar.gz tmp/geo_roughness_tool-0.4.0.tar.gz --markdown 20240524/g/geo-roughness-tool/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-24 11:04:52] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/5f/35/bb8383a7724f36803cd66a861b647c468ce8cefbcdda5919281eac820532/foxes-0.7.1.tar.gz
+[2024-05-24 11:04:52] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-24 11:04:52] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240522.tar.gz tmp/autogluon.common-1.1.1b20240523.tar.gz --markdown 20240524/a/autogluon.common/1.1.1b20240522-1.1.1b20240523/README.md --exclude *.pyd
+[2024-05-24 11:04:52] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/8f/aa29e161586daf66c5f6fd603cf46241f860d6b15409053887e60b6bf890/ReverseBox-0.9.9.tar.gz
+[2024-05-24 11:04:52] INFO root fetch - processPackages [pypas-cli]: executing diffoscope
+[2024-05-24 11:04:52] INFO root fetch - processPackages [pypas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypas_cli-0.0.1.tar.gz tmp/pypas_cli-0.0.2.tar.gz --markdown 20240524/p/pypas-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 11:04:52] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-24 11:04:52] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.9.8.tar.gz tmp/ReverseBox-0.9.9.tar.gz --markdown 20240524/R/ReverseBox/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 11:04:52] INFO root fetch - processPackages [foxes]: executing diffoscope
+[2024-05-24 11:04:52] INFO root fetch - processPackages [foxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxes-0.7.0.6.tar.gz tmp/foxes-0.7.1.tar.gz --markdown 20240524/f/foxes/0.7.0.6-0.7.1/README.md --exclude *.pyd
+[2024-05-24 11:04:52] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.3.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.4.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:04:52] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.6.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.7.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 11:04:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240522.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240523.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-24 11:04:52] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.1.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.2.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - main [MainThread]: End processing [pypas-cli]: success
+[2024-05-24 11:04:52] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.3.2.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.0.tar.gz]
+[2024-05-24 11:04:52] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 11:04:53] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.8.tar.gz]
+[2024-05-24 11:04:53] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.9.tar.gz]
+[2024-05-24 11:04:53] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-24 11:04:53] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.7.0.6.tar.gz]
+[2024-05-24 11:04:53] INFO root fetch - processPackages [foxes]: Remove: archive file [/home/abi/fetcher/tmp/foxes-0.7.1.tar.gz]
+[2024-05-24 11:04:53] INFO root fetch - main [MainThread]: End processing [foxes]: success
+[2024-05-24 11:04:53] INFO root fetch - main [MainThread]: Store serial: [23359263]
