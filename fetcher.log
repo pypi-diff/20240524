@@ -8196,3 +8196,36 @@
 [2024-05-24 04:28:52] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.28-py3-none-any.whl.zip]
 [2024-05-24 04:28:52] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-05-24 04:28:52] INFO root fetch - main [MainThread]: Store serial: [23355574]
+[2024-05-24 04:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355574]
+[2024-05-24 04:31:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 04:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonevu
+[2024-05-24 04:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphopf
+[2024-05-24 04:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbon-python-sdk
+[2024-05-24 04:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuLab
+[2024-05-24 04:31:00] INFO root fetch - processPackages [zonevu]: New version: [1.1.28] Old Version: [1.1.27]
+[2024-05-24 04:31:00] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 04:31:00] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/96/34/4415aeadababe18a7c6c8d10e0e1eb50a491986314cd54c8ab6b522c8e72/zonevu-1.1.27-py3-none-any.whl
+[2024-05-24 04:31:00] WARNING root fetch - processPackages [graphopf]: Skipping, unable to determine old version
+[2024-05-24 04:31:00] INFO root fetch - main [MainThread]: End processing [graphopf] error
+[2024-05-24 04:31:00] INFO root fetch - processPackages [QuLab]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-24 04:31:00] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-05-24 04:31:01] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/6e/34/be90070a05560aa2c1a5aa9d370815b1aaa96104a95af2c84012c3bd8a64/zonevu-1.1.28-py3-none-any.whl
+[2024-05-24 04:31:01] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/a3/b2/e0309a2ce47fdddfba7631ae328520e7e8abb7fa3d021035ded0daaea9e8/QuLab-2.0.1.tar.gz
+[2024-05-24 04:31:01] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-05-24 04:31:01] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-05-24 04:31:01] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.27-py3-none-any.whl.zip tmp/zonevu-1.1.28-py3-none-any.whl.zip --markdown 20240524/z/zonevu/1.1.27-1.1.28/README.md --exclude *.pyd
+[2024-05-24 04:31:01] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-05-24 04:31:01] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240524/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 04:31:01] INFO root fetch - processPackages [QuLab]: Downloading https://files.pythonhosted.org/packages/90/fa/7223544087d4c3a2c0ba3a399077ddcf0df5f4f6c453a4be0b6457fa1c51/qulab-2.0.2.tar.gz
+[2024-05-24 04:31:01] INFO root fetch - processPackages [QuLab]: executing diffoscope
+[2024-05-24 04:31:01] INFO root fetch - processPackages [QuLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuLab-2.0.1.tar.gz tmp/qulab-2.0.2.tar.gz --markdown 20240524/Q/QuLab/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-24 04:31:02] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.27-py3-none-any.whl.zip]
+[2024-05-24 04:31:02] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.28-py3-none-any.whl.zip]
+[2024-05-24 04:31:02] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-05-24 04:31:02] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/QuLab-2.0.1.tar.gz]
+[2024-05-24 04:31:02] INFO root fetch - processPackages [QuLab]: Remove: archive file [/home/abi/fetcher/tmp/qulab-2.0.2.tar.gz]
+[2024-05-24 04:31:02] INFO root fetch - main [MainThread]: End processing [QuLab]: success
+[2024-05-24 04:31:03] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-05-24 04:31:03] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-05-24 04:31:03] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-05-24 04:31:03] INFO root fetch - main [MainThread]: Store serial: [23355588]
