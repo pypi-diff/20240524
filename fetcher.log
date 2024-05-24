@@ -7964,3 +7964,18 @@
 [2024-05-24 04:15:40] INFO root fetch - processPackages [tensorpc]: Remove: archive file [/home/abi/fetcher/tmp/tensorpc-0.11.0.tar.gz]
 [2024-05-24 04:15:40] INFO root fetch - main [MainThread]: End processing [tensorpc]: success
 [2024-05-24 04:15:40] INFO root fetch - main [MainThread]: Store serial: [23355495]
+[2024-05-24 04:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355495]
+[2024-05-24 04:17:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 04:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-05-24 04:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prototwin
+[2024-05-24 04:17:48] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-24 04:17:48] WARNING root fetch - processPackages [prototwin]: Skipping, unable to determine old version
+[2024-05-24 04:17:48] INFO root fetch - main [MainThread]: End processing [prototwin] error
+[2024-05-24 04:17:48] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-05-24 04:17:49] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-05-24 04:17:49] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-05-24 04:17:49] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240524/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-24 04:17:50] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-05-24 04:17:50] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-05-24 04:17:50] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-05-24 04:17:50] INFO root fetch - main [MainThread]: Store serial: [23355499]
