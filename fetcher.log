@@ -16171,3 +16171,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:37:59] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-2.0.0a0.tar.gz]
 [2024-05-24 10:37:59] INFO root fetch - main [MainThread]: End processing [ml-pipeline-engine]: success
 [2024-05-24 10:37:59] INFO root fetch - main [MainThread]: Store serial: [23358780]
+[2024-05-24 10:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358780]
+[2024-05-24 10:40:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sd-oauth2-client
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-data-preprocessor-mz
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwd-global-radiation
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cadproxdk
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: structstore
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydflow
+[2024-05-24 10:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asynctradier
+[2024-05-24 10:40:08] INFO root fetch - processPackages [cadproxdk]: New version: [2.7] Old Version: [2.6]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [my-data-preprocessor-mz]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [dwd-global-radiation]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/ac/fc/9deb504d8a10236d3e4eabc35a0fb9c9ae2a132ce828a3eb0d402a7236e6/cadproxdk-2.6.tar.gz
+[2024-05-24 10:40:08] WARNING root fetch - processPackages [sd-oauth2-client]: Skipping, unable to determine old version
+[2024-05-24 10:40:08] INFO root fetch - main [MainThread]: End processing [sd-oauth2-client] error
+[2024-05-24 10:40:08] INFO root fetch - processPackages [asynctradier]: New version: [1.0.0] Old Version: [0.0.1b9]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [structstore]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-24 10:40:08] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-24 10:40:08] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-05-24 10:40:08] INFO root fetch - processPackages [my-data-preprocessor-mz]: Downloading https://files.pythonhosted.org/packages/cb/3a/6617f9f61d2592a3c645866eaf3bfae6b9bd056f94210023853e188d7636/my_data_preprocessor_mz-0.1.0.tar.gz
+[2024-05-24 10:40:08] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/d5/2f/509ca3d214f3b5f751501102270c1120018765a8b8f2efb40f27f754374d/dwd_global_radiation-1.0.0rc6.tar.gz
+[2024-05-24 10:40:08] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/c0/d7/3ed9d0583713541c9b7b0a4c3c1f8fb4cbafd8e7cea3baedd39314a1edab/structstore-0.1.5.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [asynctradier]: Downloading https://files.pythonhosted.org/packages/90/7c/f6d7463e6e81fe95129181e001f53bde28015381c78e2d01097e3bc82e18/asynctradier-0.0.1b9.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/3b/13/2df32f0e7c0f2bb3e98b34c7fcf417423fba1cf47589b04d0e6017be5769/cadproxdk-2.7.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240524/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.6.tar.gz tmp/cadproxdk-2.7.tar.gz --markdown 20240524/c/cadproxdk/2.6-2.7/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [my-data-preprocessor-mz]: Downloading https://files.pythonhosted.org/packages/09/03/fcf4c069db7011f27019632248976d2551c2cd950cba39ec3371669f4b7f/my_data_preprocessor_mz-0.2.0.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/ce/a1/67ba2f6a6777ce7ed0d67f95f3e5b422bf8f094349b3170fb354b91a6fad/dwd_global_radiation-1.0.0rc7.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/7b/82/358d84e51327ea8a57e5c297fff4791ac673276e20f547a790f93115cc98/structstore-0.1.6.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [my-data-preprocessor-mz]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [my-data-preprocessor-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_data_preprocessor_mz-0.1.0.tar.gz tmp/my_data_preprocessor_mz-0.2.0.tar.gz --markdown 20240524/m/my-data-preprocessor-mz/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [asynctradier]: Downloading https://files.pythonhosted.org/packages/7d/be/d37bf66b2007999963fd59e1fc56397dbb86a0c072758e2a4fc6cc692de9/asynctradier-1.0.0.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [dwd-global-radiation]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [dwd-global-radiation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwd_global_radiation-1.0.0rc6.tar.gz tmp/dwd_global_radiation-1.0.0rc7.tar.gz --markdown 20240524/d/dwd-global-radiation/1.0.0rc6-1.0.0rc7/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-05-24 10:40:09] INFO root fetch - processPackages [structstore]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [structstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structstore-0.1.5.tar.gz tmp/structstore-0.1.6.tar.gz --markdown 20240524/s/structstore/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [asynctradier]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [asynctradier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynctradier-0.0.1b9.tar.gz tmp/asynctradier-1.0.0.tar.gz --markdown 20240524/a/asynctradier/0.0.1b9-1.0.0/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240524/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-24 10:40:09] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240524/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-05-24 10:40:09] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-24 10:40:09] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-24 10:40:09] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.6.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.7.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [my-data-preprocessor-mz]: Remove: archive file [/home/abi/fetcher/tmp/my_data_preprocessor_mz-0.1.0.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [my-data-preprocessor-mz]: Remove: archive file [/home/abi/fetcher/tmp/my_data_preprocessor_mz-0.2.0.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [my-data-preprocessor-mz]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.0.0rc6.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.0.0rc7.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [dwd-global-radiation]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [asynctradier]: Remove: archive file [/home/abi/fetcher/tmp/asynctradier-0.0.1b9.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [asynctradier]: Remove: archive file [/home/abi/fetcher/tmp/asynctradier-1.0.0.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [asynctradier]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.5.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.6.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [structstore]: success
+[2024-05-24 10:40:10] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-05-24 10:40:10] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-05-24 10:40:16] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-05-24 10:40:16] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-05-24 10:40:16] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-24 10:40:16] INFO root fetch - main [MainThread]: Store serial: [23358836]
