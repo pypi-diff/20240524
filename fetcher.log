@@ -7436,3 +7436,36 @@
 [2024-05-24 03:33:35] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2024-05-24 03:33:35] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2024-05-24 03:33:35] INFO root fetch - main [MainThread]: Store serial: [23355143]
+[2024-05-24 03:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355143]
+[2024-05-24 03:35:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 03:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: techsparo
+[2024-05-24 03:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-venafi
+[2024-05-24 03:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rancher2
+[2024-05-24 03:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polymatch
+[2024-05-24 03:35:44] INFO root fetch - processPackages [polymatch]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-24 03:35:44] INFO root fetch - processPackages [polymatch]: Downloading https://files.pythonhosted.org/packages/4b/0b/76da6ca5365b171cdbe45be9548876d932c8e21f44232aecfd7ffdc138e4/polymatch-0.5.0.tar.gz
+[2024-05-24 03:35:44] WARNING root fetch - processPackages [techsparo]: Skipping, unable to determine old version
+[2024-05-24 03:35:44] INFO root fetch - main [MainThread]: End processing [techsparo] error
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1716512649] Old Version: [6.2.0a1715927695]
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/49/0e/08d01e48fd459e1b9d1fe858640dbe2f5d9714f16036639797744cecdf36/pulumi_rancher2-6.2.0a1715927695.tar.gz
+[2024-05-24 03:35:44] INFO root fetch - processPackages [polymatch]: Downloading https://files.pythonhosted.org/packages/49/1a/c67d4e93dbaea3d7e742dd7445ed64adfb10fc384083df6dd63143da22f1/polymatch-0.5.1.tar.gz
+[2024-05-24 03:35:44] INFO root fetch - processPackages [polymatch]: executing diffoscope
+[2024-05-24 03:35:44] INFO root fetch - processPackages [polymatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatch-0.5.0.tar.gz tmp/polymatch-0.5.1.tar.gz --markdown 20240524/p/polymatch/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/57/05/be979add4b361267d3473bafb386afebcc847588d243a4e0691c163dc14a/pulumi_rancher2-6.2.0a1716512649.tar.gz
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-24 03:35:44] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240524/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-24 03:35:45] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-24 03:35:45] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715927695.tar.gz tmp/pulumi_rancher2-6.2.0a1716512649.tar.gz --markdown 20240524/p/pulumi-rancher2/6.2.0a1715927695-6.2.0a1716512649/README.md --exclude *.pyd
+[2024-05-24 03:35:45] INFO root fetch - processPackages [polymatch]: Remove: archive file [/home/abi/fetcher/tmp/polymatch-0.5.0.tar.gz]
+[2024-05-24 03:35:45] INFO root fetch - processPackages [polymatch]: Remove: archive file [/home/abi/fetcher/tmp/polymatch-0.5.1.tar.gz]
+[2024-05-24 03:35:45] INFO root fetch - main [MainThread]: End processing [polymatch]: success
+[2024-05-24 03:35:45] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-24 03:35:45] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-24 03:35:45] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-24 03:35:46] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715927695.tar.gz]
+[2024-05-24 03:35:46] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1716512649.tar.gz]
+[2024-05-24 03:35:46] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-24 03:35:46] INFO root fetch - main [MainThread]: Store serial: [23355212]
