@@ -8108,3 +8108,54 @@
 [2024-05-24 04:24:20] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.9.tar.gz]
 [2024-05-24 04:24:20] INFO root fetch - main [MainThread]: End processing [riverwm-utils]: success
 [2024-05-24 04:24:20] INFO root fetch - main [MainThread]: Store serial: [23355543]
+[2024-05-24 04:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355543]
+[2024-05-24 04:26:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpc-obscodes
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prototwin
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2024-05-24 04:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Orange3-Sqlite3
+[2024-05-24 04:26:29] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240523192030] Old Version: [3.4.1.dev20240523152351]
+[2024-05-24 04:26:29] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.23] Old Version: [2024.5.22]
+[2024-05-24 04:26:29] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240523] Old Version: [1.2.20240522]
+[2024-05-24 04:26:29] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/bf/cf/ab952355994578b555668a31790ddc3cda8d92a54b7373e8ea4158df582e/localstack_core-3.4.1.dev20240523152351.tar.gz
+[2024-05-24 04:26:29] WARNING root fetch - processPackages [prototwin]: Skipping, unable to determine old version
+[2024-05-24 04:26:29] INFO root fetch - main [MainThread]: End processing [prototwin] error
+[2024-05-24 04:26:29] INFO root fetch - processPackages [Orange3-Sqlite3]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 04:26:29] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-05-24 04:26:29] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/fc/ef/ddb96e05513debd4f9c0f4f457306545f71555c89854426ad09b1d0cb76a/iam_actions-1.2.20240522.tar.gz
+[2024-05-24 04:26:29] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/f2/10/2df5a02a350e816aeee28fbcf44b5eca4a65bc9cbaddd7ada63a775b3b29/naif_eop_high_prec-2024.5.22.tar.gz
+[2024-05-24 04:26:29] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/df/51/ad23e9e448a1700ccc36a04a78eb75dceb9e82517cc4e116211d4a581d0b/mpc_obscodes-2024.5.3.tar.gz
+[2024-05-24 04:26:29] INFO root fetch - processPackages [Orange3-Sqlite3]: Downloading https://files.pythonhosted.org/packages/e1/52/c5b525f132d0e95cfe90b89c1915c6062135e0ba6dcac2b428ad72bcca96/orange3_sqlite3-0.0.3.tar.gz
+[2024-05-24 04:26:30] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/33/4f/f31dae6621f0896e418476cbb153ebc2b316e8a4cc6f9eb3d2a77e227784/iam_actions-1.2.20240523.tar.gz
+[2024-05-24 04:26:30] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/0a/ab/8dcfb7ac75fcc06d0c5185e1b29f796c264b40c78b7bec6aa50b2ae386f1/localstack_core-3.4.1.dev20240523192030.tar.gz
+[2024-05-24 04:26:30] INFO root fetch - processPackages [Orange3-Sqlite3]: Downloading https://files.pythonhosted.org/packages/4c/f4/60016e182d6dacb808d54f39b99783323a08044215c1fa2bd68313c5f6ac/Orange3_Sqlite3-0.0.4-py3-none-any.whl
+[2024-05-24 04:26:30] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/0d/1b/1c2617ee6874e0fc2fd4e51962ccffb5a6f3e5099cdd85bcaaef2a10099e/naif_eop_high_prec-2024.5.23.tar.gz
+[2024-05-24 04:26:30] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-24 04:26:30] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240522.tar.gz tmp/iam_actions-1.2.20240523.tar.gz --markdown 20240524/i/iam-actions/1.2.20240522-1.2.20240523/README.md --exclude *.pyd
+[2024-05-24 04:26:30] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/74/29/cefeef8a14ed0f6d3111838cce54d1d6f40eb1c78df52027ba7776087c5f/mpc_obscodes-2024.5.4.tar.gz
+[2024-05-24 04:26:30] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-24 04:26:30] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240523152351.tar.gz tmp/localstack_core-3.4.1.dev20240523192030.tar.gz --markdown 20240524/l/localstack-core/3.4.1.dev20240523152351-3.4.1.dev20240523192030/README.md --exclude *.pyd
+[2024-05-24 04:26:30] INFO root fetch - processPackages [Orange3-Sqlite3]: executing diffoscope
+[2024-05-24 04:26:30] INFO root fetch - processPackages [Orange3-Sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange3_sqlite3-0.0.3.tar.gz tmp/Orange3_Sqlite3-0.0.4-py3-none-any.whl.zip --markdown 20240524/O/Orange3-Sqlite3/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 04:26:30] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-05-24 04:26:30] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.5.3.tar.gz tmp/mpc_obscodes-2024.5.4.tar.gz --markdown 20240524/m/mpc-obscodes/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-05-24 04:26:30] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-24 04:26:30] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.22.tar.gz tmp/naif_eop_high_prec-2024.5.23.tar.gz --markdown 20240524/n/naif-eop-high-prec/2024.5.22-2024.5.23/README.md --exclude *.pyd
+[2024-05-24 04:26:30] INFO root fetch - processPackages [Orange3-Sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/orange3_sqlite3-0.0.3.tar.gz]
+[2024-05-24 04:26:30] INFO root fetch - processPackages [Orange3-Sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/Orange3_Sqlite3-0.0.4-py3-none-any.whl.zip]
+[2024-05-24 04:26:30] INFO root fetch - main [MainThread]: End processing [Orange3-Sqlite3]: success
+[2024-05-24 04:26:31] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.3.tar.gz]
+[2024-05-24 04:26:31] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.4.tar.gz]
+[2024-05-24 04:26:31] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-05-24 04:26:31] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240522.tar.gz]
+[2024-05-24 04:26:31] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240523.tar.gz]
+[2024-05-24 04:26:31] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-24 04:26:34] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.22.tar.gz]
+[2024-05-24 04:26:34] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.23.tar.gz]
+[2024-05-24 04:26:34] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-24 04:26:34] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240523152351.tar.gz]
+[2024-05-24 04:26:34] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240523192030.tar.gz]
+[2024-05-24 04:26:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-24 04:26:34] INFO root fetch - main [MainThread]: Store serial: [23355559]
