@@ -8750,3 +8750,36 @@
 [2024-05-24 05:03:44] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.1.0.2-py3-none-any.whl.zip]
 [2024-05-24 05:03:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
 [2024-05-24 05:03:44] INFO root fetch - main [MainThread]: Store serial: [23355779]
+[2024-05-24 05:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355779]
+[2024-05-24 05:05:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 05:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pennylane-kq
+[2024-05-24 05:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdbt
+[2024-05-24 05:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pd-extras
+[2024-05-24 05:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reiuji-nuclearcraft
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pd-extras]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-24 05:05:53] INFO root fetch - processPackages [cdbt]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-24 05:05:53] WARNING root fetch - processPackages [reiuji-nuclearcraft]: Skipping, unable to determine old version
+[2024-05-24 05:05:53] INFO root fetch - main [MainThread]: End processing [reiuji-nuclearcraft] error
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/84/a4/054c831876de6fa5a9eabbd068f46f4bbed193ed5e8bad6c143a5e084713/pd_extras-6.1.0.tar.gz
+[2024-05-24 05:05:53] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/76/ff/716bf123a995f1a6b6ef29391e9a50ff699b56f9ac4260d8dfc4bce2a5df/cdbt-0.2.5.tar.gz
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/dc/cd/49605a8756f43e605f6ce4198d86d481cd784e2caaf95cfbc415d2f699ac/pd_extras-6.1.1.tar.gz
+[2024-05-24 05:05:53] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/f3/fa/441f6d4f52c8aeaab10bdfe6695675c3adedc17831fea38ac27ae753f3a5/cdbt-0.2.6.tar.gz
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-24 05:05:53] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.1.0.tar.gz tmp/pd_extras-6.1.1.tar.gz --markdown 20240524/p/pd-extras/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-24 05:05:53] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-24 05:05:53] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.2.5.tar.gz tmp/cdbt-0.2.6.tar.gz --markdown 20240524/c/cdbt/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240524/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.0.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.1.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-24 05:05:54] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.5.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.2.6.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-24 05:05:54] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-24 05:05:54] INFO root fetch - main [MainThread]: Store serial: [23355794]
