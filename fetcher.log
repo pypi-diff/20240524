@@ -2855,3 +2855,33 @@
 [2024-05-24 02:39:39] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1716509240.tar.gz]
 [2024-05-24 02:39:39] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
 [2024-05-24 02:39:39] INFO root fetch - main [MainThread]: Store serial: [23353671]
+[2024-05-24 02:41:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353671]
+[2024-05-24 02:41:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 02:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kafka
+[2024-05-24 02:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-24 02:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libem
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1716509240] Old Version: [3.8.0a1715924897]
+[2024-05-24 02:41:48] INFO root fetch - processPackages [libem]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/21/60/cd0046c59f2ea74358896557a25fec7b17b289a804a65c039f5e6744defa/pulumi_kafka-3.8.0a1715924897.tar.gz
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1716509159] Old Version: [0.2.0a1715924846]
+[2024-05-24 02:41:48] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/78/0a/2c435efb9fdd56e8adba3c03e90072a855f77164ea2ec5f0576266b2dafa/libem-0.0.7.tar.gz
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/96/e4/a3dd95ccec51a6cc834b82a1eb6bcfc5349b0f0e841fec188432d19cba95/pulumi_kafka-3.8.0a1716509240.tar.gz
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/8c/15/d0a3a570a3c3232dc9f55d631f1a3165ac5e69c48bdb8ed3f3fac9cd6bbf/pulumi_ise-0.2.0a1715924846.tar.gz
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-24 02:41:48] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715924897.tar.gz tmp/pulumi_kafka-3.8.0a1716509240.tar.gz --markdown 20240524/p/pulumi-kafka/3.8.0a1715924897-3.8.0a1716509240/README.md --exclude *.pyd
+[2024-05-24 02:41:49] INFO root fetch - processPackages [libem]: Downloading https://files.pythonhosted.org/packages/51/ad/ec6f37f954c0a5873fe9cacd42be1ad4b7f5a054dbd46579cfe39e863045/libem-0.0.8.tar.gz
+[2024-05-24 02:41:49] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/6a/e5/48d93e2c71338cf638181e7447c51957f4d5139d48d584336706ee5bb8b4/pulumi_ise-0.2.0a1716509159.tar.gz
+[2024-05-24 02:41:49] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-24 02:41:49] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715924846.tar.gz tmp/pulumi_ise-0.2.0a1716509159.tar.gz --markdown 20240524/p/pulumi-ise/0.2.0a1715924846-0.2.0a1716509159/README.md --exclude *.pyd
+[2024-05-24 02:41:49] INFO root fetch - processPackages [libem]: executing diffoscope
+[2024-05-24 02:41:49] INFO root fetch - processPackages [libem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libem-0.0.7.tar.gz tmp/libem-0.0.8.tar.gz --markdown 20240524/l/libem/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 02:41:49] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715924897.tar.gz]
+[2024-05-24 02:41:49] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1716509240.tar.gz]
+[2024-05-24 02:41:49] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-24 02:41:50] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.7.tar.gz]
+[2024-05-24 02:41:50] INFO root fetch - processPackages [libem]: Remove: archive file [/home/abi/fetcher/tmp/libem-0.0.8.tar.gz]
+[2024-05-24 02:41:50] INFO root fetch - main [MainThread]: End processing [libem]: success
+[2024-05-24 02:41:50] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715924846.tar.gz]
+[2024-05-24 02:41:50] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1716509159.tar.gz]
+[2024-05-24 02:41:50] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-24 02:41:50] INFO root fetch - main [MainThread]: Store serial: [23353680]
