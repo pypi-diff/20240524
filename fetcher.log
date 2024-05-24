@@ -14005,3 +14005,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:26:27] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.324.tar.gz]
 [2024-05-24 09:26:27] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
 [2024-05-24 09:26:27] INFO root fetch - main [MainThread]: Store serial: [23357924]
+[2024-05-24 09:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357924]
+[2024-05-24 09:28:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Length-of-body-image
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-auth-admin-passkey
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picopy
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-global-discount
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-base-external-dbsource-mssql
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-external-dbsource-sqlite
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-unianalytics-dashboard
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapieng
+[2024-05-24 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lottokit
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-global-discount]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.8]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [mapieng]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [picopy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-24 09:28:36] WARNING root fetch - processPackages [Length-of-body-image]: Skipping, unable to determine old version
+[2024-05-24 09:28:36] INFO root fetch - main [MainThread]: End processing [Length-of-body-image] error
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/ec/8c/451143a32ea3f276abc9f79b1ba80149af7ba0448ca87aa3e672cc84c8b6/odoo_addon_base_global_discount-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [lottokit]: New version: [1.2] Old Version: [1.1]
+[2024-05-24 09:28:36] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/7e/30/c43d3a44ee2c98e3a2bf7403259e1c4def81d9c739752888d0e9b89abfda/mapieng-0.1.4.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/a8/40/186fe804abf9783dd3fa48c3fd3ce3940f5cf5f9187d6e6aa4247a056cba/picopy-1.0.8.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/8a/47/66819a13c3a113812f79e555a30f3842cb57594689385998863eac401506/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: Downloading https://files.pythonhosted.org/packages/4f/ba/09efd11b0b9824c824b5c15d346e2a080e9e7ddeb65ecbbc3f9074e71862/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.7-py3-none-any.whl
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: Downloading https://files.pythonhosted.org/packages/21/83/6b0ee685674337be0dcee69466a1c3fd3caf699559e5b56fe72f64eb0781/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2-py3-none-any.whl
+[2024-05-24 09:28:36] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/ce/0d/60e62db5e97e87774d2d896a81c590eca9fb55f5bf8fa5946615605b6c20/lottokit-1.1.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Downloading https://files.pythonhosted.org/packages/0d/63/c4bf4f7b05e40317a689568a8c2d928e03ca34adb82b3e9b017779e40e71/odoo_addon_auth_admin_passkey-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 09:28:36] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/8b/21/3ef19d0f45cc9608502ba2fb2f74b590a34a2da2b40089bac4ac267609f0/picopy-1.0.9.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Downloading https://files.pythonhosted.org/packages/84/c4/99d17bc5921c2c806a2ec0b3b9cba0b94ac07d3655ed047165d4e2c4865d/odoo_addon_base_global_discount-16.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:28:36] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/fa/3a/2f64cc08170843917ff625d07921de426902e629e5d8f94fc8a555e6a2a6/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz
+[2024-05-24 09:28:36] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/f1/18/1fbef1ff5070ce00555d17ca1916d4694a1ca869a5f75b2ab0a4fbae6f4a/mapieng-0.1.5.tar.gz
+[2024-05-24 09:28:37] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.8.tar.gz tmp/picopy-1.0.9.tar.gz --markdown 20240524/p/picopy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-global-discount]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-global-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_global_discount-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_base_global_discount-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-global-discount/16.0.1.0.0.8-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: Downloading https://files.pythonhosted.org/packages/57/7a/fca0ab7474988a5161938035558dff02fa6f7e5a5d4e40991f5eceeff7b0/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-24 09:28:37] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.4.tar.gz tmp/mapieng-0.1.5.tar.gz --markdown 20240524/m/mapieng/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/af/d5/fba7b4f8ac15ae954f8471adbdf62a0693f2d1b379f6969d223f1eb81d7b/lottokit-1.2.tar.gz
+[2024-05-24 09:28:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz --markdown 20240524/j/jupyterlab-unianalytics-dashboard/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: Downloading https://files.pythonhosted.org/packages/17/44/86e54e52f408161ab52cad50d27c8658e8b96fa97945f56acc0dabd335b1/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.8-py3-none-any.whl
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Downloading https://files.pythonhosted.org/packages/f6/c5/f5febbe338540febe19e27843b7702b7195315c2fabab370a8ac14af2bd1/odoo_addon_auth_admin_passkey-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-external-dbsource-sqlite/16.0.1.0.2-16.0.1.0.2.1/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [lottokit]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [lottokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lottokit-1.1.tar.gz tmp/lottokit-1.2.tar.gz --markdown 20240524/l/lottokit/1.1-1.2/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-base-external-dbsource-mssql/16.0.1.0.1.7-16.0.1.0.1.8/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: executing diffoscope
+[2024-05-24 09:28:37] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_admin_passkey-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_admin_passkey-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-auth-admin-passkey/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-24 09:28:37] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.8.tar.gz]
+[2024-05-24 09:28:37] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.9.tar.gz]
+[2024-05-24 09:28:37] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.4.tar.gz]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.5.tar.gz]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-global-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_global_discount-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-global-discount]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource_sqlite-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-external-dbsource-sqlite]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-1.1.tar.gz]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-1.2.tar.gz]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [lottokit]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-base-external-dbsource-mssql]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource_mssql-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-external-dbsource-mssql]: success
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_admin_passkey-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - processPackages [odoo-addon-auth-admin-passkey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_admin_passkey-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 09:28:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-admin-passkey]: success
+[2024-05-24 09:28:39] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz]
+[2024-05-24 09:28:39] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz]
+[2024-05-24 09:28:39] INFO root fetch - main [MainThread]: End processing [jupyterlab-unianalytics-dashboard]: success
+[2024-05-24 09:28:39] INFO root fetch - main [MainThread]: Store serial: [23357956]
