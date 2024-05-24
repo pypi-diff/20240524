@@ -20962,3 +20962,167 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 13:15:09] INFO root fetch - processPackages [nucleofind]: Remove: archive file [/home/abi/fetcher/tmp/nucleofind-0.6.0-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
 [2024-05-24 13:15:09] INFO root fetch - main [MainThread]: End processing [nucleofind]: success
 [2024-05-24 13:15:09] INFO root fetch - main [MainThread]: Store serial: [23360874]
+[2024-05-24 13:17:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360874]
+[2024-05-24 13:17:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wwpdb.apps.msgmodule
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mia-vgg
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twilio
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cadprox
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SIST02-Converter
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-vlan-manager
+[2024-05-24 13:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hestia-ood
+[2024-05-24 13:17:21] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 13:17:21] INFO root fetch - processPackages [SIST02-Converter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 13:17:21] INFO root fetch - processPackages [cadprox]: New version: [3] Old Version: [2.9]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/80/85/c1872aae8ea4a55baf68e7cac21949776416dc6fb3a26da5a59359513dfe/mia_vgg-0.0.5.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240524] Old Version: [2.5.0b20240523]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: New version: [0.176.2] Old Version: [0.176.1]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [netbox-vlan-manager]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [hestia-ood]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/81/c2/ba9114e7985717960657523bcb10b9b31e35023489f6cb60273b0914e0d9/cadprox-2.9.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [twilio]: New version: [9.1.0] Old Version: [9.0.5]
+[2024-05-24 13:17:22] INFO root fetch - processPackages [SIST02-Converter]: Downloading https://files.pythonhosted.org/packages/46/44/42f1e4a8f1edb365acbe8f8bcd489068f85112cc33e161f19f10eba86581/SIST02_converter-0.1.1.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [netbox-vlan-manager]: Downloading https://files.pythonhosted.org/packages/92/19/ac7209c9659acccfddc06d30afdb6b315301e605c50e03c8946ef55b9e67/netbox-vlan-manager-0.1.2.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/3d/70/c4fc8061a3631e40002b1c0599e6e633d8ddc55d75f456d32248fcc35d7d/twilio-9.0.5.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/ca/e0/d97d6d047fafab889e5bb67480a05cce92e5babf8c1c588ccfe04297e6d9/bigdl_core_xe_esimd_21-2.5.0b20240523-cp39-cp39-win_amd64.whl
+[2024-05-24 13:17:22] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: Downloading https://files.pythonhosted.org/packages/31/69/df23d155081503987b59fc79b04e5e3fe1a46aab50e2837662d046ecd0e8/wwpdb.apps.msgmodule-0.176.1.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [hestia-ood]: Downloading https://files.pythonhosted.org/packages/63/72/39b0c1be6dad313deb36801b16d09a567acb8c683514e2f9be4c92cf0727/hestia_ood-0.0.8.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/c2/51/96b349b3db80c32f5ac9ba4e5a1c8b970e299d86e561ea85459045405304/mia_vgg-0.0.6.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/63/fd/593ea343d8e4a63aa303b3c84227f2215f9cafb02fe592b92d90e2ec8f26/cadprox-3.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [SIST02-Converter]: Downloading https://files.pythonhosted.org/packages/0b/6e/4f46663357a73bc0e447cde221f6c3bfba54878d5eabb396de8919cc86e1/SIST02_converter-0.1.2.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.5.tar.gz tmp/mia_vgg-0.0.6.tar.gz --markdown 20240524/m/mia-vgg/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.9.tar.gz tmp/cadprox-3.tar.gz --markdown 20240524/c/cadprox/2.9-3/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [SIST02-Converter]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [SIST02-Converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIST02_converter-0.1.1.tar.gz tmp/SIST02_converter-0.1.2.tar.gz --markdown 20240524/S/SIST02-Converter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: Downloading https://files.pythonhosted.org/packages/b2/b9/da9ddfd7267f965322460c3892f86202aefddfc3fd19832179ebbbe3a211/wwpdb_apps_msgmodule-0.176.2.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [netbox-vlan-manager]: Downloading https://files.pythonhosted.org/packages/dc/ea/9a06ce3f230b81e5f0f138b159ec87fc0c4696a98d26e350b49745af020d/netbox_vlan_manager-0.2.0.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/d4/8f/3b6045969ebedb5bbf8cdb4df4422fefc9907d4a5122daa6b9b296828e14/twilio-9.1.0.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [netbox-vlan-manager]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [netbox-vlan-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-vlan-manager-0.1.2.tar.gz tmp/netbox_vlan_manager-0.2.0.tar.gz --markdown 20240524/n/netbox-vlan-manager/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [hestia-ood]: Downloading https://files.pythonhosted.org/packages/2a/ba/7e3df476a6b8de8a2e7a486828d0740801587b589ba2ed9baecb1f19d74b/hestia_ood-0.0.9.tar.gz
+[2024-05-24 13:17:22] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.msgmodule-0.176.1.tar.gz tmp/wwpdb_apps_msgmodule-0.176.2.tar.gz --markdown 20240524/w/wwpdb.apps.msgmodule/0.176.1-0.176.2/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/51/ce/56bde36f667aa3acdc4ac301ddceba3f0687940d6f573175708e74e11663/bigdl_core_xe_esimd_21-2.5.0b20240524-cp310-cp310-win_amd64.whl
+[2024-05-24 13:17:22] INFO root fetch - processPackages [twilio]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-9.0.5.tar.gz tmp/twilio-9.1.0.tar.gz --markdown 20240524/t/twilio/9.0.5-9.1.0/README.md --exclude *.pyd
+[2024-05-24 13:17:22] INFO root fetch - processPackages [hestia-ood]: executing diffoscope
+[2024-05-24 13:17:22] INFO root fetch - processPackages [hestia-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia_ood-0.0.8.tar.gz tmp/hestia_ood-0.0.9.tar.gz --markdown 20240524/h/hestia-ood/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 13:17:23] INFO root fetch - processPackages [SIST02-Converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02_converter-0.1.1.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [SIST02-Converter]: Remove: archive file [/home/abi/fetcher/tmp/SIST02_converter-0.1.2.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [SIST02-Converter]: success
+[2024-05-24 13:17:23] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.5.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.6.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-24 13:17:23] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.9.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:17:23] INFO root fetch - processPackages [netbox-vlan-manager]: Remove: archive file [/home/abi/fetcher/tmp/netbox-vlan-manager-0.1.2.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [netbox-vlan-manager]: Remove: archive file [/home/abi/fetcher/tmp/netbox_vlan_manager-0.2.0.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [netbox-vlan-manager]: success
+[2024-05-24 13:17:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-24 13:17:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240523-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240524-cp310-cp310-win_amd64.whl.zip --markdown 20240524/b/bigdl-core-xe-esimd-21/2.5.0b20240523-2.5.0b20240524/README.md --exclude *.pyd
+[2024-05-24 13:17:23] INFO root fetch - processPackages [hestia-ood]: Remove: archive file [/home/abi/fetcher/tmp/hestia_ood-0.0.8.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [hestia-ood]: Remove: archive file [/home/abi/fetcher/tmp/hestia_ood-0.0.9.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [hestia-ood]: success
+[2024-05-24 13:17:23] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.msgmodule-0.176.1.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - processPackages [wwpdb.apps.msgmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_apps_msgmodule-0.176.2.tar.gz]
+[2024-05-24 13:17:23] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.msgmodule]: success
+[2024-05-24 13:17:24] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-24T13:17:23+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139672940453264)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139673074671104)
+
+[2024-05-24 13:17:24] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-24 13:17:26] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.5.tar.gz]
+[2024-05-24 13:17:26] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.1.0.tar.gz]
+[2024-05-24 13:17:26] INFO root fetch - main [MainThread]: End processing [twilio]: success
+[2024-05-24 13:17:26] INFO root fetch - main [MainThread]: Store serial: [23360899]
