@@ -10085,3 +10085,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:19:31] INFO root fetch - processPackages [aws_lambda_stream]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_stream-1.2.2.tar.gz]
 [2024-05-24 06:19:31] INFO root fetch - main [MainThread]: End processing [aws_lambda_stream]: success
 [2024-05-24 06:19:31] INFO root fetch - main [MainThread]: Store serial: [23356245]
+[2024-05-24 06:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356245]
+[2024-05-24 06:21:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 06:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathrixpy
+[2024-05-24 06:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nebulagraph-lite
+[2024-05-24 06:21:40] INFO root fetch - processPackages [mathrixpy]: New version: [0.2] Old Version: [0.1]
+[2024-05-24 06:21:40] INFO root fetch - processPackages [nebulagraph-lite]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-24 06:21:40] INFO root fetch - processPackages [nebulagraph-lite]: Downloading https://files.pythonhosted.org/packages/b3/4b/14f9df5ad46ba142d835ef45e09b0fe32165a916257bd6c4cd834d4fae99/nebulagraph_lite-0.2.2.tar.gz
+[2024-05-24 06:21:40] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/63/bb/da096418cfc5f13935fda832194c9575514bab7f46e7f149e5d22086f940/mathrixpy-0.1.tar.gz
+[2024-05-24 06:21:40] INFO root fetch - processPackages [nebulagraph-lite]: Downloading https://files.pythonhosted.org/packages/c4/d5/70f219e92cacad9124edeccd17ac1cac3f6f7cf3fbbf65473b06125c7651/nebulagraph_lite-0.2.3.tar.gz
+[2024-05-24 06:21:41] INFO root fetch - processPackages [nebulagraph-lite]: executing diffoscope
+[2024-05-24 06:21:41] INFO root fetch - processPackages [nebulagraph-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulagraph_lite-0.2.2.tar.gz tmp/nebulagraph_lite-0.2.3.tar.gz --markdown 20240524/n/nebulagraph-lite/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: Downloading https://files.pythonhosted.org/packages/c7/a8/34680e8fecdb32daf1f6b88bf6c2e8f4cc223b3fe882fba9135f0c1bde50/mathrixpy-0.2.tar.gz
+[2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: executing diffoscope
+[2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathrixpy-0.1.tar.gz tmp/mathrixpy-0.2.tar.gz --markdown 20240524/m/mathrixpy/0.1-0.2/README.md --exclude *.pyd
+[2024-05-24 06:21:41] INFO root fetch - processPackages [nebulagraph-lite]: Remove: archive file [/home/abi/fetcher/tmp/nebulagraph_lite-0.2.2.tar.gz]
+[2024-05-24 06:21:41] INFO root fetch - processPackages [nebulagraph-lite]: Remove: archive file [/home/abi/fetcher/tmp/nebulagraph_lite-0.2.3.tar.gz]
+[2024-05-24 06:21:41] INFO root fetch - main [MainThread]: End processing [nebulagraph-lite]: success
+[2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.1.tar.gz]
+[2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.2.tar.gz]
+[2024-05-24 06:21:41] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
+[2024-05-24 06:21:41] INFO root fetch - main [MainThread]: Store serial: [23356250]
