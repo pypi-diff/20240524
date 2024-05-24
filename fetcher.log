@@ -18708,3 +18708,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:53:31] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.96-py3-none-any.whl.zip]
 [2024-05-24 11:53:31] INFO root fetch - main [MainThread]: End processing [lumipy]: success
 [2024-05-24 11:53:31] INFO root fetch - main [MainThread]: Store serial: [23359952]
+[2024-05-24 11:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359952]
+[2024-05-24 11:55:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ncmcm
+[2024-05-24 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otpme
+[2024-05-24 11:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-05-24 11:55:40] INFO root fetch - processPackages [otpme]: New version: [0.3.0a68] Old Version: [0.3.0a67]
+[2024-05-24 11:55:40] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-24 11:55:40] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/b6/12/ea621f029b638d96b3e35b958c766c4b9f068241f7945827f6876ddb1bcb/otpme-0.3.0a67.tar.gz
+[2024-05-24 11:55:40] INFO root fetch - processPackages [ncmcm]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-24 11:55:40] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-24 11:55:41] INFO root fetch - processPackages [ncmcm]: Downloading https://files.pythonhosted.org/packages/bf/7b/3a6faee20a7a98c2e9869d73872cd52a21d36ba6dc80fba33839adb847bd/ncmcm-1.1.0.tar.gz
+[2024-05-24 11:55:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-24 11:55:41] WARNING root fetch - processPackages [ncmcm]: Skipping package: exceeds size limit 14879966>=10485760
+[2024-05-24 11:55:41] INFO root fetch - main [MainThread]: End processing [ncmcm] error
+[2024-05-24 11:55:41] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-24 11:55:41] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240524/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-24 11:55:41] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/93/e1/01d79fef29302cb17526963a0ae95acf931b96c517c30b47b3f3c78139fc/otpme-0.3.0a68.tar.gz
+[2024-05-24 11:55:41] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 11:55:41] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a67.tar.gz tmp/otpme-0.3.0a68.tar.gz --markdown 20240524/o/otpme/0.3.0a67-0.3.0a68/README.md --exclude *.pyd
+[2024-05-24 11:55:42] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-24 11:55:42] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-24 11:55:42] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-24 11:55:43] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a67.tar.gz]
+[2024-05-24 11:55:43] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a68.tar.gz]
+[2024-05-24 11:55:43] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 11:55:43] INFO root fetch - main [MainThread]: Store serial: [23359962]
