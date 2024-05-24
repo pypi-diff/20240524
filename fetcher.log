@@ -11082,3 +11082,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:02:35] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.1-py2.py3-none-any.whl.zip]
 [2024-05-24 07:02:35] INFO root fetch - main [MainThread]: End processing [pypowerwall]: success
 [2024-05-24 07:02:35] INFO root fetch - main [MainThread]: Store serial: [23356615]
+[2024-05-24 07:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356615]
+[2024-05-24 07:04:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 07:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 07:04:44] INFO root fetch - processPackages [cadprox]: New version: [1.9] Old Version: [1.8]
+[2024-05-24 07:04:44] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/50/2e/fa58356ee7445e19ca9a6bd2e0887ec559eceb72c2409f48e9c7e58e75c6/cadprox-1.8.tar.gz
+[2024-05-24 07:04:44] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/d4/56/4e0dad2e70e5ed5b959fe0412dd1fc95a16373da4d2b0eed0fb5f78a6479/cadprox-1.9.tar.gz
+[2024-05-24 07:04:45] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 07:04:45] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.8.tar.gz tmp/cadprox-1.9.tar.gz --markdown 20240524/c/cadprox/1.8-1.9/README.md --exclude *.pyd
+[2024-05-24 07:04:45] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.8.tar.gz]
+[2024-05-24 07:04:45] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.9.tar.gz]
+[2024-05-24 07:04:45] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 07:04:45] INFO root fetch - main [MainThread]: Store serial: [23356618]
