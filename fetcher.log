@@ -9876,3 +9876,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:01:53] INFO root fetch - processPackages [odoo-addon-stock-buffer-sales-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_buffer_sales_analysis-16.0.1.0.0.7-py3-none-any.whl.zip]
 [2024-05-24 06:01:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-buffer-sales-analysis]: success
 [2024-05-24 06:01:53] INFO root fetch - main [MainThread]: Store serial: [23356148]
+[2024-05-24 06:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356148]
+[2024-05-24 06:04:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigtools
+[2024-05-24 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validators
+[2024-05-24 06:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonargparse
+[2024-05-24 06:04:01] INFO root fetch - processPackages [validators]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 06:04:02] INFO root fetch - processPackages [jsonargparse]: New version: [4.9.0] Old Version: [4.8.0.dev2]
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: Downloading https://files.pythonhosted.org/packages/93/80/72bf3afd417460a3cd1c22bf75c27fcb27d74c02e5f5b7685e9a19774220/bigtools-0.1.8.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: Downloading https://files.pythonhosted.org/packages/ad/3c/8ac4e678f13709aa35262af92b8f252205106fda446debb5e1ccfeb732b5/bigtools-0.1.9.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/01/fd/252e65efd602dabab848e05cb1abdb6327c680d9e4734fcbd1a098faf738/validators-0.8.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/16/9b/6278a964472d726663deec1a73e681b459dd3cf253683239e2ed27c01622/jsonargparse-4.8.0.dev2.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: executing diffoscope
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtools-0.1.8.tar.gz tmp/bigtools-0.1.9.tar.gz --markdown 20240524/b/bigtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 06:04:02] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/70/e1/23fa50c66483b57e75ab945f5a5df1627f52df7b34aa3b6376a822ba9eaf/validators-0.9.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [validators]: executing diffoscope
+[2024-05-24 06:04:02] INFO root fetch - processPackages [validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validators-0.8.tar.gz tmp/validators-0.9.tar.gz --markdown 20240524/v/validators/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 06:04:02] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/4b/46/493ba47ed28265c51702c94daf00111d2b5a5ade193250ac089165563e58/jsonargparse-4.9.0.tar.gz
+[2024-05-24 06:04:02] INFO root fetch - processPackages [jsonargparse]: executing diffoscope
+[2024-05-24 06:04:02] INFO root fetch - processPackages [jsonargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonargparse-4.8.0.dev2.tar.gz tmp/jsonargparse-4.9.0.tar.gz --markdown 20240524/j/jsonargparse/4.8.0.dev2-4.9.0/README.md --exclude *.pyd
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: Remove: archive file [/home/abi/fetcher/tmp/bigtools-0.1.8.tar.gz]
+[2024-05-24 06:04:02] INFO root fetch - processPackages [bigtools]: Remove: archive file [/home/abi/fetcher/tmp/bigtools-0.1.9.tar.gz]
+[2024-05-24 06:04:03] INFO root fetch - main [MainThread]: End processing [bigtools]: success
+[2024-05-24 06:04:03] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.8.tar.gz]
+[2024-05-24 06:04:03] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.9.tar.gz]
+[2024-05-24 06:04:03] INFO root fetch - main [MainThread]: End processing [validators]: success
+[2024-05-24 06:04:03] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.8.0.dev2.tar.gz]
+[2024-05-24 06:04:03] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
+[2024-05-24 06:04:03] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
+[2024-05-24 06:04:03] INFO root fetch - main [MainThread]: Store serial: [23356156]
