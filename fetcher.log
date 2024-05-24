@@ -15721,3 +15721,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:20:20] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.5-cp38-cp38-win_amd64.whl.zip]
 [2024-05-24 10:20:20] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
 [2024-05-24 10:20:20] INFO root fetch - main [MainThread]: Store serial: [23358621]
+[2024-05-24 10:22:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358621]
+[2024-05-24 10:22:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dja-sepp
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ryry-cli
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geodeticengine
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conson
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sri-check
+[2024-05-24 10:22:29] INFO root fetch - processPackages [geodeticengine]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 10:22:29] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ryry-cli]: New version: [1.8] Old Version: [1.7]
+[2024-05-24 10:22:29] INFO root fetch - processPackages [sri-check]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-24 10:22:29] INFO root fetch - processPackages [conson]: New version: [3.2.1] Old Version: [3.1.9]
+[2024-05-24 10:22:29] INFO root fetch - processPackages [geodeticengine]: Downloading https://files.pythonhosted.org/packages/90/96/9c810beb1c881354ed2487bd11daacf09621acf66d68cefd27dd43808631/geodeticengine-1.0.8.tar.gz
+[2024-05-24 10:22:29] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/a8/70/0d37484eb8942b49e6dc4587a8444c0f35d8c2acb1c10c6737eeff082b6e/ryry_cli-1.7.tar.gz
+[2024-05-24 10:22:29] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/15/89/041ca7cedcb342eb0de9169874162352cc47198936ea7f38a2c2841c023d/dja_sepp-0.1.8.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [conson]: Downloading https://files.pythonhosted.org/packages/0c/67/6e9b37a1cb27b1ad5b8580dfaa4be58a0d191f998a98fb54ebcc5eba09b5/conson-3.1.9.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [sri-check]: Downloading https://files.pythonhosted.org/packages/3f/78/9fa9ca0d517d2cae81ffd53d446884dcf928da76daa33c09920984853ad2/sri-check-1.8.0.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [geodeticengine]: Downloading https://files.pythonhosted.org/packages/5d/17/2eb753af118e9aa64f92f02124bbbad7275dd829533a1e014cc8e2367c8c/geodeticengine-1.0.9.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/dc/99/79f7c555ed0b9b042fd75f870161596235966a3cd97d490b8314749bc090/dja_sepp-0.1.9.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [ryry-cli]: Downloading https://files.pythonhosted.org/packages/58/6d/fd2ab1175dc1d33cc485c520adfc8f9b3247f057e88f2029426eb1d23b02/ryry_cli-1.8.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-24 10:22:30] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.8.tar.gz tmp/dja_sepp-0.1.9.tar.gz --markdown 20240524/d/dja-sepp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 10:22:30] INFO root fetch - processPackages [geodeticengine]: executing diffoscope
+[2024-05-24 10:22:30] INFO root fetch - processPackages [geodeticengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodeticengine-1.0.8.tar.gz tmp/geodeticengine-1.0.9.tar.gz --markdown 20240524/g/geodeticengine/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 10:22:30] INFO root fetch - processPackages [ryry-cli]: executing diffoscope
+[2024-05-24 10:22:30] INFO root fetch - processPackages [ryry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryry_cli-1.7.tar.gz tmp/ryry_cli-1.8.tar.gz --markdown 20240524/r/ryry-cli/1.7-1.8/README.md --exclude *.pyd
+[2024-05-24 10:22:30] INFO root fetch - processPackages [conson]: Downloading https://files.pythonhosted.org/packages/79/49/a942e4bf5858a60a172777d48761f3aab96fe53b7d04e510a4b43894f09e/conson-3.2.1.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [sri-check]: Downloading https://files.pythonhosted.org/packages/89/64/206061b887a03b908ed9db8bc895ae8aa80c50adb4ce674c453a6c1dae8c/sri-check-1.9.0.tar.gz
+[2024-05-24 10:22:30] INFO root fetch - processPackages [conson]: executing diffoscope
+[2024-05-24 10:22:30] INFO root fetch - processPackages [conson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conson-3.1.9.tar.gz tmp/conson-3.2.1.tar.gz --markdown 20240524/c/conson/3.1.9-3.2.1/README.md --exclude *.pyd
+[2024-05-24 10:22:30] INFO root fetch - processPackages [sri-check]: executing diffoscope
+[2024-05-24 10:22:30] INFO root fetch - processPackages [sri-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sri-check-1.8.0.tar.gz tmp/sri-check-1.9.0.tar.gz --markdown 20240524/s/sri-check/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-24 10:22:31] INFO root fetch - processPackages [geodeticengine]: Remove: archive file [/home/abi/fetcher/tmp/geodeticengine-1.0.8.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - processPackages [geodeticengine]: Remove: archive file [/home/abi/fetcher/tmp/geodeticengine-1.0.9.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [geodeticengine]: success
+[2024-05-24 10:22:31] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.8.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.9.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-24 10:22:31] INFO root fetch - processPackages [conson]: Remove: archive file [/home/abi/fetcher/tmp/conson-3.1.9.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - processPackages [conson]: Remove: archive file [/home/abi/fetcher/tmp/conson-3.2.1.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [conson]: success
+[2024-05-24 10:22:31] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.7.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - processPackages [ryry-cli]: Remove: archive file [/home/abi/fetcher/tmp/ryry_cli-1.8.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [ryry-cli]: success
+[2024-05-24 10:22:31] INFO root fetch - processPackages [sri-check]: Remove: archive file [/home/abi/fetcher/tmp/sri-check-1.8.0.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - processPackages [sri-check]: Remove: archive file [/home/abi/fetcher/tmp/sri-check-1.9.0.tar.gz]
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: End processing [sri-check]: success
+[2024-05-24 10:22:31] INFO root fetch - main [MainThread]: Store serial: [23358639]
