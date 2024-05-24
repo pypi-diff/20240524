@@ -22021,3 +22021,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:46:08] INFO root fetch - processPackages [fastly]: Remove: archive file [/home/abi/fetcher/tmp/fastly-5.3.0.tar.gz]
 [2024-05-24 13:46:08] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2024-05-24 13:46:08] INFO root fetch - main [MainThread]: Store serial: [23361334]
+[2024-05-24 13:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361334]
+[2024-05-24 13:48:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timesfm
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stonefish-code-shield
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otpme
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unprint
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynxtools-stm
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imio.events.core
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fslpy
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: timesfm
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiproteomics
+[2024-05-24 13:48:17] INFO root fetch - processPackages [cadprox]: New version: [3.6] Old Version: [3.5]
+[2024-05-24 13:48:17] WARNING root fetch - processPackages [unprint]: Skipping, unable to determine old version
+[2024-05-24 13:48:17] INFO root fetch - processPackages [unprint]: Start processing: ansys-api-edb
+[2024-05-24 13:48:17] INFO root fetch - main [MainThread]: End processing [unprint] error
+[2024-05-24 13:48:17] INFO root fetch - processPackages [pynxtools-stm]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [timesfm]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [timesfm]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [otpme]: New version: [0.3.0a76] Old Version: [0.3.0a75]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [stonefish-code-shield]: New version: [0.3.49] Old Version: [0.3.48]
+[2024-05-24 13:48:17] WARNING root fetch - processPackages [aiproteomics]: Skipping, unable to determine old version
+[2024-05-24 13:48:17] INFO root fetch - main [MainThread]: End processing [aiproteomics] error
+[2024-05-24 13:48:17] INFO root fetch - processPackages [imio.events.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [pynxtools-stm]: Downloading https://files.pythonhosted.org/packages/d0/28/437e07f403da55539aefb13b42c9449eaf38694a5ae169a6534bc937f000/pynxtools_stm-1.0.2.tar.gz
+[2024-05-24 13:48:17] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/cd/da/6ee2c0fbb661570264605daa3c3ec73801cd30f4dba6caf1a72381b37d0f/timesfm-0.0.1.tar.gz
+[2024-05-24 13:48:17] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/cd/da/6ee2c0fbb661570264605daa3c3ec73801cd30f4dba6caf1a72381b37d0f/timesfm-0.0.1.tar.gz
+[2024-05-24 13:48:17] INFO root fetch - processPackages [fslpy]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/e0/e2/c8f14299c7d5be2106d46993cd6e785f4fff5e2b7118a1590023689797c0/otpme-0.3.0a75.tar.gz
+[2024-05-24 13:48:17] INFO root fetch - processPackages [ansys-api-edb]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 13:48:17] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/bb/a8/24f9afc7e41a3528475ddfca59674cbb54696b1eb4d338e765347fed20ff/cadprox-3.5.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [stonefish-code-shield]: Downloading https://files.pythonhosted.org/packages/b2/94/cd3f0c34cc9e00f56eb7211d02c8710f7ef66838761f6350608b4c92e76b/stonefish_code_shield-0.3.48-py3-none-any.whl
+[2024-05-24 13:48:18] WARNING root fetch - processPackages [pynxtools-stm]: Skipping package: exceeds size limit 25058816>=10485760
+[2024-05-24 13:48:18] INFO root fetch - main [MainThread]: End processing [pynxtools-stm] error
+[2024-05-24 13:48:18] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/63/c59272dfd7c1a5658df92ebe74fa3e45a0ddfa45d287e0eed6b094c32588/imio.events.core-1.2.8.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/53/4c/cc2cd58582df00ba065252106638541f34ea8093a8f724af8c8d18f5a509/timesfm-0.0.3.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [ansys-api-edb]: Downloading https://files.pythonhosted.org/packages/d5/53/e109f00652258b6015d481ce53dc1ce8d221bc21079f30113d7ea6d6d4f7/ansys_api_edb-1.0.3.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/53/4c/cc2cd58582df00ba065252106638541f34ea8093a8f724af8c8d18f5a509/timesfm-0.0.3.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [fslpy]: Downloading https://files.pythonhosted.org/packages/1b/dc/a76fdcada4d6efdb3ba36801b1b749a9d7355b5bfdae92f4a51ef7fb38c1/fslpy-3.9.4.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/04/c0/40bf8ab42fae34c9ff772a10378ef4d7f1261fba65dc79aa0399b8e9baf3/cadprox-3.6.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.1.tar.gz tmp/timesfm-0.0.3.tar.gz --markdown 20240524/t/timesfm/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.1.tar.gz tmp/timesfm-0.0.3.tar.gz --markdown 20240524/t/timesfm/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [stonefish-code-shield]: Downloading https://files.pythonhosted.org/packages/b3/2e/60036fd23f16c32b2b2ae973cc57327915c7c6788081e5b3c9ec1bf1cbe9/stonefish_code_shield-0.3.49-py3-none-any.whl
+[2024-05-24 13:48:18] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.5.tar.gz tmp/cadprox-3.6.tar.gz --markdown 20240524/c/cadprox/3.5-3.6/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ed/5e/ba5f9979b1ff17b5e1185bcb48ffcc8a6ffa3de32d336db29529a163d005/otpme-0.3.0a76.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [ansys-api-edb]: Downloading https://files.pythonhosted.org/packages/58/ef/57869ace73da3013746498cda0eca17412a6805eb4e54eea0f208371bbec/ansys_api_edb-1.0.4.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [stonefish-code-shield]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [stonefish-code-shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_code_shield-0.3.48-py3-none-any.whl.zip tmp/stonefish_code_shield-0.3.49-py3-none-any.whl.zip --markdown 20240524/s/stonefish-code-shield/0.3.48-0.3.49/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/33/1c/6948ace023880b067772f3bccefa1ccfec9a502c04b9597dbb3042c14d2f/imio.events.core-1.2.9.tar.gz
+[2024-05-24 13:48:18] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a75.tar.gz tmp/otpme-0.3.0a76.tar.gz --markdown 20240524/o/otpme/0.3.0a75-0.3.0a76/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.1.tar.gz]
+[2024-05-24 13:48:18] INFO root fetch - processPackages [ansys-api-edb]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [ansys-api-edb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_edb-1.0.3.tar.gz tmp/ansys_api_edb-1.0.4.tar.gz --markdown 20240524/a/ansys-api-edb/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 13:48:18] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.3.tar.gz]
+[2024-05-24 13:48:18] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:48:18] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2024-05-24 13:48:18] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.2.8.tar.gz tmp/imio.events.core-1.2.9.tar.gz --markdown 20240524/i/imio.events.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-24 13:48:19] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:48:19] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.5.tar.gz]
+[2024-05-24 13:48:19] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.6.tar.gz]
+[2024-05-24 13:48:19] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 13:48:19] INFO root fetch - processPackages [stonefish-code-shield]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_code_shield-0.3.48-py3-none-any.whl.zip]
+[2024-05-24 13:48:19] INFO root fetch - processPackages [stonefish-code-shield]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_code_shield-0.3.49-py3-none-any.whl.zip]
+[2024-05-24 13:48:19] INFO root fetch - main [MainThread]: End processing [stonefish-code-shield]: success
+[2024-05-24 13:48:19] INFO root fetch - processPackages [ansys-api-edb]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_edb-1.0.3.tar.gz]
+[2024-05-24 13:48:19] INFO root fetch - processPackages [ansys-api-edb]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_edb-1.0.4.tar.gz]
+[2024-05-24 13:48:19] INFO root fetch - main [MainThread]: End processing [ansys-api-edb]: success
+[2024-05-24 13:48:19] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.8.tar.gz]
+[2024-05-24 13:48:19] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
+[2024-05-24 13:48:20] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2024-05-24 13:48:21] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a75.tar.gz]
+[2024-05-24 13:48:21] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a76.tar.gz]
+[2024-05-24 13:48:21] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 13:48:21] INFO root fetch - processPackages [fslpy]: Downloading https://files.pythonhosted.org/packages/c5/82/98bf3bdab90bf016eb320328db46d188e15d0f4429b983998119671755fe/fslpy-3.9.5.tar.gz
+[2024-05-24 13:48:23] INFO root fetch - processPackages [fslpy]: executing diffoscope
+[2024-05-24 13:48:23] INFO root fetch - processPackages [fslpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fslpy-3.9.4.tar.gz tmp/fslpy-3.9.5.tar.gz --markdown 20240524/f/fslpy/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-05-24 13:48:26] INFO root fetch - processPackages [fslpy]: Remove: archive file [/home/abi/fetcher/tmp/fslpy-3.9.4.tar.gz]
+[2024-05-24 13:48:26] INFO root fetch - processPackages [fslpy]: Remove: archive file [/home/abi/fetcher/tmp/fslpy-3.9.5.tar.gz]
+[2024-05-24 13:48:26] INFO root fetch - main [MainThread]: End processing [fslpy]: success
+[2024-05-24 13:48:26] INFO root fetch - main [MainThread]: Store serial: [23361368]
