@@ -11234,3 +11234,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:11:18] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.9.tar.gz]
 [2024-05-24 07:11:18] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
 [2024-05-24 07:11:18] INFO root fetch - main [MainThread]: Store serial: [23356653]
+[2024-05-24 07:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356653]
+[2024-05-24 07:13:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 07:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bacore
+[2024-05-24 07:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freedom-pay
+[2024-05-24 07:13:27] INFO root fetch - processPackages [bacore]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 07:13:27] WARNING root fetch - processPackages [freedom-pay]: Skipping, unable to determine old version
+[2024-05-24 07:13:27] INFO root fetch - main [MainThread]: End processing [freedom-pay] error
+[2024-05-24 07:13:27] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/fa/ee/27f5dfaf9ada68468281c54b1f6065a0d06b214b5f0f5ffa04b705c586bc/bacore-0.0.8.tar.gz
+[2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/7d/7b/feec0d5f955edc4d01b34bd9405f272693c5e9666752be67db3f2dd8770a/bacore-0.0.9.tar.gz
+[2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: executing diffoscope
+[2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacore-0.0.8.tar.gz tmp/bacore-0.0.9.tar.gz --markdown 20240524/b/bacore/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.8.tar.gz]
+[2024-05-24 07:13:28] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.9.tar.gz]
+[2024-05-24 07:13:28] INFO root fetch - main [MainThread]: End processing [bacore]: success
+[2024-05-24 07:13:28] INFO root fetch - main [MainThread]: Store serial: [23356660]
