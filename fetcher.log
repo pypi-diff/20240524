@@ -2056,3 +2056,23 @@
 [2024-05-24 02:01:15] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716506595.tar.gz]
 [2024-05-24 02:01:15] INFO root fetch - main [MainThread]: End processing [pulumi-dbtcloud]: success
 [2024-05-24 02:01:15] INFO root fetch - main [MainThread]: Store serial: [23353375]
+[2024-05-24 02:03:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353375]
+[2024-05-24 02:03:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pazok
+[2024-05-24 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SignalIntegrity
+[2024-05-24 02:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osbot_utils
+[2024-05-24 02:03:24] INFO root fetch - processPackages [pazok]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 02:03:24] WARNING root fetch - processPackages [osbot_utils]: Skipping, unable to determine old version
+[2024-05-24 02:03:24] INFO root fetch - main [MainThread]: End processing [osbot_utils] error
+[2024-05-24 02:03:24] INFO root fetch - processPackages [SignalIntegrity]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-24 02:03:24] INFO root fetch - processPackages [pazok]: Downloading https://files.pythonhosted.org/packages/b8/63/3690b0708be7556d7482df2fc2d18c549fafef40902bf86483cefc8848e8/pazok-0.1.0.tar.gz
+[2024-05-24 02:03:24] INFO root fetch - processPackages [SignalIntegrity]: Downloading https://files.pythonhosted.org/packages/58/84/53406de64805a5aef8f9dba4bed6680d93c7b5bef10c810190c8c1ae1bfb/SignalIntegrity-1.4.0-py3-none-any.whl
+[2024-05-24 02:03:24] ERROR root fetch - processPackages [pazok]: Unable to fetch info: No such project/version 'pazok' 0.1.1
+[2024-05-24 02:03:24] INFO root fetch - main [MainThread]: End processing [pazok] error
+[2024-05-24 02:03:24] INFO root fetch - processPackages [SignalIntegrity]: Downloading https://files.pythonhosted.org/packages/08/4f/d4f86bf3918c0191d77b7dbca7f7d7a6145a7e4014e0b3b16c6e06c8e009/SignalIntegrity-1.4.1-py3-none-any.whl
+[2024-05-24 02:03:24] INFO root fetch - processPackages [SignalIntegrity]: executing diffoscope
+[2024-05-24 02:03:24] INFO root fetch - processPackages [SignalIntegrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SignalIntegrity-1.4.0-py3-none-any.whl.zip tmp/SignalIntegrity-1.4.1-py3-none-any.whl.zip --markdown 20240524/S/SignalIntegrity/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-24 02:03:26] INFO root fetch - processPackages [SignalIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/SignalIntegrity-1.4.0-py3-none-any.whl.zip]
+[2024-05-24 02:03:26] INFO root fetch - processPackages [SignalIntegrity]: Remove: archive file [/home/abi/fetcher/tmp/SignalIntegrity-1.4.1-py3-none-any.whl.zip]
+[2024-05-24 02:03:26] INFO root fetch - main [MainThread]: End processing [SignalIntegrity]: success
+[2024-05-24 02:03:26] INFO root fetch - main [MainThread]: Store serial: [23353385]
