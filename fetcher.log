@@ -18734,3 +18734,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:55:43] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a68.tar.gz]
 [2024-05-24 11:55:43] INFO root fetch - main [MainThread]: End processing [otpme]: success
 [2024-05-24 11:55:43] INFO root fetch - main [MainThread]: Store serial: [23359962]
+[2024-05-24 11:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359962]
+[2024-05-24 11:57:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 11:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viur-core
+[2024-05-24 11:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dzidb
+[2024-05-24 11:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-roughness-tool
+[2024-05-24 11:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etypes
+[2024-05-24 11:57:52] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.21.dev1] Old Version: [0.4.11.dev0]
+[2024-05-24 11:57:52] INFO root fetch - processPackages [dzidb]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-24 11:57:53] INFO root fetch - processPackages [viur-core]: New version: [3.6.7] Old Version: [3.6.6]
+[2024-05-24 11:57:53] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/f1/4b/37a10770976fcea4955e90bcb8fd31b3d16d34b4cd8d076bb224a102e0ab/geo_roughness_tool-0.4.11.dev0.tar.gz
+[2024-05-24 11:57:53] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/36/66/b824ab12eeac992447a80275dab41bb215db6773df95ae685c02e8c4b9ef/dzidb-1.2.8-py3-none-any.whl
+[2024-05-24 11:57:53] WARNING root fetch - processPackages [etypes]: Skipping, unable to determine old version
+[2024-05-24 11:57:53] INFO root fetch - main [MainThread]: End processing [etypes] error
+[2024-05-24 11:57:53] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/7b/e0/c1a3dcbe42b2529d016257d00c1e32480ee4273d82f875849281c1eeafa3/viur_core-3.6.6-py3-none-any.whl
+[2024-05-24 11:57:53] INFO root fetch - processPackages [dzidb]: Downloading https://files.pythonhosted.org/packages/f5/2f/d0c19f6f091114945fe4aa6f0f9f41ec41c3e553dec692ba43dc0934e3f1/dzidb-1.2.9-py3-none-any.whl
+[2024-05-24 11:57:53] INFO root fetch - processPackages [dzidb]: executing diffoscope
+[2024-05-24 11:57:53] INFO root fetch - processPackages [dzidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzidb-1.2.8-py3-none-any.whl.zip tmp/dzidb-1.2.9-py3-none-any.whl.zip --markdown 20240524/d/dzidb/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-24 11:57:53] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/59/5b/d357f290f6cec47302fcf71c52cefd36bfb8fa8f689dd8f7a8b33818b88e/geo_roughness_tool-0.4.21.dev1.tar.gz
+[2024-05-24 11:57:53] INFO root fetch - processPackages [viur-core]: Downloading https://files.pythonhosted.org/packages/a2/1c/01d7b31700444e69d3a0bcce8997bf9588b206e41851d24bb6afbb87ad9a/viur_core-3.6.7-py3-none-any.whl
+[2024-05-24 11:57:53] INFO root fetch - processPackages [viur-core]: executing diffoscope
+[2024-05-24 11:57:53] INFO root fetch - processPackages [viur-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_core-3.6.6-py3-none-any.whl.zip tmp/viur_core-3.6.7-py3-none-any.whl.zip --markdown 20240524/v/viur-core/3.6.6-3.6.7/README.md --exclude *.pyd
+[2024-05-24 11:57:53] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 11:57:53] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.11.dev0.tar.gz tmp/geo_roughness_tool-0.4.21.dev1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.11.dev0-0.4.21.dev1/README.md --exclude *.pyd
+[2024-05-24 11:57:54] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.8-py3-none-any.whl.zip]
+[2024-05-24 11:57:54] INFO root fetch - processPackages [dzidb]: Remove: archive file [/home/abi/fetcher/tmp/dzidb-1.2.9-py3-none-any.whl.zip]
+[2024-05-24 11:57:54] INFO root fetch - main [MainThread]: End processing [dzidb]: success
+[2024-05-24 11:57:54] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.11.dev0.tar.gz]
+[2024-05-24 11:57:54] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.21.dev1.tar.gz]
+[2024-05-24 11:57:54] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 11:57:54] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.6.6-py3-none-any.whl.zip]
+[2024-05-24 11:57:54] INFO root fetch - processPackages [viur-core]: Remove: archive file [/home/abi/fetcher/tmp/viur_core-3.6.7-py3-none-any.whl.zip]
+[2024-05-24 11:57:54] INFO root fetch - main [MainThread]: End processing [viur-core]: success
+[2024-05-24 11:57:54] INFO root fetch - main [MainThread]: Store serial: [23359969]
