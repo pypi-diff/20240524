@@ -10106,3 +10106,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:21:41] INFO root fetch - processPackages [mathrixpy]: Remove: archive file [/home/abi/fetcher/tmp/mathrixpy-0.2.tar.gz]
 [2024-05-24 06:21:41] INFO root fetch - main [MainThread]: End processing [mathrixpy]: success
 [2024-05-24 06:21:41] INFO root fetch - main [MainThread]: Store serial: [23356250]
+[2024-05-24 06:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356250]
+[2024-05-24 06:23:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 06:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 06:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gandai
+[2024-05-24 06:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadprox
+[2024-05-24 06:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geomockimages
+[2024-05-24 06:23:50] INFO root fetch - processPackages [nlpx]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 06:23:50] INFO root fetch - processPackages [cadprox]: New version: [1.5] Old Version: [1.4]
+[2024-05-24 06:23:50] INFO root fetch - processPackages [gandai]: New version: [1.7.45] Old Version: [1.7.44]
+[2024-05-24 06:23:50] INFO root fetch - processPackages [geomockimages]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 06:23:50] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/d2/35/8501bd74fc2ad75ad04aa5ccc41f7d9358dfecc980f1df8bae2628ff0372/nlpx-1.0.0.tar.gz
+[2024-05-24 06:23:50] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/c2/67/f779ca01ec52e03b37c8ddaac7b8a7b6e0495412a64303a3ce3c1e4121bf/cadprox-1.4.tar.gz
+[2024-05-24 06:23:50] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/ea/73/d7e4950bc4835f5aec5d740f34fef6544d005d024cbb62297a23919623b8/gandai-1.7.44.tar.gz
+[2024-05-24 06:23:50] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/40/82/ff5c22b7b1eacec510ae797218309285580a1fb51ff689265ee8a137fee4/geomockimages-0.2.0.tar.gz
+[2024-05-24 06:23:51] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/e7/84/8e4d57dfacbcbf92a5aedee2836e1ec9cfcec66a51eb52b3d9731365ecb0/cadprox-1.5.tar.gz
+[2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/32/b7/94cee4c9758ee0779fea2f15a25618e8f2950166efab0bee7d76f9b4d131/gandai-1.7.45.tar.gz
+[2024-05-24 06:23:51] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/94/df/5d2e469981657a33123fd63a8710f3cd322cd2056f16be122b02f548d588/nlpx-1.0.1.tar.gz
+[2024-05-24 06:23:51] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 06:23:51] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.4.tar.gz tmp/cadprox-1.5.tar.gz --markdown 20240524/c/cadprox/1.4-1.5/README.md --exclude *.pyd
+[2024-05-24 06:23:51] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 06:23:51] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.0.tar.gz tmp/nlpx-1.0.1.tar.gz --markdown 20240524/n/nlpx/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.44.tar.gz tmp/gandai-1.7.45.tar.gz --markdown 20240524/g/gandai/1.7.44-1.7.45/README.md --exclude *.pyd
+[2024-05-24 06:23:51] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/c5/ec/58aa502812c7ae0aff736b6897798618b000d182dc4367a5b91a7c08c50e/geomockimages-0.2.1.tar.gz
+[2024-05-24 06:23:51] INFO root fetch - processPackages [geomockimages]: executing diffoscope
+[2024-05-24 06:23:51] INFO root fetch - processPackages [geomockimages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomockimages-0.2.0.tar.gz tmp/geomockimages-0.2.1.tar.gz --markdown 20240524/g/geomockimages/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 06:23:51] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.4.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.5.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 06:23:51] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.0.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.1.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - main [MainThread]: End processing [geomockimages]: success
+[2024-05-24 06:23:51] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.0.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.1.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.44.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.45.tar.gz]
+[2024-05-24 06:23:51] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 06:23:51] INFO root fetch - main [MainThread]: Store serial: [23356262]
