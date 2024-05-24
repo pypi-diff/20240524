@@ -17964,3 +17964,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:24:54] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a6.tar.gz]
 [2024-05-24 11:24:55] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
 [2024-05-24 11:24:55] INFO root fetch - main [MainThread]: Store serial: [23359596]
+[2024-05-24 11:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359596]
+[2024-05-24 11:27:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 11:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadproxdk
+[2024-05-24 11:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerc-hub
+[2024-05-24 11:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlfluff-common-conventions
+[2024-05-24 11:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: staplus-client
+[2024-05-24 11:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-modal-tokenizers
+[2024-05-24 11:27:03] INFO root fetch - processPackages [cadproxdk]: New version: [3.7] Old Version: [3.6]
+[2024-05-24 11:27:03] WARNING root fetch - processPackages [multi-modal-tokenizers]: Skipping, unable to determine old version
+[2024-05-24 11:27:03] INFO root fetch - main [MainThread]: End processing [multi-modal-tokenizers] error
+[2024-05-24 11:27:03] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d3/52/fb418069368017e3229a346d6adfee6384c15f4f14310551b4bc6064a63e/cadproxdk-3.6.tar.gz
+[2024-05-24 11:27:03] INFO root fetch - processPackages [sqlfluff-common-conventions]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-24 11:27:03] INFO root fetch - processPackages [cerc-hub]: New version: [0.2.0.3] Old Version: [0.2.0.2]
+[2024-05-24 11:27:03] WARNING root fetch - processPackages [staplus-client]: Skipping, unable to determine old version
+[2024-05-24 11:27:03] INFO root fetch - main [MainThread]: End processing [staplus-client] error
+[2024-05-24 11:27:04] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/1b/79/26c460ea0518b29b6112a5564e5a529b5831ba7b8b8afaeb25680979e649/sqlfluff_common_conventions-0.3.0.tar.gz
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/97/c9/760dc10a56afeee59860697eaf3dbbca91717eff666255d6f73f472590da/cerc_hub-0.2.0.2.tar.gz
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/58/ce/624545f9baf32b7d31c47fed7eb02cabfee0596740f9fda1b9e561607286/cadproxdk-3.7.tar.gz
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.6.tar.gz tmp/cadproxdk-3.7.tar.gz --markdown 20240524/c/cadproxdk/3.6-3.7/README.md --exclude *.pyd
+[2024-05-24 11:27:04] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/40/38/dd3bdff591dc7e0c3d014a454b3926bcdb600cc229bf307c71b7bb7d4758/sqlfluff_common_conventions-0.3.1.tar.gz
+[2024-05-24 11:27:04] INFO root fetch - processPackages [sqlfluff-common-conventions]: executing diffoscope
+[2024-05-24 11:27:04] INFO root fetch - processPackages [sqlfluff-common-conventions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff_common_conventions-0.3.0.tar.gz tmp/sqlfluff_common_conventions-0.3.1.tar.gz --markdown 20240524/s/sqlfluff-common-conventions/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.6.tar.gz]
+[2024-05-24 11:27:04] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.7.tar.gz]
+[2024-05-24 11:27:04] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:27:05] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.3.0.tar.gz]
+[2024-05-24 11:27:05] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/e6/0d/806c1d9635bd39bc3109e7148674d410f0d0a8e98c50f0b67149071aee8f/cerc_hub-0.2.0.3.tar.gz
+[2024-05-24 11:27:05] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.3.1.tar.gz]
+[2024-05-24 11:27:05] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions]: success
+[2024-05-24 11:27:06] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2024-05-24 11:27:06] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc_hub-0.2.0.2.tar.gz tmp/cerc_hub-0.2.0.3.tar.gz --markdown 20240524/c/cerc-hub/0.2.0.2-0.2.0.3/README.md --exclude *.pyd
+[2024-05-24 11:27:08] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.2.tar.gz]
+[2024-05-24 11:27:08] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.3.tar.gz]
+[2024-05-24 11:27:08] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2024-05-24 11:27:08] INFO root fetch - main [MainThread]: Store serial: [23359618]
