@@ -17311,3 +17311,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 11:09:20] INFO root fetch - processPackages [gustaf]: Remove: archive file [/home/abi/fetcher/tmp/gustaf-0.0.9.tar.gz]
 [2024-05-24 11:09:20] INFO root fetch - main [MainThread]: End processing [gustaf]: success
 [2024-05-24 11:09:20] INFO root fetch - main [MainThread]: Store serial: [23359342]
+[2024-05-24 11:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359342]
+[2024-05-24 11:11:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadproxdk
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shiboken6-generator
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: staplus-client
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tikit
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byzerllm
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrotgfork
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-ddmrp
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MarkovAnalyzer
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AAIT
+[2024-05-24 11:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-horizon-sdk
+[2024-05-24 11:11:29] INFO root fetch - processPackages [cadproxdk]: New version: [3.5] Old Version: [3.4]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [shiboken6-generator]: New version: [6.7.1] Old Version: [6.7.0]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/4d/cf/82f2c3e24afb47036b9c4d8b54d9ca9eb5c5f10969dd0451dc5469dd1020/cadproxdk-3.4.tar.gz
+[2024-05-24 11:11:29] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-05-24 11:11:29] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.32.1] Old Version: [2.1.31]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-24 11:11:29] WARNING root fetch - processPackages [staplus-client]: Skipping, unable to determine old version
+[2024-05-24 11:11:29] INFO root fetch - processPackages [staplus-client]: Start processing: servicelayer
+[2024-05-24 11:11:29] INFO root fetch - main [MainThread]: End processing [staplus-client] error
+[2024-05-24 11:11:29] INFO root fetch - processPackages [tikit]: New version: [1.7.1.240523] Old Version: [1.7.1.240409]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.8.2] Old Version: [16.0.1.8.1.2]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [byzerllm]: New version: [0.1.90] Old Version: [0.1.9]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [MarkovAnalyzer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-24 11:11:29] INFO root fetch - processPackages [shiboken6-generator]: Downloading https://files.pythonhosted.org/packages/f7/b6/b716536cdf8fdc17b0c4b1036585d3a1e86d7ba1e7a53376906532f05fb8/shiboken6_generator-6.7.0-cp39-abi3-win_amd64.whl
+[2024-05-24 11:11:30] WARNING root fetch - processPackages [shiboken6-generator]: Skipping package: exceeds size limit 22884532>=10485760
+[2024-05-24 11:11:30] INFO root fetch - main [MainThread]: End processing [shiboken6-generator] error
+[2024-05-24 11:11:30] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/32/fa/4b7f7f40a715e60f29af3588c523ce67f764482bee6427a91b1d1b6f03db/tikit-1.7.1.240409.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/a9/f5/f500640c5133e3d6b61b8c42aa92a9677ac391a887b7fc28b81215f8d6d8/pyrotgfork-2.1.31.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/23/70/ccee6c320dbde853ca9eb49f2074aad13c0988ab66be16e000184a7cced1/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl
+[2024-05-24 11:11:30] INFO root fetch - processPackages [MarkovAnalyzer]: Downloading https://files.pythonhosted.org/packages/1e/3e/25c24aa4505bc1c5214bd78c30c444c6c00f0f858a4791e294b2c4137e04/markovanalyzer-0.1.1.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/fd/e4/dda9e8da4b9d4c6e2091c24160c4ecf747c6f18c9cb42d29103c37660652/cadproxdk-3.5.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-05-24 11:11:30] WARNING root fetch - processPackages [MarkovAnalyzer]: Skipping package: exceeds size limit 53442325>=10485760
+[2024-05-24 11:11:30] INFO root fetch - main [MainThread]: End processing [MarkovAnalyzer] error
+[2024-05-24 11:11:30] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.4.tar.gz tmp/cadproxdk-3.5.tar.gz --markdown 20240524/c/cadproxdk/3.4-3.5/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240524/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240524/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/c3/15/a9af987b3cc19efda163050d23c150a8401ec126be3f12005e5ccb5d0b7f/tikit-1.7.1.240523.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/54/8b/a360b6eaee2aba3df28778707b2d0f97087a1bfde7c19744b7035f1a1c8a/odoo_addon_ddmrp-16.0.1.8.2-py3-none-any.whl
+[2024-05-24 11:11:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/2f/c6/d1ab18c9ede707019e6fcadee362e3186ca1bb1b6b13a420e64e58137d75/pyrotgfork-2.1.32.1.tar.gz
+[2024-05-24 11:11:30] INFO root fetch - processPackages [tikit]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [tikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikit-1.7.1.240409.tar.gz tmp/tikit-1.7.1.240523.tar.gz --markdown 20240524/t/tikit/1.7.1.240409-1.7.1.240523/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240524/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.8.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-ddmrp/16.0.1.8.1.2-16.0.1.8.2/README.md --exclude *.pyd
+[2024-05-24 11:11:30] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-05-24 11:11:30] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.31.tar.gz tmp/pyrotgfork-2.1.32.1.tar.gz --markdown 20240524/p/pyrotgfork/2.1.31-2.1.32.1/README.md --exclude *.pyd
+[2024-05-24 11:11:31] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 11:11:31] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/75/af/68c5c573371f05f1e7254e76c113041c6ac818e319c602a9cdb59a341b89/byzerllm-0.1.90.tar.gz
+[2024-05-24 11:11:31] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.4.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.5.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:11:31] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-24 11:11:31] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-24 11:11:31] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-24 11:11:31] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-24 11:11:31] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.9.tar.gz tmp/byzerllm-0.1.90.tar.gz --markdown 20240524/b/byzerllm/0.1.9-0.1.90/README.md --exclude *.pyd
+[2024-05-24 11:11:31] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl.zip]
+[2024-05-24 11:11:31] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.2-py3-none-any.whl.zip]
+[2024-05-24 11:11:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-24 11:11:32] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.7.1.240409.tar.gz]
+[2024-05-24 11:11:32] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.7.1.240523.tar.gz]
+[2024-05-24 11:11:32] INFO root fetch - main [MainThread]: End processing [tikit]: success
+[2024-05-24 11:11:33] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.31.tar.gz]
+[2024-05-24 11:11:33] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.32.1.tar.gz]
+[2024-05-24 11:11:33] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-05-24 11:11:33] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-24 11:11:33] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.90.tar.gz]
+[2024-05-24 11:11:33] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-24 11:11:33] INFO root fetch - main [MainThread]: Store serial: [23359374]
