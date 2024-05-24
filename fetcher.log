@@ -12770,3 +12770,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 08:32:04] INFO root fetch - processPackages [RGBMatrixEmulator]: Remove: archive file [/home/abi/fetcher/tmp/RGBMatrixEmulator-0.9.1.tar.gz]
 [2024-05-24 08:32:04] INFO root fetch - main [MainThread]: End processing [RGBMatrixEmulator]: success
 [2024-05-24 08:32:04] INFO root fetch - main [MainThread]: Store serial: [23357426]
+[2024-05-24 08:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357426]
+[2024-05-24 08:34:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rio-ui
+[2024-05-24 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d7a
+[2024-05-24 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oktmoparser
+[2024-05-24 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pychlorinator
+[2024-05-24 08:34:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: number-of-terms-inside-a-square-root8
+[2024-05-24 08:34:12] INFO root fetch - processPackages [oktmoparser]: New version: [1.2] Old Version: [1.1]
+[2024-05-24 08:34:12] WARNING root fetch - processPackages [d7a]: Skipping, unable to determine old version
+[2024-05-24 08:34:12] INFO root fetch - main [MainThread]: End processing [d7a] error
+[2024-05-24 08:34:12] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/30/c8/8e8d7a8d1d653deba140924ed1dd7240d11fb13e2e0dd4e85e41e623f44d/oktmoparser-1.1.tar.gz
+[2024-05-24 08:34:12] INFO root fetch - processPackages [rio-ui]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-24 08:34:12] WARNING root fetch - processPackages [number-of-terms-inside-a-square-root8]: Skipping, unable to determine old version
+[2024-05-24 08:34:12] INFO root fetch - processPackages [pychlorinator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-24 08:34:12] INFO root fetch - main [MainThread]: End processing [number-of-terms-inside-a-square-root8] error
+[2024-05-24 08:34:13] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/d5/20/e1422188f44fcc95a147adb92df930210c74995cbc57ff003eddf7811da8/rio_ui-0.8.0.tar.gz
+[2024-05-24 08:34:13] INFO root fetch - processPackages [pychlorinator]: Downloading https://files.pythonhosted.org/packages/98/d6/62928531a0b2863d7deecc52019c0ea936a02a40fcf2ac655eff19148de1/pychlorinator-0.2.8.tar.gz
+[2024-05-24 08:34:13] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/77/13/2113640049ca236632cdd6ad8564362b506f77121ab922a2a1b2dfc4c6d0/oktmoparser-1.2.tar.gz
+[2024-05-24 08:34:13] INFO root fetch - processPackages [oktmoparser]: executing diffoscope
+[2024-05-24 08:34:13] INFO root fetch - processPackages [oktmoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oktmoparser-1.1.tar.gz tmp/oktmoparser-1.2.tar.gz --markdown 20240524/o/oktmoparser/1.1-1.2/README.md --exclude *.pyd
+[2024-05-24 08:34:13] INFO root fetch - processPackages [pychlorinator]: Downloading https://files.pythonhosted.org/packages/f3/0e/96dba8f9bcd599c1810813c0631a8cb4ff277bbcb02df7bf7bc5de6608a6/pychlorinator-0.2.9.tar.gz
+[2024-05-24 08:34:13] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/f6/f9/be37c23827a2639db5c87b91294824d1dba9be6cd597eee1fe1f7122cfcb/rio_ui-0.8.1.tar.gz
+[2024-05-24 08:34:13] INFO root fetch - processPackages [pychlorinator]: executing diffoscope
+[2024-05-24 08:34:13] INFO root fetch - processPackages [pychlorinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychlorinator-0.2.8.tar.gz tmp/pychlorinator-0.2.9.tar.gz --markdown 20240524/p/pychlorinator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-24 08:34:13] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-24 08:34:13] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.8.0.tar.gz tmp/rio_ui-0.8.1.tar.gz --markdown 20240524/r/rio-ui/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-24 08:34:13] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.1.tar.gz]
+[2024-05-24 08:34:13] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.2.tar.gz]
+[2024-05-24 08:34:13] INFO root fetch - main [MainThread]: End processing [oktmoparser]: success
+[2024-05-24 08:34:14] INFO root fetch - processPackages [pychlorinator]: Remove: archive file [/home/abi/fetcher/tmp/pychlorinator-0.2.8.tar.gz]
+[2024-05-24 08:34:14] INFO root fetch - processPackages [pychlorinator]: Remove: archive file [/home/abi/fetcher/tmp/pychlorinator-0.2.9.tar.gz]
+[2024-05-24 08:34:14] INFO root fetch - main [MainThread]: End processing [pychlorinator]: success
+[2024-05-24 08:34:15] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.0.tar.gz]
+[2024-05-24 08:34:15] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.1.tar.gz]
+[2024-05-24 08:34:15] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-24 08:34:15] INFO root fetch - main [MainThread]: Store serial: [23357450]
