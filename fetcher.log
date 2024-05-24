@@ -8938,3 +8938,27 @@
 [2024-05-24 05:15:47] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-24 05:15:47] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-24 05:15:47] INFO root fetch - main [MainThread]: Store serial: [23355859]
+[2024-05-24 05:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355859]
+[2024-05-24 05:17:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 05:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ilcdlib
+[2024-05-24 05:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resulty
+[2024-05-24 05:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit_pandera
+[2024-05-24 05:17:56] WARNING root fetch - processPackages [resulty]: Skipping, unable to determine old version
+[2024-05-24 05:17:56] INFO root fetch - main [MainThread]: End processing [resulty] error
+[2024-05-24 05:17:56] INFO root fetch - processPackages [streamlit_pandera]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 05:17:56] INFO root fetch - processPackages [ilcdlib]: New version: [4.7.0] Old Version: [4.6.0]
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/04/47/9e92abb578f4bf56ca3202b58cc154ed6bda0c064b78e2e79129ccf2e9d5/streamlit_pandera-0.1.2.tar.gz
+[2024-05-24 05:17:57] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/93/9f/6565380d40471b0f2863b9c41bf4485a67f09db04896e0fa686feadc961c/ilcdlib-4.6.0.tar.gz
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/7f/1f/4072b6c6bda7f5a49d52c8a3534f9e17e32009ded02aec8399b96d36afbf/streamlit_pandera-0.1.3.tar.gz
+[2024-05-24 05:17:57] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/ef/b9/a768edb707ce561a1f0d25401cccf16f375d69891e97bc1a17de70619c0a/ilcdlib-4.7.0.tar.gz
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: executing diffoscope
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pandera-0.1.2.tar.gz tmp/streamlit_pandera-0.1.3.tar.gz --markdown 20240524/s/streamlit_pandera/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 05:17:57] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2024-05-24 05:17:57] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-4.6.0.tar.gz tmp/ilcdlib-4.7.0.tar.gz --markdown 20240524/i/ilcdlib/4.6.0-4.7.0/README.md --exclude *.pyd
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.2.tar.gz]
+[2024-05-24 05:17:57] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.3.tar.gz]
+[2024-05-24 05:17:57] INFO root fetch - main [MainThread]: End processing [streamlit_pandera]: success
+[2024-05-24 05:17:58] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.6.0.tar.gz]
+[2024-05-24 05:17:58] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.7.0.tar.gz]
+[2024-05-24 05:17:58] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2024-05-24 05:17:58] INFO root fetch - main [MainThread]: Store serial: [23355871]
