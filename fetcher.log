@@ -21501,3 +21501,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:30:36] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.2-py3-none-any.whl.zip]
 [2024-05-24 13:30:36] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
 [2024-05-24 13:30:36] INFO root fetch - main [MainThread]: Store serial: [23361075]
+[2024-05-24 13:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361075]
+[2024-05-24 13:32:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysmartdatamodels
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbx-code-owners
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BarteSDK
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sitk-cli
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asifjamali
+[2024-05-24 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyrebird
+[2024-05-24 13:32:46] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [sitk-cli]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [pbx-code-owners]: New version: [1.2.0a0] Old Version: [1.1.2]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [pysmartdatamodels]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [lyrebird]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [asifjamali]: New version: [5.24.0] Old Version: [5.14.1]
+[2024-05-24 13:32:46] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/ad/11/0e4697aed65c93c95c34e152cfc0dbd5190f74590f49e9890e01cfdcdb6e/sitk-cli-0.6.0.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/97/cd/c09130f10dc419c8161c59c69c357b7fe468f31d97e4a52d60f394981438/pbx_code_owners-1.1.2-py3-none-any.whl
+[2024-05-24 13:32:46] INFO root fetch - processPackages [pysmartdatamodels]: Downloading https://files.pythonhosted.org/packages/59/73/3555cc51b47ff3f0d262cfcda16b98a8507496f502a4ad856af78f6dc80a/pysmartdatamodels-0.7.1.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [asifjamali]: Downloading https://files.pythonhosted.org/packages/d2/a8/5bc937785300e61a10794315037fd8d6c8cc04e43ee95cdb0c57dddbdede/asifjamali-5.14.1.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/b8/66/6a92fdec687f64c603d9ac8a83d5c1ba398bec46e4953ad6f57517dcbc07/lyrebird-3.0.0.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-24 13:32:46] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240524/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 13:32:46] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/4c/18/389438cc12c94291df5973a5aad77ef93284d6a89ddcf9d6efcbcf094d53/pbx_code_owners-1.2.0a0-py3-none-any.whl
+[2024-05-24 13:32:46] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/43/72/c38dbcb6291896a05b9dcf1bc9ef44f43848b5288c1a6985c515151c528f/sitk_cli-0.7.0.tar.gz
+[2024-05-24 13:32:46] INFO root fetch - processPackages [asifjamali]: Downloading https://files.pythonhosted.org/packages/b9/d2/a683fdc4113999e659573d180503ca558c7a9f846953d6067633bd7c4752/asifjamali-5.24.0.tar.gz
+[2024-05-24 13:32:47] INFO root fetch - processPackages [sitk-cli]: executing diffoscope
+[2024-05-24 13:32:47] INFO root fetch - processPackages [sitk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitk-cli-0.6.0.tar.gz tmp/sitk_cli-0.7.0.tar.gz --markdown 20240524/s/sitk-cli/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-24 13:32:47] INFO root fetch - processPackages [pbx-code-owners]: executing diffoscope
+[2024-05-24 13:32:47] INFO root fetch - processPackages [pbx-code-owners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_code_owners-1.1.2-py3-none-any.whl.zip tmp/pbx_code_owners-1.2.0a0-py3-none-any.whl.zip --markdown 20240524/p/pbx-code-owners/1.1.2-1.2.0a0/README.md --exclude *.pyd
+[2024-05-24 13:32:47] INFO root fetch - processPackages [asifjamali]: executing diffoscope
+[2024-05-24 13:32:47] INFO root fetch - processPackages [asifjamali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asifjamali-5.14.1.tar.gz tmp/asifjamali-5.24.0.tar.gz --markdown 20240524/a/asifjamali/5.14.1-5.24.0/README.md --exclude *.pyd
+[2024-05-24 13:32:47] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/29/6d/6d1e123123ab3ac1acccecbcc4cd93b86bc5de5bf1e09eb698c4040d5100/lyrebird-3.0.1.tar.gz
+[2024-05-24 13:32:47] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-24 13:32:47] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.2-py3-none-any.whl.zip]
+[2024-05-24 13:32:47] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.2.0a0-py3-none-any.whl.zip]
+[2024-05-24 13:32:47] INFO root fetch - main [MainThread]: End processing [pbx-code-owners]: success
+[2024-05-24 13:32:47] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk-cli-0.6.0.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk_cli-0.7.0.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - main [MainThread]: End processing [sitk-cli]: success
+[2024-05-24 13:32:47] INFO root fetch - processPackages [asifjamali]: Remove: archive file [/home/abi/fetcher/tmp/asifjamali-5.14.1.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - processPackages [asifjamali]: Remove: archive file [/home/abi/fetcher/tmp/asifjamali-5.24.0.tar.gz]
+[2024-05-24 13:32:47] INFO root fetch - main [MainThread]: End processing [asifjamali]: success
+[2024-05-24 13:32:48] INFO root fetch - processPackages [pysmartdatamodels]: Downloading https://files.pythonhosted.org/packages/1e/c9/25bebec7b06871d5c395593c413234e676279d1615f4efa602418cc18647/pysmartdatamodels-0.7.2.tar.gz
+[2024-05-24 13:32:48] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-05-24 13:32:48] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-3.0.0.tar.gz tmp/lyrebird-3.0.1.tar.gz --markdown 20240524/l/lyrebird/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-24 13:32:48] INFO root fetch - processPackages [pysmartdatamodels]: executing diffoscope
+[2024-05-24 13:32:48] INFO root fetch - processPackages [pysmartdatamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmartdatamodels-0.7.1.tar.gz tmp/pysmartdatamodels-0.7.2.tar.gz --markdown 20240524/p/pysmartdatamodels/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-24 13:32:50] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.0.tar.gz]
+[2024-05-24 13:32:50] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.1.tar.gz]
+[2024-05-24 13:32:50] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-05-24 13:34:11] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.7.1.tar.gz]
+[2024-05-24 13:34:11] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.7.2.tar.gz]
+[2024-05-24 13:34:11] INFO root fetch - main [MainThread]: End processing [pysmartdatamodels]: success
+[2024-05-24 13:34:11] INFO root fetch - main [MainThread]: Store serial: [23361095]
