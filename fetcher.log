@@ -15255,3 +15255,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:02:44] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
 [2024-05-24 10:02:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-24 10:02:44] INFO root fetch - main [MainThread]: Store serial: [23358450]
+[2024-05-24 10:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358450]
+[2024-05-24 10:04:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dashtable2
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-analyzer
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tharos-pytools
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yamcs-client
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snappi
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mapieng
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapieng
+[2024-05-24 10:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvcx
+[2024-05-24 10:04:55] INFO root fetch - processPackages [tharos-pytools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [dvcx]: New version: [0.84.0] Old Version: [0.83.3]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240523] Old Version: [0.0.2.dev20240522]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [torch-analyzer]: New version: [1.3] Old Version: [1.2]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [dashtable2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/65/34/1420ef961b75a93baca9f1f0be3397cd01c858fafe5387b354842e144e12/tharos-pytools-0.0.8.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [yamcs-client]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [snappi]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/ac/ca/5a985af59a3592a767f35268ab224c6a1ce54d7346f12cd623924ee00c28/mapieng-0.1.7.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/ac/ca/5a985af59a3592a767f35268ab224c6a1ce54d7346f12cd623924ee00c28/mapieng-0.1.7.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/94/db/b99d1ec7a054a25bbbcf82661df5ef5655e1d6ca723937a9d7c4e6797995/dvcx-0.83.3.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/84/b4/49f930fb946d73269056734374b113b16b671b1d0027e24ec01e660784a3/langfun-0.0.2.dev20240522.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [torch-analyzer]: Downloading https://files.pythonhosted.org/packages/78/1a/955f0424158db595c38ac4ea2418db0511418c225d753cd1dcfe0c7da6bf/torch_analyzer-1.2.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/de/08/10145a7ea263a96146f3307130c92d01878542e398e475cb315545f3b910/dashtable2-1.4.8.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/21/e8/86e7ac34e71686c1a8b2aa71a1bf008ae2e2f8133df42c97c96f69859e5f/yamcs_client-1.9.7.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/2c/94/5edf27cd62c041699bc8b048f039b085b00b1b1d3e03e9e21f4a33af42a9/tharos-pytools-0.0.9.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/ff/f5/72faa409ac5d517d76ac1878b430fcec41a0da0ead5af6ba033d32843a6d/snappi-1.5.0.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [tharos-pytools]: executing diffoscope
+[2024-05-24 10:04:55] INFO root fetch - processPackages [tharos-pytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tharos-pytools-0.0.8.tar.gz tmp/tharos-pytools-0.0.9.tar.gz --markdown 20240524/t/tharos-pytools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/72/94/15cfa49a84e8620c06733d9f668b7c2e55cfffa9a3e27af3c0b43755c63a/mapieng-0.1.8.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/72/94/15cfa49a84e8620c06733d9f668b7c2e55cfffa9a3e27af3c0b43755c63a/mapieng-0.1.8.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/fb/b3/305937079adf44dbed13d30a31c836ab241a4f4ab122314b40376f255936/langfun-0.0.2.dev20240523.tar.gz
+[2024-05-24 10:04:55] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/9c/a2/6da0cd7dc1ab97eb876bcc43b24722b80985f056cdca9ed3eb1db428b167/dvcx-0.84.0.tar.gz
+[2024-05-24 10:04:56] INFO root fetch - processPackages [torch-analyzer]: Downloading https://files.pythonhosted.org/packages/5f/e1/fcec6dd0f643a9a80afdb0759eb7e102395cfe1c5173e8524c1a0d3c3f05/torch_analyzer-1.3.tar.gz
+[2024-05-24 10:04:56] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.7.tar.gz tmp/mapieng-0.1.8.tar.gz --markdown 20240524/m/mapieng/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/98/6c/d1db4d289833af3ab19cd26ef013a389de43e6fffe50950a6db8f8b1f488/dashtable2-1.4.9.tar.gz
+[2024-05-24 10:04:56] INFO root fetch - processPackages [yamcs-client]: Downloading https://files.pythonhosted.org/packages/ce/0e/0a2a499e132405c106146865f5d8b61a9a58a11722d6d29b0f11e9806cf9/yamcs_client-1.9.8.tar.gz
+[2024-05-24 10:04:56] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.7.tar.gz tmp/mapieng-0.1.8.tar.gz --markdown 20240524/m/mapieng/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240522.tar.gz tmp/langfun-0.0.2.dev20240523.tar.gz --markdown 20240524/l/langfun/0.0.2.dev20240522-0.0.2.dev20240523/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.83.3.tar.gz tmp/dvcx-0.84.0.tar.gz --markdown 20240524/d/dvcx/0.83.3-0.84.0/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [snappi]: Downloading https://files.pythonhosted.org/packages/b4/62/45230816b957746d1dca5a387c778b558b272064ce23947f2e0f4d1011fe/snappi-1.5.1.tar.gz
+[2024-05-24 10:04:56] INFO root fetch - processPackages [dashtable2]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [dashtable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtable2-1.4.8.tar.gz tmp/dashtable2-1.4.9.tar.gz --markdown 20240524/d/dashtable2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [torch-analyzer]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [torch-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_analyzer-1.2.tar.gz tmp/torch_analyzer-1.3.tar.gz --markdown 20240524/t/torch-analyzer/1.2-1.3/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [yamcs-client]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [yamcs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs_client-1.9.7.tar.gz tmp/yamcs_client-1.9.8.tar.gz --markdown 20240524/y/yamcs-client/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2024-05-24 10:04:56] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-1.5.0.tar.gz tmp/snappi-1.5.1.tar.gz --markdown 20240524/s/snappi/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-24 10:04:56] INFO root fetch - processPackages [tharos-pytools]: Remove: archive file [/home/abi/fetcher/tmp/tharos-pytools-0.0.8.tar.gz]
+[2024-05-24 10:04:56] INFO root fetch - processPackages [tharos-pytools]: Remove: archive file [/home/abi/fetcher/tmp/tharos-pytools-0.0.9.tar.gz]
+[2024-05-24 10:04:56] INFO root fetch - main [MainThread]: End processing [tharos-pytools]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.7.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.8.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [torch-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/torch_analyzer-1.2.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [torch-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/torch_analyzer-1.3.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [torch-analyzer]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.8.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.9.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [dashtable2]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240522.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240523.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_client-1.9.7.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [yamcs-client]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_client-1.9.8.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [yamcs-client]: success
+[2024-05-24 10:04:57] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.3.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.84.0.tar.gz]
+[2024-05-24 10:04:57] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-24 10:04:59] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.5.0.tar.gz]
+[2024-05-24 10:04:59] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.5.1.tar.gz]
+[2024-05-24 10:04:59] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2024-05-24 10:04:59] INFO root fetch - main [MainThread]: Store serial: [23358478]
