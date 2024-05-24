@@ -7769,3 +7769,33 @@
 [2024-05-24 04:02:22] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-05-24 04:02:22] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-05-24 04:02:22] INFO root fetch - main [MainThread]: Store serial: [23355428]
+[2024-05-24 04:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355428]
+[2024-05-24 04:04:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 04:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-05-24 04:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxyllm
+[2024-05-24 04:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kamangir
+[2024-05-24 04:04:32] INFO root fetch - processPackages [blue-plugin]: New version: [3.43.1] Old Version: [3.42.1]
+[2024-05-24 04:04:32] INFO root fetch - processPackages [proxyllm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-24 04:04:32] INFO root fetch - processPackages [kamangir]: New version: [3.52.1] Old Version: [3.48.1]
+[2024-05-24 04:04:33] INFO root fetch - processPackages [proxyllm]: Downloading https://files.pythonhosted.org/packages/d3/84/0980c7521e56237da91a5590bcd20aa04ae9b6be8bc768f99ed2098030c8/proxyllm-0.2.1.tar.gz
+[2024-05-24 04:04:33] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/5a/2a/6a667c56bfdbf77e06c48c73ac774cd9abb8f4dd521d9f7ba31ec4f1d03e/blue_plugin-3.42.1.tar.gz
+[2024-05-24 04:04:33] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/0e/61/0fcfbce8f1238318c436cd0ff4cbdef8d7ba4ac6fd49df850074e6e21077/kamangir-3.48.1.tar.gz
+[2024-05-24 04:04:33] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/bb/a1/43115d7d2b0c37d10cbfa010fe8b796702e1e1b575eeed5d29f2335ef8f5/kamangir-3.52.1.tar.gz
+[2024-05-24 04:04:33] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/b5/f1/49dcea5381bd44eb21a70aab607a406492fdf01f27588696ece0c5d3cc2c/blue_plugin-3.43.1.tar.gz
+[2024-05-24 04:04:33] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-24 04:04:33] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-3.42.1.tar.gz tmp/blue_plugin-3.43.1.tar.gz --markdown 20240524/b/blue-plugin/3.42.1-3.43.1/README.md --exclude *.pyd
+[2024-05-24 04:04:33] INFO root fetch - processPackages [kamangir]: executing diffoscope
+[2024-05-24 04:04:33] INFO root fetch - processPackages [kamangir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamangir-3.48.1.tar.gz tmp/kamangir-3.52.1.tar.gz --markdown 20240524/k/kamangir/3.48.1-3.52.1/README.md --exclude *.pyd
+[2024-05-24 04:04:33] INFO root fetch - processPackages [proxyllm]: Downloading https://files.pythonhosted.org/packages/02/b1/50a241379d4630c18837413b837297d75c46699bba82837d03ae8445a50f/proxyllm-0.2.2.tar.gz
+[2024-05-24 04:04:34] INFO root fetch - processPackages [proxyllm]: executing diffoscope
+[2024-05-24 04:04:34] INFO root fetch - processPackages [proxyllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxyllm-0.2.1.tar.gz tmp/proxyllm-0.2.2.tar.gz --markdown 20240524/p/proxyllm/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-24 04:04:34] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.48.1.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.52.1.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - main [MainThread]: End processing [kamangir]: success
+[2024-05-24 04:04:34] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.42.1.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-3.43.1.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-24 04:04:34] INFO root fetch - processPackages [proxyllm]: Remove: archive file [/home/abi/fetcher/tmp/proxyllm-0.2.1.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - processPackages [proxyllm]: Remove: archive file [/home/abi/fetcher/tmp/proxyllm-0.2.2.tar.gz]
+[2024-05-24 04:04:34] INFO root fetch - main [MainThread]: End processing [proxyllm]: success
+[2024-05-24 04:04:34] INFO root fetch - main [MainThread]: Store serial: [23355437]
