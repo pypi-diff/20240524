@@ -7594,3 +7594,42 @@
 [2024-05-24 03:48:55] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.7.tar.gz]
 [2024-05-24 03:48:55] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2024-05-24 03:48:55] INFO root fetch - main [MainThread]: Store serial: [23355370]
+[2024-05-24 03:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355370]
+[2024-05-24 03:51:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 03:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymochow
+[2024-05-24 03:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-05-24 03:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2024-05-24 03:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: visionai-data-format
+[2024-05-24 03:51:04] INFO root fetch - processPackages [pymochow]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-24 03:51:04] INFO root fetch - processPackages [visionai-data-format]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-24 03:51:04] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1716512789] Old Version: [0.5.0a1715928337]
+[2024-05-24 03:51:04] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-24 03:51:04] INFO root fetch - processPackages [pymochow]: Downloading https://files.pythonhosted.org/packages/34/5a/3995abb651dfeabb3bdb3b9f36fe201441f9e4e5f8bcf8c90eb71621a27c/pymochow-1.1.5.tar.gz
+[2024-05-24 03:51:04] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/65/03/1dd1bb940e946f4ebb2dffbe456cc160478883a4b84a5a06542bdca179df/visionai_data_format-1.3.4.tar.gz
+[2024-05-24 03:51:04] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-24 03:51:04] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/95/07/b2853d2b1459bca7a6f69051c0f3df022f56bc34abf01560972b0ca84d76/pulumi_slack-0.5.0a1715928337.tar.gz
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/4e/8f/6fde0ea92a961cb48e51ad048abc438044519e4a76138ccff3a7229f08a9/pulumi_slack-0.5.0a1716512789.tar.gz
+[2024-05-24 03:51:05] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/bf/af/5cf8d639d7f4f79cb14093b1d17b91e6bfb2451e04efd9c03c23fc9a8683/visionai_data_format-1.3.5.tar.gz
+[2024-05-24 03:51:05] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pymochow]: Downloading https://files.pythonhosted.org/packages/e8/e0/7a6efa929db04f8b75a015743301b80e212caf3bdbeeb64c1720df68176c/pymochow-1.1.6.tar.gz
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1715928337.tar.gz tmp/pulumi_slack-0.5.0a1716512789.tar.gz --markdown 20240524/p/pulumi-slack/0.5.0a1715928337-0.5.0a1716512789/README.md --exclude *.pyd
+[2024-05-24 03:51:05] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-24 03:51:05] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240524/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-24 03:51:05] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2024-05-24 03:51:05] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai_data_format-1.3.4.tar.gz tmp/visionai_data_format-1.3.5.tar.gz --markdown 20240524/v/visionai-data-format/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pymochow]: executing diffoscope
+[2024-05-24 03:51:05] INFO root fetch - processPackages [pymochow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymochow-1.1.5.tar.gz tmp/pymochow-1.1.6.tar.gz --markdown 20240524/p/pymochow/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-24 03:51:06] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-24 03:51:06] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715928337.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1716512789.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-24 03:51:06] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.4.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.5.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2024-05-24 03:51:06] INFO root fetch - processPackages [pymochow]: Remove: archive file [/home/abi/fetcher/tmp/pymochow-1.1.5.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - processPackages [pymochow]: Remove: archive file [/home/abi/fetcher/tmp/pymochow-1.1.6.tar.gz]
+[2024-05-24 03:51:06] INFO root fetch - main [MainThread]: End processing [pymochow]: success
+[2024-05-24 03:51:06] INFO root fetch - main [MainThread]: Store serial: [23355380]
