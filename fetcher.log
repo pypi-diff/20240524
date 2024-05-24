@@ -19875,3 +19875,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:32:40] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-05-24 12:32:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
 [2024-05-24 12:32:40] INFO root fetch - main [MainThread]: Store serial: [23360417]
+[2024-05-24 12:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360417]
+[2024-05-24 12:34:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadprox
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobb-godmd
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinscrape
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nix-gpt-client
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otpme
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dariopdf
+[2024-05-24 12:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datapools
+[2024-05-24 12:34:49] INFO root fetch - processPackages [otpme]: New version: [0.3.0a73] Old Version: [0.3.0a72]
+[2024-05-24 12:34:49] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1552] Old Version: [1.0.0.post1551]
+[2024-05-24 12:34:49] INFO root fetch - processPackages [nix-gpt-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 12:34:49] INFO root fetch - processPackages [datapools]: New version: [1.0.61] Old Version: [1.0.60]
+[2024-05-24 12:34:49] INFO root fetch - processPackages [cadprox]: New version: [2.2] Old Version: [2.1]
+[2024-05-24 12:34:49] WARNING root fetch - processPackages [dariopdf]: Skipping, unable to determine old version
+[2024-05-24 12:34:49] INFO root fetch - main [MainThread]: End processing [dariopdf] error
+[2024-05-24 12:34:49] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/60/1d/74120eec311e9b1cdd3452b3d9b81f6704491bfa05e2d076be36f7a65064/otpme-0.3.0a72.tar.gz
+[2024-05-24 12:34:49] INFO root fetch - processPackages [pinscrape]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-24 12:34:49] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/3f/5b/f2f54d3968f36ac81fb28f328a29749f7bc83cac442cf21cc4393de8c2b8/nucliadb_admin_assets-1.0.0.post1551-py3-none-any.whl
+[2024-05-24 12:34:49] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/db/67/eed85fb6203a6c6bf0a1c68daecc4c1ea319d0a377c4047562231718812c/nix_gpt_client-0.1.2.tar.gz
+[2024-05-24 12:34:49] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/5b/43/686a422fbf47416bd7bdde523a148d07b70cf83be2235d598e09df9dd753/datapools-1.0.60.tar.gz
+[2024-05-24 12:34:49] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/c5/1b/3f79de302c6d1bbbfb00ee0545a7f354c2e75b1e184c45089b39917aed73/cadprox-2.1.tar.gz
+[2024-05-24 12:34:49] INFO root fetch - processPackages [biobb-godmd]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-24 12:34:50] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/7b/05/43e50c3a425b648698b5d6a76abfa80f659da4e3ad2d232e173559d7f412/pinscrape-3.2.0.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/a7/e9/20a60e40af77f2090e94d8e1082fae49a9de72a18a9ba31d329888dcc1c4/biobb_godmd-4.1.0.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/87/50/ec277c50bb8f6c211842248012751642b99150e9729c6ee5981618da8dc1/datapools-1.0.61.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nix-gpt-client]: Downloading https://files.pythonhosted.org/packages/e1/21/d4a27c1fbe7af3df6f8b5885198c4489dce26e5d2b18b7c604cb309e12ca/nix_gpt_client-0.1.3.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/66/28/12f33ac46248dccdfb40c06a78313fcde2087be0298e6c22ad5b8641a3c1/cadprox-2.2-py3-none-any.whl
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nix-gpt-client]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nix-gpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nix_gpt_client-0.1.2.tar.gz tmp/nix_gpt_client-0.1.3.tar.gz --markdown 20240524/n/nix-gpt-client/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 12:34:50] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.60.tar.gz tmp/datapools-1.0.61.tar.gz --markdown 20240524/d/datapools/1.0.60-1.0.61/README.md --exclude *.pyd
+[2024-05-24 12:34:50] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.1.tar.gz tmp/cadprox-2.2.tar.gz --markdown 20240524/c/cadprox/2.1-2.2/README.md --exclude *.pyd
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/7e/30/215d06e5348cf600faef8a6f8ea13bc313fce89a6321fb9550de785aa50a/nucliadb_admin_assets-1.0.0.post1552-py3-none-any.whl
+[2024-05-24 12:34:50] INFO root fetch - processPackages [biobb-godmd]: Downloading https://files.pythonhosted.org/packages/de/97/476904b1b448cfc10847a8338344f869d4dc9bc80210e267cce3b113aed2/biobb_godmd-4.2.0.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/e5/c7/cefd9a5e3ef58faf986f2b7844d2df6397860ab3de77304c98db130cfd9c/pinscrape-3.2.1.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/10/ab/97cdce6c8dbb051d7bd4210113284fe8861a1a91129abbac304dbc032799/otpme-0.3.0a73.tar.gz
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1551-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1552-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-admin-assets/1.0.0.post1551-1.0.0.post1552/README.md --exclude *.pyd
+[2024-05-24 12:34:50] INFO root fetch - processPackages [biobb-godmd]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [biobb-godmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_godmd-4.1.0.tar.gz tmp/biobb_godmd-4.2.0.tar.gz --markdown 20240524/b/biobb-godmd/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-24 12:34:50] INFO root fetch - processPackages [pinscrape]: executing diffoscope
+[2024-05-24 12:34:50] INFO root fetch - processPackages [pinscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinscrape-3.2.0.tar.gz tmp/pinscrape-3.2.1.tar.gz --markdown 20240524/p/pinscrape/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-24 12:34:51] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 12:34:51] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a72.tar.gz tmp/otpme-0.3.0a73.tar.gz --markdown 20240524/o/otpme/0.3.0a72-0.3.0a73/README.md --exclude *.pyd
+[2024-05-24 12:34:51] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.60.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.61.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-24 12:34:51] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.1.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.2.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:34:51] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.2.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - processPackages [nix-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/nix_gpt_client-0.1.3.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - main [MainThread]: End processing [nix-gpt-client]: success
+[2024-05-24 12:34:51] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.1.0.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - processPackages [biobb-godmd]: Remove: archive file [/home/abi/fetcher/tmp/biobb_godmd-4.2.0.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - main [MainThread]: End processing [biobb-godmd]: success
+[2024-05-24 12:34:51] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.2.0.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.2.1.tar.gz]
+[2024-05-24 12:34:51] INFO root fetch - main [MainThread]: End processing [pinscrape]: success
+[2024-05-24 12:34:53] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a72.tar.gz]
+[2024-05-24 12:34:53] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a73.tar.gz]
+[2024-05-24 12:34:53] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 12:35:05] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1551-py3-none-any.whl.zip]
+[2024-05-24 12:35:05] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1552-py3-none-any.whl.zip]
+[2024-05-24 12:35:05] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-24 12:35:05] INFO root fetch - main [MainThread]: Store serial: [23360443]

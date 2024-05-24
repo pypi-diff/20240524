@@ -1,4 +1,4 @@
-# Comparing `tmp/cadprox-2.1.tar.gz` & `tmp/cadprox-2.2-py3-none-any.whl.zip`
+# Comparing `tmp/cadprox-2.1.tar.gz` & `tmp/cadprox-2.2.tar.gz`
 
 ## filetype from file(1)
 
