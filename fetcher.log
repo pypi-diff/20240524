@@ -13665,3 +13665,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.91.tar.gz]
 [2024-05-24 09:13:21] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
 [2024-05-24 09:13:21] INFO root fetch - main [MainThread]: Store serial: [23357784]
+[2024-05-24 09:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357784]
+[2024-05-24 09:15:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agenta
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keycare
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codecarbon
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-order-line-position
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-report-commitment-date
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-sale-reporting
+[2024-05-24 09:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycaption
+[2024-05-24 09:15:31] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.258] Old Version: [0.1.257]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-24 09:15:31] WARNING root fetch - processPackages [keycare]: Skipping, unable to determine old version
+[2024-05-24 09:15:31] INFO root fetch - main [MainThread]: End processing [keycare] error
+[2024-05-24 09:15:31] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/ad/11/ea46b68f5e683e560e90673c4bf858a05ccf8cd531ae8581c64e8964a74f/ansar_connect-0.1.257.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: New version: [16.0.20240522.0] Old Version: [16.0.20230920.0]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [pycaption]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [codecarbon]: New version: [2.4.3rc1] Old Version: [2.4.2]
+[2024-05-24 09:15:31] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/c2/df/d8f74b7054e8c92981e7e6a4d3fb8dbac3019167122c8119bf9ee58b1d22/pycaption-2.2.8.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/27/c3/50c869539a1096efd5eb794e88ff0e26afb2d0964b0dc5cb45e3a6b8efc8/odoo_addons_oca_sale_reporting-16.0.20230920.0-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: Downloading https://files.pythonhosted.org/packages/d8/35/1f0f6d278e373bd543d1de01b3e432f19edbcaf9f8cff7b7f9e244e75c09/odoo_addon_sale_order_line_position-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/7d/03/580302cfea517d915501c1fb874454174813ed8fb2e0c9c43d3a47797b07/codecarbon-2.4.2.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Downloading https://files.pythonhosted.org/packages/95/40/4f9c88a97872af9d3c8a842e728c0804759243a253d575c81748eca9eca0/odoo_addon_sale_report_commitment_date-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/8d/bb654117c8a6eddcc64df280697f04d094779725622802f1e63ddd6ed3e7/ansar_connect-0.1.258.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-24 09:15:31] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.257.tar.gz tmp/ansar_connect-0.1.258.tar.gz --markdown 20240524/a/ansar-connect/0.1.257-0.1.258/README.md --exclude *.pyd
+[2024-05-24 09:15:31] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-24 09:15:31] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240524/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-24 09:15:31] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/37/4f/ff126d3dac7277c83ccd127a3608fa651641ee2289ebb84f0625d5c4497d/pycaption-2.2.9.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: Downloading https://files.pythonhosted.org/packages/94/b4/b4e6d9a679c58741a1e6ef5450053cb975d5b08b1ad0db0966c0e459cf89/odoo_addon_sale_order_line_position-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Downloading https://files.pythonhosted.org/packages/7c/0a/eaf15b1949b94e15e6015d8fdd74843ccc5c6a8d091c1546009353403b64/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/dd/01/4d3f18ffc04dc9fb699a8ee20faa269477caae241aa4533f0e15e706753b/odoo_addons_oca_sale_reporting-16.0.20240522.0-py3-none-any.whl
+[2024-05-24 09:15:31] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/67/cb/69f2246815af2e13eaf464b602e49d03fe83ab94dbf848f3f5b0747df2fb/codecarbon-2.4.3rc1.tar.gz
+[2024-05-24 09:15:31] INFO root fetch - processPackages [pycaption]: executing diffoscope
+[2024-05-24 09:15:31] INFO root fetch - processPackages [pycaption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaption-2.2.8.tar.gz tmp/pycaption-2.2.9.tar.gz --markdown 20240524/p/pycaption/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: executing diffoscope
+[2024-05-24 09:15:31] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_position-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_position-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sale-order-line-position/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 09:15:32] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2024-05-24 09:15:32] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.4.2.tar.gz tmp/codecarbon-2.4.3rc1.tar.gz --markdown 20240524/c/codecarbon/2.4.2-2.4.3rc1/README.md --exclude *.pyd
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: executing diffoscope
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sale-report-commitment-date/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: executing diffoscope
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_reporting-16.0.20230920.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_reporting-16.0.20240522.0-py3-none-any.whl.zip --markdown 20240524/o/odoo-addons-oca-sale-reporting/16.0.20230920.0-16.0.20240522.0/README.md --exclude *.pyd
+[2024-05-24 09:15:32] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.257.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.258.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_report_commitment_date-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-commitment-date]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230920.0-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20240522.0-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-reporting]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_position-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [odoo-addon-sale-order-line-position]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_position-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-position]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.8.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.9.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [pycaption]: success
+[2024-05-24 09:15:32] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.2.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.4.3rc1.tar.gz]
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2024-05-24 09:15:32] INFO root fetch - main [MainThread]: Store serial: [23357807]
