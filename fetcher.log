@@ -22257,3 +22257,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:52:51] INFO root fetch - processPackages [PT3S]: Remove: archive file [/home/abi/fetcher/tmp/PT3S-90.14.9.0.dev1.tar.gz]
 [2024-05-24 13:52:51] INFO root fetch - main [MainThread]: End processing [PT3S]: success
 [2024-05-24 13:52:51] INFO root fetch - main [MainThread]: Store serial: [23361424]
+[2024-05-24 13:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361424]
+[2024-05-24 13:55:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 13:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain-openai
+[2024-05-24 13:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-05-24 13:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gigachain-anthropic
+[2024-05-24 13:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-05-24 13:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syngen
+[2024-05-24 13:55:00] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 13:55:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-24 13:55:00] INFO root fetch - processPackages [gigachain-anthropic]: New version: [0.1.8] Old Version: [0.1.13]
+[2024-05-24 13:55:00] INFO root fetch - processPackages [gigachain-openai]: New version: [0.1.7] Old Version: [0.1.3rc1]
+[2024-05-24 13:55:00] INFO root fetch - processPackages [syngen]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-24 13:55:00] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/41/a7/006fb657d35bb4796d4158f8722d009123824ea80cb670f0b5f29e2551bc/syngen-0.8.3.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [gigachain-anthropic]: Downloading https://files.pythonhosted.org/packages/70/a1/9923e21817c1e5c7f51af226e0f06c6f8bf34f0a1b1949c1d85913f05bdf/gigachain_anthropic-0.1.13.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [gigachain-openai]: Downloading https://files.pythonhosted.org/packages/65/08/f047e8b8d4afa5fc0568026cb4a9a79709f02e6c595242a2a0ad2666cf52/gigachain_openai-0.1.3rc1.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-24 13:55:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-24 13:55:01] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-24 13:55:01] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240524/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 13:55:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-24 13:55:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240524/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-anthropic]: Downloading https://files.pythonhosted.org/packages/73/d1/82cd5014fdad85aacab3a05851997d5347bde065ca88300eb0b08ac32aeb/gigachain_anthropic-0.1.8.tar.gz
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-openai]: Downloading https://files.pythonhosted.org/packages/22/17/4d29fc3e8a7f2f7e99653f7f6301f8765d6018b2a36d3feb91e4b1b179be/gigachain_openai-0.1.7.tar.gz
+[2024-05-24 13:55:01] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/63/13/21e80db3201f2fd799363f946534abaaf127f41d8c22326ff18caf746e92/syngen-0.8.4.tar.gz
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-anthropic]: executing diffoscope
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_anthropic-0.1.13.tar.gz tmp/gigachain_anthropic-0.1.8.tar.gz --markdown 20240524/g/gigachain-anthropic/0.1.13-0.1.8/README.md --exclude *.pyd
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-openai]: executing diffoscope
+[2024-05-24 13:55:01] INFO root fetch - processPackages [gigachain-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_openai-0.1.3rc1.tar.gz tmp/gigachain_openai-0.1.7.tar.gz --markdown 20240524/g/gigachain-openai/0.1.3rc1-0.1.7/README.md --exclude *.pyd
+[2024-05-24 13:55:01] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-05-24 13:55:01] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.8.3.tar.gz tmp/syngen-0.8.4.tar.gz --markdown 20240524/s/syngen/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-24 13:55:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-24 13:55:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-24 13:55:01] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-24 13:55:02] INFO root fetch - processPackages [gigachain-openai]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_openai-0.1.3rc1.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - processPackages [gigachain-openai]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_openai-0.1.7.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - main [MainThread]: End processing [gigachain-openai]: success
+[2024-05-24 13:55:02] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-24 13:55:02] INFO root fetch - processPackages [gigachain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_anthropic-0.1.13.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - processPackages [gigachain-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_anthropic-0.1.8.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - main [MainThread]: End processing [gigachain-anthropic]: success
+[2024-05-24 13:55:02] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.3.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.4.tar.gz]
+[2024-05-24 13:55:02] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-05-24 13:55:02] INFO root fetch - main [MainThread]: Store serial: [23361440]
