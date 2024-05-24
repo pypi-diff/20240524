@@ -23322,3 +23322,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:33:35] INFO root fetch - processPackages [nautilus_trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.193.0.tar.gz]
 [2024-05-24 14:33:35] INFO root fetch - main [MainThread]: End processing [nautilus_trader]: success
 [2024-05-24 14:33:35] INFO root fetch - main [MainThread]: Store serial: [23361847]
+[2024-05-24 14:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361847]
+[2024-05-24 14:35:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motleycache
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappamodules
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FedJust
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rox-septentrio
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypx800v5
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cadprox
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2024-05-24 14:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-core
+[2024-05-24 14:35:45] INFO root fetch - processPackages [cadprox]: New version: [3.7] Old Version: [3.6]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [pypx800v5]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [rox-septentrio]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-24 14:35:45] WARNING root fetch - processPackages [motleycache]: Skipping, unable to determine old version
+[2024-05-24 14:35:45] INFO root fetch - main [MainThread]: End processing [motleycache] error
+[2024-05-24 14:35:45] INFO root fetch - processPackages [FedJust]: New version: [0.1.2.4] Old Version: [0.1.2.3]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/04/c0/40bf8ab42fae34c9ff772a10378ef4d7f1261fba65dc79aa0399b8e9baf3/cadprox-3.6.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [pypx800v5]: Downloading https://files.pythonhosted.org/packages/20/02/696df81679962b280c30ce4be37fad998240f1be3a98d04cda03080821b2/pypx800v5-1.2.0.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [kappamodules]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240524] Old Version: [0.2.5.dev20240522]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [spaceone-core]: New version: [2.0.9] Old Version: [2.0.88]
+[2024-05-24 14:35:45] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/e0/3a/2b9eaf8df07d99de396aae582d9bdab3d1eee89d1eb6233307a92224c822/rox_septentrio-0.2.9.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [FedJust]: Downloading https://files.pythonhosted.org/packages/aa/94/0cd258fbfc01866f31650a5ddc0c6d5392d4434b0457ef7bc8bc9659e6ae/fedjust-0.1.2.3.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/3b/e2/1ae9387d8409532bc4bf07acb0b2668b501b1cde2d63e40733fb972b1f4c/kappamodules-0.1.7.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [pypx800v5]: Downloading https://files.pythonhosted.org/packages/cf/77/46feb9fa1feb58f0a085590edb5dba5946c408eda4b83cd2e43dd01df2a0/pypx800v5-1.2.1.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/d4/b6/2080dc8b6bfaacc6c176894e7672b4e2d253eb06dc0bd0ec65f24ca0b080/nvfuser_cu121-0.2.5.dev20240522.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/9a/07/b64f7728c2861a2b3bc2bf6c7b6a6c5fc864e26af64aaa85f8d7844fe22f/spaceone-core-2.0.88.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [pypx800v5]: executing diffoscope
+[2024-05-24 14:35:45] INFO root fetch - processPackages [pypx800v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypx800v5-1.2.0.tar.gz tmp/pypx800v5-1.2.1.tar.gz --markdown 20240524/p/pypx800v5/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-24 14:35:45] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/2f/88/448725727adeb053a1c583f9cb0d028aaed4993faa86543b7a388eab1b50/cadprox-3.7.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 14:35:45] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-3.6.tar.gz tmp/cadprox-3.7.tar.gz --markdown 20240524/c/cadprox/3.6-3.7/README.md --exclude *.pyd
+[2024-05-24 14:35:45] INFO root fetch - processPackages [FedJust]: Downloading https://files.pythonhosted.org/packages/77/36/a98293dedb5284071414e374cf796462e5cd891d3b16d945064744f0ddc4/fedjust-0.1.2.4.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [kappamodules]: Downloading https://files.pythonhosted.org/packages/81/fc/bada4aae7de7149188e11f5ee6f6bb78d0725367f860197922b557fbd65b/kappamodules-0.1.8.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/15/23/7fc7087fdcdd0648e5dcd591f99dac47c485273f310b0880130f6c95a181/rox_septentrio-0.3.0.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/1d/3b/0ce9be8b372fc3427317371d87bbef470941cb304147839f2dd1424cb4e2/nvfuser_cu121-0.2.5.dev20240524.tar.gz
+[2024-05-24 14:35:45] INFO root fetch - processPackages [FedJust]: executing diffoscope
+[2024-05-24 14:35:45] INFO root fetch - processPackages [FedJust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedjust-0.1.2.3.tar.gz tmp/fedjust-0.1.2.4.tar.gz --markdown 20240524/F/FedJust/0.1.2.3-0.1.2.4/README.md --exclude *.pyd
+[2024-05-24 14:35:45] INFO root fetch - processPackages [kappamodules]: executing diffoscope
+[2024-05-24 14:35:45] INFO root fetch - processPackages [kappamodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappamodules-0.1.7.tar.gz tmp/kappamodules-0.1.8.tar.gz --markdown 20240524/k/kappamodules/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-24 14:35:45] INFO root fetch - processPackages [rox-septentrio]: executing diffoscope
+[2024-05-24 14:35:45] INFO root fetch - processPackages [rox-septentrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rox_septentrio-0.2.9.tar.gz tmp/rox_septentrio-0.3.0.tar.gz --markdown 20240524/r/rox-septentrio/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-24 14:35:46] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/c6/b6/20c4662546ec879a3b0dfacd3580673a79f673f79dbedabb4a9a917b0f73/spaceone-core-2.0.9.tar.gz
+[2024-05-24 14:35:46] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-24 14:35:46] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240522.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240524.tar.gz --markdown 20240524/n/nvfuser-cu121/0.2.5.dev20240522-0.2.5.dev20240524/README.md --exclude *.pyd
+[2024-05-24 14:35:46] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2024-05-24 14:35:46] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-core-2.0.88.tar.gz tmp/spaceone-core-2.0.9.tar.gz --markdown 20240524/s/spaceone-core/2.0.88-2.0.9/README.md --exclude *.pyd
+[2024-05-24 14:35:46] INFO root fetch - processPackages [pypx800v5]: Remove: archive file [/home/abi/fetcher/tmp/pypx800v5-1.2.0.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [pypx800v5]: Remove: archive file [/home/abi/fetcher/tmp/pypx800v5-1.2.1.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [pypx800v5]: success
+[2024-05-24 14:35:46] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.2.9.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.3.0.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [rox-septentrio]: success
+[2024-05-24 14:35:46] INFO root fetch - processPackages [FedJust]: Remove: archive file [/home/abi/fetcher/tmp/fedjust-0.1.2.3.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [FedJust]: Remove: archive file [/home/abi/fetcher/tmp/fedjust-0.1.2.4.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [FedJust]: success
+[2024-05-24 14:35:46] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.7.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [kappamodules]: Remove: archive file [/home/abi/fetcher/tmp/kappamodules-0.1.8.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [kappamodules]: success
+[2024-05-24 14:35:46] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.6.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.7.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 14:35:46] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240522.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240524.tar.gz]
+[2024-05-24 14:35:46] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-24 14:35:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.88.tar.gz]
+[2024-05-24 14:35:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
+[2024-05-24 14:35:47] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2024-05-24 14:35:47] INFO root fetch - main [MainThread]: Store serial: [23361871]
