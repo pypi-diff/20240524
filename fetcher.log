@@ -10044,3 +10044,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 06:13:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-24 06:13:04] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-24 06:13:04] INFO root fetch - main [MainThread]: Store serial: [23356203]
+[2024-05-24 06:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356203]
+[2024-05-24 06:15:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 06:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian
+[2024-05-24 06:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-connector-python-nightly
+[2024-05-24 06:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathrixpy
+[2024-05-24 06:15:13] WARNING root fetch - processPackages [mathrixpy]: Skipping, unable to determine old version
+[2024-05-24 06:15:13] INFO root fetch - main [MainThread]: End processing [mathrixpy] error
+[2024-05-24 06:15:13] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 06:15:13] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.5.24] Old Version: [2024.5.18]
+[2024-05-24 06:15:14] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-05-24 06:15:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/54/35/6a6dbe7999ab39e05ebce60469deda6cd6c28d1f8270dbfdc04cb975c724/snowflake_connector_python_nightly-2024.5.18.tar.gz
+[2024-05-24 06:15:14] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-05-24 06:15:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/1d/8d/261010884383bc5e5a9e2a908981873a43d289f42bfdfec9efe0c02aec0a/snowflake_connector_python_nightly-2024.5.24.tar.gz
+[2024-05-24 06:15:14] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-05-24 06:15:14] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240524/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 06:15:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-05-24 06:15:14] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_connector_python_nightly-2024.5.18.tar.gz tmp/snowflake_connector_python_nightly-2024.5.24.tar.gz --markdown 20240524/s/snowflake-connector-python-nightly/2024.5.18-2024.5.24/README.md --exclude *.pyd
+[2024-05-24 06:15:15] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-05-24 06:15:15] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-05-24 06:15:15] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-05-24 06:15:15] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python_nightly-2024.5.18.tar.gz]
+[2024-05-24 06:15:15] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_connector_python_nightly-2024.5.24.tar.gz]
+[2024-05-24 06:15:15] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-05-24 06:15:15] INFO root fetch - main [MainThread]: Store serial: [23356236]
