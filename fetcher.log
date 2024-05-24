@@ -18393,3 +18393,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 11:40:20] INFO root fetch - processPackages [cube-dl]: Remove: archive file [/home/abi/fetcher/tmp/cube_dl-0.3.9.tar.gz]
 [2024-05-24 11:40:20] INFO root fetch - main [MainThread]: End processing [cube-dl]: success
 [2024-05-24 11:40:20] INFO root fetch - main [MainThread]: Store serial: [23359782]
+[2024-05-24 11:42:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359782]
+[2024-05-24 11:42:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-mig
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imgui-bundle
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyperclip-plus
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticsearch-haystack
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gauge-api-steps
+[2024-05-24 11:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snw
+[2024-05-24 11:42:29] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-24 11:42:29] WARNING root fetch - processPackages [pyperclip-plus]: Skipping, unable to determine old version
+[2024-05-24 11:42:29] INFO root fetch - main [MainThread]: End processing [pyperclip-plus] error
+[2024-05-24 11:42:29] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-24 11:42:29] INFO root fetch - processPackages [elasticsearch-haystack]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-24 11:42:29] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/6b/ca/195b17c881ccf7d806544ac663e3d3ba0fdf8d4fb2d49de83841f3a372d8/sbcli_mig-1.0.98.zip
+[2024-05-24 11:42:29] INFO root fetch - processPackages [imgui-bundle]: New version: [1.5.0] Old Version: [1.3.0]
+[2024-05-24 11:42:29] INFO root fetch - processPackages [gauge-api-steps]: New version: [0.9] Old Version: [0.18]
+[2024-05-24 11:42:29] INFO root fetch - processPackages [snw]: New version: [2.9.0rc4] Old Version: [2.9.0rc3]
+[2024-05-24 11:42:29] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-24 11:42:29] INFO root fetch - processPackages [elasticsearch-haystack]: Downloading https://files.pythonhosted.org/packages/ae/23/b875cbedaec50d0c145003bcc6f26ed8501cc92b45846170fd4e4512cae0/elasticsearch_haystack-0.4.0.tar.gz
+[2024-05-24 11:42:29] INFO root fetch - processPackages [gauge-api-steps]: Downloading https://files.pythonhosted.org/packages/df/de/37f64b219bd37868a7d61cc1de6911d010426744c1764e73ce109a247f69/gauge-api-steps-0.18.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [imgui-bundle]: Downloading https://files.pythonhosted.org/packages/36/57/de51564a39d4f92bc9eeee8fd24a55bf0257a97dd4fd3a3c8e7503d207de/imgui-bundle-1.3.0.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [snw]: Downloading https://files.pythonhosted.org/packages/8a/4d/f2c44876c24585af90cf82266a0f1ea1b793b9ccadca2d2113a9f0549932/snw-2.9.0rc3.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/cf/04/ae220da966a36c254f338107cfb89676096dd3639725049e08c36876035d/sbcli_mig-1.0.99.zip
+[2024-05-24 11:42:30] WARNING root fetch - processPackages [imgui-bundle]: Skipping package: exceeds size limit 36787635>=10485760
+[2024-05-24 11:42:30] INFO root fetch - main [MainThread]: End processing [imgui-bundle] error
+[2024-05-24 11:42:30] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-24 11:42:30] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240524/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-24 11:42:30] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-24 11:42:30] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.98.zip tmp/sbcli_mig-1.0.99.zip --markdown 20240524/s/sbcli-mig/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-24 11:42:30] INFO root fetch - processPackages [elasticsearch-haystack]: Downloading https://files.pythonhosted.org/packages/07/b4/1d5d6adfc61cf918ca9bc1c05ab21ea82db80b0ee6b08f1ac36e3b67d8da/elasticsearch_haystack-0.5.0.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [gauge-api-steps]: Downloading https://files.pythonhosted.org/packages/34/a7/cc576a0675216b786535bddbff4fa1e3b096013a566e85fb1f59ae4dbfde/gauge-api-steps-0.9.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [snw]: Downloading https://files.pythonhosted.org/packages/7a/1d/daf4618df996c85e1aaa16401fa708b5fb90a19518617a482a7a5bbb977f/snw-2.9.0rc4.tar.gz
+[2024-05-24 11:42:30] INFO root fetch - processPackages [elasticsearch-haystack]: executing diffoscope
+[2024-05-24 11:42:30] INFO root fetch - processPackages [elasticsearch-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_haystack-0.4.0.tar.gz tmp/elasticsearch_haystack-0.5.0.tar.gz --markdown 20240524/e/elasticsearch-haystack/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-24 11:42:30] INFO root fetch - processPackages [snw]: executing diffoscope
+[2024-05-24 11:42:30] INFO root fetch - processPackages [snw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snw-2.9.0rc3.tar.gz tmp/snw-2.9.0rc4.tar.gz --markdown 20240524/s/snw/2.9.0rc3-2.9.0rc4/README.md --exclude *.pyd
+[2024-05-24 11:42:30] INFO root fetch - processPackages [gauge-api-steps]: executing diffoscope
+[2024-05-24 11:42:30] INFO root fetch - processPackages [gauge-api-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauge-api-steps-0.18.tar.gz tmp/gauge-api-steps-0.9.tar.gz --markdown 20240524/g/gauge-api-steps/0.18-0.9/README.md --exclude *.pyd
+[2024-05-24 11:42:31] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-24 11:42:31] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.98.zip]
+[2024-05-24 11:42:31] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.99.zip]
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-24 11:42:31] INFO root fetch - processPackages [snw]: Remove: archive file [/home/abi/fetcher/tmp/snw-2.9.0rc3.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - processPackages [snw]: Remove: archive file [/home/abi/fetcher/tmp/snw-2.9.0rc4.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [snw]: success
+[2024-05-24 11:42:31] INFO root fetch - processPackages [elasticsearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_haystack-0.4.0.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - processPackages [elasticsearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_haystack-0.5.0.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [elasticsearch-haystack]: success
+[2024-05-24 11:42:31] INFO root fetch - processPackages [gauge-api-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-api-steps-0.18.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - processPackages [gauge-api-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-api-steps-0.9.tar.gz]
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: End processing [gauge-api-steps]: success
+[2024-05-24 11:42:31] INFO root fetch - main [MainThread]: Store serial: [23359811]
