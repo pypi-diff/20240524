@@ -14781,3 +14781,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [embody-codec]: success
 [2024-05-24 09:48:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
 [2024-05-24 09:48:35] INFO root fetch - main [MainThread]: Store serial: [23358234]
+[2024-05-24 09:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358234]
+[2024-05-24 09:50:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tftui
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addons-oca-stock-logistics-transport
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prancer-basic
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-ui-helper
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tharos-pytools
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s3func
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trading-backend
+[2024-05-24 09:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webopen
+[2024-05-24 09:50:45] WARNING root fetch - processPackages [webopen]: Skipping, unable to determine old version
+[2024-05-24 09:50:45] INFO root fetch - main [MainThread]: End processing [webopen] error
+[2024-05-24 09:50:45] INFO root fetch - processPackages [s3func]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [web-ui-helper]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: New version: [14.0.20240522.0] Old Version: [14.0.20211214.0]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [prancer-basic]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/1b/59/bafcb062aead670d6d06e0ca67e9c843b5485a7da897a97678d78fdafdb5/s3func-0.2.1.tar.gz
+[2024-05-24 09:50:45] INFO root fetch - processPackages [tftui]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/a1/cc/99d709cdd2e2e4e453a0668ca7dfc748954adef8d07dee1625668f1de1a0/web-ui-helper-0.1.2.tar.gz
+[2024-05-24 09:50:45] INFO root fetch - processPackages [keelson]: New version: [0.3.5rc4] Old Version: [0.3.5rc3]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [trading-backend]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [tharos-pytools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:50:45] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Downloading https://files.pythonhosted.org/packages/53/ce/2ec0de5e69f8d207be834f08a09946f83246c06f733775bc9ab9f19b3468/odoo14_addons_oca_stock_logistics_transport-14.0.20211214.0-py3-none-any.whl
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/07/0e/e2c47460cb0215e7aae18d4d4c18cbbe95dac793324cf3a234c6833a5c7c/tftui-0.8.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/fb/9e/48214ac11f8cd8e59bacc083b3b1c49c6892af0f1f602231471da5d7c3ff/keelson-0.3.5rc3-py3-none-any.whl
+[2024-05-24 09:50:46] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/aa/84/af1ed8d4187effa46448e60b5065a2834fb3ee3b62dfba8b6f591cde32c4/prancer-basic-3.0.8.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/65/34/1420ef961b75a93baca9f1f0be3397cd01c858fafe5387b354842e144e12/tharos-pytools-0.0.8.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [trading-backend]: Downloading https://files.pythonhosted.org/packages/7e/e4/b38fdee6b372e1d93649c8e4910596c6b8b944b029591a7d51e06e397743/trading-backend-1.2.8.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/63/6d/f4a23e9888dfafa271b255fab3729d07ab0883e6608971e89f8ad5a84dc4/s3func-0.2.2.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/d2/a9/1ef853965684d9520db0c6eb67daf90eda5fa7b444d99ab35bc79bee82d9/web-ui-helper-1.0.0.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.2.1.tar.gz tmp/s3func-0.2.2.tar.gz --markdown 20240524/s/s3func/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.1.2.tar.gz tmp/web-ui-helper-1.0.0.tar.gz --markdown 20240524/w/web-ui-helper/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Downloading https://files.pythonhosted.org/packages/d0/1f/a1136fdced4994a88d6878727418cb86057a88872b163d31be8d40713b28/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/fb/f4/6132cfd40b797a6f137e46a9b1c148912acbaf7c522f20c755d1a193ddbb/tftui-0.9.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/29/ee6bb2540a5be22bd99530a8f505abf24caaddf1375d49a6101598effa27/keelson-0.3.5rc4-py3-none-any.whl
+[2024-05-24 09:50:46] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20211214.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl.zip --markdown 20240524/o/odoo14-addons-oca-stock-logistics-transport/14.0.20211214.0-14.0.20240522.0/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [trading-backend]: Downloading https://files.pythonhosted.org/packages/0f/03/6c8912f09afac7d5316a991004724028eaf24102038faf89205bd113b1a9/trading-backend-1.2.9.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [prancer-basic]: Downloading https://files.pythonhosted.org/packages/1a/53/0b31884948dd5646a62eca133c035534fdab1adf7e4f48f95a30f17f39ae/prancer-basic-3.0.9.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.8.tar.gz tmp/tftui-0.9.tar.gz --markdown 20240524/t/tftui/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tharos-pytools]: Downloading https://files.pythonhosted.org/packages/2c/94/5edf27cd62c041699bc8b048f039b085b00b1b1d3e03e9e21f4a33af42a9/tharos-pytools-0.0.9.tar.gz
+[2024-05-24 09:50:46] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.5rc3-py3-none-any.whl.zip tmp/keelson-0.3.5rc4-py3-none-any.whl.zip --markdown 20240524/k/keelson/0.3.5rc3-0.3.5rc4/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [trading-backend]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [trading-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading-backend-1.2.8.tar.gz tmp/trading-backend-1.2.9.tar.gz --markdown 20240524/t/trading-backend/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [prancer-basic]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [prancer-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prancer-basic-3.0.8.tar.gz tmp/prancer-basic-3.0.9.tar.gz --markdown 20240524/p/prancer-basic/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tharos-pytools]: executing diffoscope
+[2024-05-24 09:50:46] INFO root fetch - processPackages [tharos-pytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tharos-pytools-0.0.8.tar.gz tmp/tharos-pytools-0.0.9.tar.gz --markdown 20240524/t/tharos-pytools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:50:47] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.2.1.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.2.2.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.1.2.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.0.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20211214.0-py3-none-any.whl.zip]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [odoo14-addons-oca-stock-logistics-transport]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_stock_logistics_transport-14.0.20240522.0-py3-none-any.whl.zip]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-stock-logistics-transport]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.8.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.9.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [trading-backend]: Remove: archive file [/home/abi/fetcher/tmp/trading-backend-1.2.8.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [trading-backend]: Remove: archive file [/home/abi/fetcher/tmp/trading-backend-1.2.9.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [trading-backend]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.5rc3-py3-none-any.whl.zip]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.5rc4-py3-none-any.whl.zip]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [tharos-pytools]: Remove: archive file [/home/abi/fetcher/tmp/tharos-pytools-0.0.8.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [tharos-pytools]: Remove: archive file [/home/abi/fetcher/tmp/tharos-pytools-0.0.9.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [tharos-pytools]: success
+[2024-05-24 09:50:47] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.8.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - processPackages [prancer-basic]: Remove: archive file [/home/abi/fetcher/tmp/prancer-basic-3.0.9.tar.gz]
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: End processing [prancer-basic]: success
+[2024-05-24 09:50:47] INFO root fetch - main [MainThread]: Store serial: [23358254]
