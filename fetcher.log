@@ -13782,3 +13782,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:17:43] INFO root fetch - processPackages [django-admin-ordering]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-ordering-0.9.0.tar.gz]
 [2024-05-24 09:17:43] INFO root fetch - main [MainThread]: End processing [django-admin-ordering]: success
 [2024-05-24 09:17:43] INFO root fetch - main [MainThread]: Store serial: [23357822]
+[2024-05-24 09:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357822]
+[2024-05-24 09:19:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myscale-telemetry
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ekuiper
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ekuiper
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brynq-sdk-newrelic
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-appflow
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vidtoolkit
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrathon-payments
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gandai
+[2024-05-24 09:19:52] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-24 09:19:52] INFO root fetch - processPackages [scrathon-payments]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-24 09:19:52] INFO root fetch - processPackages [gandai]: New version: [1.7.53] Old Version: [1.7.52]
+[2024-05-24 09:19:52] ERROR root fetch - processPackages [vidtoolkit]: Unable to get metadata: No such project 'vidtoolkit'
+[2024-05-24 09:19:52] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/da/42/017419fff952fc76201bfba13a03b58f27d5ebae499d57c25a9b8ff2971f/gandai-1.7.52.tar.gz
+[2024-05-24 09:19:52] INFO root fetch - main [MainThread]: End processing [vidtoolkit] error
+[2024-05-24 09:19:52] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/7e/1d/1905fa6a8db67f6ee5a18925967551d3a44ffd38a95e9bb793fd7fdd5310/scrathon_payments-0.1.9.tar.gz
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-24 09:19:52] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-24 09:19:52] WARNING root fetch - processPackages [brynq-sdk-newrelic]: Skipping, unable to determine old version
+[2024-05-24 09:19:52] INFO root fetch - processPackages [cdklabs.cdk-appflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:19:52] INFO root fetch - main [MainThread]: End processing [brynq-sdk-newrelic] error
+[2024-05-24 09:19:52] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/09/06/07267c7a108e80ea31fe04d8e3a1c8e51435035b4ce7b273584c43d50266/myscale-telemetry-0.1.2.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/82/a8/dc9e128b332314012261df1084758544ce87101e33d4349e844882fe96fd/cdklabs.cdk-appflow-0.0.8.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/7f/39/7bc1efaca7d096f57149161875c207200ed93a9a9d63450c551e2f345ce9/gandai-1.7.53.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/f7/ec/f74b2d65f12ee08cfaae7bea1a5bfeb0b3b9a5b5ae16b5b4365ba1d78dde/scrathon_payments-0.2.0.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/d5/92/843f09ec70e74ef7757fa3244f77dfa208644f396b81c463fa211fb96b1a/myscale-telemetry-0.1.3.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.2.tar.gz tmp/myscale-telemetry-0.1.3.tar.gz --markdown 20240524/m/myscale-telemetry/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-24 09:19:53] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.1.9.tar.gz tmp/scrathon_payments-0.2.0.tar.gz --markdown 20240524/s/scrathon-payments/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-24 09:19:53] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.52.tar.gz tmp/gandai-1.7.53.tar.gz --markdown 20240524/g/gandai/1.7.52-1.7.53/README.md --exclude *.pyd
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20240524/e/ekuiper/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20240524/e/ekuiper/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-24 09:19:53] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Downloading https://files.pythonhosted.org/packages/9a/30/b0abb40941f8f989fac59510ee2ff1a61b483f5a352920fc34999bcc5345/cdklabs.cdk-appflow-0.0.9.tar.gz
+[2024-05-24 09:19:53] INFO root fetch - processPackages [cdklabs.cdk-appflow]: executing diffoscope
+[2024-05-24 09:19:53] INFO root fetch - processPackages [cdklabs.cdk-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-appflow-0.0.8.tar.gz tmp/cdklabs.cdk-appflow-0.0.9.tar.gz --markdown 20240524/c/cdklabs.cdk-appflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:19:54] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.9.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.2.0.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-24 09:19:54] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.2.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.3.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-24 09:19:54] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.52.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.53.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 09:19:54] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.1.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.2.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2024-05-24 09:19:54] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.8.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - processPackages [cdklabs.cdk-appflow]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-appflow-0.0.9.tar.gz]
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-appflow]: success
+[2024-05-24 09:19:54] INFO root fetch - main [MainThread]: Store serial: [23357849]
