@@ -11558,3 +11558,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:30:57] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-4.0.0b2.tar.gz]
 [2024-05-24 07:30:57] INFO root fetch - main [MainThread]: End processing [better-web3]: success
 [2024-05-24 07:30:57] INFO root fetch - main [MainThread]: Store serial: [23356766]
+[2024-05-24 07:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356766]
+[2024-05-24 07:33:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: better-web3
+[2024-05-24 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freedom-pay
+[2024-05-24 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custom-json-diff
+[2024-05-24 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: payrex-python
+[2024-05-24 07:33:07] INFO root fetch - processPackages [freedom-pay]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 07:33:07] INFO root fetch - processPackages [better-web3]: New version: [4.0.0b2] Old Version: [3.2.1]
+[2024-05-24 07:33:07] WARNING root fetch - processPackages [custom-json-diff]: Skipping, unable to determine old version
+[2024-05-24 07:33:07] INFO root fetch - main [MainThread]: End processing [custom-json-diff] error
+[2024-05-24 07:33:07] INFO root fetch - processPackages [payrex-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 07:33:07] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/15/c6/30b40405fee974bce1437d9480991f07d577489f1968ae00ba78fc909e3b/better_web3-3.2.1.tar.gz
+[2024-05-24 07:33:07] INFO root fetch - processPackages [freedom-pay]: Downloading https://files.pythonhosted.org/packages/af/b3/736decd67817bfb12e42b9e52abeb63cfecd91c6a9471670d80fc2101f4c/freedom_pay-0.0.1-py3-none-any.whl
+[2024-05-24 07:33:07] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/32/ba/775161f580f52b576b8de95dbbfb5db663b9662ba4c0ca3b28fad201a88d/better_web3-4.0.0b2.tar.gz
+[2024-05-24 07:33:07] INFO root fetch - processPackages [payrex-python]: Downloading https://files.pythonhosted.org/packages/2f/c4/c009ce70036f7ce70ea4459af2a1b5428925ef0cd8d47141b9ab274b411a/payrex_python-0.1.0.tar.gz
+[2024-05-24 07:33:08] INFO root fetch - processPackages [better-web3]: executing diffoscope
+[2024-05-24 07:33:08] INFO root fetch - processPackages [better-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_web3-3.2.1.tar.gz tmp/better_web3-4.0.0b2.tar.gz --markdown 20240524/b/better-web3/3.2.1-4.0.0b2/README.md --exclude *.pyd
+[2024-05-24 07:33:08] INFO root fetch - processPackages [freedom-pay]: Downloading https://files.pythonhosted.org/packages/1d/41/1acd835bd3b69c48ea25dec0e82de2c85229527f7441c91710129ba6602e/freedom_pay-0.0.2-py3-none-any.whl
+[2024-05-24 07:33:08] INFO root fetch - processPackages [freedom-pay]: executing diffoscope
+[2024-05-24 07:33:08] INFO root fetch - processPackages [freedom-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedom_pay-0.0.1-py3-none-any.whl.zip tmp/freedom_pay-0.0.2-py3-none-any.whl.zip --markdown 20240524/f/freedom-pay/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 07:33:08] INFO root fetch - processPackages [payrex-python]: Downloading https://files.pythonhosted.org/packages/81/a9/e6b652b48d9f44eb7c0241f7b8eb6486a86c0d9dd7b6751ab1b1d837a08e/payrex_python-0.1.1.tar.gz
+[2024-05-24 07:33:08] INFO root fetch - processPackages [payrex-python]: executing diffoscope
+[2024-05-24 07:33:08] INFO root fetch - processPackages [payrex-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payrex_python-0.1.0.tar.gz tmp/payrex_python-0.1.1.tar.gz --markdown 20240524/p/payrex-python/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 07:33:08] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-3.2.1.tar.gz]
+[2024-05-24 07:33:08] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-4.0.0b2.tar.gz]
+[2024-05-24 07:33:08] INFO root fetch - main [MainThread]: End processing [better-web3]: success
+[2024-05-24 07:33:08] INFO root fetch - processPackages [freedom-pay]: Remove: archive file [/home/abi/fetcher/tmp/freedom_pay-0.0.1-py3-none-any.whl.zip]
+[2024-05-24 07:33:08] INFO root fetch - processPackages [freedom-pay]: Remove: archive file [/home/abi/fetcher/tmp/freedom_pay-0.0.2-py3-none-any.whl.zip]
+[2024-05-24 07:33:08] INFO root fetch - main [MainThread]: End processing [freedom-pay]: success
+[2024-05-24 07:33:09] INFO root fetch - processPackages [payrex-python]: Remove: archive file [/home/abi/fetcher/tmp/payrex_python-0.1.0.tar.gz]
+[2024-05-24 07:33:09] INFO root fetch - processPackages [payrex-python]: Remove: archive file [/home/abi/fetcher/tmp/payrex_python-0.1.1.tar.gz]
+[2024-05-24 07:33:09] INFO root fetch - main [MainThread]: End processing [payrex-python]: success
+[2024-05-24 07:33:09] INFO root fetch - main [MainThread]: Store serial: [23356778]
