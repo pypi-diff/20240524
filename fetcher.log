@@ -18826,3 +18826,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:00:08] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
 [2024-05-24 12:00:08] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-24 12:00:08] INFO root fetch - main [MainThread]: Store serial: [23359995]
+[2024-05-24 12:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359995]
+[2024-05-24 12:02:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bstblue
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadproxdk
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geo-roughness-tool
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muko
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: literalai
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: woningwaardering
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promising-stocks
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qdrant-haystack
+[2024-05-24 12:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inmanta
+[2024-05-24 12:02:18] INFO root fetch - processPackages [bstblue]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.4.21.post1] Old Version: [0.4.21.dev1]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [cadproxdk]: New version: [3.9] Old Version: [3.8]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [woningwaardering]: New version: [0.3.0a6] Old Version: [0.3.0a5]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052309] Old Version: [2.17.0.dev2024052209]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [literalai]: New version: [0.0.602] Old Version: [0.0.601]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/59/5b/d357f290f6cec47302fcf71c52cefd36bfb8fa8f689dd8f7a8b33818b88e/geo_roughness_tool-0.4.21.dev1.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/15/3f/05a8ac45122f3f9974cbf6c3d4ed29445e03db72390d3ae017c77ab2ef59/bstblue-0.0.7.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [inmanta]: New version: [2024.2.1] Old Version: [2024.2]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/d6/c6/63d527a25b60d1daa7742c6bf585196bf36bf431dd2f2ec214d46502a7e4/cadproxdk-3.8.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/85/9a/d6e384d7fc2513973f652a78e5b25a05264166538aa5ebcb5e5739b3192a/woningwaardering-0.3.0a5.tar.gz
+[2024-05-24 12:02:18] WARNING root fetch - processPackages [promising-stocks]: Skipping, unable to determine old version
+[2024-05-24 12:02:18] INFO root fetch - processPackages [promising-stocks]: Start processing: inmanta-core
+[2024-05-24 12:02:18] INFO root fetch - main [MainThread]: End processing [promising-stocks] error
+[2024-05-24 12:02:18] INFO root fetch - processPackages [qdrant-haystack]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [muko]: New version: [2.53] Old Version: [2.52]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/09/10/b6d09ed0c8509994565e08ab20226d7170bd356b1399c39519a93deab838/tf_keras_nightly-2.17.0.dev2024052209.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/62/80/f004fc4677ae95f6f311455ce7d0fb19368b85d0bab6f80fb0bd610f2658/literalai-0.0.601.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/9e/91/53e0cf86853262b4cd8043dc5cfa44a2e4eaa55250337d6431e3c032ae79/qdrant_haystack-3.5.0.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [inmanta-core]: New version: [9.3.0] Old Version: [8.7.4]
+[2024-05-24 12:02:18] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/e7/9a/b55336208827d180110f96091a8fd52706f1df6019e8e370c5e9e7faa677/muko-2.52-py3-none-any.whl
+[2024-05-24 12:02:18] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/68/f3/b86c0923573885690cecf7cf667fa4126204df0905cb3169674a26e59f7d/inmanta-2024.2.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/02/42/1698894a251386549001746dc4e940c48347155deb36f7baf928e74a5948/bstblue-0.0.8.tar.gz
+[2024-05-24 12:02:18] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/21/4e/99d186fc183b07c7d46ec7aa2e4813bc987a96bd61519fff62f11217e27b/woningwaardering-0.3.0a6.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/53/a5/36c2243aaa18e381cef5d6fa4053e6eda0a04790f7336363c734dedca692/cadproxdk-3.9.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/b8/a0/2e8d4f69efbf1643872ec5241e4fae640623053f135b77ceca0f9b4cde99/literalai-0.0.602.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/77/fa/8386bfcf1a223a046251fb6684bce45f4c5a6dc75b5cccce0fc0dc438174/inmanta-core-8.7.4.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/73/41/c935eec871e8220f85c1ff5640c4fdba5e2a5f94a9f477b31bd07eea0fa8/geo_roughness_tool-0.4.21.post1.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.0.7.tar.gz tmp/bstblue-0.0.8.tar.gz --markdown 20240524/b/bstblue/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/c5/89/7d20a5445d8adf3daf4bbb9c8629acdcbb58812f89fdf5e92e7429b8880e/tf_keras_nightly-2.17.0.dev2024052309.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.8.tar.gz tmp/cadproxdk-3.9.tar.gz --markdown 20240524/c/cadproxdk/3.8-3.9/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/3c/f3/8654952def676533f0f7a132c56c9d67d33c127eba8d381dffc2d27203a3/qdrant_haystack-3.6.0.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.3.0a5.tar.gz tmp/woningwaardering-0.3.0a6.tar.gz --markdown 20240524/w/woningwaardering/0.3.0a5-0.3.0a6/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/f1/a0/195b06769ba6c47ffe6dada37ac6f83ae47dfb50c00d3e393b169d732445/inmanta-2024.2.1.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.601.tar.gz tmp/literalai-0.0.602.tar.gz --markdown 20240524/l/literalai/0.0.601-0.0.602/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052309.tar.gz --markdown 20240524/t/tf-keras-nightly/2.17.0.dev2024052209-2.17.0.dev2024052309/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/f0/cd/4d8019bf8b732f75e2ca5dfd7c2bf75eb5f18a7fec492f6435d4021adeba/muko-2.53-py3-none-any.whl
+[2024-05-24 12:02:19] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-3.5.0.tar.gz tmp/qdrant_haystack-3.6.0.tar.gz --markdown 20240524/q/qdrant-haystack/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [inmanta]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [inmanta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-2024.2.tar.gz tmp/inmanta-2024.2.1.tar.gz --markdown 20240524/i/inmanta/2024.2-2024.2.1/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.4.21.dev1.tar.gz tmp/geo_roughness_tool-0.4.21.post1.tar.gz --markdown 20240524/g/geo-roughness-tool/0.4.21.dev1-0.4.21.post1/README.md --exclude *.pyd
+[2024-05-24 12:02:19] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/86/f6/6ef8a66268f93f28019472acba04a564c30685b0b259f2e0725ad1aabc8b/inmanta-core-9.3.0.tar.gz
+[2024-05-24 12:02:19] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.7.tar.gz]
+[2024-05-24 12:02:19] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.0.8.tar.gz]
+[2024-05-24 12:02:19] INFO root fetch - processPackages [bstblue]: Start processing: pytest-inmanta-extensions
+[2024-05-24 12:02:19] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-24 12:02:19] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-05-24 12:02:19] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.52-py3-none-any.whl.zip tmp/muko-2.53-py3-none-any.whl.zip --markdown 20240524/m/muko/2.52-2.53/README.md --exclude *.pyd
+[2024-05-24 12:02:20] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.8.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.9.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [cadproxdk]: Start processing: sample-calc
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 12:02:20] INFO root fetch - processPackages [pytest-inmanta-extensions]: New version: [9.3.0] Old Version: [8.7.4]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [inmanta-core]: executing diffoscope
+[2024-05-24 12:02:20] INFO root fetch - processPackages [inmanta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-core-8.7.4.tar.gz tmp/inmanta-core-9.3.0.tar.gz --markdown 20240524/i/inmanta-core/8.7.4-9.3.0/README.md --exclude *.pyd
+[2024-05-24 12:02:20] WARNING root fetch - processPackages [sample-calc]: Skipping, unable to determine old version
+[2024-05-24 12:02:20] INFO root fetch - processPackages [sample-calc]: Start processing: narwhals
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [sample-calc] error
+[2024-05-24 12:02:20] INFO root fetch - processPackages [narwhals]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2024.2.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2024.2.1.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [inmanta]: success
+[2024-05-24 12:02:20] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.601.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.602.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-24 12:02:20] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/99/36/0f3088813b6d212058ea6dd92fc930c913ec6d5c01f08a24de71755552f5/narwhals-0.8.8.tar.gz
+[2024-05-24 12:02:20] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/b6/47/614316d5a472c4eead5c3c13906a11063612e991c4a8db3a5f1290a5ac11/pytest-inmanta-extensions-8.7.4.tar.gz
+[2024-05-24 12:02:20] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-3.5.0.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-3.6.0.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2024-05-24 12:02:20] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.21.dev1.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.4.21.post1.tar.gz]
+[2024-05-24 12:02:20] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-24 12:02:20] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/46/f0/986c81bda5e2f1c1e4caf23f199c81fe58077e01a7d513474c90bc191876/narwhals-0.8.9.tar.gz
+[2024-05-24 12:02:20] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/56/40/a3ee22329e9b3a80882de2bb80dc956fd54e096619e80b69f04108077997/pytest-inmanta-extensions-9.3.0.tar.gz
+[2024-05-24 12:02:20] INFO root fetch - processPackages [narwhals]: executing diffoscope
+[2024-05-24 12:02:20] INFO root fetch - processPackages [narwhals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narwhals-0.8.8.tar.gz tmp/narwhals-0.8.9.tar.gz --markdown 20240524/n/narwhals/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 12:02:20] INFO root fetch - processPackages [pytest-inmanta-extensions]: executing diffoscope
+[2024-05-24 12:02:20] INFO root fetch - processPackages [pytest-inmanta-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-extensions-8.7.4.tar.gz tmp/pytest-inmanta-extensions-9.3.0.tar.gz --markdown 20240524/p/pytest-inmanta-extensions/8.7.4-9.3.0/README.md --exclude *.pyd
+[2024-05-24 12:02:21] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a5.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a6.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-24 12:02:21] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-8.7.4.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-9.3.0.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-extensions]: success
+[2024-05-24 12:02:21] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.8.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.9.tar.gz]
+[2024-05-24 12:02:21] INFO root fetch - main [MainThread]: End processing [narwhals]: success
+[2024-05-24 12:02:22] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz]
+[2024-05-24 12:02:22] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052309.tar.gz]
+[2024-05-24 12:02:22] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-24 12:02:23] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-8.7.4.tar.gz]
+[2024-05-24 12:02:23] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-9.3.0.tar.gz]
+[2024-05-24 12:02:23] INFO root fetch - main [MainThread]: End processing [inmanta-core]: success
+[2024-05-24 12:02:25] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.52-py3-none-any.whl.zip]
+[2024-05-24 12:02:25] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.53-py3-none-any.whl.zip]
+[2024-05-24 12:02:25] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-05-24 12:02:25] INFO root fetch - main [MainThread]: Store serial: [23360039]
