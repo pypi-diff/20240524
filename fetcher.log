@@ -12032,3 +12032,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:57:26] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-05-24 07:57:26] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-05-24 07:57:26] INFO root fetch - main [MainThread]: Store serial: [23357086]
+[2024-05-24 07:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357086]
+[2024-05-24 07:59:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 07:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-openweather
+[2024-05-24 07:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-flow-component
+[2024-05-24 07:59:36] INFO root fetch - processPackages [airbyte-source-openweather]: New version: [0.2.4] Old Version: [0.2.3.dev202405030718]
+[2024-05-24 07:59:36] INFO root fetch - processPackages [streamlit-flow-component]: New version: [1.0.0] Old Version: [0.6.1]
+[2024-05-24 07:59:36] INFO root fetch - processPackages [airbyte-source-openweather]: Downloading https://files.pythonhosted.org/packages/4a/5a/d2b3031ba2f8d7daa9add8243254e6c9fe56e77c9fc66829215ee9177c40/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz
+[2024-05-24 07:59:36] INFO root fetch - processPackages [streamlit-flow-component]: Downloading https://files.pythonhosted.org/packages/80/ac/e699ebb58f09f26e998fb33c0dd89d59924f8a48e5ee8b9bd981596f2dc0/streamlit-flow-component-0.6.1.tar.gz
+[2024-05-24 07:59:36] INFO root fetch - processPackages [airbyte-source-openweather]: Downloading https://files.pythonhosted.org/packages/06/5e/8c354aab14261f3e994f7506d5df64fd14c28c1dd93f286840a9c788f483/airbyte_source_openweather-0.2.4.tar.gz
+[2024-05-24 07:59:36] INFO root fetch - processPackages [airbyte-source-openweather]: executing diffoscope
+[2024-05-24 07:59:36] INFO root fetch - processPackages [airbyte-source-openweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz tmp/airbyte_source_openweather-0.2.4.tar.gz --markdown 20240524/a/airbyte-source-openweather/0.2.3.dev202405030718-0.2.4/README.md --exclude *.pyd
+[2024-05-24 07:59:37] INFO root fetch - processPackages [streamlit-flow-component]: Downloading https://files.pythonhosted.org/packages/a8/cc/fa3346addd2073f9273f57f201b7bd07f7c954b9af98e576130b32366423/streamlit-flow-component-1.0.0.tar.gz
+[2024-05-24 07:59:37] INFO root fetch - processPackages [airbyte-source-openweather]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_openweather-0.2.3.dev202405030718.tar.gz]
+[2024-05-24 07:59:37] INFO root fetch - processPackages [airbyte-source-openweather]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_openweather-0.2.4.tar.gz]
+[2024-05-24 07:59:37] INFO root fetch - main [MainThread]: End processing [airbyte-source-openweather]: success
+[2024-05-24 07:59:37] INFO root fetch - processPackages [streamlit-flow-component]: executing diffoscope
+[2024-05-24 07:59:37] INFO root fetch - processPackages [streamlit-flow-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-flow-component-0.6.1.tar.gz tmp/streamlit-flow-component-1.0.0.tar.gz --markdown 20240524/s/streamlit-flow-component/0.6.1-1.0.0/README.md --exclude *.pyd
+[2024-05-24 08:02:37] ERROR root fetch - processPackages [streamlit-flow-component]: Timeout during execution of pkgdiff
+[2024-05-24 08:02:37] INFO root fetch - main [MainThread]: End processing [streamlit-flow-component] error
+[2024-05-24 08:02:37] INFO root fetch - main [MainThread]: Store serial: [23357096]
