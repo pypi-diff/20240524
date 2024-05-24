@@ -21648,3 +21648,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:37:03] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716485755.tar.gz]
 [2024-05-24 13:37:03] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-05-24 13:37:03] INFO root fetch - main [MainThread]: Store serial: [23361148]
+[2024-05-24 13:39:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361148]
+[2024-05-24 13:39:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supervisely
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preprocessinglib-tonga-gumustakim
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transitle
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-05-24 13:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post543] Old Version: [4.0.0.post542]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [transitle]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/c4/7a/f89421a8a15d914017f92d20140d6f553840bc446f57c02a9074f2265b8f/nucliadb-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:39:13] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: New version: [0.5] Old Version: [0.4]
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/9e/08/497bbe17e7f91ce7fcb0aafc16978de0a78d8989cbe13a41949c99e19226/nucliadb_dataset-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:39:13] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/4f/24/e1ce65d4c58462b8caaa97ba3ae0a5595075361a108bb2ed782a3d8d0959/nucliadb_models-4.0.0.post542-py3-none-any.whl
+[2024-05-24 13:39:13] INFO root fetch - processPackages [transitle]: Downloading https://files.pythonhosted.org/packages/5e/59/4479c9d8a15aa4ce4356aed6ef88cbe997e24e02b4ebed0deef9347ad808/transitle-1.0.1.tar.gz
+[2024-05-24 13:39:13] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/ee/88/20121eefb157fa69b219918b4c4337f5924e4dc50f8263277a7f86e947fe/preprocessinglib_tonga_gumustakim-0.4.tar.gz
+[2024-05-24 13:39:13] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/4f/5b/189898408132909b5a305439caed3b1c283d53e0410076bdb846a8e9e29a/nucliadb_dataset-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:39:13] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/e1/ff/13baff89a3488afd4ccdb111cc43dde547a74a829f49d8d85cee8b7fe56a/nucliadb_models-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:39:14] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240524/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/a5/04/68a8c607d05ce9854092a9c61ec8e7f2ceb17f5232fa3195892fc1d85c94/nucliadb-4.0.0.post543-py3-none-any.whl
+[2024-05-24 13:39:14] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Downloading https://files.pythonhosted.org/packages/06/5e/fc99f92b1e4361edb8745285635395c35fd44a37d12317f474c06657f00a/preprocessinglib_tonga_gumustakim-0.5.tar.gz
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-dataset/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb-models/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [transitle]: Downloading https://files.pythonhosted.org/packages/2d/d4/0f34624fec6d293a9b1a72f8fe1b7d5372ef7645180265c75067b47b4177/transitle-1.1.0.tar.gz
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post542-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post543-py3-none-any.whl.zip --markdown 20240524/n/nucliadb/4.0.0.post542-4.0.0.post543/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preprocessinglib_tonga_gumustakim-0.4.tar.gz tmp/preprocessinglib_tonga_gumustakim-0.5.tar.gz --markdown 20240524/p/preprocessinglib-tonga-gumustakim/0.4-0.5/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [transitle]: executing diffoscope
+[2024-05-24 13:39:14] INFO root fetch - processPackages [transitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transitle-1.0.1.tar.gz tmp/transitle-1.1.0.tar.gz --markdown 20240524/t/transitle/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:39:14] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:39:14] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-24 13:39:14] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.4.tar.gz]
+[2024-05-24 13:39:14] INFO root fetch - processPackages [preprocessinglib-tonga-gumustakim]: Remove: archive file [/home/abi/fetcher/tmp/preprocessinglib_tonga_gumustakim-0.5.tar.gz]
+[2024-05-24 13:39:14] INFO root fetch - main [MainThread]: End processing [preprocessinglib-tonga-gumustakim]: success
+[2024-05-24 13:39:15] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:39:15] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:39:15] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-24 13:39:15] INFO root fetch - processPackages [transitle]: Remove: archive file [/home/abi/fetcher/tmp/transitle-1.0.1.tar.gz]
+[2024-05-24 13:39:15] INFO root fetch - processPackages [transitle]: Remove: archive file [/home/abi/fetcher/tmp/transitle-1.1.0.tar.gz]
+[2024-05-24 13:39:15] INFO root fetch - main [MainThread]: End processing [transitle]: success
+[2024-05-24 13:39:15] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-24 13:39:15] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-24 13:39:15] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-24 13:39:16] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post542-py3-none-any.whl.zip]
+[2024-05-24 13:39:16] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post543-py3-none-any.whl.zip]
+[2024-05-24 13:39:16] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-24 13:39:16] INFO root fetch - main [MainThread]: Store serial: [23361164]
