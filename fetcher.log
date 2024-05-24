@@ -19827,3 +19827,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:30:29] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-05-24 12:30:29] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-05-24 12:30:29] INFO root fetch - main [MainThread]: Store serial: [23360401]
+[2024-05-24 12:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360401]
+[2024-05-24 12:32:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectralnet
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-database-cleanup
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authwa
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cadprox
+[2024-05-24 12:32:38] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-24 12:32:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 12:32:38] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-24 12:32:38] INFO root fetch - processPackages [spectralnet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 12:32:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/fe/63/d1bb2af2b3adec404b4be95bcaaa8777907679a26582b251396b0bd56763/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-24 12:32:38] INFO root fetch - processPackages [cadprox]: New version: [2.2] Old Version: [2.1]
+[2024-05-24 12:32:38] INFO root fetch - processPackages [spectralnet]: Downloading https://files.pythonhosted.org/packages/be/b3/04660bab70e61f9a86145bbba3fb814dd02f6566b154e572afd1f0e71cdf/spectralnet-0.1.1.tar.gz
+[2024-05-24 12:32:38] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-24 12:32:38] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-24 12:32:38] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/e5/35/05a2a02bc6eb6e521b86089aa47070692bc2ac10a1533900aec0acd345e5/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-24 12:32:39] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/c5/1b/3f79de302c6d1bbbfb00ee0545a7f354c2e75b1e184c45089b39917aed73/cadprox-2.1.tar.gz
+[2024-05-24 12:32:39] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-24 12:32:39] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240524/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-24 12:32:39] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-24 12:32:39] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240524/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 12:32:39] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-24 12:32:39] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-database-cleanup/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-24 12:32:39] INFO root fetch - processPackages [spectralnet]: Downloading https://files.pythonhosted.org/packages/41/ec/88477758055b802e7989ccb71d9622e73ed4021bb1518b92b8584d5eeb08/spectralnet-0.1.2.tar.gz
+[2024-05-24 12:32:39] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/66/28/12f33ac46248dccdfb40c06a78313fcde2087be0298e6c22ad5b8641a3c1/cadprox-2.2-py3-none-any.whl
+[2024-05-24 12:32:39] INFO root fetch - processPackages [spectralnet]: executing diffoscope
+[2024-05-24 12:32:39] INFO root fetch - processPackages [spectralnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralnet-0.1.1.tar.gz tmp/spectralnet-0.1.2.tar.gz --markdown 20240524/s/spectralnet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 12:32:39] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 12:32:39] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-2.1.tar.gz tmp/cadprox-2.2-py3-none-any.whl.zip --markdown 20240524/c/cadprox/2.1-2.2/README.md --exclude *.pyd
+[2024-05-24 12:32:39] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-24 12:32:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-24 12:32:39] INFO root fetch - processPackages [spectralnet]: Remove: archive file [/home/abi/fetcher/tmp/spectralnet-0.1.1.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - processPackages [spectralnet]: Remove: archive file [/home/abi/fetcher/tmp/spectralnet-0.1.2.tar.gz]
+[2024-05-24 12:32:39] INFO root fetch - main [MainThread]: End processing [spectralnet]: success
+[2024-05-24 12:32:40] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.1.tar.gz]
+[2024-05-24 12:32:40] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.2-py3-none-any.whl.zip]
+[2024-05-24 12:32:40] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 12:32:40] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 12:32:40] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 12:32:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-24 12:32:40] INFO root fetch - main [MainThread]: Store serial: [23360417]
