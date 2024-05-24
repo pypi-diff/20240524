@@ -16848,3 +16848,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:58:13] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2024.5.3.tar.gz]
 [2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
 [2024-05-24 10:58:13] INFO root fetch - main [MainThread]: Store serial: [23359186]
+[2024-05-24 11:00:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359186]
+[2024-05-24 11:00:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-intercom
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simo
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartpredict
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadproxdk
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cela
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: felt-python
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-it-central-journal-reportlab
+[2024-05-24 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySide6-Essentials
+[2024-05-24 11:00:23] INFO root fetch - processPackages [smartpredict]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [PySide6-Essentials]: New version: [6.7.0] Old Version: [6.6.3.1]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/de/cc/8e534ca9e1fdfc1e7a5fd4e52184f22f7968427de8a8d22f6b36a69eec20/smartpredict-0.7.1.tar.gz
+[2024-05-24 11:00:23] WARNING root fetch - processPackages [cela]: Skipping, unable to determine old version
+[2024-05-24 11:00:23] INFO root fetch - main [MainThread]: End processing [cela] error
+[2024-05-24 11:00:23] INFO root fetch - processPackages [felt-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [cadproxdk]: New version: [3.4] Old Version: [3.3]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.3]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [airbyte-source-intercom]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-24 11:00:23] INFO root fetch - processPackages [PySide6-Essentials]: Downloading https://files.pythonhosted.org/packages/03/c2/d4e78dd7661889b97e52fbfed908ce65abf1422dc03cc7e90752b52ff1f5/PySide6_Essentials-6.6.3.1-cp38-abi3-win_amd64.whl
+[2024-05-24 11:00:23] INFO root fetch - processPackages [airbyte-source-intercom]: Downloading https://files.pythonhosted.org/packages/dd/89/8060863c09c82955654e38b4624cd6857832138a9876e57f917b7b8e62e1/airbyte_source_intercom-0.6.5.tar.gz
+[2024-05-24 11:00:23] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/6e/2a/d6a456bb4de82e0549e4beeea7914efe50e83c935313c3ea880dfbdb4e4d/cadproxdk-3.3.tar.gz
+[2024-05-24 11:00:23] WARNING root fetch - processPackages [PySide6-Essentials]: Skipping package: exceeds size limit 77264921>=10485760
+[2024-05-24 11:00:23] INFO root fetch - main [MainThread]: End processing [PySide6-Essentials] error
+[2024-05-24 11:00:23] INFO root fetch - processPackages [felt-python]: Downloading https://files.pythonhosted.org/packages/f9/08/119527a60bdf53068bcd75bb8a89c31d2ad448a512a4e2143819346351fe/felt_python-0.0.2.tar.gz
+[2024-05-24 11:00:23] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/58/b0/9681aa85a00b5a4fde72f71661f30644387ef123094872ce5e1b718c1577/smartpredict-0.7.2.tar.gz
+[2024-05-24 11:00:23] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-24 11:00:23] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: Downloading https://files.pythonhosted.org/packages/a6/23/540dc61255cfab20fcd5956cc3df9a265c89d6c6461e1f6e21a2f0d7fd72/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.3.3-py3-none-any.whl
+[2024-05-24 11:00:23] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-24 11:00:23] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-24 11:00:23] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-24 11:00:23] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.7.1.tar.gz tmp/smartpredict-0.7.2.tar.gz --markdown 20240524/s/smartpredict/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-24 11:00:23] INFO root fetch - processPackages [airbyte-source-intercom]: Downloading https://files.pythonhosted.org/packages/da/12/ba1e3c19846b4dc1de5ea56550a21ac734e139ecccbe28b51a275c4d3b48/airbyte_source_intercom-0.6.6.tar.gz
+[2024-05-24 11:00:23] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/4d/cf/82f2c3e24afb47036b9c4d8b54d9ca9eb5c5f10969dd0451dc5469dd1020/cadproxdk-3.4.tar.gz
+[2024-05-24 11:00:24] INFO root fetch - processPackages [felt-python]: Downloading https://files.pythonhosted.org/packages/63/81/1e07dadfd31ce6f5d96049ef33800875703a7a6767371270d71f1b738611/felt_python-0.0.3.tar.gz
+[2024-05-24 11:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: Downloading https://files.pythonhosted.org/packages/6e/0c/c05d0a13561eeeda76993f294a81398fbd05fb082fc6e6327e24a853c253/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.4-py3-none-any.whl
+[2024-05-24 11:00:24] INFO root fetch - processPackages [airbyte-source-intercom]: executing diffoscope
+[2024-05-24 11:00:24] INFO root fetch - processPackages [airbyte-source-intercom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_intercom-0.6.5.tar.gz tmp/airbyte_source_intercom-0.6.6.tar.gz --markdown 20240524/a/airbyte-source-intercom/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-24 11:00:24] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 11:00:24] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.3.tar.gz tmp/cadproxdk-3.4.tar.gz --markdown 20240524/c/cadproxdk/3.3-3.4/README.md --exclude *.pyd
+[2024-05-24 11:00:24] INFO root fetch - processPackages [felt-python]: executing diffoscope
+[2024-05-24 11:00:24] INFO root fetch - processPackages [felt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felt_python-0.0.2.tar.gz tmp/felt_python-0.0.3.tar.gz --markdown 20240524/f/felt-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 11:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: executing diffoscope
+[2024-05-24 11:00:24] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.3.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-l10n-it-central-journal-reportlab/16.0.1.0.3.3-16.0.1.0.4/README.md --exclude *.pyd
+[2024-05-24 11:00:24] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.1.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.7.2.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-24 11:00:24] INFO root fetch - processPackages [felt-python]: Remove: archive file [/home/abi/fetcher/tmp/felt_python-0.0.2.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - processPackages [felt-python]: Remove: archive file [/home/abi/fetcher/tmp/felt_python-0.0.3.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - main [MainThread]: End processing [felt-python]: success
+[2024-05-24 11:00:24] INFO root fetch - processPackages [airbyte-source-intercom]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_intercom-0.6.5.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - processPackages [airbyte-source-intercom]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_intercom-0.6.6.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - main [MainThread]: End processing [airbyte-source-intercom]: success
+[2024-05-24 11:00:24] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.3.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.4.tar.gz]
+[2024-05-24 11:00:24] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 11:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.3.3-py3-none-any.whl.zip]
+[2024-05-24 11:00:25] INFO root fetch - processPackages [odoo-addon-l10n-it-central-journal-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_central_journal_reportlab-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-24 11:00:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-central-journal-reportlab]: success
+[2024-05-24 11:00:25] INFO root fetch - main [MainThread]: Store serial: [23359212]
