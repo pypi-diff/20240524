@@ -23391,3 +23391,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 14:35:47] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
 [2024-05-24 14:35:47] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
 [2024-05-24 14:35:47] INFO root fetch - main [MainThread]: Store serial: [23361871]
+[2024-05-24 14:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361871]
+[2024-05-24 14:37:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tvb-widgets
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu118
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: can-j1939-ttpsc
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image-helpers-system
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyremotechrome
+[2024-05-24 14:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gowork
+[2024-05-24 14:37:56] WARNING root fetch - processPackages [image-helpers-system]: Skipping, unable to determine old version
+[2024-05-24 14:37:56] INFO root fetch - main [MainThread]: End processing [image-helpers-system] error
+[2024-05-24 14:37:56] INFO root fetch - processPackages [tvb-widgets]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-24 14:37:56] INFO root fetch - processPackages [pyremotechrome]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 14:37:56] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/32/54/fbd27be2561c75c8b34f40e0f41d6b6171d7a5f735b1719e089781ac8ce3/pyremotechrome-0.0.8.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/0f/cc/6cabbbe63009298e742a7ff763c1d4be6da1446496479f78d9a0d814023f/tvb-widgets-2.0.1.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [gowork]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-24 14:37:56] INFO root fetch - processPackages [can-j1939-ttpsc]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 14:37:56] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240524] Old Version: [0.2.5.dev20240522]
+[2024-05-24 14:37:56] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/bf/aa/81d99f69d02301a906effb1d1c91adbc401f56f0299fbcb472fce597bac4/tvb-widgets-2.0.2.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [can-j1939-ttpsc]: Downloading https://files.pythonhosted.org/packages/ca/31/71a58e466c3673af5421bc5ca9ea3e9bef1b70fe0cdda9285cbb56e0acd5/can-j1939-ttpsc-1.0.3.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [gowork]: Downloading https://files.pythonhosted.org/packages/db/ca/528eb34d5c9b3f54e710a1582c3b61f6992fbe867d501508294a538ab616/gowork-1.0.0.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/d8/32/c7eb241f64f94193af8aba235dd342c5129f68115da2daf241f85e381379/nvfuser_cu118-0.2.5.dev20240522.tar.gz
+[2024-05-24 14:37:56] INFO root fetch - processPackages [tvb-widgets]: executing diffoscope
+[2024-05-24 14:37:56] INFO root fetch - processPackages [tvb-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-widgets-2.0.1.tar.gz tmp/tvb-widgets-2.0.2.tar.gz --markdown 20240524/t/tvb-widgets/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-24 14:37:57] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/0f/f9/cf2be78eae15a38c42ffff283b16f771ecd9bc99f3b07acedbc09c959be9/pyremotechrome-0.0.9.tar.gz
+[2024-05-24 14:37:57] INFO root fetch - processPackages [pyremotechrome]: executing diffoscope
+[2024-05-24 14:37:57] INFO root fetch - processPackages [pyremotechrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyremotechrome-0.0.8.tar.gz tmp/pyremotechrome-0.0.9.tar.gz --markdown 20240524/p/pyremotechrome/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 14:37:57] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/98/b5/6b6dc13134002f30cb9a373d60b20e30801e1aa3ba15d3e9b048e737fdbb/nvfuser_cu118-0.2.5.dev20240524.tar.gz
+[2024-05-24 14:37:57] INFO root fetch - processPackages [gowork]: Downloading https://files.pythonhosted.org/packages/fe/a3/7f0d556f13023bca2034dd1b832b69d38b429445309830914a3a4a82d837/gowork-1.0.1.tar.gz
+[2024-05-24 14:37:57] INFO root fetch - processPackages [can-j1939-ttpsc]: Downloading https://files.pythonhosted.org/packages/d3/94/7e58869bf455eea425121139ae1488997ed11da26b849a41fa759b0d81da/can-j1939-ttpsc-1.0.4.tar.gz
+[2024-05-24 14:37:57] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-24 14:37:57] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240522.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240524.tar.gz --markdown 20240524/n/nvfuser-cu118/0.2.5.dev20240522-0.2.5.dev20240524/README.md --exclude *.pyd
+[2024-05-24 14:37:57] INFO root fetch - processPackages [can-j1939-ttpsc]: executing diffoscope
+[2024-05-24 14:37:57] INFO root fetch - processPackages [can-j1939-ttpsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/can-j1939-ttpsc-1.0.3.tar.gz tmp/can-j1939-ttpsc-1.0.4.tar.gz --markdown 20240524/c/can-j1939-ttpsc/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 14:37:57] INFO root fetch - processPackages [gowork]: executing diffoscope
+[2024-05-24 14:37:57] INFO root fetch - processPackages [gowork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gowork-1.0.0.tar.gz tmp/gowork-1.0.1.tar.gz --markdown 20240524/g/gowork/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-24 14:37:57] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-2.0.1.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-2.0.2.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - main [MainThread]: End processing [tvb-widgets]: success
+[2024-05-24 14:37:57] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240522.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240524.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-24 14:37:57] INFO root fetch - processPackages [gowork]: Remove: archive file [/home/abi/fetcher/tmp/gowork-1.0.0.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - processPackages [gowork]: Remove: archive file [/home/abi/fetcher/tmp/gowork-1.0.1.tar.gz]
+[2024-05-24 14:37:57] INFO root fetch - main [MainThread]: End processing [gowork]: success
+[2024-05-24 14:37:58] INFO root fetch - processPackages [can-j1939-ttpsc]: Remove: archive file [/home/abi/fetcher/tmp/can-j1939-ttpsc-1.0.3.tar.gz]
+[2024-05-24 14:37:58] INFO root fetch - processPackages [can-j1939-ttpsc]: Remove: archive file [/home/abi/fetcher/tmp/can-j1939-ttpsc-1.0.4.tar.gz]
+[2024-05-24 14:37:58] INFO root fetch - main [MainThread]: End processing [can-j1939-ttpsc]: success
+[2024-05-24 14:37:58] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.8.tar.gz]
+[2024-05-24 14:37:58] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.0.9.tar.gz]
+[2024-05-24 14:37:58] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
+[2024-05-24 14:37:58] INFO root fetch - main [MainThread]: Store serial: [23361890]
