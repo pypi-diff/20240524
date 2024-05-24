@@ -21839,3 +21839,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:41:28] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-3.4.tar.gz]
 [2024-05-24 13:41:28] INFO root fetch - main [MainThread]: End processing [cadprox]: success
 [2024-05-24 13:41:28] INFO root fetch - main [MainThread]: Store serial: [23361258]
+[2024-05-24 13:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361258]
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unprint
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otpme
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unique-pdf-reader
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taurex-madhuseager2009
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ex4nicegui
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickbbee
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidal-dl-ng
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edb-enterprise-beta
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metabolights-utils
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goit-phone-book-bot
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [edb-enterprise-beta]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - processPackages [edb-enterprise-beta]: Start processing: syncedlyrics
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [edb-enterprise-beta] error
+[2024-05-24 13:43:38] INFO root fetch - processPackages [taurex-madhuseager2009]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [goit-phone-book-bot]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - processPackages [goit-phone-book-bot]: Start processing: imio.smartweb.common
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [goit-phone-book-bot] error
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [unprint]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - processPackages [unprint]: Start processing: DataCleaningWithPandas
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [unprint] error
+[2024-05-24 13:43:38] INFO root fetch - processPackages [syncedlyrics]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [DataCleaningWithPandas]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - processPackages [DataCleaningWithPandas]: Start processing: DATAWAREHOUSE-CONNECTOR
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [DataCleaningWithPandas] error
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [unique-pdf-reader]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [unique-pdf-reader] error
+[2024-05-24 13:43:38] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [otpme]: New version: [0.3.0a75] Old Version: [0.3.0a74]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [quickbbee]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [syncedlyrics]: Downloading https://files.pythonhosted.org/packages/e7/35/418243d399a5af43bf6e44e456c06aeca9e99b7f50b87c760b6bc105bdeb/syncedlyrics-0.8.0.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ex4nicegui]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-24 13:43:38] INFO root fetch - processPackages [taurex-madhuseager2009]: Downloading https://files.pythonhosted.org/packages/aa/77/c8461f2612498559f0716ca0a436b498e2b637ff673d919d83b827bc42cc/taurex_madhuseager2009-0.0.0.tar.gz
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [DATAWAREHOUSE-CONNECTOR]: Skipping, unable to determine old version
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [DATAWAREHOUSE-CONNECTOR] error
+[2024-05-24 13:43:38] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [quickbbee]: Downloading https://files.pythonhosted.org/packages/29/e5/f00f7fdbd028b0869d64f399687d192606608cc5b50332322baaef748f58/quickbbee-0.1.1.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [syncedlyrics]: Downloading https://files.pythonhosted.org/packages/ad/79/502e7f3e08b4981f1c88e0164217e9ca9e507e7bdfee9f5285615437586a/syncedlyrics-0.9.0.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/bd/8e/b47b096b774dd9884b891bede5c49ce79167a93bab19fe93e5d40ff73d61/metabolights_utils-0.9.8.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/22/35/cf3aa27af3105d619e449cb9ecd642e66f51e4ab65ef21553c3c3d5a6178/ex4nicegui-0.6.6.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/dc/49/0450c24ba685fc5b7eec6ebf466c50ed11845eee810484cd756e8468cb37/otpme-0.3.0a74.tar.gz
+[2024-05-24 13:43:38] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-24 13:43:38] WARNING root fetch - processPackages [quickbbee]: Skipping package: exceeds size limit 15102718>=10485760
+[2024-05-24 13:43:38] INFO root fetch - main [MainThread]: End processing [quickbbee] error
+[2024-05-24 13:43:38] INFO root fetch - processPackages [syncedlyrics]: executing diffoscope
+[2024-05-24 13:43:38] INFO root fetch - processPackages [syncedlyrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncedlyrics-0.8.0.tar.gz tmp/syncedlyrics-0.9.0.tar.gz --markdown 20240524/s/syncedlyrics/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-24 13:43:38] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-05-24 13:43:38] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240524/t/tidal-dl-ng/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [taurex-madhuseager2009]: Downloading https://files.pythonhosted.org/packages/7e/4b/31764023db67c9a068f0d5f28aa9df6cefb83dddc50914c66cb00653c1ef/taurex_madhuseager2009-0.0.1.tar.gz
+[2024-05-24 13:43:39] INFO root fetch - processPackages [taurex-madhuseager2009]: executing diffoscope
+[2024-05-24 13:43:39] INFO root fetch - processPackages [taurex-madhuseager2009]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taurex_madhuseager2009-0.0.0.tar.gz tmp/taurex_madhuseager2009-0.0.1.tar.gz --markdown 20240524/t/taurex-madhuseager2009/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/87/47/6c0324333142cb1da7e62fca84a9198992ffb8901c7f9642e1f58cd5ed2f/metabolights_utils-0.9.9.tar.gz
+[2024-05-24 13:43:39] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-24 13:43:39] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/78/e4/fc0cab0880f8e6593488c4d0c94cc9a82b7246d02a325fe9a2a13e6a313e/ex4nicegui-0.6.7.tar.gz
+[2024-05-24 13:43:39] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/e0/e2/c8f14299c7d5be2106d46993cd6e785f4fff5e2b7118a1590023689797c0/otpme-0.3.0a75.tar.gz
+[2024-05-24 13:43:39] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-24 13:43:39] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240524/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2024-05-24 13:43:39] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.8.tar.gz tmp/metabolights_utils-0.9.9.tar.gz --markdown 20240524/m/metabolights-utils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2024-05-24 13:43:39] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.6.6.tar.gz tmp/ex4nicegui-0.6.7.tar.gz --markdown 20240524/e/ex4nicegui/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2024-05-24 13:43:39] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a74.tar.gz tmp/otpme-0.3.0a75.tar.gz --markdown 20240524/o/otpme/0.3.0a74-0.3.0a75/README.md --exclude *.pyd
+[2024-05-24 13:43:39] INFO root fetch - processPackages [syncedlyrics]: Remove: archive file [/home/abi/fetcher/tmp/syncedlyrics-0.8.0.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - processPackages [syncedlyrics]: Remove: archive file [/home/abi/fetcher/tmp/syncedlyrics-0.9.0.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - main [MainThread]: End processing [syncedlyrics]: success
+[2024-05-24 13:43:39] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-05-24 13:43:39] INFO root fetch - processPackages [taurex-madhuseager2009]: Remove: archive file [/home/abi/fetcher/tmp/taurex_madhuseager2009-0.0.0.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - processPackages [taurex-madhuseager2009]: Remove: archive file [/home/abi/fetcher/tmp/taurex_madhuseager2009-0.0.1.tar.gz]
+[2024-05-24 13:43:39] INFO root fetch - main [MainThread]: End processing [taurex-madhuseager2009]: success
+[2024-05-24 13:43:40] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.8.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.9.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2024-05-24 13:43:40] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-24 13:43:40] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.6.6.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.6.7.tar.gz]
+[2024-05-24 13:43:40] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2024-05-24 13:43:41] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a74.tar.gz]
+[2024-05-24 13:43:41] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a75.tar.gz]
+[2024-05-24 13:43:41] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2024-05-24 13:43:41] INFO root fetch - main [MainThread]: Store serial: [23361308]
