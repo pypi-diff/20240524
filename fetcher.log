@@ -8244,3 +8244,42 @@
 [2024-05-24 04:33:14] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.7.0.tar.gz]
 [2024-05-24 04:33:14] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
 [2024-05-24 04:33:14] INFO root fetch - main [MainThread]: Store serial: [23355599]
+[2024-05-24 04:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355599]
+[2024-05-24 04:35:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-24 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-analytic-by-config
+[2024-05-24 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picopy
+[2024-05-24 04:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: junon
+[2024-05-24 04:35:23] INFO root fetch - processPackages [picopy]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-24 04:35:23] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-24 04:35:23] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-24 04:35:23] INFO root fetch - processPackages [junon]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 04:35:23] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/f5/ad/4ce7e029b7b0d7d390f0cac2c14a7f989b2282eac5c0037723bf50b0a913/picopy-1.0.6.tar.gz
+[2024-05-24 04:35:23] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-24 04:35:23] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Downloading https://files.pythonhosted.org/packages/8c/5e/1ff1e5d0a9df86666b8935f4d6da2416984dcbdc96cef30381730668069e/odoo_addon_pos_analytic_by_config-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-24 04:35:23] INFO root fetch - processPackages [junon]: Downloading https://files.pythonhosted.org/packages/e2/78/1aaeb0683e6a9c0c152bbd43e75cc186b3d7e3d4f7e48948d52c97d5c16b/junon-0.1.0.tar.gz
+[2024-05-24 04:35:23] INFO root fetch - processPackages [picopy]: Downloading https://files.pythonhosted.org/packages/cd/23/a448d583d13393c5bea8f3f7e073374818fd35527b055f66f3e02f80a184/picopy-1.0.7.tar.gz
+[2024-05-24 04:35:23] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-24 04:35:23] INFO root fetch - processPackages [picopy]: executing diffoscope
+[2024-05-24 04:35:23] INFO root fetch - processPackages [picopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopy-1.0.6.tar.gz tmp/picopy-1.0.7.tar.gz --markdown 20240524/p/picopy/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-24 04:35:23] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Downloading https://files.pythonhosted.org/packages/c8/9d/f932af267fd91faabb40de74c92cfa10d3e4f67d99ea74243d2c2a200358/odoo_addon_pos_analytic_by_config-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-24 04:35:23] INFO root fetch - processPackages [junon]: Downloading https://files.pythonhosted.org/packages/d9/7d/8d3d01452bf49a5c9400c4f8adc690eb2c83cc30a534e0fd4345dfd22355/junon-0.1.1.tar.gz
+[2024-05-24 04:35:23] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-24 04:35:23] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240524/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-24 04:35:24] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: executing diffoscope
+[2024-05-24 04:35:24] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_analytic_by_config-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_pos_analytic_by_config-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-pos-analytic-by-config/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-24 04:35:24] INFO root fetch - processPackages [junon]: executing diffoscope
+[2024-05-24 04:35:24] INFO root fetch - processPackages [junon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junon-0.1.0.tar.gz tmp/junon-0.1.1.tar.gz --markdown 20240524/j/junon/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 04:35:24] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.6.tar.gz]
+[2024-05-24 04:35:24] INFO root fetch - processPackages [picopy]: Remove: archive file [/home/abi/fetcher/tmp/picopy-1.0.7.tar.gz]
+[2024-05-24 04:35:24] INFO root fetch - main [MainThread]: End processing [picopy]: success
+[2024-05-24 04:35:24] INFO root fetch - processPackages [junon]: Remove: archive file [/home/abi/fetcher/tmp/junon-0.1.0.tar.gz]
+[2024-05-24 04:35:24] INFO root fetch - processPackages [junon]: Remove: archive file [/home/abi/fetcher/tmp/junon-0.1.1.tar.gz]
+[2024-05-24 04:35:24] INFO root fetch - main [MainThread]: End processing [junon]: success
+[2024-05-24 04:35:24] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_analytic_by_config-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-24 04:35:24] INFO root fetch - processPackages [odoo-addon-pos-analytic-by-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_analytic_by_config-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-24 04:35:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-analytic-by-config]: success
+[2024-05-24 04:35:25] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-24 04:35:25] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-24 04:35:25] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-24 04:35:25] INFO root fetch - main [MainThread]: Store serial: [23355613]
