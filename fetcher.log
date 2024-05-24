@@ -13644,3 +13644,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:11:12] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev1.tar.gz]
 [2024-05-24 09:11:12] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
 [2024-05-24 09:11:12] INFO root fetch - main [MainThread]: Store serial: [23357779]
+[2024-05-24 09:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357779]
+[2024-05-24 09:13:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 09:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-24 09:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-24 09:13:20] INFO root fetch - processPackages [ansar-create]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-24 09:13:20] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/d4/82/a8ea748897941733bde05049f2aa2bde2fa9b74e7ade11a90df6b8431625/ansar_create-0.1.90.tar.gz
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/c7/0f/2d8bcbb911a059a35b87212f60d03ec6eafd8850caff9afc3df4fddaa78d/ansar_create-0.1.91.tar.gz
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240524/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.90.tar.gz tmp/ansar_create-0.1.91.tar.gz --markdown 20240524/a/ansar-create/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-24 09:13:21] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-24 09:13:21] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.90.tar.gz]
+[2024-05-24 09:13:21] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.91.tar.gz]
+[2024-05-24 09:13:21] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-24 09:13:21] INFO root fetch - main [MainThread]: Store serial: [23357784]
