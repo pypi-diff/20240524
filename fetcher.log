@@ -8783,3 +8783,17 @@
 [2024-05-24 05:05:54] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
 [2024-05-24 05:05:54] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
 [2024-05-24 05:05:54] INFO root fetch - main [MainThread]: Store serial: [23355794]
+[2024-05-24 05:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355794]
+[2024-05-24 05:08:03] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-24 05:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355794]
+[2024-05-24 05:10:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-24 05:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ampy-batch-tool
+[2024-05-24 05:10:08] INFO root fetch - processPackages [ampy-batch-tool]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-24 05:10:09] INFO root fetch - processPackages [ampy-batch-tool]: Downloading https://files.pythonhosted.org/packages/33/87/ae7b0bf26563d2641852e45665b10db6cf67269602addc433e0e00d89fc3/ampy-batch-tool-0.7.8.tar.gz
+[2024-05-24 05:10:09] INFO root fetch - processPackages [ampy-batch-tool]: Downloading https://files.pythonhosted.org/packages/3e/92/382b422eec0668d9cedcb568e457c8df91de5878fa8d24b6e445f8f409ef/ampy-batch-tool-0.7.9.tar.gz
+[2024-05-24 05:10:09] INFO root fetch - processPackages [ampy-batch-tool]: executing diffoscope
+[2024-05-24 05:10:09] INFO root fetch - processPackages [ampy-batch-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampy-batch-tool-0.7.8.tar.gz tmp/ampy-batch-tool-0.7.9.tar.gz --markdown 20240524/a/ampy-batch-tool/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-24 05:10:10] INFO root fetch - processPackages [ampy-batch-tool]: Remove: archive file [/home/abi/fetcher/tmp/ampy-batch-tool-0.7.8.tar.gz]
+[2024-05-24 05:10:10] INFO root fetch - processPackages [ampy-batch-tool]: Remove: archive file [/home/abi/fetcher/tmp/ampy-batch-tool-0.7.9.tar.gz]
+[2024-05-24 05:10:10] INFO root fetch - main [MainThread]: End processing [ampy-batch-tool]: success
+[2024-05-24 05:10:10] INFO root fetch - main [MainThread]: Store serial: [23355803]
