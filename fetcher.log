@@ -11961,3 +11961,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:52:51] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.2.tar.gz]
 [2024-05-24 07:52:51] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
 [2024-05-24 07:52:51] INFO root fetch - main [MainThread]: Store serial: [23356986]
+[2024-05-24 07:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356986]
+[2024-05-24 07:55:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DragonLog
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cadprox
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicli
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-maintenance-equipment-hierarchy
+[2024-05-24 07:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-equipment-contract
+[2024-05-24 07:55:00] INFO root fetch - processPackages [aicli]: New version: [99.0.202405230605] Old Version: [99.0.202405230602]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [cadprox]: New version: [2.0] Old Version: [1.9]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/ef/6d/2c120a2ff638971b039a13426c5576bc89f8fd81af97b94dcc9c36935803/aicli-99.0.202405230602-py3-none-any.whl
+[2024-05-24 07:55:00] INFO root fetch - processPackages [DragonLog]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/d4/56/4e0dad2e70e5ed5b959fe0412dd1fc95a16373da4d2b0eed0fb5f78a6479/cadprox-1.9.tar.gz
+[2024-05-24 07:55:00] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-24 07:55:00] INFO root fetch - processPackages [DragonLog]: Downloading https://files.pythonhosted.org/packages/cd/26/a2ec3fc677661cfcfedd51165d82ed034b71cb1352ce9505edb6644ba8b3/dragonlog-1.2.tar.gz
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Downloading https://files.pythonhosted.org/packages/ed/aa/10f93aa9102094d07a955987f12be32fc4f97cf002776eb22be116bb4601/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Downloading https://files.pythonhosted.org/packages/16/81/aeb6c67f353c9ec4a5288b4f61c5f8ace75210697f0202e99c33efc35b51/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 07:55:01] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-24 07:55:01] INFO root fetch - processPackages [cadprox]: Downloading https://files.pythonhosted.org/packages/60/db/9fb32ba291bb412d50eab51618a70a374add45f0e096f50b53cf6b03af52/cadprox-2.0.tar.gz
+[2024-05-24 07:55:01] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-24 07:55:01] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-24 07:55:01] INFO root fetch - processPackages [cadprox]: executing diffoscope
+[2024-05-24 07:55:01] INFO root fetch - processPackages [cadprox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadprox-1.9.tar.gz tmp/cadprox-2.0.tar.gz --markdown 20240524/c/cadprox/1.9-2.0/README.md --exclude *.pyd
+[2024-05-24 07:55:01] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/86/7d/ec33c6450e0fa0932cb70b76e566087e8685cec5098396f3df4d3a4ce33e/aicli-99.0.202405230605-py3-none-any.whl
+[2024-05-24 07:55:01] INFO root fetch - processPackages [DragonLog]: Downloading https://files.pythonhosted.org/packages/34/47/ca69fbd214aa18bc8667cf381c7eb4e8616700bca4d91be10981a07a4bc7/dragonlog-1.2.1.tar.gz
+[2024-05-24 07:55:01] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-24 07:55:01] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405230602-py3-none-any.whl.zip tmp/aicli-99.0.202405230605-py3-none-any.whl.zip --markdown 20240524/a/aicli/99.0.202405230602-99.0.202405230605/README.md --exclude *.pyd
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Downloading https://files.pythonhosted.org/packages/19/b0/6a1e76f573925135986cde94199c15e7427454abd95f6173a4613ba56586/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-24 07:55:01] INFO root fetch - processPackages [DragonLog]: executing diffoscope
+[2024-05-24 07:55:01] INFO root fetch - processPackages [DragonLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonlog-1.2.tar.gz tmp/dragonlog-1.2.1.tar.gz --markdown 20240524/D/DragonLog/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Downloading https://files.pythonhosted.org/packages/2f/67/88cf4793db09bdf8ce572d2d7564adf42ea6c7cafb51afb4d090dfd7a8ab/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: executing diffoscope
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-maintenance-equipment-hierarchy/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: executing diffoscope
+[2024-05-24 07:55:01] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-maintenance-equipment-contract/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-24 07:55:01] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-1.9.tar.gz]
+[2024-05-24 07:55:01] INFO root fetch - processPackages [cadprox]: Remove: archive file [/home/abi/fetcher/tmp/cadprox-2.0.tar.gz]
+[2024-05-24 07:55:01] INFO root fetch - main [MainThread]: End processing [cadprox]: success
+[2024-05-24 07:55:01] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405230602-py3-none-any.whl.zip]
+[2024-05-24 07:55:01] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405230605-py3-none-any.whl.zip]
+[2024-05-24 07:55:01] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-24 07:55:02] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-24 07:55:02] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 07:55:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-hierarchy]: success
+[2024-05-24 07:55:02] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-24 07:55:02] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_contract-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-24 07:55:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-contract]: success
+[2024-05-24 07:55:02] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/dragonlog-1.2.tar.gz]
+[2024-05-24 07:55:02] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/dragonlog-1.2.1.tar.gz]
+[2024-05-24 07:55:02] INFO root fetch - main [MainThread]: End processing [DragonLog]: success
+[2024-05-24 07:55:02] INFO root fetch - main [MainThread]: Store serial: [23357071]
