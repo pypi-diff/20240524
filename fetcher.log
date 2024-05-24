@@ -11691,3 +11691,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:37:30] INFO root fetch - processPackages [zopyx-fastapi-auth]: Remove: archive file [/home/abi/fetcher/tmp/zopyx_fastapi_auth-0.2.2.1.tar.gz]
 [2024-05-24 07:37:30] INFO root fetch - main [MainThread]: End processing [zopyx-fastapi-auth]: success
 [2024-05-24 07:37:30] INFO root fetch - main [MainThread]: Store serial: [23356821]
+[2024-05-24 07:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356821]
+[2024-05-24 07:39:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-24 07:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentUniverse
+[2024-05-24 07:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shift-forex-tester-data
+[2024-05-24 07:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linkedin-analytics-to-sqlite
+[2024-05-24 07:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-pokeapi
+[2024-05-24 07:39:39] INFO root fetch - processPackages [shift-forex-tester-data]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 07:39:39] WARNING root fetch - processPackages [linkedin-analytics-to-sqlite]: Skipping, unable to determine old version
+[2024-05-24 07:39:39] INFO root fetch - main [MainThread]: End processing [linkedin-analytics-to-sqlite] error
+[2024-05-24 07:39:39] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/25/c7/1667f48ef1acf49d1e9468539d7f5ab8b28344f56c83b005b04e5859b6f3/shift_forex_tester_data-0.1.1-py3-none-any.whl
+[2024-05-24 07:39:39] INFO root fetch - processPackages [agentUniverse]: New version: [0.0.6.dev1] Old Version: [0.0.6]
+[2024-05-24 07:39:39] INFO root fetch - processPackages [airbyte-source-pokeapi]: New version: [0.2.1.dev202405240538] Old Version: [0.2.1.dev202405221038]
+[2024-05-24 07:39:40] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/e0/32/2b27459e515ebb9fc82d0233caaedb25a8f836a0f53c01e33e16c762261e/agentuniverse-0.0.6.tar.gz
+[2024-05-24 07:39:40] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/ee/96/5177647459725d7d787ddd0689225436237b579e6090f1fb3fec490306bd/airbyte_source_pokeapi-0.2.1.dev202405221038.tar.gz
+[2024-05-24 07:39:40] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/fe/13/71640b856791c9b310da776614ded8afbb47504b902008b52b0018acf243/shift_forex_tester_data-0.1.2-py3-none-any.whl
+[2024-05-24 07:39:40] INFO root fetch - processPackages [shift-forex-tester-data]: executing diffoscope
+[2024-05-24 07:39:40] INFO root fetch - processPackages [shift-forex-tester-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip tmp/shift_forex_tester_data-0.1.2-py3-none-any.whl.zip --markdown 20240524/s/shift-forex-tester-data/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 07:39:40] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/4b/bd/c320209b3a10eca6f973b6e1f50bf829e719bb03833f126f08d36e9c8b47/agentuniverse-0.0.6.dev1.tar.gz
+[2024-05-24 07:39:40] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/08/b4/e213cd4c2c2cc731a7be735a9df4472c310dd984fc572edd1e46cb587b5f/airbyte_source_pokeapi-0.2.1.dev202405240538.tar.gz
+[2024-05-24 07:39:40] INFO root fetch - processPackages [agentUniverse]: executing diffoscope
+[2024-05-24 07:39:40] INFO root fetch - processPackages [agentUniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentuniverse-0.0.6.tar.gz tmp/agentuniverse-0.0.6.dev1.tar.gz --markdown 20240524/a/agentUniverse/0.0.6-0.0.6.dev1/README.md --exclude *.pyd
+[2024-05-24 07:39:40] INFO root fetch - processPackages [airbyte-source-pokeapi]: executing diffoscope
+[2024-05-24 07:39:40] INFO root fetch - processPackages [airbyte-source-pokeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_pokeapi-0.2.1.dev202405221038.tar.gz tmp/airbyte_source_pokeapi-0.2.1.dev202405240538.tar.gz --markdown 20240524/a/airbyte-source-pokeapi/0.2.1.dev202405221038-0.2.1.dev202405240538/README.md --exclude *.pyd
+[2024-05-24 07:39:40] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip]
+[2024-05-24 07:39:40] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.2-py3-none-any.whl.zip]
+[2024-05-24 07:39:40] INFO root fetch - main [MainThread]: End processing [shift-forex-tester-data]: success
+[2024-05-24 07:39:41] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.dev202405221038.tar.gz]
+[2024-05-24 07:39:41] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.dev202405240538.tar.gz]
+[2024-05-24 07:39:41] INFO root fetch - main [MainThread]: End processing [airbyte-source-pokeapi]: success
+[2024-05-24 07:39:41] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.6.tar.gz]
+[2024-05-24 07:39:41] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.6.dev1.tar.gz]
+[2024-05-24 07:39:41] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
+[2024-05-24 07:39:41] INFO root fetch - main [MainThread]: Store serial: [23356833]
