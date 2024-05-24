@@ -20067,3 +20067,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 12:39:28] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.48.1.tar.gz]
 [2024-05-24 12:39:28] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2024-05-24 12:39:28] INFO root fetch - main [MainThread]: Store serial: [23360488]
+[2024-05-24 12:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23360488]
+[2024-05-24 12:41:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms1searchpy
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eddie-cli
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pe-configurator
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-contract
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: navicat-marc
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapegraphai
+[2024-05-24 12:41:38] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-24 12:41:38] INFO root fetch - processPackages [pe-configurator]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-24 12:41:38] WARNING root fetch - processPackages [odoo-addon-product-contract]: Skipping, unable to determine old version
+[2024-05-24 12:41:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-contract] error
+[2024-05-24 12:41:38] WARNING root fetch - processPackages [eddie-cli]: Skipping, unable to determine old version
+[2024-05-24 12:41:38] INFO root fetch - main [MainThread]: End processing [eddie-cli] error
+[2024-05-24 12:41:38] INFO root fetch - processPackages [navicat-marc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ms1searchpy]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-05-24 12:41:38] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-24 12:41:38] INFO root fetch - processPackages [scrapegraphai]: New version: [1.5.0b1] Old Version: [1.4.0b2]
+[2024-05-24 12:41:38] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/67/a2/18176b0e4453f18888af95b15e3cb7d7cf3fff11b5b3d981777223f354ee/pe-configurator-1.0.3.tar.gz
+[2024-05-24 12:41:38] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/88/0c/78b6dd39f9b476442d9115975f0574675888a037fce8ae0ccffe50fe40c7/ms1searchpy-2.8.2-py3-none-any.whl
+[2024-05-24 12:41:38] INFO root fetch - processPackages [navicat-marc]: Downloading https://files.pythonhosted.org/packages/be/95/5e88246650751059a11eed0c92f92a575aa920e339c0b0da41fcb057e534/navicat_marc-0.1.8.tar.gz
+[2024-05-24 12:41:38] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-24 12:41:39] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/8a/95/aed20f8b4afff9f9f2c2252fde6fda9d2082e19e47a17ed5feae469fcb31/scrapegraphai-1.4.0b2.tar.gz
+[2024-05-24 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-24 12:41:39] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240524/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-24 12:41:39] INFO root fetch - processPackages [navicat-marc]: Downloading https://files.pythonhosted.org/packages/38/1a/daa709df4b3548bae07cb810f61ce402edcc1076bf00cd6c14ec2cd1b2cf/navicat_marc-0.1.9.tar.gz
+[2024-05-24 12:41:39] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/74/25/0e39bb225ba74704e452aca4c04f438e02bc4f115deed391c4e609922e29/pe_configurator-1.0.4.tar.gz
+[2024-05-24 12:41:39] INFO root fetch - processPackages [navicat-marc]: executing diffoscope
+[2024-05-24 12:41:39] INFO root fetch - processPackages [navicat-marc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navicat_marc-0.1.8.tar.gz tmp/navicat_marc-0.1.9.tar.gz --markdown 20240524/n/navicat-marc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 12:41:39] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/26/f9/b56d0a77b8b295640fdbc36e8e27eb0ae41e5235646b5490f7f1d0887023/scrapegraphai-1.5.0b1.tar.gz
+[2024-05-24 12:41:40] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2024-05-24 12:41:40] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-1.0.3.tar.gz tmp/pe_configurator-1.0.4.tar.gz --markdown 20240524/p/pe-configurator/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-24 12:41:40] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-24 12:41:40] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-24 12:41:40] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-24 12:41:40] INFO root fetch - processPackages [navicat-marc]: Remove: archive file [/home/abi/fetcher/tmp/navicat_marc-0.1.8.tar.gz]
+[2024-05-24 12:41:40] INFO root fetch - processPackages [navicat-marc]: Remove: archive file [/home/abi/fetcher/tmp/navicat_marc-0.1.9.tar.gz]
+[2024-05-24 12:41:40] INFO root fetch - main [MainThread]: End processing [navicat-marc]: success
+[2024-05-24 12:41:40] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/59/17/a9759b49615ef08364b5df05eaebea3f34c6677316cb31b753f5372b35c9/ms1searchpy-2.8.3-py3-none-any.whl
+[2024-05-24 12:41:40] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-24 12:41:40] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-1.4.0b2.tar.gz tmp/scrapegraphai-1.5.0b1.tar.gz --markdown 20240524/s/scrapegraphai/1.4.0b2-1.5.0b1/README.md --exclude *.pyd
+[2024-05-24 12:41:41] INFO root fetch - processPackages [pe-configurator]: Remove: archive file [/home/abi/fetcher/tmp/pe-configurator-1.0.3.tar.gz]
+[2024-05-24 12:41:41] INFO root fetch - processPackages [pe-configurator]: Remove: archive file [/home/abi/fetcher/tmp/pe_configurator-1.0.4.tar.gz]
+[2024-05-24 12:41:41] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2024-05-24 12:41:42] INFO root fetch - processPackages [ms1searchpy]: executing diffoscope
+[2024-05-24 12:41:42] INFO root fetch - processPackages [ms1searchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms1searchpy-2.8.2-py3-none-any.whl.zip tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip --markdown 20240524/m/ms1searchpy/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-05-24 12:41:42] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.4.0b2.tar.gz]
+[2024-05-24 12:41:42] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.5.0b1.tar.gz]
+[2024-05-24 12:41:42] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-24 12:41:42] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.2-py3-none-any.whl.zip]
+[2024-05-24 12:41:42] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip]
+[2024-05-24 12:41:42] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
+[2024-05-24 12:41:42] INFO root fetch - main [MainThread]: Store serial: [23360521]
