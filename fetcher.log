@@ -16759,3 +16759,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:56:02] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.9.tar.gz]
 [2024-05-24 10:56:02] INFO root fetch - main [MainThread]: End processing [core-models]: success
 [2024-05-24 10:56:02] INFO root fetch - main [MainThread]: Store serial: [23359147]
+[2024-05-24 10:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359147]
+[2024-05-24 10:58:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wizata-dsapi
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osbot-utils
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyva-framework
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-plus-one
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: filemac
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openeo-processes-dask
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contact-persons-local
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datapools
+[2024-05-24 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biobb-cp2k
+[2024-05-24 10:58:11] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.1.dev1] Old Version: [0.3]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [nonebot-plugin-plus-one]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [wizata-dsapi]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [osbot-utils]: New version: [1.7.7] Old Version: [1.7.1]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [pyva-framework]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [contact-persons-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [filemac]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/f1/e8/0d70231be4a4f3365d92894f455b8d3d03642d4cca1392fe7c4470f3fe70/acetone_nnet-0.3.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [datapools]: New version: [1.0.61] Old Version: [1.0.60]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/20/aa/76186b657bd44cb2c69e45e5f00629ab7bf8f84fce80d2f491a63006e11d/nonebot_plugin_plus_one-0.1.1.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [biobb-cp2k]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-24 10:58:11] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/17/ba/567fc87a42e9dbe7bdef8e98ec5b8f974267559ebe882bb32e6a087267d7/osbot_utils-1.7.1.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/89/ae/83fcfd6946a00d64c823b9a728cb65edbb41499fc50007c210cadf617574/wizata_dsapi-1.0.5.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/9d/2f/e0c10f65e27eec10c6bca19bd8800920ad8f5c7f3dd1d4044d8dd9e8003a/pyva_framework-3.3.3.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [filemac]: Downloading https://files.pythonhosted.org/packages/04/66/124bcf030bd54377d5bdfcfd35b44a0960c8e42ddb4d2a8de2c1f598b969/filemac-1.0.2.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/0b/6b/76ed2113b4e86e4aaa68d65f4c760c036c393ee03064566f505f44867a22/contact-persons-local-0.0.8.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/ee/f4/546d091e77ed46a2b4861b666e0025c1f07d6c9a958b41c12fa4cbeced81/openeo_processes_dask-2024.5.2.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [biobb-cp2k]: Downloading https://files.pythonhosted.org/packages/59/28/cd4182a4fb12e5705fda29372e5931c8da6cefe51767b85dd964baaacf99/biobb_cp2k-4.1.0.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/ce/ba/f0a5cd8a5797db11dc66eddb4df625848245fec7a0d14b550e3e633cf109/acetone_nnet-0.3.1.dev1.tar.gz
+[2024-05-24 10:58:11] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/5b/43/686a422fbf47416bd7bdde523a148d07b70cf83be2235d598e09df9dd753/datapools-1.0.60.tar.gz
+[2024-05-24 10:58:11] WARNING root fetch - processPackages [biobb-cp2k]: Skipping package: exceeds size limit 24338297>=10485760
+[2024-05-24 10:58:11] INFO root fetch - main [MainThread]: End processing [biobb-cp2k] error
+[2024-05-24 10:58:11] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/5a/fc/5a3d8d2ca658f702337567e7bd3aea9d4a7dafb9d5a14e9d4023fb53ee70/nonebot_plugin_plus_one-0.1.2.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.tar.gz tmp/acetone_nnet-0.3.1.dev1.tar.gz --markdown 20240524/a/acetone-nnet/0.3-0.3.1.dev1/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_plus_one-0.1.1.tar.gz tmp/nonebot_plugin_plus_one-0.1.2.tar.gz --markdown 20240524/n/nonebot-plugin-plus-one/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/14/e0/7fb4a632bcebd76e537cc1fa59be128fd366ccbf9cefee0e3015450c1577/osbot_utils-1.7.7.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [pyva-framework]: Downloading https://files.pythonhosted.org/packages/b0/f4/523e39e97fbd5f5bd56e2a236ad5b42ae60522a4a814f029b019ea7ecab0/pyva_framework-3.3.4.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [filemac]: Downloading https://files.pythonhosted.org/packages/ba/d2/479e40f99b6c751a0295fae0ccba89af2a683f26961a55f0691782b1cfb6/filemac-1.0.3.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/a9/dc/340a937b281349aff68d237ae52d2b30145e60ea43da49d325d6e4a3a7a5/openeo_processes_dask-2024.5.3.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/87/50/ec277c50bb8f6c211842248012751642b99150e9729c6ee5981618da8dc1/datapools-1.0.61.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/93/08/4bf1aef3fe8c2eb2bd907061dc10a7100c367ed8adfc58d6113cda458512/contact_persons_local-0.0.9.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/fe/0f/c49fab0db24cea66a6c4cb60cf68e8c50c6fe61ff240c484ff8a2bb630fc/wizata-dsapi-1.0.6.tar.gz
+[2024-05-24 10:58:12] INFO root fetch - processPackages [osbot-utils]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [osbot-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_utils-1.7.1.tar.gz tmp/osbot_utils-1.7.7.tar.gz --markdown 20240524/o/osbot-utils/1.7.1-1.7.7/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [pyva-framework]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [pyva-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyva_framework-3.3.3.tar.gz tmp/pyva_framework-3.3.4.tar.gz --markdown 20240524/p/pyva-framework/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [contact-persons-local]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [contact-persons-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-persons-local-0.0.8.tar.gz tmp/contact_persons_local-0.0.9.tar.gz --markdown 20240524/c/contact-persons-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata_dsapi-1.0.5.tar.gz tmp/wizata-dsapi-1.0.6.tar.gz --markdown 20240524/w/wizata-dsapi/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [filemac]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [filemac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filemac-1.0.2.tar.gz tmp/filemac-1.0.3.tar.gz --markdown 20240524/f/filemac/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.60.tar.gz tmp/datapools-1.0.61.tar.gz --markdown 20240524/d/datapools/1.0.60-1.0.61/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2024-05-24 10:58:12] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2024.5.2.tar.gz tmp/openeo_processes_dask-2024.5.3.tar.gz --markdown 20240524/o/openeo-processes-dask/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-24 10:58:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.1.tar.gz]
+[2024-05-24 10:58:12] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.2.tar.gz]
+[2024-05-24 10:58:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-persons-local-0.0.8.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_persons_local-0.0.9.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [contact-persons-local]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.3.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [pyva-framework]: Remove: archive file [/home/abi/fetcher/tmp/pyva_framework-3.3.4.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [pyva-framework]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.5.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-1.0.6.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev1.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.60.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.61.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.1.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.7.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [osbot-utils]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [filemac]: Remove: archive file [/home/abi/fetcher/tmp/filemac-1.0.2.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [filemac]: Remove: archive file [/home/abi/fetcher/tmp/filemac-1.0.3.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [filemac]: success
+[2024-05-24 10:58:13] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2024.5.2.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2024.5.3.tar.gz]
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2024-05-24 10:58:13] INFO root fetch - main [MainThread]: Store serial: [23359186]
