@@ -15337,3 +15337,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:04:59] INFO root fetch - processPackages [snappi]: Remove: archive file [/home/abi/fetcher/tmp/snappi-1.5.1.tar.gz]
 [2024-05-24 10:04:59] INFO root fetch - main [MainThread]: End processing [snappi]: success
 [2024-05-24 10:04:59] INFO root fetch - main [MainThread]: Store serial: [23358478]
+[2024-05-24 10:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358478]
+[2024-05-24 10:07:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbsv
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buzz-client
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadproxdk
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretscraper
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SilverStreamingApplicationPoC
+[2024-05-24 10:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gxl-ai-utils
+[2024-05-24 10:07:08] INFO root fetch - processPackages [cadproxdk]: New version: [2.6] Old Version: [2.5]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [gxl-ai-utils]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [buzz-client]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [secretscraper]: New version: [1.3.9.7a1] Old Version: [1.3.9.7a0]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [sbsv]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/43/30/96133031650a9fb8eb23a749aaa686bedc11cf5c76e39d3e3d8e3aceb214/cadproxdk-2.5.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [gxl-ai-utils]: Downloading https://files.pythonhosted.org/packages/ae/53/38411a56ee646a6f15c8fc2a29cce7880af04ab0dad36d4a72777395178c/gxl_ai_utils-1.3.4.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/ad/fc/5a153363c0c3c422a381320cea6c8c9b4f12b9901e9d309cb3c453c21245/buzz_client-1.1.2.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/15/f2/ab8c159f3b4092ba817710fed69ccd2a969d509ba24de23d10a7344a4e22/secretscraper-1.3.9.7a0.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.0.post1362] Old Version: [4.0.0.post1342]
+[2024-05-24 10:07:08] INFO root fetch - processPackages [sbsv]: Downloading https://files.pythonhosted.org/packages/18/23/4c6dae08db8d7d47c7cfe818842829a8df29d1f16fa0905617a7a5164747/sbsv-0.0.3.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-05-24 10:07:08] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/e0/25/65c990fea0c34ada8470ac470fb42abf764338c85427d2e52b35ebc577fa/nucliadb_node_binding-4.0.0.post1342.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/11/8a/02c5cd8dd00758bc137766fa7094b27ac34a160d2857570858569b3dc795/buzz_client-1.1.3.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [gxl-ai-utils]: Downloading https://files.pythonhosted.org/packages/1a/fb/6f3a38007e3d08a318452f8bca8a1223a1ebb19574b868ad4ce43d52ae41/gxl_ai_utils-1.3.5.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/ac/fc/9deb504d8a10236d3e4eabc35a0fb9c9ae2a132ce828a3eb0d402a7236e6/cadproxdk-2.6.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/17/07/7e6b860ba0c7aabbd9a7f67bc63bb2f0e0fd7b5767dbba1ec3fa50b25724/secretscraper-1.3.9.7a1.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [buzz-client]: executing diffoscope
+[2024-05-24 10:07:08] INFO root fetch - processPackages [buzz-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buzz_client-1.1.2.tar.gz tmp/buzz_client-1.1.3.tar.gz --markdown 20240524/b/buzz-client/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-24 10:07:08] INFO root fetch - processPackages [sbsv]: Downloading https://files.pythonhosted.org/packages/15/f1/7c84486c4ab8ce695e560821e179a7d9cfc93305b4716d747615268f7513/sbsv-0.0.4.tar.gz
+[2024-05-24 10:07:08] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:07:08] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.5.tar.gz tmp/cadproxdk-2.6.tar.gz --markdown 20240524/c/cadproxdk/2.5-2.6/README.md --exclude *.pyd
+[2024-05-24 10:07:08] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-05-24 10:07:08] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.9.7a0.tar.gz tmp/secretscraper-1.3.9.7a1.tar.gz --markdown 20240524/s/secretscraper/1.3.9.7a0-1.3.9.7a1/README.md --exclude *.pyd
+[2024-05-24 10:07:08] INFO root fetch - processPackages [gxl-ai-utils]: executing diffoscope
+[2024-05-24 10:07:08] INFO root fetch - processPackages [gxl-ai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxl_ai_utils-1.3.4.tar.gz tmp/gxl_ai_utils-1.3.5.tar.gz --markdown 20240524/g/gxl-ai-utils/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-24 10:07:08] INFO root fetch - processPackages [sbsv]: executing diffoscope
+[2024-05-24 10:07:08] INFO root fetch - processPackages [sbsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbsv-0.0.3.tar.gz tmp/sbsv-0.0.4.tar.gz --markdown 20240524/s/sbsv/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-24 10:07:08] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-05-24 10:07:09] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d4/a8/2870ca8e10d05f42b7f60e4beef7c8996c7aac0791190c3dc3859b4c43a7/nucliadb_node_binding-4.0.0.post1362.tar.gz
+[2024-05-24 10:07:09] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-05-24 10:07:09] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240524/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-05-24 10:07:09] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-24 10:07:09] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.0.post1342.tar.gz tmp/nucliadb_node_binding-4.0.0.post1362.tar.gz --markdown 20240524/n/nucliadb-node-binding/4.0.0.post1342-4.0.0.post1362/README.md --exclude *.pyd
+[2024-05-24 10:07:09] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.1.2.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.1.3.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - main [MainThread]: End processing [buzz-client]: success
+[2024-05-24 10:07:09] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.7a0.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.9.7a1.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-05-24 10:07:09] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.5.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.6.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:07:09] INFO root fetch - processPackages [sbsv]: Remove: archive file [/home/abi/fetcher/tmp/sbsv-0.0.3.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - processPackages [sbsv]: Remove: archive file [/home/abi/fetcher/tmp/sbsv-0.0.4.tar.gz]
+[2024-05-24 10:07:09] INFO root fetch - main [MainThread]: End processing [sbsv]: success
+[2024-05-24 10:07:09] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-05-24 10:07:09] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-05-24 10:07:09] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-05-24 10:07:10] INFO root fetch - processPackages [gxl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/gxl_ai_utils-1.3.4.tar.gz]
+[2024-05-24 10:07:10] INFO root fetch - processPackages [gxl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/gxl_ai_utils-1.3.5.tar.gz]
+[2024-05-24 10:07:10] INFO root fetch - main [MainThread]: End processing [gxl-ai-utils]: success
+[2024-05-24 10:07:11] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1342.tar.gz]
+[2024-05-24 10:07:11] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1362.tar.gz]
+[2024-05-24 10:07:11] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-24 10:07:11] INFO root fetch - main [MainThread]: Store serial: [23358517]
