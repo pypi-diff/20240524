@@ -11405,3 +11405,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:24:22] INFO root fetch - processPackages [qcloud-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/qcloud-python-sts-3.1.6.tar.gz]
 [2024-05-24 07:24:22] INFO root fetch - main [MainThread]: End processing [qcloud-python-sts]: success
 [2024-05-24 07:24:22] INFO root fetch - main [MainThread]: Store serial: [23356726]
+[2024-05-24 07:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356726]
+[2024-05-24 07:26:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcloud-python-sts
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telometer
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shift-forex-tester-data
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlpx
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccsdspy
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-it-reverse-charge
+[2024-05-24 07:26:31] INFO root fetch - processPackages [nlpx]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [shift-forex-tester-data]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [qcloud-python-sts]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [telometer]: New version: [0.76] Old Version: [0.75]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/6c/8b/872bba96c7621217336d19c972c0f487ae73ab1f565aa527960186d44e3d/nlpx-1.0.5.tar.gz
+[2024-05-24 07:26:31] INFO root fetch - processPackages [ccsdspy]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-24 07:26:31] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/e6/0e/b997962672359521fee3cb2a61323f6ddeb5ee468ba4424c0fdcc5091084/shift_forex_tester_data-0.1.0-py3-none-any.whl
+[2024-05-24 07:26:31] INFO root fetch - processPackages [qcloud-python-sts]: Downloading https://files.pythonhosted.org/packages/79/90/61e4e7848e56d6d29c73e65423188e616f7b1a6190442842331087ab0afa/qcloud-python-sts-3.1.5.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [telometer]: Downloading https://files.pythonhosted.org/packages/2f/7d/42ed0d2d1b658d783e79af3b4c928c58afa6cd777580d68e86cd350e0084/telometer-0.75.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [ccsdspy]: Downloading https://files.pythonhosted.org/packages/ea/b0/afa30f2c8b5bad3d78d9a7cbfa10b5081fd114f488292a4f5dd81ce8fdb0/ccsdspy-1.2.1.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/c6/62/4a0c2c59c0f81fcaefb8ad19f0fd53704caa837f0910fa8b631279021096/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.1-py3-none-any.whl
+[2024-05-24 07:26:32] INFO root fetch - processPackages [qcloud-python-sts]: Downloading https://files.pythonhosted.org/packages/68/61/b1499952745afa145a814b5a190e8dab2ae9239bfb156658d435addcd19f/qcloud-python-sts-3.1.6.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [shift-forex-tester-data]: Downloading https://files.pythonhosted.org/packages/25/c7/1667f48ef1acf49d1e9468539d7f5ab8b28344f56c83b005b04e5859b6f3/shift_forex_tester_data-0.1.1-py3-none-any.whl
+[2024-05-24 07:26:32] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/6f/b7/4811c76bd77eaeee8179db217687af5f1df8713aeb9771e1f0bb02523e9d/nlpx-1.0.6.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [qcloud-python-sts]: executing diffoscope
+[2024-05-24 07:26:32] INFO root fetch - processPackages [qcloud-python-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud-python-sts-3.1.5.tar.gz tmp/qcloud-python-sts-3.1.6.tar.gz --markdown 20240524/q/qcloud-python-sts/3.1.5-3.1.6/README.md --exclude *.pyd
+[2024-05-24 07:26:32] INFO root fetch - processPackages [shift-forex-tester-data]: executing diffoscope
+[2024-05-24 07:26:32] INFO root fetch - processPackages [shift-forex-tester-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shift_forex_tester_data-0.1.0-py3-none-any.whl.zip tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip --markdown 20240524/s/shift-forex-tester-data/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-24 07:26:32] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 07:26:32] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.5.tar.gz tmp/nlpx-1.0.6.tar.gz --markdown 20240524/n/nlpx/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-24 07:26:32] INFO root fetch - processPackages [telometer]: Downloading https://files.pythonhosted.org/packages/69/7d/a84dd9a4388910ce8dfac654cb021880221d329baddfac7f4676d4c11dbe/telometer-0.76.tar.gz
+[2024-05-24 07:26:32] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/94/71/5ae4f4b2e74d89abd53707040940ce3f5f74aebe281c305d9334b63c00af/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.2-py3-none-any.whl
+[2024-05-24 07:26:32] INFO root fetch - processPackages [telometer]: executing diffoscope
+[2024-05-24 07:26:32] INFO root fetch - processPackages [telometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telometer-0.75.tar.gz tmp/telometer-0.76.tar.gz --markdown 20240524/t/telometer/0.75-0.76/README.md --exclude *.pyd
+[2024-05-24 07:26:32] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: executing diffoscope
+[2024-05-24 07:26:32] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-l10n-it-reverse-charge/16.0.1.0.3.1-16.0.1.0.3.2/README.md --exclude *.pyd
+[2024-05-24 07:26:32] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.5.tar.gz]
+[2024-05-24 07:26:32] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.6.tar.gz]
+[2024-05-24 07:26:32] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 07:26:32] INFO root fetch - processPackages [qcloud-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/qcloud-python-sts-3.1.5.tar.gz]
+[2024-05-24 07:26:32] INFO root fetch - processPackages [qcloud-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/qcloud-python-sts-3.1.6.tar.gz]
+[2024-05-24 07:26:32] INFO root fetch - main [MainThread]: End processing [qcloud-python-sts]: success
+[2024-05-24 07:26:33] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.0-py3-none-any.whl.zip]
+[2024-05-24 07:26:33] INFO root fetch - processPackages [shift-forex-tester-data]: Remove: archive file [/home/abi/fetcher/tmp/shift_forex_tester_data-0.1.1-py3-none-any.whl.zip]
+[2024-05-24 07:26:33] INFO root fetch - main [MainThread]: End processing [shift-forex-tester-data]: success
+[2024-05-24 07:26:33] INFO root fetch - processPackages [telometer]: Remove: archive file [/home/abi/fetcher/tmp/telometer-0.75.tar.gz]
+[2024-05-24 07:26:33] INFO root fetch - processPackages [telometer]: Remove: archive file [/home/abi/fetcher/tmp/telometer-0.76.tar.gz]
+[2024-05-24 07:26:33] INFO root fetch - main [MainThread]: End processing [telometer]: success
+[2024-05-24 07:26:33] INFO root fetch - processPackages [ccsdspy]: Downloading https://files.pythonhosted.org/packages/80/a6/ca1716e116e4dc07b3b491add3c5d0880c9292c9c07e2118e00129156fb8/ccsdspy-1.3.0.tar.gz
+[2024-05-24 07:26:33] INFO root fetch - processPackages [ccsdspy]: executing diffoscope
+[2024-05-24 07:26:33] INFO root fetch - processPackages [ccsdspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccsdspy-1.2.1.tar.gz tmp/ccsdspy-1.3.0.tar.gz --markdown 20240524/c/ccsdspy/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-24 07:26:33] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2024-05-24 07:26:33] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-05-24 07:26:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-reverse-charge]: success
+[2024-05-24 07:26:35] INFO root fetch - processPackages [ccsdspy]: Remove: archive file [/home/abi/fetcher/tmp/ccsdspy-1.2.1.tar.gz]
+[2024-05-24 07:26:35] INFO root fetch - processPackages [ccsdspy]: Remove: archive file [/home/abi/fetcher/tmp/ccsdspy-1.3.0.tar.gz]
+[2024-05-24 07:26:35] INFO root fetch - main [MainThread]: End processing [ccsdspy]: success
+[2024-05-24 07:26:35] INFO root fetch - main [MainThread]: Store serial: [23356739]
