@@ -16518,3 +16518,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:46:56] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
 [2024-05-24 10:46:56] INFO root fetch - main [MainThread]: End processing [youwol]: success
 [2024-05-24 10:46:56] INFO root fetch - main [MainThread]: Store serial: [23358997]
+[2024-05-24 10:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23358997]
+[2024-05-24 10:49:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: media-tools
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pear-ebi
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AAIT
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cadproxdk
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mesa2-preprocessing
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qoqo
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: castle-ai
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imviz
+[2024-05-24 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-cost-analysis
+[2024-05-24 10:49:05] INFO root fetch - processPackages [castle-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [mesa2-preprocessing]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.5] Old Version: [0.0.2.4]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [cadproxdk]: New version: [3] Old Version: [2.9]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [pear-ebi]: New version: [0.1.88] Old Version: [0.1.87]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [imviz]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [media-tools]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [qoqo]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/f2/43/d939b878e31313b15dd293bfdba1b1874b27feebe4e826d869ef606d5486/AAIT-0.0.2.4.tar.gz
+[2024-05-24 10:49:05] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/2a/a7/02197a4e5f714a9e2fff227a9ad0e29e37960877a7b9ed2d0b71e70592ee/cadproxdk-2.9.tar.gz
+[2024-05-24 10:49:05] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-24 10:49:05] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/51/62/824906e1634f33dab131d334c2de762f0f4876494f42105d50c00452146b/castle_ai-0.0.1.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [mesa2-preprocessing]: Downloading https://files.pythonhosted.org/packages/b0/d8/60b5b5fa03ffb44dd3dc884a8d7cbaeec3921e79cf49e578532ebe766851/mesa2_preprocessing-0.2.0.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [pear-ebi]: Downloading https://files.pythonhosted.org/packages/06/0a/3933dcb480145c832ee7be1316c031329e7d5719a1493e9d127361ffe2f8/pear_ebi-0.1.87.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [media-tools]: Downloading https://files.pythonhosted.org/packages/88/df/b26ad556b29c0c302821b1bdd0a02d6f02d6ae1fd2e73c8998cb2741ecd5/media_tools-0.4.5.tar.gz
+[2024-05-24 10:49:06] WARNING root fetch - processPackages [pear-ebi]: Skipping package: exceeds size limit 11241146>=10485760
+[2024-05-24 10:49:06] INFO root fetch - processPackages [pear-ebi]: Start processing: person-local
+[2024-05-24 10:49:06] INFO root fetch - main [MainThread]: End processing [pear-ebi] error
+[2024-05-24 10:49:06] INFO root fetch - processPackages [imviz]: Downloading https://files.pythonhosted.org/packages/c7/86/b1119a6de00c6c63d1df24d9921ba10e76683e05fd366512dd6246bab126/imviz-0.2.4.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/2a/a1/5d3ee106d66a5a2ebb2065e292b401bed1721c7c9079d1cdc535b8bbe74e/qoqo-1.9.1.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/97/b2/3839362edbe5e5bcdb8324b3a142ced09d63541f4dcfeb6a5173da4f423e/cadproxdk-3.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-24 10:49:06] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/3e/a3/340c47bf6d2020b69d00d5b57dc4cbfdf4b66e4b8caa6758a905e302dffa/AAIT-0.0.2.5.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/5b/99/742ae237ddd0eb171759a7fe3db61206f4c4265a1a6098e8ca50c3f48058/castle_ai-0.0.2.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [mesa2-preprocessing]: Downloading https://files.pythonhosted.org/packages/49/85/4db54c5cb04cf9f307cd728132df2ad0fe2233b904b043e5a878c78aaf55/mesa2_preprocessing-0.2.1.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240524/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-2.9.tar.gz tmp/cadproxdk-3.tar.gz --markdown 20240524/c/cadproxdk/2.9-3/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [media-tools]: Downloading https://files.pythonhosted.org/packages/88/0c/0442a7362ba5c6174b777d776f3419f0d4ab4b87025dcbcd30f9491f3ae2/media_tools-0.4.6.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.4.tar.gz tmp/AAIT-0.0.2.5.tar.gz --markdown 20240524/A/AAIT/0.0.2.4-0.0.2.5/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [castle-ai]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [castle-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castle_ai-0.0.1.tar.gz tmp/castle_ai-0.0.2.tar.gz --markdown 20240524/c/castle-ai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [mesa2-preprocessing]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [mesa2-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesa2_preprocessing-0.2.0.tar.gz tmp/mesa2_preprocessing-0.2.1.tar.gz --markdown 20240524/m/mesa2-preprocessing/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [imviz]: Downloading https://files.pythonhosted.org/packages/44/a8/6c119d46ab7bf08c8f876dafc655d9c00e9985c410ac6a6aee96673fbf1f/imviz-0.2.5.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [media-tools]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [media-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_tools-0.4.5.tar.gz tmp/media_tools-0.4.6.tar.gz --markdown 20240524/m/media-tools/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/2f/ad/7105a42039609a6d22a55068e39418e3d3ad9523ed8820ac8ddaa4e1d412/qoqo-1.9.2.tar.gz
+[2024-05-24 10:49:06] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240524/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [imviz]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [imviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imviz-0.2.4.tar.gz tmp/imviz-0.2.5.tar.gz --markdown 20240524/i/imviz/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-24 10:49:06] INFO root fetch - processPackages [qoqo]: executing diffoscope
+[2024-05-24 10:49:06] INFO root fetch - processPackages [qoqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo-1.9.1.tar.gz tmp/qoqo-1.9.2.tar.gz --markdown 20240524/q/qoqo/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-24 10:49:07] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-24 10:49:07] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-24 10:49:07] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240524/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-24 10:49:07] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.4.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.5.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-2.9.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [mesa2-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/mesa2_preprocessing-0.2.0.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [mesa2-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/mesa2_preprocessing-0.2.1.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [mesa2-preprocessing]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [media-tools]: Remove: archive file [/home/abi/fetcher/tmp/media_tools-0.4.5.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [media-tools]: Remove: archive file [/home/abi/fetcher/tmp/media_tools-0.4.6.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [media-tools]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.1.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.2.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [castle-ai]: success
+[2024-05-24 10:49:07] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-24 10:49:07] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-24 10:49:08] INFO root fetch - processPackages [imviz]: Remove: archive file [/home/abi/fetcher/tmp/imviz-0.2.4.tar.gz]
+[2024-05-24 10:49:08] INFO root fetch - processPackages [imviz]: Remove: archive file [/home/abi/fetcher/tmp/imviz-0.2.5.tar.gz]
+[2024-05-24 10:49:08] INFO root fetch - main [MainThread]: End processing [imviz]: success
+[2024-05-24 10:49:08] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-24 10:49:08] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-24 10:49:08] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-24 10:49:11] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.1.tar.gz]
+[2024-05-24 10:49:11] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.2.tar.gz]
+[2024-05-24 10:49:11] INFO root fetch - main [MainThread]: End processing [qoqo]: success
+[2024-05-24 10:49:11] INFO root fetch - main [MainThread]: Store serial: [23359040]
