@@ -22164,3 +22164,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:50:39] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.2.0.tar.gz]
 [2024-05-24 13:50:39] INFO root fetch - main [MainThread]: End processing [gigachain]: success
 [2024-05-24 13:50:39] INFO root fetch - main [MainThread]: Store serial: [23361395]
+[2024-05-24 13:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361395]
+[2024-05-24 13:52:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PT3S
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timesfm
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beambusters
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain-text-splitters
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gigachain-cli
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptdeco
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sitk-cli
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collider-check
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: epyfun
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyside6-qml-stubgen
+[2024-05-24 13:52:48] INFO root fetch - processPackages [timesfm]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [sitk-cli]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [collider-check]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [epyfun]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [ptdeco]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/27/32/622016750235a814335cee980fa54e80cc09ca2ded753308251ae3059b68/collider_check-0.2.1.tar.gz
+[2024-05-24 13:52:48] INFO root fetch - processPackages [pyside6-qml-stubgen]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [beambusters]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [PT3S]: New version: [90.14.9.0.dev1] Old Version: [90.14.8.0.dev1]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [epyfun]: Downloading https://files.pythonhosted.org/packages/62/20/b5d192aab9c13cf8ebe44182960d12d753eb52aa340c7f37351eb413b595/epyfun-0.3.3.tar.gz
+[2024-05-24 13:52:48] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/ad/11/0e4697aed65c93c95c34e152cfc0dbd5190f74590f49e9890e01cfdcdb6e/sitk-cli-0.6.0.tar.gz
+[2024-05-24 13:52:48] INFO root fetch - processPackages [gigachain-text-splitters]: New version: [0.2.0] Old Version: [0.0.1]
+[2024-05-24 13:52:48] INFO root fetch - processPackages [gigachain-cli]: New version: [0.0.22rc1] Old Version: [0.0.22rc0]
+[2024-05-24 13:52:49] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/d4/dd/74862e4c85216877d88d7669354dfab39c033af1295a44adc9adb05a3c4f/timesfm-0.0.5.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [ptdeco]: Downloading https://files.pythonhosted.org/packages/0a/39/e651f00e851df3dd122c09382b85a610499cbdb8105660bef9752d457810/ptdeco-0.4.0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [PT3S]: Downloading https://files.pythonhosted.org/packages/c8/4d/452f124e102ae0bc5bf011e59a99e8c29ea76aaae945fec034181cf97666/PT3S-90.14.8.0.dev1.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/43/ea/2df5e0a2ebebcbc205aad4cc0c87b568a54b5e6643abd93c33ca7ea2ab00/pyside6_qml_stubgen-0.1.0a4.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [beambusters]: Downloading https://files.pythonhosted.org/packages/d6/49/f8c4d98fb4147c35677ad2e0801493e675a36e11476759d1b63d344b4ef0/beambusters-1.2.2.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-text-splitters]: Downloading https://files.pythonhosted.org/packages/2a/ba/60981b6c64763c5c0dc16eb1554eb1d3a68eaf72d494642d55f07f6afafb/gigachain_text_splitters-0.0.1.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [sitk-cli]: Downloading https://files.pythonhosted.org/packages/43/72/c38dbcb6291896a05b9dcf1bc9ef44f43848b5288c1a6985c515151c528f/sitk_cli-0.7.0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-cli]: Downloading https://files.pythonhosted.org/packages/05/1e/ba730bf6fc4d30b935d78910f2c7aab465dc024fc9280687116c2b864c8c/gigachain_cli-0.0.22rc0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [epyfun]: Downloading https://files.pythonhosted.org/packages/64/6a/d6c0da355f7743ebcf50007d2c7a8f5df340a8f0086e49f3ce77ca674712/epyfun-0.3.4.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [sitk-cli]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [sitk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitk-cli-0.6.0.tar.gz tmp/sitk_cli-0.7.0.tar.gz --markdown 20240524/s/sitk-cli/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [collider-check]: Downloading https://files.pythonhosted.org/packages/30/90/99780282efbd537cbe560ead0c6c453591f62da978621a265285ccb5b32b/collider_check-0.2.2.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [epyfun]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [epyfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyfun-0.3.3.tar.gz tmp/epyfun-0.3.4.tar.gz --markdown 20240524/e/epyfun/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [timesfm]: Downloading https://files.pythonhosted.org/packages/c0/18/324e1277c8b14927222d7649886330d202995931a7cb3c0b85790f9a2c4d/timesfm-0.0.6.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [collider-check]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [collider-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_check-0.2.1.tar.gz tmp/collider_check-0.2.2.tar.gz --markdown 20240524/c/collider-check/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [beambusters]: Downloading https://files.pythonhosted.org/packages/6d/b4/9a8cfa5a9243a5ebb9aac018e4d7f64ef278a65ddef4f0fa7bebce4a7836/beambusters-1.3.0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [PT3S]: Downloading https://files.pythonhosted.org/packages/79/86/5369965cab9d4addbef486fd36cd6546ca2a546945471af6ee0588724744/PT3S-90.14.9.0.dev1.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [timesfm]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [timesfm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timesfm-0.0.5.tar.gz tmp/timesfm-0.0.6.tar.gz --markdown 20240524/t/timesfm/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [ptdeco]: Downloading https://files.pythonhosted.org/packages/92/1a/b2319651e6b74c5beae98d5d39d3e0fcd530117cd69f524fb68eb89f8fa5/ptdeco-0.5.0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [pyside6-qml-stubgen]: Downloading https://files.pythonhosted.org/packages/4b/00/3b04f96d01a6dd7effb4f21fc89f9755aa4eead7f155b2ac81a48e2f0b95/pyside6_qml_stubgen-0.1.0a5.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-cli]: Downloading https://files.pythonhosted.org/packages/bf/a2/32942edb4101ee4b0b872242037a13d7b88eda1edf48bf4a7d300fb45e32/gigachain_cli-0.0.22rc1.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-text-splitters]: Downloading https://files.pythonhosted.org/packages/9a/15/d38c07708c9c065a0bd9fd082c4b7544f9ba9395089e91d988d04c4504ff/gigachain_text_splitters-0.2.0.tar.gz
+[2024-05-24 13:52:49] INFO root fetch - processPackages [beambusters]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [beambusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beambusters-1.2.2.tar.gz tmp/beambusters-1.3.0.tar.gz --markdown 20240524/b/beambusters/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [ptdeco]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [ptdeco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptdeco-0.4.0.tar.gz tmp/ptdeco-0.5.0.tar.gz --markdown 20240524/p/ptdeco/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [pyside6-qml-stubgen]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [pyside6-qml-stubgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside6_qml_stubgen-0.1.0a4.tar.gz tmp/pyside6_qml_stubgen-0.1.0a5.tar.gz --markdown 20240524/p/pyside6-qml-stubgen/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-text-splitters]: executing diffoscope
+[2024-05-24 13:52:49] INFO root fetch - processPackages [gigachain-text-splitters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_text_splitters-0.0.1.tar.gz tmp/gigachain_text_splitters-0.2.0.tar.gz --markdown 20240524/g/gigachain-text-splitters/0.0.1-0.2.0/README.md --exclude *.pyd
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-cli]: executing diffoscope
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_cli-0.0.22rc0.tar.gz tmp/gigachain_cli-0.0.22rc1.tar.gz --markdown 20240524/g/gigachain-cli/0.0.22rc0-0.0.22rc1/README.md --exclude *.pyd
+[2024-05-24 13:52:50] INFO root fetch - processPackages [PT3S]: executing diffoscope
+[2024-05-24 13:52:50] INFO root fetch - processPackages [PT3S]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PT3S-90.14.8.0.dev1.tar.gz tmp/PT3S-90.14.9.0.dev1.tar.gz --markdown 20240524/P/PT3S/90.14.8.0.dev1-90.14.9.0.dev1/README.md --exclude *.pyd
+[2024-05-24 13:52:50] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk-cli-0.6.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [sitk-cli]: Remove: archive file [/home/abi/fetcher/tmp/sitk_cli-0.7.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [sitk-cli]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [epyfun]: Remove: archive file [/home/abi/fetcher/tmp/epyfun-0.3.3.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [epyfun]: Remove: archive file [/home/abi/fetcher/tmp/epyfun-0.3.4.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [epyfun]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.5.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [timesfm]: Remove: archive file [/home/abi/fetcher/tmp/timesfm-0.0.6.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [timesfm]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.1.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [collider-check]: Remove: archive file [/home/abi/fetcher/tmp/collider_check-0.2.2.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [collider-check]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [beambusters]: Remove: archive file [/home/abi/fetcher/tmp/beambusters-1.2.2.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [beambusters]: Remove: archive file [/home/abi/fetcher/tmp/beambusters-1.3.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [beambusters]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [ptdeco]: Remove: archive file [/home/abi/fetcher/tmp/ptdeco-0.4.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [ptdeco]: Remove: archive file [/home/abi/fetcher/tmp/ptdeco-0.5.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [ptdeco]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-text-splitters]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_text_splitters-0.0.1.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-text-splitters]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_text_splitters-0.2.0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [gigachain-text-splitters]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a4.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [pyside6-qml-stubgen]: Remove: archive file [/home/abi/fetcher/tmp/pyside6_qml_stubgen-0.1.0a5.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [pyside6-qml-stubgen]: success
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-cli]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_cli-0.0.22rc0.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - processPackages [gigachain-cli]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_cli-0.0.22rc1.tar.gz]
+[2024-05-24 13:52:50] INFO root fetch - main [MainThread]: End processing [gigachain-cli]: success
+[2024-05-24 13:52:51] INFO root fetch - processPackages [PT3S]: Remove: archive file [/home/abi/fetcher/tmp/PT3S-90.14.8.0.dev1.tar.gz]
+[2024-05-24 13:52:51] INFO root fetch - processPackages [PT3S]: Remove: archive file [/home/abi/fetcher/tmp/PT3S-90.14.9.0.dev1.tar.gz]
+[2024-05-24 13:52:51] INFO root fetch - main [MainThread]: End processing [PT3S]: success
+[2024-05-24 13:52:51] INFO root fetch - main [MainThread]: Store serial: [23361424]
