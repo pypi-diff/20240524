@@ -11061,3 +11061,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:00:23] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.6.tar.gz]
 [2024-05-24 07:00:23] INFO root fetch - main [MainThread]: End processing [whyhow]: success
 [2024-05-24 07:00:23] INFO root fetch - main [MainThread]: Store serial: [23356611]
+[2024-05-24 07:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356611]
+[2024-05-24 07:02:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 07:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 07:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypowerwall
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/f0/a9/36f65bb5261c1f410878d71be7b930e479de3721c7506d704f04218dfe19/nlpx-1.0.4.tar.gz
+[2024-05-24 07:02:34] INFO root fetch - processPackages [pypowerwall]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/6c/8b/872bba96c7621217336d19c972c0f487ae73ab1f565aa527960186d44e3d/nlpx-1.0.5.tar.gz
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.0.4.tar.gz tmp/nlpx-1.0.5.tar.gz --markdown 20240524/n/nlpx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-24 07:02:34] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/37/90/6149d358a0b49593bb684371560220a9a91ca1f3616c0fac619193b5227d/pypowerwall-0.9.0-py2.py3-none-any.whl
+[2024-05-24 07:02:34] INFO root fetch - processPackages [pypowerwall]: Downloading https://files.pythonhosted.org/packages/79/97/560f23af784b65e70c24673c72d07814c49e6ffbbca35e61e60af440793d/pypowerwall-0.9.1-py2.py3-none-any.whl
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.4.tar.gz]
+[2024-05-24 07:02:34] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.0.5.tar.gz]
+[2024-05-24 07:02:34] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 07:02:35] INFO root fetch - processPackages [pypowerwall]: executing diffoscope
+[2024-05-24 07:02:35] INFO root fetch - processPackages [pypowerwall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip tmp/pypowerwall-0.9.1-py2.py3-none-any.whl.zip --markdown 20240524/p/pypowerwall/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-24 07:02:35] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-24 07:02:35] INFO root fetch - processPackages [pypowerwall]: Remove: archive file [/home/abi/fetcher/tmp/pypowerwall-0.9.1-py2.py3-none-any.whl.zip]
+[2024-05-24 07:02:35] INFO root fetch - main [MainThread]: End processing [pypowerwall]: success
+[2024-05-24 07:02:35] INFO root fetch - main [MainThread]: Store serial: [23356615]
