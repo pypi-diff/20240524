@@ -16616,3 +16616,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 10:49:11] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.2.tar.gz]
 [2024-05-24 10:49:11] INFO root fetch - main [MainThread]: End processing [qoqo]: success
 [2024-05-24 10:49:11] INFO root fetch - main [MainThread]: Store serial: [23359040]
+[2024-05-24 10:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23359040]
+[2024-05-24 10:51:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 10:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-searcher
+[2024-05-24 10:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-05-24 10:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neetbox
+[2024-05-24 10:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cadproxdk
+[2024-05-24 10:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sql-server-lineage
+[2024-05-24 10:51:27] INFO root fetch - processPackages [cadproxdk]: New version: [3.2] Old Version: [3]
+[2024-05-24 10:51:27] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/97/b2/3839362edbe5e5bcdb8324b3a142ced09d63541f4dcfeb6a5173da4f423e/cadproxdk-3.tar.gz
+[2024-05-24 10:51:27] INFO root fetch - processPackages [audio-searcher]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 10:51:27] INFO root fetch - processPackages [neetbox]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-24 10:51:27] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-24 10:51:27] INFO root fetch - processPackages [sql-server-lineage]: New version: [1.12.0] Old Version: [1.11.0]
+[2024-05-24 10:51:27] INFO root fetch - processPackages [audio-searcher]: Downloading https://files.pythonhosted.org/packages/72/68/f2269096da29b116e053e1fdc26276bebc4444a43665ced08e718adc6a91/audio_searcher-0.1.1.tar.gz
+[2024-05-24 10:51:27] INFO root fetch - processPackages [sql-server-lineage]: Downloading https://files.pythonhosted.org/packages/0f/9a/7dfe7b7c5be70dac59d2b5aaacb84041a1b36d4cdd529210ec7b47b9b4f4/sql_server_lineage-1.11.0-cp39-cp39-win_amd64.whl
+[2024-05-24 10:51:27] INFO root fetch - processPackages [neetbox]: Downloading https://files.pythonhosted.org/packages/89/aa/10e2f5996c84527272d2b718df7e4413211d2a59c342c15c793f3e6af99b/neetbox-0.4.8.tar.gz
+[2024-05-24 10:51:27] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-24 10:51:27] INFO root fetch - processPackages [cadproxdk]: Downloading https://files.pythonhosted.org/packages/14/06/22eca9736dd8715cc59039ef76c017dea43c928496ed71d4b1bca443b2b6/cadproxdk-3.2.tar.gz
+[2024-05-24 10:51:27] INFO root fetch - processPackages [cadproxdk]: executing diffoscope
+[2024-05-24 10:51:27] INFO root fetch - processPackages [cadproxdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadproxdk-3.tar.gz tmp/cadproxdk-3.2.tar.gz --markdown 20240524/c/cadproxdk/3-3.2/README.md --exclude *.pyd
+[2024-05-24 10:51:27] INFO root fetch - processPackages [audio-searcher]: Downloading https://files.pythonhosted.org/packages/48/b9/f4d7311c74e850dd4ff3df8bbc9e06f3f21d60e0e4bcc590af1d181a6f32/audio_searcher-0.1.2.tar.gz
+[2024-05-24 10:51:28] INFO root fetch - processPackages [audio-searcher]: executing diffoscope
+[2024-05-24 10:51:28] INFO root fetch - processPackages [audio-searcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_searcher-0.1.1.tar.gz tmp/audio_searcher-0.1.2.tar.gz --markdown 20240524/a/audio-searcher/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 10:51:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-24 10:51:28] INFO root fetch - processPackages [sql-server-lineage]: Downloading https://files.pythonhosted.org/packages/33/be/58a960023d0c15cb4366ca03f5878a0ba39f696238a8f50293099267956e/sql_server_lineage-1.12.0-cp311-cp311-win32.whl
+[2024-05-24 10:51:28] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.tar.gz]
+[2024-05-24 10:51:28] INFO root fetch - processPackages [cadproxdk]: Remove: archive file [/home/abi/fetcher/tmp/cadproxdk-3.2.tar.gz]
+[2024-05-24 10:51:28] INFO root fetch - main [MainThread]: End processing [cadproxdk]: success
+[2024-05-24 10:51:28] INFO root fetch - processPackages [audio-searcher]: Remove: archive file [/home/abi/fetcher/tmp/audio_searcher-0.1.1.tar.gz]
+[2024-05-24 10:51:28] INFO root fetch - processPackages [audio-searcher]: Remove: archive file [/home/abi/fetcher/tmp/audio_searcher-0.1.2.tar.gz]
+[2024-05-24 10:51:28] INFO root fetch - main [MainThread]: End processing [audio-searcher]: success
+[2024-05-24 10:51:28] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-24 10:51:28] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240524/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-24 10:51:28] INFO root fetch - processPackages [neetbox]: Downloading https://files.pythonhosted.org/packages/a1/f7/c1be82e32ac7846ef16464c87c17f586b701360814388cb682534f3444ec/neetbox-0.4.9.tar.gz
+[2024-05-24 10:51:29] INFO root fetch - processPackages [sql-server-lineage]: executing diffoscope
+[2024-05-24 10:51:29] INFO root fetch - processPackages [sql-server-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_server_lineage-1.11.0-cp39-cp39-win_amd64.whl.zip tmp/sql_server_lineage-1.12.0-cp311-cp311-win32.whl.zip --markdown 20240524/s/sql-server-lineage/1.11.0-1.12.0/README.md --exclude *.pyd
+[2024-05-24 10:51:29] INFO root fetch - processPackages [neetbox]: executing diffoscope
+[2024-05-24 10:51:29] INFO root fetch - processPackages [neetbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neetbox-0.4.8.tar.gz tmp/neetbox-0.4.9.tar.gz --markdown 20240524/n/neetbox/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-24 10:51:29] INFO root fetch - processPackages [sql-server-lineage]: Remove: archive file [/home/abi/fetcher/tmp/sql_server_lineage-1.11.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-24 10:51:29] INFO root fetch - processPackages [sql-server-lineage]: Remove: archive file [/home/abi/fetcher/tmp/sql_server_lineage-1.12.0-cp311-cp311-win32.whl.zip]
+[2024-05-24 10:51:29] INFO root fetch - main [MainThread]: End processing [sql-server-lineage]: success
+[2024-05-24 10:51:31] INFO root fetch - processPackages [neetbox]: Remove: archive file [/home/abi/fetcher/tmp/neetbox-0.4.8.tar.gz]
+[2024-05-24 10:51:31] INFO root fetch - processPackages [neetbox]: Remove: archive file [/home/abi/fetcher/tmp/neetbox-0.4.9.tar.gz]
+[2024-05-24 10:51:31] INFO root fetch - main [MainThread]: End processing [neetbox]: success
+[2024-05-24 10:51:31] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-24 10:51:31] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-24 10:51:31] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-24 10:51:31] INFO root fetch - main [MainThread]: Store serial: [23359070]
