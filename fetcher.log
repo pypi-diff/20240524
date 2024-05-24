@@ -8229,3 +8229,18 @@
 [2024-05-24 04:31:03] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-05-24 04:31:03] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-05-24 04:31:03] INFO root fetch - main [MainThread]: Store serial: [23355588]
+[2024-05-24 04:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355588]
+[2024-05-24 04:33:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-24 04:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyticker
+[2024-05-24 04:33:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prototwin
+[2024-05-24 04:33:13] WARNING root fetch - processPackages [prototwin]: Skipping, unable to determine old version
+[2024-05-24 04:33:13] INFO root fetch - main [MainThread]: End processing [prototwin] error
+[2024-05-24 04:33:13] INFO root fetch - processPackages [tinyticker]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-05-24 04:33:13] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/ba/46/b3e7634bf3b8bc444059c85233ff5066681fb42288b78b2a34968aa5af92/tinyticker-0.6.5.tar.gz
+[2024-05-24 04:33:13] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/66/56/ac9a81e54f00be6b505d0c01b9796f25efdc27f573c1021ee5978b698a83/tinyticker-0.7.0.tar.gz
+[2024-05-24 04:33:13] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-24 04:33:13] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.6.5.tar.gz tmp/tinyticker-0.7.0.tar.gz --markdown 20240524/t/tinyticker/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-05-24 04:33:14] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.6.5.tar.gz]
+[2024-05-24 04:33:14] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.7.0.tar.gz]
+[2024-05-24 04:33:14] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-24 04:33:14] INFO root fetch - main [MainThread]: Store serial: [23355599]
