@@ -11591,3 +11591,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 07:33:09] INFO root fetch - processPackages [payrex-python]: Remove: archive file [/home/abi/fetcher/tmp/payrex_python-0.1.1.tar.gz]
 [2024-05-24 07:33:09] INFO root fetch - main [MainThread]: End processing [payrex-python]: success
 [2024-05-24 07:33:09] INFO root fetch - main [MainThread]: Store serial: [23356778]
+[2024-05-24 07:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356778]
+[2024-05-24 07:35:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 07:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2024-05-24 07:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame-phyics
+[2024-05-24 07:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-credentials
+[2024-05-24 07:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Datadash
+[2024-05-24 07:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nemo-library
+[2024-05-24 07:35:17] INFO root fetch - processPackages [Datadash]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 07:35:17] INFO root fetch - processPackages [alibabacloud-credentials]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-24 07:35:17] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-24 07:35:18] INFO root fetch - processPackages [pygame-phyics]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-24 07:35:18] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-24 07:35:18] INFO root fetch - processPackages [Datadash]: Downloading https://files.pythonhosted.org/packages/fc/53/96c5410625e3158ae15cf6a708e71c28f343df6297aa412c8d0c29d8a92c/datadash-0.0.1.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [alibabacloud-credentials]: Downloading https://files.pythonhosted.org/packages/ec/d1/1f7a4bbf8278f9daaafc0592f100260a6f569a7a633f14fe9af952c3b682/alibabacloud_credentials-0.3.1.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [pygame-phyics]: Downloading https://files.pythonhosted.org/packages/fc/32/9daeb0fd222a2a2b151be0ccf2f5624f557bb8f9b699f2c1e0284e2e2410/pygame_phyics-1.1.1.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2024-05-24 07:35:18] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20240524/n/nemo-library/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-24 07:35:18] INFO root fetch - processPackages [Datadash]: Downloading https://files.pythonhosted.org/packages/01/f8/8e3d3aa58f86418c9b59cda9d7c9cd8685607807ceacd128da1933715be7/datadash-0.0.2.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [alibabacloud-credentials]: Downloading https://files.pythonhosted.org/packages/6e/66/6e3f8bc74fdd8f655959d98c176a4f15627dd4ac217d0694cf136ecd1315/alibabacloud_credentials-0.3.2.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [alibabacloud-credentials]: executing diffoscope
+[2024-05-24 07:35:18] INFO root fetch - processPackages [alibabacloud-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_credentials-0.3.1.tar.gz tmp/alibabacloud_credentials-0.3.2.tar.gz --markdown 20240524/a/alibabacloud-credentials/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-24 07:35:18] INFO root fetch - processPackages [Datadash]: executing diffoscope
+[2024-05-24 07:35:18] INFO root fetch - processPackages [Datadash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadash-0.0.1.tar.gz tmp/datadash-0.0.2.tar.gz --markdown 20240524/D/Datadash/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 07:35:18] INFO root fetch - processPackages [pygame-phyics]: Downloading https://files.pythonhosted.org/packages/7c/0c/335baf53b047c7db41f64038af839f2d86e3eadff9c8f4ba6d7bbcd5d5f1/pygame_phyics-1.1.2.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-24 07:35:18] INFO root fetch - processPackages [pygame-phyics]: executing diffoscope
+[2024-05-24 07:35:18] INFO root fetch - processPackages [pygame-phyics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_phyics-1.1.1.tar.gz tmp/pygame_phyics-1.1.2.tar.gz --markdown 20240524/p/pygame-phyics/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-24 07:35:18] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-24 07:35:18] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240524/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-24 07:35:19] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2024-05-24 07:35:19] INFO root fetch - processPackages [Datadash]: Remove: archive file [/home/abi/fetcher/tmp/datadash-0.0.1.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - processPackages [Datadash]: Remove: archive file [/home/abi/fetcher/tmp/datadash-0.0.2.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [Datadash]: success
+[2024-05-24 07:35:19] INFO root fetch - processPackages [alibabacloud-credentials]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_credentials-0.3.1.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - processPackages [alibabacloud-credentials]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_credentials-0.3.2.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-credentials]: success
+[2024-05-24 07:35:19] INFO root fetch - processPackages [pygame-phyics]: Remove: archive file [/home/abi/fetcher/tmp/pygame_phyics-1.1.1.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - processPackages [pygame-phyics]: Remove: archive file [/home/abi/fetcher/tmp/pygame_phyics-1.1.2.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [pygame-phyics]: success
+[2024-05-24 07:35:19] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-24 07:35:19] INFO root fetch - main [MainThread]: Store serial: [23356793]
