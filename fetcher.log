@@ -7514,3 +7514,51 @@
 [2024-05-24 03:40:09] WARNING root fetch - processPackages [openlibrary-api]: Skipping, unable to determine old version
 [2024-05-24 03:40:09] INFO root fetch - main [MainThread]: End processing [openlibrary-api] error
 [2024-05-24 03:40:09] INFO root fetch - main [MainThread]: Store serial: [23355328]
+[2024-05-24 03:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23355328]
+[2024-05-24 03:42:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 03:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlpx
+[2024-05-24 03:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schelp-watch
+[2024-05-24 03:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vault
+[2024-05-24 03:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuredevops
+[2024-05-24 03:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gcp
+[2024-05-24 03:42:17] INFO root fetch - processPackages [nlpx]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-24 03:42:18] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/b2/20/bf6ca8d5ba2436cef8151509e04bda02598946ccbb7d3cbcc65d4c5f17c8/nlpx-0.5.0.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [schelp-watch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1716513395] Old Version: [6.2.0a1715929317]
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.2.0a1716513772] Old Version: [3.2.0a1716216578]
+[2024-05-24 03:42:18] INFO root fetch - processPackages [schelp-watch]: Downloading https://files.pythonhosted.org/packages/28/7c/6b15bc2711cf35b5cc59b4060fe7d7f2aa2867cfa1c36008c6cfe465a5bb/schelp_watch-0.0.1.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/83/bb/1eac64330d4e3439f2237623db4a8cd07a3c8fc12483b2765856faca0d53/pulumi_vault-6.2.0a1715929317.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/6e/73/70600460088b2bd0f638d04240ff4e22c313f3a3d068c45d30d10d59b9d4/nlpx-0.6.0.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/2c/e5/b8ad48d5772bc8df7619da595ff237fbc9e6a3365fc46373c6817e384346/pulumi_azuredevops-3.2.0a1716216578.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-24 03:42:18] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-0.5.0.tar.gz tmp/nlpx-0.6.0.tar.gz --markdown 20240524/n/nlpx/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [schelp-watch]: Downloading https://files.pythonhosted.org/packages/8a/80/3270cbffc54af9cdac9e461903d7954d00e82ea954cb4d0bf435f87acf00/schelp_watch-0.0.2.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/5b/d9/141c8e1c9dc066a7a5cb96f641cc1636b17f04e5c9e7cfec37baf7db0ee5/pulumi_azuredevops-3.2.0a1716513772.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [schelp-watch]: executing diffoscope
+[2024-05-24 03:42:18] INFO root fetch - processPackages [schelp-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schelp_watch-0.0.1.tar.gz tmp/schelp_watch-0.0.2.tar.gz --markdown 20240524/s/schelp-watch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/59/32/de95ecf52250b68bc7922602e1fb993ccd75626c71be5ea79b1635c1b66c/pulumi_vault-6.2.0a1716513395.tar.gz
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz tmp/pulumi_azuredevops-3.2.0a1716513772.tar.gz --markdown 20240524/p/pulumi-azuredevops/3.2.0a1716216578-3.2.0a1716513772/README.md --exclude *.pyd
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-24 03:42:18] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715929317.tar.gz tmp/pulumi_vault-6.2.0a1716513395.tar.gz --markdown 20240524/p/pulumi-vault/6.2.0a1715929317-6.2.0a1716513395/README.md --exclude *.pyd
+[2024-05-24 03:42:19] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.5.0.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-0.6.0.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-24 03:42:19] INFO root fetch - processPackages [schelp-watch]: Remove: archive file [/home/abi/fetcher/tmp/schelp_watch-0.0.1.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - processPackages [schelp-watch]: Remove: archive file [/home/abi/fetcher/tmp/schelp_watch-0.0.2.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - main [MainThread]: End processing [schelp-watch]: success
+[2024-05-24 03:42:19] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-24 03:42:19] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716513772.tar.gz]
+[2024-05-24 03:42:19] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-24 03:42:20] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-24 03:42:20] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240524/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-24 03:42:20] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715929317.tar.gz]
+[2024-05-24 03:42:20] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1716513395.tar.gz]
+[2024-05-24 03:42:20] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-24 03:42:30] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-24 03:42:30] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-24 03:42:30] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-24 03:42:30] INFO root fetch - main [MainThread]: Store serial: [23355347]
