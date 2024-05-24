@@ -2985,3 +2985,63 @@
 [2024-05-24 02:48:31] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1716509308.tar.gz]
 [2024-05-24 02:48:31] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
 [2024-05-24 02:48:31] INFO root fetch - main [MainThread]: Store serial: [23353723]
+[2024-05-24 02:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353723]
+[2024-05-24 02:50:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeKiM
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g3t-etl
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neural-commons
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-App-Install
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kong
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proman-versioning
+[2024-05-24 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-sample-package-fjornelas
+[2024-05-24 02:50:41] INFO root fetch - processPackages [g3t-etl]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-05-24 02:50:41] INFO root fetch - processPackages [neural-commons]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-24 02:50:41] INFO root fetch - processPackages [Flask-App-Install]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-24 02:50:41] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/32/76/ce754bc779c5eb463388d6d3d859d8030ffe935deff79ad257ffa8e9936d/g3t-etl-0.0.1rc8.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [neural-commons]: Downloading https://files.pythonhosted.org/packages/90/16/66e6f86322e20c836e3b749c55355a547e4c5776970d366326f73874e2e2/neural-commons-0.3.3.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [Flask-App-Install]: Downloading https://files.pythonhosted.org/packages/f3/6f/a7fcdc3318260c8d9242c4e2814857e42030eb97752e027bf88c10de95b9/flask_app_install-0.1.4.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [GeKiM]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-24 02:50:41] INFO root fetch - processPackages [proman-versioning]: New version: [0.6.3a0] Old Version: [0.6.2a4]
+[2024-05-24 02:50:41] WARNING root fetch - processPackages [my-sample-package-fjornelas]: Skipping, unable to determine old version
+[2024-05-24 02:50:41] INFO root fetch - main [MainThread]: End processing [my-sample-package-fjornelas] error
+[2024-05-24 02:50:41] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1716509390] Old Version: [4.6.0a1715925031]
+[2024-05-24 02:50:41] INFO root fetch - processPackages [g3t-etl]: Downloading https://files.pythonhosted.org/packages/df/bc/27dfb5d518ea6fd10642d599897af4dba0279179a2fe8f02957b8deab299/g3t-etl-0.0.1rc9.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [Flask-App-Install]: Downloading https://files.pythonhosted.org/packages/c9/e4/f1029db4f2eaeed52cf4abad800ceea00c059f4f5a9879a94d0c9f8f05da/flask_app_install-0.1.5.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [GeKiM]: Downloading https://files.pythonhosted.org/packages/21/5e/ddbbe93c7a732a7aa89b1b37c2831d2c97012e761a95dbe3974510c1118c/gekim-0.2.0.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [proman-versioning]: Downloading https://files.pythonhosted.org/packages/f4/11/f9e6cb97f9e95d04dfaba50cfa4166cfce822727ddb85275f12f1f8b179e/proman_versioning-0.6.2a4.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/f2/0c/5903e26ef0a6e199dc51569bd36c898badcaebfabe960db7b886fb9aba6e/pulumi_kong-4.6.0a1715925031.tar.gz
+[2024-05-24 02:50:41] INFO root fetch - processPackages [g3t-etl]: executing diffoscope
+[2024-05-24 02:50:41] INFO root fetch - processPackages [g3t-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3t-etl-0.0.1rc8.tar.gz tmp/g3t-etl-0.0.1rc9.tar.gz --markdown 20240524/g/g3t-etl/0.0.1rc8-0.0.1rc9/README.md --exclude *.pyd
+[2024-05-24 02:50:41] INFO root fetch - processPackages [Flask-App-Install]: executing diffoscope
+[2024-05-24 02:50:41] INFO root fetch - processPackages [Flask-App-Install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_app_install-0.1.4.tar.gz tmp/flask_app_install-0.1.5.tar.gz --markdown 20240524/F/Flask-App-Install/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-24 02:50:41] INFO root fetch - processPackages [neural-commons]: Downloading https://files.pythonhosted.org/packages/4f/ff/81a216bb6e36314fae771ec7a17f7ea4c16f41fbd684f7db9fceedacbb41/neural-commons-0.3.4.tar.gz
+[2024-05-24 02:50:42] INFO root fetch - processPackages [neural-commons]: executing diffoscope
+[2024-05-24 02:50:42] INFO root fetch - processPackages [neural-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-commons-0.3.3.tar.gz tmp/neural-commons-0.3.4.tar.gz --markdown 20240524/n/neural-commons/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-24 02:50:42] INFO root fetch - processPackages [GeKiM]: Downloading https://files.pythonhosted.org/packages/c2/bb/5c6d1a67b603f04a66fb2cb7efcd8da85f198829ffa7291a22edc44a5e80/gekim-0.3.0.tar.gz
+[2024-05-24 02:50:42] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/cc/c9/767eb9e14686e05ecc5271868363957caaae69625f9a3de1bc6e3946ad5e/pulumi_kong-4.6.0a1716509390.tar.gz
+[2024-05-24 02:50:42] INFO root fetch - processPackages [proman-versioning]: Downloading https://files.pythonhosted.org/packages/4c/9d/dd05e3f4a521669aee8b050cc1b8db225da507a5369642b3d70c946615da/proman_versioning-0.6.3a0.tar.gz
+[2024-05-24 02:50:42] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-24 02:50:42] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715925031.tar.gz tmp/pulumi_kong-4.6.0a1716509390.tar.gz --markdown 20240524/p/pulumi-kong/4.6.0a1715925031-4.6.0a1716509390/README.md --exclude *.pyd
+[2024-05-24 02:50:42] INFO root fetch - processPackages [proman-versioning]: executing diffoscope
+[2024-05-24 02:50:42] INFO root fetch - processPackages [proman-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proman_versioning-0.6.2a4.tar.gz tmp/proman_versioning-0.6.3a0.tar.gz --markdown 20240524/p/proman-versioning/0.6.2a4-0.6.3a0/README.md --exclude *.pyd
+[2024-05-24 02:50:42] INFO root fetch - processPackages [GeKiM]: executing diffoscope
+[2024-05-24 02:50:42] INFO root fetch - processPackages [GeKiM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gekim-0.2.0.tar.gz tmp/gekim-0.3.0.tar.gz --markdown 20240524/G/GeKiM/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-24 02:50:42] INFO root fetch - processPackages [Flask-App-Install]: Remove: archive file [/home/abi/fetcher/tmp/flask_app_install-0.1.4.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - processPackages [Flask-App-Install]: Remove: archive file [/home/abi/fetcher/tmp/flask_app_install-0.1.5.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - main [MainThread]: End processing [Flask-App-Install]: success
+[2024-05-24 02:50:42] INFO root fetch - processPackages [neural-commons]: Remove: archive file [/home/abi/fetcher/tmp/neural-commons-0.3.3.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - processPackages [neural-commons]: Remove: archive file [/home/abi/fetcher/tmp/neural-commons-0.3.4.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - main [MainThread]: End processing [neural-commons]: success
+[2024-05-24 02:50:42] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc8.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - processPackages [g3t-etl]: Remove: archive file [/home/abi/fetcher/tmp/g3t-etl-0.0.1rc9.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - main [MainThread]: End processing [g3t-etl]: success
+[2024-05-24 02:50:42] INFO root fetch - processPackages [GeKiM]: Remove: archive file [/home/abi/fetcher/tmp/gekim-0.2.0.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - processPackages [GeKiM]: Remove: archive file [/home/abi/fetcher/tmp/gekim-0.3.0.tar.gz]
+[2024-05-24 02:50:42] INFO root fetch - main [MainThread]: End processing [GeKiM]: success
+[2024-05-24 02:50:43] INFO root fetch - processPackages [proman-versioning]: Remove: archive file [/home/abi/fetcher/tmp/proman_versioning-0.6.2a4.tar.gz]
+[2024-05-24 02:50:43] INFO root fetch - processPackages [proman-versioning]: Remove: archive file [/home/abi/fetcher/tmp/proman_versioning-0.6.3a0.tar.gz]
+[2024-05-24 02:50:43] INFO root fetch - main [MainThread]: End processing [proman-versioning]: success
+[2024-05-24 02:50:43] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715925031.tar.gz]
+[2024-05-24 02:50:43] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1716509390.tar.gz]
+[2024-05-24 02:50:43] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-24 02:50:43] INFO root fetch - main [MainThread]: Store serial: [23353746]
