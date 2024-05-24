@@ -22397,3 +22397,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-24 13:59:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-24 13:59:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-24 13:59:52] INFO root fetch - main [MainThread]: Store serial: [23361493]
+[2024-05-24 14:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23361493]
+[2024-05-24 14:02:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 14:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swh.objstorage
+[2024-05-24 14:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhbr
+[2024-05-24 14:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spand
+[2024-05-24 14:02:01] INFO root fetch - processPackages [swh.objstorage]: New version: [3.1.0] Old Version: [3.0.2]
+[2024-05-24 14:02:01] INFO root fetch - processPackages [spand]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-24 14:02:01] INFO root fetch - processPackages [pyhbr]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-24 14:02:01] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/2d/cb/a0d2440f44d4d563eed257f650d317e4868d2c7aeabafeb52916eed634d2/swh_objstorage-3.0.2.tar.gz
+[2024-05-24 14:02:01] INFO root fetch - processPackages [spand]: Downloading https://files.pythonhosted.org/packages/2f/be/d89aaa952661650546e2be11b6ca1e1a5a9a3527cb3c74c04cd5654d1e92/spand-0.1.1.tar.gz
+[2024-05-24 14:02:01] INFO root fetch - processPackages [pyhbr]: Downloading https://files.pythonhosted.org/packages/94/1d/bdd526c43d31015e3401249ec7c9eb0f0e2c3bdc80db49f20576a2eb8b1b/pyhbr-0.0.2.tar.gz
+[2024-05-24 14:02:02] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/60/fc/5390177414d721208dc96650bb494b809d567a3e1ea9c7365fa3f8f0328c/swh_objstorage-3.1.0.tar.gz
+[2024-05-24 14:02:02] INFO root fetch - processPackages [spand]: Downloading https://files.pythonhosted.org/packages/d8/f9/f37a7efc3b15429b241f19421d962280b2330a6f3ef6742607943c67cc48/spand-0.1.2.tar.gz
+[2024-05-24 14:02:02] INFO root fetch - processPackages [swh.objstorage]: executing diffoscope
+[2024-05-24 14:02:02] INFO root fetch - processPackages [swh.objstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh_objstorage-3.0.2.tar.gz tmp/swh_objstorage-3.1.0.tar.gz --markdown 20240524/s/swh.objstorage/3.0.2-3.1.0/README.md --exclude *.pyd
+[2024-05-24 14:02:02] INFO root fetch - processPackages [spand]: executing diffoscope
+[2024-05-24 14:02:02] INFO root fetch - processPackages [spand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spand-0.1.1.tar.gz tmp/spand-0.1.2.tar.gz --markdown 20240524/s/spand/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-24 14:02:02] INFO root fetch - processPackages [pyhbr]: Downloading https://files.pythonhosted.org/packages/80/07/23940eacdb74885cbdb24b29ecdcf9b1575e0e4e92e00c87522115f503ed/pyhbr-0.0.3.tar.gz
+[2024-05-24 14:02:02] INFO root fetch - processPackages [spand]: Remove: archive file [/home/abi/fetcher/tmp/spand-0.1.1.tar.gz]
+[2024-05-24 14:02:02] INFO root fetch - processPackages [spand]: Remove: archive file [/home/abi/fetcher/tmp/spand-0.1.2.tar.gz]
+[2024-05-24 14:02:02] INFO root fetch - main [MainThread]: End processing [spand]: success
+[2024-05-24 14:02:02] INFO root fetch - processPackages [pyhbr]: executing diffoscope
+[2024-05-24 14:02:02] INFO root fetch - processPackages [pyhbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhbr-0.0.2.tar.gz tmp/pyhbr-0.0.3.tar.gz --markdown 20240524/p/pyhbr/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-24 14:02:03] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-3.0.2.tar.gz]
+[2024-05-24 14:02:03] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-3.1.0.tar.gz]
+[2024-05-24 14:02:03] INFO root fetch - main [MainThread]: End processing [swh.objstorage]: success
+[2024-05-24 14:02:04] INFO root fetch - processPackages [pyhbr]: Remove: archive file [/home/abi/fetcher/tmp/pyhbr-0.0.2.tar.gz]
+[2024-05-24 14:02:04] INFO root fetch - processPackages [pyhbr]: Remove: archive file [/home/abi/fetcher/tmp/pyhbr-0.0.3.tar.gz]
+[2024-05-24 14:02:04] INFO root fetch - main [MainThread]: End processing [pyhbr]: success
+[2024-05-24 14:02:04] INFO root fetch - main [MainThread]: Store serial: [23361502]
