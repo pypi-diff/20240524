@@ -13506,3 +13506,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 09:06:48] INFO root fetch - processPackages [CosinorPy]: Remove: archive file [/home/abi/fetcher/tmp/CosinorPy-3.1.tar.gz]
 [2024-05-24 09:06:48] INFO root fetch - main [MainThread]: End processing [CosinorPy]: success
 [2024-05-24 09:06:48] INFO root fetch - main [MainThread]: Store serial: [23357731]
+[2024-05-24 09:08:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23357731]
+[2024-05-24 09:08:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: face-cursor
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-rma-sale-mrp
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-rma-sale
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zern
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-rma
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unofficial-ffm-openai
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gandai
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-channel
+[2024-05-24 09:08:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isar
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-05-24 09:08:58] INFO root fetch - processPackages [gandai]: New version: [1.7.52] Old Version: [1.7.51]
+[2024-05-24 09:08:58] WARNING root fetch - processPackages [face-cursor]: Skipping, unable to determine old version
+[2024-05-24 09:08:58] INFO root fetch - main [MainThread]: End processing [face-cursor] error
+[2024-05-24 09:08:58] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-sale-channel]: New version: [16.0.0.2.0.1] Old Version: [16.0.0.2.0]
+[2024-05-24 09:08:58] INFO root fetch - processPackages [zern]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-24 09:08:58] WARNING root fetch - processPackages [unofficial-ffm-openai]: Skipping, unable to determine old version
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma-sale]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-24 09:08:58] INFO root fetch - main [MainThread]: End processing [unofficial-ffm-openai] error
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma]: New version: [17.0.1.1.0.1] Old Version: [17.0.1.1.0]
+[2024-05-24 09:08:58] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-24 09:08:58] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/24/79/6ccc984e85c326c58bcd40d880d3f4d7e9f4a4ee43c9a0ca0a6ddea9223d/gandai-1.7.51.tar.gz
+[2024-05-24 09:08:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/e9/e1/70aa99391bea0088f6e38337e15801cca00bc97084b4f943e07d7bf4748d/odoo_addon_rma_sale_mrp-16.0.1.2.0-py3-none-any.whl
+[2024-05-24 09:08:58] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/1f/da/00162e2371310a89c93444b828c4ef9046e808f78d46d6d744de51a78a29/zern-0.0.8.tar.gz
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/19/f6/c1b7f8c084aebf7f7107b6d93160d03e42f2e4c45b2030c87bb0d7e59df5/odoo_addon_rma_sale-16.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/81/f4/06d61119dd248ccb9955fd37394ce0f5936d5f37c4a078d6aa3b5f4af0fe/odoo_addon_rma-17.0.1.1.0-py3-none-any.whl
+[2024-05-24 09:08:58] INFO root fetch - processPackages [odoo-addon-sale-channel]: Downloading https://files.pythonhosted.org/packages/77/bc/9d1c8d9faec38d03bd802087ee0417764aeaa5d1929218e81392e622835c/odoo_addon_sale_channel-16.0.0.2.0-py3-none-any.whl
+[2024-05-24 09:08:58] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-05-24 09:08:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-24 09:08:59] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/da/42/017419fff952fc76201bfba13a03b58f27d5ebae499d57c25a9b8ff2971f/gandai-1.7.52.tar.gz
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/40/d0/e9f20a0d5a09087f1382092579f7a4aa5487184afaf97ca571b5cf13a4e1/odoo_addon_rma_sale_mrp-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-24 09:08:59] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240524/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/da/2b/b995610e20e170f20bfa70249e2c9ccfa458bda26c1898ebe6ba0844b9e6/zern-0.0.9.tar.gz
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-channel]: Downloading https://files.pythonhosted.org/packages/ce/65/e3577702daae3184fb0414a53d9476404a6f29a84f3f212f0f77c3912135/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl
+[2024-05-24 09:08:59] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.7.51.tar.gz tmp/gandai-1.7.52.tar.gz --markdown 20240524/g/gandai/1.7.51-1.7.52/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/74/1b/3cc89986d65522c4861ac06f2d0d5e705ec302c3e64e8eb3907ccc150f8c/odoo_addon_rma_sale-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma_sale_mrp-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_rma_sale_mrp-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-rma-sale-mrp/16.0.1.2.0-16.0.1.2.0.1/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/4d/49/3f29ed6dc28f8bbca58505843b82302b17b4b6682f55aa17e00ec22e4bda/odoo_addon_rma-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-24 09:08:59] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.8.tar.gz tmp/zern-0.0.9.tar.gz --markdown 20240524/z/zern/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-channel]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_channel-16.0.0.2.0-py3-none-any.whl.zip tmp/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-sale-channel/16.0.0.2.0-16.0.0.2.0.1/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma_sale-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_rma_sale-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-rma-sale/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_rma-17.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240524/o/odoo-addon-rma/17.0.1.1.0-17.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-24 09:08:59] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-05-24 09:08:59] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240524/i/isar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-24 09:09:00] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.51.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [gandai]: Remove: archive file [/home/abi/fetcher/tmp/gandai-1.7.52.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-sale-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_channel-16.0.0.2.0-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-sale-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_channel-16.0.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-channel]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale_mrp-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale_mrp-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma-sale-mrp]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.8.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.9.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma-sale]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2024-05-24 09:09:00] INFO root fetch - main [MainThread]: Store serial: [23357759]
