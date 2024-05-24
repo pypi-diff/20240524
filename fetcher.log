@@ -9769,3 +9769,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-24 05:55:22] INFO root fetch - processPackages [odoo14-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_crm_claim-14.0.1.1.1.dev8-py3-none-any.whl.zip]
 [2024-05-24 05:55:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-crm-claim]: success
 [2024-05-24 05:55:22] INFO root fetch - main [MainThread]: Store serial: [23356103]
+[2024-05-24 05:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23356103]
+[2024-05-24 05:57:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-24 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-interface-synchronization
+[2024-05-24 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espy-contact
+[2024-05-24 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: urllib3-future
+[2024-05-24 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigtools
+[2024-05-24 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudoll
+[2024-05-24 05:57:31] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-24 05:57:31] INFO root fetch - processPackages [netbox-interface-synchronization]: New version: [4.0.3] Old Version: [4.0.1]
+[2024-05-24 05:57:31] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.911] Old Version: [2.7.910]
+[2024-05-24 05:57:31] INFO root fetch - processPackages [cloudoll]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-24 05:57:31] INFO root fetch - processPackages [bigtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-24 05:57:31] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/44/46/26dd683c245355a2fba12fe703bf5af1fc7ad3760808ff69a5fb6607b298/netbox_interface_synchronization-4.0.1.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/d6/3f/ed979eff574e56b201237141e5ced39913331e53fce17848423d20eec228/urllib3_future-2.7.910.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [bigtools]: Downloading https://files.pythonhosted.org/packages/93/80/72bf3afd417460a3cd1c22bf75c27fcb27d74c02e5f5b7685e9a19774220/bigtools-0.1.8.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/bf/e6/ce8d4cce32f7ef4c4563e7e4eb5002a2e8b435d8bcaa9cabae17ab7e66d0/cloudoll-2.2.8.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-24 05:57:32] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240524/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-24 05:57:32] INFO root fetch - processPackages [netbox-interface-synchronization]: Downloading https://files.pythonhosted.org/packages/60/c2/315ff13c7d965b7b14a392703183f6a00c80bfc61e1fd8c0f2c0daf625df/netbox_interface_synchronization-4.0.3.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [bigtools]: Downloading https://files.pythonhosted.org/packages/ad/3c/8ac4e678f13709aa35262af92b8f252205106fda446debb5e1ccfeb732b5/bigtools-0.1.9.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/67/0f/42d77486d28d98401b75b5ba3638db20f35113652db0cebb337f15da0d78/urllib3_future-2.7.911.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [cloudoll]: Downloading https://files.pythonhosted.org/packages/dd/a1/030552f4a6f314f5a262aeec0fae5b22c17e5d56b7486ecbdf0b0361389c/cloudoll-2.2.9.tar.gz
+[2024-05-24 05:57:32] INFO root fetch - processPackages [netbox-interface-synchronization]: executing diffoscope
+[2024-05-24 05:57:32] INFO root fetch - processPackages [netbox-interface-synchronization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_interface_synchronization-4.0.1.tar.gz tmp/netbox_interface_synchronization-4.0.3.tar.gz --markdown 20240524/n/netbox-interface-synchronization/4.0.1-4.0.3/README.md --exclude *.pyd
+[2024-05-24 05:57:32] INFO root fetch - processPackages [cloudoll]: executing diffoscope
+[2024-05-24 05:57:32] INFO root fetch - processPackages [cloudoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudoll-2.2.8.tar.gz tmp/cloudoll-2.2.9.tar.gz --markdown 20240524/c/cloudoll/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-24 05:57:32] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-05-24 05:57:32] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.910.tar.gz tmp/urllib3_future-2.7.911.tar.gz --markdown 20240524/u/urllib3-future/2.7.910-2.7.911/README.md --exclude *.pyd
+[2024-05-24 05:57:32] INFO root fetch - processPackages [bigtools]: executing diffoscope
+[2024-05-24 05:57:32] INFO root fetch - processPackages [bigtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtools-0.1.8.tar.gz tmp/bigtools-0.1.9.tar.gz --markdown 20240524/b/bigtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-24 05:57:32] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-24 05:57:32] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-24 05:57:32] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-24 05:57:33] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.1.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - processPackages [netbox-interface-synchronization]: Remove: archive file [/home/abi/fetcher/tmp/netbox_interface_synchronization-4.0.3.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - main [MainThread]: End processing [netbox-interface-synchronization]: success
+[2024-05-24 05:57:33] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.2.8.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - processPackages [cloudoll]: Remove: archive file [/home/abi/fetcher/tmp/cloudoll-2.2.9.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - main [MainThread]: End processing [cloudoll]: success
+[2024-05-24 05:57:33] INFO root fetch - processPackages [bigtools]: Remove: archive file [/home/abi/fetcher/tmp/bigtools-0.1.8.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - processPackages [bigtools]: Remove: archive file [/home/abi/fetcher/tmp/bigtools-0.1.9.tar.gz]
+[2024-05-24 05:57:33] INFO root fetch - main [MainThread]: End processing [bigtools]: success
+[2024-05-24 05:57:34] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.910.tar.gz]
+[2024-05-24 05:57:34] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.911.tar.gz]
+[2024-05-24 05:57:34] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-05-24 05:57:34] INFO root fetch - main [MainThread]: Store serial: [23356118]
