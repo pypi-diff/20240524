@@ -3237,3 +3237,33 @@
 [2024-05-24 03:01:58] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.24-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-24 03:01:58] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
 [2024-05-24 03:01:58] INFO root fetch - main [MainThread]: Store serial: [23353837]
+[2024-05-24 03:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23353837]
+[2024-05-24 03:04:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-24 03:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanhub-cli
+[2024-05-24 03:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvcx
+[2024-05-24 03:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-24 03:04:06] INFO root fetch - processPackages [dvcx]: New version: [0.83.3] Old Version: [0.83.2]
+[2024-05-24 03:04:06] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-24 03:04:06] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/e4/cc/39751eeb3db22f41c99e03dd06bb8d195fb29bfed063012564a7e20bc31d/dvcx-0.83.2.tar.gz
+[2024-05-24 03:04:06] INFO root fetch - processPackages [beanhub-cli]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-24 03:04:06] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-24 03:04:07] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/e0/fd/8eb182954ff0464c0c16a541c2444fa922ab086fbbc3007a7335ca01f35f/beanhub_cli-1.1.3.tar.gz
+[2024-05-24 03:04:07] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/94/db/b99d1ec7a054a25bbbcf82661df5ef5655e1d6ca723937a9d7c4e6797995/dvcx-0.83.3.tar.gz
+[2024-05-24 03:04:07] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-24 03:04:07] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-24 03:04:07] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.83.2.tar.gz tmp/dvcx-0.83.3.tar.gz --markdown 20240524/d/dvcx/0.83.2-0.83.3/README.md --exclude *.pyd
+[2024-05-24 03:04:07] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-24 03:04:07] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240524/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-24 03:04:07] INFO root fetch - processPackages [beanhub-cli]: Downloading https://files.pythonhosted.org/packages/16/33/69f1d17ded32c57c7d125acbeede5c241a64ddc11113d55cf6e3a4ae547f/beanhub_cli-1.1.4.tar.gz
+[2024-05-24 03:04:07] INFO root fetch - processPackages [beanhub-cli]: executing diffoscope
+[2024-05-24 03:04:07] INFO root fetch - processPackages [beanhub-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240524:/home/abi/fetcher/20240524:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_cli-1.1.3.tar.gz tmp/beanhub_cli-1.1.4.tar.gz --markdown 20240524/b/beanhub-cli/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-24 03:04:08] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-24 03:04:08] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.2.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.3.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-24 03:04:08] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.3.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - processPackages [beanhub-cli]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_cli-1.1.4.tar.gz]
+[2024-05-24 03:04:08] INFO root fetch - main [MainThread]: End processing [beanhub-cli]: success
+[2024-05-24 03:04:08] INFO root fetch - main [MainThread]: Store serial: [23353849]
